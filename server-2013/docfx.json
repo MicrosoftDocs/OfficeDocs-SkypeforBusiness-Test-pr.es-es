@@ -48,10 +48,12 @@
                                          "extendBreadcrumb":  true,
                                          "ROBOTS":  "INDEX,FOLLOW",
                                          "ms.topic":  "conceptual",
+
                                          "author":  "SerdarSoysal",
                                          "ms.author":  "SerdarSoysal",
                                          "ms.prod":  "lync-server-2013",
                                          "ms.technology": "server-general"
+
                                      },
                   "fileMetadata":  {
 
