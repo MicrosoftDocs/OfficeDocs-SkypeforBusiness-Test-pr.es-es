@@ -33,19 +33,8 @@ Here is a list of terms and definitions that you might find useful as you read t
 
 You must use the Lync Server User Provisioning Tool to create users and contacts for load simulation. The Lync Server User Provisioning Tool is installed with the Lync Server Stress and Performance Tool package. Be sure that the package installer (CapacityPlanningTool.msi) has been run on the Front End Server or the Standard Edition server. Start the Lync Server User Provisioning Tool by running the file UserProvisioningTool.exe (located at %InstalledDirectory%LyncStressAndPerfTool\\LyncStress) on the Front End Server or on the Standard Edition server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945592.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>You must be logged on as a member of the Domain Admins security group in order to run UserProvisioningTool.exe. It is necessary to run from this context because UserProvisioningTool.exe will be creating and configuring new Active Directory Domain Services users.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> You must be logged on as a member of the Domain Admins security group in order to run UserProvisioningTool.exe. It is necessary to run from this context because UserProvisioningTool.exe will be creating and configuring new Active Directory Domain Services users.
 
 
 > [!NOTE]

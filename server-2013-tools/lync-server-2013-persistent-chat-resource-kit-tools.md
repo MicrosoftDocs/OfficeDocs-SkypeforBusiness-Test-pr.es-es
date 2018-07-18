@@ -21,18 +21,8 @@ The Lync Server 2013 Chat persistente Resource Kit tools help to make routine t
 
 To install the Microsoft Lync Server 2013, herramientas del kit de recursos, download **PersistentChatReskit.msi**. Run **PersistentChatReskit.msi** to do a simple installation. The .msi installs all the tools in the following path: \\**Program Files\\ Microsoft Lync Server 2013\\Persistent Chat Server Resource Kit**. Tools that are self-contained executables are in this folder. Tools that also have files are in their own subfolders.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945592.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>After installing the Microsoft Lync Server 2013, herramientas del kit de recursos, you must install <strong>PsExec.exe</strong> and copy <strong>PsExec.exe</strong> to the following path: \<strong>Program Files\ Microsoft Lync Server 2013\Persistent Chat Server Resource Kit\ChatStressTool</strong>. If you do not copy <strong>PsExec.exe</strong>, the Chat persistente Stress Tool will throw an error exception, and not perform correctly. Make sure that you meet this prerequisite requirement prior to running the tool. For details about installing <strong>PsExec.exe</strong>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> After installing the Microsoft Lync Server 2013, herramientas del kit de recursos, you must install <strong>PsExec.exe</strong> and copy <strong>PsExec.exe</strong> to the following path: \<strong>Program Files\ Microsoft Lync Server 2013\Persistent Chat Server Resource Kit\ChatStressTool</strong>. If you do not copy <strong>PsExec.exe</strong>, the Chat persistente Stress Tool will throw an error exception, and not perform correctly. Make sure that you meet this prerequisite requirement prior to running the tool. For details about installing <strong>PsExec.exe</strong>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</a>.
 
 
 ## Supported Environments
