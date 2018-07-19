@@ -150,6 +150,6 @@ Use uno de los siguientes procedimientos si desea configurar intervalos de núme
 #### Otros recursos
 
 [New-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUnassignedNumber)  
-[Set-CsUnassignedNumber](set-csunassignednumber.md)  
+[Set-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUnassignedNumber)  
 [Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

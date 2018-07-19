@@ -93,7 +93,7 @@ Para facilitar la conmutación por error, este registro CNAME debe actualizarse 
 #### Conceptos
 
 [Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[Cmdlets de copia de seguridad y de alta disponibilidad](lync-server-2013-backup-and-high-availability-cmdlets.md)  
+[Cmdlets de copia de seguridad y de alta disponibilidad](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)  
 
 #### Otros recursos
 
