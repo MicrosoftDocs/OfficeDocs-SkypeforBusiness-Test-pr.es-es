@@ -127,7 +127,7 @@ Las directivas de archivado por usuario también pueden asignarse mediante Windo
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## Vea también
 

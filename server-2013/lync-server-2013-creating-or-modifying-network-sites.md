@@ -123,8 +123,8 @@ No es posible modificar la tabla **Subredes asociadas** de esta página. La list
 
 #### Otros recursos
 
-[New-CsNetworkSite](new-csnetworksite.md)  
-[Set-CsNetworkSite](set-csnetworksite.md)  
-[Remove-CsNetworkSite](remove-csnetworksite.md)  
-[Get-CsNetworkSite](get-csnetworksite.md)
+[New-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSite)  
+[Set-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSite)  
+[Remove-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSite)  
+[Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite)
 

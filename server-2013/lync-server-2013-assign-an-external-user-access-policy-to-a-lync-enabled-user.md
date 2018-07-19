@@ -65,5 +65,5 @@ Las directivas de acceso externo por usuario se pueden asignar con el Windows Po
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md).
+Si desea más información, consulte el tema de ayuda relativo al cmdlet [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy).
 

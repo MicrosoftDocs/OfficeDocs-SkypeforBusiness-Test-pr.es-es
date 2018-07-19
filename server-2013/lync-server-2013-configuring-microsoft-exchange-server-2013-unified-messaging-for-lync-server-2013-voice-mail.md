@@ -67,7 +67,7 @@ Una vez que haya habilitado su buzón de correo, el usuario kenmyer@litwareinc.c
     
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-Si tiene un segundo usuario que ha sido habilitado para la mensajería unificada, puede utilizar el cmdlet [Test-CsExUMVoiceMail](test-csexumvoicemail.md) para verificar que este segundo usuario pueda dejar un mensaje de correo de voz para el primer usuario.
+Si tiene un segundo usuario que ha sido habilitado para la mensajería unificada, puede utilizar el cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMVoiceMail) para verificar que este segundo usuario pueda dejar un mensaje de correo de voz para el primer usuario.
 
     $credential = Get-Credential "litwareinc\pilar"
     

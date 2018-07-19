@@ -43,7 +43,7 @@ También puede ver los valores de configuración de las notificaciones de inserc
         EnableApplePushNotificationService     : False
         EnableMicrosoftPushNotificationService : False
 
-Para más información, consulte el tema de Ayuda del cmdlet [Get-CsPushNotificationConfiguration](get-cspushnotificationconfiguration.md).
+Para más información, consulte el tema de Ayuda del cmdlet [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPushNotificationConfiguration).
 
 ## Vea también
 

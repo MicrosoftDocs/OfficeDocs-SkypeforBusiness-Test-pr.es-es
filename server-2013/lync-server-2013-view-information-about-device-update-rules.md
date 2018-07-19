@@ -67,5 +67,5 @@ También se puede consultar información detallada sobre cualquier regla de actu
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"
 
-Para más información detallada, vea el tema de ayuda relativo al cmdlet [Get-CsDeviceUpdateRule](get-csdeviceupdaterule.md).
+Para más información detallada, vea el tema de ayuda relativo al cmdlet [Get-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateRule).
 

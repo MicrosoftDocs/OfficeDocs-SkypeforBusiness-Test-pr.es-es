@@ -127,7 +127,7 @@ Puede asignar directivas de versión por usuario usando el cmdlet Grant-CsClient
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md).
+Si desea más información, consulte el tema de ayuda relativo al cmdlet [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy).
 
 ## Vea también
 

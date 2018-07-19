@@ -59,7 +59,7 @@ Puede definir la configuración de retención de CDR con Windows PowerShell y el
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
 
-Para más información, consulte el tema de Ayuda del cmdlet [Set-CsCdrConfiguration](set-cscdrconfiguration.md).
+Para más información, consulte el tema de Ayuda del cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration).
 
 ## Vea también
 

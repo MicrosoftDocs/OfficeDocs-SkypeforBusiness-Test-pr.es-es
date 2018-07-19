@@ -3998,7 +3998,7 @@
         href: lync-server-2013-managing-certificates-for-operational-processes.md
         items:
         - name: Prueba de certificados de OAuth y audio y vídeo en Lync Server 2013 utilizando -Roll en Set-CsCertificate
-          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md
+          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate
       - name: Administración de la autenticación servidor a servidor (Oauth) y las aplicaciones de socio en Lync Server 2013
         href: lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
         items:
@@ -4188,7 +4188,7 @@
         - name: Cmdlets de Windows PowerShell para la administración de la libreta de direcciones
           href: lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
           items:
-          - name: New-CsAddressBookConfiguration para la administración de la libreta de direcciones
+          - name: new-csaddressbookconfiguration para la administración de la libreta de direcciones
             href: lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md
           - name: Set-CsAddressBookConfiguration para la administración de la libreta de direcciones
             href: lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
@@ -4208,7 +4208,7 @@
             href: lync-server-2013-set-csclientpolicy-for-address-book-management.md
           - name: Get-CsService para la administración de la libreta de direcciones
             href: lync-server-2013-get-csservice-for-address-book-management.md
-          - name: New-CsWebServiceConfiguration para la administración de la libreta de direcciones
+          - name: new-cswebserviceconfiguration para la administración de la libreta de direcciones
             href: lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md
           - name: Get-CsWebServiceConfiguration para la administración de la libreta de direcciones
             href: lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
@@ -4833,9 +4833,9 @@
       - name: Cambios realizados por la preparación del dominio en Lync Server 2013
         href: lync-server-2013-changes-made-by-domain-preparation.md
       - name: Cambios realizados por Grant-CsSetupPermission en Lync Server 2013
-        href: lync-server-2013-changes-made-by-grant-cssetuppermission.md
+        href: lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission
       - name: Cambios realizados por Grant-CsOUPermission en Lync Server 2013
-        href: lync-server-2013-changes-made-by-grant-csoupermission.md
+        href: lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission
   - name: Shell de administración de Lync Server
     href: https://docs.microsoft.com/en-us/powershell/module/skype/
   - name: Glosario

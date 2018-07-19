@@ -129,5 +129,5 @@ Puede asignar directivas de ubicación por usuario mediante el cmdlet Grant-CsLo
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para más información, vea el tema de ayuda del cmdlet [Grant-CsLocationPolicy](grant-cslocationpolicy.md).
+Para más información, vea el tema de ayuda del cmdlet [Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy).
 

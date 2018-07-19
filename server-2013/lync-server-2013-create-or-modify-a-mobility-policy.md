@@ -79,7 +79,7 @@ Las directivas de movilidad también se pueden crear (en el ámbito de sitio y e
     
         New-CsMobilityPolicy "site:Redmond" -EnableMobility $False -EnableOutsideVoice $False
 
-Para obtener más información, consulte el tema de ayuda relativo a los cmdlets [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy) y [Set-CsMobilityPolicy](set-csmobilitypolicy.md).
+Para obtener más información, consulte el tema de ayuda relativo a los cmdlets [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy) y [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy).
 
 ## Vea también
 

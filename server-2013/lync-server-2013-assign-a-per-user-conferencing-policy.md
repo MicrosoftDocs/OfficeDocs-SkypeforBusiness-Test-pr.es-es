@@ -129,7 +129,7 @@ Las directivas de conferencia por usuario también se pueden asignar con Lync Se
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para más información, vea el tema de ayuda sobre el cmdlet [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md).
+Para más información, vea el tema de ayuda sobre el cmdlet [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy).
 
 ## Vea también
 

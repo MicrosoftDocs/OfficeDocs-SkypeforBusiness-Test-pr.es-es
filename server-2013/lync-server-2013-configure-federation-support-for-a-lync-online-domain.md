@@ -57,5 +57,5 @@ Para federar con un cliente de Microsoft Lync Online 2010, se deben seguir estos
     
       - **IsLocal** indica si el servidor proxy utilizado por el proveedor de hospedaje está contenido dentro de su topología de Lync Server.
     
-    Para obtener información sobre el uso de este cmdlet, vea [New-CsHostingProvider](new-cshostingprovider.md) en la documentación sobre operaciones.
+    Para obtener información sobre el uso de este cmdlet, vea [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider) en la documentación sobre operaciones.
 

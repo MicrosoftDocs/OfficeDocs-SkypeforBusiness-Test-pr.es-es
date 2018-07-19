@@ -74,7 +74,7 @@ En la mayoría de las implementaciones de Microsoft Lync Server 2013 que impleme
 #### Otros recursos
 
 [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)  
-[Set-CsNetworkSubnet](set-csnetworksubnet.md)  
-[Remove-CsNetworkSubnet](remove-csnetworksubnet.md)  
-[Get-CsNetworkSubnet](get-csnetworksubnet.md)
+[Set-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSubnet)  
+[Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)  
+[Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet)
 

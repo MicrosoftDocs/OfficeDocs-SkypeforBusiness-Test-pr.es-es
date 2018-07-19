@@ -127,7 +127,7 @@ Puede asignar directivas de PIN por usuario usando el Shell de administración d
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para más información, consulte [Grant-CsPinPolicy](grant-cspinpolicy.md).
+Para más información, consulte [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy).
 
 ## Vea también
 

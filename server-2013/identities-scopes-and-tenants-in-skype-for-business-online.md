@@ -67,7 +67,7 @@ También puede tener dos usuarios: Ken Myer y Pilar Ackerman. A Ken Myer se le h
 
 Como puede ver, Ken Myer se puede comunicar con los proveedores de mensajería instantánea pública. Esto se debe a que la configuración de la directiva por usuario que tiene asignada él invalida la configuración de la directiva global. Pilar Ackerman no se puede comunicar con los proveedores de mensajería instantánea pública porque a ella la administra la directiva global, que prohíbe las comunicaciones de este tipo.
 
-Las directivas por usuario las tiene que crear el equipo de soporte técnico de Office 365. Una vez creadas, las podrá asignar a los usuarios usando el cmdlet **Grant-Cs** apropiado (por ejemplo [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)). Estas directivas se reconocen fácilmente porque la identidad de la directiva siempre empieza por el **prefijo** "tag" (etiqueta). Por ejemplo:
+Las directivas por usuario las tiene que crear el equipo de soporte técnico de Office 365. Una vez creadas, las podrá asignar a los usuarios usando el cmdlet **Grant-Cs** apropiado (por ejemplo [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)). Estas directivas se reconocen fácilmente porque la identidad de la directiva siempre empieza por el **prefijo** "tag" (etiqueta). Por ejemplo:
 
     Identity : tag:AllowPublicIMCommunication
 

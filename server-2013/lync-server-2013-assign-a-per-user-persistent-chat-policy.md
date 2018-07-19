@@ -121,7 +121,7 @@ Las directivas de chat persistente por usuario se pueden asignar también con Ly
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para más información, consulte el tema de ayuda del cmdlet [Grant-CsPersistentChatPolicy](grant-cspersistentchatpolicy.md).
+Para más información, consulte el tema de ayuda del cmdlet [Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy).
 
 ## Vea también
 

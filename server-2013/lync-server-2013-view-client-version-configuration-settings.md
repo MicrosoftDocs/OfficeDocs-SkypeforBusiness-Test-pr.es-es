@@ -50,5 +50,5 @@ Se puede usar el cmdlet **Get-CsClientVersionConfiguration** para ver las config
         DefaultURL    :
         Enabled       : True
 
-Para más información detallada, vea el tema de ayuda relativo al cmdlet [Get-CsClientVersionConfiguration](get-csclientversionconfiguration.md).
+Para más información detallada, vea el tema de ayuda relativo al cmdlet [Get-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionConfiguration).
 

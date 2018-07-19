@@ -39,5 +39,5 @@ La directiva de acceso externo global puede restablecerse mediante el Windows Po
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md).
+Si desea más información, consulte el tema de ayuda relativo al cmdlet [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy).
 

@@ -87,7 +87,7 @@ Los valores de configuración de archivado se pueden crear también con Windows 
     
         New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 
-Para más información, vea el tema de Ayuda del cdmlet [New-CsArchivingConfiguration](new-csarchivingconfiguration.md).
+Para más información, vea el tema de Ayuda del cdmlet [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration).
 
 ## Vea también
 

@@ -55,7 +55,7 @@ Puede ver la información de sitio de red usando el cmdlet Get-CsNetworkSite. Es
         BWPolicyProfileID :
         LocationPolicy    :
 
-Para obtener más información, vea el tema de la Ayuda para el cmdlet [Get-CsNetworkSite](get-csnetworksite.md).
+Para obtener más información, vea el tema de la Ayuda para el cmdlet [Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite).
 
 ## Vea también
 

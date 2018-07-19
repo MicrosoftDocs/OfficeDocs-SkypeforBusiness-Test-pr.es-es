@@ -60,7 +60,7 @@ Al crear parámetros de configuración del tronco SBP con Panel de control de Ly
 <tr class="even">
 <td><p>Nivel de compatibilidad de cifrado</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Indica el nivel de compatibilidad para proteger el tráfico de medios entre el servidor de mediación y la puerta de enlace RTC, el sistema IP-PBX o el controlador SBC en el proveedor de servicios. En los casos de desvío de medios, este valor debe ser compatible con el valor de EncryptionLevel en la configuración de medios. La configuración de medios se define mediante los cmdlets <a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> y <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a>.</p>
+<td><p>Indica el nivel de compatibilidad para proteger el tráfico de medios entre el servidor de mediación y la puerta de enlace RTC, el sistema IP-PBX o el controlador SBC en el proveedor de servicios. En los casos de desvío de medios, este valor debe ser compatible con el valor de EncryptionLevel en la configuración de medios. La configuración de medios se define mediante los cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
 <p>Los valores permitidos son:</p>
 <ul>
 <li><p>- Required: debe usarse el cifrado SRTP.</p></li>
@@ -147,7 +147,7 @@ Al crear parámetros de configuración del tronco SBP con Panel de control de Ly
 
 
 > [!NOTE]
-> Los cmdlets CsTrunkConfiguration de Lync Server admiten propiedades adicionales que no aparecen en el Panel de control de Lync Server. Para más información, vea el tema de ayuda del cmdlet <A href="new-cstrunkconfiguration.md">New-CsTrunkConfiguration</A>.
+> Los cmdlets CsTrunkConfiguration de Lync Server admiten propiedades adicionales que no aparecen en el Panel de control de Lync Server. Para más información, vea el tema de ayuda del cmdlet <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</A>.
 
 
 

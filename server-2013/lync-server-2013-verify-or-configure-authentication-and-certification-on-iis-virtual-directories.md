@@ -107,5 +107,5 @@ Realice el siguiente procedimiento para configurar la certificación en los dire
 #### Otros recursos
 
 [Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)  
-[Set-CsCertificate](set-cscertificate.md)
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

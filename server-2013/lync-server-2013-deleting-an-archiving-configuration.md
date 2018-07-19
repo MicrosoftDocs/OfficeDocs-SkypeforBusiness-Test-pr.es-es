@@ -51,7 +51,7 @@ Las opciones de configuración de archivado también se pueden eliminar con Wind
     
         Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 
-Para más información, vea el tema de ayuda del cmdlet [Remove-CsArchivingConfiguration](remove-csarchivingconfiguration.md).
+Para más información, vea el tema de ayuda del cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingConfiguration).
 
 ## Vea también
 

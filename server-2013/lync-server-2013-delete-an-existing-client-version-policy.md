@@ -49,5 +49,5 @@ Se puede usar el cmdlet **Remove-CsClientVersionPolicy** para eliminar directiva
     
         Get-CsClientVersionPolicy | Where-Object {$_.Rules -notmatch "UserAgent=WPLync" | Remove-CsClientVersionPolicy
 
-Para más información detallada, vea el tema de ayuda relativo al cmdlet [Remove-CsClientVersionPolicy](remove-csclientversionpolicy.md).
+Para más información detallada, vea el tema de ayuda relativo al cmdlet [Remove-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClientVersionPolicy).
 

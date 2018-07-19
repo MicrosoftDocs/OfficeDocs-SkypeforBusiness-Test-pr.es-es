@@ -21,7 +21,7 @@ Al instalar Microsoft Lync Server 2013, se crea un único conjunto global de opc
 
 Tenga en cuenta que también puede "eliminar" la configuración global. Sin embargo, las configuraciones globales no se quitan realmente, sino que todas las propiedades de ese conjunto se restablecen a los valores predeterminados. Por ejemplo, de manera predeterminada, la depuración está habilitada en un conjunto de configuraciones de QoE. Supongamos que modifica el conjunto global y que deshabilita la depuración. Si después elimina la configuración global, todas las propiedades se restablecerán a los valores predeterminados y, en este caso, eso significa habilitar de nuevo la depuración.
 
-Puede quitar la configuración de QoE usando Panel de control de Lync Server o mediante el cmdlet [Remove-CsQoEConfiguration](remove-csqoeconfiguration.md).
+Puede quitar la configuración de QoE usando Panel de control de Lync Server o mediante el cmdlet [Remove-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsQoEConfiguration).
 
 ## Para eliminar la configuración de QoE usando Panel de control de Lync Server
 
@@ -57,5 +57,5 @@ También puede eliminar al configuración de QoE usando Shell de administración
     
         Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
 
-Para obtener información detallada, vea [Remove-CsQoEConfiguration](remove-csqoeconfiguration.md).
+Para obtener información detallada, vea [Remove-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsQoEConfiguration).
 

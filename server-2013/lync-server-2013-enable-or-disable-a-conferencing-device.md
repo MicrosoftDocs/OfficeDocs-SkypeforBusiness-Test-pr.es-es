@@ -36,5 +36,5 @@ Habilite y deshabilite un dispositivo de conferencia mediante los cmdlets **Enab
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
-Para ver detalles, consulte los temas de ayuda relativos a los cmdlets [Enable-CsMeetingRoom](enable-csmeetingroom.md) y [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom).
+Para ver detalles, consulte los temas de ayuda relativos a los cmdlets [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom) y [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom).
 

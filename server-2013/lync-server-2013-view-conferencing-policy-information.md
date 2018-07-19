@@ -82,5 +82,5 @@ Las directivas de conferencia también se pueden ver con Lync Server PowerShell 
         TotalReceiveVideoBitRateKb                : 6000
         EnableMultiViewJoin                       : True
 
-Para más información, vea el tema de la ayuda del cmdlet [Get-CsConferencingPolicy](get-csconferencingpolicy.md).
+Para más información, vea el tema de la ayuda del cmdlet [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy).
 

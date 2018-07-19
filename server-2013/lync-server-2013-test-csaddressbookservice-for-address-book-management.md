@@ -29,5 +29,5 @@ Por ejemplo:
 
 #### Otros recursos
 
-[Test-CsAddressBookService](test-csaddressbookservice.md)
+[Test-CsAddressBookService](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookService)
 

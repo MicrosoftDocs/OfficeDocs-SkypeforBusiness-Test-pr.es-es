@@ -56,5 +56,5 @@ Las reglas de directiva de versión de cliente se pueden ver con Shell de admini
         Enabled           : True
         CompareOp         : LEQ
 
-Para información, vea el tema de ayuda del cmdlet [Get-CsClientVersionPolicyRule](get-csclientversionpolicyrule.md).
+Para información, vea el tema de ayuda del cmdlet [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicyRule).
 

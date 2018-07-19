@@ -265,7 +265,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
     
 
     > [!NOTE]
-    > Para usar un archivo de audio para el mensaje, ejecute el cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Para más información, vea <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>.
+    > Para usar un archivo de audio para el mensaje, ejecute el cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Para más información, vea <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
 
 
@@ -273,7 +273,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    Para más información sobre la creación de la cola, vea [New-CsRgsQueue](new-csrgsqueue.md).
+    Para más información sobre la creación de la cola, vea [New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue).
 
 5.  Defina la acción que se ejecutará cuando un flujo de trabajo se abra en horas de trabajo y guárdela en una variable. En la línea de comandos, ejecute:
     
@@ -290,7 +290,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
 
 6.  Para definir horas laborables y vacaciones, créelas antes de crear o modificar el flujo de trabajo. Para más información, vea [(Opcional) Definir horarios laborales de grupos de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md) y [(Opcional) Definición de conjuntos de días festivos para grupos de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md).
 
-7.  Si desea tener mensajes para las llamadas que se reciben en un horario no laborable o en época de vacaciones, use el cmdlet **New-CsRgsPrompt** para definir el mensaje y el cmdlet **New-CsRgsCallAction** para definir la acción que se ejecutará después del mensaje. Para más información, vea [New-CsRgsPrompt](new-csrgsprompt.md) y [New-CsRgsCallAction](new-csrgscallaction.md).
+7.  Si desea tener mensajes para las llamadas que se reciben en un horario no laborable o en época de vacaciones, use el cmdlet **New-CsRgsPrompt** para definir el mensaje y el cmdlet **New-CsRgsCallAction** para definir la acción que se ejecutará después del mensaje. Para más información, vea [New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt) y [New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction).
 
 8.  Recupere el nombre del servicio del Servicio de grupo de respuesta de Lync Server y asígnele una variable. En la línea de comandos, ejecute:
     
@@ -319,7 +319,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
     
 
     > [!NOTE]
-    > Para más información sobre los parámetros opcionales adicionales, vea <A href="new-csrgsworkflow.md">New-CsRgsWorkflow</A> o <A href="set-csrgsworkflow.md">Set-CsRgsWorkflow</A>
+    > Para más información sobre los parámetros opcionales adicionales, vea <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A> o <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A>
 
 
 
@@ -335,8 +335,8 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
 
 #### Otros recursos
 
-[New-CsRgsWorkflow](new-csrgsworkflow.md)  
-[Set-CsRgsWorkflow](set-csrgsworkflow.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)
+[New-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow)  
+[Set-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)
 

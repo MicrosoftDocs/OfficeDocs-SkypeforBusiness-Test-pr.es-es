@@ -79,7 +79,7 @@ Los planes de marcado por usuario también pueden asignarse mediante el uso de W
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsDialPlan](grant-csdialplan.md).
+Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan).
 
 ## Vea también
 

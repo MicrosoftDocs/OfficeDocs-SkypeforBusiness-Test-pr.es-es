@@ -88,7 +88,7 @@ Puede ver la información del PIN del usuario con el cmdlet Get-CsClientPinInfo.
         LastPinChangeTime : 9/25/2012 1:35:03 PM
         PinExpirationTime :
 
-Para más información, vea el tema de ayuda del cmdlet [Get-CsConferenceDisclaimer](get-csconferencedisclaimer.md).
+Para más información, vea el tema de ayuda del cmdlet [Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer).
 
 ## Vea también
 

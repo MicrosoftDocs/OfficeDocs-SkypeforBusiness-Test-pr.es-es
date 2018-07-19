@@ -83,7 +83,7 @@ Para más información sobre cómo deshabilitar BranchCache, vea la Guía de imp
 
 ## Comprobar la implementación de Lync Web App
 
-Puede usar el cmdlet Test-CsUcwaConference para comprobar que un par de usuarios de prueba puedan participar de una conferencia con la API web de comunicaciones unificadas (UCWA). Para más información sobre este cmdlet, vea [Test-CsUcwaConference](test-csucwaconference.md) en la documentación del Shell de administración de Lync Server.
+Puede usar el cmdlet Test-CsUcwaConference para comprobar que un par de usuarios de prueba puedan participar de una conferencia con la API web de comunicaciones unificadas (UCWA). Para más información sobre este cmdlet, vea [Test-CsUcwaConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference) en la documentación del Shell de administración de Lync Server.
 
 ## Solucionar problemas con la instalación del complemento en Windows Server 2008 R2
 

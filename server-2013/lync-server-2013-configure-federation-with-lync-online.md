@@ -55,5 +55,5 @@ Si desea más información sobre el uso del módulo de PowerShell Skype Empresar
 
 #### Otros recursos
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

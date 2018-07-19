@@ -53,7 +53,7 @@ Las reglas de actualización de dispositivos también se pueden quitar con Windo
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Remove-CsDeviceUpdateRule
 
-Para más información, consulte el tema de ayuda del cmdlet [Remove-CsDeviceUpdateRule](remove-csdeviceupdaterule.md).
+Para más información, consulte el tema de ayuda del cmdlet [Remove-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDeviceUpdateRule).
 
 ## Vea también
 

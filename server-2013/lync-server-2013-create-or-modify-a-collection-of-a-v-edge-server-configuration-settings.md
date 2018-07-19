@@ -25,7 +25,7 @@ Al instalar Lync Server, se crea una colección global de valores de configuraci
 
   - Se usarán los valores del ámbito global solo si no hay valores del servicio configurados en el servidor individual y si no hay ninguna valores del sitio para el sitio donde se encuentra el servidor.
 
-Los valores pueden modificarse después con el cmdlet Set-CsAVEdgeConfiguration. Para más información, vea los temas de ayuda de los cmdlets de [New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md) y [Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md).
+Los valores pueden modificarse después con el cmdlet Set-CsAVEdgeConfiguration. Para más información, vea los temas de ayuda de los cmdlets de [New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration) y [Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration).
 
 ## Creación de nuevos valores de configuración de servicio perimetral A/V en el ámbito del sitio
 
@@ -61,6 +61,6 @@ Los valores pueden modificarse después con el cmdlet Set-CsAVEdgeConfiguration.
 #### Otros recursos
 
 [Servidores perimetrales de audio y vídeo (A/V) en Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md)  
-[Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md)
+[New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration)  
+[Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration)
 

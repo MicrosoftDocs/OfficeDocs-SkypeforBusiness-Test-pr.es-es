@@ -61,7 +61,7 @@ La configuración del horario comercial define cuándo el flujo de trabajo está
 
 3.  Para cada intervalo único de horas que desee definir, ejecute el comando siguiente:
     
-        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = new-csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     Para crear la colección de horarios comerciales que usa los intervalos definidos, ejecute el comando siguiente:
     
@@ -83,6 +83,6 @@ La configuración del horario comercial define cuándo el flujo de trabajo está
 
 #### Otros recursos
 
-[New-CsRgsTimeRange](new-csrgstimerange.md)  
-[New-CsRgsHoursOfBusiness](new-csrgshoursofbusiness.md)
+[new-csrgstimerange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 

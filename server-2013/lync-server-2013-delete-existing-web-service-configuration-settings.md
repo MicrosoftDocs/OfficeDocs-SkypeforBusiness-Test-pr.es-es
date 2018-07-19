@@ -53,7 +53,7 @@ También puede ver los valores de configuración de los servicios web a través 
     
         Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
 
-Para más información, consulte [Remove-CsWebServiceConfiguration](remove-cswebserviceconfiguration.md).
+Para más información, consulte [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration).
 
 ## Vea también
 

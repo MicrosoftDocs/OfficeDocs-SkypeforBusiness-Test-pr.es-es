@@ -121,7 +121,7 @@ Puede asignar directivas de movilidad por usuario usando el Shell de administrac
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para más información, consulte [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md).
+Para más información, consulte [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy).
 
 ## Vea también
 

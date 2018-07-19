@@ -55,7 +55,7 @@ Las directivas de correo de voz definen dos atributos que la aplicación de enru
 
 
 > [!NOTE]
-> El administrador de arrendatarios del servicio de mensajería unificada hospedada de Exchange proporcionará los valores necesarios para la configuración de los atributos Destination y Organization. Para configurar su directiva, ejecute el cmdlet New-CsHostedVoicemailPolicy o use el cmdlet Set-CsHostedVoicemailPolicy para modificar una que ya exista (por ejemplo, la directiva global).
+> El administrador de arrendatarios del servicio de mensajería unificada hospedada de Exchange proporcionará los valores necesarios para la configuración de los atributos Destination y Organization. Para configurar su directiva, ejecute el cmdlet New-CsHostedVoicemailPolicy o use el cmdlet set-cshostedvoicemailpolicy para modificar una que ya exista (por ejemplo, la directiva global).
 
 
 
@@ -63,7 +63,7 @@ Para más información sobre la administración de directivas de correo de voz h
 
   - New-CsHostedVoicemailPolicy
 
-  - Set-CsHostedVoicemailPolicy
+  - set-cshostedvoicemailpolicy
 
   - Get-CsHostedVoicemailPolicy
 

@@ -51,7 +51,7 @@ También puede quitar cuentas de usuario utilizando el cmdlet Disable-CsUser. Es
     
     Una vez que se haya ejecutado este comando, no hay manera de volver a habilitar la cuenta y las configuraciones previas. En su lugar, necesitará utilizar el cmdlet Enable-CsUser para crear una cuenta nueva para Ken Myer.
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Disable-CsUser](disable-csuser.md).
+Para obtener más información, consulte el tema de ayuda del cmdlet [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser).
 
 ## Vea también
 

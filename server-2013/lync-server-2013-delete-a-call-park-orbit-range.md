@@ -47,7 +47,7 @@ Use uno de los siguientes procedimientos para eliminar un Estacionamiento de lla
     
 
     > [!NOTE]
-    > Para obtener más información acerca de las opciones, vea <A href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</A>.
+    > Para obtener más información acerca de las opciones, vea <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
 
 
@@ -59,6 +59,6 @@ Use uno de los siguientes procedimientos para eliminar un Estacionamiento de lla
 
 #### Otros recursos
 
-[Remove-CsCallParkOrbit](remove-cscallparkorbit.md)  
-[Get-CsCallParkOrbit](get-cscallparkorbit.md)
+[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)
 

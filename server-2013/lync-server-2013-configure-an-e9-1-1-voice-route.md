@@ -19,7 +19,7 @@ Para implementar E9-1-1, deberá configurar primero una ruta de voz para llamada
 
 
 > [!NOTE]
-> Para incluir información de ubicación en una solicitud E9-1-1 INVITE, deberá configurar primero el tronco&nbsp;SIP que se conecta al proveedor de servicios E9-1-1 para enrutar las llamadas de emergencia por la puerta de enlace. Para ello, establezca la marca EnablePIDFLOSupport del cmdlet <STRONG>Set-CsTrunkConfiguration</STRONG> en True (el valor predeterminado de EnablePIDFLOSupport es False). Por ejemplo: <CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>No es necesario habilitar las ubicaciones de recepción para puertas de enlace de Red telefónica conmutada (RTC) de conmutación por error o para puertas de enlace de número de identificación de ubicación de emergencia (ELIN).
+> Para incluir información de ubicación en una solicitud E9-1-1 INVITE, deberá configurar primero el tronco&nbsp;SIP que se conecta al proveedor de servicios E9-1-1 para enrutar las llamadas de emergencia por la puerta de enlace. Para ello, establezca la marca EnablePIDFLOSupport del cmdlet <STRONG>set-cstrunkconfiguration</STRONG> en True (el valor predeterminado de EnablePIDFLOSupport es False). Por ejemplo: <CODE>set-cstrunkconfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>No es necesario habilitar las ubicaciones de recepción para puertas de enlace de Red telefónica conmutada (RTC) de conmutación por error o para puertas de enlace de número de identificación de ubicación de emergencia (ELIN).
 
 
 

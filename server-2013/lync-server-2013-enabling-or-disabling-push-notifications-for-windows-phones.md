@@ -61,7 +61,7 @@ Puede habilitar o deshabilitar las notificaciones de inserción de Windows Phone
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $False
 
-Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md).
+Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPushNotificationConfiguration).
 
 ## Vea también
 

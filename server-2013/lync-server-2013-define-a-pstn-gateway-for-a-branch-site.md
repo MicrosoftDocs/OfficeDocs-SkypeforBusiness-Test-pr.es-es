@@ -66,7 +66,7 @@ Realice este procedimiento en el sitio central, que contiene por lo menos un Gru
 </thead>
 <tbody>
 <tr class="odd">
-<td>Use el cmdlet Set- <strong>Set-CsPstnGateway</strong> para modificar las propiedades de una puerta de enlace RTC. Para ver más detalles, consulte <a href="set-cspstngateway.md">Set-CsPstnGateway</a> en la Ayuda del Shell de administración de Lync Server.</td>
+<td>Use el cmdlet Set- <strong>Set-CsPstnGateway</strong> para modificar las propiedades de una puerta de enlace RTC. Para ver más detalles, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</a> en la Ayuda del Shell de administración de Lync Server.</td>
 </tr>
 </tbody>
 </table>

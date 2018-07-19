@@ -124,5 +124,5 @@ Para restaurar el grupo de servidores a su estado normal, ejecute el comando Win
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 
-Consulte el tema de ayuda del cmdlet [Set-CsPersistentChatState](set-cspersistentchatstate.md) para obtener más información.
+Consulte el tema de ayuda del cmdlet [Set-CsPersistentChatState](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPersistentChatState) para obtener más información.
 
