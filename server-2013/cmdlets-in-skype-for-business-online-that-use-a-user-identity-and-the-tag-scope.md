@@ -59,5 +59,5 @@ Los cmdlets siguientes usan tanto una identidad de usuario como el ámbito de et
 #### Conceptos
 
 [Identidades, ámbitos e inquilinos](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Los cmdlets de Lync Online](the-skype-for-business-online-cmdlets.md)
+[Los cmdlets de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
