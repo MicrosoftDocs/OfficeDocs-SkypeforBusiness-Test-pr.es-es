@@ -21,7 +21,7 @@ Al instalar Microsoft Lync Server 2013, se crea automáticamente una colección 
 
 Recuerde que también puede "eliminar" la configuración global. Sin embargo, esta no se quitará realmente. En su lugar, todas las propiedades de dicha colección se restablecerán a sus valores predeterminados. Por ejemplo, la purga está habilitada de forma predeterminada en una colección de opciones de configuración de CDR. Supongamos que modifica la colección global y la purga se deshabilita. Si más adelante elimina la configuración global, todas las propiedades se restablecerán a sus valores predeterminados. En este caso, eso significa que la purga volverá a estar habilitada.
 
-Para quitar las opciones de configuración de CDR, puede usar el Panel de control de Lync Server o el cmdlet [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Para quitar las opciones de configuración de CDR, puede usar el Panel de control de Lync Server o el cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 
 ## Para quitar las opciones de configuración de CDR mediante el Panel de control de Lync Server
 
@@ -55,5 +55,5 @@ Puede eliminar las opciones de configuración del registro detallado de llamadas
     
         Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
 
-Para obtener más información, consulte el tema sobre el cmdlet [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Para obtener más información, consulte el tema sobre el cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 

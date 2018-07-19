@@ -36,7 +36,7 @@ Las reglas de actualización de dispositivos solo se pueden importar con Windows
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
-Para más información, consulte el tema de ayuda del cmdlet [Import-CsDeviceUpdate](import-csdeviceupdate.md).
+Para más información, consulte el tema de ayuda del cmdlet [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate).
 
 ## Vea también
 

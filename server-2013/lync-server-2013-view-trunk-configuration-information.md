@@ -68,5 +68,5 @@ Las opciones de configuración de los troncos SIP también se pueden ver usando 
         ForwardPAI                                : False
         EnableFastFailoverTimer                   : True
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Get-CsTrunkConfiguration](get-cstrunkconfiguration.md).
+Si desea más información, consulte el tema de ayuda relativo al cmdlet [Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration).
 

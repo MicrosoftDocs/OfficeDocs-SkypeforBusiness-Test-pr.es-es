@@ -140,7 +140,7 @@ Para usar System Center Operations Manager no es necesario instalar nodos de mon
 
 
 > [!NOTE]
-> Los administradores también pueden ejecutar las transacciones sintéticas manualmente, sin tener que usar o instalar Operations Manager. Para obtener información sobre los distintos cmdlets Test-Cs, consulte el <A href="lync-server-2013-cmdlets-index.md">Índice de cmdlets de Lync Server 2013</A>.
+> Los administradores también pueden ejecutar las transacciones sintéticas manualmente, sin tener que usar o instalar Operations Manager. Para obtener información sobre los distintos cmdlets Test-Cs, consulte el <A href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Índice de cmdlets de Lync Server 2013</A>.
 
 
 

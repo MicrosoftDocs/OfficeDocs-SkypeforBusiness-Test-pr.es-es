@@ -53,7 +53,7 @@ Puede modificar el comportamiento de la página para unirse a la reunión si des
     
         Get-CsWebServiceConfiguration
 
-3.  Ejecute el siguiente comando con los parámetros establecidos en True o False, según cuál haya sido su preferencia (para más información sobre los parámetros de este cmdlet [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md), vea la documentación del Shell de administración de Lync Server 2013):
+3.  Ejecute el siguiente comando con los parámetros establecidos en True o False, según cuál haya sido su preferencia (para más información sobre los parámetros de este cmdlet [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration), vea la documentación del Shell de administración de Lync Server 2013):
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 
@@ -61,5 +61,5 @@ Puede modificar el comportamiento de la página para unirse a la reunión si des
 
 #### Otros recursos
 
-[Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)
 

@@ -31,5 +31,5 @@ Para obtener la lista de todos los roles RBAC a los que se ha asignado este cmdl
 
 #### Otros recursos
 
-[Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
+[Get-CsManagementStoreReplicationStatus](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsManagementStoreReplicationStatus)
 

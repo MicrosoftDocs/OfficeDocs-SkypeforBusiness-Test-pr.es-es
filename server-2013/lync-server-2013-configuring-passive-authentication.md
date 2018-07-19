@@ -35,7 +35,7 @@ En los siguientes pasos, se describe cómo crear una configuración de servicios
 
 3.  Desde la línea de comandos del Shell de administración de Lync Server, cree una nueva configuración de servicios web para cada Director, grupo de servidores Enterprise y servidor Standard Edition que estará habilitado para la autenticación pasiva. Para crearla, ejecute este comando:
     
-        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+        new-cswebserviceconfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     
     <table>
     <thead>

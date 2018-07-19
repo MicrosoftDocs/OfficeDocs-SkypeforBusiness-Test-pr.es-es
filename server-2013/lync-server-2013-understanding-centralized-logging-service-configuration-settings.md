@@ -132,8 +132,8 @@ El resultado del cmdlet muestra la configuración actual del Servicio de registr
 
 #### Otros recursos
 
-[Set-CsClsConfiguration](set-csclsconfiguration.md)  
-[Remove-CsClsConfiguration](remove-csclsconfiguration.md)  
-[New-CsClsConfiguration](new-csclsconfiguration.md)  
-[Get-CsClsConfiguration](get-csclsconfiguration.md)
+[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
+[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)  
+[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
+[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)
 

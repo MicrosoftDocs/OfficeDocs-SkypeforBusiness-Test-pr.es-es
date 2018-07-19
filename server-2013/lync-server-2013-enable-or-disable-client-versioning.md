@@ -53,5 +53,5 @@ Puede habilitar o deshabilitar el control de versiones de cliente mediante el cm
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-Para obtener información detallada, consulte el tema de Ayuda acerca del cmdlet [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md).
+Para obtener información detallada, consulte el tema de Ayuda acerca del cmdlet [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
 

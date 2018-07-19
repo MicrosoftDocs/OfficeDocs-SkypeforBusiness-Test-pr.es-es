@@ -29,7 +29,7 @@ Utilice el comando del Windows PowerShell de Lync Server New-CsNetworkRegion, o 
 
     New-CsNetworkRegion -NetworkRegionID <region ID> -CentralSite <site ID>
 
-Para obtener más información, consulte [New-CsNetworkRegion](new-csnetworkregion.md).
+Para obtener más información, consulte [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion).
 
 En este ejemplo, el comando del Windows PowerShell que se muestra a continuación ilustra la definición de la región de red “región 1 (India)” en este escenario.
 
@@ -42,7 +42,7 @@ Utilice el comando del Windows PowerShell de Lync Server New-CsNetworkSite, o el
 
     New-CsNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 
-Para obtener más información, consulte [New-CsNetworkSite](new-csnetworksite.md).
+Para obtener más información, consulte [New-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSite).
 
 En este ejemplo, la siguiente tabla y el comando Lync ServerWindows PowerShell representan la definición de sitios de red de este escenario. Para facilitar la comprensión, la tabla solo incluye las opciones de configuración específicas del enrutamiento basado en ubicación.
 
@@ -85,7 +85,7 @@ Utilice el comando del Windows PowerShell de Lync Server New-CsNetworkSubnet, o 
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
-Para obtener más información, consulte [New-CsNetworkSubnet](new-csnetworksubnet.md).
+Para obtener más información, consulte [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet).
 
 En este ejemplo, la siguiente tabla y los comandos del Windows PowerShell representan la asignación de subredes de red a los sitios de red definidos en este escenario, Delhi y Hyderabad. Para facilitar la comprensión, la tabla solo incluye las opciones de configuración específicas del enrutamiento basado en ubicación.
 

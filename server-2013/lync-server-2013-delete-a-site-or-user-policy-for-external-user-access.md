@@ -51,5 +51,5 @@ Las directivas de acceso externo también se pueden eliminar con Windows PowerSh
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md).
+Si desea más información, consulte el tema de ayuda relativo al cmdlet [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy).
 

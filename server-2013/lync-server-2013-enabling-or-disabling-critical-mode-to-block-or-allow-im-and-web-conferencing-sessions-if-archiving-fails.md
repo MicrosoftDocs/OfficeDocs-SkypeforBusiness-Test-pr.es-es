@@ -59,7 +59,7 @@ Puede habilitar o deshabilitar el modo crítico usando el cmdlet **Set-CsArchivi
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+Si desea más información, consulte el tema de ayuda relativo al cmdlet [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
 ## Vea también
 

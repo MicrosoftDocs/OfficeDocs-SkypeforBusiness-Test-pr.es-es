@@ -42,7 +42,7 @@ La transacción sintética de Mensajería unificada de Exchange (UM) comprueba q
 
 ## Transacciones sintéticas de Chat persistente
 
-Para usar la transacción sintética de Chat persistente, los administradores deben crear un canal y conceder permiso a los usuarios de prueba para que puedan usarlo. El cmdlet [Test-CsPersistentChatMessage](test-cspersistentchatmessage.md) sirve para configurar a los usuarios de prueba correctamente:
+Para usar la transacción sintética de Chat persistente, los administradores deben crear un canal y conceder permiso a los usuarios de prueba para que puedan usarlo. El cmdlet [Test-CsPersistentChatMessage](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPersistentChatMessage) sirve para configurar a los usuarios de prueba correctamente:
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
@@ -61,7 +61,7 @@ Solo un administrador puede eliminar el salón de chat que Test-CsPersistentChat
 
 ## Transacciones sintéticas de llamada punto a punto de RTC
 
-La transacción sintética [Test-CsPstnPeerToPeerCall](test-cspstnpeertopeercall.md) confirma que es posible realizar y recibir llamadas a través de la Red telefónica conmutada (RTC).
+La transacción sintética [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnPeerToPeerCall) confirma que es posible realizar y recibir llamadas a través de la Red telefónica conmutada (RTC).
 
 Para ejecutar esta transacción sintética, los administradores deben tener preparado lo siguiente:
 

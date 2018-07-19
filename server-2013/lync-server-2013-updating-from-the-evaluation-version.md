@@ -43,7 +43,7 @@ Si no está seguro de si un equipo en concreto está ejecutando la versión de e
 
     Get-CsServerVersion
 
-El cmdlet [Get-CsServerVersion](get-csserverversion.md) analizará el equipo local y devolverá una de las siguientes opciones:
+El cmdlet [Get-CsServerVersion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsServerVersion) analizará el equipo local y devolverá una de las siguientes opciones:
 
   - Que la clave de licencia por volumen de Lync Server está instalada en el equipo, lo que significa que no es necesaria ninguna actualización.
 

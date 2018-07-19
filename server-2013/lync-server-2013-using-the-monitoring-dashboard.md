@@ -23,7 +23,7 @@ El panel de supervisión proporciona rápidamente a los administradores informac
 
   - Los totales del mes y las tendencias de los totales en los últimos seis meses (solo para el uso del sistema).
 
-Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](get-csreportingconfiguration.md) para devolver la dirección URL utilizada para acceder a los informes de supervisión de Lync Server 2013:
+Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsReportingConfiguration) para devolver la dirección URL utilizada para acceder a los informes de supervisión de Lync Server 2013:
 
     Get-CsReportingConfiguration
 

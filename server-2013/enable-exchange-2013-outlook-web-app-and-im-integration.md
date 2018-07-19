@@ -25,13 +25,13 @@ Para habilitar la integración de la mensajería instantánea (MI) y Outlook Web
     
         Get-CsSite
     
-    Esto devuelve el siteID para el siteName en el que está creando el grupo. Para más información, vea [Get-CsSite](get-cssite.md) en la documentación de Shell de administración de Lync Server 2013.
+    Esto devuelve el siteID para el siteName en el que está creando el grupo. Para más información, vea [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) en la documentación de Shell de administración de Lync Server 2013.
 
 3.  Ejecute el siguiente cmdlet:
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    Para más información, vea [New-CsTrustedApplicationPool](new-cstrustedapplicationpool.md) en la documentación de Shell de administración de Lync Server 2013.
+    Para más información, vea [New-CsTrustedApplicationPool](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplicationPool) en la documentación de Shell de administración de Lync Server 2013.
     
     El FQDN de Exchange Server debe configurarse como el nombre alternativo del sujeto (SAN) o el nombre de sujeto (SN) del certificado de Exchange OWA.
     
@@ -69,7 +69,7 @@ Para habilitar la integración de la mensajería instantánea (MI) y Outlook Web
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     
-    Para más información, vea el tema [New-CsTrustedApplication](new-cstrustedapplication.md) en la documentación de Shell de administración de Lync Server 2013.
+    Para más información, vea el tema [New-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplication) en la documentación de Shell de administración de Lync Server 2013.
 
 3.  Ejecute **Enable-CsTopology**.
 

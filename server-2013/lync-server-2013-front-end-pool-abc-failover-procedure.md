@@ -33,7 +33,7 @@ Para ejecutar los cmdlets, use Ejecutar como administrador y abra un Shell de ad
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
-    Una vez hecho, le recomendamos que mueva el CMS desde el grupo B a otro grupo asociado existente a fin de lograr mayor resistencia. Para más información, consulte [Move-CsManagementServer](move-csmanagementserver.md).
+    Una vez hecho, le recomendamos que mueva el CMS desde el grupo B a otro grupo asociado existente a fin de lograr mayor resistencia. Para más información, consulte [Move-CsManagementServer](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsManagementServer).
 
 3.  Si el grupo A contiene el CMS, importe la configuración LIS desde el grupo A a la base de datos LIS del grupo B (Lis.mdf). Esto solo funcionará si ha hecho copias de seguridad de los datos de LIS periódicamente. Para importar la configuración de LIS, ejecute los siguientes cmdlets:
     

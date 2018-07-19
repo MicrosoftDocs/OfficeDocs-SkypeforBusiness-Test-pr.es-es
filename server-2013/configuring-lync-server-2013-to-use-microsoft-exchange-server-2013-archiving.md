@@ -25,7 +25,7 @@ Microsoft Lync Server 2013 ofrece a los administradores la opción de archivar l
 </thead>
 <tbody>
 <tr class="odd">
-<td>Para desactivar completamente el archivado de una conversación de Lync, debe desactivar también el historial de conversaciones de Lync. Para obtener más información, vea los siguientes temas: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Administrar el archivado de las comunicaciones internas y externas en Lync Server 2013</a>, <a href="new-csclientpolicy.md">New-CsClientPolicy</a> y <a href="set-csclientpolicy.md">Set-CsClientPolicy</a>.</td>
+<td>Para desactivar completamente el archivado de una conversación de Lync, debe desactivar también el historial de conversaciones de Lync. Para obtener más información, vea los siguientes temas: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Administrar el archivado de las comunicaciones internas y externas en Lync Server 2013</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</a>.</td>
 </tr>
 </tbody>
 </table>

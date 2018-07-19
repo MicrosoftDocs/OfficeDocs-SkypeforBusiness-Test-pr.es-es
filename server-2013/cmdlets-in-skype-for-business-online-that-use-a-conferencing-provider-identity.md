@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2015-06-22_
 
-Para devolver información sobre todos los proveedores de audioconferencia que tienen contrato con la organización, simplemente llame al cmdlet [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md) sin ningún parámetro:
+Para devolver información sobre todos los proveedores de audioconferencia que tienen contrato con la organización, simplemente llame al cmdlet [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider) sin ningún parámetro:
 
     Get-CsAudioConferencingProvider
 
@@ -25,12 +25,12 @@ Si quiere limitar los datos devueltos a un solo proveedor (en este ejemplo, Cont
 
 Solo hay un cmdlet de Skype Empresarial Online que acepta identificadores de proveedor de audioconferencia:
 
-  - [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md)
+  - [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider)
 
 ## Vea también
 
 #### Conceptos
 
 [Identidades, ámbitos e inquilinos](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Los cmdlets de Lync Online](the-skype-for-business-online-cmdlets.md)
+[Los cmdlets de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

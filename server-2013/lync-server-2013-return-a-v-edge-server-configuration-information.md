@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2012-11-01_
 
 El servicio perimetral A/V permite que los usuarios internos (usuarios conectados a la red de la organización) compartan audio y vídeo con usuarios externos (usuarios no conectados a la red de la organización). El servicio perimetral A/V se administra principalmente con las opciones de configuración del servidor perimetral A/V, que se pueden definir en el ámbito de sitio o en el ámbito de servicio (es decir, se pueden definir para un servidor perimetral A/V individual).
 
-Para devolver información sobre las opciones de configuración del servidor perimetral A/V que usa la organización, debe usar el Shell de administración de Lync Server y el cmdlet Get-CsAVEdgeConfiguration. Para más información, vea el tema de ayuda del cmdlet [Get-CsAVEdgeConfiguration](get-csavedgeconfiguration.md).
+Para devolver información sobre las opciones de configuración del servidor perimetral A/V que usa la organización, debe usar el Shell de administración de Lync Server y el cmdlet Get-CsAVEdgeConfiguration. Para más información, vea el tema de ayuda del cmdlet [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAVEdgeConfiguration).
 
 La información devuelta desde el cmdlet Get-CsAVEdgeConfiguration tendrá un aspecto similar a este:
 

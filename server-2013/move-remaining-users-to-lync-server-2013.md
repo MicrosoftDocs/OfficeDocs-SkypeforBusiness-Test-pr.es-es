@@ -61,5 +61,5 @@ Al migrar usuarios a un grupo de servidores de Lync Server 2013, los datos de lo
 
 3.  Las directivas de conferencia que permiten participantes anónimos tienen seleccionada la opción **Permitir a los participantes invitar a usuarios anónimos** en el Panel de control de Lync Server 2013 y tienen la opción **AllowAnonymousParticipantsInMeetings** definida como **True** en el resultado del cmdlet **Get-CsConferencingPolicy** del Shell de administración de Lync Server.
 
-4.  Para más información sobre cómo configurar la directiva de conferencia con el Shell de administración de Lync Server, consulte [Set-CsConferencingPolicy](set-csconferencingpolicy.md) en la documentación del Shell de administración de Communications Server.
+4.  Para más información sobre cómo configurar la directiva de conferencia con el Shell de administración de Lync Server, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingPolicy) en la documentación del Shell de administración de Communications Server.
 

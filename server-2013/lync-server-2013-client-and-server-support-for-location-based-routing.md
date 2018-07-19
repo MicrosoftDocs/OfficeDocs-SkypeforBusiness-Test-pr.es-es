@@ -143,7 +143,7 @@ En la siguiente tabla se identifican los clientes compatibles con el enrutamient
 
 
 > [!NOTE]
-> Para deshabilitar VoIP para los clientes de Lync Mobile 2013, asigne una directiva de movilidad con la configuración, audio y vídeo IP, deshabilitada para todos los usuarios y habilitada para el enrutamiento según ubicación. Para obtener más detalles acerca de la directiva de movilidad, consulte <A href="new-csmobilitypolicy.md">New-CsMobilityPolicy</A>.
+> Para deshabilitar VoIP para los clientes de Lync Mobile 2013, asigne una directiva de movilidad con la configuración, audio y vídeo IP, deshabilitada para todos los usuarios y habilitada para el enrutamiento según ubicación. Para obtener más detalles acerca de la directiva de movilidad, consulte <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
 
 
 

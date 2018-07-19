@@ -38,5 +38,5 @@ Estos cmdlets se pueden ejecutar desde el Shell de administración de Lync Serve
     
         Set-CsMeetingRoom -Identity "Redmond Conferencing device" -LineUri "tel:+12065551219"
 
-Para obtener detalles, consulte los temas de Ayuda acerca de los cmdlets [Enable-CsMeetingRoom](enable-csmeetingroom.md) y [Set-CsMeetingRoom](set-csmeetingroom.md).
+Para obtener detalles, consulte los temas de Ayuda acerca de los cmdlets [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom) y [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom).
 

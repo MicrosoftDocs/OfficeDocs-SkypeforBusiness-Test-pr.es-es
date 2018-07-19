@@ -51,5 +51,5 @@ Puede borrar los registros de actualización de dispositivos mediante Windows Po
     
         Get-CsService -WebServer | Foreach-Object {Clear-CsDeviceUpdateLog -Identity $_.Identity -DaysBack 10}
 
-Para obtener información detallada, consulte el tema de Ayuda acerca del cmdlet [Clear-CsDeviceUpdateLog](clear-csdeviceupdatelog.md).
+Para obtener información detallada, consulte el tema de Ayuda acerca del cmdlet [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateLog).
 

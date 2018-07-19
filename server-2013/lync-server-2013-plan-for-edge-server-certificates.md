@@ -39,7 +39,7 @@ Cree un certificado público único, compruebe que tiene una clave privada expor
 
 
 > [!NOTE]
-> A partir de Lync Server 2013, los certificados de autenticación de audio y vídeo de ensayo antes de la fecha de expiración del certificado actual requieren cierta planeación adicional. En lugar de un certificado con diversos fines para la interfaz externa del servidor perimetral, necesitará dos certificados, uno asignado al Servidor perimetral de acceso y al Servicio perimetral de conferencia web y otro, al certificado para el Servicio perimetral A/V. Si desea más información, consulte <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md">Prueba de certificados de OAuth y audio y vídeo en Lync Server 2013 utilizando -Roll en Set-CsCertificate</A>
+> A partir de Lync Server 2013, los certificados de autenticación de audio y vídeo de ensayo antes de la fecha de expiración del certificado actual requieren cierta planeación adicional. En lugar de un certificado con diversos fines para la interfaz externa del servidor perimetral, necesitará dos certificados, uno asignado al Servidor perimetral de acceso y al Servicio perimetral de conferencia web y otro, al certificado para el Servicio perimetral A/V. Si desea más información, consulte <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate">Prueba de certificados de OAuth y audio y vídeo en Lync Server 2013 utilizando -Roll en Set-CsCertificate</A>
 
 
 
@@ -87,7 +87,7 @@ Cree un solo certificado interno con una clave privada exportable, cópielo y as
 
 #### Tareas
 
-[Prueba de certificados de OAuth y audio y vídeo en Lync Server 2013 utilizando -Roll en Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)  
+[Prueba de certificados de OAuth y audio y vídeo en Lync Server 2013 utilizando -Roll en Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
 
 #### Conceptos
 

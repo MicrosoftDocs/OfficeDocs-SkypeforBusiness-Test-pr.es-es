@@ -44,5 +44,5 @@ Los valores de configuración de actualización de dispositivos se pueden crear 
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00" -LogFlushInterval "00:30:00"
 
-Para obtener detalles sobre la modificación de valores de configuración de actualización de dispositivos existentes, consulte el tema de Ayuda del cmdlet [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md). Para obtener detalles sobre la creación de colecciones de valores de configuración, consulte el tema de Ayuda del cmdlet [New-CsDeviceUpdateConfiguration](new-csdeviceupdateconfiguration.md).
+Para obtener detalles sobre la modificación de valores de configuración de actualización de dispositivos existentes, consulte el tema de Ayuda del cmdlet [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration). Para obtener detalles sobre la creación de colecciones de valores de configuración, consulte el tema de Ayuda del cmdlet [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsDeviceUpdateConfiguration).
 

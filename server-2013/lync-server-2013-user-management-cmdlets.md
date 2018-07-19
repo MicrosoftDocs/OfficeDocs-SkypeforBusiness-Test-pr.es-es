@@ -22,58 +22,58 @@ Los cmdlets de administración de usuarios incluidos en Microsoft Lync Server 20
 Casi todas las tareas de administración relativas a usuarios y cuentas de usuario se pueden efectuar en Panel de control de Lync Server. Las excepciones más importantes son los cmdlets que se ocupan de los proveedores de servicios de audioconferencia. Las tareas de administración de usuarios se pueden realizar con cmdlets desde Shell de administración de Lync Server o bien en un script. El uso de un script permite automatizar determinadas tareas. A continuación se presenta una lista de cmdlets directamente relacionados con la administración de usuarios y cuentas de usuario:
 
   -   
-    [Get-CsAdContact](get-csadcontact.md)
+    [Get-CsAdContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdContact)
 
   -   
-    [Get-CsAdUser](get-csaduser.md)
+    [Get-CsAdUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdUser)
 
-  - [Get-CsClientAccessLicense](get-csclientaccesslicense.md)
+  - [Get-CsClientAccessLicense](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientAccessLicense)
 
-  - [Get-CsEffectivePolicy](get-cseffectivepolicy.md)
+  - [Get-CsEffectivePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsEffectivePolicy)
 
-  - [Invoke-CsUcsRollback](invoke-csucsrollback.md)
+  - [Invoke-CsUcsRollback](https://docs.microsoft.com/en-us/powershell/module/skype/Invoke-CsUcsRollback)
 
-  - [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md)
-
-  -   
-    [Disable-CsUser](disable-csuser.md)
+  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore)
 
   -   
-    [Enable-CsUser](enable-csuser.md)
+    [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)
 
   -   
-    [Get-CsUser](get-csuser.md)
+    [Enable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsUser)
 
   -   
-    [Move-CsUser](move-csuser.md)
+    [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)
 
   -   
-    [Set-CsUser](set-csuser.md)
+    [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)
 
   -   
-    [Get-CsUserAcp](get-csuseracp.md)
+    [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser)
 
   -   
-    [Remove-CsUserAcp](remove-csuseracp.md)
+    [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
 
   -   
-    [Set-CsUserAcp](set-csuseracp.md)
+    [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
 
   -   
-    [Test-CsAudioConferencingProvider](test-csaudioconferencingprovider.md)
+    [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
   -   
-    [Get-CsUserPoolInfo](get-csuserpoolinfo.md)
+    [Test-CsAudioConferencingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAudioConferencingProvider)
 
-  - [Get-CsUserServicesPolicy](get-csuserservicespolicy.md)
+  -   
+    [Get-CsUserPoolInfo](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserPoolInfo)
 
-  - [Grant-CsUserServicesPolicy](grant-csuserservicespolicy.md)
+  - [Get-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserServicesPolicy)
 
-  - [New-CsUserServicesPolicy](new-csuserservicespolicy.md)
+  - [Grant-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsUserServicesPolicy)
 
-  - [Remove-CsUserServicesPolicy](remove-csuserservicespolicy.md)
+  - [New-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUserServicesPolicy)
 
-  - [Set-CsUserServicesPolicy](set-csuserservicespolicy.md)
+  - [Remove-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserServicesPolicy)
+
+  - [Set-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserServicesPolicy)
 
 ## Vea también
 

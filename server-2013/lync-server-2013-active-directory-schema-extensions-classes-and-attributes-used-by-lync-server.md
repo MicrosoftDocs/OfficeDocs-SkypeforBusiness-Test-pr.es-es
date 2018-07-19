@@ -49,7 +49,7 @@ Esta sección de referencia incluye la información siguiente:
 
   - [Cambios realizados por la preparación del dominio en Lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Cambios realizados por Grant-CsSetupPermission en Lync Server 2013](lync-server-2013-changes-made-by-grant-cssetuppermission.md)
+  - [Cambios realizados por Grant-CsSetupPermission en Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Cambios realizados por Grant-CsOUPermission en Lync Server 2013](lync-server-2013-changes-made-by-grant-csoupermission.md)
+  - [Cambios realizados por Grant-CsOUPermission en Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission)
 

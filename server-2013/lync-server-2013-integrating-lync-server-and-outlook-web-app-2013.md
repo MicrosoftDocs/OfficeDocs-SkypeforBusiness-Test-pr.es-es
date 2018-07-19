@@ -35,7 +35,7 @@ Lync Server 2013 puede detectar automáticamente cualquier servidor de Exchange 
 
 
 > [!NOTE]
-> Esto se debe a que la topología de Lync Server ahora tendrá dos entradas para el mismo equipo: la entrada detectada automáticamente y la entrada agregada de forma manual. Para corregir el problema y lograr que Outlook Web App vuelva a funcionar, use Windows PowerShell para quitar las entradas del grupo de confianza y de la aplicación de confianza para el servidor. Consulte los temas de Ayuda acerca de los cmdlets <A href="remove-cstrustedapplicationpool.md">Remove-CsTrustedApplicationPool</A> y <A href="remove-cstrustedapplication.md">Remove-CsTrustedApplication</A> para obtener más información.
+> Esto se debe a que la topología de Lync Server ahora tendrá dos entradas para el mismo equipo: la entrada detectada automáticamente y la entrada agregada de forma manual. Para corregir el problema y lograr que Outlook Web App vuelva a funcionar, use Windows PowerShell para quitar las entradas del grupo de confianza y de la aplicación de confianza para el servidor. Consulte los temas de Ayuda acerca de los cmdlets <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</A> y <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</A> para obtener más información.
 
 
 

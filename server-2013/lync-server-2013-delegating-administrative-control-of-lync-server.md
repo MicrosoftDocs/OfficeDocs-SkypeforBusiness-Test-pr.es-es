@@ -49,7 +49,7 @@ Para asignar un rol RBAC a un usuario, es necesario agregar a dicho usuario al g
 
 7.  En el cuadro de diálogo **Propiedades**, haga clic en **Aceptar**.
 
-Para verificar que el rol RBAC se ha asignado, use el cmdlet [Get-CsAdminRoleAssignment](get-csadminroleassignment.md) y envíe al cmdlet el SamAccountName (nombre de inicio de sesión de Active Directory) del usuario. Por ejemplo, ejecute este comando desde el Shell de administración de Lync Server:
+Para verificar que el rol RBAC se ha asignado, use el cmdlet [Get-CsAdminRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdminRoleAssignment) y envíe al cmdlet el SamAccountName (nombre de inicio de sesión de Active Directory) del usuario. Por ejemplo, ejecute este comando desde el Shell de administración de Lync Server:
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 

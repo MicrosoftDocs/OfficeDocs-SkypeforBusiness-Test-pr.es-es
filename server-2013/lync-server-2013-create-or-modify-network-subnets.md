@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2013-02-21_
 
 Cada subred de red debe asociarse a un sitio de red para poder determinar la ubicación geográfica del host que pertenece a esta subred. Puede usar Panel de control de Lync Server para configurar subredes. Desde Panel de control de Lync Server, puede crear, modificar o eliminar una subred de red. Para obtener información detallada sobre la eliminación de subredes de red, consulte [Eliminación de subredes de red](lync-server-2013-deleting-network-subnets.md)
 
-En la mayoría de las implementaciones de Microsoft Lync Server 2013 que implementen el control de admisión de llamadas (CAC) habrá normalmente una gran cantidad de subredes. Por ese motivo, suele ser recomendable configurar subredes desde el Shell de administración de Lync Server. De ese modo podrá llamar a **New-CsNetworkSubnet** junto con el cmdlet **Import-CSV** de Windows PowerShell. Usando estos cmdlet juntos, puede leer la configuración de subred en un archivo de valores separados por comas (.csv) y crear varias subredes al mismo tiempo. Para consultar ejemplos sobre cómo crear subredes a partir de un archivo .csv, consulte [New-CsNetworkSubnet](new-csnetworksubnet.md).
+En la mayoría de las implementaciones de Microsoft Lync Server 2013 que implementen el control de admisión de llamadas (CAC) habrá normalmente una gran cantidad de subredes. Por ese motivo, suele ser recomendable configurar subredes desde el Shell de administración de Lync Server. De ese modo podrá llamar a **New-CsNetworkSubnet** junto con el cmdlet **Import-CSV** de Windows PowerShell. Usando estos cmdlet juntos, puede leer la configuración de subred en un archivo de valores separados por comas (.csv) y crear varias subredes al mismo tiempo. Para consultar ejemplos sobre cómo crear subredes a partir de un archivo .csv, consulte [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet).
 
 ## Para crear una subred de red
 
@@ -73,8 +73,8 @@ En la mayoría de las implementaciones de Microsoft Lync Server 2013 que impleme
 
 #### Otros recursos
 
-[New-CsNetworkSubnet](new-csnetworksubnet.md)  
-[Set-CsNetworkSubnet](set-csnetworksubnet.md)  
-[Remove-CsNetworkSubnet](remove-csnetworksubnet.md)  
-[Get-CsNetworkSubnet](get-csnetworksubnet.md)
+[New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)  
+[Set-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSubnet)  
+[Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)  
+[Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet)
 

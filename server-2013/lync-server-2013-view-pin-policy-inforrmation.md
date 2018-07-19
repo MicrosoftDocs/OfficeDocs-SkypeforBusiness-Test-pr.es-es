@@ -49,7 +49,7 @@ También puede ver directivas de PIN utilizando Windows PowerShell y el cmdlet G
         PINLifetime          : 0
         MaximumLogonAttempts :
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Get-CsPinPolicy](get-cspinpolicy.md).
+Para obtener más información, consulte el tema de ayuda del cmdlet [Get-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPinPolicy).
 
 ## Vea también
 
