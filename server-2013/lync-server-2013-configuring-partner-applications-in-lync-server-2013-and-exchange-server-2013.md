@@ -43,7 +43,7 @@ Tras configurar Lync Server 2013 como aplicación de socio para Exchange 2013, d
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-En Lync Server, las aplicaciones de socio se configuran utilizando el cmdlet [New-CsPartnerApplication](new-cspartnerapplication.md). Además de especificar el URI de metadatos, también deberá establecer el nivel de confianza de la aplicación en Plena; de esta manera, Exchange podrá representarse a sí mismo y a cualquier usuario autorizado en el dominio. Por ejemplo:
+En Lync Server, las aplicaciones de socio se configuran utilizando el cmdlet [New-CsPartnerApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPartnerApplication). Además de especificar el URI de metadatos, también deberá establecer el nivel de confianza de la aplicación en Plena; de esta manera, Exchange podrá representarse a sí mismo y a cualquier usuario autorizado en el dominio. Por ejemplo:
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 

@@ -117,7 +117,7 @@ Puede asignar directivas de PIN por usuario usando el Shell de administración d
 
 ## Asignar una directiva de PIN por usuario a varios usuarios
 
-  - El comando siguiente asigna la directiva de PIN por usuario RedmondUsersPinPolicy a todos los usuarios que trabajan en la ciudad de Redmond. Para más información sobre el parámetro LdapFilter usado en este comando, consulte [Get-CsUser](get-csuser.md).
+  - El comando siguiente asigna la directiva de PIN por usuario RedmondUsersPinPolicy a todos los usuarios que trabajan en la ciudad de Redmond. Para más información sobre el parámetro LdapFilter usado en este comando, consulte [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 

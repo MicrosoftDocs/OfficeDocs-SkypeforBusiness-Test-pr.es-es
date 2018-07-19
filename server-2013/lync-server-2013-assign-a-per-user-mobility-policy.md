@@ -111,7 +111,7 @@ Puede asignar directivas de movilidad por usuario usando el Shell de administrac
 
 ## Asignar una directiva de movilidad por usuario a varios usuarios
 
-  - El comando siguiente asigna la directiva de movilidad por usuario RedmondMobilityPolicy a todos los usuarios que tienen asignada actualmente la directiva NorthAmericaMobilityPolicy. Para más información sobre el parámetro Filter usado en este comando, consulte [Get-CsUser](get-csuser.md).
+  - El comando siguiente asigna la directiva de movilidad por usuario RedmondMobilityPolicy a todos los usuarios que tienen asignada actualmente la directiva NorthAmericaMobilityPolicy. Para más información sobre el parámetro Filter usado en este comando, consulte [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 

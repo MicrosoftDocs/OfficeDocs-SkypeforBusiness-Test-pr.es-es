@@ -67,7 +67,7 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 
 #### Otros recursos
 
-[New-CsNetworkRegionLink](new-csnetworkregionlink.md)  
+[New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)  
 [Set-CsNetworkRegionLink](set-csnetworkregionlink.md)  
 [Remove-CsNetworkRegionLink](remove-csnetworkregionlink.md)  
 [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)

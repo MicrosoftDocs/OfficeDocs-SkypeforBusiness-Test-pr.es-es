@@ -57,7 +57,7 @@ Las directivas de archivado por usuario también se pueden asignar usando Window
 
 ## Asignar una directiva de archivado por usuario a varios usuarios
 
-  - Con este comando se asigna la directiva de archivado por usuario RedmondArchivingPolicy a todos los usuarios que tengan cuentas hospedadas en el grupo de registradores atl-cs-001.litwareinc.com. Para obtener información sobre el parámetro Filter empleado en este comando, consulte la documentación del cmdlet [Get-CsUser](get-csuser.md).
+  - Con este comando se asigna la directiva de archivado por usuario RedmondArchivingPolicy a todos los usuarios que tengan cuentas hospedadas en el grupo de registradores atl-cs-001.litwareinc.com. Para obtener información sobre el parámetro Filter empleado en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 

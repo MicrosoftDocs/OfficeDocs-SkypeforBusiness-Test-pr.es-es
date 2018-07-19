@@ -49,7 +49,7 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 #### Otros recursos
 
-[New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)  
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 [Set-CsNetworkInterRegionRoute](set-csnetworkinterregionroute.md)  
 [Remove-CsNetworkInterRegionRoute](remove-csnetworkinterregionroute.md)  
 [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)

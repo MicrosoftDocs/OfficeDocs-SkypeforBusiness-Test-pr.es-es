@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2015-06-22_
 
 Los cmdlets que se usan al modificar las listas de dominios permitidos y bloqueados (listas que determinan con qué organizaciones externas se pueden comunicar los usuarios) no usan ámbitos ni el parámetro Identity. De hecho, el cmdlet **New-CsEdgeAllowAllKnownDomains** no incluye absolutamente ningún parámetro. Los cmdlets que no usan ámbitos ni el parámetro Identity son los siguientes:
 
-  - [New-CsEdgeAllowAllKnownDomains](new-csedgeallowallknowndomains.md)
+  - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
   - [New-CsEdgeAllowList](new-csedgeallowlist.md)
 

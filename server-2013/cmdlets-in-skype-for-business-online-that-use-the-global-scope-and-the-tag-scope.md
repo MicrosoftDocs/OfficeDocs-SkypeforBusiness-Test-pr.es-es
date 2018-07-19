@@ -39,7 +39,7 @@ Para devolver todas las directivas excepto las globales (es decir, todas las dir
 
 Los cmdlets siguientes funcionan tanto en el ámbito global como en el ámbito por usuario (de etiqueta):
 
-  - [Get-CsClientPolicy](get-csclientpolicy.md)
+  - [Get-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientPolicy)
 
   - [Get-CsConferencingPolicy](get-csconferencingpolicy.md)
 

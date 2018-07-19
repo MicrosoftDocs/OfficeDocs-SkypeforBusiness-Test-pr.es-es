@@ -155,7 +155,7 @@ Estos son los aspectos sobre los que deberá tomar una decisión:
     </tbody>
     </table>
     
-    Para ver una descripción de las configuraciones de directiva que se pueden establecer, así como el modo de administrar directivas, vea [New-CsMobilityPolicy](new-csmobilitypolicy.md), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) y [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md).
+    Para ver una descripción de las configuraciones de directiva que se pueden establecer, así como el modo de administrar directivas, vea [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) y [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md).
 
   - **¿Desea que los usuarios no habilitados para Telefonía IP empresarial puedan hacer clic para unirse a conferencias?**
     

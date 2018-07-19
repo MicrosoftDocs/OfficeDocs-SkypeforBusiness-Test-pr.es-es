@@ -44,7 +44,7 @@ Todas las subredes de la red deben estar asociadas con un sitio de red específi
 
 Para más información sobre cómo trabajar con subredes de red, consulte la documentación del Shell de administración de Lync Server para los cmdlets siguientes:
 
-  - [New-CsNetworkSubnet](new-csnetworksubnet.md)
+  - [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)
 
   - [Get-CsNetworkSubnet](get-csnetworksubnet.md)
 

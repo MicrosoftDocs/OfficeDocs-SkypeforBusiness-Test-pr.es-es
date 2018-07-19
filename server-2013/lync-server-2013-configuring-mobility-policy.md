@@ -101,7 +101,7 @@ Para obtener detalles sobre cómo habilitar a los usuarios para Lync Server 2013
 
 #### Otros recursos
 
-[New-CsMobilityPolicy](new-csmobilitypolicy.md)  
+[New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy)  
 [Set-CsMobilityPolicy](set-csmobilitypolicy.md)  
 [Get-CsMobilityPolicy](get-csmobilitypolicy.md)  
 [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)  

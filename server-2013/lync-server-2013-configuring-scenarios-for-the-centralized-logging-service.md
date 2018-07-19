@@ -25,7 +25,7 @@ Los escenarios definen el ámbito (que puede ser global o de un sitio, un grupo 
 </thead>
 <tbody>
 <tr class="odd">
-<td>Para cualquiera de los ámbitos —global, de sitio, de grupo o de equipo—, puede ejecutar un máximo de dos escenarios al mismo tiempo. Para ver qué escenarios están en ejecución, utilice Windows PowerShell y <a href="get-csclsscenario.md">Get-CsClsScenario</a>. Con Windows PowerShell y <a href="set-csclsscenario.md">Set-CsClsScenario</a>, puede cambiar de forma dinámica los escenarios que están en ejecución: puede modificar los escenarios que se ejecutan durante una sesión de registro o bien ajustar o restringir los datos que se recopilan y sus proveedores.</td>
+<td>Para cualquiera de los ámbitos —global, de sitio, de grupo o de equipo—, puede ejecutar un máximo de dos escenarios al mismo tiempo. Para ver qué escenarios están en ejecución, utilice Windows PowerShell y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Con Windows PowerShell y <a href="set-csclsscenario.md">Set-CsClsScenario</a>, puede cambiar de forma dinámica los escenarios que están en ejecución: puede modificar los escenarios que se ejecutan durante una sesión de registro o bien ajustar o restringir los datos que se recopilan y sus proveedores.</td>
 </tr>
 </tbody>
 </table>

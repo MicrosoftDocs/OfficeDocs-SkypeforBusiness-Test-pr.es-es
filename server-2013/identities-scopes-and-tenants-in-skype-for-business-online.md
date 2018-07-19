@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2015-06-22_
 
-Muchos de los cmdlets de Windows PowerShell que se usan para administrar Skype Empresarial Online exigen ser muy específico sobre el elemento que se quiere administrar. Por ejemplo, al ejecutar el cmdlet [Set-CsUserAcp](set-csuseracp.md), hay que indicar qué usuario se quiere administrar, lo cual es lógico. A menos que le digamos al cmdlet específicamente la cuenta de usuario que tratamos de administrar, el cmdlet **Set-CsUserAcp** no sabrá cuál es la información de usuario de audioconferencia que hay que modificar. Por este motivo, cada vez que se ejecuta el cmdlet **Set-CsUserAcp**, hay que incluir el parámetro Identity seguido de la identidad de la cuenta de usuario que hay que modificar:
+Muchos de los cmdlets de Windows PowerShell que se usan para administrar Skype Empresarial Online exigen ser muy específico sobre el elemento que se quiere administrar. Por ejemplo, al ejecutar el cmdlet [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp), hay que indicar qué usuario se quiere administrar, lo cual es lógico. A menos que le digamos al cmdlet específicamente la cuenta de usuario que tratamos de administrar, el cmdlet **Set-CsUserAcp** no sabrá cuál es la información de usuario de audioconferencia que hay que modificar. Por este motivo, cada vez que se ejecuta el cmdlet **Set-CsUserAcp**, hay que incluir el parámetro Identity seguido de la identidad de la cuenta de usuario que hay que modificar:
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 

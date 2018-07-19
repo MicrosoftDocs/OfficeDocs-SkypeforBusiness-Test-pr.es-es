@@ -25,7 +25,7 @@ Para proporcionar capacidades de correo de voz a los usuarios de Lync Server 201
 
 Para ver más detalles, consulte la documentación del Shell de administración de Lync Server correspondiente a los siguientes cmdlets:
 
-  - [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
+  - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
   - [New-CsHostingProvider](new-cshostingprovider.md)
 

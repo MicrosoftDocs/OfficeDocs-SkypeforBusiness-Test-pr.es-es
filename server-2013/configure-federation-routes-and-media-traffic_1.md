@@ -230,7 +230,7 @@ Para publicar, habilitar o deshabilitar una topología correctamente al agregar 
     
         Set-CsAccessEdgeConfiguration
     
-    Para obtener más información sobre estos cmdlets, consulte los siguientes temas: [Get-CsAccessEdgeConfiguration](get-csaccessedgeconfiguration.md) y [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md).
+    Para obtener más información sobre estos cmdlets, consulte los siguientes temas: [Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAccessEdgeConfiguration) y [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration).
 
 4.  Espere hasta que se complete la replicación antes de conectar los servidores perimetrales de Lync Server 2013 y probar la federación y el acceso externo.
 

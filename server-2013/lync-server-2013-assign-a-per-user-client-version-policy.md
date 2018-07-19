@@ -117,7 +117,7 @@ Puede asignar directivas de versión por usuario usando el cmdlet Grant-CsClient
 
 ## Para asignar una directiva de versión de cliente por usuario a varios usuarios
 
-  - Este comando asigna la directiva de versión de cliente por usuario RedmondClientVersionPolicy a todos los usuarios que tienen actualmente asignada la directiva de voz RedmondVoicePolicy. Si desea más información sobre el parámetro Filter que se usa en este comando, consulte la documentación del cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando asigna la directiva de versión de cliente por usuario RedmondClientVersionPolicy a todos los usuarios que tienen actualmente asignada la directiva de voz RedmondVoicePolicy. Si desea más información sobre el parámetro Filter que se usa en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 

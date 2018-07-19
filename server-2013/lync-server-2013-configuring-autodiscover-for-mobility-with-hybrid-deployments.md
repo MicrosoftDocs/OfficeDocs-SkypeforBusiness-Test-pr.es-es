@@ -43,6 +43,6 @@ Para que clientes móviles puedan descubrir la implementación en la que se encu
 
 #### Otros recursos
 
-[Get-CsHostingProvider](get-cshostingprovider.md)  
+[Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
 [Set-CsHostingProvider](set-cshostingprovider.md)
 

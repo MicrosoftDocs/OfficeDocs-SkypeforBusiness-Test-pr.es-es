@@ -4504,8 +4504,6 @@
             href: lync-server-2013-issues-with-the-environment-test.md
           - name: Problemas con la prueba de topología
             href: lync-server-2013-issues-with-the-topology-test.md
-    - name: Feature management
-      href: dn720327(v=ocs.15).md
   - name: Referencia
     href: lync-server-2013-schema-reference.md
     items:

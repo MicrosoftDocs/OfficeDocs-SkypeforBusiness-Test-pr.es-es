@@ -42,7 +42,7 @@ Si quisiera devolver las identidades de todas las directivas por usuario (o, al 
 
 Los cmdlets siguientes usan tanto una identidad de usuario como el ámbito de etiqueta:
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)
 
   - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
 
@@ -52,7 +52,7 @@ Los cmdlets siguientes usan tanto una identidad de usuario como el ámbito de et
 
   - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)
 
 ## Vea también
 

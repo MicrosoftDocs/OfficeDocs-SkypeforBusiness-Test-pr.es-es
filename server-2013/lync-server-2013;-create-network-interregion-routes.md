@@ -21,7 +21,7 @@ Mientras que los vínculos regionales establecen las limitaciones de ancho de ba
 
 Para obtener información detallada sobre cómo trabajar con rutas entre regiones de red, consulte los cmdlet que se indican a continuación en la documentación de Shell de administración de Lync Server:
 
-  - [New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)
+  - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
   - [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)
 

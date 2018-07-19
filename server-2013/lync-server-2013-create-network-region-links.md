@@ -19,7 +19,7 @@ Las regiones de una red se vinculan mediante conexiones de red WAN físicas. Un 
 
 Para más información sobre cómo trabajar con vínculos de región de red, consulte la documentación del Shell de administración de Lync Server para los cmdlets siguientes:
 
-  - [New-CsNetworkRegionLink](new-csnetworkregionlink.md)
+  - [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)
 
   - [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)
 

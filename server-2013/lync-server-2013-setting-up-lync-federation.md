@@ -135,7 +135,7 @@ Si ya ha implementado los servidores perimetrales, la adición de las caracterí
 
 2.  Defina y configure los hosts DNS necesarios (A o AAAA para IPv6) así como los registros DNS SRV.
 
-3.  Defina y configure las directivas desde el Panel de control de Lync Server o utilizando el Shell de administración de Lync Server y los cmdlets pertinentes. Para obtener más detalles sobre los cmdlets de Shell de administración de Lync Server, vea [Cmdlets de federación y acceso externo en Lync Server 2013](lync-server-2013-federation-and-external-access-cmdlets.md)
+3.  Defina y configure las directivas desde el Panel de control de Lync Server o utilizando el Shell de administración de Lync Server y los cmdlets pertinentes. Para obtener más detalles sobre los cmdlets de Shell de administración de Lync Server, vea [Cmdlets de federación y acceso externo en Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/)
     
 
     > [!NOTE]

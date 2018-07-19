@@ -25,7 +25,7 @@ Para habilitar la integración de la mensajería instantánea (MI) y Outlook Web
     
         Get-CsSite
     
-    Esto devuelve el siteID para el siteName en el que está creando el grupo. Para más información, vea [Get-CsSite](get-cssite.md) en la documentación de Shell de administración de Lync Server 2013.
+    Esto devuelve el siteID para el siteName en el que está creando el grupo. Para más información, vea [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) en la documentación de Shell de administración de Lync Server 2013.
 
 3.  Ejecute el siguiente cmdlet:
     

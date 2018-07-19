@@ -119,7 +119,7 @@ Puede asignar directivas de ubicación por usuario mediante el cmdlet Grant-CsLo
 
 ## Para asignar una directiva de ubicación por usuario a varios usuarios
 
-  - Este comando permite asignar la directiva de ubicación por usuario AccountingDepartmentLocationPolicy a todos los usuarios que trabajen en el departamento de Contabilidad. Para obtener más información sobre el parámetro LdapFilter usado en este comando, vea la documentación del cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando permite asignar la directiva de ubicación por usuario AccountingDepartmentLocationPolicy a todos los usuarios que trabajen en el departamento de Contabilidad. Para obtener más información sobre el parámetro LdapFilter usado en este comando, vea la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 

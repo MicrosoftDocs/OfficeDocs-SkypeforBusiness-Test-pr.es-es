@@ -61,7 +61,7 @@ Y puede habilitar a un usuario para la mensajería unificada utilizando un coman
 
 En el comando anterior, el parámetro Extensions representa el número de extensión del teléfono del usuario. En este ejemplo, el usuario tiene el número de extensión 100.
 
-Una vez que haya habilitado su buzón de correo, el usuario kenmyer@litwareinc.com deberá poder utilizar la mensajería unificada de Exchange. Puede verificar que el usuario se pueda conectar a la mensajería unificada de Exchange ejecutando el cmdlet [Test-CsExUMConnectivity](test-csexumconnectivity.md) desde el Shell de administración de Lync Server:
+Una vez que haya habilitado su buzón de correo, el usuario kenmyer@litwareinc.com deberá poder utilizar la mensajería unificada de Exchange. Puede verificar que el usuario se pueda conectar a la mensajería unificada de Exchange ejecutando el cmdlet [Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity) desde el Shell de administración de Lync Server:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

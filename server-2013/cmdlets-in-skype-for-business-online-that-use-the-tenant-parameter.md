@@ -19,7 +19,7 @@ Para modificar la configuración de proveedor público debe especificarse la ide
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-Afortunadamente no tendrá que escribir el identificador de inquilino (como bf19b7db-6960-41e5-a139-2aa373474354) cada vez que ejecute uno de estos cmdlets. De hecho, si desea recuperar este dato, ejecute el cmdlet [Get-CsTenant](get-cstenant.md), almacénelo en una variable y use la variable cuando llame a los demás cmdlets. Por ejemplo:
+Afortunadamente no tendrá que escribir el identificador de inquilino (como bf19b7db-6960-41e5-a139-2aa373474354) cada vez que ejecute uno de estos cmdlets. De hecho, si desea recuperar este dato, ejecute el cmdlet [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant), almacénelo en una variable y use la variable cuando llame a los demás cmdlets. Por ejemplo:
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
@@ -34,7 +34,7 @@ No es necesario que especifique el identificador de inquilino para llamar al cmd
 
 Los cmdlets siguientes aceptan la identidad de inquilino. Sin embargo, en estos casos el parámetro es opcional y no es necesario escribirlo para llamar al cmdlet. En su lugar, Windows PowerShell escribirá correctamente la identidad del inquilino de Skype Empresarial Online con el que se haya establecido la conexión:
 
-  - [Get-CsTenant](get-cstenant.md)
+  - [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant)
 
   - [Set-CsTenantFederationConfiguration](set-cstenantfederationconfiguration.md)
 

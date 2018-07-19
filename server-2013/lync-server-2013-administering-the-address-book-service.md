@@ -262,7 +262,7 @@ Puede usar ciertos bits de indicador para definir un filtro que se vaya a usar e
 </thead>
 <tbody>
 <tr class="odd">
-<td>Para obtener más información sobre cómo filtrar la libreta de direcciones, consulte <a href="lync-server-2013-address-book-server-cmdlets.md">Cmdlets de servidor de libreta de direcciones</a> y <a href="http://go.microsoft.com/fwlink/?linkid=330430">Filtrar la libreta de direcciones de Lync 2013</a></td>
+<td>Para obtener más información sobre cómo filtrar la libreta de direcciones, consulte <a href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Cmdlets de servidor de libreta de direcciones</a> y <a href="http://go.microsoft.com/fwlink/?linkid=330430">Filtrar la libreta de direcciones de Lync 2013</a></td>
 </tr>
 </tbody>
 </table>

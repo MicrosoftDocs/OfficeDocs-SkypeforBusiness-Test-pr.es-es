@@ -19,7 +19,7 @@ Lync Server 2013 incluye una interfaz de servicio web estándar que puede usar p
 
 Si hay una aplicación SNMP instalada y Servicio de información de ubicaciones no encuentra una coincidencia en la base de datos de ubicaciones, Servicio de información de ubicaciones consultará automáticamente la aplicación por medio de la dirección MAC que proporciona el cliente. Servicio de información de ubicaciones usará la información de conmutadores y puertos que devuelve la aplicación SNMP para consultar de nuevo la base de datos de ubicaciones.
 
-Para más información, consulte [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md).
+Para más información, consulte [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration).
 
 
 > [!NOTE]

@@ -45,7 +45,7 @@ Una vez creada la directiva, hay que asignarla a los usuarios que deban tener ac
 
 Tras asignar la directiva, Lync Server comenzará a migrar los contactos del usuario al almacén de contactos unificados. Una vez terminada la migración, el usuario tendrá sus contactos guardados en Exchange, en lugar de Lync Server. Si coincidiera que el usuario tuviera la sesión iniciada en Lync 2013 en el momento en que concluye la migración, se mostrará un cuadro de mensaje donde se le pedirá que cierre la sesión de Lync y vuelva a iniciarla para poder finalizar el proceso. Los contactos de los usuarios a los que no se les asigne esta directiva por usuario no se migrarán al almacén de contactos unificados. Esto se debe a que estos usuarios se gestionan mediante la directiva global y el uso de un almacén de contactos unificados se ha deshabilitado en la directiva global.
 
-Para confirmar que los contactos de un usuario se han migrado correctamente al almacén de contactos unificados, hay que ejecutar el cmdlet [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md) desde el Shell de administración de Lync Server:
+Para confirmar que los contactos de un usuario se han migrado correctamente al almacén de contactos unificados, hay que ejecutar el cmdlet [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore) desde el Shell de administración de Lync Server:
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 
