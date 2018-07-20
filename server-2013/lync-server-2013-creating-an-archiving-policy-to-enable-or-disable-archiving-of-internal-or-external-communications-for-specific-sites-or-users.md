@@ -99,7 +99,7 @@ Las directivas de archivado también pueden eliminarse con Windows PowerShell y 
     
         New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 
-Para más información, vea el tema de ayuda del cmdlet [New-CsArchivingPolicy](new-csarchivingpolicy.md).
+Para más información, vea el tema de ayuda del cmdlet [New-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingPolicy).
 
 ## Vea también
 

@@ -25,7 +25,7 @@ Los escenarios definen el ámbito (que puede ser global o de un sitio, un grupo 
 </thead>
 <tbody>
 <tr class="odd">
-<td>Para cualquiera de los ámbitos —global, de sitio, de grupo o de equipo—, puede ejecutar un máximo de dos escenarios al mismo tiempo. Para ver qué escenarios están en ejecución, utilice Windows PowerShell y <a href="get-csclsscenario.md">Get-CsClsScenario</a>. Con Windows PowerShell y <a href="set-csclsscenario.md">Set-CsClsScenario</a>, puede cambiar de forma dinámica los escenarios que están en ejecución: puede modificar los escenarios que se ejecutan durante una sesión de registro o bien ajustar o restringir los datos que se recopilan y sus proveedores.</td>
+<td>Para cualquiera de los ámbitos —global, de sitio, de grupo o de equipo—, puede ejecutar un máximo de dos escenarios al mismo tiempo. Para ver qué escenarios están en ejecución, utilice Windows PowerShell y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Con Windows PowerShell y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</a>, puede cambiar de forma dinámica los escenarios que están en ejecución: puede modificar los escenarios que se ejecutan durante una sesión de registro o bien ajustar o restringir los datos que se recopilan y sus proveedores.</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ Como se comentó en [Descripción general del servicio de registro centralizado]
 
 1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
 
-2.  Para crear un escenario para una sesión de registro, utilice [New-CsClsProvider](new-csclsprovider.md) y defina el nombre del escenario (es decir, un nombre de identificación único). Elija un tipo de formato de registro de WPP (es decir, el preprocesador de seguimiento del software de Windows; es el predeterminado), EventLog (el formato de registro de eventos de Windows) o IISLog (el archivo de formato basado en el formato de archivo de registro de IIS). A continuación, defina Level y Flags tal como se definen en este tema los niveles de registro y las etiquetas, respectivamente.
+2.  Para crear un escenario para una sesión de registro, utilice [New-CsClsProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsProvider) y defina el nombre del escenario (es decir, un nombre de identificación único). Elija un tipo de formato de registro de WPP (es decir, el preprocesador de seguimiento del software de Windows; es el predeterminado), EventLog (el formato de registro de eventos de Windows) o IISLog (el archivo de formato basado en el formato de archivo de registro de IIS). A continuación, defina Level y Flags tal como se definen en este tema los niveles de registro y las etiquetas, respectivamente.
     
     Para este escenario de muestra, utilizaremos LyssProvider como variable del proveedor.
     

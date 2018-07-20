@@ -53,5 +53,5 @@ También puede eliminar las opciones de configuración del registrador con el Sh
     
         Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
 
-Para más información, vea [Remove-CsProxyConfiguration](remove-csproxyconfiguration.md).
+Para más información, vea [Remove-CsProxyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsProxyConfiguration).
 

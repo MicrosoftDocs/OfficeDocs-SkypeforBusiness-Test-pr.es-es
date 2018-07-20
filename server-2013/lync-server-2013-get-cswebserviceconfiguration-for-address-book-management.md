@@ -31,5 +31,5 @@ Para obtener una descripción detallada del comando íntegro, remítase a lo sig
 
 #### Otros recursos
 
-[Get-CsWebServiceConfiguration](get-cswebserviceconfiguration.md)
+[Get-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWebServiceConfiguration)
 

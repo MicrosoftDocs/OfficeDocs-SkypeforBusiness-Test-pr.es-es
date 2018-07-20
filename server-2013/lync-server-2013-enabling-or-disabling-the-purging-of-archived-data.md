@@ -63,7 +63,7 @@ La habilitación y la deshabilitación de la depuración automatizada de los dat
 
 ## Habilitar la depuración solo de los datos de archivado exportados
 
-  - Para limitar la depuración a los registros de archivado que se han exportado a un archivo de datos (mediante el cmdlet [Export-CsArchivingData](export-csarchivingdata.md)) también debe establecer la propiedad PurgeExportedArchivesOnly en True ($True). Por ejemplo:
+  - Para limitar la depuración a los registros de archivado que se han exportado a un archivo de datos (mediante el cmdlet [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)) también debe establecer la propiedad PurgeExportedArchivesOnly en True ($True). Por ejemplo:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
@@ -75,7 +75,7 @@ La habilitación y la deshabilitación de la depuración automatizada de los dat
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-Para obtener más información, incluyendo opciones adicionales para la depuración de datos de archivado, vea el tema de la Ayuda para el cmdlet [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+Para obtener más información, incluyendo opciones adicionales para la depuración de datos de archivado, vea el tema de la Ayuda para el cmdlet [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
 ## Vea también
 

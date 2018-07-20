@@ -106,7 +106,7 @@ La primera vez que inicia un nuevo Grupo de servidores front-end, es fundamental
 </table>
 
 
-Cada vez subsiguiente que se inicie el grupo, el 85 % de los servidores deben iniciarse (tal como se muestra en la tabla anterior). Si no se puede iniciar esta cantidad de servidores (pero se puede iniciar una cantidad de servidores suficiente para que no haya pérdida de quórum en el nivel del grupo), puede usar el cmdlet **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** para permitir que el grupo se recupere de esta pérdida de quórum en el nivel del grupo de enrutamiento y pueda progresar. Para más información sobre cómo usar este cmdlet, vea [Reset-CsPoolRegistrarState](reset-cspoolregistrarstate.md).
+Cada vez subsiguiente que se inicie el grupo, el 85 % de los servidores deben iniciarse (tal como se muestra en la tabla anterior). Si no se puede iniciar esta cantidad de servidores (pero se puede iniciar una cantidad de servidores suficiente para que no haya pérdida de quórum en el nivel del grupo), puede usar el cmdlet **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** para permitir que el grupo se recupere de esta pérdida de quórum en el nivel del grupo de enrutamiento y pueda progresar. Para más información sobre cómo usar este cmdlet, vea [Reset-CsPoolRegistrarState](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsPoolRegistrarState).
 
 
 > [!NOTE]
@@ -193,7 +193,7 @@ Cuando deba actualizar los servidores de un Grupo de servidores front-end o apli
 
   - No proceda con el dominio de actualización siguiente si alguno de los servidores del último dominio de actualización revisado está interrumpido o no se reinició. Esto se aplica también si no se puede iniciar alguno de los servidores dentro de la actualización. Ejecute **Get-CsPoolFabricState** para asegurarse de que todos los grupos de enrutamiento tengan una réplica principal y al menos una secundaria; de esta forma, confirmará si todos los usuarios tienen servicio.
 
-  - Si algunos usuarios tienen servicio y otros no, ejecute **Get-CsPoolFabricState** con la opción –Verbose para buscar grupos de enrutamiento a los que les falten réplicas. No reinicie todo el grupo de servidores como el primer paso de solución de problemas. Para más información sobre este cmdlet, vea [Get-CsPoolFabricState](get-cspoolfabricstate.md).
+  - Si algunos usuarios tienen servicio y otros no, ejecute **Get-CsPoolFabricState** con la opción –Verbose para buscar grupos de enrutamiento a los que les falten réplicas. No reinicie todo el grupo de servidores como el primer paso de solución de problemas. Para más información sobre este cmdlet, vea [Get-CsPoolFabricState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPoolFabricState).
 
   - Asegúrese de que todas las instancias de las ventanas del Visor de eventos o del Monitor de rendimiento estén cerradas para las instalaciones y desinstalaciones de Windows Fabric.
 

@@ -27,7 +27,7 @@ La forma en que configure la tabla de números sin asignar depende de cómo dese
 </thead>
 <tbody>
 <tr class="odd">
-<td>Antes de configurar la tabla de números sin asignar, debe haber definido uno o más anuncios o haber establecido un operador automático de Mensajería unificada de Exchange. Para obtener información detallada sobre cómo crear anuncios, consulte <a href="lync-server-2013-create-an-announcement.md">Crear un anuncio en Lync Server 2013</a>. Para ver si ha establecido la configuración de Mensajería unificada de Exchange, ejecute el cmdlet <strong>Get-CsExUmContact</strong>. Para obtener información detallada, consulte <a href="get-csexumcontact.md">Get-CsExUmContact</a>.</td>
+<td>Antes de configurar la tabla de números sin asignar, debe haber definido uno o más anuncios o haber establecido un operador automático de Mensajería unificada de Exchange. Para obtener información detallada sobre cómo crear anuncios, consulte <a href="lync-server-2013-create-an-announcement.md">Crear un anuncio en Lync Server 2013</a>. Para ver si ha establecido la configuración de Mensajería unificada de Exchange, ejecute el cmdlet <strong>Get-CsExUmContact</strong>. Para obtener información detallada, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</a>.</td>
 </tr>
 </tbody>
 </table>

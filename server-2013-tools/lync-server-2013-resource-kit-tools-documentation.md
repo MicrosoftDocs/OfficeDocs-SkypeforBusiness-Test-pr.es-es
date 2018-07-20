@@ -426,6 +426,7 @@ El objetivo de la herramienta CPS es proporcionar acceso mediante línea de coma
 
 No existen requisitos si esta herramienta se ejecuta en el mismo equipo donde se ejecuta CPS. Si la herramienta se ejecuta en un equipo remoto, la base de datos de SQL Server utilizada por Lync Server 2013 debe configurarse para permitir acceso remoto. Call Parkometer debe configurarse con una cadena de conexión de base de datos de SQL Server para conectarse al SQL Server del grupo de servidores. Esta cadena de conexión de base de datos de SQL Server se define en el archivo de configuración, **parkometer.exe.config**, y debe copiarse en el mismo directorio donde se encuentra parkometer.exe. El archivo XML siguiente es un ejemplo de parkometer.exe.config. Los parámetros que deben configurarse son el nombre de usuario (por ejemplo, miDominio\\Administrador), la contraseña (por ejemplo, miContraseña) y el nombre de host (por ejemplo, miServidor).
 
+```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -436,6 +437,7 @@ No existen requisitos si esta herramienta se ejecuta en el mismo equipo donde se
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
+```
 
 ## Ejemplos
 

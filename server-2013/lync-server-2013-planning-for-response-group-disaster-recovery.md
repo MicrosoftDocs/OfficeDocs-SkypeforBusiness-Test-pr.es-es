@@ -63,7 +63,7 @@ Cuando recupera creando un nuevo grupo de servidores con un FQDN diferente, tien
 
 
 
-Solo puede definir un conjunto de valores de configuración de Grupo de respuesta de nivel de aplicación por grupo de servidores. Estos valores incluyen la configuración de música de espera predeterminada, el archivo de audio de música en espera predeterminado, el período de gracia de devolución de llamada de agente y la configuración de contexto de llamada. Para ver estos valores de configuración, ejecute el cmdlet de **Get-CsRgsConfiguration**. Para obtener detalles acerca del cmdlet **Get-CsRgsConfiguration**, vea [Get-CsRgsConfiguration](get-csrgsconfiguration.md).
+Solo puede definir un conjunto de valores de configuración de Grupo de respuesta de nivel de aplicación por grupo de servidores. Estos valores incluyen la configuración de música de espera predeterminada, el archivo de audio de música en espera predeterminado, el período de gracia de devolución de llamada de agente y la configuración de contexto de llamada. Para ver estos valores de configuración, ejecute el cmdlet de **Get-CsRgsConfiguration**. Para obtener detalles acerca del cmdlet **Get-CsRgsConfiguration**, vea [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration).
 
 Puede transferir esta configuración de nivel de aplicación de un grupo de servidores a otro mediante el cmdlet **Import-CsRgsConfiguration** con el parámetro –ReplaceExistingSettings, pero al hacerlo se invalidará la configuración en el grupo de servidores de destino.
 

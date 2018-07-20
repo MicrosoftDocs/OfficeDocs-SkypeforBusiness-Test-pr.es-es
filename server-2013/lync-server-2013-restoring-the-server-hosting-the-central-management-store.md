@@ -154,7 +154,7 @@ Si el servidor back-end que hospeda el Almacén de administración central se en
     </thead>
     <tbody>
     <tr class="odd">
-    <td>En lugar de ejecutar Generador de topologías, puede usar el cmdlet <strong>Install-CsDatabase</strong> para crear cada una de las bases de datos y el cmdlet <strong>Install-CsMirrorDatabase</strong> para configurar la creación de reflejo. Para obtener detalles, consulte <a href="install-csdatabase.md">Install-CsDatabase</a> y <a href="install-csmirrordatabase.md">Install-CsMirrorDatabase</a>.</td>
+    <td>En lugar de ejecutar Generador de topologías, puede usar el cmdlet <strong>Install-CsDatabase</strong> para crear cada una de las bases de datos y el cmdlet <strong>Install-CsMirrorDatabase</strong> para configurar la creación de reflejo. Para obtener detalles, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</a>.</td>
     </tr>
     </tbody>
     </table>

@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2013-02-20_
 
-Mueva un dispositivo de conferencias de un grupo de registradores a otro mediante el cmdlet **Move-CsMeetingRoom**. Este cmdlet se puede ejecutar desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.
+Mueva un dispositivo de conferencias de un grupo de registradores a otro mediante el cmdlet **move-csmeetingroom**. Este cmdlet se puede ejecutar desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.
 
 
 > [!NOTE]
@@ -28,7 +28,7 @@ Mueva un dispositivo de conferencias de un grupo de registradores a otro mediant
 
   - Para mover un dispositivo de conferencias, debe especificar la identidad de la sala que se moverá y, a continuación, establecer el parámetro Target en el nombre de dominio completo (FQDN) del grupo de registradores al cual se moverá el dispositivo. Por ejemplo:
     
-        Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
+        move-csmeetingroom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 
-Para obtener información detallada, consulte el tema de Ayuda acerca del cmdlet [Move-CsMeetingRoom](move-csmeetingroom.md).
+Para obtener información detallada, consulte el tema de Ayuda acerca del cmdlet [move-csmeetingroom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom).
 

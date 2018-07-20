@@ -42,22 +42,22 @@ Si quisiera devolver las identidades de todas las directivas por usuario (o, al 
 
 Los cmdlets siguientes usan tanto una identidad de usuario como el ámbito de etiqueta:
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)
 
-  - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
+  - [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy)
 
-  - [Grant-CsDialPlan](grant-csdialplan.md)
+  - [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan)
 
-  - [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+  - [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 
-  - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
+  - [Grant-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsHostedVoicemailPolicy)
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)
 
 ## Vea también
 
 #### Conceptos
 
 [Identidades, ámbitos e inquilinos](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Los cmdlets de Lync Online](the-skype-for-business-online-cmdlets.md)
+[Los cmdlets de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

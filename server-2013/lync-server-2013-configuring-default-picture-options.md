@@ -21,5 +21,5 @@ Si el hecho de que las imágenes se puedan mostrar aunque el usuario las desacti
 
     Set-CsPrivacyConfiguration -DisplayPublishedPhotoDefault $False
 
-Para obtener más información sobre este cmdlet, consulte la [Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md) en la documentación del Shell de administración de Lync Server.
+Para obtener más información sobre este cmdlet, consulte la [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration) en la documentación del Shell de administración de Lync Server.
 

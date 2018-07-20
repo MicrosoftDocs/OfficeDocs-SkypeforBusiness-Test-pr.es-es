@@ -17,9 +17,9 @@ _**Última modificación del tema:** 2012-10-20_
 
 Lync Server 2013 puede interconectar una puerta de enlace IP-PBX con una RTC de modo que las llamadas realizadas desde un teléfono PBX se puedan enrutar a RTC y las llamadas RTC entrantes se puedan enrutar e un teléfono PBX. De manera similar, Lync Server 2013 puede interconectar dos o más sistemas IP-PBX de modo que las llamadas se puedan realizar y recibir entre teléfonos PBX de los diferentes sistemas IP-PBX.
 
-Esta característica de enrutamiento entre troncos se puede configurar mediante el cmdlet de Shell de administración de Lync Server, **Set-CsTrunkConfiguration**, con el nuevo parámetro PstnUsages. Este parámetro especifica el conjunto de registros de uso RTC que usar. Un tronco usa esta RTC para determinar una ruta y para enrutar todas las llamadas entrantes como corresponda.
+Esta característica de enrutamiento entre troncos se puede configurar mediante el cmdlet de Shell de administración de Lync Server, **set-cstrunkconfiguration**, con el nuevo parámetro PstnUsages. Este parámetro especifica el conjunto de registros de uso RTC que usar. Un tronco usa esta RTC para determinar una ruta y para enrutar todas las llamadas entrantes como corresponda.
 
-    Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
+    set-cstrunkconfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
 
 En el siguiente diagrama se ilustra Lync Server 2013 proporcionando interconectividad entre una puerta de enlace RTC y una IP-PBX.
 

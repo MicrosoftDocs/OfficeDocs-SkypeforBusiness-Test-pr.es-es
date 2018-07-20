@@ -73,7 +73,7 @@ También puede crear opciones de configuración de Lync Phone Edition (solo en e
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True -MinPhonePinLength 8
 
-Para más información, consulte [New-CsUCPhoneConfiguration](new-csucphoneconfiguration.md).
+Para más información, consulte [New-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUCPhoneConfiguration).
 
 ## Vea también
 

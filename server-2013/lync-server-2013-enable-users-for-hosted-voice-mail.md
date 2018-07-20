@@ -19,7 +19,7 @@ Siga el procedimiento para que los usuarios de Lync Server 2013 queden habilitad
 
 Para obtener información detallada, vea [Administración de usuarios de Hosted Exchange en Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) en la documentación sobre planeamiento.
 
-Para ver los detalles sobre el cmdlet [Set-CsUser](set-csuser.md), consulte la documentación de Shell de administración de Lync Server.
+Para ver los detalles sobre el cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser), consulte la documentación de Shell de administración de Lync Server.
 
 <table>
 <thead>

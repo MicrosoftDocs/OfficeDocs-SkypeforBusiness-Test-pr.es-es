@@ -51,7 +51,7 @@ Es posible deshabilitar las cuentas de usuario de forma temporal para volver a h
     
         Set-CsUser -Identity "Ken Myer" -Enabled $True
 
-Para más información, vea el tema de ayuda del cmdlet [Set-CsUser](set-csuser.md).
+Para más información, vea el tema de ayuda del cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser).
 
 ## Vea también
 

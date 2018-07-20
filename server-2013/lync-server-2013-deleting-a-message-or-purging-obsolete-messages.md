@@ -23,5 +23,5 @@ Y este ejemplo sustituye los mensajes eliminados por una advertencia de que el m
 
     Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.litwareinc.com\ITChatRoom" -UserUri "sip:kenmyer@litwareinc.com" -ReplaceMessage "This message is no longer available."
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Remove-CsPersistentChatMessage](remove-cspersistentchatmessage.md).
+Si desea más información, consulte el tema de ayuda relativo al cmdlet [Remove-CsPersistentChatMessage](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsPersistentChatMessage).
 

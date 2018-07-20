@@ -47,7 +47,7 @@ Siga uno de los procedimientos que se indican a continuación para eliminar un i
     
 
     > [!NOTE]
-    > Para obtener información detallada sobre otras opciones, consulte <A href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</A>.
+    > Para obtener información detallada sobre otras opciones, consulte <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
 
 
@@ -59,6 +59,6 @@ Siga uno de los procedimientos que se indican a continuación para eliminar un i
 
 #### Otros recursos
 
-[Remove-CsUnassignedNumber](remove-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)
+[Remove-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUnassignedNumber)  
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

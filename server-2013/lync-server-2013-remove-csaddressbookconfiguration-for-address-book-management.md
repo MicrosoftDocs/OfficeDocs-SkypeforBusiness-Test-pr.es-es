@@ -31,5 +31,5 @@ Para obtener una descripción detallada del comando íntegro, remítase a lo sig
 
 #### Otros recursos
 
-[Remove-CsAddressBookConfiguration](remove-csaddressbookconfiguration.md)
+[Remove-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAddressBookConfiguration)
 

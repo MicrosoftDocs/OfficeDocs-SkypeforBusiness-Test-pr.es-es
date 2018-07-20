@@ -117,7 +117,7 @@ Las directivas de archivado por usuario también pueden asignarse mediante Windo
 
 ## Asignar una directiva de archivado por usuario a varios usuarios
 
-  - Este comando asigna la directiva de archivado por usuario RedmondArchivingPolicy a todos los usuarios que tengan cuentas alojadas en el grupo de registradores en atl-cs-001.litwareinc.com. Para más información sobre el parámetro Filtro usado en este comando, consulte la documentación del cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando asigna la directiva de archivado por usuario RedmondArchivingPolicy a todos los usuarios que tengan cuentas alojadas en el grupo de registradores en atl-cs-001.litwareinc.com. Para más información sobre el parámetro Filtro usado en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -127,7 +127,7 @@ Las directivas de archivado por usuario también pueden asignarse mediante Windo
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## Vea también
 

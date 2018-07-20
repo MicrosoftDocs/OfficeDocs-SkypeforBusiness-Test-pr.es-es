@@ -63,5 +63,5 @@ Puede eliminar configuraciones de parámetros de Lync Phone Edition utilizando W
     
         Get-CsUCPhoneConfiguration | Where-Object {$_.EnforcePhoneLock -eq $False} | Remove-CsUCPhoneConfiguration
 
-Para obtener más información, consulte [Remove-CsUCPhoneConfiguration](remove-csucphoneconfiguration.md).
+Para obtener más información, consulte [Remove-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUCPhoneConfiguration).
 

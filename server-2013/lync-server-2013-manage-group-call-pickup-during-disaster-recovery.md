@@ -27,7 +27,7 @@ Durante la recuperación ante desastres, los usuarios que se han redirigido al g
 
 Los intervalos de números de atención de llamadas grupales de la tabla de órbitas de estacionamiento de llamadas deben redirigirse al grupo de copia de seguridad una vez completado el proceso de conmutación por error en el grupo de copia de seguridad. Los intervalos de números deben redirigirse de vuelta al grupo principal una vez completado el proceso de conmutación por recuperación en el grupo principal. Para redirigir los intervalos de atención de llamadas grupales, use el cmdlet **Set-CsCallParkOrbit**.
 
-Si implementa un grupo nuevo con un nombre de dominio completo (FQDN) diferente para sustituir al principal, tendrá que volver a asignar todos los intervalos de números de atención de llamadas grupales asociados con el grupo principal al FQDN del grupo nuevo. Para ello, puede usar el cmdlet **Set-CsCallParkOrbit**. Para obtener detalles sobre el cmdlet **Set-CsCallParkOrbit**, consulte [Set-CsCallParkOrbit](set-cscallparkorbit.md).
+Si implementa un grupo nuevo con un nombre de dominio completo (FQDN) diferente para sustituir al principal, tendrá que volver a asignar todos los intervalos de números de atención de llamadas grupales asociados con el grupo principal al FQDN del grupo nuevo. Para ello, puede usar el cmdlet **Set-CsCallParkOrbit**. Para obtener detalles sobre el cmdlet **Set-CsCallParkOrbit**, consulte [Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit).
 
 ## Experiencia de atención de llamadas grupales durante un error en el grupo
 

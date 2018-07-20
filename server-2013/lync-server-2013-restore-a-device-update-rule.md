@@ -57,5 +57,5 @@ Las reglas de actualización de dispositivos también se pueden restaurar con Wi
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Restore-CsDeviceUpdateRule
 
-Para más información, consulte el tema de ayuda del cmdlet [Restore-CsDeviceUpdateRule](restore-csdeviceupdaterule.md).
+Para más información, consulte el tema de ayuda del cmdlet [Restore-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Restore-CsDeviceUpdateRule).
 

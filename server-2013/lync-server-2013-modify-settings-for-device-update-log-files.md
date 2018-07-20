@@ -116,5 +116,5 @@ Los ejemplos siguientes muestran un par de modos en los que puede usar **Set-CsD
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupTimeOfDay 03:00
 
-Para más información, consulte el tema de ayuda del cmdlet [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md).
+Para más información, consulte el tema de ayuda del cmdlet [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration).
 

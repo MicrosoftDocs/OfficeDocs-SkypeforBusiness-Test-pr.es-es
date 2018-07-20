@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2013-07-29_
 
 Después de configurar el equipo que funcionará como nodo de monitor, debe hacer lo siguiente:
 
-1.  Crear las cuentas de prueba que usarán estos nodos de monitor. Si usa el método de autenticación Negotiate, también debe usar el cmdlet [Set-CsTestUserCredential](set-cstestusercredential.md) para habilitar estas cuentas de prueba para su uso en el nodo de monitor.
+1.  Crear las cuentas de prueba que usarán estos nodos de monitor. Si usa el método de autenticación Negotiate, también debe usar el cmdlet [Set-CsTestUserCredential](https://docs.microsoft.com/en-us/powershell/module/skype/) para habilitar estas cuentas de prueba para su uso en el nodo de monitor.
 
 2.  Actualizar las opciones de configuración del nodo de monitor.
 

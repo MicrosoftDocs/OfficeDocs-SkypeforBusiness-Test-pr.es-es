@@ -19,7 +19,7 @@ En las tablas de este tema se enumeran todas las configuraciones de directivas d
 
 ## Configuración de la directiva de organizador
 
-En la siguiente tabla se indican todas las configuraciones de directivas de conferencias que puede aplicar a los organizadores de conferencias. Si desea una lista actualizada de las directivas de conferencias, consulte el tema del cmdlet [Set-CsClientPolicy](set-csclientpolicy.md).
+En la siguiente tabla se indican todas las configuraciones de directivas de conferencias que puede aplicar a los organizadores de conferencias. Si desea una lista actualizada de las directivas de conferencias, consulte el tema del cmdlet [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
 
 ### Configuración de la directiva de organizador
 

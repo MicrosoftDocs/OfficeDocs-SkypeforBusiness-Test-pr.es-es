@@ -59,7 +59,7 @@ El bloqueo del teléfono puede aplicarse mediante el cmdlet Set-CsUCPhoneConfigu
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration  -EnforcePhoneLock $True
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Set-CsUCPhoneConfiguration](set-csucphoneconfiguration.md).
+Para obtener más información, consulte el tema de ayuda del cmdlet [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUCPhoneConfiguration).
 
 ## Vea también
 

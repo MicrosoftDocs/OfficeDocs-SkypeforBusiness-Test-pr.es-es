@@ -23,7 +23,7 @@ Use los procedimientos de esta sección para administrar las aplicaciones de con
 
 ## Secciones relacionadas
 
-[Cmdlets de aplicaciones de confianza](lync-server-2013-trusted-applications-cmdlets.md)
+[Cmdlets de aplicaciones de confianza](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)
 
 ## Vea también
 

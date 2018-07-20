@@ -75,7 +75,7 @@ Si establece el valor de **UseNormalizationRules** en False para que los usuario
     
       - Si su implementación incluye una combinación de Lync Server 2013 y Lync Server 2010 u Office Communications Server 2007 R2, ejecute el siguiente cmdlet y asígnelo a cada grupo de servidores Lync Server 2013 de la topología:
         
-            New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            new-csaddressbookconfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  Espere hasta que la replicación de Almacén de administración central se complete en todos los grupos de servidores.
 

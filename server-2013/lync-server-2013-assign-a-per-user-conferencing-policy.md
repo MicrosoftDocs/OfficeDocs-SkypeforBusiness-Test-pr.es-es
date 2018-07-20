@@ -119,7 +119,7 @@ Las directivas de conferencia por usuario también se pueden asignar con Lync Se
 
 ## Asignación de una directiva de conferencia por usuario a varios usuarios
 
-  - Este comando asigna la directiva de conferencia por usuario HRConferencingPolicy a todos los usuarios que trabajan en el departamento de recursos humanos. Para más información sobre el parámetro LdapFilter utilizado en este comando, consulte la información sobre el cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando asigna la directiva de conferencia por usuario HRConferencingPolicy a todos los usuarios que trabajan en el departamento de recursos humanos. Para más información sobre el parámetro LdapFilter utilizado en este comando, consulte la información sobre el cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
 
@@ -129,7 +129,7 @@ Las directivas de conferencia por usuario también se pueden asignar con Lync Se
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para más información, vea el tema de ayuda sobre el cmdlet [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md).
+Para más información, vea el tema de ayuda sobre el cmdlet [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy).
 
 ## Vea también
 
