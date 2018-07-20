@@ -71,4 +71,3 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 [Set-CsNetworkRegionLink](set-csnetworkregionlink.md)  
 [Remove-CsNetworkRegionLink](remove-csnetworkregionlink.md)  
 [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)
-
