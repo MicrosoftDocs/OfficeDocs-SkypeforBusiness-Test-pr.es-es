@@ -63,13 +63,13 @@ La conectividad entre Lync y Skype permite a los usuarios de Skype y a los usuar
 
 Para más información sobre la compatibilidad con contactos, vea los temas acerca de cómo [agregar un contacto en Lync](http://office.microsoft.com/es-es/office365-lync-online-help/add-a-contact-in-lync-ha102828922.aspx) y [agregar un contacto externo en Lync](http://office.microsoft.com/es-es/office365-lync-online-help/add-an-external-contact-in-lync-ha104038998.aspx?ctt=5%26origin=ha102828922)
 
-Cuando la MSA de un usuario de Skype usa un nombre de dominio personalizado, como **bob@contoso.com**, los usuarios de Lync pueden agregarla a Lync de dos formas:
+Cuando la MSA de un usuario de Skype usa un nombre de dominio personalizado, como <strong>bob@contoso.com</strong>, los usuarios de Lync pueden agregarla a Lync de dos formas:
 
 1.  Con el icono **Agregar un contacto**
 
 2.  En el campo **Buscar una persona o una sala, o marcar un número**
 
-En ambos casos, el usuario de Lync debe escribir el correo electrónico del usuario de Skype con el siguiente formato: **usuario(nombre de dominio)@msn.com**.
+En ambos casos, el usuario de Lync debe escribir el correo electrónico del usuario de Skype con el siguiente formato: <strong>usuario(nombre de dominio)@msn.com</strong>.
 
 <table>
 <thead>
@@ -93,7 +93,7 @@ En ambos casos, el usuario de Lync debe escribir el correo electrónico del usua
     
     ![Cliente de Lync mostrando cómo agregar un contacto de Skype](images/Dn440175.ac4e2f21-c1d9-47d8-b99e-d49fe4eb36d7(OCS.15).jpg "Cliente de Lync mostrando cómo agregar un contacto de Skype")
 
-3.  En el campo **Dirección de MI,**, escriba la MSA del usuario de Skype con el formato **usuario(nombre de dominio)@msn.com**. Por ejemplo, para el usuario bob@contoso.com, se debería escribir **bob(contoso.com)@msn.com**, como se muestra abajo.
+3.  En el campo **Dirección de MI,**, escriba la MSA del usuario de Skype con el formato <strong>usuario(nombre de dominio)@msn.com</strong>. Por ejemplo, para el usuario bob@contoso.com, se debería escribir <strong>bob(contoso.com)@msn.com</strong>, como se muestra abajo.
     
     ![Configuración de contactos nuevos del cliente de Lync](images/Dn440175.422e69b5-2c0c-4260-858f-f10309af772f(OCS.15).jpg "Configuración de contactos nuevos del cliente de Lync")
 
@@ -101,7 +101,7 @@ En ambos casos, el usuario de Lync debe escribir el correo electrónico del usua
 
 5.  En el cuadro de lista desplegable **Definir relación de privacidad**, seleccione la configuración de contacto correspondiente y haga clic en **Aceptar**.
 
-6.  Los usuarios de Lync también pueden usar el cuadro **Buscar una persona o una sala, o marcar un número** en Lync y agregar una dirección que se parezca a **usuario(nombre de dominio)@msn.com**. Por ejemplo, para la MSA bob@contoso.com, se debería escribir **bob(contoso.com)@msn.com**, como se muestra abajo.
+6.  Los usuarios de Lync también pueden usar el cuadro **Buscar una persona o una sala, o marcar un número** en Lync y agregar una dirección que se parezca a <strong>usuario(nombre de dominio)@msn.com</strong>. Por ejemplo, para la MSA bob@contoso.com, se debería escribir <strong>bob(contoso.com)@msn.com</strong>, como se muestra abajo.
     
     ![Buscar un contacto en un cliente de Lync](images/Dn440175.69787db8-f9b9-49e5-b197-b90b10393301(OCS.15).jpg "Buscar un contacto en un cliente de Lync")
 
