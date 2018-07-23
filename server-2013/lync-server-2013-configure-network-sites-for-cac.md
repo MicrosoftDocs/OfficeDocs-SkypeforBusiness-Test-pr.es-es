@@ -47,11 +47,15 @@ Para ver la topología de red de ejemplo, consulte [Ejemplo: Recopilación de lo
 
 2.  Ejecute el cmdlet New-CsNetworkSite para crear sitios de red y aplicar un perfil de directiva de ancho de banda adecuado a cada sitio. Por ejemplo, ejecute lo siguiente:
     
-        New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
-    
-        New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
-    
-        New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
+    ```
+    New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
+    ```
+    ```
+    New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
+    ```
+    ```
+    New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
+    ```
 
 3.  Para terminar de crear sitios de red para la topología de ejemplo completa, repita el paso 2 para los sitios de red restringidos por el ancho de banda en las regiones EMEA y APAC.
 

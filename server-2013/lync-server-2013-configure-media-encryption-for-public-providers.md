@@ -39,10 +39,12 @@ Si va a implementar una federación de audio y vídeo (A/V) con Windows Live Mes
 
 2.  Desde el símbolo del sistema, escriba los siguientes comandos:
     
-        Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
-    
-        Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
-    
+    ```
+    Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
+    ```
+    ```
+    Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+    ```
 
     > [!NOTE]
     > Este es un paso necesario porque Windows Live Messenger no admite el cifrado de audio/vídeo. El comando configura su directiva global en una configuración de cifrado compatible en lugar de requerir el cifrado de los datos de audio y vídeo. Los clientes que admiten el cifrado continúan usando el cifrado, como Lync 2013.

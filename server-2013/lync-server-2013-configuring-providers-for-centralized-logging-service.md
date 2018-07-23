@@ -152,9 +152,12 @@ Donde cada proveedor definido con la directiva Add ya se ha definido a través d
 
 2.  Los cmdlets aquí suministrados permiten crear proveedores y actualizar los ya existentes. Para eliminar un proveedor, debe usar la directiva Replace del parámetro Provider de **Set-CsClsScenario**. La única forma de eliminar un proveedor por completo consiste en reemplazarlo por un proveedor predefinido que tenga el mismo nombre y usar la directiva Update. Por ejemplo, nuestro proveedor LyssProvider tiene definido un tipo de registro WPP, un nivel establecido en Debug y las marcas TF\_CONNECTION y TF\_DIAG. Deberá cambiar las marcas a “All”. Escriba lo siguiente para cambiar el proveedor:
     
-        $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
-    
-        Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+    ```
+    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
+    ```
+    ```
+    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+    ```
 
 3.  Escriba lo siguiente si quiere eliminar por completo un escenario y sus proveedores correspondientes:
     

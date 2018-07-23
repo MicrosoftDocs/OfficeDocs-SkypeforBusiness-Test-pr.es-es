@@ -41,15 +41,21 @@ Si necesita quitar la autenticación Kerberos de un sitio o retirar un sitio, de
 
 3.  En la línea de comandos, ejecute los dos comandos siguientes:
     
-        Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
-    
-        Enable-CsTopology
+    ```
+    Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
+    ```
+    ```
+    Enable-CsTopology
+    ```
     
     Por ejemplo:
     
-        Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
-    
-        Enable-CsTopology
+    ```
+    Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
+    ```
+    ```
+    Enable-CsTopology
+    ```
     
     <table>
     <thead>

@@ -185,13 +185,18 @@ La opción **Mostrar una foto de una dirección web** pasa a estar disponible en
 
 Puede establecer la directiva de cliente para habilitar la configuración de **Mostrar una foto de una dirección web** ejecutando la directiva [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) del Shell de administración de Lync Server. Los cmdlets de ejemplo siguientes demuestran cómo se establece la directiva globalmente para todos los usuarios de la implementación:
 
-    $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
-
-    $po=Get-CsClientPolicy -Identity Global
-
-    $po.PolicyEntry.Add($pe)
-
-    Set-CsClientPolicy -Instance $po
+  ```
+  $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
+  ```
+  ```
+  $po=Get-CsClientPolicy -Identity Global
+  ```
+  ```
+  $po.PolicyEntry.Add($pe)
+  ```
+  ```
+  Set-CsClientPolicy -Instance $po
+  ```
 
 Cuando se carga una imagen en el buzón del usuario, Exchange crea automáticamente una versión de menor resolución de la imagen, que puede utilizarse en las aplicaciones cliente. La foto de usuario también se actualiza en AD DS.
 

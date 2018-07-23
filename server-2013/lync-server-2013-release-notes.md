@@ -90,10 +90,12 @@ Cuando se cambia la configuración de la dirección IP de una implementación de
 
 Para solucionar este problema, reinicie los servicios de Lync Server después de cambiar la configuración de la dirección IP de la implementación. Para ello, ejecute los siguientes cmdlets en el Shell de administración de Lync Server:
 
-    Stop-CsWindowsService -graceful
-
-    Start-CsWindowsService
-
+  ```
+  Stop-CsWindowsService -graceful
+  ```
+  ```
+  Start-CsWindowsService
+  ```
 ## El cmdlet de transacciones sintéticas de conferencia de acceso telefónico local ya no está disponible en el módulo de administración de Lync Server 2013 (3212342)
 
 **Problema:**
@@ -346,9 +348,12 @@ Para solucionar este problema, actualice el Registro del sistema antes de instal
 
 1.  Abra Windows PowerShell y ejecute los siguientes cmdlets:
     
-        New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
-    
-        $a="HKU:\.Default\Control Panel\International"
+    ```
+    New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+    ```
+    ```
+    $a="HKU:\.Default\Control Panel\International"
+    ```
 
 2.  Para ver el valor actual, ejecute el siguiente cmdlet:
     

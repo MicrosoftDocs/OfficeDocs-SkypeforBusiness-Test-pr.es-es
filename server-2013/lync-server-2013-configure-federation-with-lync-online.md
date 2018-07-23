@@ -21,9 +21,12 @@ Siga los pasos de esta sección para configurar la interoperabilidad entre su im
 
 La federación permite a los usuarios de su implementación local comunicarse con usuarios de Office 365 de su organización. Para configurar la federación, ejecute los cmdlets siguientes:
 
-    Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting
-
-    New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+```
+Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting
+```
+```
+New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+```
 
 ## Configure su inquilino de Skype Empresarial Online para un espacio de dirección SIP compartido
 
@@ -33,20 +36,26 @@ Move-CsUser: HostedMigration fault: Error=(510), Description=(El inquilino de es
 
 Para configurar el espacio de dirección SIP compartido, establezca una sesión PowerShell remota con Skype Empresarial Online y, a continuación, ejecute el siguiente cmdlet:
 
-    Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
+```
+Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
+```
 
 Para establecer una sesión PowerShell remota con Skype Empresarial Online, tendrá que instalar primero el módulo Skype Empresarial Online para Windows PowerShell, que puede obtener en: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).
 
 Después de instalar el módulo, puede establecer una sesión remota con los siguientes cmdlets:
 
-    Import-Module LyncOnlineConnector
-
-    $cred = Get-Credential
-
-    $CSSession = New-CsOnlineSession -Credential $cred
-
-    Import-PSSession $CSSession -AllowClobber
-
+```
+Import-Module LyncOnlineConnector
+```
+```
+$cred = Get-Credential
+```
+```
+$CSSession = New-CsOnlineSession -Credential $cred
+```
+```
+Import-PSSession $CSSession -AllowClobber
+```
 Si desea más información sobre cómo establecer una sesión PowerShell remota con Skype Empresarial Online, consulte [Conectar con Lync Online mediante Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 Si desea más información sobre el uso del módulo de PowerShell Skype Empresarial Online, consulte [Administrar Lync Online con Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).

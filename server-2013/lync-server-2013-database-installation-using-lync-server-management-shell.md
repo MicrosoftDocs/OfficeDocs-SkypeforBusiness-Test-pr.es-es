@@ -65,11 +65,14 @@ A la hora de instalar bases de datos, **Install-CsDatabase** usa tres métodos b
 
 3.  Use el cmdlet **Install-CsDatabase** para instalar Almacén de administración central.
     
-        Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
-        -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
-        -Report <path to report file>
-    
-        Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
+    ```
+    Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
+    -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
+    -Report <path to report file>
+    ```
+    ```
+    Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
+    ```
     
     <table>
     <thead>
@@ -89,7 +92,9 @@ A la hora de instalar bases de datos, **Install-CsDatabase** usa tres métodos b
     
     Si dispone de tres unidades, se da prioridad al registro y los archivos de datos se distribuyen más adelante. Un ejemplo de un servidor de SQL Server configurado con seis unidades:
     
-        Install-CsDatabase -ConfiguredDatases -SqlServerFqdn sqlbe.contoso.net -DatabasePaths "D:\CSDynLogs","E:\CSRtcLogs","F:\MonCdrArcLogs","G:\MonCdrArchData","H:\AbsAppLog","I:\DynRtcAbsAppData" -Report "C:\Logs\InstallDatabases.html"
+    ```
+    Install-CsDatabase -ConfiguredDatases -SqlServerFqdn sqlbe.contoso.net -DatabasePaths "D:\CSDynLogs","E:\CSRtcLogs","F:\MonCdrArcLogs","G:\MonCdrArchData","H:\AbsAppLog","I:\DynRtcAbsAppData" -Report "C:\Logs\InstallDatabases.html"
+    ```
 
 5.  Cuando la instalación de la base de datos finaliza, puede cerrar Shell de administración de Lync Server 2013 o continuar con la instalación de las bases de datos configuradas de Lync Server 2013 en Generador de topologías.
 
@@ -117,11 +122,14 @@ A la hora de instalar bases de datos, **Install-CsDatabase** usa tres métodos b
 
 4.  Use el cmdlet **Install-CsDatabase** para instalar las bases de datos configuradas de Generador de topologías.
     
-        Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
-         -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
-    
-        Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
-        -Report "C:\Logs\InstallDatabases.html"
+    ```
+    Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
+      -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
+    ```
+    ```
+    Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
+      -Report "C:\Logs\InstallDatabases.html"
+    ```
     
     <table>
     <thead>

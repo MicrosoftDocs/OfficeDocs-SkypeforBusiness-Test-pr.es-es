@@ -77,9 +77,12 @@ El control remoto de llamadas precisa que cada grupo de servidores de Lync Serve
 
 4.  Para mantener una ruta estática creada recientemente en el Almacén de administración central, ejecute una de las opciones siguientes, según corresponda:
     
-        Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
-    
-        Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+    ```
+    Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
+    ```
+    ```
+    Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+    ```
 
 ## Vea también
 

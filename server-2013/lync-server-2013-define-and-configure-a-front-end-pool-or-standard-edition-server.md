@@ -89,9 +89,7 @@ Una vez definida la topología, siga el siguiente procedimiento para definir un 
 
 3.  En la página **Definir los equipos de este grupo**, escriba un FQDN de equipo para el primer Servidor front-end del grupo y luego haga clic en **Agregar**. Repita este paso para todos los equipos adicionales (hasta ocho) que desee agregar al grupo de servidores y luego haga clic en **Siguiente**.
 
-4.  
-    
-    En la página **Seleccionar características**, active las casillas de las características que desee en este grupo de servidores front-end. Por ejemplo, si está implementando solo las características de presencia y mensajería instantánea (MI), deberá activar la casilla **Conferencia** para habilitar la MI de varios participantes, pero no las casillas **Conferencia de acceso telefónico local (RTC)** , **Enterprise Voice** o **Control de admisión de llamadas**, ya que representan características de conferencias de colaboración, voz y vídeo.
+4. En la página **Seleccionar características**, active las casillas de las características que desee en este grupo de servidores front-end. Por ejemplo, si está implementando solo las características de presencia y mensajería instantánea (MI), deberá activar la casilla **Conferencia** para habilitar la MI de varios participantes, pero no las casillas **Conferencia de acceso telefónico local (RTC)** , **Enterprise Voice** o **Control de admisión de llamadas**, ya que representan características de conferencias de colaboración, voz y vídeo.
     
       - **Conferencia :** esta selección permite un amplio conjunto de características, entre las que se incluyen:
         

@@ -101,9 +101,12 @@ Los últimos pasos para migrar la puerta de enlace XMPP consisten en configurar 
 
 17. Después de recibir, importar y asignar el certificado público, debe detener y reiniciar los servicios del servidor perimetral. Para ello, escriba en la consola de administración de Lync Server:
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 ## Configurar una nueva puerta de enlace XMPP de Lync Server 2013
 

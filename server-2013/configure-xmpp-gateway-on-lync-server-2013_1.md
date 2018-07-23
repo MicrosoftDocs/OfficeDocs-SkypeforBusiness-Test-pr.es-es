@@ -87,9 +87,12 @@ Cuando configure directivas para admitir socios federados que usen el protocolo 
 
 17. Después de recibir, importar y asignar el certificado público, debe detener y reiniciar los servicios del servidor perimetral. Para ello, escriba en la consola de administración de Lync Server:
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 ## Configurar una nueva puerta de enlace XMPP de Lync Server 2013
 

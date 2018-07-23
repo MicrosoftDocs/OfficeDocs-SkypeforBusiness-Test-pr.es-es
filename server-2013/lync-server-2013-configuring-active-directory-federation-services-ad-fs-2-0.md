@@ -45,17 +45,25 @@ En la siguiente sección se describe cómo configurar los servicios de federaci�
 7.  Compruebe que se haya creado una nueva relación de confianza para el Lync Server 2013 con actualizaciones acumulativas para Lync Server 2013: servidores Enterprise Pool o Standard Edition, julio de 2013.
 
 8.  Cree y asigne una regla de autorización de emisión para la relación de confianza para usuario autenticado mediante Windows PowerShell ejecutando los siguientes comandos:
+
+```    
+$IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+```
     
-        $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
-    
-        Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
+```
+Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+```
 
 9.  Cree y asigne una regla de transformación de emisión para la relación de confianza para usuario autenticado mediante Windows PowerShell ejecutando los siguientes comandos:
-    
-        $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-    
-        Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+
+```    
+$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+```
+
+```
+Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+```
 
 10. Desde la consola de administración de AD FS 2.0, haga clic con el botón secundario en la relación de confianza para usuario autenticado y seleccione **Editar reglas de notificaciones**.
 
