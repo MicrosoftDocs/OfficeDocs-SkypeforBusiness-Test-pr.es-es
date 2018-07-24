@@ -17,16 +17,13 @@ _**Última modificación del tema:** 2016-12-08_
 
 Si su organización necesita la admisión de menos de 15 000 conexiones de cliente del servicio perimetral de acceso, 1000 conexiones activas de cliente del servicio de conferencia web de Lync Server y 500 sesiones simultáneas del servicio perimetral A/V, además de no ser importante la alta disponibilidad del servidor perimetral, esta topología ofrece las ventajas del hardware de menor coste y de una implementación más sencilla. Si necesita una mayor capacidad o requiere alta disponibilidad, debe implementar la topología de servidor perimetral consolidada escalada. Para obtener información, consulte:
 
-  -   
-    [Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  [Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)  
 
-  -   
-    [Perímetro consolidado escalado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  [Perímetro consolidado escalado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)  
 
-  -   
-    [Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  [Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)  
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si usa una dirección IP pública en Servidor perimetral, la puerta de enlace predeterminada en Servidor perimetral ya no es su firewall o enrutador, sino el enrutador o firewall de su servidor perimetral público, que será una dirección pública. El proxy inverso continúa usando el enrutador o firewall asociado con la red perimetral más externa. La diferencia entre el proxy inverso y el Servidor perimetral con direcciones IP públicas es que aquel sigue usando NAT, mientras que Servidor perimetral usa una relación de ruta.
 
 
@@ -54,7 +51,7 @@ Existen tecnologías de conversión de direcciones de red (NAT) para IPv6 que pe
 
 ![Escenario perimetral para servidor perimetral consolidado único](images/JJ205148.2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d(OCS.15).jpg "Escenario perimetral para servidor perimetral consolidado único")
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si usa el Control de admisión de llamadas (CAC), sigue teniendo que asignar direcciones de IPv4 a la interfaz interna de Servidor perimetral. CAC usa las direcciones IPv4 y debe tenerlas disponibles para funcionar.
 
 

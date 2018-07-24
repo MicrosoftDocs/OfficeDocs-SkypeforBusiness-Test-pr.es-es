@@ -24,26 +24,19 @@ Lync Server 2013 usa certificados para suministrar cifrado de comunicaciones y a
 
 No hay compatibilidad para una entrada de comodín como nombre de sujeto (también denominado nombre común o CN) para ninguna función. Las siguientes funciones de servidor son compatibles al usar entradas de comodín en el SAN:
 
-  -   
-    **Proxy inverso.**   La entrada de comodín en el SAN es compatible con el certificado de publicación de URL simple (de reunión y marcación).
+  **Proxy inverso.**   La entrada de comodín en el SAN es compatible con el certificado de publicación de URL simple (de reunión y marcación).  
 
-  -   
-    **Proxy inverso.**   La entrada de comodín en el SAN es compatible con las entradas de SAN para LyncDiscover en el certificado de publicación.
+  **Proxy inverso.**   La entrada de comodín en el SAN es compatible con las entradas de SAN para LyncDiscover en el certificado de publicación.  
 
-  -   
-    **Director.**   La entrada de comodín en el SAN es compatible con URL simples (de reunión y marcación) para LyncDiscover y LyncDiscoverInternal en componentes web de Director.
+  **Director.**   La entrada de comodín en el SAN es compatible con URL simples (de reunión y marcación) para LyncDiscover y LyncDiscoverInternal en componentes web de Director.  
 
-  -   
-    **Servidor front-end ( Standard Edition) y Grupo de servidores front-end ( Enterprise Edition).** La entrada de comodín en el SAN es compatible con URL simples (de reunión y marcación) y para entradas en el SAN para LyncDiscover y LyncDiscoverInternal en componentes web de front-end.
+  **Servidor front-end ( Standard Edition) y Grupo de servidores front-end ( Enterprise Edition).** La entrada de comodín en el SAN es compatible con URL simples (de reunión y marcación) y para entradas en el SAN para LyncDiscover y LyncDiscoverInternal en componentes web de front-end.  
 
-  -   
-    **Mensajería unificada de Exchange (UM).**   El servidor no usa entradas de SAN cuando se implementa como servidor independiente.
+  **Mensajería unificada de Exchange (UM).**   El servidor no usa entradas de SAN cuando se implementa como servidor independiente.  
 
-  -   
-    **Microsoft Exchange Server Servidor de acceso de cliente.**   Las entradas de comodín en el SAN son compatibles para clientes internos y externos.
+  **Microsoft Exchange Server Servidor de acceso de cliente.**   Las entradas de comodín en el SAN son compatibles para clientes internos y externos.  
 
-  -   
-    **Mensajería unificada de Exchange (UM) y Microsoft Exchange Server Servidor de acceso de cliente en el mismo servidor.**   Las entradas de comodín en el SANson compatibles.
+  **Mensajería unificada de Exchange (UM) y Microsoft Exchange Server Servidor de acceso de cliente en el mismo servidor.**   Las entradas de comodín en el SANson compatibles.  
 
 Funciones de servidor que no se abordan en este tema:
 

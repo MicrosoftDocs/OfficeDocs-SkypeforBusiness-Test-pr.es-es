@@ -22,39 +22,28 @@ Estas son las Notas de la versión de Lync Server 2013. Consulte este archivo pa
 Este documento contiene información importante que debe conocer antes de implementar y usar Lync Server 2013. Para más información sobre Lync Server 2013, vea la documentación de [Microsoft Lync Server 2013](microsoft-lync-server-2013.md).
 
 Este documento contiene las siguientes secciones:
+ 
+   Cliente de Lync 2013  
+  
+   Lync Server  
+  
+   Instalación  
+  
+   Movilidad  
 
-  -   
-    Cliente de Lync 2013
+   Conferencia  
 
-  -   
-    Lync Server
+   Telefonía IP empresarial  
 
-  -   
-    Instalación
+   Presencia  
 
-  -   
-    Movilidad
+   Aplicación de grupo de respuesta y aplicación de estacionamiento de llamadas  
 
-  -   
-    Conferencia
-
-  -   
-    Telefonía IP empresarial
-
-  -   
-    Presencia
-
-  -   
-    Aplicación de grupo de respuesta y aplicación de estacionamiento de llamadas
-
-  -   
-    Panel de control de Lync Server, Generador de topologías y Herramienta de planeación
-
-  -   
-    Localización
-
-  -   
-    Derechos de autor
+   Panel de control de Lync Server, Generador de topologías y Herramienta de planeación  
+  
+   Localización  
+ 
+   Derechos de autor  
 
 ## Cliente de Lync 2013
 
@@ -761,7 +750,7 @@ El parámetro *DropExistingDatabasesOnMirror* hace que las bases de datos afecta
 
 3.  Publique la topología.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Cada vez que haga un cambio en una relación de creación de reflejo de la base de datos back-end, debe reiniciar todos los Servidores front-end del grupo.
 
 

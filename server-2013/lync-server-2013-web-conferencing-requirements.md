@@ -17,11 +17,9 @@ _**Última modificación del tema:** 2016-12-08_
 
 Si ha elegido habilitar la conferencia web, tiene que planear lo siguiente:
 
-  -   
-    Obtenga acceso al almacén de archivos, que se usa para almacenar contenido de conferencia web.
+   Obtenga acceso al almacén de archivos, que se usa para almacenar contenido de conferencia web.  
 
-  -   
-    Integración con Servidor Office Web Apps, que es necesaria para compartir archivos de PowerPoint durante una conferencia.
+   Integración con Servidor Office Web Apps, que es necesaria para compartir archivos de PowerPoint durante una conferencia.  
 
 ## Almacén de archivos
 

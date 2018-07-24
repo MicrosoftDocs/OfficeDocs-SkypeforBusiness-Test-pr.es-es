@@ -85,7 +85,7 @@ La información siguiente le ayudará en la definición del certificado, el puer
 
 La planificación de certificados, requisitos de firewall, y de puerto y protocolo, y los requisitos DNS constituye generalmente un proceso muy sencillo si ha planificado o implementado Servidores perimetrales de Microsoft Lync Server 2013. Como la federación es una característica adicional que usa Servidor perimetral actual, los requisitos de planificación se cumplen generalmente por parte de la planificación y la implementación de Servidor perimetral. Use las tablas siguientes para determinar si se cumplen los requisitos, y realizar los cambios en el puerto o el protocolo y en el DNS según convenga.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si tiene un grupo de Servidores perimetrales y establece relaciones de federación con los socios de Lync Server 2013 o Lync Server 2010, puede usar el equilibrio de carga de DNS y los equilibradores de carga de hardware en las partes internas y externas de Servidores perimetrales. Si establece relaciones de federación con Office Communications Server 2007 o Office Communications Server 2007 R2, el equilibrio de carga de hardware ofrecerá asistencia de conmutación por error en el caso de un Servidor perimetral. El equilibrio de carga de DNS de Office Communications Server 2007 y Office Communications Server 2007 R2 no es consciente del equilibrio de carga de DNS. El socio Servidores perimetrales establecerá comunicación con el primer Servidor perimetral de su grupo. Si este Servidor perimetral genera errores, la comunicación no se conmutará automáticamente por error.
 
 
@@ -124,26 +124,23 @@ Las versiones anteriores de Lync Server y Office Communications Server proporcio
 
 La implementación y configuración de XMPP se trata en [Implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md). La planeación para admitir XMPP en su organización se realiza mediante la definición de reglas de puerto y protocolo en el firewall, la configuración de certificados y la adición de registros DNS. Las tablas siguientes resumen la información que necesita para implementar correctamente la federación de XMPP para su implementación.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > La capacidad XMPP de Lync Server 2013 está probada y es compatible con Microsoft para la federación de mensajería instantánea con Google Talk. Para otros sistemas XMPP, póngase en contacto con el proveedor para comprobar que son compatibles con la federación con Lync Server 2013 y para cualquier recomendación sobre implementación o solución de problemas.
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > La federación XMPP no es compatible para usuarios alojados en aplicaciones de sucursal con funciones de supervivencia. Esto se aplica a la visualización de información de presencia y al intercambio de mensajes instantáneos.
 
 
 
 En los siguientes temas se incluye orientación para definir certificados, puertos de firewall y entradas DNS para los tipos de escenarios de federación admitidos.
 
-  -   
-    [Resumen de certificados: federación SIP, federación XMPP y mensajería instantánea pública](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+   [Resumen de certificados: federación SIP, federación XMPP y mensajería instantánea pública](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)  
 
-  -   
-    [Resumen de puerto: federación SIP, federación XMPP y mensajería instantánea pública](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+   [Resumen de puerto: federación SIP, federación XMPP y mensajería instantánea pública](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)  
 
-  -   
-    [Resumen de DNS: federación SIP, federación XMPP y mensajería instantánea pública](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+   [Resumen de DNS: federación SIP, federación XMPP y mensajería instantánea pública](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)  
 
 ## Vea también
 

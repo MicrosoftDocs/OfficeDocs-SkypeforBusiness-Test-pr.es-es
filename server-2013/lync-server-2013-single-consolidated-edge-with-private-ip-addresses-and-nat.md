@@ -17,14 +17,11 @@ _**Última modificación del tema:** 2016-12-08_
 
 Si su organización necesita compatibilidad para menos de 15 000 conexiones de cliente del Servicio perimetral de acceso, 1000 conexiones cliente del Servicio de conferencia web de Lync Server y 500 sesiones simultáneas del servicio perimetral A/V, además de no ser importante la alta disponibilidad del servidor perimetral, esta topología ofrece las ventajas del hardware de menor coste y de una implementación más sencilla. Si necesita una mayor capacidad o requiere alta disponibilidad, deberá implementar la topología de servidor perimetral consolidada escalada. Para obtener información detallada, consulte uno de los siguientes:
 
-  -   
-    [Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  [Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)  
 
-  -   
-    [Perímetro consolidado escalado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  [Perímetro consolidado escalado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)  
 
-  -   
-    [Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  [Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)  
 
 La figura no muestra Directores, un rol de servidor opcional implementado en la red interna entre los Servidores perimetrales y sus Grupos de servidores front-end o su servidor. Para más información sobre la topología para directores, vea [Componentes requeridos para el director en Lync Server 2013](lync-server-2013-components-required-for-the-director.md). La figura representa un único proxy inverso.
 
@@ -49,7 +46,7 @@ Existen tecnologías de conversión de direcciones de red (NAT) para IPv6 que pe
 
 ![Topología perimetral consolidada única](images/Gg399001.d9b889c1-587c-4732-9b68-841186ccff78(OCS.15).jpg "Topología perimetral consolidada única")
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si usa el Control de admisión de llamadas (CAC), sigue teniendo que asignar direcciones de IPv4 a la interfaz interna de Servidor perimetral. CAC usa las direcciones IPv4 y debe tenerlas disponibles para funcionar.
 
 
