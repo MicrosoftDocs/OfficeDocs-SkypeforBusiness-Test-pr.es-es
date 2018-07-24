@@ -19,19 +19,9 @@ Para configurar un firewall para puertos y protocolos necesarios para la conecti
 
 Windows Live Messenger puede participar en comunicaciones de audio y vídeo con clientes Lync, lo cual permite una configuración de puertos y protocolos de firewall muy similar a la que tendría normalmente en el firewall para dar soporte a clientes Lync como usuarios externos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync es ahora más que nunca una poderosa herramienta de conexión entre empresas y con individuos de todo el mundo. La federación con Windows Live Messenger no precisa de ninguna licencia de usuario/dispositivo extra, aparte de la licencia de acceso de cliente (CAL) de Lync Standard. Esta lista incluirá también la federación con Skype, lo que permitirá a los usuarios de Lync llegar a cientos de millones de personas mediante voz y mensajería instantánea.<br />
-La federación con los contactos del cliente de Messenger finalizará oficialmente el 15 de marzo de 2013, excepto en Chino continental. Skype pasará a ser el cliente de federación de los usuarios federados que usaban Messenger.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Lync es ahora más que nunca una poderosa herramienta de conexión entre empresas y con individuos de todo el mundo. La federación con Windows Live Messenger no precisa de ninguna licencia de usuario/dispositivo extra, aparte de la licencia de acceso de cliente (CAL) de Lync Standard. Esta lista incluirá también la federación con Skype, lo que permitirá a los usuarios de Lync llegar a cientos de millones de personas mediante voz y mensajería instantánea.<br />
+> La federación con los contactos del cliente de Messenger finalizará oficialmente el 15 de marzo de 2013, excepto en Chino continental. Skype pasará a ser el cliente de federación de los usuarios federados que usaban Messenger.
 
 
 ## Resumen de firewall: Conectividad de mensajería instantánea pública

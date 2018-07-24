@@ -37,18 +37,9 @@ Una configuración de ejemplo para implementar el proxy XMPP define una federaci
 
 7.  En el Servidor perimetral, en el Asistente para la implementación de Lync Server, junto al **Paso 3: Solicitar, instalar o asignar certificados**, haga clic en **Ejecutar de nuevo**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si es la primera vez que implementa el servidor perimetral, aparecerá Ejecutar en lugar de Ejecutar de nuevo.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si es la primera vez que implementa el servidor perimetral, aparecerá Ejecutar en lugar de Ejecutar de nuevo.
+    
 
 
 8.  En la página **Tareas de certificado disponibles**, haga clic en **Crear una nueva solicitud de certificado**.
@@ -79,18 +70,9 @@ Una configuración de ejemplo para implementar el proxy XMPP define una federaci
 
 18. En la página **Configurar nombres alternativos de sujeto adicionales**, especifique cualquier nombre alternativo del firmante adicional que necesite.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si el proxy de XMPP está instalado, las entradas SAN se cumplimentan de forma predeterminada con el nombre de dominio (por ejemplo, contoso.com). Si necesita más entradas, agréguelas en este paso.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si el proxy de XMPP está instalado, las entradas SAN se cumplimentan de forma predeterminada con el nombre de dominio (por ejemplo, contoso.com). Si necesita más entradas, agréguelas en este paso.
+    
 
 
 19. En la página **Resumen de la solicitud**, revise la información del certificado que va a usar para generar la solicitud.

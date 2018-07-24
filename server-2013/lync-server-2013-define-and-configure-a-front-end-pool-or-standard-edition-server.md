@@ -215,62 +215,26 @@ Una vez definida la topología, siga el siguiente procedimiento para definir un 
     
       - Para definir un nuevo recurso compartido de archivos, seleccione **Definir un nuevo recurso compartido de archivos** , en el cuadro **FQDN de servidor de archivos** , escriba el FQDN del servidor de archivos existente donde se ubicará el recurso compartido de archivos y, a continuación, escriba un nombre para el recurso compartido de archivos en el cuadro **Recurso compartido de archivos** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El recurso compartido de archivos para Lync Server 2013 no puede ubicarse en el Servidor front-end. Tenga en cuenta que, en este ejemplo, el recurso compartido de archivos se ha colocado en el servidor back-end basado en SQL Server. Esta podría no ser una ubicación óptima para los requisitos de su organización y es posible que un servidor de archivos fuera una opción mejor. Puede definir el uso compartido de archivos sin que este se haya creado. Tendrá que crear el uso compartido de archivos en la ubicación que defina antes de publicar la topología.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El recurso compartido de archivos para Lync Server 2013 no puede ubicarse en el Servidor front-end. Tenga en cuenta que, en este ejemplo, el recurso compartido de archivos se ha colocado en el servidor back-end basado en SQL Server. Esta podría no ser una ubicación óptima para los requisitos de su organización y es posible que un servidor de archivos fuera una opción mejor. Puede definir el uso compartido de archivos sin que este se haya creado. Tendrá que crear el uso compartido de archivos en la ubicación que defina antes de publicar la topología.
+    
 
 
 9.  En la página **Especificar la dirección URL de servicios web** , siga uno o varios de estos procedimientos:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La dirección URL base es la identidad de Servicios web de la dirección URL, menos https://. Por ejemplo, si la dirección URL completa de Servicios web del grupo de servidores es https://pool01.contoso.net, la dirección URL base es pool01.contoso.net.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > La dirección URL base es la identidad de Servicios web de la dirección URL, menos https://. Por ejemplo, si la dirección URL completa de Servicios web del grupo de servidores es https://pool01.contoso.net, la dirección URL base es pool01.contoso.net.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si dispone de más de un Grupo de servidores front-end o de un Servidor front-end, el FQDN de servicios web externos ha de ser único. Por ejemplo, si define el FQDN de servicios web externos de un Servidor front-end como <strong>pool01.contoso.com</strong>, no puede usar <strong>pool01.contoso.com</strong> para otro Grupo de servidores front-end o Servidor front-end.</td>
-    </tr>
-    </tbody>
-    </table>
+    
+    > [!WARNING]  
+    > Si dispone de más de un Grupo de servidores front-end o de un Servidor front-end, el FQDN de servicios web externos ha de ser único. Por ejemplo, si define el FQDN de servicios web externos de un Servidor front-end como <strong>pool01.contoso.com</strong>, no puede usar <strong>pool01.contoso.com</strong> para otro Grupo de servidores front-end o Servidor front-end.
+    
     
     1.  Si está configurando el equilibrio de carga de DNS, active la casilla **Invalidar el FQDN del grupo de servidores de servicios web interno** , escriba la dirección URL base interna (que debe ser diferente al FQDN del grupo de servidores y podría ser, por ejemplo, internal-\<su dirección URL base\>) en **Dirección URL base interna** .
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si decide omitir los servicios web externos con un FQDN autodefinido, todos los FQDN deben ser diferentes de otros Grupo de servidores front-end, Director o un Grupo de directores. <strong>Use solo caracteres estándar</strong> (incluidos A–Z, a–z, 0–9 y guiones) al definir direcciones URL o nombres de dominio completos. No use caracteres Unicode ni de subrayado. Los caracteres no estándar en una URL o FQDN no suelen admitirse en DNS externos y CA públicos (es decir, cuando la URL o FQDN deben asignarse al nombre del sujeto o al nombre alternativo de sujeto en el certificado).</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!WARNING]  
+        > Si decide omitir los servicios web externos con un FQDN autodefinido, todos los FQDN deben ser diferentes de otros Grupo de servidores front-end, Director o un Grupo de directores. <strong>Use solo caracteres estándar</strong> (incluidos A–Z, a–z, 0–9 y guiones) al definir direcciones URL o nombres de dominio completos. No use caracteres Unicode ni de subrayado. Los caracteres no estándar en una URL o FQDN no suelen admitirse en DNS externos y CA públicos (es decir, cuando la URL o FQDN deben asignarse al nombre del sujeto o al nombre alternativo de sujeto en el certificado).
+        
     
     2.  Opcionalmente, escriba la dirección URL base externa en **Dirección URL base externa** . Deberá introducir la dirección URL base externa con el fin de diferenciar la asignación de nombres de dominio interna. Por ejemplo, el dominio interno es contoso.net, pero el nombre del dominio externo es contoso.com. La dirección URL se define mediante el nombre de dominio contoso.com. También es importante en el caso de un proxy inverso. El nombre de dominio de la dirección URL base externa será el mismo que el nombre de dominio del FQDN del servidor proxy inverso. La mensajería instantánea y la presencia deben tener acceso HTTP al Grupo de servidores front-end.
     

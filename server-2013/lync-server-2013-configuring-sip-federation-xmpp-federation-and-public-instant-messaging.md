@@ -56,18 +56,9 @@ La federación XMPP define una implementación externa basándose en el protocol
 
   - Creación de contactos federados de XMPP en el cliente Lync
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La capacidad XMPP de Lync Server 2013 está probada y es compatible con Microsoft para la federación de mensajería instantánea con Google Talk. Para otros sistemas XMPP, póngase en contacto con el proveedor para comprobar que son compatibles con la federación con Lync Server 2013 y para cualquier recomendación sobre implementación o solución de problemas.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> La capacidad XMPP de Lync Server 2013 está probada y es compatible con Microsoft para la federación de mensajería instantánea con Google Talk. Para otros sistemas XMPP, póngase en contacto con el proveedor para comprobar que son compatibles con la federación con Lync Server 2013 y para cualquier recomendación sobre implementación o solución de problemas.
+
 
 
 ## Federación externa de servidor perimetral, conectividad de mensajería instantánea pública y proceso de implementación de usuarios de XMPP

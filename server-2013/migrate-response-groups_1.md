@@ -33,64 +33,28 @@ Antes de migrar los grupos de respuesta, debe implementar un grupo de servidores
 
 Para migrar grupos de respuesta desde un grupo heredado al Lync Server 2013, ejecute el cmdlet **Move-CsRgsConfiguration**. Antes de ejecutar el **Move-CsRgsConfiguration**, primero debe instalar el paquete de interfaces de Compatibilidad con versiones anteriores del Instrumental de administración de Windows (WMI). Instale esta aplicación al ejecutar OCSWMIBC.msi. Puede encontrar el archivo OCSWMIBC.msi en los medios de instalación en la carpeta de instalación.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>El cmdlet para la migración de Grupo de respuesta traslada la configuración de Grupo de respuesta de todo el grupo de servidores. No es posible seleccionar grupos, colas o flujos de trabajo específicos para la migración.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> El cmdlet para la migración de Grupo de respuesta traslada la configuración de Grupo de respuesta de todo el grupo de servidores. No es posible seleccionar grupos, colas o flujos de trabajo específicos para la migración.
+
 
 
 Después de migrar los grupos de respuesta, debe actualizar la dirección URL que los agentes formales usan para iniciar y cerrar sesión en los grupos de respuesta, así como usar los cmdlets de Panel de control de Lync Server o Shell de administración de Lync Server para confirmar que todos los grupos de agentes, las colas y los flujos de trabajo se hayan trasladado correctamente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ204932.Caution(OCS.15).gif" title="Caution" alt="Caution" />Precaución:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Al migrar los grupos de respuesta, los grupos de respuesta de Office Communications Server 2007 R2 no se eliminan. No quite los grupos de respuesta de Office Communications Server 2007 R2. Si quita un grupo de respuesta de Office Communications Server 2007 R2, los de Lync Server 2013 dejarán de funcionar.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> Al migrar los grupos de respuesta, los grupos de respuesta de Office Communications Server 2007 R2 no se eliminan. No quite los grupos de respuesta de Office Communications Server 2007 R2. Si quita un grupo de respuesta de Office Communications Server 2007 R2, los de Lync Server 2013 dejarán de funcionar.
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se aconseja no eliminar ningún dato de la implementación anterior hasta retirar el grupo de servidores. También se recomienda encarecidamente exportar los grupos de respuesta inmediatamente después de haber realizado la migración. En caso de que un grupo de respuesta de Office Communications Server 2007 R2 se quite, se puede restaurar de la copia de seguridad para que los grupos de respuesta de Lync Server 2013 vuelvan a funcionar.</td>
-</tr>
-</tbody>
-</table>
+
+> [!WARNING]  
+> Se aconseja no eliminar ningún dato de la implementación anterior hasta retirar el grupo de servidores. También se recomienda encarecidamente exportar los grupos de respuesta inmediatamente después de haber realizado la migración. En caso de que un grupo de respuesta de Office Communications Server 2007 R2 se quite, se puede restaurar de la copia de seguridad para que los grupos de respuesta de Lync Server 2013 vuelvan a funcionar.
+
 
 
 Al ejecutar el cmdlet **Move-CsRgsConfiguration**, los grupos de agente, las colas, los flujos de trabajo y los archivos de audio permanecen en el grupo heredado para la reversión. Sin embargo, si no necesita revertir el grupo heredado, debe ejecutar el cmdlet **Move-CsApplicationEndpoint** para trasladar los objetos de contacto nuevamente al grupo heredado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se recomienda no eliminar ningún dato los grupos de respuesta del grupo de servidores heredado hasta retirar dicho grupo de servidores.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Se recomienda no eliminar ningún dato los grupos de respuesta del grupo de servidores heredado hasta retirar dicho grupo de servidores.
+
 
 
 El siguiente procedimiento para migrar las configuraciones de Grupo de respuesta asume que existe una relación uno a uno entre los grupos heredados y los grupos de Lync Server 2013. Si tiene previsto consolidar o dividir grupos de servidores durante la migración e implementación, debe planear qué grupo heredado asignar al grupo de servidores de Lync Server 2013.

@@ -23,25 +23,12 @@ La conectividad de mensajería instantánea pública es una clase especial de fe
 
   - Contactos de America Online (AOL)
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Desde el 1 de septiembre de 2012 no se pueden comprar ni renovar acuerdos de licencia de suscripción del usuario de Public IM Connectivity de Microsoft Lync (“PIC USL”). Los clientes que dispongan de licencias activas podrán mantener su federación con Yahoo! Messenger hasta la fecha de cierre del servicio. La fecha de cierre anunciada para AOL y Yahoo! se sitúa en junio de 2014. Para más información, vea <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013</a>.</p></li>
-<li><p>La PIC USL es una licencia de suscripción por usuario y mes necesaria para que Lync Server o el servidor Office Communications Server puedan federarse con Yahoo! Messenger. La capacidad de Microsoft para prestar este servicio ha dependido siempre del soporte ofrecido por Yahoo!, cuyo acuerdo subyacente no se va a renovar.</p></li>
-<li><p>Lync es ahora más que nunca una poderosa herramienta de conexión entre empresas y con individuos de todo el mundo. La federación con Windows Live Messenger no precisa de ninguna licencia de usuario/dispositivo extra, aparte de la licencia CAL de Lync Standard. Esta lista incluirá también la federación con Skype, lo que permitirá a los usuarios de Lync llegar a cientos de millones de personas mediante voz y mensajería instantánea.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> <ul>
+> <li><p>Desde el 1 de septiembre de 2012 no se pueden comprar ni renovar acuerdos de licencia de suscripción del usuario de Public IM Connectivity de Microsoft Lync (“PIC USL”). Los clientes que dispongan de licencias activas podrán mantener su federación con Yahoo! Messenger hasta la fecha de cierre del servicio. La fecha de cierre anunciada para AOL y Yahoo! se sitúa en junio de 2014. Para más información, vea <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013</a>.</p></li>
+> <li><p>La PIC USL es una licencia de suscripción por usuario y mes necesaria para que Lync Server o el servidor Office Communications Server puedan federarse con Yahoo! Messenger. La capacidad de Microsoft para prestar este servicio ha dependido siempre del soporte ofrecido por Yahoo!, cuyo acuerdo subyacente no se va a renovar.</p></li>
+> <li><p>Lync es ahora más que nunca una poderosa herramienta de conexión entre empresas y con individuos de todo el mundo. La federación con Windows Live Messenger no precisa de ninguna licencia de usuario/dispositivo extra, aparte de la licencia CAL de Lync Standard. Esta lista incluirá también la federación con Skype, lo que permitirá a los usuarios de Lync llegar a cientos de millones de personas mediante voz y mensajería instantánea.</p></li>
+> </ul>
 
 
 Esta clase de federación requiere las siguientes consideraciones de planificación:

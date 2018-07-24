@@ -35,18 +35,9 @@ En este tema, la base de datos principal de ejemplo tendrá el nombre de dominio
     
         Invoke-CsDataBaseFailover -PoolFqdn pool0.vdomain.com -DatabaseType User -NewPrincipal Mirror -Force -Verbose
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si ha configurado su base de datos back-end para que use la creación de reflejos sincronizados con un testigo, la conmutación por error es automática.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Si ha configurado su base de datos back-end para que use la creación de reflejos sincronizados con un testigo, la conmutación por error es automática.
+    
 
 
 4.  Una vez terminada, realice lo siguiente:

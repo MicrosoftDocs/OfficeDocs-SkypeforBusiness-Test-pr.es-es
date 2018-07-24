@@ -33,18 +33,9 @@ Mediante SQL Server Management Studio conectado a la instancia de base de datos 
 
 7.  Si la carpeta de copia de seguridad está ubicada en el servidor primario, escriba la ruta de acceso local a dicha carpeta en el cuadro **Si la carpeta de copia de seguridad está ubicada en el servidor primario, escriba una ruta local a la carpeta (ejemplo: c:\\backup)**. (Si la carpeta de copia de seguridad no está ubicada en el servidor primario, puede dejar vacío este cuadro).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si la cuenta de servicio de SQL Server del servidor principal se ejecuta debajo de la cuenta del sistema local, debe crear su carpeta de copia de seguridad en el servidor principal y especificar una ruta de acceso local a dicha carpeta.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si la cuenta de servicio de SQL Server del servidor principal se ejecuta debajo de la cuenta del sistema local, debe crear su carpeta de copia de seguridad en el servidor principal y especificar una ruta de acceso local a dicha carpeta.
+    
 
 
 8.  Configure los parámetros **Eliminar archivos con más de** y **Mostrar una alerta si no se produce una copia de seguridad tras**.

@@ -89,18 +89,9 @@ Al restaurar un servidor, se debe empezar con un equipo nuevo o limpio. Además,
 
   - Un servidor nuevo o limpio con el mismo nombre de dominio completo (FQDN) que el servidor con el error.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cuando instale el sistema operativo, tenga cuidado de no eliminar la cuenta de equipo en Servicios de dominio de Active Directory y confirme que sigue conservando los permisos de grupo para esa cuenta.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Cuando instale el sistema operativo, tenga cuidado de no eliminar la cuenta de equipo en Servicios de dominio de Active Directory y confirme que sigue conservando los permisos de grupo para esa cuenta.
+    
 
 
   - Software de instalación del sistema operativo. Para instalar el sistema operativo, use las configuraciones y procedimientos de implementación de servidores que se hayan instaurado en la organización. Deberá disponer de estos procedimientos y requisitos de configuración cuando restaure el servicio.
@@ -115,18 +106,9 @@ Al restaurar un servidor, se debe empezar con un equipo nuevo o limpio. Además,
 
   - Software para tomar imágenes del sistema.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le recomendamos hacer una copia de imagen del sistema después de instalar el sistema operativo y el servidor SQL Server y antes de proceder con la restauración. De este modo, la imagen se podrá usar como punto de reversión en caso de que algo vaya mal durante la restauración.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Le recomendamos hacer una copia de imagen del sistema después de instalar el sistema operativo y el servidor SQL Server y antes de proceder con la restauración. De este modo, la imagen se podrá usar como punto de reversión en caso de que algo vaya mal durante la restauración.
+    
 
 
   - Software de instalación de Lync Server 2013. El Asistente para implementación de Lync Server se encuentra en la carpeta o el medio de instalación de Lync Server, en \\setup\\amd64\\Setup.exe.

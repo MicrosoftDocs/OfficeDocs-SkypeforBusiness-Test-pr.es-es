@@ -33,29 +33,11 @@ En un sitio, los servidores front-end, los servidores Standard Edition y los dir
     
         Set-CsKerberosAccountPassword -FromComputer fe01.contoso.com -ToComputer dir01.contoso.com
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El nombre del equipo de origen y del equipo de destino deben ser un nombre de dominio completo (FQDN) del servidor. No puede usar el FQDN del grupo de servidores a menos que el nombre del mismo sea igual que el nombre del equipo que está usando como equipo de origen o equipo de destino.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El nombre del equipo de origen y del equipo de destino deben ser un nombre de dominio completo (FQDN) del servidor. No puede usar el FQDN del grupo de servidores a menos que el nombre del mismo sea igual que el nombre del equipo que está usando como equipo de origen o equipo de destino.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Después de realizar cambios en la autenticación Kerberos, como agregar o quitar una cuenta, deberá ejecutar <strong>Enable-CsTopology</strong> desde el símbolo del sistema del Shell de administración de Lync Server.</td>
-    </tr>
-    </tbody>
-    </table>
+    
+    > [!IMPORTANT]  
+    > Después de realizar cambios en la autenticación Kerberos, como agregar o quitar una cuenta, deberá ejecutar <strong>Enable-CsTopology</strong> desde el símbolo del sistema del Shell de administración de Lync Server.
+    
 

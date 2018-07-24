@@ -29,18 +29,9 @@ Para obtener información detallada sobre la herramienta de planificación y el 
 
 En la siguiente tabla se proporciona información general sobre el proceso de implementación de servidores perimetrales. Para comprobar las decisiones de planificación que se deben llevar a cabo antes de la implementación del acceso de los usuarios externos, consulte [Escenarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La información de la siguiente tabla se centra en una nueva implementación. Si ha implementado servidores perimetrales en un entorno de Lync Server 2010, Office Communications Server 2007 R2 o Office Communications Server 2007, consulte <a href="migration.md">Migración</a> para obtener información sobre la migración a Lync Server 2013. La migración no se admite en ninguna versión anterior de Office Communications Server 2007 R2, incluidos Office Communications Server 2007, Live Communications Server 2005 y Live Communications Server 2003.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> La información de la siguiente tabla se centra en una nueva implementación. Si ha implementado servidores perimetrales en un entorno de Lync Server 2010, Office Communications Server 2007 R2 o Office Communications Server 2007, consulte <a href="migration.md">Migración</a> para obtener información sobre la migración a Lync Server 2013. La migración no se admite en ninguna versión anterior de Office Communications Server 2007 R2, incluidos Office Communications Server 2007, Live Communications Server 2005 y Live Communications Server 2003.
+
 
 
 Para mejorar el rendimiento y la seguridad de los servidores perimetrales, además de facilitar la implementación de los mismos, aplique las mejores prácticas que se indican a continuación al implementar la red perimetral y los servidores perimetrales:
@@ -77,13 +68,13 @@ Para mejorar el rendimiento y la seguridad de los servidores perimetrales, adem�
 </ul>
 <p></p></td>
 <td><p>Grupo <strong>Administradores de domino</strong> y <strong>RTCUniversalServerAdmins</strong> o grupo <strong>CsAdmins</strong></p>
-<div class="alert">
+
 
 > [!NOTE]
 > Se puede definir una topología mediante una cuenta que sea miembro del grupo de usuarios local, pero para publicar una topología se necesita una cuenta que sea miembro del grupo <STRONG>Administradores de dominio</STRONG> y del grupo <STRONG>RTCUniversalServerAdmins</STRONG>.
 
 
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Creación de una topología perimetral y de director Lync Server 2013</a> en la documentación de implementación</p></td>
 </tr>
 <tr class="even">
@@ -94,28 +85,14 @@ Para mejorar el rendimiento y la seguridad de los servidores perimetrales, adem�
 <li><p>Configure los registros DNS internos y externos (A de host y AAAA para IPv4 e IPv6), incluida la configuración del sufijo DNS en el equipo que se va a implementar como servidor perimetral.</p></li>
 <li><p>(Opcional) Cree e instale los certificados públicos. El tiempo necesario para obtener los certificados depende de la entidad de certificación (CA) que emite el certificado. Si no se realiza este paso en este momento, debe hacerse durante la instalación del servidor perimetral. El servicio de servidor perimetral no puede iniciarse hasta que se obtengan los certificados.</p></li>
 <li><p>Proporcione soporte para la conectividad de mensajería instantánea pública si la implementación va a admitir comunicaciones con usuarios de Windows Live, AOL o Yahoo!.</p>
-<div class="alert">
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>El 1 de septiembre de 2012, la licencia de suscripción del usuario de Public IM Connectivity de Microsoft Lync (&quot;PIC USL&quot;) dejó de estar disponible para su compra en los contratos nuevos y en las prórrogas de contratos. Los clientes que tengan licencias activas podrán seguir federándose con Yahoo! Messenger hasta la fecha de cierre del servicio. La fecha anunciada para el fin de vida de AOL y Yahoo! es junio de 2014. Para más detalles, vea <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013</a>.</p></li>
-<li><p>PIC USL es una licencia de suscripción por usuario/por mes requerida por Lync Server u Office Communications Server para la federación con Yahoo! Messenger. La posibilidad de Microsoft de proporcionar este servicio depende de la compatibilidad con Yahoo!, cuyo contrato subyacente está llegando a su fin.</p></li>
-<li><p>Hoy más que nunca, Lync es una herramienta eficaz para conectarse dentro de una organización y con individuos de todo el mundo. La federación con Windows Live Messenger no requiere ninguna licencia de usuario o dispositivo adicional aparte de la CAL estándar de Lync. La federación con Skype se agregará a esta lista, lo que permitirá a los usuarios de Lync conectarse con cientos de millones de personas a través de mensajería instantánea y voz.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!IMPORTANT]  
+> <ul>
+> <li><p>El 1 de septiembre de 2012, la licencia de suscripción del usuario de Public IM Connectivity de Microsoft Lync (&quot;PIC USL&quot;) dejó de estar disponible para su compra en los contratos nuevos y en las prórrogas de contratos. Los clientes que tengan licencias activas podrán seguir federándose con Yahoo! Messenger hasta la fecha de cierre del servicio. La fecha anunciada para el fin de vida de AOL y Yahoo! es junio de 2014. Para más detalles, vea <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013</a>.</p></li>
+> <li><p>PIC USL es una licencia de suscripción por usuario/por mes requerida por Lync Server u Office Communications Server para la federación con Yahoo! Messenger. La posibilidad de Microsoft de proporcionar este servicio depende de la compatibilidad con Yahoo!, cuyo contrato subyacente está llegando a su fin.</p></li>
+> <li><p>Hoy más que nunca, Lync es una herramienta eficaz para conectarse dentro de una organización y con individuos de todo el mundo. La federación con Windows Live Messenger no requiere ninguna licencia de usuario o dispositivo adicional aparte de la CAL estándar de Lync. La federación con Skype se agregará a esta lista, lo que permitirá a los usuarios de Lync conectarse con cientos de millones de personas a través de mensajería instantánea y voz.</p></li>
+> </ul>
+> </li>
 <li><p>Proporcione soporte para XMPP y compatibilidad con la federación para Office Communications Server 2007, Office Communications Server 2007 R2, los socios de Lync Server 2010, si la implementación los utiliza</p></li>
 <li><p>Configure los firewalls.</p></li>
 </ol></td>

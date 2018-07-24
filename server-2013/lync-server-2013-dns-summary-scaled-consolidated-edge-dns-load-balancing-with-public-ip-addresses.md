@@ -67,18 +67,9 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
     
     Las direcciones IP privadas de Servicio perimetral de conferencia web y de Servicio perimetral A/V son direcciones IP adicionales de la sección **Avanzadas** de las propiedades de **Protocolo de Internet versión 4 (TCP/IPv4)** y **Protocolo de Internet versión 6 (TCP/IPv6)** de las **Propiedades de conexión de área local** en Windows Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La configuración del Servidor perimetral con dos adaptadores de red es una de las dos opciones disponibles. La otra opción es usar un adaptador de red para el lado interno y tres adaptadores de red para el lado externo del Servidor perimetral. La principal ventaja de esta opción es un adaptador de red distinto por servicio de Servidor perimetral, y es necesaria la recopilación de datos potencialmente más concisos al solucionar problemas.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> La configuración del Servidor perimetral con dos adaptadores de red es una de las dos opciones disponibles. La otra opción es usar un adaptador de red para el lado interno y tres adaptadores de red para el lado externo del Servidor perimetral. La principal ventaja de esta opción es un adaptador de red distinto por servicio de Servidor perimetral, y es necesaria la recopilación de datos potencialmente más concisos al solucionar problemas.
+
 
 
 ### Registros DNS necesarios para una topología perimetral consolidada escalada, equilibrio de carga de DNS con direcciones IP públicas (ejemplo)
@@ -164,18 +155,9 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaz externa del Servidor perimetral de acceso SIP. Necesaria para la detección automática DNS de su federación ante los posibles socios de federación. Conocida como “Dominios SIP permitidos” (denominado federación ampliada en versiones anteriores).</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Repita tantas veces como sea necesario para todos los dominios SIP con usuarios habilitados para Lync y clientes de Microsoft Lync Mobile que usen el Servicios de notificaciones de inserción o el Servicios de notificaciones de inserción de Apple</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Repita tantas veces como sea necesario para todos los dominios SIP con usuarios habilitados para Lync y clientes de Microsoft Lync Mobile que usen el Servicios de notificaciones de inserción o el Servicios de notificaciones de inserción de Apple
+
 
 </div></td>
 </tr>

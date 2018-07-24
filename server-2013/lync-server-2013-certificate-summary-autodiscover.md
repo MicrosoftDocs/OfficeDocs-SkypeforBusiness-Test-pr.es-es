@@ -23,18 +23,9 @@ La decisión de usar listas de nombres alternativos del sujeto en servidores pro
 
   - **Publicado en el puerto 443**   La lista de nombres alternativos del sujeto de los certificados usados por la regla de publicación de servicios web externos debe contener una entrada *lyncdiscover.\<dominiosip\>* para cada dominio SIP de su organización.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se recomienda encarecidamente usar HTTPS en lugar de HTTP. HTTPS usa certificados para cifrar el tráfico. HTTP no proporciona cifrado y los datos enviados serán texto sin formato.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Se recomienda encarecidamente usar HTTPS en lugar de HTTP. HTTPS usa certificados para cifrar el tráfico. HTTP no proporciona cifrado y los datos enviados serán texto sin formato.
+    
 
 
 La reemisión de certificados mediante una entidad de certificación interna suele ser un proceso sencillo, pero para certificados públicos usados en la regla de publicación de servicios web, puede resultar costoso agregar varias entradas de nombres alternativos del sujeto. Para solucionar este problema, se admite la conexión de detección automática inicial a través del puerto 80, que luego se redirige al puerto 8080 en el Director o el Servidor front-end.

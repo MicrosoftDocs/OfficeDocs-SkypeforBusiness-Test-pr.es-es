@@ -25,18 +25,9 @@ El control remoto de llamadas precisa que cada grupo de servidores de Lync Serve
 
 3.  Para crear una ruta estática y ponerla en la variable $TLSRoute o $TCPRoute, efectúe una de las acciones siguientes:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para establecer una coincidencia con los dominios secundarios de un dominio, use un valor de comodín en el parámetro MatchUri. Por ejemplo, <strong>*.contoso.net</strong>. Ese valor coincide con todos los dominios que tienen el sufijo <strong>contoso.net</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Para establecer una coincidencia con los dominios secundarios de un dominio, use un valor de comodín en el parámetro MatchUri. Por ejemplo, <strong>*.contoso.net</strong>. Ese valor coincide con todos los dominios que tienen el sufijo <strong>contoso.net</strong>.
+    
     
       - Para una conexión de Seguridad de la capa de transporte (TLS), escriba el siguiente comando en el símbolo del sistema:
         

@@ -29,25 +29,12 @@ Estos pasos están pensados para recuperar la configuración tal y como estaba a
 
 1.  Elimine todos los servidores de la lista de servidores activos de Servidor de chat persistente mediante el cmdlet `Set-CsPersistentChatActiveServer` del Shell de administración de Lync Server. Esto impide que los Servidores de chat persistente se conecten a las base de datos mgc y mgccomp durante la conmutación por recuperación.
     
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El Agente SQL Server del servidor back-end secundario de Servidor de chat persistente debe ejecutarse con una cuenta con privilegios, que debe incluir específicamente:
-    <ul>
-    <li><p>Acceso de lectura al recurso compartido de red en el que están las copias de seguridad.</p></li>
-    <li><p>Acceso de escritura al directorio local en el que las copias de seguridad se copien.</p></li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+	> El Agente SQL Server del servidor back-end secundario de Servidor de chat persistente debe ejecutarse con una cuenta con privilegios, que debe incluir específicamente:
+    > <ul>
+    > <li><p>Acceso de lectura al recurso compartido de red en el que están las copias de seguridad.</p></li>
+    > <li><p>Acceso de escritura al directorio local en el que las copias de seguridad se copien.</p></li>
+    > </ul>
 
 
 2.  Deshabilitación de la creación de reflejos en la base de datos mgc de copia de seguridad:
@@ -106,18 +93,9 @@ Estos pasos están pensados para recuperar la configuración tal y como estaba a
 
 6.  Defina los servidores activos del Servidor de chat persistente. En el Shell de administración de Lync Server, use el cmdlet **Set-CsPersistentChatActiveServer** para definir la lista de servidores activos.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Todos los servidores activos tienen que estar en el mismo centro de datos que la nueva base de datos principal o en un centro de datos que tenga una conexión con una latencia baja o un ancho de banda alto con la base de datos.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Todos los servidores activos tienen que estar en el mismo centro de datos que la nueva base de datos principal o en un centro de datos que tenga una conexión con una latencia baja o un ancho de banda alto con la base de datos.
+    
 
 
 Para restaurar el grupo de servidores a su estado normal, ejecute el comando Windows PowerShell siguiente:

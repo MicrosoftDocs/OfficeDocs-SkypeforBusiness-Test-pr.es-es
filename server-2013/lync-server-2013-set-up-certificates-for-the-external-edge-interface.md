@@ -15,18 +15,9 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2016-12-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Al ejecutar el Asistente para certificados, asegúrese de que ha iniciado sesión usando una cuenta que es miembro de un grupo con los permisos asignados adecuados para el tipo de plantilla de certificado que use. De manera predeterminada, una solicitud de certificado de Lync Server usará la plantilla de certificado Servidor web. Si usa una cuenta que es miembro del grupo RTCUniversalServerAdmins para solicitar un certificado usando esta plantilla, compruebe que el grupo tenga asignados los permisos Inscribir necesarios para usar la plantilla.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Al ejecutar el Asistente para certificados, asegúrese de que ha iniciado sesión usando una cuenta que es miembro de un grupo con los permisos asignados adecuados para el tipo de plantilla de certificado que use. De manera predeterminada, una solicitud de certificado de Lync Server usará la plantilla de certificado Servidor web. Si usa una cuenta que es miembro del grupo RTCUniversalServerAdmins para solicitar un certificado usando esta plantilla, compruebe que el grupo tenga asignados los permisos Inscribir necesarios para usar la plantilla.
+
 
 
 Cada servidor perimetral requiere un certificado público en la interfaz entre la red perimetral e Internet. Asimismo, el nombre alternativo de sujeto del certificado debe contener los nombres externos de los nombres de dominio completos (FQDN) del servicio perimetral de acceso y del servicio perimetral de conferencia web.
@@ -173,18 +164,9 @@ Si decide usar la Microsoft Management Console (MMC) de los certificados para im
 
 6.  Haga doble clic en **Certificados (equipo local)** para ampliar los almacenes de certificados, haga doble clic en **Personal** y, a continuación, haga doble clic en **Certificados**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si no hay certificados en el almacén Certificados Personal para el equipo local, no habrá una clave privada asociada al certificado que se importó. Revise los pasos para la solicitud y la importación. Si el problema continúa, póngase en contacto con su administrador o proveedor de entidades de certificación.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si no hay certificados en el almacén Certificados Personal para el equipo local, no habrá una clave privada asociada al certificado que se importó. Revise los pasos para la solicitud y la importación. Si el problema continúa, póngase en contacto con su administrador o proveedor de entidades de certificación.
+    
 
 
 7.  En el **almacén Certificados Personal del equipo local**, haga clic con el botón secundario en el certificado que va a exportar, haga clic en **Todas las tareas** y, a continuación, haga clic en **Exportar**.
@@ -203,18 +185,9 @@ Si decide usar la Microsoft Management Console (MMC) de los certificados para im
     
       - Exportar todas las propiedades extendidas
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Cuando exporte el certificado desde un servidor perimetral, no seleccione <strong>Eliminar la clave privada si la exportación es correcta</strong> . Al seleccionar esta opción es necesario importar el certificado y la clave privada a este servidor perimetral.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!WARNING]  
+        > Cuando exporte el certificado desde un servidor perimetral, no seleccione <strong>Eliminar la clave privada si la exportación es correcta</strong> . Al seleccionar esta opción es necesario importar el certificado y la clave privada a este servidor perimetral.
+        
 
 
 10. Después, haga clic en **Siguiente**.

@@ -19,18 +19,9 @@ Lync Server 2013Telefonía IP empresarial requiere que todas las cadenas de marc
 
 Mediante la conversión de la ruta saliente del servidor, se pueden reducir los requisitos de configuración de cada entidad del mismo nivel que el tronco individual para convertir los números de teléfono en un formato de marcado local. Cuando se planea cuántas puertas de enlace y cuáles de ellas se asociarán a un clúster del Servidor de mediación específico, puede resultar de utilidad agrupar entidades del mismo nivel que el tronco con requisitos de marcado local similares. De este modo, se puede reducir el número de reglas de conversión requeridas y el tiempo necesario para escribirlas.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La asociación de una o más reglas de conversión a una configuración del tronco de Telefonía IP empresarial debería usarse como alternativa a la configuración de reglas de conversión en el tronco. No asocie reglas de conversión a una configuración del tronco de Telefonía IP empresarial si ha configurado reglas de conversión en el tronco, ya que ambas reglas podrían entrar en conflicto.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> La asociación de una o más reglas de conversión a una configuración del tronco de Telefonía IP empresarial debería usarse como alternativa a la configuración de reglas de conversión en el tronco. No asocie reglas de conversión a una configuración del tronco de Telefonía IP empresarial si ha configurado reglas de conversión en el tronco, ya que ambas reglas podrían entrar en conflicto.
+
 
 
 ## Reglas de conversión de ejemplo

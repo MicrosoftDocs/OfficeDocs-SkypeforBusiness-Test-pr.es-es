@@ -65,18 +65,9 @@ Use uno de los siguientes procedimientos para abrir Panel de control de Lync Ser
 
 1.  Desde una cuenta de usuario asignada a la función CsAdministrator o a otra función que tenga los derechos de usuario y permisos apropiados para la tarea que se va a realizar, inicie sesión en un equipo de la implementación interna con una resolución de pantalla mínima de 1024 × 768.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si configuró un localizador uniforme de recursos (URL) simple de administración, puede obtener acceso a Panel de control de Lync Server 2013 desde un explorador de Internet que se está ejecutando en cualquier equipo dentro del firewall de la organización. Para obtener información sobre la configuración de la URL simple de administración, consulte <a href="lync-server-2013-planning-for-simple-urls.md">Planeación de las direcciones URL simples en Lync Server 2013</a> en la documentación de planeación y <a href="lync-server-2013-edit-or-configure-simple-urls.md">Editar o configurar direcciones URL sencillas en Lync Server 2013</a> en la documentación de implementación.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si configuró un localizador uniforme de recursos (URL) simple de administración, puede obtener acceso a Panel de control de Lync Server 2013 desde un explorador de Internet que se está ejecutando en cualquier equipo dentro del firewall de la organización. Para obtener información sobre la configuración de la URL simple de administración, consulte <a href="lync-server-2013-planning-for-simple-urls.md">Planeación de las direcciones URL simples en Lync Server 2013</a> en la documentación de planeación y <a href="lync-server-2013-edit-or-configure-simple-urls.md">Editar o configurar direcciones URL sencillas en Lync Server 2013</a> en la documentación de implementación.
+    
 
 
 2.  Abra una ventana del explorador y escriba la dirección URL de administración configurada para la organización.

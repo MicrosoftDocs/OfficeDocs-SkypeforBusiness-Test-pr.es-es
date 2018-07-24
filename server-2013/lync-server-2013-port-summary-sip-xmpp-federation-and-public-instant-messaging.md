@@ -21,19 +21,9 @@ Para configurar en el firewall los puertos y protocolos necesarios para admitir 
 
 Windows Live Messenger puede participar en comunicaciones de audio y vídeo con los clientes de Lync, por lo que la configuración de puertos y protocolos del firewall es muy similar a la que tendría normalmente en el firewall para admitir a los clientes de Lync como usuarios externos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync es, ahora más que nunca, una eficaz herramienta para conectar organizaciones e individuos de todo el mundo. La federación con Windows Live Messenger no precisa de ninguna licencia de usuario o dispositivo adicional, aparte de la licencia de acceso de cliente (CAL) estándar de Lync. Esta lista incluirá también la federación con Skype, lo que permitirá a los usuarios de Lync llegar a cientos de millones de personas con voz y mensajería instantánea.<br />
-La federación con los contactos de clientes Messenger finalizará oficialmente el 15 de marzo de 2013, excepto en China continental. Skype pasará a ser el cliente de federación de los usuarios federados que usaban Messenger.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Lync es, ahora más que nunca, una eficaz herramienta para conectar organizaciones e individuos de todo el mundo. La federación con Windows Live Messenger no precisa de ninguna licencia de usuario o dispositivo adicional, aparte de la licencia de acceso de cliente (CAL) estándar de Lync. Esta lista incluirá también la federación con Skype, lo que permitirá a los usuarios de Lync llegar a cientos de millones de personas con voz y mensajería instantánea.<br />
+> La federación con los contactos de clientes Messenger finalizará oficialmente el 15 de marzo de 2013, excepto en China continental. Skype pasará a ser el cliente de federación de los usuarios federados que usaban Messenger.
 
 
 Los puertos y protocolos definidos para el proxy de protocolo extensible de mensajería y presencia (XMPP) implementado en el Servidor perimetral posibilitan las comunicaciones desde el socio federado de XMPP hasta el Servidor perimetral, y también posibilitan la comunicación desde su Servidor perimetral hasta el socio federado de XMPP. Además, hay una regla definida en el firewall de conexión interna para las comunicaciones entre el Servidor front-end o el Grupo de servidores front-end y el Servidor perimetral o el Grupo de servidores perimetrales.

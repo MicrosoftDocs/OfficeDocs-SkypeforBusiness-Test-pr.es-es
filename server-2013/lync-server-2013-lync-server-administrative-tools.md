@@ -53,24 +53,11 @@ Puede usar Panel de control de Lync Server 2013 para realizar la mayoría de las
 
 Panel de control de Lync Server se instala automáticamente en cada servidor front-end o servidor Standard Edition Lync Server. En esta versión, se administran de forma remota los servidores perimetrales. También puede instalar Panel de control de Lync Server en otro equipo, como una consola de administración desde la que desea administrar centralmente Lync Server. Para más información, consulte [Instalar las herramientas administrativas de Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md).
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Para establecer la configuración mediante Panel de control de Lync Server, debe haber iniciado sesión con una cuenta que tenga asignado el rol CsAdministrator. Para más información sobre los roles administrativos predefinidos disponibles en Lync Server 2013, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planeación del control de acceso basado en roles en Lync Server 2013</a>.</p></li>
-<li><p>Para configurar los valores con Panel de control de Lync Server, deberá utilizar también un equipo con una resolución de pantalla mínima de 1024 x 768.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> <ul>
+> <li><p>Para establecer la configuración mediante Panel de control de Lync Server, debe haber iniciado sesión con una cuenta que tenga asignado el rol CsAdministrator. Para más información sobre los roles administrativos predefinidos disponibles en Lync Server 2013, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planeación del control de acceso basado en roles en Lync Server 2013</a>.</p></li>
+> <li><p>Para configurar los valores con Panel de control de Lync Server, deberá utilizar también un equipo con una resolución de pantalla mínima de 1024 x 768.</p></li>
+> </ul>
 
 
 ## Shell de administración de Communications Server
@@ -81,18 +68,9 @@ En Lync Server, el Shell de administración de Lync Server brinda un nuevo méto
 
 La Herramienta de registro de Lync Server facilita la solución de problemas al capturar y seguir la información del producto mientras se está ejecutando el producto. Puede usar la herramienta para ejecutar sesiones de depuración en cualquier función de servidor de Lync Server. Para más información sobre la Herramienta de registro, consulte la documentación de la Herramienta de registro de Lync Server 2010 en la Biblioteca de TechNet en <http://go.microsoft.com/fwlink/?linkid=199265>.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le recomendamos usar en todos los casos el Servicio de registro centralizado para todas las labores de recopilación de registros en vez de la herramienta de registro de Lync Server. La herramienta de registro de Lync Server seguirá funcionando, pero interferirá o será ineficiente si el Servicio de registro centralizado ya se está ejecutando. Use solo el Servicio de registro centralizado o la herramienta de registro de Lync Server, pero nunca simultáneamente. Para más información sobre el Servicio de registro centralizado y los motivos por los que debe usarse exclusivamente, consulte <a href="lync-server-2013-using-the-centralized-logging-service.md">Uso del servicio de registro centralizado de Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Le recomendamos usar en todos los casos el Servicio de registro centralizado para todas las labores de recopilación de registros en vez de la herramienta de registro de Lync Server. La herramienta de registro de Lync Server seguirá funcionando, pero interferirá o será ineficiente si el Servicio de registro centralizado ya se está ejecutando. Use solo el Servicio de registro centralizado o la herramienta de registro de Lync Server, pero nunca simultáneamente. Para más información sobre el Servicio de registro centralizado y los motivos por los que debe usarse exclusivamente, consulte <a href="lync-server-2013-using-the-centralized-logging-service.md">Uso del servicio de registro centralizado de Lync Server 2013</a>.
+
 
 
 ## En esta sección

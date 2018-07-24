@@ -66,18 +66,9 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
     
     Las direcciones IP perimetrales privadas de conferencia web y de A/V son direcciones IP adicionales en la sección **Avanzadas** de las propiedades de **Protocolo de Internet versión 4 (TCP/IPv4)** y **Protocolo de Internet versión 6 (TCP/IPv6)** de las **Propiedades de conexión de área local** en Windows Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La configuración del Servidor perimetral con dos adaptadores de red es una de las dos opciones disponibles. La otra opción es usar un adaptador de red para el lado interno y tres adaptadores de red para el lado externo del Servidor perimetral. La principal ventaja de esta opción es un adaptador de red distinto por servicio de Servidor perimetral, y es necesaria la recopilación de datos potencialmente más concisos al solucionar problemas.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> La configuración del Servidor perimetral con dos adaptadores de red es una de las dos opciones disponibles. La otra opción es usar un adaptador de red para el lado interno y tres adaptadores de red para el lado externo del Servidor perimetral. La principal ventaja de esta opción es un adaptador de red distinto por servicio de Servidor perimetral, y es necesaria la recopilación de datos potencialmente más concisos al solucionar problemas.
+
 
 
 ### Registros DNS requeridos para el servidor perimetral consolidado escalado, carga de DNS equilibrada con direcciones IP privadas que usan NAT (ejemplo)
@@ -163,18 +154,9 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaz perimetral externa de acceso SIP Requerida para detección automática DNS de su federación a otros posibles socios de federación, que se conocen como “Dominios SIP permitidos” o &quot;federación ampliada&quot; en versiones anteriores). Repita según sea necesario para todos los dominios SIP con usuarios habilitados para Lync</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este registro de SRV es necesario para fines de movilidad y para el centro de enrutamiento de notificaciones de inserción</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Este registro de SRV es necesario para fines de movilidad y para el centro de enrutamiento de notificaciones de inserción
+
 
 </div></td>
 </tr>

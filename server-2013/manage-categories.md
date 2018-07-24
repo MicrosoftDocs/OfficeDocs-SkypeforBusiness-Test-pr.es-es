@@ -19,18 +19,9 @@ Para crear una nueva categoría de Servidor de chat persistente
 
     New-CsPersistentChatCategory -Name Foo -PersistentChatPoolFqdn client.contoso1b118d91-b4c4-4b2f-b842-b451417ec2c6.com [other parameters]
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>PersistentChatPoolFqdn es necesario solo si hay más de un Grupo de servidores de chat persistente.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> PersistentChatPoolFqdn es necesario solo si hay más de un Grupo de servidores de chat persistente.
+
 
 
 Para realizar cambios en la categoría de Servidor de chat persistente existente

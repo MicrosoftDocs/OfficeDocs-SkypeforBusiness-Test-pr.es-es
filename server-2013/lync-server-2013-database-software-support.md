@@ -39,42 +39,20 @@ Lync Server 2013 admite los sistemas de administración de bases de datos siguie
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Lync Server 2013 no admite la edición de 32 bits de SQL Server. Emplee la edición de 64 bits.</p></li>
-<li><p>SQL Server Web Edition y SQL Server Workgroup Edition no son compatibles. No puede usarlos con Lync Server 2013.</p></li>
-<li><p>Lync Server 2013 admite la creación de reflejos de bases de datos nativas.</p></li>
-<li><p>Para usar el rol de servidor de supervisión, instale SQL Server Reporting Services.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> <ul>
+> <li><p>Lync Server 2013 no admite la edición de 32 bits de SQL Server. Emplee la edición de 64 bits.</p></li>
+> <li><p>SQL Server Web Edition y SQL Server Workgroup Edition no son compatibles. No puede usarlos con Lync Server 2013.</p></li>
+> <li><p>Lync Server 2013 admite la creación de reflejos de bases de datos nativas.</p></li>
+> <li><p>Para usar el rol de servidor de supervisión, instale SQL Server Reporting Services.</p></li>
+> </ul>
 
 
 En un grupo de servidores front-end, la base de datos back-end puede ser un único PC de SQL Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si combina bases de datos de Lync Server con otras bases de datos, recomendamos encarecidamente evaluar todos los factores que pueden afectar a la disponibilidad y al rendimiento, así como asegurarse de que, si un nodo provoca un error, el otro nodo pueda administrar la carga. Para comprobar las capacidades de conmutación por error, se recomienda probar todos los escenarios de conmutación por error.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si combina bases de datos de Lync Server con otras bases de datos, recomendamos encarecidamente evaluar todos los factores que pueden afectar a la disponibilidad y al rendimiento, así como asegurarse de que, si un nodo provoca un error, el otro nodo pueda administrar la carga. Para comprobar las capacidades de conmutación por error, se recomienda probar todos los escenarios de conmutación por error.
+
 
 
 ## Información de uso sobre la creación de espejos y la agrupación en clústeres de SQL

@@ -27,18 +27,9 @@ La configuración del hardware y otros componentes necesarios para la infraestru
     
     Para más información sobre la actualización con recursos compartidos de archivos en un Sistema de archivos distribuido (DFS), consulte [Configurar el almacenamiento de archivos para Lync Server 2013](lync-server-2013-configure-dfs-file-storage.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El recurso compartido de archivos de Lync Server 2013 Enterprise Edition no se puede ubicar en el Servidor front-end.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > El recurso compartido de archivos de Lync Server 2013 Enterprise Edition no se puede ubicar en el Servidor front-end.
+    
 
 
   - Instale y configure el equilibrador de carga de hardware para Servicios web. Aunque se haya implementado el equilibrio de carga del Sistema de nombres de dominio (DNS), sigue siendo necesario usar también equilibradores de carga de hardware en estos grupos de servidores, pero únicamente para el tráfico HTTP/HTTPS. El equilibrador de carga de hardware se usa para el tráfico HTTPS procedente de clientes a través de los puertos 443 y 80. Aunque siga siendo necesario usar equilibradores de carga de hardware para estos grupos de servidores, su configuración y administración será sobre todo para el tráfico HTTP/HTTPS, a lo que están acostumbrados los administradores de los equilibradores de carga de hardware.

@@ -55,18 +55,9 @@ Para más información sobre cómo se implementan las directivas, incluida la je
 
 6.  Haga clic en **Confirmar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para más información, vea <a href="lync-server-2013-applying-an-archiving-policy-to-users.md">Aplicación de una directiva de archivado a los usuarios</a>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para más información, vea <a href="lync-server-2013-applying-an-archiving-policy-to-users.md">Aplicación de una directiva de archivado a los usuarios</a>.
+    
 
 
 ## Habilitar y deshabilitar el archivado con los cmdlets de Lync Server PowerShell

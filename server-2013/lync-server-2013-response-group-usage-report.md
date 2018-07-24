@@ -55,18 +55,9 @@ Es posible tener acceso al Informe de uso del grupo de respuesta desde la págin
 
 Uno de los usos más interesantes del Informe de uso del grupo de respuesta puede no resultar obvio a primera vista: la capacidad para recuperar información sobre el uso de un único flujo de trabajo de grupo de respuesta.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Básicamente, un flujo de trabajo de grupo de respuesta es un conjunto de instrucciones que determina qué acción lleva a cabo Lync Server cuando un usuario llama a un número de teléfono determinado. Para ello, cada flujo de trabajo está asociado a un único número de teléfono. Cuando alguien llama a dicho número, el flujo de trabajo determina cómo se administrará la llamada. Por ejemplo, el flujo de trabajo puede enrutar la llamada a través de una serie de preguntas de respuesta de voz interactiva (IVR) que indican al autor de la llamada que debe especificar información adicional (&quot;Presione 1 si necesita asistencia para hardware. Presione 2 si necesita asistencia para software.&quot;). De forma alternativa, el flujo de trabajo también puede poner la llamada en cola y mantener al autor de la llamada en espera hasta que haya un agente disponible para atender la llamada. La disponibilidad de los agentes para responder a llamadas también está determinada por el flujo de trabajo: los flujos de trabajo se usan para configurar el horario laboral (días de la semana y horas del día en que los agentes están disponibles para responder a llamadas) y los festivos (días en los que no hay agentes disponibles para responder a llamadas). Cuando realiza llamadas a números de teléfono que pertenecen a una aplicación de grupo de respuesta, básicamente está llamando a un flujo de trabajo de grupo de respuesta.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Básicamente, un flujo de trabajo de grupo de respuesta es un conjunto de instrucciones que determina qué acción lleva a cabo Lync Server cuando un usuario llama a un número de teléfono determinado. Para ello, cada flujo de trabajo está asociado a un único número de teléfono. Cuando alguien llama a dicho número, el flujo de trabajo determina cómo se administrará la llamada. Por ejemplo, el flujo de trabajo puede enrutar la llamada a través de una serie de preguntas de respuesta de voz interactiva (IVR) que indican al autor de la llamada que debe especificar información adicional (&quot;Presione 1 si necesita asistencia para hardware. Presione 2 si necesita asistencia para software.&quot;). De forma alternativa, el flujo de trabajo también puede poner la llamada en cola y mantener al autor de la llamada en espera hasta que haya un agente disponible para atender la llamada. La disponibilidad de los agentes para responder a llamadas también está determinada por el flujo de trabajo: los flujos de trabajo se usan para configurar el horario laboral (días de la semana y horas del día en que los agentes están disponibles para responder a llamadas) y los festivos (días en los que no hay agentes disponibles para responder a llamadas). Cuando realiza llamadas a números de teléfono que pertenecen a una aplicación de grupo de respuesta, básicamente está llamando a un flujo de trabajo de grupo de respuesta.
+
 
 
 Aunque los URI de los flujos de trabajo no se muestran en el Informe de uso del grupo de respuesta, pueden verse las estadísticas de uso de un flujo de trabajo determinado, cosa que a menudo es de gran utilidad. Por ejemplo, supongamos que ha lanzado una nueva campaña publicitaria y tiene curiosidad por saber si se están registrando llamadas para obtener información sobre el producto. Si tiene un flujo de trabajo de grupo de respuesta asociado al número de teléfono de la campaña publicitaria, podrá comprobar fácilmente cuántas personas están llamando a dicho número.

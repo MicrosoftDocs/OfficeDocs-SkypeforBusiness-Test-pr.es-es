@@ -23,36 +23,18 @@ Para completar correctamente este procedimiento, debe haber iniciado sesión com
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ204932.Caution(OCS.15).gif" title="Caution" alt="Caution" />Precaución:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La selección de la síntesis de hash y el algoritmo de firma depende de los clientes y de los servidores que usarán el certificado y de otros equipos y dispositivos con los que los clientes y servidores se comunicarán, quienes también deben saber cómo usar los algoritmos del certificado. Para más información sobre qué longitudes de síntesis son compatibles en el sistema operativo y en algunas aplicaciones cliente, vea <a href="http://go.microsoft.com/fwlink/?linkid=287002">http://go.microsoft.com/fwlink/?LinkId=287002</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> La selección de la síntesis de hash y el algoritmo de firma depende de los clientes y de los servidores que usarán el certificado y de otros equipos y dispositivos con los que los clientes y servidores se comunicarán, quienes también deben saber cómo usar los algoritmos del certificado. Para más información sobre qué longitudes de síntesis son compatibles en el sistema operativo y en algunas aplicaciones cliente, vea <a href="http://go.microsoft.com/fwlink/?linkid=287002">http://go.microsoft.com/fwlink/?LinkId=287002</a>.
+
 
 
 Cada Servidor Standard Edition o Servidor front-end necesita hasta cuatro certificados: el certificado oAuthTokenIssuer, un certificado predeterminado, un certificado web interno y un certificado web externo. No obstante, es posible solicitar y asignar un solo certificado predeterminado con las entradas de nombre alternativo de sujeto apropiadas, así como con el certificado oAuthTokenIssuer. Para más información sobre los requisitos de certificado, vea [Requisitos de certificado para Servidores internos en Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md). Para más información sobre la solicitud, asignación e instalación del certificado oAuthTokenIssuer, vea [Administración de la autenticación servidor a servidor (Oauth) y las aplicaciones de socio en Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md).
 
 Ejecute el procedimiento siguiente para solicitar, asignar e instalar los certificados de Servidor Standard Edition o de Servidor front-end. Repita el procedimiento por cada Servidor front-end.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En el siguiente procedimiento se describe cómo configurar certificados desde una PKI de empresa interna implementada por su organización y sin necesidad de conexión para procesar solicitudes. Para más información sobre la obtención de certificados emitidos por una CA pública, vea <a href="lync-server-2013-certificate-requirements-for-internal-servers.md">Requisitos de certificado para Servidores internos en Lync Server 2013</a> en la documentación referente a la planeación. Asimismo, se describe cómo solicitar, asignar e instalar certificados durante la instalación del Servidor front-end. Si ya solicitó certificados por adelantado con el procedimiento descrito en la sección <a href="lync-server-2013-request-certificates-in-advance-optional.md">Solicitar los certificados con anterioridad (opcional) para Lync Server 2013</a> de esta documentación de implementación o si no usa una PKI de empresa interna implementada en su organización para obtener certificados, modifique este procedimiento según corresponda.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> En el siguiente procedimiento se describe cómo configurar certificados desde una PKI de empresa interna implementada por su organización y sin necesidad de conexión para procesar solicitudes. Para más información sobre la obtención de certificados emitidos por una CA pública, vea <a href="lync-server-2013-certificate-requirements-for-internal-servers.md">Requisitos de certificado para Servidores internos en Lync Server 2013</a> en la documentación referente a la planeación. Asimismo, se describe cómo solicitar, asignar e instalar certificados durante la instalación del Servidor front-end. Si ya solicitó certificados por adelantado con el procedimiento descrito en la sección <a href="lync-server-2013-request-certificates-in-advance-optional.md">Solicitar los certificados con anterioridad (opcional) para Lync Server 2013</a> de esta documentación de implementación o si no usa una PKI de empresa interna implementada en su organización para obtener certificados, modifique este procedimiento según corresponda.
+
 
 
 ## Para configurar certificados para un servidor front-end

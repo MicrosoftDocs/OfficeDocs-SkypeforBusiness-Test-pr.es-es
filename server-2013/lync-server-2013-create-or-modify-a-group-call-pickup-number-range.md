@@ -23,18 +23,9 @@ Use el siguiente procedimiento para crear o modificar un intervalo de números d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Al intervalo de números del grupo de atención de llamadas se le debe asignar el tipo GroupPickup. Los usuarios solo se habilitan para la atención de llamadas grupales si el número del grupo que tienen asignado es de tipo GroupPickup.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Al intervalo de números del grupo de atención de llamadas se le debe asignar el tipo GroupPickup. Los usuarios solo se habilitan para la atención de llamadas grupales si el número del grupo que tienen asignado es de tipo GroupPickup.
+
 
 
 Los intervalos de números del grupo de atención de llamadas deben cumplir con las siguientes reglas:
@@ -69,18 +60,9 @@ Los intervalos de números del grupo de atención de llamadas deben cumplir con 
     
         Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Use este cmdlet para modificar el tipo asignado a los intervalos de números únicamente si especificó el tipo incorrecto y el intervalo de números aún no se encuentra en uso. Si cambia el intervalo de números de CallPark a GroupPickup, o viceversa, y este ya se encuentra en uso, el estacionamiento de llamadas o la atención de llamadas grupales dejarán de funcionar para ese intervalo de números. Por ejemplo, si cambia un intervalo de números de CallPark a GroupPick, el Aplicación de estacionamiento de llamadas ya no podrá usar ese intervalo de órbitas para estacionar llamadas.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Use este cmdlet para modificar el tipo asignado a los intervalos de números únicamente si especificó el tipo incorrecto y el intervalo de números aún no se encuentra en uso. Si cambia el intervalo de números de CallPark a GroupPickup, o viceversa, y este ya se encuentra en uso, el estacionamiento de llamadas o la atención de llamadas grupales dejarán de funcionar para ese intervalo de números. Por ejemplo, si cambia un intervalo de números de CallPark a GroupPick, el Aplicación de estacionamiento de llamadas ya no podrá usar ese intervalo de órbitas para estacionar llamadas.
+    
 
 
 ## Vea también

@@ -33,18 +33,9 @@ El Servidor perimetral tiene un proxy XMPP totalmente integrado (implementado en
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La capacidad XMPP de Lync Server 2013 está probada y es compatible con Microsoft para la federación de mensajería instantánea con Google Talk. Para otros sistemas XMPP, póngase en contacto con el proveedor para comprobar que son compatibles con la federación con Lync Server 2013 y para cualquier recomendación sobre implementación o solución de problemas.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> La capacidad XMPP de Lync Server 2013 está probada y es compatible con Microsoft para la federación de mensajería instantánea con Google Talk. Para otros sistemas XMPP, póngase en contacto con el proveedor para comprobar que son compatibles con la federación con Lync Server 2013 y para cualquier recomendación sobre implementación o solución de problemas.
+
 
 
 ## Compatibilidad para acumular certificados de autenticación de audio/vídeo y autenticación entre servidores
@@ -61,18 +52,9 @@ Una novedad en Lync Server 2013 es que se pueden almacenar provisionalmente cert
 
 En versiones anteriores de Lync Server y Office Communications Server, los servicios web usaban la afinidad basada en cookies para garantizar que se conservaba el estado de la sesión de cliente y servicios web. Los servicios web de Lync Server 2013 emplean un mecanismo de afinidad integrado que acaba con casi todos los requisitos de la afinidad basada en cookies.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>El cliente de Microsoft Lync 2010 Mobile deberá seguir usando y configurando la afinidad basada en cookies hasta que todos los clientes se hayan migrado al próximo cliente de Microsoft Lync Mobile (cuya fecha de lanzamiento aún está fijada).</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> El cliente de Microsoft Lync 2010 Mobile deberá seguir usando y configurando la afinidad basada en cookies hasta que todos los clientes se hayan migrado al próximo cliente de Microsoft Lync Mobile (cuya fecha de lanzamiento aún está fijada).
+
 
 
 Para obtener información detallada sobre la afinidad basada en cookies en Lync Server 2013, vea [Componentes necesarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md).

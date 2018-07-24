@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2012-11-01_
 
 Si desea guardar la configuración del enrutamiento de voz sin publicarla, siga los pasos de este tema para usar los comandos de exportación e importación de la configuración de Panel de control de Lync Server con el fin de guardar y recuperar una instantánea de la configuración del enrutamiento de voz. Cuando se importa un archivo de configuración de enrutamiento de voz (.vcfg), mientras se realizan cambios en la configuración del enrutamiento de voz en el servidor, las páginas en el grupo **Enrutamiento de voz** de Panel de control de Lync Server indicarán que existen cambios sin confirmar en el enrutamiento de voz. Estos cambios sin confirmar son distintos entre dos configuraciones que requieren reconciliación.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si ha realizado cambios sin confirmar en la configuración en cualquier página en el grupo <strong>Enrutamiento de voz</strong> , los cambios se guardan en el archivo de configuración de voz exportado (.vcfg). De esta forma, puede realizar cambios en la configuración del enrutamiento de voz durante varias sesiones de Panel de control de Lync Server antes de publicar los cambios.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si ha realizado cambios sin confirmar en la configuración en cualquier página en el grupo <strong>Enrutamiento de voz</strong> , los cambios se guardan en el archivo de configuración de voz exportado (.vcfg). De esta forma, puede realizar cambios en la configuración del enrutamiento de voz durante varias sesiones de Panel de control de Lync Server antes de publicar los cambios.
+
 
 
 ## En esta sección

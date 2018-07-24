@@ -21,18 +21,9 @@ Los componentes que necesita el Grupo de respuesta se instalan y se habilitan au
 
 Esta sección sirve de guía para la configuración del Grupo de respuesta de Lync Server 2013. Se da por supuesto que ya ha leído las secciones de planeación relacionadas con el Grupo de respuesta y que ha implementado el servidor Enterprise Edition o Standard Edition con Telefonía IP empresarial.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para ver más detalles acerca de cómo crear un Grupo de respuesta con Shell de administración de Lync Server y ver un script de muestra, consulte el tema sobre la creación del primer grupo de respuesta con el Shell de administración de Communications Server en <a href="http://go.microsoft.com/fwlink/?linkid=204108%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=204108&amp;clcid=0xC0A</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Para ver más detalles acerca de cómo crear un Grupo de respuesta con Shell de administración de Lync Server y ver un script de muestra, consulte el tema sobre la creación del primer grupo de respuesta con el Shell de administración de Communications Server en <a href="http://go.microsoft.com/fwlink/?linkid=204108%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=204108&amp;clcid=0xC0A</a>.
+
 
 
 ## En esta sección

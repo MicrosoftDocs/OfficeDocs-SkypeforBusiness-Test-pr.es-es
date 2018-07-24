@@ -19,18 +19,9 @@ Los usuarios suelen controlar la configuración de los salones de Chat persisten
 
 Los usuarios que son **creadores** en cualquier categoría determinada pueden usar el cliente de Lync para crear y administrar salones. Los usuarios designados como responsables de un salón de chat específico también pueden realizar tareas de administración continuas en el salón, por ejemplo, modificar las propiedades o los miembros del salón.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Los administradores de Chat persistente también pueden ser creadores, pero no están sujetos a las restricciones impuestas en los creadores.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Los administradores de Chat persistente también pueden ser creadores, pero no están sujetos a las restricciones impuestas en los creadores.
+
 
 
 Además, si es un administrador de Chat persistente, puede emplear una interfaz de usuario para crear y administrar salones de chat, en lugar de usar los cmdlets de Windows PowerShell. Para ello, habilite para SIP un administrador para el Servidor de chat persistente, y luego use el cliente de Lync para crear y administrar salones de chat.

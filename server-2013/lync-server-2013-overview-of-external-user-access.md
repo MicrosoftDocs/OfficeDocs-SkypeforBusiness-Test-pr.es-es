@@ -53,16 +53,7 @@ Roles de Lync Server 2013 que se utilizan para ofrecer acceso externo:
 
 **Servidor inverso :** un servidor inverso es un término general para los servidores especializados que publican recursos disponibles en la red interna y recuperan información para los clientes desde el recurso publicado. Lync Server 2013 utiliza el servidor inverso para publicar varias características, como las reuniones de conferencia, las ubicaciones de unión a conferencias, la libreta de direcciones, la expansión de la lista de distribución, la descarga del contenido de las reuniones, las actualizaciones de los dispositivos, los servicios de movilidad, y mucho más. Se puede utilizar cualquier servidor inverso que cumpla los requisitos de la publicación de las ubicaciones de recursos necesarias. Microsoft Forefront Threat Management Gateway (TMG) 2010 se utiliza como ejemplo para los fines de ilustración de las reglas de publicación necesarias, pero Forefront TMG 2010 no es necesario.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 admite tanto IPv4 como IPv6. Windows Server 2008 R2, Windows Server 2012 y Windows Server 2012 R2 usan una pila doble que puede usar IPv4 e IPv6 simultáneamente. Esto es importante debido a la naturaleza transicional de una implementación que se mueve de IPv4 a IPv6. IPv4 se puede admitir en algunas áreas, mientras que IPv6 se puede utilizar en otras áreas de la implementación. Esto es especialmente importante cuando hay implementaciones de Internet e internas implicadas. Los clientes externos deben comunicarse a través del proxy inverso para usar servicios como movilidad, reuniones o descarga de libretas de direcciones, entre otros. Actualmente, Forefront Threat Management Gateway 2010 e Internet Security and Acceleration Server 2006 no admiten el direccionamiento IPv6, independientemente de la versión del sistema operativo donde estén implementados. Debe realizar la planeación de acuerdo con el uso que haga de IPv6 e IPv4 en relación con los clientes externos.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Lync Server 2013 admite tanto IPv4 como IPv6. Windows Server 2008 R2, Windows Server 2012 y Windows Server 2012 R2 usan una pila doble que puede usar IPv4 e IPv6 simultáneamente. Esto es importante debido a la naturaleza transicional de una implementación que se mueve de IPv4 a IPv6. IPv4 se puede admitir en algunas áreas, mientras que IPv6 se puede utilizar en otras áreas de la implementación. Esto es especialmente importante cuando hay implementaciones de Internet e internas implicadas. Los clientes externos deben comunicarse a través del proxy inverso para usar servicios como movilidad, reuniones o descarga de libretas de direcciones, entre otros. Actualmente, Forefront Threat Management Gateway 2010 e Internet Security and Acceleration Server 2006 no admiten el direccionamiento IPv6, independientemente de la versión del sistema operativo donde estén implementados. Debe realizar la planeación de acuerdo con el uso que haga de IPv6 e IPv4 en relación con los clientes externos.
+
 

@@ -39,18 +39,9 @@ Tras haber finalizado la instalación de Lync Server 2013, herramienta de planea
 
 4.  Responda a cada pregunta seleccionando el criterio correcto para el diseño; después, haga clic en **Siguiente** para pasar a la página siguiente del Asistente. Haga clic en **Atrás** para hacer cambios en páginas anteriores.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cada página presenta una descripción de los criterios de selección, así como recomendaciones basadas en los procedimientos preferidos y el planeamiento de capacidad. Si necesita más datos, haga clic en <strong>Más información</strong> para leer información detallada en la documentación sobre el planeamiento de Lync Server 2013 en el sitio web de Microsoft TechNet. Para tener acceso al sitio web de Microsoft TechNet, debe disponerse de conexión a Internet.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Cada página presenta una descripción de los criterios de selección, así como recomendaciones basadas en los procedimientos preferidos y el planeamiento de capacidad. Si necesita más datos, haga clic en <strong>Más información</strong> para leer información detallada en la documentación sobre el planeamiento de Lync Server 2013 en el sitio web de Microsoft TechNet. Para tener acceso al sitio web de Microsoft TechNet, debe disponerse de conexión a Internet.
+    
 
 
 5.  Seleccione las opciones pertinentes para el diseño. Tras haber definido los criterios iniciales, se mostrará una página para confirmar que se ha completado la información general sobre las características.
@@ -71,18 +62,9 @@ Tras haber finalizado la instalación de Lync Server 2013, herramienta de planea
 
 10. Modifique las opciones de Colaboración en línea, Usuarios, Voz, Opciones de implementación adicionales o Aplicaciones de servidor según se necesite.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>En esta fase del diseño, solamente puede activar o desactivar opciones de implementación. Ahora bien, en una fase posterior de la Herramienta de planeación podrá configurar más opciones. También hay opciones no disponibles y que no se pueden desactivar. Además, es posible que deba desactivar una opción para poder desactivar otra. Por ejemplo, si desactiva la opción <strong>Telefonía IP empresarial</strong> debajo de Voz, las opciones <strong>Grupo de respuesta</strong>, <strong>Anuncio</strong> y <strong>Estacionamiento de llamadas</strong> debajo de Aplicaciones de servidor (todas ellas características de Telefonía IP empresarial) también se desactivan.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > En esta fase del diseño, solamente puede activar o desactivar opciones de implementación. Ahora bien, en una fase posterior de la Herramienta de planeación podrá configurar más opciones. También hay opciones no disponibles y que no se pueden desactivar. Además, es posible que deba desactivar una opción para poder desactivar otra. Por ejemplo, si desactiva la opción <strong>Telefonía IP empresarial</strong> debajo de Voz, las opciones <strong>Grupo de respuesta</strong>, <strong>Anuncio</strong> y <strong>Estacionamiento de llamadas</strong> debajo de Aplicaciones de servidor (todas ellas características de Telefonía IP empresarial) también se desactivan.
+    
 
 
 11. Después de haber definido un nombre de sitio y la cantidad de usuarios, haga clic en **Siguiente**.

@@ -57,18 +57,9 @@ Los certificados para el Grupo de directores, el Grupo de servidores front-end y
 
 8.  Si el certificado se encuentra en este equipo, seleccione **Equipo local**. Si el certificado se encuentra en otro equipo, seleccione **Otro equipo**, escriba el nombre de dominio completo del equipo o haga clic en **Examinar**. En **Escriba el nombre de objeto para seleccionar**, escriba el nombre del equipo. Haga clic en **Comprobar nombres**. Cuando se resuelva el nombre del equipo, se subrayará. Haga clic en **Aceptar** y luego en **Finalizar**. Haga clic en **Aceptar** para confirmar la selección y cerrar el cuadro de diálogo **Agregar o quitar complementos**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si el certificado no aparece en la consola, asegúrese de no haber seleccionado Usuario o Servicio. Debe seleccionar Equipo; de lo contrario, no podrá encontrar el certificado apropiado.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si el certificado no aparece en la consola, asegúrese de no haber seleccionado Usuario o Servicio. Debe seleccionar Equipo; de lo contrario, no podrá encontrar el certificado apropiado.
+    
 
 
 9.  Para ver las propiedades del certificado, expanda **Certificados**, **Personal** y seleccione **Certificados**. Seleccione el certificado que desea ver, haga clic en él con el botón secundario y seleccione **Abrir**.

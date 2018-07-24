@@ -29,18 +29,9 @@ Para ver más detalles, consulte la documentación del Shell de administración 
 
   - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Debe crear un registro SRV de DNS externo para el servicio Exchange de hospedaje antes de realizar estos pasos. Para más información, consulte <a href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Debe crear un registro SRV de DNS externo para el servicio Exchange de hospedaje antes de realizar estos pasos. Para más información, consulte <a href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange</a>.
+
 
 
 ## Para configurar el servidor perimetral para la federación.

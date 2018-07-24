@@ -15,18 +15,9 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2012-09-05_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si ya ha creado sitios de red para E9-1-1 o desvío de medios, modifique los sitios de red existentes para aplicar un perfil de directiva de ancho de banda mediante el cmdlet Set-CsNetworkSite. Como ejemplo de cómo modificar un sitio de red, consulte <a href="lync-server-2013-create-or-modify-a-network-site.md">Crear o modificar un sitio de red en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si ya ha creado sitios de red para E9-1-1 o desvío de medios, modifique los sitios de red existentes para aplicar un perfil de directiva de ancho de banda mediante el cmdlet Set-CsNetworkSite. Como ejemplo de cómo modificar un sitio de red, consulte <a href="lync-server-2013-create-or-modify-a-network-site.md">Crear o modificar un sitio de red en Lync Server 2013</a>.
+
 
 
 Los *sitios de red* son las oficinas o ubicaciones dentro de cada región de red de las implementaciones de desvío de medios, E9-1-1 y control de admisión de llamadas. Use los procedimientos siguientes con el fin de crear sitios de red que alineen a sitios de red en la topología de red de ejemplo para el control de admisión de llamadas. Estos procedimientos muestran cómo crear y configurar sitios de red restringidos por el ancho de banda de la WAN y que, por tanto, requieren directivas de ancho de banda que limiten el flujo de tráfico de audio o vídeo en tiempo real.

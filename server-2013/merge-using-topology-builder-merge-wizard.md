@@ -27,18 +27,9 @@ _**Última modificación del tema:** 2012-10-02_
 
 5.  En **Especificar tipo de servidor perimetral** , escriba el tipo de configuración del servidor perimetral y haga clic en **Siguiente** . En este ejemplo, se usa la opción **Servidor perimetral único** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No se admite la configuración de <strong>servidor perimetral expandido</strong> . Un <strong>servidor perimetral expandido</strong> debe convertirse primero en <strong>servidor perimetral único</strong> o en <strong>servidor perimetral consolidado con equilibrio de carga</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > No se admite la configuración de <strong>servidor perimetral expandido</strong> . Un <strong>servidor perimetral expandido</strong> debe convertirse primero en <strong>servidor perimetral único</strong> o en <strong>servidor perimetral consolidado con equilibrio de carga</strong> .
+    
 
 
 6.  En **Especificar configuración perimetral interna** , escriba la información relevante del FQDN y los puertos internos del grupo de servidores perimetrales según sea necesario y haga clic en **Siguiente** .
@@ -47,18 +38,9 @@ _**Última modificación del tema:** 2012-10-02_
 
 7.  En **Especificar perímetro externo** , escriba la información del FQDN de conferencia web del servidor perimetral.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Antes de hacer clic en <strong>Siguiente</strong> , realice el próximo paso de este procedimiento. Es muy importante que no omita este paso.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Antes de hacer clic en <strong>Siguiente</strong> , realice el próximo paso de este procedimiento. Es muy importante que no omita este paso.
+    
 
 
 8.  Active la casilla **Este grupo de servidores perimetrales se usa para federación y conectividad de mensajería instantánea pública** si tiene previsto usar el servidor perimetral de Office Communications Server 2007 R2 para la federación. Si tiene varios servidores perimetrales implementados, solamente uno de ellos estará habilitado para la federación. Si no activa esta casilla y decide más adelante que desea habilitar la federación, deberá ejecutar de nuevo el asistente para combinar del Generador de topologías y volver a publicar la topología.

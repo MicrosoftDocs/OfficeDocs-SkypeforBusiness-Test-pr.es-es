@@ -35,18 +35,9 @@ Como parte del servicio de control de admisión de llamadas (CAC), se usa una di
 
 5.  En el menú **Editar** , haga clic en **Eliminar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No puede eliminar un perfil de directiva de ancho de banda que esté asociado a un sitio de red. Primero debe eliminar la asociación establecida con el sitio de red para poder eliminar el perfil. Para más información sobre cómo modificar el sitio de red, vea <a href="lync-server-2013-creating-or-modifying-network-sites.md">Creación o modificación de sitios de red</a>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > No puede eliminar un perfil de directiva de ancho de banda que esté asociado a un sitio de red. Primero debe eliminar la asociación establecida con el sitio de red para poder eliminar el perfil. Para más información sobre cómo modificar el sitio de red, vea <a href="lync-server-2013-creating-or-modifying-network-sites.md">Creación o modificación de sitios de red</a>.
+    
 
 
 ## Vea también

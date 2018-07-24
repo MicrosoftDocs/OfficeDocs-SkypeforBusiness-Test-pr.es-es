@@ -25,18 +25,9 @@ Para más información sobre la configuración de objetos de contacto, consulte 
 
   - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para poder habilitar objetos de contacto de Lync Server 2013 para la mensajería unificada de Exchange hospedada, debe implementarse una directiva de correo de voz hospedada que se aplique a dichos objetos. Para más información, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Directivas de correo de voz hospedado en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Para poder habilitar objetos de contacto de Lync Server 2013 para la mensajería unificada de Exchange hospedada, debe implementarse una directiva de correo de voz hospedada que se aplique a dichos objetos. Para más información, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Directivas de correo de voz hospedado en Lync Server 2013</a>.
+
 
 
 ## Para crear objetos de contacto de operador automático o de acceso de suscriptor para mensajería unificada de Exchange hospedada

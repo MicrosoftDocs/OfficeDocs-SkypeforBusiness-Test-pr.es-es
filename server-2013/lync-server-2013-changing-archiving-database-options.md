@@ -83,32 +83,14 @@ Para realizar cualquiera de estos cambios, debe ejecutar Generador de topología
     
       - Para cambiar a la integración de Microsoft Exchange para almacenar los datos de archivado y los archivos en los servidores Exchange 2013 (si todos los usuarios en su implementación están hospedados en sus servidores Exchange 2013), elimine toda la información en de archivado de bases de datos.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si tiene algún usuario de Lync que no esté hospedado en los servidores Exchange 2013, no elimine la información del almacén de SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si tiene algún usuario de Lync que no esté hospedado en los servidores Exchange 2013, no elimine la información del almacén de SQL Server.
+    
 
 
 8.  Para guardar la configuración, haga clic en **Aceptar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Los cambios que ha realizado en Generador de topologías no tendrán efecto hasta que publique la nueva topología. Para obtener información, consulte <a href="lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md">Publicación de la topología actualizada para agregar bases de datos de archivado</a> en la documentación referente a la implementación.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Los cambios que ha realizado en Generador de topologías no tendrán efecto hasta que publique la nueva topología. Para obtener información, consulte <a href="lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md">Publicación de la topología actualizada para agregar bases de datos de archivado</a> en la documentación referente a la implementación.
+    
 

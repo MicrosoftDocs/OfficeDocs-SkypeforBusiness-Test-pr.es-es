@@ -17,40 +17,18 @@ _**Última modificación del tema:** 2012-11-13_
 
 Las comunicaciones de audio y vídeo (A/V) son un componente clave de Microsoft Lync Server 2013. Características como el uso compartido de aplicaciones y la conferencia de vídeo y audio dependen de los certificados asignados al Servicio perimetral A/V, específicamente al servicio de autenticación A/V.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ol>
-<li><p>Esta nueva característica está diseñada para trabajar para el Servicio perimetral A/V y el certificado <em>OAuthTokenIssuer</em>. Otros tipos de certificado se pueden aprovisionar junto con el tipo de certificado OAuth y Servicio perimetral A/V, pero no se beneficiarán del mismo comportamiento de coexistencia que el certificado de Servicio perimetral A/V.</p></li>
-<li><p>Los cmdlets de PowerShell de Shell de administración de Lync Server usados para administrar Microsoft Lync Server 2013 hacen referencia al certificado de Servicio perimetral A/V como el tipo de certificado <em>AudioVideoAuthentication</em> y el certificado de OAuthServer como el tipo <em>OAuthTokenIssuer</em>. Para el resto de este tema y para identificar de manera única los certificados, se hará referencia a los mismos por el mismo tipo de identificador, <em>AudioVideoAuthentication</em> y <em>OAuthTokenIssuer</em>.</p></li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> <ol>
+> <li><p>Esta nueva característica está diseñada para trabajar para el Servicio perimetral A/V y el certificado <em>OAuthTokenIssuer</em>. Otros tipos de certificado se pueden aprovisionar junto con el tipo de certificado OAuth y Servicio perimetral A/V, pero no se beneficiarán del mismo comportamiento de coexistencia que el certificado de Servicio perimetral A/V.</p></li>
+> <li><p>Los cmdlets de PowerShell de Shell de administración de Lync Server usados para administrar Microsoft Lync Server 2013 hacen referencia al certificado de Servicio perimetral A/V como el tipo de certificado <em>AudioVideoAuthentication</em> y el certificado de OAuthServer como el tipo <em>OAuthTokenIssuer</em>. Para el resto de este tema y para identificar de manera única los certificados, se hará referencia a los mismos por el mismo tipo de identificador, <em>AudioVideoAuthentication</em> y <em>OAuthTokenIssuer</em>.</p></li>
+> </ol>
 
 
 El servicio de autenticación A/V es responsable de emitir tokens que usan los clientes y otros consumidores de A/V. Los tokens se generan desde atributos del certificado, y cuando el certificado expira, se producirá la pérdida de conexión y el requisito de volverse a unir con un nuevo token generado por el nuevo certificado. Una nueva característica de Lync Server 2013 aliviará este problema: la capacidad de organizar un nuevo certificado por adelantado del antiguo que expira y permitir que ambos certificados continúen funcionando durante un período de tiempo. Esta característica usa funcionalidad actualizada del cmdlet Set-CsCertificate de Shell de administración de Lync Server. El nuevo parámetro –Roll, con el parámetro existente –EffectiveDate, colocará el nuevo certificado AudioVideoAuthentication en el almacén de certificados. El certificado AudioVideoAuthentication más antiguo permanecerá todavía para validar con él los tokens emitidos. Comenzando por la implementación del nuevo certificado AudioVideoAuthentication, se producirá la siguiente serie de eventos:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Mediante los cmdlets de Shell de administración de Lync Server para administrar certificados, puede solicitar certificados independientes y distintos para cada propósito en el Servidor perimetral. El uso del Asistente para certificados de la Asistente para la implementación de Lync Server le ayuda a crear certificados, pero normalmente es del tipo <strong>predeterminado</strong> que vincula todos los usos de certificado para el Servidor perimetral en un certificado único. La práctica recomendada si va a usar la característica de certificado en secuencia es desvincular el certificado AudioVideoAuthentication de los demás fines de certificado. Puede aprovisionar y organizar un certificado del tipo predeterminado pero solo la parte de AudioVideoAuthentication del certificado combinado se beneficiará del ensayo. Un usuario que participa en (por ejemplo) una conversación de mensajería instantánea cuando el certificado expira tendrá que cerrar sesión y volver a iniciar para usar el nuevo certificado asociado al Servidor perimetral de acceso. Se producirá un comportamiento similar para un usuario que participe en una conferencia web mediante el Servicio perimetral de conferencia web. El certificado OAuthTokenIssuer es un tipo específico que se comparte en todos los servidores. Crea y administra el certificado en un lugar y el certificado se almacena en el Almacén de administración central para todos los demás servidores.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Mediante los cmdlets de Shell de administración de Lync Server para administrar certificados, puede solicitar certificados independientes y distintos para cada propósito en el Servidor perimetral. El uso del Asistente para certificados de la Asistente para la implementación de Lync Server le ayuda a crear certificados, pero normalmente es del tipo <strong>predeterminado</strong> que vincula todos los usos de certificado para el Servidor perimetral en un certificado único. La práctica recomendada si va a usar la característica de certificado en secuencia es desvincular el certificado AudioVideoAuthentication de los demás fines de certificado. Puede aprovisionar y organizar un certificado del tipo predeterminado pero solo la parte de AudioVideoAuthentication del certificado combinado se beneficiará del ensayo. Un usuario que participa en (por ejemplo) una conversación de mensajería instantánea cuando el certificado expira tendrá que cerrar sesión y volver a iniciar para usar el nuevo certificado asociado al Servidor perimetral de acceso. Se producirá un comportamiento similar para un usuario que participe en una conferencia web mediante el Servicio perimetral de conferencia web. El certificado OAuthTokenIssuer es un tipo específico que se comparte en todos los servidores. Crea y administra el certificado en un lugar y el certificado se almacena en el Almacén de administración central para todos los demás servidores.
+
 
 
 Se necesitan detalles adicionales para comprender por completo las opciones y los requisitos al usar el cmdlet Set-CsCertificate y al usarlo para realizar una copia intermedia de los certificados antes de la expiración del certificado actual. El parámetro –Roll es importante, pero, fundamentalmente, tiene un solo propósito. Si lo define como parámetro, está indicando a Set-CsCertificate que proporcionará información acerca del certificado que se verá afectado definido por –Type (por ejemplo, AudioVideoAuthentication y OAuthTokenIssuer), cuando el certificado se hará efectivo definido por –EffectiveDate.
@@ -75,18 +53,9 @@ Al organizar certificados OAuthTokenIssuer, hay diferentes requisitos para el pl
 
 4.  Configure el certificado importado con el cmdlet Set-CsCertificate y use el parámetro –Roll con el parámetro –EffectiveDate. La fecha efectiva se debe definir como la hora de expiración del certificado actual (14:00:00 o 2:00:00 PM) menos la vigencia de token (de manera predeterminada, ocho horas). Esto nos proporciona una hora que el certificado debe establecerse en activo y es la –EffectiveDate \<string\>: “22/7/2012 6:00:00 AM”.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para un Grupo de servidores perimetrales, debe tener todos los certificados de AudioVideoAuthentication implementados y aprovisionados por la fecha y la hora definidos por el parámetro –EffectiveDate del primer certificado implementado para evitar una posible interrupción de comunicaciones A/V debido a que el certificado más antiguo expira antes de que todos los tokens de cliente y consumidor se han renovado mediante el nuevo certificado.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Para un Grupo de servidores perimetrales, debe tener todos los certificados de AudioVideoAuthentication implementados y aprovisionados por la fecha y la hora definidos por el parámetro –EffectiveDate del primer certificado implementado para evitar una posible interrupción de comunicaciones A/V debido a que el certificado más antiguo expira antes de que todos los tokens de cliente y consumidor se han renovado mediante el nuevo certificado.
+    
     
     El comando Set-CsCertificate con el parámetro –Roll y –EffectiveTime:
     
@@ -96,18 +65,9 @@ Al organizar certificados OAuthTokenIssuer, hay diferentes requisitos para el pl
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2012 6:00:00 AM"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La EffectiveDate debe tener el formato que coincida con la configuración regional y de idioma de su servidor. El ejemplo usa la configuración regional y de idioma de Inglés (EE.UU.)</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > La EffectiveDate debe tener el formato que coincida con la configuración regional y de idioma de su servidor. El ejemplo usa la configuración regional y de idioma de Inglés (EE.UU.)
+    
 
 
 Para comprender mejor el proceso que Set-CsCertificate, -Roll y –EffectiveDate usan para organizar un nuevo certificado para emitir nuevos tokens AudioVideoAuthentication a la vez que usan un certificado existente para validar AudioVideoAuthentication que usan los consumidores, una escala de tiempo visual es un medio eficaz para comprender el proceso.
@@ -138,18 +98,9 @@ Cuando se alcanza la hora de vigencia (22/7/2012 6:00:00 AM), se emiten todos lo
     
         Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2012 1:00:00 PM"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La EffectiveDate debe tener el formato que coincida con la configuración regional y de idioma de su servidor. El ejemplo usa la configuración regional y de idioma de Inglés (EE.UU.)</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > La EffectiveDate debe tener el formato que coincida con la configuración regional y de idioma de su servidor. El ejemplo usa la configuración regional y de idioma de Inglés (EE.UU.)
+    
 
 
 Cuando se alcanza la hora efectiva (21.07.12 01:00:00 AM), todos los nuevos tokens se emiten por el nuevo certificado. Cuando se validan los tokens, estos se validarán primero con el nuevo certificado. Si se produce un error en la validación, se prueba el antiguo certificado. El proceso de probar el nuevo y recurrir al antiguo certificado continuará hasta la hora de expiración del antiguo certificado. Una vez que el antiguo certificado ha expirado (22/7/2012 2:00:00 PM), los tokens solo los validará el nuevo certificado. El antiguo certificado se puede quitar de manera segura mediante el cmdlet Remove-CsCertificate con el parámetro –Previous.

@@ -27,18 +27,9 @@ Si el servidor back-end que hospeda el Almacén de administración central se en
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se recomienda que realice una copia de la imagen del sistema antes de iniciar la restauración. Puede usar esta imagen como punto de reversión en caso de que haya errores durante la restauración. Le resultará conveniente realizar la copia de la imagen después de instalar el sistema operativo y SQL Server, y restaurar o volver a inscribir los certificados.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Se recomienda que realice una copia de la imagen del sistema antes de iniciar la restauración. Puede usar esta imagen como punto de reversión en caso de que haya errores durante la restauración. Le resultará conveniente realizar la copia de la imagen después de instalar el sistema operativo y SQL Server, y restaurar o volver a inscribir los certificados.
+
 
 
 ## Para restaurar el almacén de administración central
@@ -55,18 +46,9 @@ Si el servidor back-end que hospeda el Almacén de administración central se en
 
 3.  Si está restaurando una Servidor Standard Edition, restaure el Almacén de archivos copiando el Almacén de archivos correspondiente de $Backup en la ubicación de Almacén de archivos en el servidor y, a continuación, comparta la carpeta.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La ruta de acceso y nombre de archivo del Almacén de archivos restaurado deben ser exactamente iguales a los del Almacén de archivos del que se ha hecho la copia de seguridad. De este modo, los componentes que usan los archivos podrán acceder a ellos.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > La ruta de acceso y nombre de archivo del Almacén de archivos restaurado deben ser exactamente iguales a los del Almacén de archivos del que se ha hecho la copia de seguridad. De este modo, los componentes que usan los archivos podrán acceder a ellos.
+    
 
 
 4.  Siga uno de estos procedimientos:
@@ -146,18 +128,9 @@ Si el servidor back-end que hospeda el Almacén de administración central se en
     
     7.  Siga los pasos restantes del asistente y, a continuación, haga clic en **Finalizar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>En lugar de ejecutar Generador de topologías, puede usar el cmdlet <strong>Install-CsDatabase</strong> para crear cada una de las bases de datos y el cmdlet <strong>Install-CsMirrorDatabase</strong> para configurar la creación de reflejo. Para obtener detalles, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</a>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > En lugar de ejecutar Generador de topologías, puede usar el cmdlet <strong>Install-CsDatabase</strong> para crear cada una de las bases de datos y el cmdlet <strong>Install-CsMirrorDatabase</strong> para configurar la creación de reflejo. Para obtener detalles, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</a>.
+    
 
 
 11. Si está restaurando un Servidor Standard Edition, vaya al medio o la carpeta de instalación de Lync Server e inicie el Asistente para la implementación de Lync Server ubicado en \\setup\\amd64\\Setup.exe. Use el Asistente para la implementación de Lync Server para hacer lo siguiente:

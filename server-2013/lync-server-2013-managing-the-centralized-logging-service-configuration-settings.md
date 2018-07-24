@@ -17,27 +17,14 @@ _**Última modificación del tema:** 2012-11-01_
 
 El control y la configuración de Servicio de registro centralizado se manejan mediante las opciones de configuración y los parámetros que se crean y usan con el Controlador de Servicio de registro centralizado (CLSController) para enviar comandos al Agente de Servicio de registro centralizado (CLSAgent) de cada equipo en particular. El agente procesa los comandos que le envían y (en el caso del comando Start) usa la configuración de los escenarios, los proveedores, el tamaño del registro, la duración del seguimiento y los indicadores para comenzar a recopilar registros de seguimiento de acuerdo con la información de configuración facilitada.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No todos los cmdlets de Windows PowerShell que se muestran para Servicio de registro centralizado están pensados para ser usados con implementaciones locales de Lync Server 2013. Aunque parezcan que funcionan, los siguientes cmdlets no están diseñados para funcionar con implementaciones locales de Lync Server 2013:
-<ul>
-<li><p><strong>Cmdlets de CsClsRegion:</strong> <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsRegion">Get-CsClsRegion</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsRegion">Set-CsClsRegion</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsRegion">New-CsClsRegion</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsRegion">Remove-CsClsRegion</a>.</p></li>
-<li><p><strong>Cmdlets de CsClsSearchTerm:</strong> <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSearchTerm">Get-CsClsSearchTerm</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSearchTerm">Set-CsClsSearchTerm</a>.</p></li>
-<li><p><strong>Cmdlets de CsClsSecurityGroup:</strong> <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSecurityGroup">Get-CsClsSecurityGroup</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSecurityGroup">Set-CsClsSecurityGroup</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsSecurityGroup">New-CsClsSecurityGroup</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsSecurityGroup">Remove-CsClsSecurityGroup</a>.</p></li>
-</ul>
-La configuración definida en estos cmdlets no obstaculizará las operaciones ni provocará un mal comportamiento, pero está diseñada para ser usada con Microsoft Office 365 y no ofrecerá los resultados esperados en implementaciones locales. Lo cual no significa que estos cmdlets no sirvan para las implementaciones locales, sino que lo cierto es que tienen un uso más avanzado que no se aborda en esta documentación.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> No todos los cmdlets de Windows PowerShell que se muestran para Servicio de registro centralizado están pensados para ser usados con implementaciones locales de Lync Server 2013. Aunque parezcan que funcionan, los siguientes cmdlets no están diseñados para funcionar con implementaciones locales de Lync Server 2013:
+> <ul>
+> <li><p><strong>Cmdlets de CsClsRegion:</strong> <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsRegion">Get-CsClsRegion</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsRegion">Set-CsClsRegion</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsRegion">New-CsClsRegion</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsRegion">Remove-CsClsRegion</a>.</p></li>
+> <li><p><strong>Cmdlets de CsClsSearchTerm:</strong> <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSearchTerm">Get-CsClsSearchTerm</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSearchTerm">Set-CsClsSearchTerm</a>.</p></li>
+> <li><p><strong>Cmdlets de CsClsSecurityGroup:</strong> <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSecurityGroup">Get-CsClsSecurityGroup</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSecurityGroup">Set-CsClsSecurityGroup</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsSecurityGroup">New-CsClsSecurityGroup</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsSecurityGroup">Remove-CsClsSecurityGroup</a>.</p></li>
+> </ul>
+> La configuración definida en estos cmdlets no obstaculizará las operaciones ni provocará un mal comportamiento, pero está diseñada para ser usada con Microsoft Office 365 y no ofrecerá los resultados esperados en implementaciones locales. Lo cual no significa que estos cmdlets no sirvan para las implementaciones locales, sino que lo cierto es que tienen un uso más avanzado que no se aborda en esta documentación.
 
 
 ## En esta sección

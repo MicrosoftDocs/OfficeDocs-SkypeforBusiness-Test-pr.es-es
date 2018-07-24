@@ -26,18 +26,9 @@ Si su organización necesita la admisión de menos de 15 000 conexiones de clien
   -   
     [Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si usa una dirección IP pública en Servidor perimetral, la puerta de enlace predeterminada en Servidor perimetral ya no es su firewall o enrutador, sino el enrutador o firewall de su servidor perimetral público, que será una dirección pública. El proxy inverso continúa usando el enrutador o firewall asociado con la red perimetral más externa. La diferencia entre el proxy inverso y el Servidor perimetral con direcciones IP públicas es que aquel sigue usando NAT, mientras que Servidor perimetral usa una relación de ruta.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si usa una dirección IP pública en Servidor perimetral, la puerta de enlace predeterminada en Servidor perimetral ya no es su firewall o enrutador, sino el enrutador o firewall de su servidor perimetral público, que será una dirección pública. El proxy inverso continúa usando el enrutador o firewall asociado con la red perimetral más externa. La diferencia entre el proxy inverso y el Servidor perimetral con direcciones IP públicas es que aquel sigue usando NAT, mientras que Servidor perimetral usa una relación de ruta.
+
 
 
 La figura no muestra Directores, un rol de servidor opcional implementado en la red interna entre los Servidores perimetrales y sus Grupos de servidores front-end o su servidor. Para más información sobre la topología para directores, vea [Componentes requeridos para el director en Lync Server 2013](lync-server-2013-components-required-for-the-director.md). La figura representa un único proxy inverso.
@@ -54,36 +45,18 @@ Normalmente, los tipos de direcciones que utilizará para el direccionamiento IP
 
 Existen tecnologías de conversión de direcciones de red (NAT) para IPv6 que permitirán un NAT de IPv6 a IPv4 (normalmente denominado NAT64) y un NAT de IPv6 a IPv6 (normalmente denominado NAT66). La existencia de tecnologías NAT significa que los cinco escenarios presentados para Lync ServerServidores perimetrales siguen siendo válidos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>IPv6 es un tema complejo y necesita una planeación cuidadosa con el equipo de redes y el proveedor de Internet para garantizar que las direcciones que asigna en el nivel de servidor de Windows y en el nivel de Lync Server 2013 funcionen tal como se esperaba. Vea los vínculos al final de este tema para consultar los recursos adicionales sobre la planeación de IPv6 y su direccionamiento.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> IPv6 es un tema complejo y necesita una planeación cuidadosa con el equipo de redes y el proveedor de Internet para garantizar que las direcciones que asigna en el nivel de servidor de Windows y en el nivel de Lync Server 2013 funcionen tal como se esperaba. Vea los vínculos al final de este tema para consultar los recursos adicionales sobre la planeación de IPv6 y su direccionamiento.
+
 
 
 **Topología de perímetro consolidado de un solo equipo con direcciones IP públicas**
 
 ![Escenario perimetral para servidor perimetral consolidado único](images/JJ205148.2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d(OCS.15).jpg "Escenario perimetral para servidor perimetral consolidado único")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si usa el Control de admisión de llamadas (CAC), sigue teniendo que asignar direcciones de IPv4 a la interfaz interna de Servidor perimetral. CAC usa las direcciones IPv4 y debe tenerlas disponibles para funcionar.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si usa el Control de admisión de llamadas (CAC), sigue teniendo que asignar direcciones de IPv4 a la interfaz interna de Servidor perimetral. CAC usa las direcciones IPv4 y debe tenerlas disponibles para funcionar.
+
 
 
 ## En esta sección

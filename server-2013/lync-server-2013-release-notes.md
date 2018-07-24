@@ -761,18 +761,9 @@ El parámetro *DropExistingDatabasesOnMirror* hace que las bases de datos afecta
 
 3.  Publique la topología.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cada vez que haga un cambio en una relación de creación de reflejo de la base de datos back-end, debe reiniciar todos los Servidores front-end del grupo.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Cada vez que haga un cambio en una relación de creación de reflejo de la base de datos back-end, debe reiniciar todos los Servidores front-end del grupo.
+
 
 
 ## Se devuelven errores de validación en el Generador de topologías cuando un administrador intenta quitar una implementación con un grupo de servidores front-end que tiene un almacén de testigos asociado (3199266)

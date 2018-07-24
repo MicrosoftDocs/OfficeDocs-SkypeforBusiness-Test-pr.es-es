@@ -35,17 +35,7 @@ Cada vez que use Generador de topologías para crear la topología, debe publica
     
       - Para cerrar el asistente, haga clic en **Finalizar** .
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si se trata de una instalación nueva de Servidor perimetral o Grupo de servidores perimetrales, debe exportar la configuración de Servidor perimetral desde un Servidor front-end, Grupo de servidores front-end o Servidor Standard Edition existente. Para exportar la configuración, consulte <a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Exportar la topología de Lync Server 2013 y copiarla en un medio externo para la instalación perimetral</a>. Importará el archivo de configuración desde un medio externo o un recurso compartido de redes durante la instalación y la fase de implementación de Servidores perimetrales a través de Asistente para la implementación de Lync Server.<br />
-        Una vez que el Servidores perimetrales son operativos y la base de datos de almacenamiento de administración de configuración local se replica con la implementación interna, las actualizaciones posteriores de la configuración del Lync Server 2013 se publicarán y replicarán en el Servidores perimetrales.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!IMPORTANT]  
+        > Si se trata de una instalación nueva de Servidor perimetral o Grupo de servidores perimetrales, debe exportar la configuración de Servidor perimetral desde un Servidor front-end, Grupo de servidores front-end o Servidor Standard Edition existente. Para exportar la configuración, consulte <a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Exportar la topología de Lync Server 2013 y copiarla en un medio externo para la instalación perimetral</a>. Importará el archivo de configuración desde un medio externo o un recurso compartido de redes durante la instalación y la fase de implementación de Servidores perimetrales a través de Asistente para la implementación de Lync Server.<br />
+        > Una vez que el Servidores perimetrales son operativos y la base de datos de almacenamiento de administración de configuración local se replica con la implementación interna, las actualizaciones posteriores de la configuración del Lync Server 2013 se publicarán y replicarán en el Servidores perimetrales.
 

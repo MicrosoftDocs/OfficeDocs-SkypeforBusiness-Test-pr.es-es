@@ -27,18 +27,9 @@ Si ya ha definido una topología y ha establecido el Almacén de administración
 
 Si no ha establecido un Almacén de administración central y desea editar una configuración guardada anteriormente, deberá seleccionar la apertura de la topología desde un archivo local. El archivo que abrirá será el archivo de configuración que se guardó en una sesión anterior. Puede usar esta opción para editar la topología guardada anteriormente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si ya tiene una topología publicada, no deberá cargar un archivo de configuración local. Deberá descargar la topología desde una implementación existente.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si ya tiene una topología publicada, no deberá cargar un archivo de configuración local. Deberá descargar la topología desde una implementación existente.
+
 
 
 Si desea crear una nueva configuración de Generador de topologías, seleccione crear una nueva topología. Un diseño guardado anteriormente no se sobrescribe a no ser que elija guardarlo como el mismo archivo creado en una sesión de diseño anterior.

@@ -25,18 +25,9 @@ Una implementación local Lync Server 2013 consiste en lo siguiente:
     
       - Un grupo de servidores front-end de Enterprise Edition, que está formado por uno o varios servidores front-end (normalmente, al menos dos servidores front-end por razones de escalabilidad) y un servidor back-end independiente. Un grupo front-end puede tener un máximo de doce servidores front-end. Se necesita un equilibrio de carga para varios servidores front-end. Para tráfico SIP, se recomienda un equilibrio de carga de DNS, aunque también se admite un equilibrio de carga de hardware. Si usa un equilibrio de carga de DNS para el tráfico SIP, seguirá necesitando un equilibrador de carga de hardware para el tráfico HTTP. Se recomienda SQL Server para la creación de reflejos de bases de datos. La base de datos de back-end requiere una instancia independiente, aunque puede colocar en ella la base de datos de archivado, la base de datos de supervisión, la base de datos de chat persistente y la base de datos de cumplimiento de chat persistente. Lync Server 2013 admite el uso de un clúster compartido para el uso compartido de archivos en su implementación. Para obtener más información sobre los requisitos de almacenamiento de base de datos, vea [Compatibilidad con software de base de datos en Lync Server 2013](lync-server-2013-database-software-support.md). Para obtener más información acerca de los requisitos de almacenamiento de archivos, consulte [Compatibilidad con el almacenamiento de archivos en Lync Server 2013](lync-server-2013-file-storage-support.md).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si combina bases de datos de Lync Server con otras bases de datos, le recomendamos encarecidamente que evalúe todos los factores que pueden afectar a la disponibilidad y al rendimiento. Para comprobar las capacidades de conmutación por error, se recomienda probar todos los escenarios de conmutación por error.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!IMPORTANT]  
+        > Si combina bases de datos de Lync Server con otras bases de datos, le recomendamos encarecidamente que evalúe todos los factores que pueden afectar a la disponibilidad y al rendimiento. Para comprobar las capacidades de conmutación por error, se recomienda probar todos los escenarios de conmutación por error.
+        
     
       - Un servidor Standard Edition, que incluye una base de datos colocada de SQL Server Express.
 

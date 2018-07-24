@@ -55,18 +55,9 @@ Para obtener más información acerca del software adicional requerido para impl
 
 El Servidor de chat persistente usa la base de datos de Chat persistente para almacenar el historial de conversaciones, la configuración y los datos de aprovisionamiento de usuarios. También puede usar (opcionalmente) una base de datos de cumplimiento de Chat persistente para almacenar los datos de cumplimiento.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La base de datos del Chat persistente (mgc) y la base de datos de cumplimiento (mgccomp) pueden estar ubicadas en la misma instancia de SQL Server o en Servidores SQL Server diferentes.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> La base de datos del Chat persistente (mgc) y la base de datos de cumplimiento (mgccomp) pueden estar ubicadas en la misma instancia de SQL Server o en Servidores SQL Server diferentes.
+
 
 
 Para preparar una plataforma de servidor de bases de datos, asegúrese de que cada equipo reúne todos los requisitos de hardware y, a continuación, instale el software necesario como requisito previo.

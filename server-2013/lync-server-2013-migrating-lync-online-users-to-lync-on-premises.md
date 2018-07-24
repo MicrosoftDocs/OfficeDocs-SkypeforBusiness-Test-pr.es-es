@@ -15,19 +15,9 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2016-12-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Estos pasos solo son necesarios para migrar cuentas de usuario habilitadas originalmente para Lync en Lync Online antes de la implementación de Lync local. Para mover usuarios habilitados originalmente para Lync local y que posteriormente se movieron a Lync Online, vea <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administrar usuarios en una implementación híbrida de Lync Server 2013</a>.<br />
-Además, todos los usuarios que se muevan deberán tener cuentas en Active Directory local.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Estos pasos solo son necesarios para migrar cuentas de usuario habilitadas originalmente para Lync en Lync Online antes de la implementación de Lync local. Para mover usuarios habilitados originalmente para Lync local y que posteriormente se movieron a Lync Online, vea <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administrar usuarios en una implementación híbrida de Lync Server 2013</a>.<br />
+> Además, todos los usuarios que se muevan deberán tener cuentas en Active Directory local.
 
 
 ## Migrar cuentas de usuario originalmente habilitadas en Lync Online a Lync local

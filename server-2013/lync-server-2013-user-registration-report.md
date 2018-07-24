@@ -78,18 +78,9 @@ Además de saber el número de inicios de sesión únicos, es necesario saber el
 
 Si el comando anterior devuelve un valor de 1,236 y la métrica de Usuarios de inicios de sesión distintos devuelve un valor de promedio de 667, esto indica que un poco más de la mitad de los usuarios habilitados para Lync inician sesión en el sistema cada día (es decir, 667 dividido por 1,236, lo que da un resultado aproximado del 54%).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Es necesario tener en cuenta que las métricas de inicio de sesión registran los usuarios que han iniciado sesión durante el periodo especificado. Estas métricas no registran los usuarios que ya habían iniciado sesión en el sistema. Por ejemplo, si la métrica de Usuarios de inicios de sesión distintos muestra 667 inicios de sesión y tiene 1.236 usuarios, quiere decir que aproximadamente la mitad de los usuarios han iniciado sesión en el sistema. Sin embargo, suponga que 300 usuarios ya habían iniciado sesión en el sistema en el momento en que comenzó a comprobar los datos de inicio de sesión. Esto implicaría que en realidad hay cerca de 1.000 usuarios que han iniciado sesión en Lync Server, lo que representa casi un 80% de los usuarios.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Es necesario tener en cuenta que las métricas de inicio de sesión registran los usuarios que han iniciado sesión durante el periodo especificado. Estas métricas no registran los usuarios que ya habían iniciado sesión en el sistema. Por ejemplo, si la métrica de Usuarios de inicios de sesión distintos muestra 667 inicios de sesión y tiene 1.236 usuarios, quiere decir que aproximadamente la mitad de los usuarios han iniciado sesión en el sistema. Sin embargo, suponga que 300 usuarios ya habían iniciado sesión en el sistema en el momento en que comenzó a comprobar los datos de inicio de sesión. Esto implicaría que en realidad hay cerca de 1.000 usuarios que han iniciado sesión en Lync Server, lo que representa casi un 80% de los usuarios.
+
 
 
 También debe comparar el valor de Usuarios de inicios de sesión distintos con el valor de la métrica Usuarios activos distintos. La métrica Usuarios activos distintos indica cuántos usuarios distintos han usado Lync Server en realidad: si han realizado llamadas telefónicas, si se han unido a una Reunión de Lync o si han participado en una sesión de mensajería instantánea. Esta información es de utilidad, ya que Microsoft Lync 2013 puede configurarse para que se inicie automáticamente cada vez que un usuario inicie Windows. Por ello, es posible que tenga un elevado número de usuarios que inicien sesión automáticamente en Lync al iniciar sesión en Windows cada día, aunque nunca hagan uso de Lync Server durante este periodo.

@@ -45,18 +45,9 @@ El servicio de conferencia web almacena entonces el contenido como diapositivas 
 
 El administrador debe establecer permisos en el recurso compartido de archivos de manera que los grupos RTC tengan el acceso de lectura y escritura necesario.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si encuentra errores con los permisos, abra el Generador de topologías, descargue la topología existente y vuelva a publicarla. La publicación de la topología comprobará los permisos de recurso compartido de archivos y los restablecerá en caso necesario.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si encuentra errores con los permisos, abra el Generador de topologías, descargue la topología existente y vuelva a publicarla. La publicación de la topología comprobará los permisos de recurso compartido de archivos y los restablecerá en caso necesario.
+
 
 
 Puede usar los siguientes valores para administrar la manera en que se almacena el contenido para una reunión:

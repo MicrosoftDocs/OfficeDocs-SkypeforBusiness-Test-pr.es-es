@@ -29,18 +29,9 @@ Para completar con éxito este procedimiento debe iniciar sesión en el servidor
 
 5.  Haga clic en **Dirección IP** y escriba la IP virtual (VIP) del equilibrador de carga de Grupo de servidores front-end.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>En las implementaciones que usan un grupo de servidores director, los registros (A) de host de las direcciones URL sencillas deben apuntar al VIP del equilibrador de carga del director.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > En las implementaciones que usan un grupo de servidores director, los registros (A) de host de las direcciones URL sencillas deben apuntar al VIP del equilibrador de carga del director.
+    
     
 
     > [!NOTE]

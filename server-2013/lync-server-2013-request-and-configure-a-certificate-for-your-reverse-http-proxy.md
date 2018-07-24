@@ -44,18 +44,9 @@ También puede instalar un certificado de servidor Web público en el servidor d
 <td><p>FQDN del grupo de servidores</p></td>
 <td><p>webext.contoso.com</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>El nombre de sujeto también debe estar presente en el nombre alternativo de sujeto.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> El nombre de sujeto también debe estar presente en el nombre alternativo de sujeto.
+
 
 </div></td>
 </tr>
@@ -118,18 +109,9 @@ Puede crear una solicitud de certificado en el proxy inverso. Puede crear una so
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si planea los certificados de Servidor perimetral y los certificados de proxy inverso al mismo tiempo, debe tener en cuenta que hay mucha semejanza entre los dos requisitos de certificados. Cuando configura y solicita el certificado de Servidor perimetral, combine los nombres alternativos del sujeto de proxy inverso y Servidor perimetral. Puede usar el mismo certificado para el proxy inverso si exporta el certificado y la clave privada, copia el archivo exportado al proxy inverso y, a continuación, importa el par certificado/clave y lo asigna según sea necesario en los próximos procedimientos. Consulte los requisitos del certificado para Servidor perimetral  <a href="lync-server-2013-plan-for-edge-server-certificates.md">Plan para certificados de servidores perimetrales en Lync Server 2013</a> y el proxy inverso <a href="lync-server-2013-certificate-summary-reverse-proxy.md">Resumen de certificado - Proxy inverso en Lync Server 2013</a>. Asegúrese de crear el certificado con una clave privada exportable. La creación del certificado y la solicitud del certificado con una clave privada exportable se requiere para los grupos de Servidores perimetrales, por lo que se trata de una práctica normal y el Asistente para certificados en Asistente para la implementación de Lync Server para Servidor perimetral le permitirá establecer la marca <strong>Hacer exportable la clave privada</strong>. Una vez que vuelve a recibir la solicitud de certificado de la autoridad de certificación pública, podrá exportar el certificado y la clave privada. Consulte la sección “Para exportar el certificado con la clave privada para servidores perimetrales de un grupo” en el tema <a href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Configurar certificados para la interfaz perimetral externa en Lync Server 2013</a> para obtener detalles acerca de cómo crear y exportar el certificado con una clave privada. La extensión del certificado debe ser de tipo <strong>.pfx</strong>.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Si planea los certificados de Servidor perimetral y los certificados de proxy inverso al mismo tiempo, debe tener en cuenta que hay mucha semejanza entre los dos requisitos de certificados. Cuando configura y solicita el certificado de Servidor perimetral, combine los nombres alternativos del sujeto de proxy inverso y Servidor perimetral. Puede usar el mismo certificado para el proxy inverso si exporta el certificado y la clave privada, copia el archivo exportado al proxy inverso y, a continuación, importa el par certificado/clave y lo asigna según sea necesario en los próximos procedimientos. Consulte los requisitos del certificado para Servidor perimetral  <a href="lync-server-2013-plan-for-edge-server-certificates.md">Plan para certificados de servidores perimetrales en Lync Server 2013</a> y el proxy inverso <a href="lync-server-2013-certificate-summary-reverse-proxy.md">Resumen de certificado - Proxy inverso en Lync Server 2013</a>. Asegúrese de crear el certificado con una clave privada exportable. La creación del certificado y la solicitud del certificado con una clave privada exportable se requiere para los grupos de Servidores perimetrales, por lo que se trata de una práctica normal y el Asistente para certificados en Asistente para la implementación de Lync Server para Servidor perimetral le permitirá establecer la marca <strong>Hacer exportable la clave privada</strong>. Una vez que vuelve a recibir la solicitud de certificado de la autoridad de certificación pública, podrá exportar el certificado y la clave privada. Consulte la sección “Para exportar el certificado con la clave privada para servidores perimetrales de un grupo” en el tema <a href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Configurar certificados para la interfaz perimetral externa en Lync Server 2013</a> para obtener detalles acerca de cómo crear y exportar el certificado con una clave privada. La extensión del certificado debe ser de tipo <strong>.pfx</strong>.
+
 
 
 Para generar una solicitud de firma de certificado en el equipo en el que se asignarán el certificado y la clave privada, lleve a cabo el siguiente procedimiento:
@@ -190,16 +172,7 @@ Para generar una solicitud de firma de certificado en el equipo en el que se asi
 
 20. Localice el archivo de solicitud que guardó en el paso anterior. Envíelo a la autoridad de certificación pública.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Microsoft ha identificado entidades emisoras públicas que cumplen con los requisitos para los fines de comunicaciones unificadas. Se mantiene una lista en el siguiente artículo de Knowledge Base. <a href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</a></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Microsoft ha identificado entidades emisoras públicas que cumplen con los requisitos para los fines de comunicaciones unificadas. Se mantiene una lista en el siguiente artículo de Knowledge Base. <a href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</a>
+    
 

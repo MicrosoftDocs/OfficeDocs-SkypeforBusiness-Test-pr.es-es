@@ -41,41 +41,19 @@ Con el reflejo de SQL, el modo de recuperación de bases de datos siempre está 
 
 Con el reflejo de SQL, puede configurar la topología de creación de reflejos al crear los grupos o después de que ya se hayan creado los grupos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>El uso de Generador de topologías o de cmdlets para instalar y eliminar el reflejo de SQL se admite solo cuando el servidor principal, el reflejo y el testigo (si se desea) pertenecen al mismo dominio. Si desea configurar la creación del reflejo de SQL entre servidores de dominios diferentes, consulte la documentación sobre SQL Server.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> El uso de Generador de topologías o de cmdlets para instalar y eliminar el reflejo de SQL se admite solo cuando el servidor principal, el reflejo y el testigo (si se desea) pertenecen al mismo dominio. Si desea configurar la creación del reflejo de SQL entre servidores de dominios diferentes, consulte la documentación sobre SQL Server.
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Siempre que haga algún cambio en las conexiones entre reflejos de la base de datos back-end, deberá reiniciar todos los servidores front-end del grupo de servidores.<br />
-Para realizar cambios en relación con los reflejos (como cambiar la ubicación de un reflejo), use el Generador de topologías para realizar estas tres operaciones:
-<ol>
-<li><p>Quitar reflejos del servidor reflejado antiguo.</p></li>
-<li><p>Agregar reflejos al servidor reflejado nuevo.</p></li>
-<li><p>Publique la topología.</p></li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+
+> [!IMPORTANT]  
+> Siempre que haga algún cambio en las conexiones entre reflejos de la base de datos back-end, deberá reiniciar todos los servidores front-end del grupo de servidores.<br />
+> Para realizar cambios en relación con los reflejos (como cambiar la ubicación de un reflejo), use el Generador de topologías para realizar estas tres operaciones:
+> <ol>
+> <li><p>Quitar reflejos del servidor reflejado antiguo.</p></li>
+> <li><p>Agregar reflejos al servidor reflejado nuevo.</p></li>
+> <li><p>Publique la topología.</p></li>
+> </ol>
 
 
 

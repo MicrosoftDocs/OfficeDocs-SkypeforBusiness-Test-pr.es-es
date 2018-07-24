@@ -85,18 +85,9 @@ Los registros DNS pueden ser registros de host (A) o registros CNAME, según cu�
     > Si no usa un Director, use el FQDN interno y externo de servicio web del Grupo de servidores front-end o, para un único servidor único, el FQDN del Servidor front-end o el Servidor Standard Edition.
 
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Debe crear un nuevo registro CNAME de Detección automática en la zona de búsqueda directa de cada dominio SIP que admita en su entorno de Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Debe crear un nuevo registro CNAME de Detección automática en la zona de búsqueda directa de cada dominio SIP que admita en su entorno de Lync Server 2013.
+    
 
 
 ## Para crear registros DNS A
@@ -169,18 +160,9 @@ Los registros DNS pueden ser registros de host (A) o registros CNAME, según cu�
 
 11. Para crear más registros A, repita los pasos del 8 al 10.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Debe crear registros A de lyncdiscover y lyncdiscoverinternal en la zona de búsqueda directa de cada dominio SIP que admita en su entorno de Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Debe crear registros A de lyncdiscover y lyncdiscoverinternal en la zona de búsqueda directa de cada dominio SIP que admita en su entorno de Lync Server 2013.
+    
 
 
 12. Cuando termine de crear registros A (para IPv6, AAAA), haga clic en **Listo**.

@@ -27,16 +27,7 @@ Después de migrar los usuarios a Lync Server 2013, haga lo siguiente:
 
 5.  (Opcional) Si su organización requiere el modo de privacidad de presencia mejorada de Lync Server 2013, una vez finalizada la migración, defina una regla de directiva de versión de cliente para evitar que versiones anteriores del cliente inicien sesión. A continuación, habilite el modo de privacidad de presencia mejorada.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No habilite el modo de privacidad de presencia mejorada de Lync 2013 hasta que todos los usuarios en un grupo de servidores determinado tengan las últimas versiones de cliente instaladas.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > No habilite el modo de privacidad de presencia mejorada de Lync 2013 hasta que todos los usuarios en un grupo de servidores determinado tengan las últimas versiones de cliente instaladas.
+    
 

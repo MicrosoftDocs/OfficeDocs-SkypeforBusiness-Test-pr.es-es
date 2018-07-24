@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2013-11-07_
 
 Antes de empezar a diseñar y planear una infraestructura de Lync Server 2013 con la Microsoft Lync Server 2013, herramienta de planeación, debe instalar la Herramienta de planeación. No es necesario implementar la Herramienta de planeación en una estación de trabajo o en un servidor que forme parte del dominio o de la infraestructura donde tiene previsto instalar Lync Server 2013. El archivo Léame que se incluye con la Herramienta de planeación contiene información importante sobre cómo instalar y usar esta herramienta. Parte de la información del archivo Léame también aparece aquí por motivos de claridad.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La Herramienta de planeación requiere la instalación por parte de un usuario con permisos y derechos de administrador en el equipo donde se desea instalar la herramienta.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> La Herramienta de planeación requiere la instalación por parte de un usuario con permisos y derechos de administrador en el equipo donde se desea instalar la herramienta.
+
 
 
 Los sistemas operativos admitidos para la instalación y el correcto funcionamiento de la Herramienta de planeación son:

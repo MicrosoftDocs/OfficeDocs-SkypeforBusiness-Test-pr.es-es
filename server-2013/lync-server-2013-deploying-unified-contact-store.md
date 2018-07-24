@@ -23,18 +23,9 @@ Para habilitar el almacén de contactos unificados en Lync Server 2013 no es nec
 
 Cuando los contactos de un usuario se hayan migrado (lo que sucede automáticamente cuando dicho usuario inicia sesión con Lync 2013), el usuario podrá acceder a sus contactos de Lync y administrarlos desde Lync 2013, Outlook 2013 o Outlook Web Access. No es necesario haber iniciado sesión en Lync para administrar los contactos desde Outlook o Outlook Web Access.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si un usuario inicia sesión desde Lync 2010 después de la migración, los contactos estarán disponibles y actualizados, pero no se podrán administrar (es decir, agregar, eliminar, mover, modificar, etiquetar o quitar su etiqueta).</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si un usuario inicia sesión desde Lync 2010 después de la migración, los contactos estarán disponibles y actualizados, pero no se podrán administrar (es decir, agregar, eliminar, mover, modificar, etiquetar o quitar su etiqueta).
+
 
 
 ## En esta sección

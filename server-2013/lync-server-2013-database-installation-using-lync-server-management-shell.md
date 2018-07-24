@@ -17,34 +17,16 @@ _**Última modificación del tema:** 2016-12-08_
 
 La separación de roles y responsabilidades entre los administradores de servidor y los de SQL Server puede ocasionar retrasos en la implementación. Lync Server 2013 usa el control de acceso basado en roles (RBAC) para atenuar estas dificultades. En algunos casos, el administrador de SQL Server tiene que administrar la instalación de las bases de datos en el servidor de SQL Server independientemente de RBAC. Shell de administración de Lync Server 2013 permite al administrador de SQL Server ejecutar los cmdlets de Windows PowerShell diseñados para configurar bases de datos con los archivos de datos y de registro correctos. Para más información, consulte [Permisos de implementación para SQL Server en Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>El siguiente procedimiento presupone que, como mínimo, están instalados Microsoft SQL Server 2012 ADOMD.NET, CLR Types for Microsoft SQL Server 2012, CLR Types for Microsoft SQL Server 2012, SQL Server Native Client (sqlncli.msi) y OCSCore.msi de Lync Server 2013. OCSCore.msi está ubicado en el medio de instalación en el directorio \Setup\AMD64\Setup. El resto de los componentes se encuentran en \Setup\amd64. Además, la preparación de Active Directory para Lync Server 2013 se ha realizado correctamente.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> El siguiente procedimiento presupone que, como mínimo, están instalados Microsoft SQL Server 2012 ADOMD.NET, CLR Types for Microsoft SQL Server 2012, CLR Types for Microsoft SQL Server 2012, SQL Server Native Client (sqlncli.msi) y OCSCore.msi de Lync Server 2013. OCSCore.msi está ubicado en el medio de instalación en el directorio \Setup\AMD64\Setup. El resto de los componentes se encuentran en \Setup\amd64. Además, la preparación de Active Directory para Lync Server 2013 se ha realizado correctamente.
+
 
 
 **Install-CsDatabase** es el cmdlet de Windows PowerShell que debe usar para instalar las bases de datos. El cmdlet **Install-CsDatabase** tiene una gran cantidad de parámetros, aquí solo se analizan algunos. Para más información sobre los posibles parámetros, consulte la documentación de Shell de administración de Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para evitar problemas de rendimiento y posibles tiempos de espera, debe usar siempre nombres de dominio completos (FQDN) cuando hace referencia a servidores de SQL Server. Evite usar referencias de solo nombre de host. Por ejemplo, use sqlbe01.contoso.net, pero evite usar SQLBE01.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Para evitar problemas de rendimiento y posibles tiempos de espera, debe usar siempre nombres de dominio completos (FQDN) cuando hace referencia a servidores de SQL Server. Evite usar referencias de solo nombre de host. Por ejemplo, use sqlbe01.contoso.net, pero evite usar SQLBE01.
+
 
 
 A la hora de instalar bases de datos, **Install-CsDatabase** usa tres métodos básicos para colocar las bases de datos en el servidor de SQL Server preparado:
@@ -74,18 +56,9 @@ A la hora de instalar bases de datos, **Install-CsDatabase** usa tres métodos b
     Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
     ```
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El parámetro Report es opcional pero útil si está documentando el proceso de instalación.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > El parámetro Report es opcional pero útil si está documentando el proceso de instalación.
+    
 
 
 4.  **Install-CsDatabase –DatabasePaths** puede usar hasta seis parámetros de ruta de acceso de modo que cada uno defina las rutas de acceso para las unidades que se definen en la ubicación del archivo de registro y los datos de SQL Server. Mediante las reglas lógicas de la configuración de base de datos de Lync Server 2013, las unidades se analizan en cubos de dos, cuatro o seis. Dependiendo de la configuración de SQL Server y del número de cubos, se proporcionarán dos, cuatro o seis rutas de acceso.
@@ -104,18 +77,9 @@ A la hora de instalar bases de datos, **Install-CsDatabase** usa tres métodos b
 
 2.  Inicie sesión en cualquier PC con credenciales administrativas para la creación de bases de datos en el servidor de SQL Server. Consulte el tema [Permisos de implementación para SQL Server en Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para poder configurar las bases de datos de SQL Server, asegúrese de que la cuenta de administrador de SQL Server con la que se han realizado los pasos descritos anteriormente también es miembro del grupo sysadmins (o equivalente) en el servidor que ejecuta SQL Server, y desempeña el rol de Servidor de administración central. Esto es especialmente importante para comprobar grupos de Lync Server 2013 adicionales que requieren la instalación o configuración de bases de datos de SQL Server. Por ejemplo, si implementa un segundo grupo (Grupo02), pero el rol de Servidor de administración central pertenece al Grupo01. El grupo sysadmin de SQL Server (o equivalente) debe tener permisos en las dos bases de datos de SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Para poder configurar las bases de datos de SQL Server, asegúrese de que la cuenta de administrador de SQL Server con la que se han realizado los pasos descritos anteriormente también es miembro del grupo sysadmins (o equivalente) en el servidor que ejecuta SQL Server, y desempeña el rol de Servidor de administración central. Esto es especialmente importante para comprobar grupos de Lync Server 2013 adicionales que requieren la instalación o configuración de bases de datos de SQL Server. Por ejemplo, si implementa un segundo grupo (Grupo02), pero el rol de Servidor de administración central pertenece al Grupo01. El grupo sysadmin de SQL Server (o equivalente) debe tener permisos en las dos bases de datos de SQL Server.
+    
 
 
 3.  Abra Shell de administración de Lync Server 2013 si no está abierto.
@@ -131,18 +95,9 @@ A la hora de instalar bases de datos, **Install-CsDatabase** usa tres métodos b
       -Report "C:\Logs\InstallDatabases.html"
     ```
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El parámetro Report es opcional pero útil si está documentando el proceso de instalación.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > El parámetro Report es opcional pero útil si está documentando el proceso de instalación.
+    
 
 
 5.  Cuando la instalación de la base de datos finalice, cierre Shell de administración de Lync Server 2013.
@@ -153,18 +108,9 @@ A la hora de instalar bases de datos, **Install-CsDatabase** usa tres métodos b
 
 2.  Inicie sesión en cualquier PC con credenciales administrativas para la creación de bases de datos en el servidor de SQL Server. Consulte el tema [Permisos de implementación para SQL Server en Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para poder configurar las bases de datos de SQL Server, asegúrese de que la cuenta de administrador de SQL Server con la que se han realizado los pasos descritos anteriormente también es miembro del grupo sysadmins (o equivalente) en el servidor que ejecuta SQL Server, y desempeña el rol de Servidor de administración central. Esto es especialmente importante para comprobar grupos de Lync Server adicionales que requieren la instalación o configuración de bases de datos de SQL Server. Por ejemplo, si implementa un segundo grupo (Grupo02), pero el rol de Servidor de administración central pertenece al Grupo01. El grupo sysadmin de SQL Server (o equivalente) debe tener permisos en las dos bases de datos de SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Para poder configurar las bases de datos de SQL Server, asegúrese de que la cuenta de administrador de SQL Server con la que se han realizado los pasos descritos anteriormente también es miembro del grupo sysadmins (o equivalente) en el servidor que ejecuta SQL Server, y desempeña el rol de Servidor de administración central. Esto es especialmente importante para comprobar grupos de Lync Server adicionales que requieren la instalación o configuración de bases de datos de SQL Server. Por ejemplo, si implementa un segundo grupo (Grupo02), pero el rol de Servidor de administración central pertenece al Grupo01. El grupo sysadmin de SQL Server (o equivalente) debe tener permisos en las dos bases de datos de SQL Server.
+    
 
 
 3.  Abra Shell de administración de Lync Server, si no está abierto.
