@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2017-02-17_
 
 Los servidores internos que ejecutan Lync Server y que requieren certificados incluyen un servidor Standard Edition, un servidor front-end Enterprise Edition, un servidor de mediación y un director. En la siguiente tabla se muestran los requisitos de certificado para estos servidores. Puede usar el asistente para certificados de Lync Server para solicitar dichos certificados.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se admiten los certificados de comodín para los nombres alternativos de sujeto asociados a las direcciones URL simples en Grupo de servidores front-end, Servidor front-end o director. Para obtener información sobre el soporte técnico de certificados de comodín, consulte <a href="lync-server-2013-wildcard-certificate-support.md">Compatibilidad de certificado de comodín en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Se admiten los certificados de comodín para los nombres alternativos de sujeto asociados a las direcciones URL simples en Grupo de servidores front-end, Servidor front-end o director. Para obtener información sobre el soporte técnico de certificados de comodín, consulte <a href="lync-server-2013-wildcard-certificate-support.md">Compatibilidad de certificado de comodín en Lync Server 2013</a>.
+
 
 
 Aunque para los servidores internos se recomienda una entidad de certificación (CA) empresarial interna, también puede usar una pública. Para obtener una lista de entidades de certificación públicas que proporcionan certificados que cumplen los requisitos específicos para los certificados de comunicaciones unificadas (UC) y que están asociadas con Microsoft para asegurar que funcionan con el Asistente para certificados de Lync Server, consulte el artículo 929395 de Microsoft Knowledge Base, "Socios de certificado de comunicaciones unificadas de Exchange Server y para Communications Server", en [http://go.microsoft.com/fwlink/?linkid=202834\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=202834%26clcid=0xc0a).

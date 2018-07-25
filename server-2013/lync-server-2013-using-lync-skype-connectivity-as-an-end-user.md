@@ -19,28 +19,15 @@ La conectividad entre Lync y Skype permite a los usuarios de Skype y a los usuar
 
 **¿Qué es una MSA?** Los usuarios de Skype deben iniciar sesión con una cuenta Microsoft (anteriormente conocida como Windows Live ID) para poder comunicarse con contactos de Lync. Una cuenta Microsoft consiste en la combinación de un correo electrónico y una contraseña que puede usar para iniciar sesión en servicios como la tecnología de almacenamiento Microsoft OneDrive, Windows Phone, el servicio de juego en línea Microsoft Xbox LIVE y el cliente de colaboración y mensajería Microsoft Outlook (y, anteriormente, en el servicio de correo electrónico basado en la Web Microsoft Hotmail o Windows Live Messenger). Si utiliza una dirección de correo electrónico y una contraseña para iniciar sesión en estos u otros servicios, ya tiene una cuenta Microsoft. Para obtener más información sobre la creación de una cuenta Microsoft, consulte la página de registro de cuentas Microsoft en [http://go.microsoft.com/fwlink/p/?LinkId=306061](http://go.microsoft.com/fwlink/p/?linkid=306061). Puede combinar su cuenta de Skype existente con una cuenta Microsoft para poder iniciar sesión una sola vez y utilizar una variedad de aplicaciones y servicios. Una vez que la cuenta esté combinada, el usuario de Skype podrá enviar solicitudes de contacto a los usuarios de Lync.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Los usuarios de Lync y de Skype deben cumplir los siguientes requisitos para poder comunicarse entre ellos usando todas las funciones:
-<ul>
-<li><p>Los usuarios de Skype deben tener una sesión iniciada en su cliente de Skype con una MSA.</p></li>
-<li><p>El administrador de Lync debe habilitar la conectividad de mensajería instantánea pública para sus usuarios.</p></li>
-<li><p>Cuando un usuario de Skype agrega un contacto de Lync, compruebe que aparezca la palabra &quot;Lync&quot; debajo del nombre del contacto. Esto indica que se encontró un URI de Lync.</p></li>
-<li><p>Cuando un usuario de Skype agrega un contacto de Lync y no se devuelve ningún resultado de la búsqueda para ese dominio de Lync, puede que no se haya completado el proceso de aprovisionamiento de PIC o que aún no se haya configurado el dominio de Lync.</p></li>
-<li><p>En función de la configuración de privacidad de los usuarios de Lync y Skype, puede que la mensajería instantánea, el vídeo o la presencia no funcionen hasta que los contactos nuevos acepten las solicitudes de contacto.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Los usuarios de Lync y de Skype deben cumplir los siguientes requisitos para poder comunicarse entre ellos usando todas las funciones:
+> <ul>
+> <li><p>Los usuarios de Skype deben tener una sesión iniciada en su cliente de Skype con una MSA.</p></li>
+> <li><p>El administrador de Lync debe habilitar la conectividad de mensajería instantánea pública para sus usuarios.</p></li>
+> <li><p>Cuando un usuario de Skype agrega un contacto de Lync, compruebe que aparezca la palabra &quot;Lync&quot; debajo del nombre del contacto. Esto indica que se encontró un URI de Lync.</p></li>
+> <li><p>Cuando un usuario de Skype agrega un contacto de Lync y no se devuelve ningún resultado de la búsqueda para ese dominio de Lync, puede que no se haya completado el proceso de aprovisionamiento de PIC o que aún no se haya configurado el dominio de Lync.</p></li>
+> <li><p>En función de la configuración de privacidad de los usuarios de Lync y Skype, puede que la mensajería instantánea, el vídeo o la presencia no funcionen hasta que los contactos nuevos acepten las solicitudes de contacto.</p></li>
+> </ul>
 
 
 **Para agregar un contacto de Skype a Lync 2013**
@@ -63,26 +50,17 @@ La conectividad entre Lync y Skype permite a los usuarios de Skype y a los usuar
 
 Para más información sobre la compatibilidad con contactos, vea los temas acerca de cómo [agregar un contacto en Lync](http://office.microsoft.com/es-es/office365-lync-online-help/add-a-contact-in-lync-ha102828922.aspx) y [agregar un contacto externo en Lync](http://office.microsoft.com/es-es/office365-lync-online-help/add-an-external-contact-in-lync-ha104038998.aspx?ctt=5%26origin=ha102828922)
 
-Cuando la MSA de un usuario de Skype usa un nombre de dominio personalizado, como **bob@contoso.com**, los usuarios de Lync pueden agregarla a Lync de dos formas:
+Cuando la MSA de un usuario de Skype usa un nombre de dominio personalizado, como <strong>bob@contoso.com</strong>, los usuarios de Lync pueden agregarla a Lync de dos formas:
 
 1.  Con el icono **Agregar un contacto**
 
 2.  En el campo **Buscar una persona o una sala, o marcar un número**
 
-En ambos casos, el usuario de Lync debe escribir el correo electrónico del usuario de Skype con el siguiente formato: **usuario(nombre de dominio)@msn.com**.
+En ambos casos, el usuario de Lync debe escribir el correo electrónico del usuario de Skype con el siguiente formato: <strong>usuario(nombre de dominio)@msn.com</strong>.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este paso no es necesario para las MSA que usan los siguientes nombres de dominio: <strong>@live.com, @hotmail.com o @outlook.com</strong>. Para más información sobre los nombres de dominio personalizados admitidos, vea el tema acerca de los <a href="http://support.microsoft.com/kb/897567/es">dominios de mensajería instantánea pública compatibles</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Este paso no es necesario para las MSA que usan los siguientes nombres de dominio: <strong>@live.com, @hotmail.com o @outlook.com</strong>. Para más información sobre los nombres de dominio personalizados admitidos, vea el tema acerca de los <a href="http://support.microsoft.com/kb/897567/es">dominios de mensajería instantánea pública compatibles</a>.
+
 
 
 **Para agregar un contacto de Skype a Lync cuando se usa un nombre de dominio personalizado**
@@ -93,7 +71,7 @@ En ambos casos, el usuario de Lync debe escribir el correo electrónico del usua
     
     ![Cliente de Lync mostrando cómo agregar un contacto de Skype](images/Dn440175.ac4e2f21-c1d9-47d8-b99e-d49fe4eb36d7(OCS.15).jpg "Cliente de Lync mostrando cómo agregar un contacto de Skype")
 
-3.  En el campo **Dirección de MI,**, escriba la MSA del usuario de Skype con el formato **usuario(nombre de dominio)@msn.com**. Por ejemplo, para el usuario bob@contoso.com, se debería escribir **bob(contoso.com)@msn.com**, como se muestra abajo.
+3.  En el campo **Dirección de MI,**, escriba la MSA del usuario de Skype con el formato <strong>usuario(nombre de dominio)@msn.com</strong>. Por ejemplo, para el usuario bob@contoso.com, se debería escribir <strong>bob(contoso.com)@msn.com</strong>, como se muestra abajo.
     
     ![Configuración de contactos nuevos del cliente de Lync](images/Dn440175.422e69b5-2c0c-4260-858f-f10309af772f(OCS.15).jpg "Configuración de contactos nuevos del cliente de Lync")
 
@@ -101,7 +79,7 @@ En ambos casos, el usuario de Lync debe escribir el correo electrónico del usua
 
 5.  En el cuadro de lista desplegable **Definir relación de privacidad**, seleccione la configuración de contacto correspondiente y haga clic en **Aceptar**.
 
-6.  Los usuarios de Lync también pueden usar el cuadro **Buscar una persona o una sala, o marcar un número** en Lync y agregar una dirección que se parezca a **usuario(nombre de dominio)@msn.com**. Por ejemplo, para la MSA bob@contoso.com, se debería escribir **bob(contoso.com)@msn.com**, como se muestra abajo.
+6.  Los usuarios de Lync también pueden usar el cuadro **Buscar una persona o una sala, o marcar un número** en Lync y agregar una dirección que se parezca a <strong>usuario(nombre de dominio)@msn.com</strong>. Por ejemplo, para la MSA bob@contoso.com, se debería escribir <strong>bob(contoso.com)@msn.com</strong>, como se muestra abajo.
     
     ![Buscar un contacto en un cliente de Lync](images/Dn440175.69787db8-f9b9-49e5-b197-b90b10393301(OCS.15).jpg "Buscar un contacto en un cliente de Lync")
 
@@ -127,18 +105,9 @@ En ambos casos, el usuario de Lync debe escribir el correo electrónico del usua
     
     ![Conversación de MI en un cliente de Skype con un contacto de Lync](images/Dn440175.86ca6f81-4db9-45ba-8511-1f7541aaf066(OCS.15).jpg "Conversación de MI en un cliente de Skype con un contacto de Lync")
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El administrador de Lync Server debe establecer la configuración de directiva del usuario de Lync para permitir las solicitudes entrantes. Si no lo hace, el usuario no recibirá la solicitud de contacto del usuario de Skype. Según la configuración de directiva del usuario de Lync, la solicitud para agregar el usuario de Skype puede aparecer en la pestaña <strong>Nuevo</strong> del cliente de Lync. Para iniciar una comunicación con el usuario de Skype, debe agregarlo a la lista de Favoritos o a una lista de contactos. La siguiente imagen muestra la ubicación de la pestaña <strong>Nuevo</strong> en el cliente de Lync.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El administrador de Lync Server debe establecer la configuración de directiva del usuario de Lync para permitir las solicitudes entrantes. Si no lo hace, el usuario no recibirá la solicitud de contacto del usuario de Skype. Según la configuración de directiva del usuario de Lync, la solicitud para agregar el usuario de Skype puede aparecer en la pestaña <strong>Nuevo</strong> del cliente de Lync. Para iniciar una comunicación con el usuario de Skype, debe agregarlo a la lista de Favoritos o a una lista de contactos. La siguiente imagen muestra la ubicación de la pestaña <strong>Nuevo</strong> en el cliente de Lync.
+    
     
     ![Página de contactos nuevos del cliente de Lync](images/Dn440175.b1cf8570-1401-47d9-ab14-b04f0d7e8a7a(OCS.15).jpg "Página de contactos nuevos del cliente de Lync")
 

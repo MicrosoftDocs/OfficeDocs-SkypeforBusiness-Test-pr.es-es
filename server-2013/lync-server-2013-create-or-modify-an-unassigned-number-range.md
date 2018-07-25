@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2012-11-01_
 
 Use uno de los siguientes procedimientos si desea configurar intervalos de números no asignados para la Aplicación de anuncio.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de configurar la tabla de números sin asignar, debe haber definido uno o más anuncios o haber establecido un operador automático de mensajería unificada de Exchange.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Antes de configurar la tabla de números sin asignar, debe haber definido uno o más anuncios o haber establecido un operador automático de mensajería unificada de Exchange.
+
 
 
 ## Para usar Panel de control de Lync Server en la configuración de números de teléfono sin asignar
@@ -82,18 +73,9 @@ Use uno de los siguientes procedimientos si desea configurar intervalos de núme
 
 10. En la página **Número sin asignar** , asegúrese de que los intervalos de números sin asignar se disponen según el orden que desee. Para cambiar la posición de un intervalo en la tabla, haga clic en uno o más nombres consecutivos en la lista de intervalos y, a continuación, haga clic en la flecha arriba o abajo.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server busca la tabla de números sin asignar de arriba abajo y utiliza el primer intervalo que coincide con el número sin asignar. Si tiene intervalos superpuestos y un intervalo especifica una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Lync Server busca la tabla de números sin asignar de arriba abajo y utiliza el primer intervalo que coincide con el número sin asignar. Si tiene intervalos superpuestos y un intervalo especifica una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista.
+    
 
 
 11. Cuando haya ordenado el intervalo de números sin asignar según su conveniencia, haga clic en **Confirmar todo** .
@@ -106,18 +88,9 @@ Use uno de los siguientes procedimientos si desea configurar intervalos de núme
 
 3.  Use **New-CsUnassignedNumber** para crear un nuevo intervalo de números no asignados. Use **Set-CsUnassignedNumber** para modificar un intervalo de números no asignados existente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si tiene intervalos solapados y desea que se apliquen en un orden específico, incluya el parámetro Prioridad. Se aplicará a la llamada el intervalo con la máxima prioridad.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si tiene intervalos solapados y desea que se apliquen en un orden específico, incluya el parámetro Prioridad. Se aplicará a la llamada el intervalo con la máxima prioridad.
+    
     
     En la línea de comandos, realice una de las acciones siguientes:
     

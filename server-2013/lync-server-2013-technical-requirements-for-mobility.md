@@ -27,19 +27,9 @@ Los usuarios móviles experimentan varios escenarios de aplicaciones móviles qu
 
 El requisito para la afinidad de cookie en los equilibradores de carga de hardware se reduce considerablemente y usted sustituye la afinidad del protocolo de control de transmisión (TCP) si está usando Lync Mobile suministrado con Lync Server 2013. Aún puede utilizarse la afinidad de cookies, pero los servicios web ya no lo exigen.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Todo el tráfico del servicio Movilidad pasa por el proxy inverso, independientemente de cuál sea el punto de origen (interno o externo). En el caso de que haya un proxy inverso único, una granja de proxies inversos o un dispositivo que proporciona la función de proxy inverso, se puede producir un problema cuando el tráfico interno está saliendo de una interfaz e intentando ingresar inmediatamente a la misma interfaz. A menudo, esto conduce a una violación de las reglas de seguridad conocida como suplantación de identidad de paquetes TCP o simplemente suplantación de identidad. La <em>horquilla</em> (es decir, la salida e inmediata entrada de un paquete o series de paquetes) debe estar permitido para que pueda funcionar la movilidad. Una solución a este problema es usar un proxy inverso independiente del firewall (la regla para prevenir la suplantación de identidad debe aplicarse en el firewall por motivos de seguridad). La horquilla puede producirse en la interfaz externa del proxy inverso en lugar de en la interfaz interna del firewall. La suplantación de identidad se detectará en el firewall, mientras que puede “relajarse” en el proxy inverso, lo que permite la horquilla necesaria para la movilidad.<br />
-Use el host del Sistema de nombres de dominio (DNS) o los registros CNAME para definir el proxy inverso para el comportamiento de horquilla (no el firewall) en caso de ser posible.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Todo el tráfico del servicio Movilidad pasa por el proxy inverso, independientemente de cuál sea el punto de origen (interno o externo). En el caso de que haya un proxy inverso único, una granja de proxies inversos o un dispositivo que proporciona la función de proxy inverso, se puede producir un problema cuando el tráfico interno está saliendo de una interfaz e intentando ingresar inmediatamente a la misma interfaz. A menudo, esto conduce a una violación de las reglas de seguridad conocida como suplantación de identidad de paquetes TCP o simplemente suplantación de identidad. La <em>horquilla</em> (es decir, la salida e inmediata entrada de un paquete o series de paquetes) debe estar permitido para que pueda funcionar la movilidad. Una solución a este problema es usar un proxy inverso independiente del firewall (la regla para prevenir la suplantación de identidad debe aplicarse en el firewall por motivos de seguridad). La horquilla puede producirse en la interfaz externa del proxy inverso en lugar de en la interfaz interna del firewall. La suplantación de identidad se detectará en el firewall, mientras que puede “relajarse” en el proxy inverso, lo que permite la horquilla necesaria para la movilidad.<br />
+> Use el host del Sistema de nombres de dominio (DNS) o los registros CNAME para definir el proxy inverso para el comportamiento de horquilla (no el firewall) en caso de ser posible.
 
 
 Lync Server 2013 es compatible con servicios de movilidad par clientes móviles de Lync 2010 Mobile y Lync 2013. Ambos clientes usan el servicio Detección automática de Lync Server 2013 para encontrar su punto de entrada de movilidad, pero se diferencian en el servicio de movilidad que emplean. Lync 2010 Mobile usa el servicio de movilidad conocido como *Mcx* , introducido con la actualización acumulativa para Lync Server 2010 de noviembre de 2011. Los clientes móviles de Lync 2013 usan la API web de comunicaciones unificadas ( *UCWA* ) como su proveedor de servicios de movilidad.
@@ -112,18 +102,9 @@ Para información sobre los registros DNS necesarios para su escenario, consulte
 
 Si admite notificaciones de inserción y desea que dispositivos móviles de Apple las reciban a través de su red Wi-Fi, también deberá abrir el puerto 5223 en la red Wi-Fi de su empresa. El puerto 5223 es un puerto TCP saliente usado por el servicio de notificación de inserción de Apple (APNS). El dispositivo móvil inicia la conexión. Para más información, vea [http://support.apple.com/kb/TS1629](http://support.apple.com/kb/ts1629?viewlocale=es_es)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Un dispositivo Apple que use el cliente Lync 2013 Mobile no requiere notificaciones de inserción.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Un dispositivo Apple que use el cliente Lync 2013 Mobile no requiere notificaciones de inserción.
+
 
 
 Tenga en cuenta que si un usuario se aloja en una sucursal con funciones de supervivencia (SBA) se necesitan los siguientes puertos:

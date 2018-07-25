@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2012-09-08_
 
 En Microsoft Lync Server 2013  software de comunicaciones, puede ejecutar la Microsoft Lync Server 2013, herramienta de planeación sin documentar sus direcciones IP existentes y propuestas, y los nombres de dominio completo (FQDN) del servidor perimetral, aunque es muy difícil hacerlo sin tener errores de configuración. Por ejemplo si, durante un período de tiempo, debe haber coexistencia, un error habitual es volver a usar los FQDN de una implementación perimetral ya existente para la implementación perimetral de Lync Server 2013. Si tiene las direcciones IP existentes y las direcciones IP propuestas, así como los FQDN en una misma hoja de cálculo, tabla u otra forma visual, le será más fácil evitar problemas de configuración durante la instalación.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si ha usado versiones anteriores de la Herramienta de planeación, probablemente la haya usado para crear la topología y el documento de topología exportada para utilizarlos en la Generador de topologías para publicar la topología. La capacidad para exportar la topología se eliminó de Herramienta de planeación. No aconsejamos usar una versión anterior de la Herramienta de planeación para crear un documento de topología para Lync Server 2013. Los resultados son impredecibles.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si ha usado versiones anteriores de la Herramienta de planeación, probablemente la haya usado para crear la topología y el documento de topología exportada para utilizarlos en la Generador de topologías para publicar la topología. La capacidad para exportar la topología se eliminó de Herramienta de planeación. No aconsejamos usar una versión anterior de la Herramienta de planeación para crear un documento de topología para Lync Server 2013. Los resultados son impredecibles.
+
 
 
 Por consiguiente, recomendamos usar la plantilla de de recolección de datos siguiente, que corresponde a su topología perimetral, para recopilar los distintos FQDN y direcciones IP que deberá introducir en la Herramienta de planeación. Al documentar la configuración actual y propuesta, puede situar los valores en el contexto adecuado para su entorno de producción. Además, se verá obligado a pensar en cómo configurará la coexistencia y las nuevas características, como direcciones URL sencillas, recursos compartidos de archivos, y equilibrio de carga.

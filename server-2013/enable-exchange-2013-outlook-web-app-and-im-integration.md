@@ -37,18 +37,9 @@ Para habilitar la integración de la mensajería instantánea (MI) y Outlook Web
     
     En Exchange OWA, compruebe que el FQDN del grupo también es de confianza.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si su servidor CAS <em>no</em> está combinado en el mismo servidor que ejecuta la mensajería unificada de Exchange 2013, omita los pasos restantes en este procedimiento y realice el procedimiento “Crear una aplicación de confianza para el servidor CAS de Exchange 2013” más adelante en este tema. Si el servidor CAS está combinado en el mismo servidor que ejecuta la mensajería unificada de Exchange 2013, complete los pasos de este procedimiento y no siga el procedimiento “Crear una aplicación de confianza para el servidor CAS de Exchange 2013” más adelante en este tema.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si su servidor CAS <em>no</em> está combinado en el mismo servidor que ejecuta la mensajería unificada de Exchange 2013, omita los pasos restantes en este procedimiento y realice el procedimiento “Crear una aplicación de confianza para el servidor CAS de Exchange 2013” más adelante en este tema. Si el servidor CAS está combinado en el mismo servidor que ejecuta la mensajería unificada de Exchange 2013, complete los pasos de este procedimiento y no siga el procedimiento “Crear una aplicación de confianza para el servidor CAS de Exchange 2013” más adelante en este tema.
+    
 
 
 4.  Ejecute **Enable-CsTopology**.

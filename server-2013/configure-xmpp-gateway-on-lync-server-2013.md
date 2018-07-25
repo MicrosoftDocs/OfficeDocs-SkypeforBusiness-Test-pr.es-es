@@ -17,36 +17,18 @@ _**Última modificación del tema:** 2013-10-28_
 
 Los últimos pasos para migrar la puerta de enlace XMPP consisten en configurar los certificados del servidor perimetral de Lync Server 2013, implementar la puerta de enlace XMPP de Lync Server 2013 y actualizar los registros de DNS para la misma. Estos pasos deben realizarse paralelamente para minimizar el tiempo de inactividad de la puerta de enlace XMPP. Antes de realizar estos pasos, es necesario mover a todos los usuarios a la implementación de Microsoft Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La federación XMPP no es compatible para usuarios alojados en aplicaciones de sucursal con funciones de supervivencia. Esto se aplica a la visualización de información de presencia y al intercambio de mensajes instantáneos.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> La federación XMPP no es compatible para usuarios alojados en aplicaciones de sucursal con funciones de supervivencia. Esto se aplica a la visualización de información de presencia y al intercambio de mensajes instantáneos.
+
 
 
 ## Configurar los certificados de la puerta de enlace XMPP en el servidor perimetral de Lync Server 2013
 
 1.  En el Asistente para la implementación del servidor perimetral, junto a **Paso 3: Solicitar, instalar o asignar certificados** , haga clic en **Ejecutar de nuevo** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si es la primera vez que implementa el servidor perimetral, aparecerá Ejecutar en lugar de Ejecutar de nuevo.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si es la primera vez que implementa el servidor perimetral, aparecerá Ejecutar en lugar de Ejecutar de nuevo.
+    
 
 
 2.  En la página **Tareas de certificado disponibles** , haga clic en **Crear una nueva solicitud de certificado** .
@@ -77,18 +59,9 @@ Los últimos pasos para migrar la puerta de enlace XMPP consisten en configurar 
 
 12. En la página **Configurar nombres alternativos de sujeto adicionales** , especifique cualquier nombre alternativo del firmante adicional que necesite.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si el proxy de XMPP está instalado, las entradas SAN se cumplimentan de forma predeterminada con el nombre de dominio (por ejemplo, contoso.com). Si necesita más entradas, agréguelas en este paso.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si el proxy de XMPP está instalado, las entradas SAN se cumplimentan de forma predeterminada con el nombre de dominio (por ejemplo, contoso.com). Si necesita más entradas, agréguelas en este paso.
+    
 
 
 13. En la página **Resumen de la solicitud** , revise la información del certificado que va a usar para generar la solicitud.
@@ -101,9 +74,12 @@ Los últimos pasos para migrar la puerta de enlace XMPP consisten en configurar 
 
 17. Después de recibir, importar y asignar el certificado público, debe detener y reiniciar los servicios del servidor perimetral. Para ello, escriba en la consola de administración de Lync Server:
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 ## Configurar una nueva puerta de enlace XMPP de Lync Server 2013
 

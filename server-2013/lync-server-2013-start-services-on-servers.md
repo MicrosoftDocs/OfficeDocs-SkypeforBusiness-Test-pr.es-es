@@ -27,16 +27,7 @@ Después de instalar el almacén de configuración local en los servidores, inst
 
 3.  En la página **Ejecución de comandos**, una vez que todos los servicios se hayan iniciado correctamente, haga clic en **Finalizar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El comando para iniciar los servicios en el servidor es un método de &quot;mejor esfuerzo&quot; para informar de que los servicios ya se han iniciado. Es posible que no refleje el estado actual del servicio. Se recomienda llevar a cabo el paso <strong>Estado del servicio (opcional)</strong> justo después de <strong>Iniciar servicios</strong> para abrir Microsoft Management Console (MMC) y comprobar si los servicios se han iniciado correctamente. Si algún servicio de Lync Server no se ha iniciado, haga clic con el botón secundario en el servicio en cuestión en MMC y haga clic en <strong>Iniciar</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El comando para iniciar los servicios en el servidor es un método de &quot;mejor esfuerzo&quot; para informar de que los servicios ya se han iniciado. Es posible que no refleje el estado actual del servicio. Se recomienda llevar a cabo el paso <strong>Estado del servicio (opcional)</strong> justo después de <strong>Iniciar servicios</strong> para abrir Microsoft Management Console (MMC) y comprobar si los servicios se han iniciado correctamente. Si algún servicio de Lync Server no se ha iniciado, haga clic con el botón secundario en el servicio en cuestión en MMC y haga clic en <strong>Iniciar</strong>.
+    
 

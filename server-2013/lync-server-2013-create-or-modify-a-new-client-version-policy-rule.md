@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2013-01-21_
 
 Las reglas de directiva de versión de cliente definen las acciones que se deben llevar a cabo cuando los usuarios intentan iniciar sesión con clientes y versiones de clientes específicos. Puede crear o cambiar reglas individuales para una directiva de versión de cliente desde el Panel de control de Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Las reglas se enumeran en orden de prioridad. Por ejemplo, si tiene una regla que permite conectarse a los clientes que estén ejecutando la versión 1.5 o versiones posteriores, seguida de una regla que bloquee a los clientes que estén ejecutando una versión anterior a la 2.0, la primera regla tiene prioridad y se permitirá conectarse a los clientes que ejecuten la versión 1.5.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Las reglas se enumeran en orden de prioridad. Por ejemplo, si tiene una regla que permite conectarse a los clientes que estén ejecutando la versión 1.5 o versiones posteriores, seguida de una regla que bloquee a los clientes que estén ejecutando una versión anterior a la 2.0, la primera regla tiene prioridad y se permitirá conectarse a los clientes que ejecuten la versión 1.5.
+
 
 
 ## Para crear o cambiar reglas de directiva de versión de cliente con el Panel de control de Lync Server

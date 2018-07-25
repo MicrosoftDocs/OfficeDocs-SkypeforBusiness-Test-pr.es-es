@@ -27,19 +27,9 @@ Por ejemplo:
 
 El resto del tema se centra en cómo definir y modificar proveedores y en qué debe contener una definición de proveedor para optimizar la solución de problemas. Existen dos maneras de emitir comandos del Servicio de registro centralizado: bien mediante CLSController.exe, que está de forma predeterminada en el directorio C:\\Archivos de programa\\Archivos comunes\\Microsoft Lync Server 2013\\CLSAgent, bien usando el Shell de administración de Lync Server para que emita comandos de Windows PowerShell. La principal diferencia entre ambos es que, cuando se usa CLSController.exe en la línea de comandos, hay una selección finita de escenarios en los que los proveedores ya están definidos y no se pueden cambiar, aunque se puede definir el nivel de registro. Si usa Windows PowerShell, en cambio, podrá definir nuevos proveedores para usarlos en las sesiones de registro y dispondrá de control total a la hora de crearlos, especificar qué datos recopilan y a qué nivel.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tal y como se ha mencionado, los proveedores son tremendamente importantes, pero más importantes aún son los escenarios, ya que contienen toda la información necesaria para definir y ejecutar el seguimiento en los componentes que los proveedores representan. Si consideramos un escenario como un conjunto de proveedores, sería comparable (de forma muy vaga) a ejecutar un archivo por lotes que contiene cientos de comandos para recopilar una gran cantidad de información frente a emitir cientos de comandos de una sola vez en la línea de comandos.<br />
-En lugar de hacerle indagar en profundidad en los detalles de los proveedores, el Servicio de registro centralizado proporciona una serie de escenarios ya definidos que abarcan la inmensa mayoría de los posibles problemas que pueden surgir. En casos excepciones, puede que necesite crear y definir proveedores y asignarlos a los escenarios. Es más que recomendable familiarizarse con cada uno de los escenarios antes de investigar si necesita crear nuevos proveedores y escenarios. Aquí no encontrará información detallada sobre los proveedores en sí, sino información sobre cómo crear proveedores para hacerse una idea de cómo los escenarios usan los elementos de proveedor para recabar datos de seguimiento.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Tal y como se ha mencionado, los proveedores son tremendamente importantes, pero más importantes aún son los escenarios, ya que contienen toda la información necesaria para definir y ejecutar el seguimiento en los componentes que los proveedores representan. Si consideramos un escenario como un conjunto de proveedores, sería comparable (de forma muy vaga) a ejecutar un archivo por lotes que contiene cientos de comandos para recopilar una gran cantidad de información frente a emitir cientos de comandos de una sola vez en la línea de comandos.<br />
+> En lugar de hacerle indagar en profundidad en los detalles de los proveedores, el Servicio de registro centralizado proporciona una serie de escenarios ya definidos que abarcan la inmensa mayoría de los posibles problemas que pueden surgir. En casos excepciones, puede que necesite crear y definir proveedores y asignarlos a los escenarios. Es más que recomendable familiarizarse con cada uno de los escenarios antes de investigar si necesita crear nuevos proveedores y escenarios. Aquí no encontrará información detallada sobre los proveedores en sí, sino información sobre cómo crear proveedores para hacerse una idea de cómo los escenarios usan los elementos de proveedor para recabar datos de seguimiento.
 
 
 Los elementos clave (descritos en [Descripción general del servicio de registro centralizado](lync-server-2013-overview-of-the-centralized-logging-service.md)) a la hora de definir un proveedor para usarlo en un escenario son los siguientes:
@@ -126,18 +116,9 @@ Donde $LyssProvider es la variable que contiene el escenario definido creado con
 
 El resultado final del comando es que el sitio de escenario:Redmond/RedmondLyssInfo tendrá las marcas actualizadas y el nivel del proveedor que tenga asignado. Puede ver el nuevo escenario con Get-CsClsScenario. Para obtener información, consulte [Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>New-ClsCsProvider</strong> no realiza comprobaciones para saber si las marcas son válidas, de modo que asegúrese de escribirlas bien (por ejemplo, TF_DIAG o TF_CONNECTION). Si están mal escritas, el proveedor no devolverá la información de registro prevista.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> <strong>New-ClsCsProvider</strong> no realiza comprobaciones para saber si las marcas son válidas, de modo que asegúrese de escribirlas bien (por ejemplo, TF_DIAG o TF_CONNECTION). Si están mal escritas, el proveedor no devolverá la información de registro prevista.
+
 
 
 Escriba lo siguiente si quiere agregar más proveedores a este escenario:
@@ -152,9 +133,12 @@ Donde cada proveedor definido con la directiva Add ya se ha definido a través d
 
 2.  Los cmdlets aquí suministrados permiten crear proveedores y actualizar los ya existentes. Para eliminar un proveedor, debe usar la directiva Replace del parámetro Provider de **Set-CsClsScenario**. La única forma de eliminar un proveedor por completo consiste en reemplazarlo por un proveedor predefinido que tenga el mismo nombre y usar la directiva Update. Por ejemplo, nuestro proveedor LyssProvider tiene definido un tipo de registro WPP, un nivel establecido en Debug y las marcas TF\_CONNECTION y TF\_DIAG. Deberá cambiar las marcas a “All”. Escriba lo siguiente para cambiar el proveedor:
     
-        $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
-    
-        Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+    ```
+    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
+    ```
+    ```
+    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+    ```
 
 3.  Escriba lo siguiente si quiere eliminar por completo un escenario y sus proveedores correspondientes:
     
@@ -164,18 +148,9 @@ Donde cada proveedor definido con la directiva Add ya se ha definido a través d
     
         Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El cmdlet <strong>Remove-CsClsScenario</strong> no pide confirmación. El escenario se elimina junto con los proveedores que tenga asignados. Puede crear el escenario de nuevo si vuelve a ejecutar los comandos que usó para crearlo. No existe ningún procedimiento para recuperar escenarios o proveedores.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > El cmdlet <strong>Remove-CsClsScenario</strong> no pide confirmación. El escenario se elimina junto con los proveedores que tenga asignados. Puede crear el escenario de nuevo si vuelve a ejecutar los comandos que usó para crearlo. No existe ningún procedimiento para recuperar escenarios o proveedores.
+    
 
 
 Cuando se elimina un escenario con el cmdlet **Remove-CsClsScenario**, se quita por completo del ámbito. Para usar los escenarios que creó y los proveedores que formaban parte de ellos, deberá crear nuevos proveedores y asignarlos a un nuevo escenario.

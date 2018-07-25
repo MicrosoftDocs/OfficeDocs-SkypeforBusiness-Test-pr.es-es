@@ -95,18 +95,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Verdadero</p></td>
 <td><p>SASL por TLS</p></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La devolución de llamada no funcionará si SASL y TLS son obligatorios.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> La devolución de llamada no funcionará si SASL y TLS son obligatorios.
+
 
 </div></td>
 </tr>
@@ -123,18 +114,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Verdadero</p></td>
 <td><p>SASL por TLS, Devolución de llamada TLS, Devolución de llamada TCP</p></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
+
 
 </div></td>
 </tr>
@@ -144,18 +126,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Falso</p></td>
 <td><p>SASL por TLS</p></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
+
 
 </div></td>
 </tr>
@@ -165,18 +138,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Verdadero</p></td>
 <td><p>Devolución de llamada TCP</p></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
+
 
 </div></td>
 </tr>
@@ -185,33 +149,15 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Obligatorio</p></td>
 <td><p>Falso</p></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La configuración no es válida</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> La configuración no es válida
+
 
 </div></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Como SASL requiere TLS y TLS no está disponible, la combinación SASL/TLS no es viable. La Devolución de llamada TCP se ha definido en False y, por tanto, no se puede utilizar.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Como SASL requiere TLS y TLS no está disponible, la combinación SASL/TLS no es viable. La Devolución de llamada TCP se ha definido en False y, por tanto, no se puede utilizar.
+
 
 </div></td>
 </tr>
@@ -235,18 +181,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Verdadero</p></td>
 <td><p>SASL por TLS, Devolución de llamada TLS, Devolución de llamada TCP</p></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
+
 
 </div></td>
 </tr>
@@ -256,18 +193,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Falso</p></td>
 <td><p>SASL por TLS</p></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
+
 
 </div></td>
 </tr>
@@ -277,18 +205,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Verdadero</p></td>
 <td><p>Devolución de llamada TCP</p></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
+
 
 </div></td>
 </tr>
@@ -297,33 +216,15 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Opcional</p></td>
 <td><p>Falso</p></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La configuración no es válida</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> La configuración no es válida
+
 
 </div></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
+
 
 </div></td>
 </tr>
@@ -340,18 +241,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Falso</p></td>
 <td><p>La configuración no es válida</p></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Es necesario activar SASL o la devolución de llamada.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Es necesario activar SASL o la devolución de llamada.
+
 
 </div></td>
 </tr>
@@ -368,18 +260,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Falso</p></td>
 <td><p>La configuración no es válida</p></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Es necesario activar SASL o la devolución de llamada.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Es necesario activar SASL o la devolución de llamada.
+
 
 </div></td>
 </tr>
@@ -396,18 +279,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Falso</p></td>
 <td><p>La configuración no es válida</p></td>
 <td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Es necesario activar SASL o la devolución de llamada.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Es necesario activar SASL o la devolución de llamada.
+
 
 </div></td>
 </tr>

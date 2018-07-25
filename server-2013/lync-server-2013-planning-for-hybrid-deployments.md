@@ -65,34 +65,16 @@ Para configurar la implementación de Lync Server 2013 para implementaciones hí
 
   - Microsoft Office Communications Server 2007 R2 con una implementación local de Lync Server 2013. El Servidor perimetral de federación de Lync Server 2013 y el servidor del próximo salto desde el Servidor perimetral de federación deben ejecutar Lync Server 2013. Debe contar con un Almacén de administración central implementado. El Servidor perimetral y el grupo deben estar implementados a escala local.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Esta topología se admite, pero parte de la funcionalidad puede estar limitada. Por ejemplo, es posible que la información de presencia no funcione como se espera entre los usuarios de Microsoft Lync Online y los usuarios locales de Office Communications Server 2007 R2.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Esta topología se admite, pero parte de la funcionalidad puede estar limitada. Por ejemplo, es posible que la información de presencia no funcione como se espera entre los usuarios de Microsoft Lync Online y los usuarios locales de Office Communications Server 2007 R2.
+    
 
 
   - Microsoft Lync Server 2010 con las actualizaciones acumulativas para Lync Server 2010: marzo de 2013 (o posterior) aplicadas y las herramientras administrativas de Lync Server 2013 instaladas localmente. El Servidor perimetral de federación y el servidor del próximo salto desde el Servidor perimetral de federación deben ejecutar Microsoft Lync Server 2010 con las actualizaciones acumulativas de marzo de 2013 (o posterior) aplicadas, o Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Las herramientas administrativas de Lync Server 2013 deben instalarse en un servidor aparte que tenga acceso para conectarse con la implementación existente de Lync Server 2010. El cmdlet Move-CsUser para mover usuarios desde la implementación local a Lync Online debe ejecutarse desde las herramientas administrativas de Lync Server 2013 conectadas a la implementación local.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Las herramientas administrativas de Lync Server 2013 deben instalarse en un servidor aparte que tenga acceso para conectarse con la implementación existente de Lync Server 2010. El cmdlet Move-CsUser para mover usuarios desde la implementación local a Lync Online debe ejecutarse desde las herramientas administrativas de Lync Server 2013 conectadas a la implementación local.
+    
 
 
   - Una implementación de Lync Server 2013 donde todos los servidores ejecuten Lync Server 2013.
@@ -240,18 +222,9 @@ En una implementación híbrida de Lync Server 2013, primero deberá crear en la
 
 Al sincronizar cuentas de usuario entre sus implementaciones de Lync local y en línea con AD FS y Dirsync, tiene que sincronizar las cuentas de AD para todos los usuarios de Lync de su organización entre sus implementaciones de Lync local y en línea, incluso si los usuarios no se mueven a Lync Online. Si no sincroniza todos los usuarios, puede ser que la comunicación entre los usuarios locales y en línea de su organización no funcione como se podría esperar.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si el usuario se crea con el portal en línea de Office 365, la cuenta de usuario no se sincronizará con la implementación local de Active Directory de modo que el usuario no existirá en ella. Si ya tiene usuarios creados en Lync Online y desea configurar una híbrida con Lync Server local, vea <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Mover usuarios de Lync Online a Lync local en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si el usuario se crea con el portal en línea de Office 365, la cuenta de usuario no se sincronizará con la implementación local de Active Directory de modo que el usuario no existirá en ella. Si ya tiene usuarios creados en Lync Online y desea configurar una híbrida con Lync Server local, vea <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Mover usuarios de Lync Online a Lync local en Lync Server 2013</a>.
+
 
 
 También debe tener en cuenta los siguientes problemas relacionados con el usuario al planear una implementación híbrida.

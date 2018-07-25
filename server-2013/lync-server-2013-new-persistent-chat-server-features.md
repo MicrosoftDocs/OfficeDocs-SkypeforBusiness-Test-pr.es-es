@@ -75,18 +75,9 @@ Si se ejecutan estos servicios en cada Servidor de chat persistente, se proporci
 
 Además, para disfrutar de compatibilidad con la carga y descarga de archivos en los salones de Chat persistente, Servidor de chat persistente incluye un servicio web. Antes, este servicio se colocaba en Servidor de chat persistente, Servidor front-end y requería que la instalación previa de Servicios de Internet Information Server (IIS). En Servidor de chat persistente de Lync Server 2013, el servicio web de carga y descarga de archivos se coloca en el Servidor front-end de Lync Server 2013. Como efecto colateral, Servicios de Internet Information Server (IIS) deja de ser un requisito previo para Servidor de chat persistente. El servicio web de carga y descarga de archivos se identifica como **PersistentChat** en el administrador de Servicios de Internet Information Server (IIS).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para ejecutar el rol <strong>PersistentChatService</strong> en el mismo servidor que Servidor front-end de Lync Server 2013, Servidor front-end debe ser Servidor front-end de Standard Edition. El rol <strong>PersistentChatService</strong> no se puede ejecutar independientemente de Servidor front-end de Lync Server 2013. Solo puede instalarse en el contexto de una implementación de Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Para ejecutar el rol <strong>PersistentChatService</strong> en el mismo servidor que Servidor front-end de Lync Server 2013, Servidor front-end debe ser Servidor front-end de Standard Edition. El rol <strong>PersistentChatService</strong> no se puede ejecutar independientemente de Servidor front-end de Lync Server 2013. Solo puede instalarse en el contexto de una implementación de Lync Server 2013.
+
 
 
 En Servidor de chat persistente, se ha eliminado el servicio de búsqueda. En Lync Server 2010, chat en grupo, el servicio de búsqueda se ejecutaba en cada Servidor de chat en grupoServidor front-end y realizaba el enrutamiento a uno de los servidores de canal. Lync Server 2013 se basa en enrutamiento mediante objetos contacto, donde cada Grupo de servidores de chat persistente está representado por un objeto contacto que usa Servidores front-end de Lync Server para identificar y redirigir las solicitudes al Grupo de servidores de chat persistente adecuado, y a uno de los equipos donde se ejecuta Servidor de chat persistente en el grupo.
@@ -97,18 +88,9 @@ En Lync Server 2013, hay cambios en el servicio de cumplimiento:
 
   - La cola de Message Queue Server (también conocida como MSMQ) que comparten el servicio de Chat persistente y el servicio de cumplimiento en cada Servidor front-end de Servidor de chat persistente, es ahora una cola privada que se comparte únicamente entre los dos servicios. Todos los servicios de cumplimiento escriben en la misma base de datos del servidor back-end de cumplimiento. Asimismo, todos leen en esa base de datos para enviar los datos a su instancia del adaptador. El servidor back-end de cumplimiento se representa como un nuevo rol de servidor back-end.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Como en versiones anteriores, todos los datos de cumplimiento se procesan una sola vez. Los datos pueden procesarse desde cualquiera de las instancias de adaptador al que llama el servicio de cumplimiento que se ejecuta en los distintos equipos con Servidor de chat persistente de Lync Server 2013. En Servidor de chat persistente, cualquiera de las instancias del adaptador podría procesar los datos.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Como en versiones anteriores, todos los datos de cumplimiento se procesan una sola vez. Los datos pueden procesarse desde cualquiera de las instancias de adaptador al que llama el servicio de cumplimiento que se ejecuta en los distintos equipos con Servidor de chat persistente de Lync Server 2013. En Servidor de chat persistente, cualquiera de las instancias del adaptador podría procesar los datos.
+    
     
 
     > [!NOTE]

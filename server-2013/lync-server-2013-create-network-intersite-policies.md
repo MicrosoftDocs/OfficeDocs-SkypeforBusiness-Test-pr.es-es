@@ -27,18 +27,9 @@ Para ver más detalles, consulte la documentación del Shell de administración 
 
   - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Una directiva entre sitios de red <em>solo</em> se necesita si hay un vínculo cruzado directo entre dos sitios de red.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Una directiva entre sitios de red <em>solo</em> se necesita si hay un vínculo cruzado directo entre dos sitios de red.
+
 
 
 En la topología de ejemplo de la región de Norteamérica, hay un vínculo directo entre los sitios de Reno y Albuquerque. Estos dos sitios requieren una directiva entre sitios que aplique un perfil de directiva de ancho de banda adecuado. En el siguiente ejemplo se aplica el perfil 20Mb\_Link.

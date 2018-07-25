@@ -21,18 +21,9 @@ En el siguiente procedimiento se describe cómo probar la implementación de Gru
 
 1.  Use el complemento Usuarios y equipos de Active Directory para agregar el objeto de usuario de Active Directory del rol de administrador para la implementación de Lync Server 2013 (en el que el Panel de control de Lync Server 2013 está instalado) al grupo **CSAdministrator**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si no agrega los usuarios y los grupos adecuados al grupo CsAdministors, recibirá un mensaje de error al abrir el Panel de control de Lync Server, que dice “No autorizado: acceso denegado por error en la autorización del control de acceso basado en roles (RBAC)”.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si no agrega los usuarios y los grupos adecuados al grupo CsAdministors, recibirá un mensaje de error al abrir el Panel de control de Lync Server, que dice “No autorizado: acceso denegado por error en la autorización del control de acceso basado en roles (RBAC)”.
+    
 
 
 2.  Si el objeto de usuario ha iniciado sesión, cierre sesión y, a continuación, vuelva a iniciar sesión para registrar la nueva asignación de grupo.

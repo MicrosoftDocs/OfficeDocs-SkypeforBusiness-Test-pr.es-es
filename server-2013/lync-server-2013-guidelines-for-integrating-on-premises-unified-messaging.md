@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2016-12-08_
 
 Los siguientes procedimientos recomendados e instrucciones debe tenerse en cuenta cuando implemente Telefonía IP empresarial:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Mensajería unificada de Exchange (UM) admite solo IPv6 si también está usando UCMA 4.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Mensajería unificada de Exchange (UM) admite solo IPv6 si también está usando UCMA 4.
+
 
 
   - Implemente un servidor Standard Edition de Lync Server 2013 o un Grupo de servidores front-end. Para ver más detalles acerca de la instalación, consulte [Implementar Lync Server 2013](lync-server-2013-deploying-lync-server.md) en la documentación sobre implementación.
@@ -37,19 +28,9 @@ Los siguientes procedimientos recomendados e instrucciones debe tenerse en cuent
 
   - Implemente los roles de servidor del buzón de Exchange en cada bosque de Mensajería unificada de Exchange (UM) donde desee habilitar los usuarios para Mensajería unificada de Exchange. Para obtener información detallada acerca de cómo instalar los roles de servidor de Exchange, consulte la documentación de Microsoft Exchange Server 2013
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cuando se instala Mensajería unificada de Exchange (UM), se configura para usar un certificado autofirmado.<br />
-    Sin embargo, el certificado autofirmado no habilita Lync Server 2013 y Mensajería unificada de Exchange de modo que confíen mutuamente en el otro, por lo que es necesario solicitar un certificado independiente de una entidad de certificación en el que confíen ambos servidores.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Cuando se instala Mensajería unificada de Exchange (UM), se configura para usar un certificado autofirmado.<br />
+    > Sin embargo, el certificado autofirmado no habilita Lync Server 2013 y Mensajería unificada de Exchange de modo que confíen mutuamente en el otro, por lo que es necesario solicitar un certificado independiente de una entidad de certificación en el que confíen ambos servidores.
 
 
   - Si Lync Server 2013 y Mensajería unificada de Exchange se instalan en diferentes bosques, configure cada bosque de Exchange de modo que confíe en el bosque de Lync Server 2013 y el bosque de Lync Server 2013, de modo que confíe en cada bosque de Exchange. Configure también las opciones de Mensajería unificada de Exchange de los usuarios en los objetos de usuario del bosque de Lync Server 2013; lo habitual es usar un script o una herramienta de otro bosque, como Identity Lifecycle Manager (ILM).
@@ -62,18 +43,9 @@ Los siguientes procedimientos recomendados e instrucciones debe tenerse en cuent
 
 ## Implementación de servidores redundantes de mensajería unificada de Exchange
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se recomienda implementar un mínimo de dos servidores donde se esté ejecutando la mensajería unificada de Exchange por cada plan de marcado URI del SIP de Mensajería unificada de Exchange que configure en la organización. Además de ofrecer más capacidad, implementar servidores redundantes proporciona alta disponibilidad. En el caso de que se produzca un error en un servidor, Lync Server 2013 se puede configurar de modo que realice la conmutación por error a otro servidor.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Se recomienda implementar un mínimo de dos servidores donde se esté ejecutando la mensajería unificada de Exchange por cada plan de marcado URI del SIP de Mensajería unificada de Exchange que configure en la organización. Además de ofrecer más capacidad, implementar servidores redundantes proporciona alta disponibilidad. En el caso de que se produzca un error en un servidor, Lync Server 2013 se puede configurar de modo que realice la conmutación por error a otro servidor.
+
 
 
 Los siguientes ejemplos de configuraciones ofrecen resistencia a la mensajería unificada de Exchange.

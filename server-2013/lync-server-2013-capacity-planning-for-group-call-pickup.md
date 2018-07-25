@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2015-03-09_
 
 En la siguiente tabla se describe el modelo de usuario de la atención de llamadas grupales que puede usar como base para los requisitos de planeación de la capacidad.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La atención de llamadas grupales se basa en el Aplicación de estacionamiento de llamadas. Tenga en cuenta que, para la planeación de la capacidad de recuperación ante desastres, cada grupo de un grupo emparejado debe poder administrar las cargas de trabajo de los servicios de Estacionamiento de llamadas, incluida la atención de llamadas grupales, en ambos grupos.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> La atención de llamadas grupales se basa en el Aplicación de estacionamiento de llamadas. Tenga en cuenta que, para la planeación de la capacidad de recuperación ante desastres, cada grupo de un grupo emparejado debe poder administrar las cargas de trabajo de los servicios de Estacionamiento de llamadas, incluida la atención de llamadas grupales, en ambos grupos.
+
 
 
 ### Modelo de usuario de la atención de llamadas grupales

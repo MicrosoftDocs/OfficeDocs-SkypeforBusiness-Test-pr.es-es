@@ -37,18 +37,9 @@ Una configuración de ejemplo para implementar el proxy XMPP define una federaci
 
 7.  En el Servidor perimetral, en el Asistente para la implementación de Lync Server, junto al **Paso 3: Solicitar, instalar o asignar certificados**, haga clic en **Ejecutar de nuevo**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si es la primera vez que implementa el servidor perimetral, aparecerá Ejecutar en lugar de Ejecutar de nuevo.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si es la primera vez que implementa el servidor perimetral, aparecerá Ejecutar en lugar de Ejecutar de nuevo.
+    
 
 
 8.  En la página **Tareas de certificado disponibles**, haga clic en **Crear una nueva solicitud de certificado**.
@@ -79,18 +70,9 @@ Una configuración de ejemplo para implementar el proxy XMPP define una federaci
 
 18. En la página **Configurar nombres alternativos de sujeto adicionales**, especifique cualquier nombre alternativo del firmante adicional que necesite.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si el proxy de XMPP está instalado, las entradas SAN se cumplimentan de forma predeterminada con el nombre de dominio (por ejemplo, contoso.com). Si necesita más entradas, agréguelas en este paso.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si el proxy de XMPP está instalado, las entradas SAN se cumplimentan de forma predeterminada con el nombre de dominio (por ejemplo, contoso.com). Si necesita más entradas, agréguelas en este paso.
+    
 
 
 19. En la página **Resumen de la solicitud**, revise la información del certificado que va a usar para generar la solicitud.
@@ -103,9 +85,12 @@ Una configuración de ejemplo para implementar el proxy XMPP define una federaci
 
 23. Una vez recibido, importado y asignado el certificado público, debe detener y reiniciar los servicios del servidor perimetral. Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.. En el Shell de administración de Lync Server, escriba:
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 24. Para configurar DNS para la federación XMPP, añada el siguiente registro SRV al DNS externo:\_xmpp-server.\_tcp. *\<domain name\>* El registro SRV se resolverá en el FPDN perimetral de acceso del servidor perimetral, con un valor de puerto de 5269
 

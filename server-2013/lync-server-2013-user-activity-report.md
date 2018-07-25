@@ -41,19 +41,9 @@ Para acceder al Informe de actividad de usuario hay que ir a la página de inici
 
 Aunque hay mucha información buena en el Informe de actividad de usuario, esa información puede a veces ser difícil de encontrar. Por ejemplo, toda la actividad de usuario que tiene lugar en su organización durante un período determinado se incluye en el Informe de actividad de usuario; eso quiere decir que, en el informe se encuentra información de qué usuarios en realidad usaron Microsoft Lync Server 2013 de algún modo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Técnicamente, es posible que la actividad de algunos usuarios no se registre: mientras Lync Server hace todo lo posible por guardar la información de todas las llamadas telefónicas, es posible que se hubiera hecho una llamada sin que la información de esa llamada se escribiera en la base de datos. Lync Server está diseñado para dar una mirada extremadamente precisa, pero no necesariamente perfecta sobre cómo se utiliza Lync Server 2013. (El hecho de que no haya ninguna garantía de que se registra el 100% de todas las llamadas explica por qué la supervisión de Lync Server no debe utilizarse como un sistema de facturación).<br />
-En segundo lugar, un Informe de supervisión solo puede mostrar, como máximo, 1000 registros. Según la cantidad de actividad de usuario que tenga y según el período de tiempo con el que trabaje, eso significa que su consulta podría no devolverle todos los datos realmente almacenados en la base de datos.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Técnicamente, es posible que la actividad de algunos usuarios no se registre: mientras Lync Server hace todo lo posible por guardar la información de todas las llamadas telefónicas, es posible que se hubiera hecho una llamada sin que la información de esa llamada se escribiera en la base de datos. Lync Server está diseñado para dar una mirada extremadamente precisa, pero no necesariamente perfecta sobre cómo se utiliza Lync Server 2013. (El hecho de que no haya ninguna garantía de que se registra el 100% de todas las llamadas explica por qué la supervisión de Lync Server no debe utilizarse como un sistema de facturación).<br />
+> En segundo lugar, un Informe de supervisión solo puede mostrar, como máximo, 1000 registros. Según la cantidad de actividad de usuario que tenga y según el período de tiempo con el que trabaje, eso significa que su consulta podría no devolverle todos los datos realmente almacenados en la base de datos.
 
 
   - ¿Qué usuarios utilizaron en realidad el sistema durante este período?

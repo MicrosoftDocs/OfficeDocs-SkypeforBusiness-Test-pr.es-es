@@ -98,18 +98,9 @@ Use uno de los siguientes procedimientos para crear o modificar un flujo de trab
     
     2.  Escriba el URI del SIP de otros administradores para agregar al flujo de trabajo y haga clic en **Agregar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A todos los usuarios designados administradores de un grupo de respuestas se les asigna el rol CsResponseGroupManager. Los usuarios a los que no se haya asignado este rol no pueden administrar grupos de respuesta.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > A todos los usuarios designados administradores de un grupo de respuestas se les asigna el rol CsResponseGroupManager. Los usuarios a los que no se haya asignado este rol no pueden administrar grupos de respuesta.
+    
 
 
 16. En **Paso 2 Seleccionar un idioma** , haga clic en el idioma que se usará para el reconocimiento de voz y texto a voz.
@@ -258,18 +249,9 @@ Use uno de los siguientes procedimientos para crear o modificar un flujo de trab
 
 29. En **Respuesta 1** , especifique la primera respuesta posible a la pregunta con este procedimiento:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No use comillas (&quot;) en las respuestas de voz, provocan un error de IVR.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > No use comillas (&quot;) en las respuestas de voz, provocan un error de IVR.
+    
     
 
     > [!NOTE]

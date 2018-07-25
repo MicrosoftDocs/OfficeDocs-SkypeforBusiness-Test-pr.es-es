@@ -29,27 +29,14 @@ Las características de voz, vídeo y uso compartido de Lync Web App requieren u
 
 La versión de Lync Server 2013 de Lync Web App admite la autenticación multifactor. Además del nombre de usuario y la contraseña, puede requerir métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios que se unan desde redes externas al iniciar sesión en las reuniones de Lync. Para habilitar la autenticación multifactor, implemente el servidor de federación de los Servicios de federación de Active Directory (AD FS) y habilite la autenticación pasiva en Lync Server 2013. Una vez configurado AD FS, los usuarios externos que intenten unirse a reuniones de Lync verán una página web de autenticación multifactor de AD FS con el desafío de nombre de usuario y contraseña, junto con los demás métodos de autenticación adicionales que haya configurado.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A continuación, se incluyen algunas consideraciones importantes para planear la configuración de AD FS para la autenticación multifactor:
-<ul>
-<li><p>La autenticación multifactor de AD FS funciona si el organizador y el participante de la reunión están en la misma organización o si ambos provienen de una organización federada con AD FS. La autenticación multifactor de AD FS no funciona con los usuarios federados de Lync, porque la infraestructura web de los servidores Lync no la admite actualmente.</p></li>
-<li><p>Si usa equilibradores de carga de hardware, habilite la persistencia basada en cookies en los equilibradores de carga, para que todas las solicitudes del cliente de Lync Web App se controlen con el mismo servidor front-end.</p></li>
-<li><p>Al establecer una relación de confianza para usuario autenticado entre Lync Server y los servidores de AD FS, asigne un token con una extensión adecuada para abarcar la duración máxima de las reuniones de Lync. Por lo general, una duración de token de 240 minutos es suficiente.</p></li>
-<li><p>Esta configuración no se aplica a los clientes móviles de Lync.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> A continuación, se incluyen algunas consideraciones importantes para planear la configuración de AD FS para la autenticación multifactor:
+> <ul>
+> <li><p>La autenticación multifactor de AD FS funciona si el organizador y el participante de la reunión están en la misma organización o si ambos provienen de una organización federada con AD FS. La autenticación multifactor de AD FS no funciona con los usuarios federados de Lync, porque la infraestructura web de los servidores Lync no la admite actualmente.</p></li>
+> <li><p>Si usa equilibradores de carga de hardware, habilite la persistencia basada en cookies en los equilibradores de carga, para que todas las solicitudes del cliente de Lync Web App se controlen con el mismo servidor front-end.</p></li>
+> <li><p>Al establecer una relación de confianza para usuario autenticado entre Lync Server y los servidores de AD FS, asigne un token con una extensión adecuada para abarcar la duración máxima de las reuniones de Lync. Por lo general, una duración de token de 240 minutos es suficiente.</p></li>
+> <li><p>Esta configuración no se aplica a los clientes móviles de Lync.</p></li>
+> </ul>
 
 
 **Para configurar la autenticación multifactor**
@@ -68,12 +55,15 @@ La versión de Lync Server 2013 de Lync Web App admite la autenticación multifa
 
 5.  Defina las siguientes reglas de usuario de confianza:
     
-        $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'
-        $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-    
-        Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
-    
-        Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+```
+$IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+```
+```
+Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
+```    
+```
+Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+```
 
 ## Configuración de BranchCache
 

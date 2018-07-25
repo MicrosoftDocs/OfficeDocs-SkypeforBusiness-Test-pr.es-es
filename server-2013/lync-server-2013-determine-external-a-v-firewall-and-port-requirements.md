@@ -143,18 +143,9 @@ Si las directivas requieren definiciones de reglas de firewall tanto entrantes c
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Microsoft Office Communications Server 2007 requiere una configuración ligeramente diferente. El intervalo de puertos TCP y UDP de 50.000 a 59.999 debe tener la entrada y la salida abiertas. Este requisito solo se aplica a Office Communicator 2007. Office Communications Server 2007 R2, Lync Server 2010 y Lync Server 2013 solo requieren la salida abierta del intervalo de TCP de 50.000 a 59.999.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Microsoft Office Communications Server 2007 requiere una configuración ligeramente diferente. El intervalo de puertos TCP y UDP de 50.000 a 59.999 debe tener la entrada y la salida abiertas. Este requisito solo se aplica a Office Communicator 2007. Office Communications Server 2007 R2, Lync Server 2010 y Lync Server 2013 solo requieren la salida abierta del intervalo de TCP de 50.000 a 59.999.
+
 
 
 ## Requisitos de NAT para el acceso de usuarios externos
@@ -163,18 +154,9 @@ NAT suele ser una función de enrutamiento, pero los dispositivos más recientes
 
 El Lync Server 2013  software de comunicaciones no admite NAT para tráfico procedente de la interfaz perimetral interna ni hacia ella, pero para la interfaz perimetral externa, se requiere el siguiente comportamiento de NAT.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Debe configurar NAT simétrico para el tráfico entrante y saliente. NAT simétrico es la tecnología NAT descrita en este tema.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Debe configurar NAT simétrico para el tráfico entrante y saliente. NAT simétrico es la tecnología NAT descrita en este tema.
+
 
 
 En esta documentación se usan los acrónimos ChangeDST y ChangeSRC en tablas y dibujos para definir el siguiente comportamiento necesario:

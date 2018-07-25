@@ -31,18 +31,9 @@ No puede eliminar la directiva global. Si trata de hacerlo, la configuración se
 
 2.  En el menú **Inicio** , seleccione el Panel de control de Lync Server o abra una ventana del explorador y escriba la dirección URL de administración. Para obtener información sobre los diferentes métodos que se pueden usar para iniciar el Panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md) en la documentación sobre operaciones.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>También puede usar cmdlets de Windows PowerShell. Para saber cómo, consulte <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuración del servidor de chat persistente con cmdlets de Windows PowerShell</a> en la documentación sobre implementación.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > También puede usar cmdlets de Windows PowerShell. Para saber cómo, consulte <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuración del servidor de chat persistente con cmdlets de Windows PowerShell</a> en la documentación sobre implementación.
+    
 
 
 3.  En Panel de control de Lync Server, haga clic en **Chat persistente** y, a continuación, en **Directiva de Chat persistente**.

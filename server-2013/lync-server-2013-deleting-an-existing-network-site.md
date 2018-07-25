@@ -37,16 +37,7 @@ Los sitios de red son las oficinas o ubicaciones configuradas dentro de cada reg
 
 6.  Haga clic en **Aceptar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No se puede eliminar un sitio de red si está asociado con la subred de una red. Si intenta quitar un sitio asociado a una subred, recibirá un mensaje de error. Para ver si un sitio está asociado con alguna subred, haga clic en el sitio y, a continuación, haga clic en <strong>Mostrar detalles</strong> en el menú <strong>Editar</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > No se puede eliminar un sitio de red si está asociado con la subred de una red. Si intenta quitar un sitio asociado a una subred, recibirá un mensaje de error. Para ver si un sitio está asociado con alguna subred, haga clic en el sitio y, a continuación, haga clic en <strong>Mostrar detalles</strong> en el menú <strong>Editar</strong>.
+    
 

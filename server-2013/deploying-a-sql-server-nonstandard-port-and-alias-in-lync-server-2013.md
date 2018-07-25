@@ -91,18 +91,9 @@ El alias y el puerto no estándar de SQL Server deben configurarse en la instanc
     
     ![Restablecer el servicio de SQL Server para la instancia.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Restablecer el servicio de SQL Server para la instancia.")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Asegúrese de actualizar la configuración de su firewall para adaptarla al nuevo puerto de SQL Server.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Asegúrese de actualizar la configuración de su firewall para adaptarla al nuevo puerto de SQL Server.
+
 
 
 **Crear y configurar un alias de SQL Server**
@@ -121,18 +112,9 @@ El alias y el puerto no estándar de SQL Server deben configurarse en la instanc
     
     ![Creando un alias nuevo](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Creando un alias nuevo")
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ204932.Caution(OCS.15).gif" title="Caution" alt="Caution" />Precaución:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Asegúrese de introducir el mismo puerto no estándar que usó en el paso anterior ya que SQL Server escuchará en este puerto. Si un alias configurado se conecta al FQDN o a la instancia del SQL Server erróneos, deshabilite y luego vuelva a habilitar el protocolo de red asociado. Al hacer esto se borra cualquier información de conexión de la memoria caché y permite al cliente conectarse correctamente.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]  
+    > Asegúrese de introducir el mismo puerto no estándar que usó en el paso anterior ya que SQL Server escuchará en este puerto. Si un alias configurado se conecta al FQDN o a la instancia del SQL Server erróneos, deshabilite y luego vuelva a habilitar el protocolo de red asociado. Al hacer esto se borra cualquier información de conexión de la memoria caché y permite al cliente conectarse correctamente.
+    
 
 
 **Crear un registro de recursos del CNAME del DNS**

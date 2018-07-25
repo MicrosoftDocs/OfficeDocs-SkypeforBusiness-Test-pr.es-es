@@ -35,18 +35,8 @@ Cuando configura los grupos de servidores front-end y los servidores Standard Ed
 
 4.  Agregue o edite el **FQDN de servicios web externos** y después haga clic en **Aceptar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si tiene más de un Grupo de servidores front-end o Servidor front-end el FQDN de los servicios web externos deben ser únicos. Por ejemplo, si define el FQDN de los servicios web externos de un Servidor front-end como <strong>pool01.contoso.com</strong>, no puede usar <strong>pool01.contoso.com</strong> para otro Grupo de servidores front-end o Servidor front-end. Si también implementa Directores, el FQDN de los servicios web externos definidos desde cualquier Director o Grupo de directores debe ser único desde cualquier otro Director o Grupo de directores y también desde cualquier Grupo de servidores front-end o Servidor front-end.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+	> Si tiene más de un Grupo de servidores front-end o Servidor front-end el FQDN de los servicios web externos deben ser únicos. Por ejemplo, si define el FQDN de los servicios web externos de un Servidor front-end como <strong>pool01.contoso.com</strong>, no puede usar <strong>pool01.contoso.com</strong> para otro Grupo de servidores front-end o Servidor front-end. Si también implementa Directores, el FQDN de los servicios web externos definidos desde cualquier Director o Grupo de directores debe ser único desde cualquier otro Director o Grupo de directores y también desde cualquier Grupo de servidores front-end o Servidor front-end.
 
 
 5.  Verifique que los puertos de escucha y los puertos publicados están configurados correctamente para su entorno.
@@ -63,18 +53,9 @@ A continuación se enumeran algunos requisitos que es necesario conocer a la hor
 
   - Puede reemplazar los servicios web internos en un Grupo de servidores front-end, Director o un Grupo de directores y definir su propio FQDN.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si decide reemplazar los servicios web internos con un FQDN definido por usted mismo, cada FQDN debe ser único en cualquier Grupo de servidores front-end, Director o Grupo de directores.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Si decide reemplazar los servicios web internos con un FQDN definido por usted mismo, cada FQDN debe ser único en cualquier Grupo de servidores front-end, Director o Grupo de directores.
+    
 
 
   - Los puertos publicados deben configurarse como puertos de escucha en el servidor proxy inverso o el equilibrador de carga de hardware.

@@ -45,18 +45,9 @@ Además, el instalador de la actualización acumulada de Lync Server 2010: novie
 
 Lync Server necesita la instalación de los módulos IIS siguientes:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si la organización exige que localice IIS y todos los servicios web en una unidad que no sea la del sistema, cambie la ruta de acceso a la instalación de los archivos de Lync Server en el cuadro de diálogo Configuración. Si instala los archivos de instalación a esa ruta de acceso, incluido el OCSCore.msi, el resto de los archivos de Lync Server también se implementarán en esta unidad. Si desea información detallada sobre cómo cambiar la ubicación del INETPUB que emplea Windows Server Manager al instalar ISS, vea <a href="http://go.microsoft.com/fwlink/?linkid=216888%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=216888&amp;clcid=0xC0A</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si la organización exige que localice IIS y todos los servicios web en una unidad que no sea la del sistema, cambie la ruta de acceso a la instalación de los archivos de Lync Server en el cuadro de diálogo Configuración. Si instala los archivos de instalación a esa ruta de acceso, incluido el OCSCore.msi, el resto de los archivos de Lync Server también se implementarán en esta unidad. Si desea información detallada sobre cómo cambiar la ubicación del INETPUB que emplea Windows Server Manager al instalar ISS, vea <a href="http://go.microsoft.com/fwlink/?linkid=216888%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=216888&amp;clcid=0xC0A</a>.
+
 
 
   - Contenido estático

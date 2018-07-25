@@ -29,18 +29,9 @@ Para aprovechar al máximo el procedimiento de conmutación por error de grupo A
     
     La aplicación de grupo de respuesta solo puede almacenar un conjunto de valores de configuración de nivel de aplicación por grupo. Se puede acceder a esta configuración mediante el cmdlet **Get-CsRgsConfiguration**. La configuración incluye la configuración de música en espera predeterminada, el archivo de audio de música en espera predeterminado, el período de gracia de devolución de llamada del agente y la configuración del contexto de la llamada. Esta configuración se puede transferir de un grupo a otro mediante el cmdlet **Import-CsRgsConfiguration** con el parámetro **ReplaceExistingSettings**, pero esta operación invalidará cualquier configuración de nivel de aplicación en el grupo de destino.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>En una ubicación independiente, guarde una copia de seguridad de todos los archivos de audio originales que se han usado para configurar la aplicación de grupo de respuesta (es decir, cualquier grabación o archivo de música en espera).</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > En una ubicación independiente, guarde una copia de seguridad de todos los archivos de audio originales que se han usado para configurar la aplicación de grupo de respuesta (es decir, cualquier grabación o archivo de música en espera).
+    
     
     Si en un grupo se han cargado archivos de música en espera personalizados para el estacionamiento de llamadas, debe guardar una copia de seguridad de estos archivos en otra ubicación. El proceso de recuperación ante desastres de Lync Server 2013 no realiza la copia de seguridad de estos archivos, por lo que se perderán si los archivos cargados en el grupo se dañan o borran.
     

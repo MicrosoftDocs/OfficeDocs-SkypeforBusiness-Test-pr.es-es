@@ -27,18 +27,9 @@ Esta sección define los escenarios para las implementaciones de Servidor perime
 
 Al utilizar este proceso, puede planificar y documentar la configuración de todas las funciones potenciales que desea implementar para los usuarios. Sin embargo, puede agregar servicios de movilidad y federación luego de haber implementado el Servidor perimetral y haber confirmado la operación correcta antes de agregar las otras funciones. El proceso de agregar funciones a una implementación de Servidor perimetral existente se aborda en la sección Implementación. Para obtener más detalles sobre la implementación, vea [Implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md). La planificación de estas características durante el proceso de planificación inicial le permitirá preparar el DNS, el firewall y los requisitos de certificado para las características agregadas, lo cual le permitirá adquirir los certificados y configurar los requisitos de protocolo/puerto y DNS por anticipado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si tiene planificado instalar el Servidores perimetrales y proxy inverso y agregar funciones posteriormente (como, por ejemplo, la federación y la movilidad), determine qué certificados necesitará para todos los servicios tras la implementación. La planificación y adquisición de los certificados para todas las funciones por adelantado, inicialmente implementadas o no, le evitarán tener que solicitar nuevos certificados para cumplir con los requisitos de federación (es decir, en el Servidores perimetrales) o el proxy inverso (es decir, para servicios de movilidad).</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Si tiene planificado instalar el Servidores perimetrales y proxy inverso y agregar funciones posteriormente (como, por ejemplo, la federación y la movilidad), determine qué certificados necesitará para todos los servicios tras la implementación. La planificación y adquisición de los certificados para todas las funciones por adelantado, inicialmente implementadas o no, le evitarán tener que solicitar nuevos certificados para cumplir con los requisitos de federación (es decir, en el Servidores perimetrales) o el proxy inverso (es decir, para servicios de movilidad).
+
 
 
 
@@ -110,16 +101,7 @@ Al utilizar este proceso, puede planificar y documentar la configuración de tod
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En las siguientes secciones Escenarios hay arquitecturas de referencia, DNS de ejemplo, definiciones de puerto/protocolo y requisitos de certificados. También se incluyen diagramas del DNS, las definiciones de puerto/protocolo y los requisitos de certificados. Los diagramas proporcionarán una plantilla para que complete y distribuya a otros equipos (por ejemplo, el equipo de redes de su organización, el equipo de infraestructura de clave pública y el equipo de implementación del servidor). El objetivo de los diagramas es mejorar la comunicación y asegurar que se comuniquen correctamente los elementos necesarios de configuración del Servidor perimetral a las personas que harán el verdadero trabajo de configuración. Se recomienda el uso de los diagramas y de la arquitectura de referencia asociada para planificar la implementación.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> En las siguientes secciones Escenarios hay arquitecturas de referencia, DNS de ejemplo, definiciones de puerto/protocolo y requisitos de certificados. También se incluyen diagramas del DNS, las definiciones de puerto/protocolo y los requisitos de certificados. Los diagramas proporcionarán una plantilla para que complete y distribuya a otros equipos (por ejemplo, el equipo de redes de su organización, el equipo de infraestructura de clave pública y el equipo de implementación del servidor). El objetivo de los diagramas es mejorar la comunicación y asegurar que se comuniquen correctamente los elementos necesarios de configuración del Servidor perimetral a las personas que harán el verdadero trabajo de configuración. Se recomienda el uso de los diagramas y de la arquitectura de referencia asociada para planificar la implementación.
+
 

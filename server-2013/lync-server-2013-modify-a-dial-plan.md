@@ -35,19 +35,9 @@ Para modificar un plan de marcado existente, siga los pasos del procedimiento a 
 
 5.  (Opcional) En **Editar plan de marcado** , edite el campo **Nombre simple** , el cual se ha cumplimentado previamente con el mismo nombre que aparece en el campo **Nombre** para especificar un nombre más descriptivo que refleje el sitio, el servicio o el usuario a quien se aplica el plan de marcado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El <strong>Nombre simple</strong> debe ser único entre todos los planes de marcado de la implementación de Lync Server 2013. No puede exceder de 256 caracteres Unicode, donde cada uno de los cuales puede ser alfanumérico o numérico, un guión (-), un punto (.), un signo más (+) o un guión bajo (_).<br />
-    No se permiten espacios en el campo <strong>Nombre simple</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El <strong>Nombre simple</strong> debe ser único entre todos los planes de marcado de la implementación de Lync Server 2013. No puede exceder de 256 caracteres Unicode, donde cada uno de los cuales puede ser alfanumérico o numérico, un guión (-), un punto (.), un signo más (+) o un guión bajo (_).<br />
+    > No se permiten espacios en el campo <strong>Nombre simple</strong> .
 
 
 6.  (Opcional) En el campo **Descripción** , escriba información descriptiva sobre el plan de marcado.
@@ -88,19 +78,9 @@ Para modificar un plan de marcado existente, siga los pasos del procedimiento a 
 
 10. Compruebe que las reglas de normalización del plan de marcado están dispuestas en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en la flecha arriba o abajo.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server recorre la lista de reglas de normalización de arriba abajo y utiliza la primera regla que coincide con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas.<br />
-    La regla de normalización predeterminada <strong>^(\d{11})$</strong> de <strong>Prefix All</strong> coincide con cualquier número de 11 dígitos. Si, por ejemplo, agrega una regla de normalización que coincide con números de 11 dígitos que comiencen con 1425, asegúrese de que <strong>Prefix All</strong> se encuentra debajo de la regla <strong>^(1425\d{7})$</strong> más restrictiva.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Lync Server recorre la lista de reglas de normalización de arriba abajo y utiliza la primera regla que coincide con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas.<br />
+    > La regla de normalización predeterminada <strong>^(\d{11})$</strong> de <strong>Prefix All</strong> coincide con cualquier número de 11 dígitos. Si, por ejemplo, agrega una regla de normalización que coincide con números de 11 dígitos que comiencen con 1425, asegúrese de que <strong>Prefix All</strong> se encuentra debajo de la regla <strong>^(1425\d{7})$</strong> más restrictiva.
 
 
 11. (Opcional) Especifique un número para probar el plan de marcado y, a continuación, haga clic en **Ir** . Los resultados de la prueba se muestran en **Introducir un número para probarlo** .

@@ -69,18 +69,9 @@ Si se trata de una directiva de usuario, también tiene que aplicar la directiva
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El parámetro “EnablePublicCloudAudioVideoAccess” no tiene una selección correspondiente en el Panel de control de Lync Server</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > El parámetro “EnablePublicCloudAudioVideoAccess” no tiene una selección correspondiente en el Panel de control de Lync Server
+    
 
 
 ## Para crear una nueva directiva con Windows PowerShell para admitir el acceso de usuarios de dominios federados

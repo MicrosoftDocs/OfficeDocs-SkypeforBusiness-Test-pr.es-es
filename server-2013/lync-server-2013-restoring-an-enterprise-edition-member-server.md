@@ -27,18 +27,9 @@ Si se produce un error en un servidor que ejecuta uno de los siguientes roles de
 
   - Servidor perimetral
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se recomienda realizar una copia de la imagen del sistema antes de iniciar la restauración, de forma que pueda usar esta imagen como punto de reversión en caso de que haya errores durante la restauración. Es posible que desee realizar la copia de la imagen después de instalar el sistema operativo y SQL Server y restaurar o volver a inscribir los certificados.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Se recomienda realizar una copia de la imagen del sistema antes de iniciar la restauración, de forma que pueda usar esta imagen como punto de reversión en caso de que haya errores durante la restauración. Es posible que desee realizar la copia de la imagen después de instalar el sistema operativo y SQL Server y restaurar o volver a inscribir los certificados.
+
 
 
 ## Para restaurar un servidor miembro

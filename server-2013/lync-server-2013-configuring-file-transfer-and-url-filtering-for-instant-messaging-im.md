@@ -69,18 +69,9 @@ Si no se configura el filtro de mensajería instantánea para que realice algún
 
   - **Bloquear direcciones URL con extensión de archivo**  El filtro para mensajería instantánea bloquea cualquier dirección URL activa de la intranet o de Internet que contenga un archivo con una extensión incluida en **Extensiones de tipo de archivo a bloquear** en el cuadro de diálogo **Editar filtro de archivo**. Cuando se bloquea una dirección URL, el remitente recibe un mensaje de error. Al seleccionar dicha opción, esta tiene prioridad sobre todas las demás opciones de filtrado para cualquier extensión de archivo definida en **Extensiones de tipo de archivo a bloquear**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El filtrado de las extensiones de archivo se limita a los nombres de archivo estándar. Puede que el filtrado no funcione con las extensiones de archivo insertadas en otros nombres.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El filtrado de las extensiones de archivo se limita a los nombres de archivo estándar. Puede que el filtrado no funcione con las extensiones de archivo insertadas en otros nombres.
+    
 
 
 Para configurar la forma en la que se administran los hipervínculos en las conversaciones de mensajes instantáneos, seleccione una de las siguientes opciones en **Prefijo de hipervínculo**:
@@ -119,18 +110,9 @@ Puede filtrar transferencias de archivos durante conversaciones de mensajes inst
     
       - **Bloquear todo**   El servidor quita todos los mensajes instantáneos que incluyan solicitudes de transferencia de archivos y envía un mensaje de error al remitente de la solicitud. Se deshabilita la característica de documentos en el cliente de Office Live Meeting 2007.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>El filtrado de las extensiones de archivo se limita a los nombres de archivo estándar. Puede que el filtrado no funcione con las extensiones de archivo insertadas en otros nombres.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> El filtrado de las extensiones de archivo se limita a los nombres de archivo estándar. Puede que el filtrado no funcione con las extensiones de archivo insertadas en otros nombres.
+
 
 
 ## En esta sección

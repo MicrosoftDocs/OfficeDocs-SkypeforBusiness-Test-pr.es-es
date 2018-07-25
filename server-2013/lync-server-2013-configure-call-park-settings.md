@@ -71,18 +71,9 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
     
         New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Use el cmdlet <strong>Get-CsSite</strong> para identificar el sitio. Para obtener más información, consulte la documentación de Shell de administración de Lync Server.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Use el cmdlet <strong>Get-CsSite</strong> para identificar el sitio. Para obtener más información, consulte la documentación de Shell de administración de Lync Server.
+    
     
     Por ejemplo:
     

@@ -17,30 +17,17 @@ _**Última modificación del tema:** 2012-10-18_
 
 Complete las tareas de esta sección en el sitio central. Si está implementando un Servidor de sucursal con funciones de supervivencia, omita la primera tarea.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de realizar las tareas de esta sección, deberán cumplirse las siguientes condiciones:
-<ul>
-<li><p>Lync Server debe estar configurado en el sitio central.</p></li>
-<li><p>Debe agregarse un técnico de instalación de la sucursal al grupo RTCUniversalSBATechnicians.</p></li>
-</ul>
-Además, se recomienda que haga lo siguiente:
-<ul>
-<li><p>Implementar un servidor DHCP en cada una de las sucursales para permitir que los clientes obtengan direcciones IP.</p></li>
-<li><p>Como alternativa a la implementación de un servidor DHCP en cada una de las sucursales, habilite DHCP de Lync Server en Aplicación de sucursal con funciones de supervivencia o Servidor de sucursal con funciones de supervivencia usando el cmdlet Shell de administración de Lync Server<strong>Set-CsRegistrarConfiguration –EnableDHCPServer $true</strong>. Para obtener más información, consulte la sección &quot;Requisitos de hardware y software&quot; de <a href="lync-server-2013-branch-site-resiliency-requirements.md">Requisitos de resistencia de sitios de sucursal para Lync Server 2013</a> en la documentación de planeación.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Antes de realizar las tareas de esta sección, deberán cumplirse las siguientes condiciones:
+> <ul>
+> <li><p>Lync Server debe estar configurado en el sitio central.</p></li>
+> <li><p>Debe agregarse un técnico de instalación de la sucursal al grupo RTCUniversalSBATechnicians.</p></li>
+> </ul>
+> Además, se recomienda que haga lo siguiente:
+> <ul>
+> <li><p>Implementar un servidor DHCP en cada una de las sucursales para permitir que los clientes obtengan direcciones IP.</p></li>
+> <li><p>Como alternativa a la implementación de un servidor DHCP en cada una de las sucursales, habilite DHCP de Lync Server en Aplicación de sucursal con funciones de supervivencia o Servidor de sucursal con funciones de supervivencia usando el cmdlet Shell de administración de Lync Server<strong>Set-CsRegistrarConfiguration –EnableDHCPServer $true</strong>. Para obtener más información, consulte la sección &quot;Requisitos de hardware y software&quot; de <a href="lync-server-2013-branch-site-resiliency-requirements.md">Requisitos de resistencia de sitios de sucursal para Lync Server 2013</a> en la documentación de planeación.</p></li>
+> </ul>
 
 
 ## En esta sección

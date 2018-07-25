@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2014-10-20_
 
 Todas las subredes de la red deben estar asociadas con un sitio de red específico. Esto se debe a que la información de la subred se usa para determinar el sitio de red en el que reside un extremo mientras se inicia una nueva sesión. Cuando se conoce la ubicación de cada parte en una sesión, las características avanzadas de Telefonía IP empresarial pueden aplicar esta información para determinar cómo administrar la configuración o el enrutamiento de las llamadas.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Todas las direcciones IP públicas de los servidores perimetrales de audio y vídeo en la implementación deben incluirse en los parámetros de configuración de red. Estas direcciones IP se agregan como subredes con una máscara de 32. El sitio de red asociado debe corresponder con el sitio de red configurado adecuado. Por ejemplo, la dirección IP pública que corresponde a los servidores perimetrales A/V en el sitio central Chicago sería NetworkSiteID Chicago. Para más información sobre las direcciones IP públicas, consulte <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013</a> en la documentación sobre planeación.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Todas las direcciones IP públicas de los servidores perimetrales de audio y vídeo en la implementación deben incluirse en los parámetros de configuración de red. Estas direcciones IP se agregan como subredes con una máscara de 32. El sitio de red asociado debe corresponder con el sitio de red configurado adecuado. Por ejemplo, la dirección IP pública que corresponde a los servidores perimetrales A/V en el sitio central Chicago sería NetworkSiteID Chicago. Para más información sobre las direcciones IP públicas, consulte <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013</a> en la documentación sobre planeación.
+
 
 
 
@@ -52,18 +43,9 @@ Para más información sobre cómo trabajar con subredes de red, consulte la doc
 
   - [Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si trabaja con un gran número de subredes, es aconsejable usar un archivo CSV (valores separados por comas) para asociar las subredes a los sitios. El archivo CSV debe tener las cuatro columnas siguientes: <strong>IPAddress</strong>, <strong>mask</strong>, <strong>description</strong>, <strong>NetworkSiteID</strong>.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Si trabaja con un gran número de subredes, es aconsejable usar un archivo CSV (valores separados por comas) para asociar las subredes a los sitios. El archivo CSV debe tener las cuatro columnas siguientes: <strong>IPAddress</strong>, <strong>mask</strong>, <strong>description</strong>, <strong>NetworkSiteID</strong>.
+
 
 
 ## Para asociar una subred a un sitio de red mediante el Shell de administración

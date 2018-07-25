@@ -79,18 +79,9 @@ En el procedimiento siguiente, se explica cómo crear una ruta de voz nueva. Par
 
 14. Haga clic en **Aceptar** para guardar la ruta de voz.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Siempre que cree una ruta de voz, debe ejecutar el comando <strong>Confirmar todo</strong> para publicar el cambio en la configuración. Para obtener información detallada, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar los cambios pendientes en la configuración del enrutamiento de voz en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Siempre que cree una ruta de voz, debe ejecutar el comando <strong>Confirmar todo</strong> para publicar el cambio en la configuración. Para obtener información detallada, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar los cambios pendientes en la configuración del enrutamiento de voz en Lync Server 2013</a>.
+
 
 
 ## Vea también

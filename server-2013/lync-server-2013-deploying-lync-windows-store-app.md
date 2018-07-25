@@ -21,27 +21,14 @@ Antes de poner Aplicación de la Tienda Windows de Lync a disposición de los us
 
 Actualizaciones acumulativas para Lync Server 2013: junio de 2013 agrega compatibilidad con la autenticación multifactor para clientes de Aplicación de la Tienda Windows de Lync. Además del nombre de usuario y la contraseña, puede requerir métodos de autenticación adicionales, como una tarjeta inteligente o un PIN, para autenticar a los usuarios externos cuando inician sesión en las reuniones de Lync. Para habilitar la autenticación multifactor, implemente el servidor de federación de los Servicios de federación de Active Directory (AD FS) y habilite la autenticación pasiva en Lync Server 2013. Una vez que ha configurado AD FS, los usuarios externos que intenten unirse a reuniones de Lync verán una página web de autenticación multifactor de AD FS con el desafío de nombre de usuario y contraseña, junto con los demás métodos de autenticación adicionales que haya configurado.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A continuación, se incluyen algunas consideraciones importantes para planear la configuración de AD FS para la autenticación multifactor en Aplicación de la Tienda Windows de Lync:
-<ul>
-<li><p>Se requiere como mínimo Lync Server 2013 con Actualizaciones acumulativas para Lync Server 2013: junio de 2013. Los clientes de escritorio de Lync 2013 no necesitan Actualizaciones acumulativas para Lync Server 2013: junio de 2013, por lo que puede parecer que la autenticación pasiva funciona, ya que los clientes de Lync 2013 se pueden autenticar. Pero el proceso de autenticación de los clientes de Aplicación de la Tienda Windows de Lync no se completará correctamente y no se mostrará ningún mensaje de error ni de notificación.</p></li>
-<li><p>Es necesario configurar el servidor de modo que el único tipo de autenticación ofrecido sea la autenticación pasiva.</p></li>
-<li><p>Si usa equilibradores de carga de hardware, habilite la persistencia basada en cookies en los equilibradores de carga, para que todas las solicitudes del cliente de Aplicación de la Tienda Windows de Lync se controlen con el mismo servidor front-end.</p></li>
-<li><p>Al establecer una relación de confianza para usuario autenticado entre Lync Server y los servidores de AD FS, asigne un token con una extensión adecuada para abarcar la duración máxima de las reuniones de Lync. Por lo general, una duración de token de 240 minutos es suficiente.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> A continuación, se incluyen algunas consideraciones importantes para planear la configuración de AD FS para la autenticación multifactor en Aplicación de la Tienda Windows de Lync:
+> <ul>
+> <li><p>Se requiere como mínimo Lync Server 2013 con Actualizaciones acumulativas para Lync Server 2013: junio de 2013. Los clientes de escritorio de Lync 2013 no necesitan Actualizaciones acumulativas para Lync Server 2013: junio de 2013, por lo que puede parecer que la autenticación pasiva funciona, ya que los clientes de Lync 2013 se pueden autenticar. Pero el proceso de autenticación de los clientes de Aplicación de la Tienda Windows de Lync no se completará correctamente y no se mostrará ningún mensaje de error ni de notificación.</p></li>
+> <li><p>Es necesario configurar el servidor de modo que el único tipo de autenticación ofrecido sea la autenticación pasiva.</p></li>
+> <li><p>Si usa equilibradores de carga de hardware, habilite la persistencia basada en cookies en los equilibradores de carga, para que todas las solicitudes del cliente de Aplicación de la Tienda Windows de Lync se controlen con el mismo servidor front-end.</p></li>
+> <li><p>Al establecer una relación de confianza para usuario autenticado entre Lync Server y los servidores de AD FS, asigne un token con una extensión adecuada para abarcar la duración máxima de las reuniones de Lync. Por lo general, una duración de token de 240 minutos es suficiente.</p></li>
+> </ul>
 
 
 **Para configurar la autenticación multifactor**
@@ -60,11 +47,15 @@ Actualizaciones acumulativas para Lync Server 2013: junio de 2013 agrega compati
 
 5.  Defina las siguientes reglas de usuario de confianza:
     
-        $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-    
-        Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
-    
-        Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+```
+$IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+```    
+```
+Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
+```
+```
+Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+```
 
 ## Problemas conocidos que pueden impedir el inicio de sesión
 

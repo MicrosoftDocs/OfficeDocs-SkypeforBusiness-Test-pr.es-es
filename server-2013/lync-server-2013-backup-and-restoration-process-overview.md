@@ -29,18 +29,9 @@ En general, el proceso de restauración funciona de la siguiente forma:
 
   - Cuando se produce un error o interrupción del servicio, se restauran los datos en la ubicación a la que hace referencia **$Backup** en equipos nuevos o limpios.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Este proceso de restauración no restaura datos en un estado de servidor existente. Es decir, este proceso requiere que el servidor esté limpio o sea nuevo.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Este proceso de restauración no restaura datos en un estado de servidor existente. Es decir, este proceso requiere que el servidor esté limpio o sea nuevo.
+    
 
 
   - Para hacer que la información de usuarios y conferencias se pueda recuperar en el punto de error, se puede implementar una topología de recuperación ante desastres con grupos de servidores front-end emparejados, tal y como se describe en [Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Aparte de esta opción, Lync Server admite únicamente el modelo de recuperación simple para las bases de datos. Con este modelo, las bases de datos se recuperan en el punto donde se realizó la última copia de seguridad completa, por lo que una base de datos no se podrá restaurar en el punto de error o en un punto específico en el tiempo. En muchas organizaciones, el modelo de recuperación simple es el mejor, ya que la base de datos back-end de Lync Server (RTCXDS.mdf) es en realidad más pequeña que los archivos de registro transaccionales y notablemente más pequeña que las de las típicas aplicaciones de base de datos de línea de negocio.

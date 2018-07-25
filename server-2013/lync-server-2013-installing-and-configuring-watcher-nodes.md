@@ -154,17 +154,13 @@ Las transacciones sintéticas pueden consumir una gran cantidad de memoria y tie
 
 Los nodos de monitor de Lync Server 2013 se pueden implementar dentro o fuera de una empresa para comprobar aspectos como los siguientes:
 
-  -   
-    La conectividad con los grupos de servidores de usuarios de la empresa.
+   La conectividad con los grupos de servidores de usuarios de la empresa.  
 
-  -   
-    La conectividad a través de redes perimetrales de los usuarios remotos que trabajan fuera de la empresa.
+   La conectividad a través de redes perimetrales de los usuarios remotos que trabajan fuera de la empresa.  
 
-  -   
-    La conectividad con aplicaciones de sucursal.
+   La conectividad con aplicaciones de sucursal.  
 
-  -   
-    La conectividad con Lync Server 2010 dentro de la empresa y a través de redes perimetrales.
+   La conectividad con Lync Server 2010 dentro de la empresa y a través de redes perimetrales.  
 
 Existen distintas opciones de autenticación desde dentro y fuera de la empresa que ayudan a simplificar las tareas administrativas. Para obtener información, consulte [Configuración de un nodo de monitor para ejecutar transacciones sintéticas](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).
 

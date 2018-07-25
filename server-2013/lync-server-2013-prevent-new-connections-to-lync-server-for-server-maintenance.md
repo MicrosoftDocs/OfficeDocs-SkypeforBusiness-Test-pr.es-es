@@ -35,18 +35,9 @@ Para más información detallada sobre el equilibrador de carga de DNS, consulte
 
 Además de dejar de admitir nuevas conexiones para todos los servicios de un servidor que ejecute Lync Server, también puede evitar que se establezcan nuevas conexiones para servicios individuales de Lync Server. Por ejemplo, este método es útil en una situación en que necesite aplicar una actualización de Lync Server que no requiere que se desconecte el servidor entero. Tenga en cuenta que cuando deje de admitir conexiones para un servicio, es necesario seleccionar un servicio según está agrupado y según se muestra en la lista de servicios de Windows. Por ejemplo, el servicio de front-end de Lync Server y el agente de recopilación de datos para la supervisión son servicios de Lync Server diferentes, pero en la lista de servicios de Windows están consolidados y se muestran como el servicio de front-end de Lync Server. Puede impedir nuevas conexiones para el servicio de front-end de Lync Server, pero no puede impedir nuevas conexiones para dichos dos servicios individuales subyacentes a Lync Server de forma separada.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cuando se establece un servidor para impedir nuevas conexiones y después se reinicia el servidor, el servidor empezará de forma predeterminada y de inmediato a aceptar nuevas comunicaciones tras reiniciarse. Para evitar esto, establezca que el servidor solo pueda pausarse y reanudarse manualmente antes de reiniciar el servidor.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Cuando se establece un servidor para impedir nuevas conexiones y después se reinicia el servidor, el servidor empezará de forma predeterminada y de inmediato a aceptar nuevas comunicaciones tras reiniciarse. Para evitar esto, establezca que el servidor solo pueda pausarse y reanudarse manualmente antes de reiniciar el servidor.
+
 
 
 ## Para impedir nuevas conexiones a Lync Server:
@@ -61,18 +52,9 @@ Además de dejar de admitir nuevas conexiones para todos los servicios de un ser
 
 5.  Como alternativa, y recomendación, junto a **Tipo de inicio**, haga clic en **Manual**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cuando se establece un servidor para impedir nuevas conexiones y después se reinicia el servidor, el servidor empezará de forma predeterminada y de inmediato a aceptar nuevas comunicaciones tras reiniciarse. Para evitar esto, establezca que el servidor solo pueda pausarse y reanudarse manualmente antes de reiniciar el servidor.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Cuando se establece un servidor para impedir nuevas conexiones y después se reinicia el servidor, el servidor empezará de forma predeterminada y de inmediato a aceptar nuevas comunicaciones tras reiniciarse. Para evitar esto, establezca que el servidor solo pueda pausarse y reanudarse manualmente antes de reiniciar el servidor.
+    
 
 
 6.  Cuando haya terminado, haga clic en **Aceptar**.

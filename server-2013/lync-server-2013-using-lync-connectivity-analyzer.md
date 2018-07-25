@@ -47,11 +47,11 @@ Puede descargar el Analizador de conectividad de Lync desde el Centro de descarg
     
       - En **Tipo de cuenta de Lync**, seleccione**Office 365** o **Local**.
     
-      - En **URI de SIP**, introduzca la dirección de inicio de sesión de SIP para la conexión de Lync, en formato **usuario@dominio.com**.
+      - En **URI de SIP**, introduzca la dirección de inicio de sesión de SIP para la conexión de Lync, en formato <strong>usuario@dominio.com</strong>.
     
       - En **Contraseña**, escriba la contraseña asociada a esta cuenta.
     
-      - En **Nombre de usuario (opcional)**, escriba un nombre de usuario, en su caso. El nombre de usuario también se conoce como nombre principal de usuario (UPN). Si el nombre de usuario y el URI de SIP son el mismo, no es necesario especificar un nombre de usuario. Si no son el mismo, especifique el nombre de usuario en el formato **usuario@dominio.com** o **dominio\\usuario**, lo que corresponda.
+      - En **Nombre de usuario (opcional)**, escriba un nombre de usuario, en su caso. El nombre de usuario también se conoce como nombre principal de usuario (UPN). Si el nombre de usuario y el URI de SIP son el mismo, no es necesario especificar un nombre de usuario. Si no son el mismo, especifique el nombre de usuario en el formato <strong>usuario@dominio.com</strong> o **dominio\\usuario**, lo que corresponda.
     
       - En **Acceso de red**, elija **Desde dentro de mi organización** si está ejecutando el Analizador de conectividad de Lync desde un equipo conectado a su red interna. De lo contrario, elija **Externo (Internet)**. El Analizador de conectividad de Lync siempre hace pruebas internas y externas, pero si especifica si está dentro o fuera de su propia red, la herramienta podrá interpretar mejor si se esperan determinados fallos.
     

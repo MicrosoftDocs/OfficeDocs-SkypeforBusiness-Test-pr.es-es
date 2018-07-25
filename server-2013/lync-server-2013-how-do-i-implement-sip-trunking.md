@@ -101,16 +101,7 @@ El modo en el que se implementa el lado del proveedor de servicios de una conexi
 
 Para obtener más información acerca de los proveedores de enlaces troncales SIP certificados por Microsoft, póngase en contacto con su representante de Microsoft.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Debe usar un proveedor de servicios certificado por Microsoft para asegurarse de que su ITSP admite todas las funcionalidades que pasan por el tronco SIP (por ejemplo, la configuración y administración de sesiones y la compatibilidad con todos los servicios de VoIP ampliados). El Soporte técnico de Microsoft no se amplía para configuraciones que usan proveedores no certificados. Si está usando actualmente un proveedor de servicios de Internet que no está certificado para enlaces troncales SIP, puede seguir usando dicho proveedor como ISP y usar un proveedor certificado por Microsoft para enlaces troncales SIP.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Debe usar un proveedor de servicios certificado por Microsoft para asegurarse de que su ITSP admite todas las funcionalidades que pasan por el tronco SIP (por ejemplo, la configuración y administración de sesiones y la compatibilidad con todos los servicios de VoIP ampliados). El Soporte técnico de Microsoft no se amplía para configuraciones que usan proveedores no certificados. Si está usando actualmente un proveedor de servicios de Internet que no está certificado para enlaces troncales SIP, puede seguir usando dicho proveedor como ISP y usar un proveedor certificado por Microsoft para enlaces troncales SIP.
+
 

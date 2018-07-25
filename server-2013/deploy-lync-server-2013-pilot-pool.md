@@ -37,18 +37,8 @@ Debe implementar las mismas características y cargas de trabajo en el grupo pil
 
 4.  Escriba el FQDN del grupo. Cuando defina el grupo piloto, podrá elegir si desea implementar un Grupo de servidores front-end Enterprise Edition o un Servidor Standard Edition. En Lync Server 2013, no es necesario que el grupo piloto coincida con lo implementado en el grupo heredado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El nombre de dominio completo (FQDN) del grupo o del servidor que defina para el piloto debe ser único. No puede coincidir con el nombre del grupo Lync Server 2010 implementado actualmente o con otros servidores implementados actualmente.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+	> El nombre de dominio completo (FQDN) del grupo o del servidor que defina para el piloto debe ser único. No puede coincidir con el nombre del grupo Lync Server 2010 implementado actualmente o con otros servidores implementados actualmente.
     
     ![Página FQDN del asistente para nuevo grupo de servidores front end](images/JJ205144.c5fd138c-e75a-413a-827f-b1461c996d40(OCS.15).jpg "Página FQDN del asistente para nuevo grupo de servidores front end")
 

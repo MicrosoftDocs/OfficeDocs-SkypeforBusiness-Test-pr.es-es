@@ -51,18 +51,9 @@ Para implementar el equilibrio de carga DNS en grupos de servidores front-end y 
 
   - Para admitir el FQDN que usa el equilibrio de carga DNS, debe aprovisionar el DNS de modo que resuelva el FQDN del grupo de servidores (como, por ejemplo, pool01.contoso.com) como las direcciones IP de todos los servidores del grupo de servidores (por ejemplo, 192.168.1.1, 192.168.1.2, etc.). Solo deberá incluir las direcciones IP de los servidores implementados actualmente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si tiene más de un Grupo de servidores front-end o Servidor front-end los servicios Web externos FQDN deben ser únicos. Por ejemplo, si define los servicios Web externos FQDN de un Servidor front-end como <strong>pool01.contoso.com</strong> no puede usar <strong>pool01.contoso.com</strong> para otro Grupo de servidores front-end o Servidor front-end. Si también está implementando Directores, los servicios Web externos FQDN definidos para un Director o Grupo de directores deben ser diferentes de otro Director o Grupo de directores al igual que cualquier Grupo de servidores front-end o Servidor front-end. Si decide omitir los servicios Web externos con un FQDN autodefinido, todos los FQDN deben ser diferentes de otros Grupo de servidores front-end, Director o Grupo de directores.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Si tiene más de un Grupo de servidores front-end o Servidor front-end los servicios Web externos FQDN deben ser únicos. Por ejemplo, si define los servicios Web externos FQDN de un Servidor front-end como <strong>pool01.contoso.com</strong> no puede usar <strong>pool01.contoso.com</strong> para otro Grupo de servidores front-end o Servidor front-end. Si también está implementando Directores, los servicios Web externos FQDN definidos para un Director o Grupo de directores deben ser diferentes de otro Director o Grupo de directores al igual que cualquier Grupo de servidores front-end o Servidor front-end. Si decide omitir los servicios Web externos con un FQDN autodefinido, todos los FQDN deben ser diferentes de otros Grupo de servidores front-end, Director o Grupo de directores.
+    
 
 
 ## Equilibrio de carga DNS en grupos de servidores perimetrales
@@ -75,24 +66,11 @@ El uso del equilibrio de carga DNS en los servidores perimetrales provoca una p�
 
   - Intercambio de mensajes instantáneos con usuarios de servicios de mensajería instantánea (MI) pública, como AOL y Yahoo\!, además de servidores y proveedores basados en XMPP, como Google Talk.
     
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><ul>
-    <li><p>Actualmente, Google Talk es el único socio XMPP admitido.</p></li>
-    <li><p>El 1 de septiembre de 2012, la licencia de suscripción del usuario de Public IM Connectivity de Microsoft Lync (&quot;PIC USL&quot;) dejó de estar disponible para su compra en los contratos nuevos y en las prórrogas de contratos. Los clientes que tengan licencias activas podrán seguir federándose con Yahoo! Messenger hasta la fecha de cierre del servicio. La fecha anunciada para el fin de vida de AOL y Yahoo! es junio de 2014. Para más detalles, vea <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013</a>.</p></li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+	> <ul>
+    > <li><p>Actualmente, Google Talk es el único socio XMPP admitido.</p></li>
+    > <li><p>El 1 de septiembre de 2012, la licencia de suscripción del usuario de Public IM Connectivity de Microsoft Lync (&quot;PIC USL&quot;) dejó de estar disponible para su compra en los contratos nuevos y en las prórrogas de contratos. Los clientes que tengan licencias activas podrán seguir federándose con Yahoo! Messenger hasta la fecha de cierre del servicio. La fecha anunciada para el fin de vida de AOL y Yahoo! es junio de 2014. Para más detalles, vea <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013</a>.</p></li>
+    > </ul>
 
 
 Estos escenarios funcionarán siempre que se ejecuten correctamente todos los servidores perimetrales del grupo de servidores pero, si un servidor perimetral no está disponible, fallarán todas las solicitudes de estos escenarios que se envíen a él, en lugar de enrutarse a otro servidor perimetral.

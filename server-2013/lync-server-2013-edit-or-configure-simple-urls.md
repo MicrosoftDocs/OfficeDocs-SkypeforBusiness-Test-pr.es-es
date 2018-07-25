@@ -37,31 +37,13 @@ De forma predeterminada, las direcciones URL sencillas se configurarán con el f
 
 2.  En el cuadro **Dirección URL de acceso administrativo**, escriba la dirección URL sencilla que desee para configurar el acceso administrativo a Panel de control de Lync Server 2013 y, a continuación, haga clic en **Aceptar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le recomendamos que use la dirección URL más sencilla que sea posible para la dirección URL de administración. La opción más sencilla es <strong>https://admin</strong> <em>&lt;domain&gt;</em> .</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Le recomendamos que use la dirección URL más sencilla que sea posible para la dirección URL de administración. La opción más sencilla es <strong>https://admin</strong> <em>&lt;domain&gt;</em> .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si cambia una dirección URL simple tras la implementación inicial, debe saber qué cambios afectan a los certificados y los registros de su sistema de nombres de dominio (DNS) para direcciones URL simples. Si el cambio afecta a la base de una dirección URL simple, debe cambiar también los certificados y registros DNS. Por ejemplo, si se cambia https://lync.contoso.com/Meet por https://meet.contoso.com, se cambia la dirección URL básica lync.contoso.com por meet.contoso.com, por lo que debe modificar los certificados y registros DNS para que hagan referencia a meet.contoso.com. Si cambia la dirección URL simple https://lync.contoso.com/Meet por https://lync.contoso.com/Meetings, la dirección URL básica lync.contoso.com no cambia, por lo que no será necesario cambiar el certificado ni el DNS. Sin embargo, cuando cambie el nombre de una dirección URL simple, deberá ejecutar el cmdlet <strong>Enable-CsComputer</strong> en cada Director y Servidor front-end para registrar el cambio.</td>
-    </tr>
-    </tbody>
-    </table>
+    
+    > [!IMPORTANT]  
+    > Si cambia una dirección URL simple tras la implementación inicial, debe saber qué cambios afectan a los certificados y los registros de su sistema de nombres de dominio (DNS) para direcciones URL simples. Si el cambio afecta a la base de una dirección URL simple, debe cambiar también los certificados y registros DNS. Por ejemplo, si se cambia https://lync.contoso.com/Meet por https://meet.contoso.com, se cambia la dirección URL básica lync.contoso.com por meet.contoso.com, por lo que debe modificar los certificados y registros DNS para que hagan referencia a meet.contoso.com. Si cambia la dirección URL simple https://lync.contoso.com/Meet por https://lync.contoso.com/Meetings, la dirección URL básica lync.contoso.com no cambia, por lo que no será necesario cambiar el certificado ni el DNS. Sin embargo, cuando cambie el nombre de una dirección URL simple, deberá ejecutar el cmdlet <strong>Enable-CsComputer</strong> en cada Director y Servidor front-end para registrar el cambio.
+    
 
 
 ## Vea también

@@ -67,18 +67,9 @@ Solo puede definir un conjunto de valores de configuración de Grupo de respuest
 
 Puede transferir esta configuración de nivel de aplicación de un grupo de servidores a otro mediante el cmdlet **Import-CsRgsConfiguration** con el parámetro –ReplaceExistingSettings, pero al hacerlo se invalidará la configuración en el grupo de servidores de destino.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Esta restricción acerca de la transferencia de configuración a otro grupo de servidores es verdadera solo para la configuración de nivel de aplicación y el archivo de audio de música en espera predeterminado. No se aplica a grupos de agente, a colas, a flujos de trabajo, a horas de oficina y a conjuntos de días festivos.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Esta restricción acerca de la transferencia de configuración a otro grupo de servidores es verdadera solo para la configuración de nivel de aplicación y el archivo de audio de música en espera predeterminado. No se aplica a grupos de agente, a colas, a flujos de trabajo, a horas de oficina y a conjuntos de días festivos.
+
 
 
 Si no desea reemplazar la configuración de nivel de aplicación en el grupo de servidores de copia de seguridad durante un desastre y el grupo de servidores principal no se puede recuperar, se perderá la configuración de nivel de aplicación del grupo de servidores principal. Si tiene que crear un nuevo grupo de servidores para reemplazar el grupo de servidores principal durante la recuperación, con el mismo FQDN o con un FQDN diferente, no podrá recuperar la configuración de nivel de aplicación original. En este caso, tiene que configurar el nuevo grupo de servidores con esta configuración e incluir el archivo de audio de música en espera.
@@ -128,18 +119,9 @@ Para obtener más información acerca de cómo realizar estos pasos, consulte [P
 <td><p>Después de importar</p></td>
 <td><p>Ejecute los cmdlets de Grupo de respuesta con el parámetro –ShowAll (para mostrar todos los grupos de respuesta) o el parámetro –Owner (para mostrar solo los grupos de respuesta importados) para comprobar que se importaron todas las configuraciones de grupo de respuesta al grupo de copia de seguridad:</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si usa el parámetro –ShowAll o el parámetro –Owner, los grupos de respuesta que ha importado al grupo de servidores de copia de seguridad no se mostrarán en los resultados devueltos por los cmdlets.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si usa el parámetro –ShowAll o el parámetro –Owner, los grupos de respuesta que ha importado al grupo de servidores de copia de seguridad no se mostrarán en los resultados devueltos por los cmdlets.
+
 
 </div>
 <p>Ejecute los siguientes cmdlets:</p>
@@ -161,18 +143,9 @@ Para obtener más información acerca de cómo realizar estos pasos, consulte [P
 <li><p>Administrar los cambios de configuración:</p>
 <p>Los grupos de respuesta del grupo de servidores de copia de seguridad, ya sean importados para el grupo de copia de seguridad o que pertenecen al grupo de copia de seguridad, se pueden modificar de la forma habitual durante la interrupción.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Debe usar Shell de administración de Lync Server para administrar los grupos de respuesta que ha importado en el grupo de servidores de copia de seguridad. No puede usar Panel de control de Lync Server para administrar estos grupos de respuesta mientras se encuentran en el grupo de servidores de copia de seguridad.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Debe usar Shell de administración de Lync Server para administrar los grupos de respuesta que ha importado en el grupo de servidores de copia de seguridad. No puede usar Panel de control de Lync Server para administrar estos grupos de respuesta mientras se encuentran en el grupo de servidores de copia de seguridad.
+
 
 </div></li>
 </ul></td>

@@ -23,18 +23,9 @@ La decisión de usar listas de nombres alternativos de sujeto en proxies inverso
 
   - **Publicado en el puerto 443**   La lista de nombres alternativos de sujeto en certificados usada por la regla de publicación de servicios web externos debe contener una entrada `lyncdiscover.<sipdomain>` para cada dominio SIP de su organización.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para nuevas instalaciones o actualizaciones de Lync Server 2010 en las que se ha implementado Movilidad, bien usó el puerto 80 para la detección automática del servicio Movilidad, bien emitió de nuevo los certificados con los correspondientes nombre de sujeto y nombres alternativos de sujeto implementados. Revise los certificados de su Director y Servidor front-end para confirmar la ruta a elegir.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Para nuevas instalaciones o actualizaciones de Lync Server 2010 en las que se ha implementado Movilidad, bien usó el puerto 80 para la detección automática del servicio Movilidad, bien emitió de nuevo los certificados con los correspondientes nombre de sujeto y nombres alternativos de sujeto implementados. Revise los certificados de su Director y Servidor front-end para confirmar la ruta a elegir.
+    
 
 
 ### Detalles de firewalls para servidor proxy inverso: Interfaz externa

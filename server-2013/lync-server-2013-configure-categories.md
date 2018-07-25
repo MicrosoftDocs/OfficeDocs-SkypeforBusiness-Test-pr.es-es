@@ -25,18 +25,9 @@ Las categorías de salones de chat pueden contener salones de chat, pero no otra
 
 2.  En el menú **Inicio**, seleccione Panel de control de Lync Server o abra una ventana del navegador y, a continuación, introduzca la URL del administrador. Para obtener información detallada acerca de los distintos métodos, puede utilizar Panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>También puede utilizar cmdlets Windows PowerShell. Para más información, vea <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuración del servidor de chat persistente con cmdlets de Windows PowerShell</a> en la documentación de implementación.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > También puede utilizar cmdlets Windows PowerShell. Para más información, vea <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuración del servidor de chat persistente con cmdlets de Windows PowerShell</a> en la documentación de implementación.
+    
 
 
 3.  En la barra de navegación de la izquierda, haga clic en **Chat persistente** y, a continuación, haga clic en **Categoría**.
@@ -57,18 +48,9 @@ Las categorías de salones de chat pueden contener salones de chat, pero no otra
     
     4.  Para controlar las cargas de archivos en salones de chat que pertenecen a esta categoría, active o desactive la casilla **Habilitar carga de archivos**. Si está activada, los salones de esta categoría pueden habilitar o deshabilitar las cargas de archivos; si no está activada, los salones de esta categoría no pueden tener cargas de archivos.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Esta configuración se aplica en el servidor debido a que las aplicaciones personalizadas o los clientes Chat en grupo anteriores que usan Office Communications Server 2007 R2Servidor de chat en grupo o Lync Server 2010, chat en grupo pueden publicar archivos en un salón. El cliente Lync 2013 no tiene capacidad para cargar/descargar archivos, de modo que si tiene una implementación de Lync 2013 pura o un cliente Lync 2013, no será posible publicar archivos en un salón de chat de Servidor de chat persistente.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!IMPORTANT]  
+        > Esta configuración se aplica en el servidor debido a que las aplicaciones personalizadas o los clientes Chat en grupo anteriores que usan Office Communications Server 2007 R2Servidor de chat en grupo o Lync Server 2010, chat en grupo pueden publicar archivos en un salón. El cliente Lync 2013 no tiene capacidad para cargar/descargar archivos, de modo que si tiene una implementación de Lync 2013 pura o un cliente Lync 2013, no será posible publicar archivos en un salón de chat de Servidor de chat persistente.
+        
     
     5.  Para controlar el historial de chats, active o desactive la casilla **Habilitar historial de chat**. Si está activada, los salones de chat serán persistentes, en caso contrario, los mensajes de chats no persisten. Si el cumplimiento está habilitado, los chats del salón se guardarán en consecuencia, pero los usuarios no podrán tener acceso a los mensajes antiguos. Esta opción puede usarse para salones designados para la colaboración en tiempo real, ad hoc que no necesiten que el historial de chat persista.
 

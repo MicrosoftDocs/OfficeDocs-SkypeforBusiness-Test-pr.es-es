@@ -39,18 +39,8 @@ Al implementar un grupo de servidores piloto, usa el Asistente para definir nuev
 
 5.  Escriba el FQDN del grupo. Cuando defina el grupo piloto, podrá elegir si desea implementar un Grupo de servidores front-end Enterprise Edition o un Servidor Standard Edition. En Lync Server 2013, no es necesario que el grupo piloto coincida con lo implementado en el grupo heredado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El nombre de dominio completo (FQDN) del grupo o del servidor que defina para el piloto debe ser único. No puede coincidir con el nombre del grupo Office Communications Server 2007 R2 implementado actualmente o con otros servidores implementados actualmente.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+	> El nombre de dominio completo (FQDN) del grupo o del servidor que defina para el piloto debe ser único. No puede coincidir con el nombre del grupo Office Communications Server 2007 R2 implementado actualmente o con otros servidores implementados actualmente.
     
     ![Página Definir el FQDN del grupo front-end](images/JJ204718.5ff4336c-13fa-47cc-899b-066f267eb3f0(OCS.15).jpg "Página Definir el FQDN del grupo front-end")
 

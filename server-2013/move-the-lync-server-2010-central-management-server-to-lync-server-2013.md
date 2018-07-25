@@ -71,18 +71,9 @@ Use los procedimientos de esta sección para preparar el Lync Server 2013Servido
     
         Enable-CsTopology
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si <code>Enable-CsTopology</code> no se ejecuta correctamente, solucione el problema evitando que el comando se complete antes de continuar. Si <strong>Enable-CsTopology</strong> no se ejecuta correctamente, se producirá un error en la migración que puede dejar a la topología sin ningún Almacén de administración central.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Si <code>Enable-CsTopology</code> no se ejecuta correctamente, solucione el problema evitando que el comando se complete antes de continuar. Si <strong>Enable-CsTopology</strong> no se ejecuta correctamente, se producirá un error en la migración que puede dejar a la topología sin ningún Almacén de administración central.
+    
 
 
 4.  En el Lync Server 2013Servidor front-end o Grupo de servidores front-end, en el Shell de administración de Lync Server, escriba:
@@ -119,18 +110,9 @@ Use los procedimientos de esta sección para preparar el Lync Server 2013Servido
 
 2.  Abra Shell de administración de Lync Server
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No continúe con la eliminación de los archivos de base de datos anteriores hasta que la replicación haya finalizado y esté estable. Si quita los archivos antes de completar la replicación, se interrumpirá el proceso de replicación y el Servidor de administración central migrado quedará en un estado desconocido. Utilice el cmdlet <strong>Get-CsManagementStoreReplicationStatus</strong> para confirmar el estado de la replicación.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > No continúe con la eliminación de los archivos de base de datos anteriores hasta que la replicación haya finalizado y esté estable. Si quita los archivos antes de completar la replicación, se interrumpirá el proceso de replicación y el Servidor de administración central migrado quedará en un estado desconocido. Utilice el cmdlet <strong>Get-CsManagementStoreReplicationStatus</strong> para confirmar el estado de la replicación.
+    
 
 
 3.  Para quitar los archivos de base de datos de Almacén de administración central del Lync Server 2010Servidor de administración central, escriba:

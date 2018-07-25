@@ -67,18 +67,9 @@ La base de datos de conformidad Chat persistente (mgccomp) no se ha conmutado po
 
 7.  Defina los servidores activos Servidor de chat persistente. Desde el shell de comandos Lync Server, utilice el cmdlet: **Set-CsPersistentChatActiveServer** para definir la lista de servidores activos.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Todos los servidores activos tienen que estar en el mismo centro de datos que la nueva base de datos principal o en un centro de datos que tenga una conexión con una latencia baja o un ancho de banda alto con la base de datos.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Todos los servidores activos tienen que estar en el mismo centro de datos que la nueva base de datos principal o en un centro de datos que tenga una conexión con una latencia baja o un ancho de banda alto con la base de datos.
+    
     
     A este punto, la conmutación por error desde la base de datos principal Servidor de chat persistente a la base de datos de copia de seguridad del Servidor de chat persistente se completa con éxito.
 

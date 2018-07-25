@@ -95,18 +95,9 @@ Los procedimientos de esta sección describen cómo crear o modificar las nuevas
 
 1.  Haga clic en **Inicio**, diríjase a **Programas**, haga clic en **Microsoft Forefront TMG** y, a continuación, haga clic en **Administración de Forefront TMG**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Repetirá la modificación para cada regla de publicación y escucha que tenga. Normalmente, esta será una regla y escucha para el Grupos de servidores front-end y uno para los grupos de servidores Directores o grupos de Director opcionales, si los ha implementado.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Repetirá la modificación para cada regla de publicación y escucha que tenga. Normalmente, esta será una regla y escucha para el Grupos de servidores front-end y uno para los grupos de servidores Directores o grupos de Director opcionales, si los ha implementado.
+    
 
 
 2.  En el panel izquierdo, expanda **ServerName**, haga clic con el botón secundario en **Directiva de firewall** y haga clic en la regla aplicable. En la pestaña **Tareas**, haga clic en **Editar regla seleccionada**.

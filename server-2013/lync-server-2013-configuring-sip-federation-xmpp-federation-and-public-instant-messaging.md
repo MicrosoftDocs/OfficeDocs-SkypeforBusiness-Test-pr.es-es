@@ -25,14 +25,11 @@ La federación, la conectividad de mensajería instantánea pública y el protoc
 
 La conectividad de mensajería instantánea pública es un tipo especial de federación que permite a un cliente de Lync Server obtener acceso a socios configurados de mensajería instantánea pública utilizando el Lync 2013. Actualmente, los socios de conectividad de mensajería instantánea pública son:
 
-  -   
-    America Online
+  America Online  
 
-  -   
-    Windows Live
+  Windows Live  
 
-  -   
-    Yahoo\!
+  Yahoo\!  
 
 Una configuración de conectividad de mensajería instantánea pública permite a los usuarios de Lync obtener acceso a usuarios de conectividad de mensajería instantánea pública mediante:
 
@@ -56,18 +53,9 @@ La federación XMPP define una implementación externa basándose en el protocol
 
   - Creación de contactos federados de XMPP en el cliente Lync
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La capacidad XMPP de Lync Server 2013 está probada y es compatible con Microsoft para la federación de mensajería instantánea con Google Talk. Para otros sistemas XMPP, póngase en contacto con el proveedor para comprobar que son compatibles con la federación con Lync Server 2013 y para cualquier recomendación sobre implementación o solución de problemas.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> La capacidad XMPP de Lync Server 2013 está probada y es compatible con Microsoft para la federación de mensajería instantánea con Google Talk. Para otros sistemas XMPP, póngase en contacto con el proveedor para comprobar que son compatibles con la federación con Lync Server 2013 y para cualquier recomendación sobre implementación o solución de problemas.
+
 
 
 ## Federación externa de servidor perimetral, conectividad de mensajería instantánea pública y proceso de implementación de usuarios de XMPP
@@ -93,13 +81,11 @@ La federación XMPP define una implementación externa basándose en el protocol
 <td><p>Determine las opciones para agregar la implementación de servidor perimetral existente</p></td>
 <td><p>Ejecute Generador de topologías para editar la configuración de servidor perimetral y crear y publicar la topología. La topología perimetral existente replicará los cambios de Almacén de administración central en el servidor perimetral.</p></td>
 <td><p>Grupo Administradores de dominio y grupo RTCUniversalServerAdmins</p>
-<div class="alert">
 
 > [!NOTE]
 > Puede editar una topología mediante una cuenta que es miembro del grupo de usuarios locales pero publicar una topología requiere una cuenta que es miembro del grupo Administradores de dominio y del grupo RTCUniversalServerAdmins.
 
-
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Creación de una topología perimetral y de director Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">

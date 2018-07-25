@@ -50,18 +50,9 @@ Puede configurar dos adaptadores de red en el servidor perimetral de la siguient
     
     Las direcciones IP perimetrales de A/V y de conferencia web son secundarias.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La configuración del Servidor perimetral con dos adaptadores de red es una de las dos opciones disponibles. La otra opción es usar un adaptador de red para el lado interno y tres adaptadores de red para el lado externo del Servidor perimetral. La principal ventaja de esta opción es un adaptador de red distinto por servicio de Servidor perimetral, y es necesaria la recopilación de datos potencialmente más concisos al solucionar problemas.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> La configuración del Servidor perimetral con dos adaptadores de red es una de las dos opciones disponibles. La otra opción es usar un adaptador de red para el lado interno y tres adaptadores de red para el lado externo del Servidor perimetral. La principal ventaja de esta opción es un adaptador de red distinto por servicio de Servidor perimetral, y es necesaria la recopilación de datos potencialmente más concisos al solucionar problemas.
+
 
 
 ### Registros DNS necesarios para la topología perimetral consolidada con direcciones IP privadas que usan NAT (Ejemplo)
@@ -122,18 +113,9 @@ Puede configurar dos adaptadores de red en el servidor perimetral de la siguient
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Los registros que se enumeran en la tabla anterior se muestran con una extensión <em>.net</em> o <em>.com</em> para destacar en qué zona deben residir si no se utilizan DNS de partición de red. Si se utilizan DNS de partición de red, todos los registros estarán en la misma zona <em>.com</em>, con la única distinción de si están en la versión de zona DNS interna o externa. Para obtener más detalles, vea &quot;DNS de partición de red&quot; en <a href="lync-server-2013-determine-dns-requirements.md">Determinar los requisitos DNS para Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Los registros que se enumeran en la tabla anterior se muestran con una extensión <em>.net</em> o <em>.com</em> para destacar en qué zona deben residir si no se utilizan DNS de partición de red. Si se utilizan DNS de partición de red, todos los registros estarán en la misma zona <em>.com</em>, con la única distinción de si están en la versión de zona DNS interna o externa. Para obtener más detalles, vea &quot;DNS de partición de red&quot; en <a href="lync-server-2013-determine-dns-requirements.md">Determinar los requisitos DNS para Lync Server 2013</a>.
+
 
 
 ## Registros necesarios para la federación
@@ -161,18 +143,9 @@ Puede configurar dos adaptadores de red en el servidor perimetral de la siguient
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaz perimetral externa de acceso SIP Requerida para detección automática DNS de su federación a otros posibles socios de federación, que se conocen como &quot;Dominios SIP permitidos&quot; o &quot;federación ampliada&quot; en versiones anteriores). Repita según sea necesario para todos los dominios SIP con usuarios habilitados para Lync</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este registro de SRV es necesario para fines de movilidad y para el centro de enrutamiento de notificaciones de inserción</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Este registro de SRV es necesario para fines de movilidad y para el centro de enrutamiento de notificaciones de inserción
+
 
 </div></td>
 </tr>

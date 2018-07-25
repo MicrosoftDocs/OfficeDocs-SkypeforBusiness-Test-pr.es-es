@@ -33,18 +33,9 @@ Las opciones de configuración están constituidas por: el nombre y el ámbito (
     
       - Para editar alguna configuración de una colección existente, haga clic en la colección, haga clic en el menú **Editar**, en **Mostrar detalles** y realice los cambios que desee.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Para volver a usar las opciones en configuración predeterminadas en la colección global, haga clic en ella, haga clic en el menú <strong>Editar</strong>, en <strong>Eliminar</strong> y, después, en <strong>Aceptar</strong>. Con esto no se eliminará la colección global, sino que solo se restablecerán las opciones predeterminadas.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Para volver a usar las opciones en configuración predeterminadas en la colección global, haga clic en ella, haga clic en el menú <strong>Editar</strong>, en <strong>Eliminar</strong> y, después, en <strong>Aceptar</strong>. Con esto no se eliminará la colección global, sino que solo se restablecerán las opciones predeterminadas.
+        
 
 
 5.  Haga clic en **Confirmar**.

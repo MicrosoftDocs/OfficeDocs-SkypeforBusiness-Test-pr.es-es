@@ -17,9 +17,12 @@ _**Última modificación del tema:** 2012-10-19_
 
 La migración de la aplicación Estacionamiento de llamadas de Lync Server 2010 a Lync Server 2013 incluye el aprovisionamiento del grupo de servidores de Lync Server 2013 con cualquier archivo de música en espera personalizado que se haya cargado en Lync Server 2010, la restauración de la configuración del nivel de servicio y la nueva asignación de destino de todas las órbitas de estacionamiento de llamadas al grupo de servidores de Lync Server 2013. Si se han configurado los archivos de música en espera personalizados en el grupo de servidores de Lync Server 2010, estos archivos se tienen que copiar al nuevo grupo de servidores de Lync Server 2013. Además, se recomienda que realice copias de seguridad de cualquier archivo de música en espera personalizado de estacionamiento de llamadas desde Lync Server 2010 a otro destino para conservar una copia de seguridad independiente de cualquier archivo de música en espera personalizado que se haya cargado para el estacionamiento de llamadas. Los archivos de música en espera personalizados para la aplicación de estacionamiento de llamadas se almacenan en el almacén de archivos del grupo de servidores. Para copiar los archivos de audio desde un almacén de archivos de grupo de servidores de Lync Server 2010 a un almacén de archivos de Lync Server 2013, use el comando **Xcopy** con los siguientes parámetros:
 
-    Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
-
-    Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
+```
+Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
+```
+```
+Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
+```
 
 Cuando se han copiado todos los archivos de audio personalizados al almacén de archivos de Lync Server 2013, se deben configurar los valores de aplicación de estacionamiento de llamadas del grupo de servidores de Lync Server 2013 y se deben reasignar los intervalos de órbitas de estacionamiento de llamadas que están asociados al grupo de servidores de Lync Server 2010 al grupo de servidores de Lync Server 2013.
 

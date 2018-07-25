@@ -27,18 +27,9 @@ En este tema se describe cómo configurar la Mensajería unificada de Exchange (
 
 1.  Cree un plan de marcado del Identificador uniforme de recursos (URI) del Protocolo de inicio de sesión (SIP) para cada uno de sus perfiles de ubicación de Telefonía IP empresarial. Si decide usar la Consola de administración de Exchange, cree un nuevo plan de marcado con la configuración de seguridad **Secured (preferiblemente)**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si establece el valor de configuración de seguridad en <strong>SIP Secured</strong> para requerir cifrado únicamente para el tráfico SIP, como se ha recomendado anteriormente, tenga en cuenta que esta configuración de seguridad del plan de marcado resulta insuficiente si el grupo de servidores front-end está configurado para requerir cifrado, lo que significa que el grupo de servidores requiere cifrado tanto para el tráfico SIP como para tráfico RTP. Cuando la configuración del plan de marcado no es compatible con la configuración de seguridad del grupo de servidores, todas las llamadas a Mensajería unificada de Exchange desde el grupo de servidores front-end devolverán un error que le informará de que tiene una “Configuración de seguridad incompatible”.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Si establece el valor de configuración de seguridad en <strong>SIP Secured</strong> para requerir cifrado únicamente para el tráfico SIP, como se ha recomendado anteriormente, tenga en cuenta que esta configuración de seguridad del plan de marcado resulta insuficiente si el grupo de servidores front-end está configurado para requerir cifrado, lo que significa que el grupo de servidores requiere cifrado tanto para el tráfico SIP como para tráfico RTP. Cuando la configuración del plan de marcado no es compatible con la configuración de seguridad del grupo de servidores, todas las llamadas a Mensajería unificada de Exchange desde el grupo de servidores front-end devolverán un error que le informará de que tiene una “Configuración de seguridad incompatible”.
+    
     
     Si utiliza el Shell de administración de Exchange, escriba:
     
@@ -115,18 +106,9 @@ En este tema se describe cómo configurar la Mensajería unificada de Exchange (
     
     Si tiene uno o más planes de marcado de Mensajería unificada que estén asociados a varias puertas de enlace de IP, continúe en el paso 6. Si los planes de marcado están asociados a una única puerta de enlace de IP, omita el paso 6.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Asegúrese de reiniciar el servicio <strong>Lync Server Front-End</strong> (rtcsrv.exe) <em>después</em> de ejecutar exchucutil.ps1. De lo contrario, Lync Server no detectará la Mensajería unificada en la topología.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Asegúrese de reiniciar el servicio <strong>Lync Server Front-End</strong> (rtcsrv.exe) <em>después</em> de ejecutar exchucutil.ps1. De lo contrario, Lync Server no detectará la Mensajería unificada en la topología.
+    
 
 
 6.  Utilizando el Shell de administración de Exchange o bien la Consola de administración de Exchange, deshabilite las llamadas realizadas de todas las puertas de enlace IP asociadas a cada uno de los planes de marcado, excepto de una.
@@ -136,18 +118,9 @@ En este tema se describe cómo configurar la Mensajería unificada de Exchange (
     > Este paso es necesario para asegurarse de que las llamadas realizadas efectuadas por el servidor que ejecuta la Mensajería unificada de Exchange Server a los usuarios externos (por ejemplo, en el caso de escenarios de reproducción en teléfono) pasen de forma segura por el firewall corporativo.
 
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cuando seleccione la puerta de enlace IP de mensajería unificada a través de la cual van a pasar las llamadas realizadas, elija la que probablemente vaya a administrar la mayor parte del tráfico. No permita el tráfico de salida a través de una puerta de enlace IP que se conecte a un grupo de servidores de directores de Lync Server. Evite también los grupos de servidores en otro sitio central o sucursal. Puede usar alguno de los métodos siguientes para impedir que las llamadas realizadas pasen por una puerta de enlace IP:</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Cuando seleccione la puerta de enlace IP de mensajería unificada a través de la cual van a pasar las llamadas realizadas, elija la que probablemente vaya a administrar la mayor parte del tráfico. No permita el tráfico de salida a través de una puerta de enlace IP que se conecte a un grupo de servidores de directores de Lync Server. Evite también los grupos de servidores en otro sitio central o sucursal. Puede usar alguno de los métodos siguientes para impedir que las llamadas realizadas pasen por una puerta de enlace IP:
+    
     
       - Si utiliza el Shell de administración de Exchange, deshabilite cada puerta de enlace de IP ejecutando el comando siguiente:
         
@@ -159,34 +132,16 @@ En este tema se describe cómo configurar la Mensajería unificada de Exchange (
     
       - Si utiliza la Consola de administración de Exchange, desactive la casilla **Permitir llamadas realizadas a través de esta puerta de enlace IP de MU**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si su plan de marcado del URI del SIP de Mensajería unificada está asociado a una única puerta de enlace IP, no impida que las llamadas realizadas pasen a través de esta puerta de enlace.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si su plan de marcado del URI del SIP de Mensajería unificada está asociado a una única puerta de enlace IP, no impida que las llamadas realizadas pasen a través de esta puerta de enlace.
+    
 
 
 7.  Cree un operador automático de Mensajería unificada para cada uno de los planes de marcado de Lync Server.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No incluya espacios en el nombre del operador automático.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > No incluya espacios en el nombre del operador automático.
+    
     
         New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
     

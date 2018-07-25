@@ -37,18 +37,9 @@ En los siguientes pasos, se describe cómo crear una configuración de servicios
     
         new-cswebserviceconfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El valor del FQDN WsFedPassiveMetadataUri FQDN es el Nombre del servicio de federación de su servidor AD FS 2.0. El valor de Nombre del servicio de federación se puede consultar en la consola de administración de AD FS 2.0 al hacer clic en <strong>Servicio</strong> en el panel de navegación y, luego, elegir <strong>Editar propiedades del servicio de federación</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > El valor del FQDN WsFedPassiveMetadataUri FQDN es el Nombre del servicio de federación de su servidor AD FS 2.0. El valor de Nombre del servicio de federación se puede consultar en la consola de administración de AD FS 2.0 al hacer clic en <strong>Servicio</strong> en el panel de navegación y, luego, elegir <strong>Editar propiedades del servicio de federación</strong>.
+    
 
 
 4.  Para comprobar que los valores de UseWsFedPassiveAuth y WsFedPassiveMetadataUri se configuraron correctamente, ejecute el siguiente comando:
@@ -73,11 +64,14 @@ En los siguientes pasos, se describe cómo crear una configuración de proxy per
 
 1.  Desde la línea de comandos del Shell de administración de Lync Server, cree una nueva configuración de proxy para cada grupo de servidores perimetrales, grupo de servidores Enterprise y servidor Standard Edition de Lync Server 2013 que estará habilitado para la autenticación pasiva. Para crearla, ejecute los siguientes comandos:
     
-        New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
-        -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-    
-        New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
-        -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+    ```
+    New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
+    -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+    ```
+    ```
+    New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
+    -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+    ```
 
 2.  Para comprobar que se han deshabilitado correctamente todos los demás tipos de autenticación de proxy, ejecute el siguiente comando:
     

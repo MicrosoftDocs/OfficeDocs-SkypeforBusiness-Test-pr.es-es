@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2016-12-08_
 
 Los escenarios definen el ámbito (que puede ser global o de un sitio, un grupo o un equipo) y los proveedores que se utilizarán en el Servicio de registro centralizado. Al usar escenarios, puede habilitar o deshabilitar el seguimiento de proveedores (por ejemplo, S4, SIPStack, mensajería instantánea y presencia). Al configurar un escenario, puede agrupar a todos los proveedores de una colección lógica determinada que aborda una condición para un problema concreto. Si cree que es necesario modificar un escenario para satisfacer sus necesidades de solución de problemas y de inicio de sesión, las herramientas de depuración de Lync Server 2013 le proporcionan un módulo de Windows PowerShell llamado *ClsController.psm1* que contiene la función *Edit-CsClsScenario*. La finalidad del módulo es editar las propiedades del escenario en cuestión. En este tema se muestran ejemplos del funcionamiento de este módulo. Las herramientas de depuración de Lync Server 2013 se pueden descargar en el siguiente vínculo: [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para cualquiera de los ámbitos —global, de sitio, de grupo o de equipo—, puede ejecutar un máximo de dos escenarios al mismo tiempo. Para ver qué escenarios están en ejecución, utilice Windows PowerShell y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Con Windows PowerShell y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</a>, puede cambiar de forma dinámica los escenarios que están en ejecución: puede modificar los escenarios que se ejecutan durante una sesión de registro o bien ajustar o restringir los datos que se recopilan y sus proveedores.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Para cualquiera de los ámbitos —global, de sitio, de grupo o de equipo—, puede ejecutar un máximo de dos escenarios al mismo tiempo. Para ver qué escenarios están en ejecución, utilice Windows PowerShell y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Con Windows PowerShell y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</a>, puede cambiar de forma dinámica los escenarios que están en ejecución: puede modificar los escenarios que se ejecutan durante una sesión de registro o bien ajustar o restringir los datos que se recopilan y sus proveedores.
+
 
 
 Para ejecutar las funciones del Servicio de registro centralizado con el Shell de administración de Lync Server, es necesario que pertenezca a los grupos de seguridad de control de acceso basado en roles (RBAC) CsServerAdministrator o CsAdministrator, o bien a un rol RBAC personalizado que contenga alguno de estos dos grupos. Para obtener una lista de todos los roles RBAC a los que este cmdlet se asignó, incluidos los roles RBAC personalizados creados por usted, ejecute este comando desde el símbolo del sistema de Windows PowerShell o el Shell de administración de Lync Server:
@@ -49,18 +40,9 @@ Como se comentó en [Descripción general del servicio de registro centralizado]
     
     Si lo desea, puede usar los parámetros –Name y –Parent. Si utiliza el parámetro Name, que únicamente sirve para identificar el escenario, también deberá usar el parámetro Parent para agregar el escenario a "global" o a "site".
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si usa los parámetros Name y Parent, no puede usar el parámetro <strong>–Identity</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si usa los parámetros Name y Parent, no puede usar el parámetro <strong>–Identity</strong>.
+    
 
 
 ## Para crear un escenario con el cmdlet New-CsClsScenario
@@ -139,54 +121,27 @@ El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los dat
 
 1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El módulo ClsController.psm1, que forma parte de las herramientas de depuración de Lync Server 2013, se proporciona como una descarga web aparte. De forma predeterminada, las herramientas de depuración se instalan en el directorio C:\Archivos de programa\Lync Server 2013\Herramientas de depuración.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El módulo ClsController.psm1, que forma parte de las herramientas de depuración de Lync Server 2013, se proporciona como una descarga web aparte. De forma predeterminada, las herramientas de depuración se instalan en el directorio C:\Archivos de programa\Lync Server 2013\Herramientas de depuración.
+    
 
 
 2.  En Windows PowerShell, escriba:
     
         Import-Module "C:\Program Files\Lync Server 2013\Debugging Tools\ClsController.psm1"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si el módulo se carga correctamente, se le llevará de nuevo al símbolo del sistema de Windows PowerShell. Para confirmar que el módulo se cargó y que Edit-CsClsScenario está disponible, escriba <code>Get-Help Edit-CsClsScenario</code>. Debería ver una muestra general de la sintaxis de EditCsClsScenario.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si el módulo se carga correctamente, se le llevará de nuevo al símbolo del sistema de Windows PowerShell. Para confirmar que el módulo se cargó y que Edit-CsClsScenario está disponible, escriba <code>Get-Help Edit-CsClsScenario</code>. Debería ver una muestra general de la sintaxis de EditCsClsScenario.
+    
 
 
 3.  Para descargar los módulos, escriba:
     
         Remove-Module ClsController
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si el módulo se descarga correctamente, se le llevará de nuevo al símbolo del sistema de Windows PowerShell. Para confirmar que el módulo se descargó, escriba <code>Get-Help Edit-CsClsScenario</code>. Windows PowerShell tratará de localizar la ayuda sobre el cmdlet y se suspenderá.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si el módulo se descarga correctamente, se le llevará de nuevo al símbolo del sistema de Windows PowerShell. Para confirmar que el módulo se descargó, escriba <code>Get-Help Edit-CsClsScenario</code>. Windows PowerShell tratará de localizar la ayuda sobre el cmdlet y se suspenderá.
+    
 
 
 ## Para quitar un proveedor existente de un escenario con el módulo Edit-ClsController

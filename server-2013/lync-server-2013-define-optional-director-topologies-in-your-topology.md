@@ -47,48 +47,20 @@ En este tema se describen los pasos para definir y publicar la topología de las
     
     2.  Para crear un nuevo recurso compartido de archivos, haga clic en **Definir un nuevo recurso compartido de archivos** , escriba el FQDN de la ubicación del recurso compartido de archivos en **FQDN de servidor de archivos** , escriba el nombre del recurso compartido en **Recurso compartido de archivos** y haga clic en **Siguiente** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El recurso compartido de archivo que especifique o cree en este paso debe existir o crearse antes de publicar la topología.<br />
-    El recurso compartido de archivos asignado a un Director no se utiliza realmente, por lo que puede asignar el recurso compartido de archivos de cualquier grupo de servidores de la organización.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El recurso compartido de archivo que especifique o cree en este paso debe existir o crearse antes de publicar la topología.<br />
+    > El recurso compartido de archivos asignado a un Director no se utiliza realmente, por lo que puede asignar el recurso compartido de archivos de cualquier grupo de servidores de la organización.
 
 
 7.  En el cuadro de diálogo para **especificar la dirección URL de servicios Web** , en la **dirección URL base externa** , especifique el nombre completo para los directores y, a continuación, haga clic en **Finalizar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El nombre debe poder resolverse desde los servidores DNS de Internet, y debe apuntar a la dirección IP pública del proxy inverso, que escucha las solicitudes HTTP/HTTPS a esa URL y las redirige al directorio virtual de servicios web externos de ese director.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El nombre debe poder resolverse desde los servidores DNS de Internet, y debe apuntar a la dirección IP pública del proxy inverso, que escucha las solicitudes HTTP/HTTPS a esa URL y las redirige al directorio virtual de servicios web externos de ese director.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si tiene más de un Grupo de servidores front-end o Servidor front-end los servicios Web externos FQDN deben ser únicos. Por ejemplo, si define los servicios Web externos FQDN de un Servidor front-end como <strong>pool01.contoso.com</strong> no puede usar <strong>pool01.contoso.com</strong> para otro Grupo de servidores front-end o Servidor front-end. Si también está implementando Directores, los servicios Web externos FQDN definidos para un Director o Grupo de directores deben ser diferentes de otro Director o Grupo de directores al igual que cualquier Grupo de servidores front-end o Servidor front-end. Si decide omitir los servicios Web externos con un FQDN autodefinido, todos los FQDN deben ser diferentes de otros Grupo de servidores front-end, Director o Grupo de directores.</td>
-    </tr>
-    </tbody>
-    </table>
+    
+    > [!WARNING]  
+    > Si tiene más de un Grupo de servidores front-end o Servidor front-end los servicios Web externos FQDN deben ser únicos. Por ejemplo, si define los servicios Web externos FQDN de un Servidor front-end como <strong>pool01.contoso.com</strong> no puede usar <strong>pool01.contoso.com</strong> para otro Grupo de servidores front-end o Servidor front-end. Si también está implementando Directores, los servicios Web externos FQDN definidos para un Director o Grupo de directores deben ser diferentes de otro Director o Grupo de directores al igual que cualquier Grupo de servidores front-end o Servidor front-end. Si decide omitir los servicios Web externos con un FQDN autodefinido, todos los FQDN deben ser diferentes de otros Grupo de servidores front-end, Director o Grupo de directores.
+    
 
 
 8.  Publique la topología.
@@ -121,48 +93,20 @@ En este tema se describen los pasos para definir y publicar la topología de las
     
       - Para crear un nuevo recurso compartido de archivos, haga clic en **Definir un nuevo recurso compartido de archivos** , escriba el FQDN de la ubicación del recurso compartido de archivos en **FQDN de servidor de archivos** , escriba el nombre del recurso compartido en **Recurso compartido de archivos** y haga clic en **Siguiente** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El recurso compartido de archivo que especifique o cree en este paso debe existir o crearse antes de publicar la topología.<br />
-    El recurso compartido de archivos asignado a un Director no se utiliza realmente, por lo que puede asignar el recurso compartido de archivos de cualquier grupo de servidores de la organización.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El recurso compartido de archivo que especifique o cree en este paso debe existir o crearse antes de publicar la topología.<br />
+    > El recurso compartido de archivos asignado a un Director no se utiliza realmente, por lo que puede asignar el recurso compartido de archivos de cualquier grupo de servidores de la organización.
 
 
 8.  En el cuadro de diálogo para **especificar la dirección URL de servicios Web** , en la **dirección URL base externa** , especifique el nombre completo para los directores y, a continuación, haga clic en **Finalizar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El nombre debe poder resolverse en servidores DNS de Internet y debe apuntar a la dirección IP pública del proxy inverso, que escucha las solicitudes HTTP/HTTPS enviadas a la dirección URL y lo envía mediante proxy al directorio virtual de servicios web externos del grupo de servidores de director.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El nombre debe poder resolverse en servidores DNS de Internet y debe apuntar a la dirección IP pública del proxy inverso, que escucha las solicitudes HTTP/HTTPS enviadas a la dirección URL y lo envía mediante proxy al directorio virtual de servicios web externos del grupo de servidores de director.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si tiene más de un Grupo de servidores front-end o Servidor front-end los servicios Web externos FQDN deben ser únicos. Por ejemplo, si define los servicios Web externos FQDN de un Servidor front-end como <strong>pool01.contoso.com</strong> no puede usar <strong>pool01.contoso.com</strong> para otro Grupo de servidores front-end o Servidor front-end. Si también está implementando Directores, los servicios Web externos FQDN definidos para un Director o Grupo de directores deben ser diferentes de otro Director o Grupo de directores al igual que cualquier Grupo de servidores front-end o Servidor front-end. Si decide omitir los servicios Web externos con un FQDN autodefinido, todos los FQDN deben ser diferentes de otros Grupo de servidores front-end, Director o Grupo de directores.</td>
-    </tr>
-    </tbody>
-    </table>
+    
+    > [!WARNING]  
+    > Si tiene más de un Grupo de servidores front-end o Servidor front-end los servicios Web externos FQDN deben ser únicos. Por ejemplo, si define los servicios Web externos FQDN de un Servidor front-end como <strong>pool01.contoso.com</strong> no puede usar <strong>pool01.contoso.com</strong> para otro Grupo de servidores front-end o Servidor front-end. Si también está implementando Directores, los servicios Web externos FQDN definidos para un Director o Grupo de directores deben ser diferentes de otro Director o Grupo de directores al igual que cualquier Grupo de servidores front-end o Servidor front-end. Si decide omitir los servicios Web externos con un FQDN autodefinido, todos los FQDN deben ser diferentes de otros Grupo de servidores front-end, Director o Grupo de directores.
+    
 
 
 9.  Publique la topología.

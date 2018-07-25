@@ -147,18 +147,9 @@ El número de usuarios que un Grupo de servidores front-end admite con buen rend
 
   - Si el uso de su organización difiere en gran medida de los modelos de usuario, por ejemplo, con un tráfico de conferencias significativamente mayor.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En Lync Server 2013, las bases de datos de presencia ahora se hospedan en Servidores front-end, a diferencia de Lync Server 2010 que las hospedaba en el Servidor back-end. Esto significa que el rendimiento de disco y la capacidad del Servidores front-end no deben ser inferiores a las recomendaciones indicadas anteriormente en esta sección y en <a href="lync-server-2013-server-hardware-platforms.md">Plataformas de hardware de servidor para Lync Server 2013</a>, independientemente del número de usuarios que hospede el Servidores front-end.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> En Lync Server 2013, las bases de datos de presencia ahora se hospedan en Servidores front-end, a diferencia de Lync Server 2010 que las hospedaba en el Servidor back-end. Esto significa que el rendimiento de disco y la capacidad del Servidores front-end no deben ser inferiores a las recomendaciones indicadas anteriormente en esta sección y en <a href="lync-server-2013-server-hardware-platforms.md">Plataformas de hardware de servidor para Lync Server 2013</a>, independientemente del número de usuarios que hospede el Servidores front-end.
+
 
 
 La siguiente tabla muestra el ancho de banda medio dedicado a la MI y a la presencia, dado el modelo de usuario, según se define en [Modelos de usuario en Lync Server 2013](lync-server-2013-user-models.md).

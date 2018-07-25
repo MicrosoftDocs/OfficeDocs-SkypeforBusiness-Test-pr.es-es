@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2013-03-11_
 
 Puede usar Panel de control de Lync Server para asignar usuarios a un determinado servidor o grupo de servidores.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si se trasladan todos los usuarios existentes de un grupo de servidores de origen que ejecuta Microsoft Office Communications Server 2007 R2 o una versión anterior a un grupo de destino de Lync Server 2013en un entorno de Active Directory complejo, es posible que la replicación de Active Directory sea más lenta. Para evitarlo, puede usar filtros de búsqueda y mover los usuarios de grupos de servidores que ejecutan Microsoft Office Communications Server 2007 R2 por separado, o bien usar Shell de administración de Lync Server para trasladar usuarios con cmdlets. Además, la función de filtrado funciona con usuarios de Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Si se trasladan todos los usuarios existentes de un grupo de servidores de origen que ejecuta Microsoft Office Communications Server 2007 R2 o una versión anterior a un grupo de destino de Lync Server 2013en un entorno de Active Directory complejo, es posible que la replicación de Active Directory sea más lenta. Para evitarlo, puede usar filtros de búsqueda y mover los usuarios de grupos de servidores que ejecutan Microsoft Office Communications Server 2007 R2 por separado, o bien usar Shell de administración de Lync Server para trasladar usuarios con cmdlets. Además, la función de filtrado funciona con usuarios de Lync Server 2013.
+
 
 
 ## Para mover determinados usuarios a otro servidor o grupo de servidores
@@ -49,18 +40,9 @@ Puede usar Panel de control de Lync Server para asignar usuarios a un determinad
 
 8.  (Opcional) Si el servidor o grupo de destino no está disponible, active la casilla **Imponer**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si selecciona <strong>Forzar</strong>, se mueve la cuenta de usuario pero se eliminan los datos de usuario asociados (por ejemplo, conferencias que el usuario ha programado). Si no se selecciona, se mueven la cuenta y los datos asociados.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Si selecciona <strong>Forzar</strong>, se mueve la cuenta de usuario pero se eliminan los datos de usuario asociados (por ejemplo, conferencias que el usuario ha programado). Si no se selecciona, se mueven la cuenta y los datos asociados.
+    
 
 
 ## Para mover todos los usuarios de un servidor o grupo de servidores a otro servidor o grupo de servidores
@@ -79,18 +61,9 @@ Puede usar Panel de control de Lync Server para asignar usuarios a un determinad
 
 7.  (Opcional) Si el servidor o grupo de destino no está disponible, active la casilla **Imponer**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si selecciona <strong>Forzar</strong>, se mueve la cuenta de usuario pero se eliminan los datos de usuario asociados (por ejemplo, conferencias que el usuario ha programado). Si no se selecciona, se mueven la cuenta y los datos asociados.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Si selecciona <strong>Forzar</strong>, se mueve la cuenta de usuario pero se eliminan los datos de usuario asociados (por ejemplo, conferencias que el usuario ha programado). Si no se selecciona, se mueven la cuenta y los datos asociados.
+    
 
 
 ## Para mover usuarios de un grupo a otro grupo diferente mediante un filtro
@@ -119,18 +92,9 @@ Puede usar Panel de control de Lync Server para asignar usuarios a un determinad
 
 9.  (Opcional) Si el servidor o grupo de destino no está disponible, active la casilla **Forzar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si selecciona <strong>Forzar</strong>, se mueve la cuenta de usuario pero se eliminan los datos de usuario asociados (por ejemplo, conferencias que el usuario ha programado y contactos). Si no se selecciona, se mueven la cuenta y los datos asociados.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Si selecciona <strong>Forzar</strong>, se mueve la cuenta de usuario pero se eliminan los datos de usuario asociados (por ejemplo, conferencias que el usuario ha programado y contactos). Si no se selecciona, se mueven la cuenta y los datos asociados.
+    
 
 
 ## Para mover usuarios de un grupo de servidores a otro mediante el Shell de administración de Communications Server

@@ -33,18 +33,9 @@ Un agente que debe iniciar y cerrar sesión en el grupo, que no es lo mismo que 
 
 Un agente que no inicia ni cierra sesión en el grupo recibe el nombre de *agente informal*. Los agentes informales se conectan automáticamente al grupo cuando inician sesión en Lync Server y no pueden cerrar la sesión del grupo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cuando asigne usuarios como agentes de grupo de respuesta, indíqueles que, si tienen habilitado el modo de privacidad, deberán buscar contactos de &quot;Observador de presencia de RGS&quot; y agregarlos a su lista de contactos. Los agentes que tengan el modo de privacidad habilitado, pero que no tengan &quot;Observador de presencia RGS&quot; en su lista de contactos no podrán recibir llamadas en el grupo de respuesta. Los agentes que no tengan habilitado el modo de privacidad, no se verán afectados.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Cuando asigne usuarios como agentes de grupo de respuesta, indíqueles que, si tienen habilitado el modo de privacidad, deberán buscar contactos de &quot;Observador de presencia de RGS&quot; y agregarlos a su lista de contactos. Los agentes que tengan el modo de privacidad habilitado, pero que no tengan &quot;Observador de presencia RGS&quot; en su lista de contactos no podrán recibir llamadas en el grupo de respuesta. Los agentes que no tengan habilitado el modo de privacidad, no se verán afectados.
+
 
 
 ## En esta sección

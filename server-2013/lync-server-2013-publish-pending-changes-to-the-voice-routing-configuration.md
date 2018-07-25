@@ -17,20 +17,10 @@ _**Última modificación del tema:** 2012-08-07_
 
 Después de realizar algún cambio en cualquiera de las opciones de configuración de las páginas del grupo **Enrutamiento de voz**, siga este procedimiento para revisar, publicar o cancelar los cambios pendientes.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Compruebe que solo modifica las opciones de configuración de Enrutamiento de voz un usuario cada vez.<br />
+> [!IMPORTANT]  
+> Compruebe que solo modifica las opciones de configuración de Enrutamiento de voz un usuario cada vez.<br />
 Todos los cambios pendientes deben publicarse al mismo tiempo, ejecutando el comando <strong>Confirmar todo</strong>. No se pueden publicar los cambios pendientes de forma selectiva. Antes de publicar los cambios pendientes, ejecute el comando <strong>Revisar cambios sin confirmar</strong> y cancele los cambios de configuración que no desee publicar.<br />
-Si sale de las páginas del grupo <strong>Enrutamiento de voz</strong> antes de confirmar los cambios pendientes, se perderán todos los cambios pendientes. Sin embargo, puede exportar la configuración actual (incluidos los cambios pendientes) a un archivo de configuración de voz y, a continuación, importar y publicar la configuración actualizada. Para obtener información detallada, vea <a href="lync-server-2013-export-a-voice-route-configuration-file.md">Exportar un archivo de configuración de enrutamiento de voz en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> Si sale de las páginas del grupo <strong>Enrutamiento de voz</strong> antes de confirmar los cambios pendientes, se perderán todos los cambios pendientes. Sin embargo, puede exportar la configuración actual (incluidos los cambios pendientes) a un archivo de configuración de voz y, a continuación, importar y publicar la configuración actualizada. Para obtener información detallada, vea <a href="lync-server-2013-export-a-voice-route-configuration-file.md">Exportar un archivo de configuración de enrutamiento de voz en Lync Server 2013</a>.
 
 
 ## Para revisar, publicar o cancelar cambios de configuración de enrutamiento de voz

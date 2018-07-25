@@ -166,19 +166,9 @@ El comando anterior devolverá información similar a la siguiente, según las t
     PersistentChatMessage
     DataConference
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para ver las transacciones sintéticas en orden alfabético, use este comando en su lugar:<br />
-Get-CsWatcherNodeConfiguration –Identity &quot;atl-cs-001.litwareinc.com&quot; | Select-Object –ExpandProperty Tests | Sort-Object</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Para ver las transacciones sintéticas en orden alfabético, use este comando en su lugar:<br />
+> Get-CsWatcherNodeConfiguration –Identity &quot;atl-cs-001.litwareinc.com&quot; | Select-Object –ExpandProperty Tests | Sort-Object
 
 
 Para comprobar que se haya creado un nodo de monitor, escriba el siguiente comando desde el Shell de administración de Lync Server:

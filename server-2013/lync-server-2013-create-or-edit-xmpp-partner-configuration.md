@@ -66,18 +66,9 @@ Microsoft Lync Server 2013 integra un proxy de protocolo extensible de mensajer�
     
       - **Negociación SASL**. Define las reglas de negociación de SASL. Un servicio de XMPP puede requerir SASL, determinar que SASL sea opcional o definir que SASL no se admite. Si se opta por la posibilidad opcional, es el servicio de XMPP de socio quien decide si la negociación es obligatoria.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>SASL requiere TLS. Para utilizar SASL, TLS debe ser obligatorio u opcional. Cualquier configuración que defina SASL como obligatorio u opcional debe ser compatible con TLS. Al hacer clic en <strong>Confirmar</strong> para guardar los cambios, si no ha establecido TLS como obligatorio u opcional, se mostrará una advertencia que indica que SASL debe ser compatible con TLS y que los cambios no se han guardado. Para resolver el error, establezca TLS como <strong>Obligatorio</strong> u <strong>Opcional</strong>. Si el uso de SASL es opcional y la negociación TLS no es posible, deberá establecer la negociación SASL como <strong>No compatible</strong>. Confirme con el servicio XMPP que los flujos de negociación adecuados deben ser para TLS y SASL o se producirá una interrupción en el servicio.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!WARNING]  
+        > SASL requiere TLS. Para utilizar SASL, TLS debe ser obligatorio u opcional. Cualquier configuración que defina SASL como obligatorio u opcional debe ser compatible con TLS. Al hacer clic en <strong>Confirmar</strong> para guardar los cambios, si no ha establecido TLS como obligatorio u opcional, se mostrará una advertencia que indica que SASL debe ser compatible con TLS y que los cambios no se han guardado. Para resolver el error, establezca TLS como <strong>Obligatorio</strong> u <strong>Opcional</strong>. Si el uso de SASL es opcional y la negociación TLS no es posible, deberá establecer la negociación SASL como <strong>No compatible</strong>. Confirme con el servicio XMPP que los flujos de negociación adecuados deben ser para TLS y SASL o se producirá una interrupción en el servicio.
+        
         
           -   
             **Obligatorio**. El servicio de XMPP requiere la negociación SASL.

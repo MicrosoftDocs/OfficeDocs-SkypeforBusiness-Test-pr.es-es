@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2013-02-24_
 
 Las características avanzadas de Telefonía IP empresarial que se describen en esta sección comparten ciertos requisitos de configuración de regiones de red, sitios de red y subredes. Por ejemplo, las tres características avanzadas requieren que cada una de las subredes de la topología estén asociadas a un *sitio de red* específico, y cada uno de los sitios de red deben estar asociados a una *región de red* .
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de empezar la configuración de red para el control de admisión de llamadas, E9-1-1, o el desvío de medios, asegúrese de haber revisado toda la información adicional acerca de la configuración de red del tema <a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Configuración de red para las características avanzadas de telefonía IP empresarial en Lync Server 2013</a> en la documentación referente a la planeación. Para más información sobre la configuración de red, y en particular sobre el control de admisión de llamadas, vea también <a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definición de los requisitos de la organización para el servicio de control de admisión de llamadas en Lync Server 2013</a> en la documentación referente a la planeación.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Antes de empezar la configuración de red para el control de admisión de llamadas, E9-1-1, o el desvío de medios, asegúrese de haber revisado toda la información adicional acerca de la configuración de red del tema <a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Configuración de red para las características avanzadas de telefonía IP empresarial en Lync Server 2013</a> en la documentación referente a la planeación. Para más información sobre la configuración de red, y en particular sobre el control de admisión de llamadas, vea también <a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definición de los requisitos de la organización para el servicio de control de admisión de llamadas en Lync Server 2013</a> en la documentación referente a la planeación.
+
 
 
 El control de admisión de llamadas y E9-1-1 tienen requisitos de configuración adicionales para los sitios de red:

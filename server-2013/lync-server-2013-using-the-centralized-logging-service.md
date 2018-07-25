@@ -29,18 +29,9 @@ El Servicio de registro centralizado es una nueva característica de Lync Server
     
       - Use un *proveedor* existente o cree un nuevo proveedor. Un *proveedor* define qué sesión de registro recopila, qué nivel de detalle, qué componentes seguirá y qué marcas se aplican.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si conoce el OCSLogger, el término <em>proveedores</em> hace referencia a la colección de <strong>componentes</strong> (por ejemplo, S4, SIPStack), un <strong>tipo de registro</strong> (por ejemplo, WPP, EventLog o IIS logfile), un <strong>nivel de seguimiento</strong> (por ejemplo, Todo, Detallado, depuración) y <strong>marcas</strong> (por ejemplo, TF_COMPONENT, TF_DIAG). Estos elementos se definen en el comando del proveedor (una variable Windows PowerShell) y se pasan al comando Servicio de registro centralizado.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Si conoce el OCSLogger, el término <em>proveedores</em> hace referencia a la colección de <strong>componentes</strong> (por ejemplo, S4, SIPStack), un <strong>tipo de registro</strong> (por ejemplo, WPP, EventLog o IIS logfile), un <strong>nivel de seguimiento</strong> (por ejemplo, Todo, Detallado, depuración) y <strong>marcas</strong> (por ejemplo, TF_COMPONENT, TF_DIAG). Estos elementos se definen en el comando del proveedor (una variable Windows PowerShell) y se pasan al comando Servicio de registro centralizado.
+        
     
       - Configurar los PC y grupos desde donde desea recopilar los registros.
     

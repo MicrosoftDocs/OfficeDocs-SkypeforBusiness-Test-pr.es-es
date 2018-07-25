@@ -37,10 +37,12 @@ A continuación se proporcionan instrucciones para realizar cada una de estas ta
 
 2.  En la línea de comandos, escriba:
     
-        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-    
-        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
-    
+    ```
+    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+    ```
+    ```
+    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+    ```
 
     > [!NOTE]
     > Al cambiar el registro, puede recibir un error que indica que el comando ha fallado si la clave de registro ya existe. Si le pasa esto, puede ignorar el error de forma segura.

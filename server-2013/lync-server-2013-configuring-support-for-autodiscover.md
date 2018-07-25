@@ -19,18 +19,9 @@ El **servicio Detección automática** de los servicios web de Lync Server apare
 
 El servicio Detección automática constituye una única ubicación para que todos los clientes puedan solicitar información sobre los servicios y las características que se encuentran disponibles y acerca de cómo ponerse en contacto con los servicios, ya sea mediante un nombre de dominio completo o una referencia web de Localizador uniforme de recursos. La Detección automática proporciona una gran cantidad de características y cada cliente puede realizar solicitudes en función de las características que puede usar. Por ejemplo, un cliente de Lync 2013 de escritorio usará la Detección automática para determinar los servicios web externos, pero no usará los servicios de movilidad (Mcx). Para definir correctamente las características que estarán disponibles para los clientes y para habilitar su uso, deben definirse los escenarios que permiten a los clientes encontrar y usar las entradas de Detección automática de forma eficaz. Para usar la Detección automática, la implementación requiere que un proxy inverso publique los servicios web de Lync Server, que los registros DNS se configuren para resolver las consultas DNS del servicio Detección automática de Lync Server y de los servicios web de Lync Server, y que se configuren correctamente los servicios de certificado para los distintos escenarios.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obtener información técnica detallada sobre la función de los elementos de la respuesta o solicitud de Detección automática, consulte <a href="lync-server-2013-understanding-autodiscover.md">Comprender la detección automática</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Para obtener información técnica detallada sobre la función de los elementos de la respuesta o solicitud de Detección automática, consulte <a href="lync-server-2013-understanding-autodiscover.md">Comprender la detección automática</a>.
+
 
 
 La información y las tablas siguientes definen las configuraciones (en caso de que sean necesarias) que debe implementar para proporcionar un uso completo y eficaz del servicio Detección automática en cada escenario específico. La información de los siguientes temas es específica de Microsoft Lync Server 2013. Si busca información sobre cómo planear la movilidad para Lync Server 2010, consulte <http://go.microsoft.com/fwlink/?linkid=275113>. Para implementar la movilidad para Lync Server 2010, consulte <http://go.microsoft.com/fwlink/?linkid=275114>

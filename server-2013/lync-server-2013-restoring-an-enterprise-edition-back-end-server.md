@@ -25,18 +25,9 @@ Si tiene un servidor back-end Enterprise Edition reflejado y se produce un error
 
 Si se produce un error en el Almacén de administración central, consulte [Restaurar el servidor que hospeda el Almacén de administración central](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Si se produce un error en un servidor Enterprise Edition que no es el servidor back-end, consulte [Restaurar un servidor miembro de Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se recomienda que realice una copia de la imagen del sistema antes de iniciar la restauración. Puede usar esta imagen como punto de reversión en caso de que haya errores durante la restauración. Le resultará conveniente realizar la copia de la imagen después de instalar el sistema operativo y SQL Server, y restaurar o volver a inscribir los certificados.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Se recomienda que realice una copia de la imagen del sistema antes de iniciar la restauración. Puede usar esta imagen como punto de reversión en caso de que haya errores durante la restauración. Le resultará conveniente realizar la copia de la imagen después de instalar el sistema operativo y SQL Server, y restaurar o volver a inscribir los certificados.
+
 
 
 ## Para restaurar un servidor back-end Enterprise Edition
@@ -80,18 +71,9 @@ Si se produce un error en el Almacén de administración central, consulte [Rest
     
     7.  Siga los pasos restantes del asistente y, a continuación, haga clic en **Finalizar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>En lugar de ejecutar Generador de topologías, puede usar el cmdlet <strong>Install-CsDatabase</strong> para crear cada una de las bases de datos y el cmdlet <strong>Install-CsMirrorDatabase</strong> para configurar la creación de reflejo. Para obtener información detallada, vea la documentación sobre el Shell de administración de Lync Server.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > En lugar de ejecutar Generador de topologías, puede usar el cmdlet <strong>Install-CsDatabase</strong> para crear cada una de las bases de datos y el cmdlet <strong>Install-CsMirrorDatabase</strong> para configurar la creación de reflejo. Para obtener información detallada, vea la documentación sobre el Shell de administración de Lync Server.
+    
 
 
 5.  Para restaurar los datos del usuario, lleve a cabo el siguiente procedimiento:

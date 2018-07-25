@@ -57,16 +57,7 @@ Para migrar los objetos de contacto del Operador automático (AA) y de Acceso de
     
     where *forest FQDN* specifies the forest in which Lync Server 2013 is deployed.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Asegúrese de reiniciar el servicio <strong>Front-end de Lync Server</strong> (rtcsrv.exe) <em>después</em> de ejecutar exchucutil.ps1. De lo contrario, Lync Server 2013 no detectará la Mensajería unificada en la topología.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Asegúrese de reiniciar el servicio <strong>Front-end de Lync Server</strong> (rtcsrv.exe) <em>después</em> de ejecutar exchucutil.ps1. De lo contrario, Lync Server 2013 no detectará la Mensajería unificada en la topología.
+    
 

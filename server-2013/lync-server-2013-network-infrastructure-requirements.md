@@ -29,18 +29,9 @@ Entre los requisitos de red para audio y vídeo (A/V) en una implementación de 
 
   - Si está implementado un Servidor perimetral único o un Grupo de servidores perimetrales con el equilibrio de carga DNS, puede configurar el firewall externo como un NAT. No puede configurar el firewall interno como un NAT. Para obtener más información sobre estos requisitos, vea [Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md) en la documentación sobre planeación.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si tiene un Grupo de servidores perimetrales y está usando un equilibrador de carga de hardware, debe usar las direcciones IP públicas en cada uno de los Servidores perimetrales y no puede usar NAT para los servidores o el grupo de servidores en su dispositivo NAT (por ejemplo, el firewall, u otro dispositivo de infraestructura que usaría NAT en el tráfico entrante o saliente). Para obtener detalles, vea <a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Resumen de puerto - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013</a> en la documentación de planeación para acceso de usuario externo.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si tiene un Grupo de servidores perimetrales y está usando un equilibrador de carga de hardware, debe usar las direcciones IP públicas en cada uno de los Servidores perimetrales y no puede usar NAT para los servidores o el grupo de servidores en su dispositivo NAT (por ejemplo, el firewall, u otro dispositivo de infraestructura que usaría NAT en el tráfico entrante o saliente). Para obtener detalles, vea <a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Resumen de puerto - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013</a> en la documentación de planeación para acceso de usuario externo.
+    
 
 
   - Si la organización usa una infraestructura QoS (Calidad de servicio), el subsistema de medios estará diseñado de modo que funcione con esta infraestructura existente.

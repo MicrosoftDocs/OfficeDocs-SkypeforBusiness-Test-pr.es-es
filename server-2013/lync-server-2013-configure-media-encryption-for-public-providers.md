@@ -19,18 +19,9 @@ Para más información sobre los requisitos de licencia y sobre cómo completar 
 
 Si va a implementar una federación de audio y vídeo (A/V) con Windows Live Messenger, debe modificar dos parámetros: el nivel de cifrado de Lync Server y la directiva EnablePublicCloudAccess. De forma predeterminada, el nivel de cifrado está configurado en Requerido. Debe cambiar esta opción a Compatible. Si la directiva EnablePublicCloudAccess está definida en falso, debe definirse en **Verdadero** . Puede hacerlo desde el Shell de administración de Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Más que nunca, Lync es una potente herramienta para la conexión entre organizaciones e individuos de todo el mundo. Aparte de la licencia de acceso de cliente (CAL) estándar de Lync, la federación con Windows Live Messenger no exige ninguna otra licencia de usuario o dispositivo adicional. El próximo año, la federación con Skype se agregará a esta lista, lo que les permitirá a los usuarios de Lync llegar a cientos de millones de personas con mensajería instantánea y telefonía.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Más que nunca, Lync es una potente herramienta para la conexión entre organizaciones e individuos de todo el mundo. Aparte de la licencia de acceso de cliente (CAL) estándar de Lync, la federación con Windows Live Messenger no exige ninguna otra licencia de usuario o dispositivo adicional. El próximo año, la federación con Skype se agregará a esta lista, lo que les permitirá a los usuarios de Lync llegar a cientos de millones de personas con mensajería instantánea y telefonía.
+
 
 
 ## Configurar la federación para Windows Live
@@ -39,10 +30,12 @@ Si va a implementar una federación de audio y vídeo (A/V) con Windows Live Mes
 
 2.  Desde el símbolo del sistema, escriba los siguientes comandos:
     
-        Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
-    
-        Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
-    
+    ```
+    Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
+    ```
+    ```
+    Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+    ```
 
     > [!NOTE]
     > Este es un paso necesario porque Windows Live Messenger no admite el cifrado de audio/vídeo. El comando configura su directiva global en una configuración de cifrado compatible en lugar de requerir el cifrado de los datos de audio y vídeo. Los clientes que admiten el cifrado continúan usando el cifrado, como Lync 2013.

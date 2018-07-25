@@ -23,18 +23,9 @@ Antes de realizar la preparación del bosque, compruebe manualmente que la divis
 
 2.  Abra el Editor ADSI. Para ello, haga clic en **Inicio** , **Herramientas administrativas** y, a continuación, haga clic en **Editor ADSI** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>También puede ejecutar <strong>adsiedit.msc</strong> en la línea de comandos.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > También puede ejecutar <strong>adsiedit.msc</strong> en la línea de comandos.
+    
 
 
 3.  En el árbol de Microsoft Management Console (MMC), haga clic en **Editor ADSI** si aún no está seleccionado.

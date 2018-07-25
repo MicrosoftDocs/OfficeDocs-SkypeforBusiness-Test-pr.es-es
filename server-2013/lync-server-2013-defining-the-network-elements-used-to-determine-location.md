@@ -31,18 +31,9 @@ Los elementos de red se enumeran en orden de prioridad. Si un cliente puede loca
 
 En las siguientes secciones se proporciona más información sobre el uso de cada elemento de red.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cuando usa elementos de la red para asignar las personas que llaman a las ubicaciones, es muy importante que mantenga la base de datos del Servicio de información de ubicaciones actualizada. Por ejemplo, si agrega o cambia un elemento de red, como cuando agrega un WAP, deberá eliminar la entrada antigua y agregar la nueva a la base de datos de ubicaciones.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Cuando usa elementos de la red para asignar las personas que llaman a las ubicaciones, es muy importante que mantenga la base de datos del Servicio de información de ubicaciones actualizada. Por ejemplo, si agrega o cambia un elemento de red, como cuando agrega un WAP, deberá eliminar la entrada antigua y agregar la nueva a la base de datos de ubicaciones.
+
 
 
 ## Punto de acceso inalámbrico

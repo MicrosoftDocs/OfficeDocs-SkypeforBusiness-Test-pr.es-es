@@ -25,18 +25,9 @@ Escriba lo siguiente en un símbolo del sistema:
 
     Get-CsClsConfiguration
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Puede acotar o expandir el ámbito de los parámetros de configuración que se devuelven definiendo <code>-Identity</code> y un ámbito, como “Site:Redmond” para devolver solamente CsClsConfiguration para el sitio Redmond. Si quiere información detallada sobre una parte determinada de la configuración, puede transferir el resultado a otro Windows PowerShell. Por ejemplo, para obtener información detallada sobre los escenarios definidos en la configuración para el sitio “Redmond”, escriba: <code>Get-CsClsConfiguration -Identity &quot;site:Redmond&quot; | Select-Object -ExpandPropery Scenarios</code></td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Puede acotar o expandir el ámbito de los parámetros de configuración que se devuelven definiendo <code>-Identity</code> y un ámbito, como “Site:Redmond” para devolver solamente CsClsConfiguration para el sitio Redmond. Si quiere información detallada sobre una parte determinada de la configuración, puede transferir el resultado a otro Windows PowerShell. Por ejemplo, para obtener información detallada sobre los escenarios definidos en la configuración para el sitio “Redmond”, escriba: <code>Get-CsClsConfiguration -Identity &quot;site:Redmond&quot; | Select-Object -ExpandPropery Scenarios</code>
+
 
 
 ![Salida de ejemplo de Get-CsClsConfiguration.](images/JJ688138.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Salida de ejemplo de Get-CsClsConfiguration.")

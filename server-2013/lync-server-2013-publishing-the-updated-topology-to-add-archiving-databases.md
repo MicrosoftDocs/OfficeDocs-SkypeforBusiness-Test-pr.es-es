@@ -43,16 +43,7 @@ Después de actualizar su topología en Generador de topologías, debe publicarl
 
 6.  En la página **Asistente para publicación completado**, verifique que se ha publicado correctamente la topología y haga clic en **Finalizar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Una vez publicada la topología, debe configurar opciones y directivas para el archivado antes de que se pueda archivar cualquier contenido. Para obtener información, consulte <a href="lync-server-2013-configuring-support-for-archiving.md">Configurar compatibilidad con archivado en Lync Server 2013</a> en la documentación sobre implementación.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Una vez publicada la topología, debe configurar opciones y directivas para el archivado antes de que se pueda archivar cualquier contenido. Para obtener información, consulte <a href="lync-server-2013-configuring-support-for-archiving.md">Configurar compatibilidad con archivado en Lync Server 2013</a> en la documentación sobre implementación.
+    
 
