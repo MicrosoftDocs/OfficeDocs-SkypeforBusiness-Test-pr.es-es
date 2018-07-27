@@ -21,7 +21,7 @@ Todos estos cmdlets se emiten a través del Shell de administración de Lync Ser
 
 ## En esta sección
 
-  - [new-csaddressbookconfiguration para la administración de la libreta de direcciones](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
+  - [New-CsAddressBookConfiguration para la administración de la libreta de direcciones](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
 
   - [Set-CsAddressBookConfiguration para la administración de la libreta de direcciones](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
@@ -41,7 +41,7 @@ Todos estos cmdlets se emiten a través del Shell de administración de Lync Ser
 
   - [Get-CsService para la administración de la libreta de direcciones](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [new-cswebserviceconfiguration para la administración de la libreta de direcciones](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
+  - [New-CsWebServiceConfiguration para la administración de la libreta de direcciones](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
 
   - [Get-CsWebServiceConfiguration para la administración de la libreta de direcciones](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 

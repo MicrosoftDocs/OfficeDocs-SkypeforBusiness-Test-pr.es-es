@@ -4188,8 +4188,8 @@
         - name: Cmdlets de Windows PowerShell para la administración de la libreta de direcciones
           href: lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
           items:
-          - name: new-csaddressbookconfiguration para la administración de la libreta de direcciones
-            href: lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md
+          - name: New-CsAddressBookConfiguration para la administración de la libreta de direcciones
+            href: lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md
           - name: Set-CsAddressBookConfiguration para la administración de la libreta de direcciones
             href: lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
           - name: Get-CsAddressBookConfiguration para la administración de la libreta de direcciones
@@ -4208,8 +4208,8 @@
             href: lync-server-2013-set-csclientpolicy-for-address-book-management.md
           - name: Get-CsService para la administración de la libreta de direcciones
             href: lync-server-2013-get-csservice-for-address-book-management.md
-          - name: new-cswebserviceconfiguration para la administración de la libreta de direcciones
-            href: lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md
+          - name: New-CsWebServiceConfiguration para la administración de la libreta de direcciones
+            href: lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md
           - name: Get-CsWebServiceConfiguration para la administración de la libreta de direcciones
             href: lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
           - name: Set-CsWebServiceConfiguration para la administración de la libreta de direcciones

@@ -19,7 +19,7 @@ Quién puede ejecutar este cmdlet: De forma predeterminada, los miembros de los 
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsAddressBookConfiguration"}
 
-Set-CsAddressBookConfiguration es similar al cmdlet new-csaddressbookconfiguration, excepto en que usa para modificar una configuración existente.
+Set-CsAddressBookConfiguration es similar al cmdlet New-CsAddressBookConfiguration, excepto en que usa para modificar una configuración existente.
 
 Por ejemplo:
 

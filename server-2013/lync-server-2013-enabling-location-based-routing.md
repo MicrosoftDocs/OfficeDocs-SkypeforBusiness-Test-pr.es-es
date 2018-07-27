@@ -132,23 +132,23 @@ Para este ejemplo, los siguientes comandos de Windows PowerShell ilustran la cre
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-Una vez que una configuración troncal se configura por tronco, puede usar el comando de Lync ServerWindows PowerShell, set-cstrunkconfiguration, para habilitar el enrutamiento según ubicación en los troncos que deben exigir restricciones de enrutamiento. Habilite el enrutamiento según ubicación en los troncos que enrutan llamadas a puertas de enlace RTC que enrutan las llamadas a RTC y asocie el sitio de red donde se encuentra la puerta de enlace.
+Una vez que una configuración troncal se configura por tronco, puede usar el comando de Lync ServerWindows PowerShell, Set-CsTrunkConfiguration, para habilitar el enrutamiento según ubicación en los troncos que deben exigir restricciones de enrutamiento. Habilite el enrutamiento según ubicación en los troncos que enrutan llamadas a puertas de enlace RTC que enrutan las llamadas a RTC y asocie el sitio de red donde se encuentra la puerta de enlace.
 
-    set-cstrunkconfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
+    Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
 Para obtener más información, consulte [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 En este ejemplo, el enrutamiento según ubicación se habilita para cada tronco asociado a las puertas de enlace RTC en Delhi y Hyderabad:
 
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
 No habilite el enrutamiento según ubicación para los troncos que no enrutan llamadas a RTC. Sin embargo, aún debe asociar el tronco al sitio de red donde se encuentra el sistema, ya que las restricciones de enrutamiento según ubicación necesitan exigirse para las llamadas RTC que alcanzan extremos conectados a través de este tronco. En este ejemplo, el enrutamiento según ubicación no está habilitado para cada tronco asociado a los sistemas PBX en Delhi y Hyderabad:
 
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
 Los extremos conectados a sistemas que no enrutan llamadas a RTC (es decir, un PBX) tendrán restricciones similares que los extremos de Lync de los usuarios habilitados para el enrutamiento según ubicación. Esto significa que dichos usuarios podrán hacer y recibir llamadas hacia y desde el usuario de Lync independientemente de la ubicación del usuario. También podrán hacer y recibir llamadas hacia y desde otros sistemas que no enrutan llamadas a la red RTC (por ejemplo, un extremo conectado a otro PBX) independientemente del sitio de red al que se asocia el sistema. Todas las llamadas entrantes, llamadas salientes, transferencias de llamadas y reenvío de llamadas que impliquen extremos RTC estarán sujetas a aplicaciones de enrutamiento según ubicación. Dichas llamadas deben usar únicamente puertas de enlace RTC definidas como locales para dichos sistemas.
