@@ -43,7 +43,9 @@ Antes de empezar a mover usuarios de Lync Online a su entorno local, compruebe q
 
   - Su Lync Online debe estar configurado para un espacio de direcciones SIP compartido. Para hacerlo, primero inicie una sesión de PowerShell remota con Lync Online. A continuación, ejecute el cmdlet siguiente:
     
-      Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
+  ```
+  Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
+  ```
 
 Cuando haya realizado estos pasos, podrá empezar a mover usuarios a [Migrar usuarios de Lync Online a Lync local](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).
 

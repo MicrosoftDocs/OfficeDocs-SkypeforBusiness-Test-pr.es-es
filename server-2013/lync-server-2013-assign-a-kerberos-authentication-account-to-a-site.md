@@ -27,16 +27,21 @@ Después de crear la cuenta Kerberos, debe asignarla a un sitio. Se trata de un 
 
 3.  En la línea de comandos, ejecute los dos comandos siguientes:
     
-        New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount" -Identity "site:SiteName"
-    
-        Enable-CsTopology
-    
+    ```
+    New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount" -Identity "site:SiteName"
+    ```
+    ```
+    Enable-CsTopology
+    ```
+
     Por ejemplo:
     
-        New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth" -Identity "site:redmond"
-    
-        Enable-CsTopology
-    
+    ```
+    New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth" -Identity "site:redmond"
+    ```
+    ```
+    Enable-CsTopology
+    ```
 
     > [!NOTE]
     > Debe especificar el parámetro UserAccount con el formato dominio\nombre de usuario. No se admite el formato User@Domain.extension para hacer referencia a los objetos de equipo creados con fines de autenticación Kerberos.

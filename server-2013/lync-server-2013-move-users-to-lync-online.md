@@ -27,9 +27,12 @@ Antes de empezar a mover usuarios a Lync Online, le recomendamos que mueva unos 
 
 Para mover un usuario local a su inquilino de Skype Empresarial Online, ejecute los siguientes cmdlets en el Shell de administración de Lync Server con las credenciales de administrador de su inquilino de Microsoft Office 365. Sustituya “username@contoso.com” por la información del usuario que quiera mover.
 
-    $creds=Get-Credential
-
-    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
+$creds=Get-Credential
+```
+```
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
 
 El formato de la dirección URL especificada para el parámetro **HostedMigrationOverrideUrl** tiene que ser la URL del grupo en el que se está ejecutando el servicio de migración hospedada y tiene que tener el siguiente formato: *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc* .
 

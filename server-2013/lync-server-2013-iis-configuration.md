@@ -116,9 +116,12 @@ En la siguiente tabla se indican los servicios de rol necesarios para IIS 7.5.
 
 En el sistema operativo Windows Server 2008 R2 SP1 x64, puede usar Windows PowerShell 2.0. Primero debe importar el módulo ServerManager y, después, instalar el rol y los servicios de rol de IIS 7.5.
 
-    Import-Module ServerManager
-
-    Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
+```
+Import-Module ServerManager
+```
+```
+Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
+```
 
 
 > [!NOTE]
@@ -306,9 +309,14 @@ En la siguiente tabla se indican los servicios de rol de IIS 8.0 e IIS 8.5 neces
 
 En Windows Server 2012 y Windows Server 2012 R2, se puede usar Windows PowerShell 3.0 para instalar los requisitos de IIS. Con el módulo ServerManager de Windows PowerShell 3.0, escriba:
 
-    Import-Module ServerManager
+```
+Import-Module ServerManager
+```
 
-    Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
+```
+Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
+```
+
 
 > [!IMPORTANT]  
 > Una novedad de Windows Server 2012 es el parámetro –Source que define dónde se encuentran los medios de origen de Windows Server 2012. Los medios se pueden definir como una unidad de DVD (por ejemplo, D:\Sources\Sxs) o como un recurso compartido de red en los que se copiaron los archivos multimedia (por ejemplo, \\fileserver\windows2012\sources\Sxs).
