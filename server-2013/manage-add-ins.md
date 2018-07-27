@@ -25,7 +25,7 @@ Para crear un nuevo complemento
 
     New-CsPersistentChatAddin -PersistentChatPoolFqdn <String> -Name <String> -Url<String>
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > PersistentChatPoolFqdn &lt;String&gt; es necesario solo si hay más de un Grupo de servidores de chat persistente.
 
 

@@ -50,7 +50,7 @@ Lync Server 2013 admite los sistemas de administración de bases de datos siguie
 
 En un grupo de servidores front-end, la base de datos back-end puede ser un único PC de SQL Server.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si combina bases de datos de Lync Server con otras bases de datos, recomendamos encarecidamente evaluar todos los factores que pueden afectar a la disponibilidad y al rendimiento, así como asegurarse de que, si un nodo provoca un error, el otro nodo pueda administrar la carga. Para comprobar las capacidades de conmutación por error, se recomienda probar todos los escenarios de conmutación por error.
 
 

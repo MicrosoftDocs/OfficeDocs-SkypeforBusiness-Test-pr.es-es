@@ -33,7 +33,7 @@ Además, si su implementación incluye dispositivos analógicos, debe configurar
 
 Para obtener información sobre cómo configurar una puerta de enlace analógica, vea "Planeación para implementar dispositivos analógicos" en [http://go.microsoft.com/fwlink/?linkid=268537\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=268537%26clcid=0xc0a) en la biblioteca de TechNet de Lync Server 2010. (Los dispositivos analógicos funcionan igual en Lync Server 2013 que en Lync Server 2010).
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Puede configurar el conmutador para 9-1-1 mejorado (E9-1-1), si el conmutador lo admite.
 
 

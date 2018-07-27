@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2012-09-17_
 
 Siga estos pasos si desea crear o modificar un número de acceso telefónico a conferencias.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Antes de crear un nuevo número de acceso telefónico, debe establecer una región de conferencias telefónicas en el plan de marcado asociado al número de acceso telefónico. Se pueden usar varios planes de marcado para la misma región.
 
 

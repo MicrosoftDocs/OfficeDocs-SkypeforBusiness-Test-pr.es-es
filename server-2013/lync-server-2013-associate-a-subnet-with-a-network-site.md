@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2014-10-20_
 
 Todas las subredes de la red deben estar asociadas con un sitio de red específico. Esto se debe a que la información de la subred se usa para determinar el sitio de red en el que reside un extremo mientras se inicia una nueva sesión. Cuando se conoce la ubicación de cada parte en una sesión, las características avanzadas de Telefonía IP empresarial pueden aplicar esta información para determinar cómo administrar la configuración o el enrutamiento de las llamadas.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Todas las direcciones IP públicas de los servidores perimetrales de audio y vídeo en la implementación deben incluirse en los parámetros de configuración de red. Estas direcciones IP se agregan como subredes con una máscara de 32. El sitio de red asociado debe corresponder con el sitio de red configurado adecuado. Por ejemplo, la dirección IP pública que corresponde a los servidores perimetrales A/V en el sitio central Chicago sería NetworkSiteID Chicago. Para más información sobre las direcciones IP públicas, consulte <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013</a> en la documentación sobre planeación.
 
 

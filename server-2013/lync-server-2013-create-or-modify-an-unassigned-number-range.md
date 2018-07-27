@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2012-11-01_
 
 Use uno de los siguientes procedimientos si desea configurar intervalos de números no asignados para la Aplicación de anuncio.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Antes de configurar la tabla de números sin asignar, debe haber definido uno o más anuncios o haber establecido un operador automático de mensajería unificada de Exchange.
 
 

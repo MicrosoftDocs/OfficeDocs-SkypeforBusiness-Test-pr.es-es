@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2012-09-21_
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si ya ha creado regiones de red para E9-1-1 o para el desvío de medios, puede modificar las regiones de red existentes mediante la adición de parámetros específicos de control de admisión de llamadas con el cmdlet Set-<strong>Set-CsNetworkRegion</strong>. Para ver un ejemplo de cómo modificar una región de red, consulte <a href="lync-server-2013-create-or-modify-a-network-region.md">Crear o modificar una región de red en Lync Server 2013</a>.
 
 

@@ -31,7 +31,7 @@ Servidor de chat persistente también se puede implementar con Lync Server 2013S
 
 Para obtener información detallada sobre configuraciones de combinación admitida, consulte [Instalación de servidores compatibles en Lync Server 2013](lync-server-2013-supported-server-collocation.md).
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > No admitimos la alta disponibilidad para Servidor de chat persistenteStandard Edition. El rendimiento y la escala se limitarán. Además, solo admitimos nuevos Servidor de chat persistenteServidor Standard Edition. No admitimos la actualización de Lync Server 2010, Servidor de chat en grupo a un Lync Server 2013Servidor de chat persistenteStandard Edition.
 
 
@@ -50,7 +50,7 @@ Un único Servidor de chat persistenteServidor front-end admite 20000 usuarios a
 
 Servidor de chat persistente también se admite en un servidor virtual. El servidor virtual puede admitir hasta 20 000 usuarios a la vez si coincide con las especificaciones del servidor físico.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Servidor de chat persistente debe instalarse en un sistema de archivos NTFS para ayudar a aplicar la seguridad del sistema de archivos. FAT32 no es un sistema de archivos admitido para Servidor de chat persistente.
 
 

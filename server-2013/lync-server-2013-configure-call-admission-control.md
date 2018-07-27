@@ -19,7 +19,7 @@ El control de admisión de llamadas es una solución que determina si puede esta
 
 En esta sección se proporciona un conjunto de procedimientos de ejemplo donde se describe cómo implementar y administrar el control de admisión de llamadas en una red.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Antes de iniciar la implementación del servicio de control de admisión de llamadas, debe recopilar toda la información necesaria para la topología de red de empresa, tal como se describe en <a href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">Ejemplo: Recopilación de los requisitos de la organización para el servicio de control de admisión de llamadas en Lync Server 2013</a> en la documentación referente a la planeación. Asimismo, compruebe que se hayan instalado y activado todos los componentes del servicio de control de admisión de llamadas, tal como se describe en <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync Server 2013</a>, en la documentación sobre implementación.
 
 

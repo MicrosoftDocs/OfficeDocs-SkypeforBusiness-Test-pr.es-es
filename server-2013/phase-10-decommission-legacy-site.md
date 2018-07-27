@@ -22,7 +22,7 @@ En los siguientes temas se ofrecen instrucciones para retirar grupos de servidor
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Para más información sobre la migración y la actualización de aplicaciones de Microsoft Unified Communications Managed API (UCMA), antes de retirar el entorno heredado, vea <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a>
 
 

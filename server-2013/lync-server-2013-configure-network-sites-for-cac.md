@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2012-09-05_
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si ya ha creado sitios de red para E9-1-1 o desvío de medios, modifique los sitios de red existentes para aplicar un perfil de directiva de ancho de banda mediante el cmdlet Set-CsNetworkSite. Como ejemplo de cómo modificar un sitio de red, consulte <a href="lync-server-2013-create-or-modify-a-network-site.md">Crear o modificar un sitio de red en Lync Server 2013</a>.
 
 

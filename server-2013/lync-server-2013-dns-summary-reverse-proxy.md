@@ -63,7 +63,7 @@ Puede configurar dos adaptadores de red en el proxy inverso de la siguiente form
 <td><p>Escucha asignada para los recursos publicados externamente</p></td>
 <td><p>Servicios web externos para los grupos de servidores Directores o Director de su implementación. Puede definir tantos Directores como Directores diferentes haya, de los cuales pueden estar asociados con otros dominios SIP.</p>
 <div class="alert">
-> [!WARNING]  
+> [!IMPORTANT]  
 > Definición de los registros DNS para y publicación del Directores no es una decisión del grupo de servidores front-end ni de Director. Debe definir y publicar los servicios web externos tanto de Director como de Grupo de servidores front-end si está usando Directores. Los tipos de tráfico específicos (para autenticación y otros usos) se enviarán primero a Director, si está definido así en la topología.
 
 

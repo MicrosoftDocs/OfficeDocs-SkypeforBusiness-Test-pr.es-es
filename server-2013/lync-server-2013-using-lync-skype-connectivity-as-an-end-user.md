@@ -58,7 +58,7 @@ Cuando la MSA de un usuario de Skype usa un nombre de dominio personalizado, com
 
 En ambos casos, el usuario de Lync debe escribir el correo electrónico del usuario de Skype con el siguiente formato: <strong>usuario(nombre de dominio)@msn.com</strong>.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Este paso no es necesario para las MSA que usan los siguientes nombres de dominio: <strong>@live.com, @hotmail.com o @outlook.com</strong>. Para más información sobre los nombres de dominio personalizados admitidos, vea el tema acerca de los <a href="http://support.microsoft.com/kb/897567/es">dominios de mensajería instantánea pública compatibles</a>.
 
 

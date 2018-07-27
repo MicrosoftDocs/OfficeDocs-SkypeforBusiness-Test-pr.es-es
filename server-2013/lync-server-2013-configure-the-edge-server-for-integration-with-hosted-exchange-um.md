@@ -29,7 +29,7 @@ Para ver más detalles, consulte la documentación del Shell de administración 
 
   - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Debe crear un registro SRV de DNS externo para el servicio Exchange de hospedaje antes de realizar estos pasos. Para más información, consulte <a href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange</a>.
 
 

@@ -27,7 +27,7 @@ La configuración del archivo depende de la opción de almacenamiento que se eli
 
 Si habilita el archivado en un grupo de servidores front-end o un servidor Standard Edition, será necesario que lo habilite para todos los demás grupos de servidores de front-end y los servidores Standard Edition de su implementación. Esto se debe a que los usuarios cuyas comunicaciones se deben archivar pueden ser invitados a una conversación de mensajería instantánea en grupo o a reuniones hospedadas en un grupo de servidores diferente. Si el archivado no está habilitado en el grupo de servidores donde se hospeda la conversación o la reunión, puede que no se almacene toda la sesión. En estos casos, se podrán seguir archivando los mensajes instantáneos de los usuarios que tengan habilitado el archivado, pero no los archivos de contenido de conferencia ni los eventos creados al unirse a conferencias o abandonarlas.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si el archivado es esencial para su organización por motivos de cumplimiento, asegúrese de implementarlo, configurar directivas y otras opciones en el nivel adecuado y habilitarlo para los usuarios que corresponda antes de habilitar a estos usuarios para Lync Server 2013.
 
 

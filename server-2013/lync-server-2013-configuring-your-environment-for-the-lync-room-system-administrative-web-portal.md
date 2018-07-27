@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2016-12-08_
 
 Para usar el portal web administrativo del sistema Lync Room (LRS), tendrá que instalar o configurar los siguientes requisitos previos.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si el servidor está configurado con la autenticación Kerberos y NTLM y se está ejecutando LRS en un equipo que no está unido al dominio, la autenticación Kerberos generará un error y el usuario no verá el estado de LRS en el portal administrativo. Para resolver este problema, configure el servidor con autenticación NTLM o autenticación NTLM y TLS-DSK (sin Kerberos) o una el equipo LRS al dominio.
 
 

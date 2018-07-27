@@ -68,7 +68,7 @@ En Lync Server, el Shell de administración de Lync Server brinda un nuevo méto
 
 La Herramienta de registro de Lync Server facilita la solución de problemas al capturar y seguir la información del producto mientras se está ejecutando el producto. Puede usar la herramienta para ejecutar sesiones de depuración en cualquier función de servidor de Lync Server. Para más información sobre la Herramienta de registro, consulte la documentación de la Herramienta de registro de Lync Server 2010 en la Biblioteca de TechNet en <http://go.microsoft.com/fwlink/?linkid=199265>.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Le recomendamos usar en todos los casos el Servicio de registro centralizado para todas las labores de recopilación de registros en vez de la herramienta de registro de Lync Server. La herramienta de registro de Lync Server seguirá funcionando, pero interferirá o será ineficiente si el Servicio de registro centralizado ya se está ejecutando. Use solo el Servicio de registro centralizado o la herramienta de registro de Lync Server, pero nunca simultáneamente. Para más información sobre el Servicio de registro centralizado y los motivos por los que debe usarse exclusivamente, consulte <a href="lync-server-2013-using-the-centralized-logging-service.md">Uso del servicio de registro centralizado de Lync Server 2013</a>.
 
 

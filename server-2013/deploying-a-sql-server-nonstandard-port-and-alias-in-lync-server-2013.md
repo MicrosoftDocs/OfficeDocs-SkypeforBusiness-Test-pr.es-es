@@ -91,7 +91,7 @@ El alias y el puerto no estándar de SQL Server deben configurarse en la instanc
     
     ![Restablecer el servicio de SQL Server para la instancia.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Restablecer el servicio de SQL Server para la instancia.")
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Asegúrese de actualizar la configuración de su firewall para adaptarla al nuevo puerto de SQL Server.
 
 

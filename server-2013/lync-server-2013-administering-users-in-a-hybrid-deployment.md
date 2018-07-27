@@ -19,7 +19,7 @@ Puede administrar las directivas y configuraciones de usuario para los usuarios 
 
 ## Mover a usuarios localmente
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Esta sección solo se aplica a usuarios creados y habilitados para Lync local y posteriormente movidos de una implementación local a Lync Online. Si quiere mover a usuarios creados en Lync Online (y que nunca han sido habilitados para Lync en una implementación local) vea <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Mover usuarios de Lync Online a Lync local en Lync Server 2013</a>.
 
 

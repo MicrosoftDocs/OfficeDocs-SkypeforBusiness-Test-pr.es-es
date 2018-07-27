@@ -81,7 +81,7 @@ Además, un grupo front-end en la implementación también ejecuta el *Servidor 
 
 Los servidores back-end son servidores de base de datos que ejecutan Microsoft SQL Server y que proporcionan los servicios de base de datos al grupo de servidores front-end. Los servidores back-end actúan como almacenes de copias de seguridad de los datos de conferencia y de usuario del grupo, y constituyen los lugares principales de almacenamiento para otras bases de datos, como la de grupo de respuesta. Se puede tener un solo servidor back-end, pero se recomienda disponer de una solución que utilice la creación de reflejo de SQL Server para la conmutación por error. Los servidores back-end no ejecutan ningún software de Lync Server.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > No recomendamos combinar bases de datos de Lync Server con otras bases de datos, ya que puede que la disponibilidad y el rendimiento se vean afectados.
 
 

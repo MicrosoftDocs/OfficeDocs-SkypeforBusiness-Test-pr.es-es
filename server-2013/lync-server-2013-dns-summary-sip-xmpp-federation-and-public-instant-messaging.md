@@ -19,7 +19,7 @@ Los registros del sistema de nombre de dominio (DNS) que serán necesarios para 
 
 La tabla de resumen de registros de DNS muestra las entradas necesarias para una federación abierta o que se pueda detectar. Si no desea implementar la Detección de federación, puede decidir no configurar el registro \_sipfederationtls.\_tcp. *\<SIP domain name\>*.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Hay escenarios específicos en los que debe utilizar el registro SRV _sipfederationtls._tcp. <em>&lt;nombre de dominio SIP&gt;</em>, pero no desea tener una federación que se pueda detectar. Una instancia de ese tipo es aquella en la que ha implementado movilidad para sus usuarios. La notificación de inserción de movilidad clearinghouse (PNCH) es un tipo especial de federación que se utiliza para clientes Microsoft Lync Mobile de Apple iPhone o iPad mediante el cliente Lync 2010 Mobile o Windows Phone mediante los clientes móviles Lync 2010 Mobile o Lync 2013. El registro SRV _sipfederationtls._tcp. <em>&lt;nombre de dominio SIP&gt;</em> se utiliza en el caso de movilidad y notificación de inserción. Para mitigar este problema y controlar su capacidad de ser detectado, desactive el parámetro <strong>Habilitar detección del dominio del socio</strong> para desactivar la detección.
 
 
@@ -53,7 +53,7 @@ Cuando se configura el Sistema de nombres de dominio (DNS) para la conectividad 
 <td><p>sip.contoso.com</p></td>
 <td><p>Servidor perimetral de acceso interfaz externa necesaria para la detección de DNS automática de su federación a otros socios de federación potenciales y se conoce como “Dominios SIP permitidos” (denominado federación ampliada en versiones anteriores). Repetir las veces que sea necesario para todos los dominios SIP con usuarios habilitados en Lync</p>
 <div class="alert">
-> [!WARNING]  
+> [!IMPORTANT]  
 > Este registro SRV es necesario para la movilidad y la notificación de inserción clearinghouse. En los casos en que hay más de un dominio SIP, cree y publique un registro SRV para cada dominio que tendrá clientes de Lync Mobile. El Servicios de notificaciones de inserción y Servicios de notificaciones de inserción de Apple podrían no operar del modo esperado si no hay un registro SRV explícito para cada dominio SIP que admita la implementación.
 
 

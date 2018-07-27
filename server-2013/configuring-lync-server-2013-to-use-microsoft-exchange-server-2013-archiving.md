@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2014-06-24_
 
 Microsoft Lync Server 2013 ofrece a los administradores la opción de archivar las transcripciones de conferencias web y sesiones de mensajería instantánea en el buzón de Microsoft Exchange Server 2013 del usuario en lugar de en una base de datos de SQL Server. Si se habilita esta opción, las transcripciones se escribirán en la carpeta Purga del buzón del usuario. La carpeta Purga es una carpeta oculta que se encuentra en la carpeta Elementos recuperables. Aunque dicha carpeta no está visible para los usuarios finales, es una carpeta que indiza el motor de búsqueda de Exchange y en la que se pueden realizar búsquedas con la característica de búsqueda de buzón de Exchange o de Microsoft SharePoint Server 2013. Puesto que la información se almacena en la misma carpeta que usa la característica de puesta en espera de Exchange (responsable del archivado del correo electrónico y de otras comunicaciones de Exchange), los administradores pueden usar una única herramienta para todas las comunicaciones electrónicas archivadas del usuario.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Para desactivar completamente el archivado de una conversación de Lync, debe desactivar también el historial de conversaciones de Lync. Para obtener más información, vea los siguientes temas: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Administrar el archivado de las comunicaciones internas y externas en Lync Server 2013</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</a>.
 
 

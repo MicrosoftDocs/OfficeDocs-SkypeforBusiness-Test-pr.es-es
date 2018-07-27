@@ -32,7 +32,7 @@ Use el parámetro EnableHotdesking del cmdlet **New-CSClientPolicy** o el cmdlet
     
         New-CsClientPolicy -Identity "NewCommonAreaPhonePolicy" - EnableHotdesking $True
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Después de crear esta directiva, habrá que asignarla a los teléfonos de área común apropiados. Para más información, consulte <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Asignar directivas a un teléfono de área común</a>.
 
 

@@ -37,7 +37,7 @@ Lync Server 2013 precisa el sistema de nombres de dominio (DNS) y lo usa de las 
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > El nombre que especifique debe ser idéntico al nombre de equipo configurado en el servidor. De forma predeterminada, el nombre de equipo en el caso de un equipo que no está unido a un dominio es un nombre corto, no un nombre de dominio completo (FQDN). Generador de topologías usa FQDN, no nombres cortos. Por lo tanto, debe configurar un sufijo DNS en el nombre del equipo para implementarse como servidor perimetral que no está unido a un dominio. <strong>Utilice únicamente caracteres estándar</strong> (incluyendo A–Z, a–z, 0–9 y guiones) a la hora de asignar FQDN de sus Lync Server, servidores perimetrales y grupos. No utilice caracteres Unicode ni de subrayado. Los caracteres no estándar en una dirección URL o un FQDN a menudo no son compatibles con DNS externas y CA públicas (es decir, cuando el FQDN debe asignarse al SN en el certificado).
 
 

@@ -254,7 +254,7 @@ los usuarios que se han incluido en los archivos del servidor de libreta de dire
 
 Puede usar ciertos bits de indicador para definir un filtro que se vaya a usar en los atributos del servidor de libreta de direcciones. Por ejemplo, la presencia de ciertos bits de indicador pueden identificar un atributo como un atributo de inclusión o un atributo de exclusión. El Replicador de usuarios deja fuera a los contactos que contienen un atributo de exclusión y a los contactos que no contienen un atributo de inclusión.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Para obtener más información sobre cómo filtrar la libreta de direcciones, consulte <a href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Cmdlets de servidor de libreta de direcciones</a> y <a href="http://go.microsoft.com/fwlink/?linkid=330430">Filtrar la libreta de direcciones de Lync 2013</a>
 
 
@@ -307,7 +307,7 @@ Una vez haya modificado la tabla AbAttribute, puede actualizar los datos en la t
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si ha consolidado o modificado de alguna otra forma la infraestructura a partir de una implementación de varios bosques o de una implementación de miembro principal/secundario (como la consolidación de su infraestructura antes de transferirse a Lync Server), es posible que experimente errores para algunos usuarios con la descarga del servicio de libreta de direcciones y del servicio de consulta web de la libreta de direcciones. Cuando en una implementación que tenía varios dominios o bosques, se incluye el atributo <strong>MsRTCSIP-OriginatorSid</strong> se rellena en los objetos de usuario que muestran el problema, el atributo <strong>MsRTCSIP-OriginatorSid</strong> debe establecerse en NULL en estos objetos para resolver el problema.
 
 

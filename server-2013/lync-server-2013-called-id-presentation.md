@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2016-12-08_
 
 Con Lync Server 2010, el número de teléfono que recibe la llamada (es decir, el número de teléfono al que se llama) se puede traducir del formato E.164 al formato de marcado local que el *tronco de mismo nivel* necesita (es decir, la puerta de enlace asociada, la central de conmutación (PBX) o el tronco SIP). Para ello, defina una o varias reglas de traslación para traducir la URI de la solicitud antes de redirigirla al tronco de mismo nivel.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > La capacidad para asociar una o varias reglas de traslación a una configuración de tronco de Telefonía IP empresarial ha sido diseñada para usarla como <em>alternativa</em> a la configuración de las reglas de traslación en el tronco de mismo nivel. No asocie las reglas de traslación a una configuración de tronco Telefonía IP empresarial si ha configurado reglas de conversión en el tronco de mismo nivel porque las dos reglas podrían entrar en conflicto.
 
 

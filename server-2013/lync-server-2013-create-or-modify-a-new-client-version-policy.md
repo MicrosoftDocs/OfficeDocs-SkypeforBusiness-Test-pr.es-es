@@ -41,7 +41,7 @@ Puede usar directivas de versión de cliente para especificar las versiones de c
 
 ## Creación o modificación de directivas de versión de cliente mediante cmdlets de Windows PowerShell
 
-Puede crear directivas de versión de cliente mediante el cmdlet **New-CsClientVersionPolicy** y modificarlas mediante el cmdlet **set-csclientversionpolicy**. Estos cmdlets se pueden ejecutar desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Puede crear directivas de versión de cliente mediante el cmdlet **New-CsClientVersionPolicy** y modificarlas mediante el cmdlet **Set-CsClientVersionPolicy**. Estos cmdlets se pueden ejecutar desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## Para crear una nueva directiva de versión de cliente con ámbito de sitio
 
@@ -55,5 +55,5 @@ Puede crear directivas de versión de cliente mediante el cmdlet **New-CsClientV
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
-Para obtener detalles, consulte los temas de Ayuda acerca de los cmdlets [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) y [set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
+Para obtener detalles, consulte los temas de Ayuda acerca de los cmdlets [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) y [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
 

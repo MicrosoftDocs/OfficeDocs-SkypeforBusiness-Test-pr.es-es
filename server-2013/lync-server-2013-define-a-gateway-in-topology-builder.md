@@ -77,7 +77,7 @@ Siga estos pasos para usar Generador de topologías para definir un *par* que pu
 
 10. Haga clic en **Finalizar**.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Antes de finalizar este paso, asegúrese de que el par definido está en marcha y que usa el FQDN o la dirección IP que ha especificado.
 
 

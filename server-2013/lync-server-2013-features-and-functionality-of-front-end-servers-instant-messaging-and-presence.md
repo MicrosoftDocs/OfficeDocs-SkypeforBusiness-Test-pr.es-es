@@ -19,7 +19,7 @@ Los servidores front-end ofrecen la mayor parte de la funcionalidad de Lync Serv
 
 La mensajería instantánea (MI) permite a los usuarios comunicarse entre sí en tiempo real desde sus equipos y mediante mensajes basados en texto. Se admiten sesiones de mensajería instantánea con dos participantes y con varios participantes. Un participante de una conversación de mensajería instantánea entre dos participantes puede agregar a la conversación a un tercer participante en cualquier momento. Cuando esto ocurre, la ventana Conversación cambia para admitir características de conferencia.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Cuando los clientes de Lync y Communicator participan en una comunicación de uno a uno, este proceso se suele denominar “punto a punto”. Técnicamente, los dos clientes se comunican en una conversación de uno a uno, con la unidad de control multipunto de mensajería instantánea (IMMCU) en medio. La IMMCU es un componente de Servidor front-end. Si se sitúa la IMMCU en el flujo de trabajo de comunicación necesario, se permite el registro de detalles de las llamadas y otras características que habilita el Servidor front-end. La comunicación se lleva a cabo desde un puerto de origen dinámico del cliente al puerto TLS/TCP/5061 del Servidor front-end (suponiendo que se use la seguridad de la capa de transporte recomendada). Por motivos de diseño, la comunicación de punto a punto (así como la MI de varios participantes) solo es posible cuando Lync Server y la IMMCU están activos y disponibles.
 
 

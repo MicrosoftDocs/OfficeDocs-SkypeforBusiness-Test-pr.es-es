@@ -56,7 +56,7 @@ El Servidor de chat persistente se implementa en el Servidor Standard Edition. E
 
 En Lync Server 2013Enterprise Edition, los Servidores de chat persistente no se pueden combinar en el Enterprise Edition Server. La base de datos de SQL Server del Servidor de chat persistente se puede combinar con la base de datos del Servidor back-end de un Grupo de servidores front-end de Enterprise Edition. La base de datos de SQL Server para el cumplimiento del Chat persistente también se puede combinar con la base de datos del Servidor back-end de un grupo de servidores Enterprise Edition.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > El servidor que hospeda la base de datos del Chat persistente puede hospedar otras bases de datos. Sin embargo, cuando piense en combinar la base de datos del Chat persistente con otras bases de datos, tenga en cuenta que si conserva los mensajes de numerosos usuarios, el espacio en disco necesario para la base de datos del Chat persistente puede dispararse. Por este motivo, recomendamos no combinar la base de datos del Chat persistente con la base de datos back-end.
 
 
@@ -81,7 +81,7 @@ Servidor de chat persistente admite distintas topologías:
 
 Puede agregar el Servidor de chat persistente a su instalación de Lync Server 2013 mediante el Generador de topologías. Puede agregar uno o varios servidores de tipo Grupo de servidores de chat persistente a su topología.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Después de crear un Grupo de servidores de chat persistente con un solo servidor mediante el Generador de topologías, no podrá agregar a él más servidores.
 
 
@@ -90,7 +90,7 @@ Puede agregar el Servidor de chat persistente a su instalación de Lync Server 2
 
 La configuración mínima y la implementación más sencilla del Servidor de chat persistente es la topología de un solo Servidor front-end de Servidor de chat persistente. Requiere un servidor único para ejecutar el Servidor de chat persistente (que ejecuta opcionalmente el servicio de cumplimiento, en caso de que este se habilite), un servidor para hospedar la base de datos de SQL Server y, si se requiere el cumplimiento de normas, la base de datos de SQL Server para almacenar los datos de cumplimiento.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > No se pueden agregar más servidores a un Grupo de servidores de chat persistente que se haya iniciado como una implementación de un solo servidor en el Generador de topologías. Recomendamos usar la topología de grupo de varios servidores (aun cuando vaya a usar un solo servidor) para que, de este modo, pueda agregar más servidores posteriormente si así lo necesita.
 
 

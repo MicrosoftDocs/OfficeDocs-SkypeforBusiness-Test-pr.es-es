@@ -19,7 +19,7 @@ Para completar correctamente este procedimiento, debe haber iniciado sesión en 
 
 Antes de configurar e instalar el Servidor front-end para Lync Server 2013, Standard Edition o el primer Servidor front-end de un grupo de servidores, debe instalar y configurar el rol del servidor y los Servicios web para Servicios de Internet Information Server (IIS).
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si su organización exige que localice IIS y todos los servicios web en una unidad que no sea la del sistema, puede cambiar la ruta de acceso a la instalación de los archivos de Lync Server 2013 en el cuadro de diálogo de instalación cuando instale por primera vez las herramientas administrativas de Lync Server 2013. Las herramientas administrativas se deben instalar antes que IIS. Si instala los archivos de instalación en esta ruta de acceso, incluido el archivo OCSCore.msi, el resto de los archivos de Lync Server 2013 se implementará también en esta unidad. Para más información, vea <a href="lync-server-2013-install-lync-server-administrative-tools.md">Instalar las herramientas administrativas de Lync Server 2013</a>. Para más información sobre cómo cambiar la ubicación del directorio INETPUB implementado por Windows Server Manager al instalar IIS, vea <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.
 
 
@@ -310,7 +310,7 @@ En Windows Server 2012 y Windows Server 2012 R2, se puede usar Windows PowerShel
 
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Una novedad de Windows Server 2012 es el parámetro –Source que define dónde se encuentran los medios de origen de Windows Server 2012. Los medios se pueden definir como una unidad de DVD (por ejemplo, D:\Sources\Sxs) o como un recurso compartido de red en los que se copiaron los archivos multimedia (por ejemplo, \\fileserver\windows2012\sources\Sxs).
 
 

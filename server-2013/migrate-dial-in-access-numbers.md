@@ -35,7 +35,7 @@ Los números de acceso telefónico que creó en Lync Server 2010 pero movió a L
 
 Finalice la migración de los números de acceso telefónico que apuntan a un grupo de servidores de Lync Server 2010, para dar de baja el grupo de servidores de Lync Server 2010. Si no finaliza la migración tal como se describe en el procedimiento siguiente, las llamadas entrantes a los números de acceso serán erróneas.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Ejecute este procedimiento antes de retirar el grupo de servidores de Lync Server 2010.
 
 

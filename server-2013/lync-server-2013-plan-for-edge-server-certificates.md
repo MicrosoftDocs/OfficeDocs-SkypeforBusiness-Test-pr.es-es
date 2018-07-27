@@ -23,7 +23,7 @@ La creación de certificados para servidores perimetrales se simplifica en Lync 
 
 Cree un certificado público único, compruebe que tiene una clave privada exportable definida para el certificado y asígnela a las interfaces externas del servidor perimetral usando el asistente para certificados:
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Lync Server no admite certificados de comodín, salvo cuando se usan para resumir las direcciones URL simples a través de proxy inverso. Se deben definir nombres alternativos del firmante (SAN) por cada nombre de dominio SIP, Servicio perimetral de conferencia web, Servicio perimetral A/V y dominio XMPP que la implementación ofrezca.
 
 
@@ -34,7 +34,7 @@ Cree un certificado público único, compruebe que tiene una clave privada expor
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > En el caso de un grupo de Servidores perimetrales, el certificado se exporta con la clave privada de cada Servidor perimetral y se asigna el certificado a cada servicio Servidor perimetral. Haga lo mismo para el certificado interno de Servidor perimetral, exportar el certificado con la clave privada y asígnelo a cada interfaz interna del servidor perimetral.
 
 
@@ -51,7 +51,7 @@ Cree un solo certificado interno con una clave privada exportable, cópielo y as
 
   - Servidor perimetral (denominado **Servidor perimetral interno** en el asistente para certificados)
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Se pueden utilizar otros certificados independientes y distintivos para cada servicio de Servidor perimetral. Un buen motivo para seleccionar certificados aparte es que se desee utilizar la nueva característica de implementación de certificados para el certificado Servicio perimetral A/V. En el caso de esta característica, se recomienda disociar el certificado Servicio perimetral A/V de Servidor perimetral de acceso y Servicio perimetral de conferencia web. Si decide solicitar, adquirir y asignar certificados aparte para cada servicio, deberá solicitar que la clave privada sea exportable para el Servicio perimetral A/V (una vez más, es en realidad el servicio de autenticación A/V) y asignar el mismo certificado a la interfaz interna de perimetral A/V en cada Servidor perimetral.
 
 

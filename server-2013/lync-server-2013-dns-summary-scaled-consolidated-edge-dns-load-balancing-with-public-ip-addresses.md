@@ -155,7 +155,7 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaz externa del Servidor perimetral de acceso SIP. Necesaria para la detección automática DNS de su federación ante los posibles socios de federación. Conocida como “Dominios SIP permitidos” (denominado federación ampliada en versiones anteriores).</p>
 <div class="alert">
-> [!WARNING]  
+> [!IMPORTANT]  
 > Repita tantas veces como sea necesario para todos los dominios SIP con usuarios habilitados para Lync y clientes de Microsoft Lync Mobile que usen el Servicios de notificaciones de inserción o el Servicios de notificaciones de inserción de Apple
 
 

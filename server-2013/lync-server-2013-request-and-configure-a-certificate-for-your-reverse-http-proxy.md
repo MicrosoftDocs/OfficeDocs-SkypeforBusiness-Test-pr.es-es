@@ -44,7 +44,7 @@ También puede instalar un certificado de servidor Web público en el servidor d
 <td><p>FQDN del grupo de servidores</p></td>
 <td><p>webext.contoso.com</p>
 <div class="alert">
-> [!WARNING]  
+> [!IMPORTANT]  
 > El nombre de sujeto también debe estar presente en el nombre alternativo de sujeto.
 
 

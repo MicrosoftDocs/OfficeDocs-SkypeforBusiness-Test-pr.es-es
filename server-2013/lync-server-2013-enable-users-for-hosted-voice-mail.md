@@ -21,7 +21,7 @@ Para obtener información detallada, vea [Administración de usuarios de Hosted 
 
 Para ver los detalles sobre el cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser), consulte la documentación de Shell de administración de Lync Server.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Antes de habilitar a un usuario de Lync Server 2013 para correo de voz hospedado, debe implementarse una directiva de correo de voz hospedada que se aplique a su cuenta de usuario. Para obtener información detallada, vea <a href="lync-server-2013-hosted-voice-mail-policies.md">Directivas de correo de voz hospedado en Lync Server 2013</a>.
 
 

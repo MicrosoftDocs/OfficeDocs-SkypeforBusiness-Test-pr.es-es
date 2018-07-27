@@ -27,7 +27,7 @@ Los servidores que ejecutan Lync Server 2013, Enterprise Edition están pensados
 
 ## Instalación del sistema operativo
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Lync Server 2013 solamente está disponible en una edición de 64 bits, lo que requiere hardware de 64 bits y una edición de 64 bits del sistema operativo Windows Server. Esta versión no está disponible en una edición de 32 bits de Lync Server 2013.
 
 

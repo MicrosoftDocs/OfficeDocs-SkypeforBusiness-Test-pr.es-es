@@ -33,7 +33,7 @@ El Servidor perimetral tiene un proxy XMPP totalmente integrado (implementado en
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > La capacidad XMPP de Lync Server 2013 está probada y es compatible con Microsoft para la federación de mensajería instantánea con Google Talk. Para otros sistemas XMPP, póngase en contacto con el proveedor para comprobar que son compatibles con la federación con Lync Server 2013 y para cualquier recomendación sobre implementación o solución de problemas.
 
 
@@ -52,7 +52,7 @@ Una novedad en Lync Server 2013 es que se pueden almacenar provisionalmente cert
 
 En versiones anteriores de Lync Server y Office Communications Server, los servicios web usaban la afinidad basada en cookies para garantizar que se conservaba el estado de la sesión de cliente y servicios web. Los servicios web de Lync Server 2013 emplean un mecanismo de afinidad integrado que acaba con casi todos los requisitos de la afinidad basada en cookies.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > El cliente de Microsoft Lync 2010 Mobile deberá seguir usando y configurando la afinidad basada en cookies hasta que todos los clientes se hayan migrado al próximo cliente de Microsoft Lync Mobile (cuya fecha de lanzamiento aún está fijada).
 
 

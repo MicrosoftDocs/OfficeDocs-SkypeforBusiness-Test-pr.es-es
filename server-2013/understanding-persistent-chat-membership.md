@@ -25,7 +25,7 @@ Un administrador de Chat persistente puede crear y administrar categorías de sa
 
 El Servidor de chat persistente se basa en Active Directory para el grupo de servidores de usuarios de Chat persistente internos. Después de instalar el Chat persistente (cliente), puede agregar dominios de usuarios y grupos de usuarios a la categoría de salón. Puede agregar estos usuarios y grupos a la pertenencia de las categorías de salón.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Debe asegurarse de que no haya nombres duplicados para los usuarios que quieren realizar cambios en sus salones de Chat persistente. Si hubiera nombres de usuario duplicados, cámbielos por nombres diferentes para permitir a dichos usuarios realizar cambios. Si un usuario tiene nombres duplicados en Active Directory e intenta realizar cambios en sus salones, se mostrará un mensaje de error pidiendo al usuario que se ponga en contacto con el administrador.
 
 

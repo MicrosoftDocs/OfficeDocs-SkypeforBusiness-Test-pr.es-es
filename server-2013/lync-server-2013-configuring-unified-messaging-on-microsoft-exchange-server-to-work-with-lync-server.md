@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2016-12-08_
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si desea usar Mensajería unificada de Exchange (UM) para proporcionar a los usuarios de Telefonía IP empresarial contestador automático, Outlook Voice Access o servicios de operador automático, lea <a href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Planear la integración de la mensajería unificada de Exchange en Lync Server 2013</a> en la documentación referente a la planeación y siga las instrucciones de esta sección.
 
 

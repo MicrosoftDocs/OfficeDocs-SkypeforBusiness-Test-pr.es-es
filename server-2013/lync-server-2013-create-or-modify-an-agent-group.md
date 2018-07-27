@@ -23,7 +23,7 @@ Use uno de los procedimientos siguientes para crear o modificar un grupo de agen
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Cuando asigne usuarios como agentes de grupo de respuesta, indíqueles que, si tienen habilitado el modo de privacidad, deberán buscar contactos de &quot;Observador de presencia de RGS&quot; y agregarlos a su lista de contactos. Los agentes que tengan el modo de privacidad habilitado, pero que no tengan &quot;Observador de presencia RGS&quot; en su lista de contactos no podrán recibir llamadas en el grupo de respuesta. Los agentes que no tengan habilitado el modo de privacidad, no se verán afectados.
 
 

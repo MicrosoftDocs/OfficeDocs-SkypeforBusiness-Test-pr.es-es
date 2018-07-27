@@ -75,7 +75,7 @@ Si se ejecutan estos servicios en cada Servidor de chat persistente, se proporci
 
 Además, para disfrutar de compatibilidad con la carga y descarga de archivos en los salones de Chat persistente, Servidor de chat persistente incluye un servicio web. Antes, este servicio se colocaba en Servidor de chat persistente, Servidor front-end y requería que la instalación previa de Servicios de Internet Information Server (IIS). En Servidor de chat persistente de Lync Server 2013, el servicio web de carga y descarga de archivos se coloca en el Servidor front-end de Lync Server 2013. Como efecto colateral, Servicios de Internet Information Server (IIS) deja de ser un requisito previo para Servidor de chat persistente. El servicio web de carga y descarga de archivos se identifica como **PersistentChat** en el administrador de Servicios de Internet Information Server (IIS).
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Para ejecutar el rol <strong>PersistentChatService</strong> en el mismo servidor que Servidor front-end de Lync Server 2013, Servidor front-end debe ser Servidor front-end de Standard Edition. El rol <strong>PersistentChatService</strong> no se puede ejecutar independientemente de Servidor front-end de Lync Server 2013. Solo puede instalarse en el contexto de una implementación de Lync Server 2013.
 
 

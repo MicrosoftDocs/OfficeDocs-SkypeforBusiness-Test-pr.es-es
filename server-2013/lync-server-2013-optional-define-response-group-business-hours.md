@@ -30,7 +30,7 @@ La configuración del horario comercial define cuándo el flujo de trabajo está
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > En los parámetros de estos cmdlets, el tiempo debe expresarse en el formato de 24 horas (por ejemplo, las 20:00 equivaldría a las 8:00 p.m.).
 
 

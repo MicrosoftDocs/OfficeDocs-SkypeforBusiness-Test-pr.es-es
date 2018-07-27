@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2016-12-08_
 
 Use el diagrama de flujo siguiente para determinar los requisitos del Sistema de nombres de dominio (DNS). Los cambios para las actualizaciones acumulativas de Lync Server 2013 de febrero de 2013 se indican en su caso.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Microsoft Lync Server 2013 admite el uso del direccionamiento IPv6. Para usar direcciones IPv6, también debe proporcionar compatibilidad para DNS IPv6 y configurar registros AAAA de host DNS (conocidos como “cuádruple A”). En implementaciones en las que se están usando IPv4 e IPv6, es mejor configurar y mantener registros A de host para IPv4 y AAAA de host para IPv6. Aunque su implementación ha realizado una transición completa a IPv6, los registros de host DNS IPv4 todavía pueden ser necesarios cuando los usuarios externos estén usando todavía IPv4.
 
 
@@ -26,7 +26,7 @@ Use el diagrama de flujo siguiente para determinar los requisitos del Sistema de
 
 ![Diagrama de flujo de requisitos de DNS](images/Gg398758.175782ac-363e-408a-912f-8991bf152970(OCS.15).jpg "Diagrama de flujo de requisitos de DNS")
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > De manera predeterminada, el nombre de equipo de un equipo que no está unido a un dominio es un nombre de host, en lugar de un nombre de dominio completo (FQDN). Generador de topologías utiliza nombres de dominio completos, en vez de nombres de host. Así pues, debe configurar un sufijo de DNS en el nombre del equipo para poder implementarlo como servidor perimetral no incorporado a un dominio. <strong>Utilice únicamente caracteres estándar</strong> (A–Z, a–z, 0–9 y guiones) cuando asigne los nombres de dominio completo de sus servidores Lync, servidores perimetrales y grupos de servidores. No utilice caracteres Unicode ni de subrayado. Los DNS externos y las entidades de certificación públicas no admiten caracteres que no sean estándar en un nombre de dominio completo (es decir, cuando el FQDN se debe asignar al nombre de sujeto en el certificado). Para más información, consulte <a href="lync-server-2013-configure-dns-host-records.md">Configurar registros de host DNS para Lync Server 2013</a>.
 
 
@@ -96,7 +96,7 @@ Recomendamos que use la detección automática, en lugar de la detección manual
 
 El término DNS de horizonte dividido se conoce con varios nombres, por ejemplo, DNS dividido o DNS de partición de red. Sencillamente describe una configuración de DNS en la que existen dos zonas DNS con el mismo espacio de nombre, pero una zona DNS procesa solo las solicitudes internas y la otra solo las externas. No obstante, muchos de los registros SRV y registros A de DNS que contiene el DNS interno no se incluirán en el DNS externo, y viceversa. Además, en los casos en que el mismo registro DNS existe tanto en el DNS interno como en el externo (por ejemplo, www.contoso.com), la dirección IP devuelta será distinta, en función de dónde (en el interior o en el exterior) se realice la consulta DNS.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Actualmente, el DNS de horizonte dividido no es compatible con la movilidad o, más concretamente, con los registros DNS LyncDiscover y LyncDiscoverInternal. LyncDiscover tiene que definirse en un servidor DNS externo y LyncDiscoverInternal tiene que definirse en un servidor DNS interno.
 
 

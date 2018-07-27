@@ -41,7 +41,7 @@ Con el reflejo de SQL, el modo de recuperación de bases de datos siempre está 
 
 Con el reflejo de SQL, puede configurar la topología de creación de reflejos al crear los grupos o después de que ya se hayan creado los grupos.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > El uso de Generador de topologías o de cmdlets para instalar y eliminar el reflejo de SQL se admite solo cuando el servidor principal, el reflejo y el testigo (si se desea) pertenecen al mismo dominio. Si desea configurar la creación del reflejo de SQL entre servidores de dominios diferentes, consulte la documentación sobre SQL Server.
 
 

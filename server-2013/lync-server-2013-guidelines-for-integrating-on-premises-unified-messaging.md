@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2016-12-08_
 
 Los siguientes procedimientos recomendados e instrucciones debe tenerse en cuenta cuando implemente Telefonía IP empresarial:
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Mensajería unificada de Exchange (UM) admite solo IPv6 si también está usando UCMA 4.
 
 
@@ -43,7 +43,7 @@ Los siguientes procedimientos recomendados e instrucciones debe tenerse en cuent
 
 ## Implementación de servidores redundantes de mensajería unificada de Exchange
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Se recomienda implementar un mínimo de dos servidores donde se esté ejecutando la mensajería unificada de Exchange por cada plan de marcado URI del SIP de Mensajería unificada de Exchange que configure en la organización. Además de ofrecer más capacidad, implementar servidores redundantes proporciona alta disponibilidad. En el caso de que se produzca un error en un servidor, Lync Server 2013 se puede configurar de modo que realice la conmutación por error a otro servidor.
 
 

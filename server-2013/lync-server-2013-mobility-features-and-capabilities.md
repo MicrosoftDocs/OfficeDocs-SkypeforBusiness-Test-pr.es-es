@@ -21,7 +21,7 @@ La característica de movilidad incorporada en las actualizaciones acumulativas 
 
 La característica de movilidad incorporada en las actualizaciones acumulativas de Lync Server 2013 de febrero de 2013 admite la funcionalidad de clientes móviles de Lync 2013. Las actualizaciones acumulativas de Lync Server 2013 de febrero de 2013 instalan la API web de comunicaciones unificadas, o UCWA. UCWA es el componente que se usa para los clientes móviles de Lync 2013. En Lync Server 2013, se usa Mcx para los clientes de Lync 2010 Mobile. Las actualizaciones acumulativas de Lync Server 2013 de febrero de 2013 incorporan UCWA como el nuevo punto de entrada de los servicios de movilidad. Al mismo tiempo, Lync Server 2013 implementa el servicio de movilidad (Mcx), incorporado en las actualizaciones acumulativas de Lync Server 2010 de noviembre de 2011, y proporciona compatibilidad con Lync 2010 Mobile. Al implementar las actualizaciones acumulativas de Lync Server 2013 de febrero de 2013, los usuarios pueden usar dispositivos móviles admitidos de Apple iOS, Android y Windows Phone para realizar ciertas actividades, como las siguientes:
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Las características admitidas por el servicio de movilidad de las actualizaciones acumulativas de Lync Server 2010 de noviembre de 2011 se marcan con &quot;(Mcx)&quot;. Todas las características de la lista son compatibles con UCWA, incorporado en las actualizaciones acumulativas de Lync Server 2013 de febrero de 2013.
 
 
@@ -67,7 +67,7 @@ Los usuarios de iPad de Apple tendrán acceso a funcionalidades mejoradas. Tras 
 
 Al usar la característica de Detección automática de Lync Server 2013, las aplicaciones móviles pueden localizar automáticamente los servicios web de Lync Server 2013 sin necesidad de que los usuarios deban escribir manualmente las direcciones URL en la configuración de su dispositivo. También se admite la escritura manual de direcciones URL en la configuración de dispositivos móviles, principalmente con el fin de solucionar problemas.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Mcx y UCWA son servicios complementarios y ambos se implementan para admitir clientes móviles de Lync 2010 Mobile y Lync 2013. Lync 2013 Mobile no podrá iniciar sesión en implementaciones de Lync Server 2010. Lync 2010 Mobile y Lync 2013 Mobile podrán usar una implementación de Lync Server 2013 con las actualizaciones acumulativas de Lync Server 2013 de febrero de 2013 aplicadas.
 
 

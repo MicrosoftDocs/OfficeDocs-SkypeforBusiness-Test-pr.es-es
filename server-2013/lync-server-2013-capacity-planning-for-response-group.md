@@ -23,7 +23,7 @@ En la siguiente tabla se describe el modelo de usuario de Grupo de respuesta que
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Tenga en cuenta que, para planear la capacidad de recuperación ante desastres, cada grupo de servidores de un grupo formado en par debe poder administrar las cargas de trabajo para todos los grupos de respuesta en ambos grupos.
 
 

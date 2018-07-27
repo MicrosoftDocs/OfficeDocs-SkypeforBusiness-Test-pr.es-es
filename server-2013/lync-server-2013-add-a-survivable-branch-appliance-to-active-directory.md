@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2012-09-23_
 
 Si piensa implementar una Aplicación de sucursal con funciones de supervivencia, debe agregar la Aplicación de sucursal con funciones de supervivencia a los Servicios de dominio de Active Directory. Realice este procedimiento en el sitio central.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Realice este procedimiento únicamente si implementa una Aplicación de sucursal con funciones de supervivencia. No lo realice si implementa un Servidor de sucursal con funciones de supervivencia.
 
 

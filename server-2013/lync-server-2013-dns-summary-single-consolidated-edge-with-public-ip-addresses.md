@@ -113,7 +113,7 @@ Puede configurar dos adaptadores de red en el servidor perimetral de la siguient
 </table>
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Los registros enumerados en la tabla anterior se muestran con una extensión <em>.net</em> o bien <em>.com</em> para resaltar en qué zona deben residir si no va a usar el DNS de cerebro dividido. Si va a usar el DNS de cerebro dividido, todos los registros estarían en la misma zona con la única distinción de si están en la versión interna o en la externa. Para ver más información, consulte &quot;DNS de cerebro dividido&quot; en <a href="lync-server-2013-determine-dns-requirements.md">Determinar los requisitos DNS para Lync Server 2013</a>.
 
 
@@ -143,7 +143,7 @@ Puede configurar dos adaptadores de red en el servidor perimetral de la siguient
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaz perimetral externa de acceso SIP Requerida para detección automática DNS de su federación a otros posibles socios de federación, que se conocen como “Dominios SIP permitidos” o &quot;federación ampliada&quot; en versiones anteriores). Repita según sea necesario para todos los dominios SIP con usuarios habilitados para Lync</p>
 <div class="alert">
-> [!WARNING]  
+> [!IMPORTANT]  
 > Este registro de SRV es necesario para fines de movilidad y para el centro de enrutamiento de notificaciones de inserción
 
 

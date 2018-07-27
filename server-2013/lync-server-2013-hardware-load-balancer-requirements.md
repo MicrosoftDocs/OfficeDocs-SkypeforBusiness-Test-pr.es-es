@@ -23,7 +23,7 @@ La topología perimetral consolidada escalada de Lync Server 2013 se optimiza co
 
   - Conectividad con usuarios de mensajería instantánea pública
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > No se admite el uso del equilibrio de carga de DNS en una interfaz y del equilibrio de carga de hardware en otra. Debe utilizar el equilibrio de carga de hardware o de DNS en ambas interfaces.
 
 
@@ -90,7 +90,7 @@ Para las implementaciones que **utilicen** la afinidad basada en cookies:
 
 Si se implementan dispositivos móviles, el equilibrador de carga de hardware debe poder equilibrar la carga de una solicitud individual dentro de una sesión TCP (de hecho, debe poder equilibrar la carga de una solicitud individual basada en la dirección IP de destino).
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Los equilibradores de carga de hardware F5 tienen una característica llamada OneConnect que asegura que cada solicitud dentro de una conexión TCP tenga carga equilibrada individualmente. Si va a implementar dispositivos móviles, asegúrese de que su proveedor del equilibrador de carga de hardware admita la misma funcionalidad. Las últimas aplicaciones móviles que utilizan el sistema Apple iOS requieren el uso seguridad de capa de transporte (TLS), versión 1.2. F5 proporciona opciones de configuración específicas para este sistema.<br />
 > Para obtener más información sobre los equilibradores de carga de hardware de terceros, vea <a href="http://go.microsoft.com/fwlink/?linkid=230700%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=230700&amp;clcid=0xC0A</a>
 

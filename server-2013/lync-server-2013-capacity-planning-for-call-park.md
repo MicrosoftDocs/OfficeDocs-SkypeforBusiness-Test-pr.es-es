@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2015-03-09_
 
 En la siguiente tabla se describe el modelo de usuario de Estacionamiento de llamadas que puede usar como base para los requisitos de planeación de la capacidad.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Tenga en cuenta que para la planeación de la capacidad de recuperación ante desastres, cada grupo de servidores debe poder administrar las cargas de trabajo para los servicios de Estacionamiento de llamadas en ambos grupos.
 
 
