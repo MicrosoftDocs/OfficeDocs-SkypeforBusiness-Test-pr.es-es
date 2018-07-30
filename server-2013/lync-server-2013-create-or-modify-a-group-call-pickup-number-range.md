@@ -23,7 +23,7 @@ Use el siguiente procedimiento para crear o modificar un intervalo de números d
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Al intervalo de números del grupo de atención de llamadas se le debe asignar el tipo GroupPickup. Los usuarios solo se habilitan para la atención de llamadas grupales si el número del grupo que tienen asignado es de tipo GroupPickup.
 
 

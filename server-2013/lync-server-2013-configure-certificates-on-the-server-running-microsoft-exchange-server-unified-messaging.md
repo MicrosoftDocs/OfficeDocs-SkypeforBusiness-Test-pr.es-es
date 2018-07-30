@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2016-12-08_
 
 Si ha implementado la Mensajería unificada de Exchange (UM), como se describe en [Planear la integración de la mensajería unificada de Exchange en Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md), en la documentación referente a la planeación, y desea proporcionar las características de la Mensajería unificada de Exchange a los usuarios de Telefonía IP empresarial de su organización, puede usar los siguientes procedimientos para configurar el certificado en el servidor que ejecuta la Mensajería unificada de Exchange.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Para los certificados internos, los servidores que ejecutan Lync Server 2013 y los servidores que ejecutan Microsoft Exchange deben tener certificados de entidad de certificación raíz de confianza que sean de confianza mutua. La entidad de certificación (CA) puede ser la misma o una entidad diferente siempre que los servidores tengan el certificado raíz de entidad de certificación registrado en su almacén de certificados de entidad de certificación raíz de confianza.
 
 

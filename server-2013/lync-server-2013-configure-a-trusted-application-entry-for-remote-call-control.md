@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2015-11-02_
 
 La puerta de enlace de SIP/CSTA debe configurarse como aplicación de confianza para que Lync Server aplique una ruta estática para enrutar llamadas a la puerta de enlace.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si migra usuarios desde una implementación de una versión anterior de Lync Server, asegúrese de quitar todas las entradas de aplicación de confianza existentes (anteriormente conocidas como entradas de host autorizado) creadas para la puerta de enlace SIP/CSTA antes de seguir los procedimientos indicados en este tema. Para obtener más información, consulte <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Quitar un host autorizado heredado en Lync Server 2013 (opcional)</a>.
 
 

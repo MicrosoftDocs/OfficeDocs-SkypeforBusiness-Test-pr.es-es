@@ -48,7 +48,7 @@ La habilitación de la federación entre Microsoft Lync Server 2013, Lync Server
       -   
         Para la configuración manual de la federación, debe tener un nombre de dominio completo (FQDN) de Servidor perimetral y un nombre de dominio, o un nombre de dominio en línea del socio, que se escribe en Panel de control de Lync Server, **Federación y acceso externo**, **Dominios federados SIP**. Cree una**nueva** directiva o **edite** una directiva actual para permitir o bloquear dominios por FQDN.
         
-        > [!WARNING]  
+        > [!IMPORTANT]  
         > La configuración manual de Servidor perimetral del socio de federación puede generar errores en caso de que el socio cambie la dirección IP de su Servidor perimetral.
         
         
@@ -73,7 +73,7 @@ La información siguiente le ayudará en la definición del certificado, el puer
 
 La planificación de certificados, requisitos de firewall, y de puerto y protocolo, y los requisitos DNS constituye generalmente un proceso muy sencillo si ha planificado o implementado Servidores perimetrales deMicrosoft Lync Server 2013. Como la federación es una característica adicional que usa Servidor perimetral actual, los requisitos de planificación se cumplen generalmente por parte de la planificación y la implementación de Servidor perimetral. Use las tablas siguientes para determinar si se cumplen los requisitos, y realizar los cambios en el puerto o el protocolo y en el DNS según convenga.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si tiene un grupo de Servidores perimetrales y establece relaciones de federación con los socios de Lync Server 2013 o Lync Server 2010, puede usar el equilibrio de carga de DNS y los equilibradores de carga de hardware en las partes internas y externas de Servidores perimetrales. Si establece relaciones de federación con Office Communications Server 2007 o Office Communications Server 2007 R2, el equilibrio de carga de hardware ofrecerá asistencia de conmutación por error en el caso de un Servidor perimetral. El equilibrio de carga de DNS de Office Communications Server 2007 y Office Communications Server 2007 R2 no es consciente del equilibrio de carga de DNS. El socio Servidores perimetrales establecerá comunicación con el primer Servidor perimetral de su grupo. Si este Servidor perimetral genera errores, la comunicación no se conmutará automáticamente por error.
 
 

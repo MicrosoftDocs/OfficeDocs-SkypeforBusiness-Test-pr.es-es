@@ -17,14 +17,14 @@ _**Última modificación del tema:** 2016-12-08_
 
 La separación de roles y responsabilidades entre los administradores de servidor y los de SQL Server puede ocasionar retrasos en la implementación. Lync Server 2013 usa el control de acceso basado en roles (RBAC) para atenuar estas dificultades. En algunos casos, el administrador de SQL Server tiene que administrar la instalación de las bases de datos en el servidor de SQL Server independientemente de RBAC. Shell de administración de Lync Server 2013 permite al administrador de SQL Server ejecutar los cmdlets de Windows PowerShell diseñados para configurar bases de datos con los archivos de datos y de registro correctos. Para más información, consulte [Permisos de implementación para SQL Server en Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > El siguiente procedimiento presupone que, como mínimo, están instalados Microsoft SQL Server 2012 ADOMD.NET, CLR Types for Microsoft SQL Server 2012, CLR Types for Microsoft SQL Server 2012, SQL Server Native Client (sqlncli.msi) y OCSCore.msi de Lync Server 2013. OCSCore.msi está ubicado en el medio de instalación en el directorio \Setup\AMD64\Setup. El resto de los componentes se encuentran en \Setup\amd64. Además, la preparación de Active Directory para Lync Server 2013 se ha realizado correctamente.
 
 
 
 **Install-CsDatabase** es el cmdlet de Windows PowerShell que debe usar para instalar las bases de datos. El cmdlet **Install-CsDatabase** tiene una gran cantidad de parámetros, aquí solo se analizan algunos. Para más información sobre los posibles parámetros, consulte la documentación de Shell de administración de Lync Server 2013.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Para evitar problemas de rendimiento y posibles tiempos de espera, debe usar siempre nombres de dominio completos (FQDN) cuando hace referencia a servidores de SQL Server. Evite usar referencias de solo nombre de host. Por ejemplo, use sqlbe01.contoso.net, pero evite usar SQLBE01.
 
 

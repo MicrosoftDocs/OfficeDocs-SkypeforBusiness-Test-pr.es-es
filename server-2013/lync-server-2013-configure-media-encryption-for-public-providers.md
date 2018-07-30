@@ -19,7 +19,7 @@ Para más información sobre los requisitos de licencia y sobre cómo completar 
 
 Si va a implementar una federación de audio y vídeo (A/V) con Windows Live Messenger, debe modificar dos parámetros: el nivel de cifrado de Lync Server y la directiva EnablePublicCloudAccess. De forma predeterminada, el nivel de cifrado está configurado en Requerido. Debe cambiar esta opción a Compatible. Si la directiva EnablePublicCloudAccess está definida en falso, debe definirse en **Verdadero** . Puede hacerlo desde el Shell de administración de Lync Server.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Más que nunca, Lync es una potente herramienta para la conexión entre organizaciones e individuos de todo el mundo. Aparte de la licencia de acceso de cliente (CAL) estándar de Lync, la federación con Windows Live Messenger no exige ninguna otra licencia de usuario o dispositivo adicional. El próximo año, la federación con Skype se agregará a esta lista, lo que les permitirá a los usuarios de Lync llegar a cientos de millones de personas con mensajería instantánea y telefonía.
 
 

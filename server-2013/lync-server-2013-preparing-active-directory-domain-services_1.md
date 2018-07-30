@@ -19,7 +19,7 @@ En Lync Server 2013  Asistente para la implementación de Lync Server, puede us
 
 La Asistente para la implementación de Lync Server sirve de guía en cada tarea de preparación de Active Directory. El Asistente para la implementación ejecuta cmdlets del Shell de administración de Lync Server. Esta herramienta es útil para los entornos con una topología de dominio único y bosque único u otra topología similar.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Puede implementar Lync Server en un bosque o un dominio donde los controladores de dominio ejecuten las versiones de 32 bits de algunos sistemas operativos (para ver los detalles, consulte <a href="lync-server-2013-active-directory-infrastructure-requirements.md">Requisitos de infraestructura de Active Directory para Lync Server 2013</a>). Sin embargo, no puede usar la Asistente para la implementación de Lync Server para ejecutar la preparación de dominios, bosques y esquemas en estos entornos, porque el Asistente para la implementación y los archivos de apoyo son solo de 64 bits. En su lugar, puede usar ldifde.exe y los archivos .ldf asociados en un controlador de dominio de 32 bits para preparar el esquema, el bosque y el dominio. Consulte la sección “Uso de Ldifde.exe”, más adelante en este tema.
 
 

@@ -23,7 +23,7 @@ La topología perimetral consolidada escalada de Lync Server 2013 se optimiza co
 
   - Conectividad con usuarios de mensajería instantánea pública
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > No se admite el uso del equilibrio de carga de DNS en una interfaz y del equilibrio de carga de hardware en otra. Debe utilizar el equilibrio de carga de hardware o de DNS en ambas interfaces.
 
 

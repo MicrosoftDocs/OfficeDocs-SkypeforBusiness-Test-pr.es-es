@@ -32,7 +32,7 @@ Cada Servidor Standard Edition o Servidor front-end necesita hasta cuatro certif
 
 Ejecute el procedimiento siguiente para solicitar, asignar e instalar los certificados de Servidor Standard Edition o de Servidor front-end. Repita el procedimiento por cada Servidor front-end.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > En el siguiente procedimiento se describe cómo configurar certificados desde una PKI de empresa interna implementada por su organización y sin necesidad de conexión para procesar solicitudes. Para más información sobre la obtención de certificados emitidos por una CA pública, vea <a href="lync-server-2013-certificate-requirements-for-internal-servers.md">Requisitos de certificado para Servidores internos en Lync Server 2013</a> en la documentación referente a la planeación. Asimismo, se describe cómo solicitar, asignar e instalar certificados durante la instalación del Servidor front-end. Si ya solicitó certificados por adelantado con el procedimiento descrito en la sección <a href="lync-server-2013-request-certificates-in-advance-optional.md">Solicitar los certificados con anterioridad (opcional) para Lync Server 2013</a> de esta documentación de implementación o si no usa una PKI de empresa interna implementada en su organización para obtener certificados, modifique este procedimiento según corresponda.
 
 

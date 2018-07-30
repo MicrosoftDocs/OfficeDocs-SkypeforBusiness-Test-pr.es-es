@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2016-12-08_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > La información de este tema sobre la planeación de la capacidad solo se aplica a los clientes de Lync 2010 Mobile y al servicio de movilidad (Mcx). La planeación de la capacidad para la API web de comunicaciones unificadas (UCWA), usada por los clientes móviles de Lync 2013, se proporciona en la Lync Server 2013, herramienta de planeación.
 
 
@@ -36,7 +36,7 @@ Para determinar los límites adecuados, antes debe determinar cuánta memoria ha
 
 Memoria total usada por el servicio de movilidad (Mcx) (MB) = 164 + (400 + 134) / 1024 \* **Recuento de sesiones actualmente activas con suscripciones de presencia activas** + 400 / 1024 \* (**Recuento de sesiones actualmente activas** – **Recuento de sesiones actualmente activas con suscripciones de presencia activas**)
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > La calculadora de capacidad de Microsoft Lync Server 2010 es una hoja de cálculo rellenada previamente con todas las fórmulas que permiten a una persona encargada de la planeación determinar los requisitos de los servidores, incluidas la CPU, la memoria y la unidad de disco duro. Puede descargar la hoja de cálculo y un documento asociado desde <a href="http://go.microsoft.com/fwlink/?linkid=212657" class="uri">http://go.microsoft.com/fwlink/?linkid=212657</a>
 
 

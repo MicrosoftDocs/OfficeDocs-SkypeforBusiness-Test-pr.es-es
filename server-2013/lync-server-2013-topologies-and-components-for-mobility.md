@@ -84,7 +84,7 @@ El Servidor perimetral puede ser un Servidor perimetral de Lync Server 2010.
 
 Una implementación de Lync Server 2013 en la que se hayan instalado las actualizaciones acumuladas para Lync Server 2013 de febrero de 2013 usará el servicio de movilidad Mcx y solo proporcionará servicios para Lync 2010 Mobile.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > El servicio de movilidad se admite en los Servidores front-end que se hayan colocado con el rol Servidor de mediación con dos interfaces de red, si bien se deben realizar los pasos necesarios para configurar ambas interfaces. Así, hay que asignar las direcciones IP a la interfaz concreta que se vaya a comunicar como Servidor de mediación, así como la dirección IP de interfaz de red que se vaya a comunicar como Servidor front-end. Esto se puede realizar en el Generador de topologías, seleccionando la dirección IP adecuada para cada servicio en lugar de usar la opción predeterminada <strong>Usar todas las direcciones IP configuradas</strong>.
 
 

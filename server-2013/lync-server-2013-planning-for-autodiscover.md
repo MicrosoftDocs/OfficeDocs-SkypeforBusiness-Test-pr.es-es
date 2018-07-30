@@ -26,7 +26,7 @@ Cuando se presentó la Detección automática en Lync Server 2010, fue necesario
 
 Puesto que Lync Server 2013 usa la Detección automática para todos los clientes, el escenario principal es usar exclusivamente HTTPS y crear certificados con lyncdiscover.\<dominio\> como parte de la configuración de los servidores proxy inversos, los Directores y los Servidores front-end. Si implementa la Detección automática en una implementación actualizada desde Lync Server 2010, le resultará conveniente usar HTTP para evitar la tarea de volver a emitir los certificados. En las siguientes secciones, se proporciona información sobre ambos escenarios.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > La lista de nombres alternativos del sujeto de los certificados usados por la regla de publicación de servicios web externos debe contener una entrada <em>lyncdiscover.&lt;dominiosip&gt;</em> para cada dominio SIP de su organización. Para obtener detalles acerca de las entradas de nombres alternativos del sujeto necesarias para los servidores proxy inversos, directores y front-end, consulte <a href="lync-server-2013-certificate-summary-autodiscover.md">Resumen del certificado: detección automática</a>.
 
 

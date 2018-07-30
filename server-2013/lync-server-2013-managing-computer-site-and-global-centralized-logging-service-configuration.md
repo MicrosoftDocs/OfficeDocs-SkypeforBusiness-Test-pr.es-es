@@ -40,7 +40,7 @@ Se puede definir un ámbito de un único equipo durante la ejecución de un coma
 
 Los ámbitos de sitio y global se definen en los cmdlets **New-**, **Set-** y **Remove-**Servicio de registro centralizado. En los siguientes ejemplos se muestra cómo establecer un ámbito de sitio y un ámbito global.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Los comandos mostrados pueden contener parámetros y conceptos tratados en otras secciones. Los comandos de ejemplo pretenden mostrar el uso del parámetro <strong>–Identity</strong> para definir el ámbito, y los demás parámetros se incluyen para completar la información y para especificar el ámbito. Para obtener más información sobre los cmdlets de <strong>Set-CsClsConfiguration</strong>, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</a> en la documentación sobre operaciones.
 
 

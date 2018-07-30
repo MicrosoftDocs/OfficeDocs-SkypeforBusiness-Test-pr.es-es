@@ -27,7 +27,7 @@ Para ver más detalles, consulte la documentación del Shell de administración 
 
   - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Una directiva entre sitios de red <em>solo</em> se necesita si hay un vínculo cruzado directo entre dos sitios de red.
 
 

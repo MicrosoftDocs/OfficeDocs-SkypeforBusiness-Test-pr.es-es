@@ -15,17 +15,17 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2012-09-24_
 
-La directiva de correo de voz hospedado *global* se instala con Lync Server 2013. Puede modificarla para adaptarla a sus necesidades, pero no puede cambiarle el nombre ni eliminarla. Para modificar la directiva global, use el cmdlet set-cshostedvoicemailpolicy para asignar los valores pertinentes a los parámetros de una determinada implementación.
+La directiva de correo de voz hospedado *global* se instala con Lync Server 2013. Puede modificarla para adaptarla a sus necesidades, pero no puede cambiarle el nombre ni eliminarla. Para modificar la directiva global, use el cmdlet Set-CsHostedVoicemailPolicy para asignar los valores pertinentes a los parámetros de una determinada implementación.
 
-Para ver los detalles sobre el cmdlet [set-cshostedvoicemailpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy), consulte la documentación de Shell de administración de Lync Server.
+Para ver los detalles sobre el cmdlet [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy), consulte la documentación de Shell de administración de Lync Server.
 
 ## Para modificar una directiva global de correo de voz hospedado
 
 1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
 
-2.  Ejecute el cmdlet set-cshostedvoicemailpolicy para establecer los parámetros de la directiva global del entorno. Por ejemplo, ejecute lo siguiente:
+2.  Ejecute el cmdlet Set-CsHostedVoicemailPolicy para establecer los parámetros de la directiva global del entorno. Por ejemplo, ejecute lo siguiente:
     
-        set-cshostedvoicemailpolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
+        Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     
     Como este comando no especifica el parámetro Identity de la directiva, Interfaz de la línea de comandos Windows PowerShell establece los valores siguientes en la directiva global de correo de voz hospedado:
     
@@ -40,5 +40,5 @@ Para ver los detalles sobre el cmdlet [set-cshostedvoicemailpolicy](https://docs
     
         $a = Get-CsHostedVoicemailPolicy
         $a.Organization += ",corp3.litwareinc.com"
-        set-cshostedvoicemailpolicy -Organization $a.Organization
+        Set-CsHostedVoicemailPolicy -Organization $a.Organization
 

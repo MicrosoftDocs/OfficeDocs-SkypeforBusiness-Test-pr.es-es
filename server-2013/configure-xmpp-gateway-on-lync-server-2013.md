@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2013-10-28_
 
 Los últimos pasos para migrar la puerta de enlace XMPP consisten en configurar los certificados del servidor perimetral de Lync Server 2013, implementar la puerta de enlace XMPP de Lync Server 2013 y actualizar los registros de DNS para la misma. Estos pasos deben realizarse paralelamente para minimizar el tiempo de inactividad de la puerta de enlace XMPP. Antes de realizar estos pasos, es necesario mover a todos los usuarios a la implementación de Microsoft Lync Server 2013.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > La federación XMPP no es compatible para usuarios alojados en aplicaciones de sucursal con funciones de supervivencia. Esto se aplica a la visualización de información de presencia y al intercambio de mensajes instantáneos.
 
 

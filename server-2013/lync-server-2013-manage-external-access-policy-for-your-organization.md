@@ -25,7 +25,7 @@ De forma predeterminada, no hay ninguna directiva configurada para admitir el ac
 
   - **Directiva de usuario**   Puede crear y configurar uno o varias directivas de sitio para limitar la compatibilidad de acceso de usuarios remotos a sitios específicos. La configuración de la directiva de usuario reemplaza la directiva global y la directiva de sitio, pero solo para los usuarios específicos a quienes se le asigna la directiva de sitio. Por ejemplo, si se habilita el acceso de usuarios remotos en la directiva global y en la directiva de sitio, puede especificar una directiva de usuario que deshabilite el acceso de usuarios remotos y luego asigne esa directiva de usuario a un usuario específico. Si crea una directiva de sitio, debe aplicarla a uno o más usuarios antes de que se haga efectiva.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > La configuración de directiva de Lync Server que se aplica en un nivel de directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La precedencia de directiva de Lync Server es esta: la directiva de usuario (de mayor influencia) invalida una directiva de sitio, y una directiva de sitio invalida una directiva global (de menor influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto.
 
 

@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2012-09-10_
 
 Estacionamiento de llamadas es una característica de administración de llamadas que se instala de forma predeterminada al implementar Telefonía IP empresarial. En este tema se explica qué elementos deben existir para poder configurar Estacionamiento de llamadas, así como los derechos de usuario que se necesitan para llevar a cabo tareas de configuración.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > No se realiza copia de seguridad de los archivos de música en espera personalizados para Aplicación de estacionamiento de llamadas como parte del proceso de recuperación ante desastres de Lync Server 2013 y los archivos se perderán si se dañan o se borran los archivos cargados al grupo de servidores. Conserve siempre una copia de seguridad independiente de los archivos de música en espera personalizados que ha cargado para Estacionamiento de llamadas.
 
 

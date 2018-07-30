@@ -35,7 +35,7 @@ Desde el servidor front-end en la implementación de Lync Server 2013, abra el P
 
 ![Cuadro de diálogo Seleccionar dirección URL](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Cuadro de diálogo Seleccionar dirección URL")
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > En Lync Server 2013, debe actualizar Silverlight a la versión 5 de Silverlight antes de usar el Panel de control de Lync Server.
 
 

@@ -74,7 +74,7 @@ Para facilitar la conmutación por error, este registro CNAME debe actualizarse 
 
   - OCSServices.\<domain\>
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si quiere consultar procedimientos detallados de administración y gestión, vea <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">Copia de seguridad y restauración de Lync Server 2013</a>.
 
 

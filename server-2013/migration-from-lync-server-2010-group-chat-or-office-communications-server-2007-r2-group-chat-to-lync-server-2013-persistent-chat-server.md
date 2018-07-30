@@ -17,12 +17,12 @@ _**Última modificación del tema:** 2012-10-06_
 
 Los temas de esta sección sirven de orientación para el proceso de migración de un Lync Server 2010, chat en grupo o de un Chat en grupo de Office Communications Server 2007 R2 a un Servidor de chat persistente de Lync Server 2013. Si su intención es que la implementación de Lync Server 2013, Servidor de chat persistente coexista con una implementación de Lync Server 2010, chat en grupo o de un Chat en grupo de Office Communications Server 2007 R2, esta guía también incluye información esencial para el funcionamiento en este entorno mixto. Esta guía se centra principalmente en la migración de datos del Servidor de chat persistente. Para aquellos usuarios que migran de versiones heredadas de Lync Server a Lync Server 2013, consulte [Migrar Lync Server 2010 a Lync Server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) y [Migrar de Office Communications Server 2007 R2 a Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md).
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Este tema supone que tiene instalado Lync Server 2013 en coexistencia con Lync Server 2010 o Office Communications Server 2007 R2.
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > En este documento se explican los pasos que se suelen requerir para realizar cada fase de la migración. No se aborda cada topología de implementación heredada posible ni cada escenario de migración posible. Por lo tanto, puede que no tenga que realizar cada paso que se describe o que deba realizar más pasos, en función de la implementación. En este documento también se proporcionan ejemplos de pasos de comprobación que le permitirán comprender lo que debe buscar para asegurarse de que cada fase se complete correctamente a medida que avanza en la migración. Adapte estos pasos de comprobación a su proceso de migración específico.
 
 

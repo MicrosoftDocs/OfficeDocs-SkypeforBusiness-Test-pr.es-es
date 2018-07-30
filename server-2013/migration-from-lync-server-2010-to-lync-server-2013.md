@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2012-09-17_
 
 Los temas de esta sección le guían a lo largo de este proceso de migración de Lync Server 2010 a Lync Server 2013.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Este documento describe los pasos generalmente necesarios para llevar a cabo cada fase de migración. No aborda cada posible topología de implementación heredada ni cada posible escenario de migración. Por lo tanto, dependiendo de su implementación, es posible que no necesite realizar cada paso descrito o bien es posible que necesite realizar pasos adicionales. Este documento también ofrece ejemplos de pasos de verificación. Estos pasos de verificación se ofrecen para ayudarle a entender lo que necesita buscar para garantizar que cada fase se finaliza correctamente mientras progresa a lo largo de su migración. Individualice estos pasos de verificación para su proceso de migración particular.
 
 

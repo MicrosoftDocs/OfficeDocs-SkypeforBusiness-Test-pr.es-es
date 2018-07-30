@@ -21,7 +21,7 @@ Skype Empresarial provides a new user experience that is based on the Skype cons
 
 Lync Server 2013 supports the new Skype Empresarial client experience as well as the Lync client experience. As an administrator, you can choose the preferred client experience for your users. For example, you might want to deploy the Lync client experience until users in your organization are fully trained in the new Skype Empresarial experience. Or, if you have not yet upgraded all users to Skype Empresarial Server 2015, you might want all users to have the same client experience until all are upgraded to the new server.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > If your organization has both Skype Empresarial Server 2015 and Lync Server 2013 deployed, the default client experience will differ depending on server versions and UI settings. When users launch Skype Empresarial for the first time, they will always see the Skype Empresarial user interface--even if you have selected the Lync user interface. After several minutes, users are asked to switch to Lync mode. For more information, see <strong>First launch client behavior</strong> later in this topic.
 
 

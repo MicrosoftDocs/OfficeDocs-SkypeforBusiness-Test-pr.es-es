@@ -63,7 +63,7 @@ Puede combinar un recurso compartido de archivos con las bases de datos, como se
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Aunque se admite la combinación de las bases de datos, el tamaño de estas puede crecer rápidamente. Por ejemplo, si considera la combinación de la base de datos de archivado con otras bases de datos, tenga en cuenta que si va a archivar los mensajes de más de unos pocos usuarios, el espacio en disco que necesita la base de datos de archivado puede aumentar considerablemente. Por este motivo, no se recomienda la combinación de varias bases de datos, especialmente la base de datos de archivado, la base de datos de Chat persistente y la base de datos de cumplimiento de Chat persistente con la base de datos back-end.
 
 

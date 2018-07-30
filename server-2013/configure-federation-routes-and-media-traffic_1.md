@@ -19,7 +19,7 @@ La federación es una relación de confianza entre dos o más dominios SIP que p
 
 Utilice los procedimientos que se describen a continuación para realizar la transición de la ruta de federación y la ruta de tráfico de medios del servidor perimetral y el director de Office Communications Server 2007 R2 al servidor perimetral de Lync Server 2013, para una implementación en un único sitio.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Para cambiar la ruta de federación y la ruta de tráfico de medios, debe programar el tiempo de inactividad por mantenimiento para los servidores perimetrales de Lync Server 2013 y Office Communications Server 2007 R2. Este proceso de transición también implica que el acceso federado no estará disponible durante la interrupción. Debe programar el tiempo de inactividad para un período en el que se prevé una actividad mínima de los usuarios. También debe notificar esta acción a los usuarios finales con antelación suficiente. Planee esta interrupción como corresponda y defina las expectativas adecuadas en la organización.
 
 
@@ -32,7 +32,7 @@ Utilice los procedimientos que se describen a continuación para realizar la tra
 > </ul>
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si su federación XMPP se enruta mediante un servidor perimetral de Lync Server 2013, los usuarios del Office Communications Server 2007 R2 heredado no podrán comunicarse con el socio federado XMPP hasta que todos los usuarios se hayan trasladado a Lync Server 2013, se hayan configurado los certificados y las directivas de XMPP, se haya configurado el socio federado XMPP en Lync Server 2013 y, por último, se hayan actualizado las entradas de DNS.
 
 

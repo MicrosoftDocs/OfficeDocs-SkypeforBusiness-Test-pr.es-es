@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2015-03-09_
 
 Los temas de esta sección ofrecen procedimientos paso a paso para configurar las opciones de usuario que puede realizar a través de la página con el Panel de control de Lync Server 2013.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > No puede usar Panel de control de Lync Server para administrar usuarios que son miembros del grupo Administradores de dominio de Active Directory. Para los usuarios Administradores de dominio, puede usar Panel de control de Lync Server solamente para realizar operaciones de búsqueda de solo lectura. Para efectuar operaciones de escritura en usuarios de Administradores de dominio (por ejemplo, habilitar o deshabilitar para Panel de control de Lync Server, cambiar asignaciones de grupo o directiva, configuración de telefonía, dirección SIP), es preciso que use los cmdlets de Windows PowerShell mientras esté registrado como usuario Administrador de dominio. Para obtener detalles sobre cómo usar los cmdlets de Windows PowerShell con el fin de administrar usuarios, consulte <a href="lync-server-2013-lync-server-management-shell.md">Shell de administración de Lync Server</a>.
 
 

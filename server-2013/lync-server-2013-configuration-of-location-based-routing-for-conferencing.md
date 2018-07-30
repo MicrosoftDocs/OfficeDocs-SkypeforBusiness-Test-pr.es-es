@@ -47,7 +47,7 @@ New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com
 
 Después de usar este cmdlet, reinicie todos los servidores front-end del grupo o los servidores Standard Edition en los que esté habilitada la aplicación de conferencias con enrutamiento basado en ubicación.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > El cumplimiento del enrutamiento basado en ubicación por parte de las conferencias o las transferencias consultivas no se exigirá hasta que se reinicien todos los servidores front-end de los grupos o servidores Standard Edition correspondientes. Si configura <strong>–Critical</strong> como <strong>$true</strong> en los cmdlets anteriores, los servicios de Lync se reiniciarán de inmediato. Si no quiere que estos servicios se reinicien inmediatamente, configure <strong>–Critical</strong> como <strong>$false</strong> de momento y, luego, utilice <strong>Set-CsServerApplication</strong> para cambiar <strong>-Critical</strong> a <strong>$true</strong> más adelante, después de reiniciarse los servicios.
 
 

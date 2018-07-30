@@ -71,7 +71,7 @@ Estos archivos pueden verse mediante Internet Explorer, Visual Studio o con cual
 
 Las transacciones sintéticas ejecutadas desde System Center Operations Manager generarán automáticamente estos archivos de registro de error. Sin embargo, estos registros no se generarán si se produce un error en la ejecución antes de que Windows PowerShell pueda cargar y ejecutar la transacción sintética.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > De forma predeterminada, Lync Server 2013 guarda los archivos de registro en una carpeta no compartida. Para que estos registros estén disponibles, deberá compartir esta carpeta (por ejemplo, \\atl-watcher-001.litwareinc.com\WatcherNode.
 
 

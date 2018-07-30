@@ -33,7 +33,7 @@ Antes de migrar los grupos de respuesta, debe implementar un grupo de servidores
 
 Para migrar grupos de respuesta de un grupo heredado a Lync Server 2013, ejecute el cmdlet **Move-CsRgsConfiguration**.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > El cmdlet para la migración de Grupo de respuesta traslada la configuración de Grupo de respuesta de todo el grupo de servidores. No es posible seleccionar grupos, colas o flujos de trabajo específicos para la migración.
 
 
@@ -47,7 +47,7 @@ Al migrar grupos de respuesta, no se quitan los grupos de respuesta de Lync Serv
 
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Recomendamos que no quite ningún dato de la implementación anterior hasta retirar el grupo. Además, le recomendamos encarecidamente que exporte los grupos de respuesta inmediatamente después de la migración. Si se debe quitar un grupo de respuesta de Lync Server 2010, puede entonces restaurar los grupos de respuesta desde la copia de seguridad para volver a ejecutar los grupos de respuesta de Lync Server 2013.
 
 

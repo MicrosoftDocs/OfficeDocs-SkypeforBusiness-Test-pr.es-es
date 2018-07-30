@@ -27,7 +27,7 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 Si definió la topología perimetral cuando definió y publicó la topología interna y no es necesario modificarla, no tendrá que volver a definirla y publicarla. Use el procedimiento siguiente solo si debe realizar cambios en la topología perimetral. Deberá poner la topología definida y publicada previamente disponible para los servidores perimetral mediante el procedimiento descrito en [Exportar la topología de Lync Server 2013 y copiarla en un medio externo para la instalación perimetral](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > No se puede ejecutar Generador de topologías desde un servidor perimetral. Debe ejecutarlo desde un servidor front-end o servidores Standard Edition.
 
 

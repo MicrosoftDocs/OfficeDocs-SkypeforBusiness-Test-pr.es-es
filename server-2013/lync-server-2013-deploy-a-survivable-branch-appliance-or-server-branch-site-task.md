@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2014-10-28_
 
 Realice uno de los dos procedimientos descritos en este tema en la sucursal, después de completar correctamente las tareas indicadas en [Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia - Tareas de sitio central con Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Para llevar a cabo este procedimiento, debe ser miembro del grupo RTCUniversalSBATechnicians.
 
 

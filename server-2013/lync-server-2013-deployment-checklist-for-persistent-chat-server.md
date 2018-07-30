@@ -116,7 +116,7 @@ En la tabla siguiente se muestran los pasos básicos para implementar el Servido
 </table>
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Puede implementar uno o varios Grupos de servidores de chat persistente. Admitimos el uso de varios Grupos de servidores de chat persistente con fines de cumplimiento de normativas, cuando los datos generados en una región determinada deben permanecer en esa región. Por ejemplo, si implementa un Grupo de servidores de chat persistente en Chicago y otro en Zurich para cumplir con las normativas de datos de Suiza, los usuarios podrán conectarse con salones de ambos Grupos de servidores de chat persistente, siempre que tengan acceso.
 
 

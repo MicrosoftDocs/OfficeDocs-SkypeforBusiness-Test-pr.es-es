@@ -35,7 +35,7 @@ En los siguientes pasos, se describe cómo crear una configuración de servicios
 
 3.  Desde la línea de comandos del Shell de administración de Lync Server, cree una nueva configuración de servicios web para cada Director, grupo de servidores Enterprise y servidor Standard Edition que estará habilitado para la autenticación pasiva. Para crearla, ejecute este comando:
     
-        new-cswebserviceconfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     
     > [!WARNING]  
     > El valor del FQDN WsFedPassiveMetadataUri FQDN es el Nombre del servicio de federación de su servidor AD FS 2.0. El valor de Nombre del servicio de federación se puede consultar en la consola de administración de AD FS 2.0 al hacer clic en <strong>Servicio</strong> en el panel de navegación y, luego, elegir <strong>Editar propiedades del servicio de federación</strong>.

@@ -19,7 +19,7 @@ La preparación del bosque crea la configuración global y los objetos de Active
 
 La preparación del bosque también crea objetos que contienen conjuntos de propiedades y especificadores de presentación que usa Lync Server 2013, y los almacena en el contenedor de configuración.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Asegúrese de que los cambios efectuados durante la preparación del esquema se han replicado en todos los controladores de dominio antes de realizar el procedimiento de preparación del bosque. Si la replicación no se ha completado, se produce un error.
 
 

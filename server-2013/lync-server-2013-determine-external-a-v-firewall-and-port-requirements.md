@@ -143,7 +143,7 @@ Si las directivas requieren definiciones de reglas de firewall tanto entrantes c
 </table>
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Microsoft Office Communications Server 2007 requiere una configuración ligeramente diferente. El intervalo de puertos TCP y UDP de 50.000 a 59.999 debe tener la entrada y la salida abiertas. Este requisito solo se aplica a Office Communicator 2007. Office Communications Server 2007 R2, Lync Server 2010 y Lync Server 2013 solo requieren la salida abierta del intervalo de TCP de 50.000 a 59.999.
 
 
@@ -154,7 +154,7 @@ NAT suele ser una función de enrutamiento, pero los dispositivos más recientes
 
 El Lync Server 2013  software de comunicaciones no admite NAT para tráfico procedente de la interfaz perimetral interna ni hacia ella, pero para la interfaz perimetral externa, se requiere el siguiente comportamiento de NAT.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Debe configurar NAT simétrico para el tráfico entrante y saliente. NAT simétrico es la tecnología NAT descrita en este tema.
 
 

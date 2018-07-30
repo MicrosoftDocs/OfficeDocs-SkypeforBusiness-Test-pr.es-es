@@ -19,7 +19,7 @@ Para implementar Lync Server 2013 correctamente, necesitará Windows PowerShell 
 
 En los sistemas que ejecutan Windows Server 2012 o Windows Server 2012 R2, no necesita hacer nada aquí y puede ir a la siguiente fase de implementación, porque PowerShell 3.0 está incluido en esos sistemas operativos.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > En el caso de sistemas que ejecutan Windows Server 2008 R2 SP1, tendrá que instalar PowerShell 3.0 como requisito previo antes de instalar Lync Server 2013 o no funcionará. Para instalar PowerShell 3.0, vea <a href="http://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3.0</a>. Este es un vínculo directo a la página de descarga de PowerShell 3.0, junto con la información relativa a su correcta instalación.
 
 

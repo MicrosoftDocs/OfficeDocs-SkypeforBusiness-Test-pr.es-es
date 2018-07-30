@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2016-04-06_
 
 En esta sección se resumen los puertos y los protocolos que usan los servidores, los equilibradores de carga y los clientes, en una implementación de Lync Server.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Cuando los clientes de Lync y Communicator participan en una comunicación de uno a uno, este proceso se suele denominar “punto a punto”. Técnicamente, los dos clientes se comunican en una conversación de uno a uno, con la unidad de control multipunto de mensajería instantánea (IMMCU) en medio. La IMMCU es un componente de Servidor front-end. Si se sitúa la IMMCU en el flujo de trabajo de comunicación necesario, se permite el registro de detalles de las llamadas y otras características que habilita el Servidor front-end. La comunicación se lleva a cabo desde un puerto de origen dinámico del cliente al puerto TLS/TCP/5061 del Servidor front-end (suponiendo que se use la seguridad de la capa de transporte recomendada). Por motivos de diseño, la comunicación de punto a punto (así como la MI de varios participantes) solo es posible cuando Lync Server y la IMMCU están activos y disponibles.
 
 

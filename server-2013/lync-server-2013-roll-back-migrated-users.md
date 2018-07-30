@@ -33,7 +33,7 @@ Si tiene que revertir la característica de almacén de contactos unificado, rev
 > </ul>
 
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Antes de mover un buzón de Exchange de Exchange 2013 a Exchange 2010, el administrador de Exchange debe asegurarse de que el administrador de Lync Server ha revertido primero los contactos del usuario de Lync Server de Exchange 2013 a Lync Server. Para revertir los contactos del almacén de contactos unificado a Lync Server, consulte el procedimiento &quot;Para revertir los contactos del almacén de contactos unificado de Exchange 2013 a Lync Server 2013&quot; que aparece más adelante en esta sección.
 
 

@@ -23,7 +23,7 @@ El servicio perimetral de acceso, el servicio perimetral de conferencia web y el
 
   - Proxy inverso
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > No es necesario que el proxy inverso esté dedicado solo a servir a Lync Server 2013. Por ejemplo, puede proporcionar servicios para publicar los servicios web de Lync Server y simultáneamente proporcionar un sitio web publicado en otro sitio web que no tiene ninguna relación con Lync Server. Si ya dispone de un servidor proxy inverso en la red perimetral por compatibilidad con otros servicios, puede usarlo en Lync Server 2013.
 
 

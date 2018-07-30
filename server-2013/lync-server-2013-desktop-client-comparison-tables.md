@@ -33,7 +33,7 @@ En las tablas siguientes se comparan las características y prestaciones de clie
 
 Estas tablas indican cuáles son las características que los usuarios de Lync tienen a su disposición en una implementación local de Lync Server 2013. Las mismas características están también disponibles para los usuarios de Lync Online y Office 365 a menos que se indique lo contrario.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Consulte <a href="lync-server-2013-mobile-client-comparison-tables.md">Tablas de comparación de clientes móviles para Lync Server 2013</a> para obtener información detallada sobre la disponibilidad de funciones en clientes móviles de Lync 2013.
 
 

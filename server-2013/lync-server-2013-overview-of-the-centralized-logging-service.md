@@ -47,7 +47,7 @@ Cuando un usuario solicita una búsqueda de registros, ClsController determina a
 
 Cuando inicia una sesión de registro, especifica los escenarios relativos al problema que está intentando resolver. Puede tener dos escenarios en ejecución al mismo tiempo. Uno de los dos debe ser el escenario AlwaysOn. Como su nombre indica, siempre debe estar en ejecución en su implementación, recopilando información sobre todos los equipos, grupos y componentes.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > De forma predeterminada, el escenario AlwaysOn no se ejecuta en su implementación. Debe iniciarlo explícitamente. Una vez iniciado, continuará ejecutándose hasta que se detenga explícitamente, y el estado en ejecución persistirá aunque se reinicien los equipos. Para obtener más información sobre cómo iniciar y detener escenarios, consulte <a href="lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md">Uso de Inicio para el servicio de registro centralizado para los registros de captura</a> y <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Uso de Detener en el servicio de registro centralizado</a>.
 
 

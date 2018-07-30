@@ -222,7 +222,7 @@ En una implementación híbrida de Lync Server 2013, primero deberá crear en la
 
 Al sincronizar cuentas de usuario entre sus implementaciones de Lync local y en línea con AD FS y Dirsync, tiene que sincronizar las cuentas de AD para todos los usuarios de Lync de su organización entre sus implementaciones de Lync local y en línea, incluso si los usuarios no se mueven a Lync Online. Si no sincroniza todos los usuarios, puede ser que la comunicación entre los usuarios locales y en línea de su organización no funcione como se podría esperar.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Si el usuario se crea con el portal en línea de Office 365, la cuenta de usuario no se sincronizará con la implementación local de Active Directory de modo que el usuario no existirá en ella. Si ya tiene usuarios creados en Lync Online y desea configurar una híbrida con Lync Server local, vea <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Mover usuarios de Lync Online a Lync local en Lync Server 2013</a>.
 
 

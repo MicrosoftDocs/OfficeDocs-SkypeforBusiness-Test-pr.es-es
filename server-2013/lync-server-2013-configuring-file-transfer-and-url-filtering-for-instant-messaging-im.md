@@ -110,7 +110,7 @@ Puede filtrar transferencias de archivos durante conversaciones de mensajes inst
     
       - **Bloquear todo**   El servidor quita todos los mensajes instantáneos que incluyan solicitudes de transferencia de archivos y envía un mensaje de error al remitente de la solicitud. Se deshabilita la característica de documentos en el cliente de Office Live Meeting 2007.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > El filtrado de las extensiones de archivo se limita a los nombres de archivo estándar. Puede que el filtrado no funcione con las extensiones de archivo insertadas en otros nombres.
 
 

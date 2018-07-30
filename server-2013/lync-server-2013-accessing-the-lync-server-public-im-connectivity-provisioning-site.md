@@ -62,7 +62,7 @@ El proceso de aprovisionamiento para la conectividad entre Lync y Skype ha cambi
 <li><p>En la página <strong>Especificar información del aprovisionamiento</strong>, inserte el <strong>FQDN del servicio Access Edge</strong>. Por ejemplo, <strong>accessedge.contoso.com</strong>.</p></li>
 <li><p>Inserte al menos un dominio SIP y haga clic en <strong>Agregar</strong>.</p>
 <div class="alert">
-> [!WARNING]  
+> [!IMPORTANT]  
 > Se debe indicar, por lo menos, un servidor perimetral de acceso y un dominio SIP para completar el proceso de aprovisionamiento. El dominio SIP y el servidor perimetral de acceso deben estar activos, funcionar y ser accesibles en la red.
 
 
@@ -79,7 +79,7 @@ El proceso de aprovisionamiento para la conectividad entre Lync y Skype ha cambi
 <li><p>En la página <strong>Especificar información del aprovisionamiento</strong>, inserte el <strong>FQDN del servicio Access Edge</strong>. Por ejemplo, <strong>accessedge.contoso.com</strong>.</p></li>
 <li><p>Inserte al menos un dominio SIP y haga clic en <strong>Agregar</strong>.</p>
 <div class="alert">
-> [!WARNING]  
+> [!IMPORTANT]  
 > Se debe indicar, por lo menos, un servidor perimetral de acceso y un dominio SIP para completar el proceso de aprovisionamiento. El dominio SIP y el servidor perimetral de acceso deben estar activos, funcionar y ser accesibles en la red.
 
 
@@ -103,7 +103,7 @@ Para preparar el entorno de Lync Server para la conectividad entre Lync y Skype,
 
 La federación es necesaria para permitir a los usuarios de Skype que se comuniquen con los usuarios de Lync de su organización. Public Instant Messaging Connectivity (PIC), que es un tipo de federación, se debe configurar para que los usuarios de Lync se puedan comunicar con los usuarios de Skype. La federación y la PIC se configuran usando el panel de control de Lync Server, que verá abajo.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > La federación PIC ya no es compatible con Live Communication Server 2005 SP1 ni con Office Communications Server 2007. Las plataformas compatibles para la federación PIC incluyen Lync Server 2013, Lync Server 2010 y Office Communications Server 2007 R2.
 
 
