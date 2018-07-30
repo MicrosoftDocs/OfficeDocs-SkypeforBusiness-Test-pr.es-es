@@ -95,7 +95,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Verdadero</p></td>
 <td><p>SASL por TLS</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > La devolución de llamada no funcionará si SASL y TLS son obligatorios.
 
 
@@ -114,7 +115,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Verdadero</p></td>
 <td><p>SASL por TLS, Devolución de llamada TLS, Devolución de llamada TCP</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
 
 
@@ -126,7 +128,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Falso</p></td>
 <td><p>SASL por TLS</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
 
 
@@ -138,7 +141,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Verdadero</p></td>
 <td><p>Devolución de llamada TCP</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
 
 
@@ -149,13 +153,15 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Obligatorio</p></td>
 <td><p>Falso</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > La configuración no es válida
 
 
 </div></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > Como SASL requiere TLS y TLS no está disponible, la combinación SASL/TLS no es viable. La Devolución de llamada TCP se ha definido en False y, por tanto, no se puede utilizar.
 
 
@@ -181,7 +187,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Verdadero</p></td>
 <td><p>SASL por TLS, Devolución de llamada TLS, Devolución de llamada TCP</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
 
 
@@ -193,7 +200,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Falso</p></td>
 <td><p>SASL por TLS</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
 
 
@@ -205,7 +213,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Verdadero</p></td>
 <td><p>Devolución de llamada TCP</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
 
 
@@ -216,13 +225,15 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Opcional</p></td>
 <td><p>Falso</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > La configuración no es válida
 
 
 </div></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > SASL requiere TLS. Si se permite que TLS sea opcional, las negociaciones de sesión pueden fracasar.
 
 
@@ -241,7 +252,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Falso</p></td>
 <td><p>La configuración no es válida</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > Es necesario activar SASL o la devolución de llamada.
 
 
@@ -260,7 +272,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Falso</p></td>
 <td><p>La configuración no es válida</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > Es necesario activar SASL o la devolución de llamada.
 
 
@@ -279,7 +292,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <td><p>Falso</p></td>
 <td><p>La configuración no es válida</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > Es necesario activar SASL o la devolución de llamada.
 
 

@@ -53,7 +53,8 @@ Los requisitos de certificado para un único Director consisten en un certificad
 <td><p>dir01.contoso.net</p></td>
 <td><p>Sin entrada</p></td>
 <td><div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > Tenga en cuenta que la longitud de clave mínima es de 1.024, pero puede recibir una advertencia que la longitud de clave mínima recomendada es de 2.048 bits.
 
 
