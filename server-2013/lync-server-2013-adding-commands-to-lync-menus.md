@@ -72,7 +72,7 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <td><p>ApplicationType</p></td>
 <td><p>DWORD</p></td>
 <td><p>0 = Ejecutable (valor predeterminado)</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Requiere ApplicationInstallPath.
@@ -85,7 +85,7 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <td><p>ApplicationInstallPath</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Ruta de acceso completa del ejecutable.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Debe especificarse si ApplicationType es igual a 0 (ejecutable).

@@ -94,7 +94,8 @@ Cree uno de los siguientes registros DNS externos:
 <td><p>_sipfederationtls._tcp. <em>&lt;dominiosip&gt;</em></p>
 <p>Se resuelve en el registro host (A o AAAA) para el Servidor perimetral de acceso</p></td>
 <td><p>Para admitir Servicios de notificaciones de inserción y Servicios de notificaciones de inserción de Apple, cree un registro SRV para cada dominio SIP que tenga clientes de Microsoft Lync Mobile.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Este requisito se aplica solo a clientes de Microsoft Lync Mobile en Apple o en Microsoft basándose en dispositivos móviles. Los dispositivos Android y Nokia Symbian no usan notificaciones de inserción.
 

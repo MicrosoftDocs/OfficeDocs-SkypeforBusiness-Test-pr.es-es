@@ -47,7 +47,7 @@ Para confirmar que cumple los requisitos de certificados correctos para su imple
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Para admitir el espacio de nombres de XMPP contoso.com
@@ -55,7 +55,7 @@ Para confirmar que cumple los requisitos de certificados correctos para su imple
 
 </div>
 <p>sip.fabrikam.com</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Para admitir el espacio de nombres de SIP fabrikam.com
@@ -63,7 +63,7 @@ Para confirmar que cumple los requisitos de certificados correctos para su imple
 
 </div>
 <p>fabrikam.com</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Para admitir el espacio de nombres de XMPP fabrikam.com
@@ -76,7 +76,7 @@ Para confirmar que cumple los requisitos de certificados correctos para su imple
 <li><p>Servicio perimetral de conferencia web</p></li>
 <li><p>Servicio perimetral A/V</p></li>
 </ul>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Técnicamente, no se asigna un certificado al perímetro A/V. La comunicación y la autenticación seguras se administran con el servicio de autenticación de relé multimedia (MRAS). MRAS usa el certificado asignado a la interfaz interna de Servidor perimetral.

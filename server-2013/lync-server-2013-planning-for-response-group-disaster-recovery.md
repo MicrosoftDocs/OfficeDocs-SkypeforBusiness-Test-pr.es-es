@@ -105,7 +105,7 @@ Para obtener más información acerca de cómo realizar estos pasos, consulte [P
 <tr class="even">
 <td><p>Durante la interrupción</p></td>
 <td><p>Ejecute el cmdlet <strong>Import-CsRgsConfiguration</strong> para importar la configuración de Servicio de grupo de respuesta de Lync Server de copia de seguridad del grupo principal al grupo de copia de seguridad.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Use el parámetro –ReplaceExistingSettings si desea reemplazar la configuración de Grupo de respuesta de nivel de aplicación en el grupo de servidores de copia de seguridad con la configuración del grupo de servidores principal. Si no transfiere la configuración de nivel de aplicación desde el grupo de servidores principal al grupo de servidores de copia de seguridad, y no se puede recuperar el grupo de servidores principal, perderá la configuración del grupo de servidores principal.
@@ -118,7 +118,8 @@ Para obtener más información acerca de cómo realizar estos pasos, consulte [P
 <tr class="odd">
 <td><p>Después de importar</p></td>
 <td><p>Ejecute los cmdlets de Grupo de respuesta con el parámetro –ShowAll (para mostrar todos los grupos de respuesta) o el parámetro –Owner (para mostrar solo los grupos de respuesta importados) para comprobar que se importaron todas las configuraciones de grupo de respuesta al grupo de copia de seguridad:</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Si usa el parámetro –ShowAll o el parámetro –Owner, los grupos de respuesta que ha importado al grupo de servidores de copia de seguridad no se mostrarán en los resultados devueltos por los cmdlets.
 
@@ -142,7 +143,8 @@ Para obtener más información acerca de cómo realizar estos pasos, consulte [P
 <li><p>Todos los agentes formales deben iniciar sesión de nuevo en sus grupos formales en el grupo de copia de seguridad.</p></li>
 <li><p>Administrar los cambios de configuración:</p>
 <p>Los grupos de respuesta del grupo de servidores de copia de seguridad, ya sean importados para el grupo de copia de seguridad o que pertenecen al grupo de copia de seguridad, se pueden modificar de la forma habitual durante la interrupción.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Debe usar Shell de administración de Lync Server para administrar los grupos de respuesta que ha importado en el grupo de servidores de copia de seguridad. No puede usar Panel de control de Lync Server para administrar estos grupos de respuesta mientras se encuentran en el grupo de servidores de copia de seguridad.
 
@@ -161,7 +163,7 @@ Para obtener más información acerca de cómo realizar estos pasos, consulte [P
 <td><p>Después de la conmutación por recuperación</p></td>
 <td><ul>
 <li><p>Ejecutar el cmdlet <strong>Import-CsRgsConfiguration</strong> para importar los grupos de respuesta de vuelta al grupo principal.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Si el grupo de servidores principal no se puede recuperar e implementa un nuevo grupo de servidores para reemplazarlo, use el parámetro –ReplaceExistingSettings para transferir la configuración de nivel de aplicación del grupo de servidores de copia de seguridad al nuevo grupo de servidores. Si no transfiere la configuración del grupo de servidores de la copia de seguridad, el nuevo grupo de servidores usará la configuración predeterminada.

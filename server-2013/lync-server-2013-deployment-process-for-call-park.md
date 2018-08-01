@@ -38,7 +38,7 @@ En esta sección se describe de forma general el proceso necesario para implemen
 <tr class="odd">
 <td><p>Configurar los intervalos de órbitas del estacionamiento de llamadas en la tabla de órbitas</p></td>
 <td><p>Use el Panel de control de Lync Server o el cmdlet <strong>New-CSCallParkOrbit</strong> para crear los intervalos de órbitas en la tabla de órbitas de estacionamiento de llamadas y asócielos al Servicio de aplicaciones que hospeda la Aplicación de estacionamiento de llamadas.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > A fin de lograr una integración sin fisuras con los planes de marcado existentes, los intervalos de órbitas se suelen configurar como un bloque de extensiones virtuales. En la tabla de órbitas de estacionamiento de llamadas no se pueden asignar números de llamada directa a la extensión (DID) como números de órbita.
@@ -77,14 +77,14 @@ En esta sección se describe de forma general el proceso necesario para implemen
 <tr class="even">
 <td><p>Configurar la directiva de voz para habilitar el Estacionamiento de llamadas para los usuarios</p></td>
 <td><p>Use el Panel de control de Lync Server o el cmdlet <strong>Set-CSVoicePolicy</strong> con la opción <strong>EnableCallPark</strong> para habilitar el Estacionamiento de llamadas para los usuarios en la directiva de voz.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > De forma predeterminada, la aplicación Estacionamiento de llamadas está deshabilitada para todos los usuarios.
 
 
 </div>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Si existen varias directivas de voz, asegúrese de que la propiedad EnableCallPark se ha definido en todas ellas, no solo en la predeterminada.

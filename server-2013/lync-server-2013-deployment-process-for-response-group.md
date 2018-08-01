@@ -66,7 +66,7 @@ En esta sección se describe de forma general el proceso necesario para implemen
 </ol></li>
 <li><p>Opcionalmente, use Shell de administración de Lync Server para crear horas laborables y vacaciones para el grupo de respuesta predefinido.</p></li>
 <li><p>Use los cmdlets Herramienta de configuración de grupo de respuesta o Shell de administración de Lync Server para configurar flujos de trabajo (grupos de búsqueda o flujos de llamadas de respuesta de voz interactiva o IVR), con el horario laboral y los días de vacaciones de los grupos de respuesta.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Puede obtener acceso a la Herramienta de configuración de grupo de respuesta con Panel de control de Lync Server.

@@ -45,7 +45,7 @@ En la siguiente tabla se ofrece información general sobre los pasos necesarios 
 <tr class="odd">
 <td><p><strong>Instale el hardware y el software necesario como requisito previo</strong></p></td>
 <td><p>Las conferencias se ejecutan en Servidores front-end, en un Grupo de servidores front-end y en Servidores Standard Edition. No requiere ningún hardware o software adicional más allá de los necesarios para instalar estos servidores.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Lync Server 2013 usa Office Web Apps y el Servidor Office Web Apps para administrar el uso compartido y la representación de presentaciones de PowerPoint. Para obtener más información acerca de cómo instalar y configurar el Servidor Office Web Apps, consulte <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configuración de la integración de Office Web Apps Server y Lync Server 2013</A>.

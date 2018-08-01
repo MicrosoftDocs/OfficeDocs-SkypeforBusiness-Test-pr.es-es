@@ -1,4 +1,4 @@
-﻿---
+﻿lync-server-2013-choosing-a-topology---
 title: 'Lync Server 2013: Determinar los requisitos DNS'
 TOCTitle: Determinar los requisitos DNS
 ms:assetid: 95777017-6282-44c0-a685-f246af0501b4
@@ -94,7 +94,7 @@ Recomendamos que use la detección automática, en lugar de la detección manual
 
 ## Configuración de DNS de horizonte dividido con Lync Server
 
-El término DNS de horizonte dividido se conoce con varios nombres, por ejemplo, DNS dividido o DNS de partición de red. Sencillamente describe una configuración de DNS en la que existen dos zonas DNS con el mismo espacio de nombre, pero una zona DNS procesa solo las solicitudes internas y la otra solo las externas. No obstante, muchos de los registros SRV y registros A de DNS que contiene el DNS interno no se incluirán en el DNS externo, y viceversa. Además, en los casos en que el mismo registro DNS existe tanto en el DNS interno como en el externo (por ejemplo, www.contoso.com), la dirección IP devuelta será distinta, en función de dónde (en el interior o en el exterior) se realice la consulta DNS.
+El término DNS de horizonte dividido se conoce con varios nombres, por ejemplo, DNS dividido o DNS de partición de red. Sencillamente describe una configuración de DNS en la que existen dos zonas DNS con el mismo espacio de nombre, pero una zona DNS procesa solo las solicitudes internas y la otra solo las externas. No obstante, muchos de los registros SRV y registros A de DNS que contiene el DNS interno no se incluirán en el DNS externo, y viceversa. Además, en los casos en que el mismo registro DNS existe tanto en el DNS interno como en el externo (por ejemplo, www<span/>.contoso.com), la dirección IP devuelta será distinta, en función de dónde (en el interior o en el exterior) se realice la consulta DNS.
 
 > [!IMPORTANT]  
 > Actualmente, el DNS de horizonte dividido no es compatible con la movilidad o, más concretamente, con los registros DNS LyncDiscover y LyncDiscoverInternal. LyncDiscover tiene que definirse en un servidor DNS externo y LyncDiscoverInternal tiene que definirse en un servidor DNS interno.

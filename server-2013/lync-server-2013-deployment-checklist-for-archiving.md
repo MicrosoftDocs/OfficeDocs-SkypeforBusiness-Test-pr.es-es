@@ -59,7 +59,7 @@ La tabla siguiente proporciona una visión general de los pasos necesarios para 
 <li><p>Para utilizar la implementación de Microsoft Exchange (con Exchange 2013 para el almacén de archivado para algunos o todos los usuarios), necesitará una implementación de Exchange 2013 existente.</p></li>
 <li><p>Para usar bases de datos independientes (con bases de datos de SQL Server) para el almacén de archivado para algunos o todos los usuarios, necesitará SQL Server en el servidor que almacenará los datos de archivado.</p></li>
 </ul>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > El archivado se ejecuta en servidores front-end de un grupo de servidores Enterprise y en servidores Standard Edition. No hay ningún requisito adicional de hardware o de software aparte de los necesarios para instalar dichos servidores.

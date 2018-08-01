@@ -66,7 +66,7 @@ Para realizar una copia de seguridad de Lync Server, utilice las herramientas id
 </tr>
 <tr class="odd">
 <td><p>Todos los almacenes de archivos: almacén de archivos de Lync Server, almacén de archivos de archivado</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > No se deben hacer copias de seguridad de los archivos con el nombre <STRONG>Meeting.Active</STRONG>. Estos archivos se usan y bloquean cuando se desarrolla una reunión.
@@ -121,7 +121,7 @@ Para restaurar Lync Server, utilice las herramientas de la siguiente tabla. Todo
 </tr>
 <tr class="even">
 <td><p>Restaurar el puntero de Servicios de dominio de Active Directory en Almacén de administración central</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Si pierde el punto de conexión de servicio en cualquier momento, puede volver a ejecutar este cmdlet.
@@ -147,7 +147,7 @@ Para restaurar Lync Server, utilice las herramientas de la siguiente tabla. Todo
 <tr class="even">
 <td><p>Volver a instalar componentes de Lync Server</p></td>
 <td><p>Instalación de Lync Server</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Ubicado en el medio o la carpeta de instalación de Lync Server en \setup\amd64\Setup.exe.
@@ -166,7 +166,7 @@ Para restaurar Lync Server, utilice las herramientas de la siguiente tabla. Todo
 <tr class="odd">
 <td><p>Restaurar datos de configuración del grupo de respuesta (RgsConfig.mdf)</p></td>
 <td><p>Import-CsRgsConfiguration</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Si la configuración se está restaurando en un grupo recientemente implementado que aún no tiene datos del grupo de respuesta en la base de datos, debe usar la opción –OverwriteOwner. Use esta opción incluso si los datos se restauran en un grupo con el mismo nombre de dominio completo (FQDN). De lo contrario, la importación no se completará correctamente debido a que los objetos de contacto a los grupos de respuesta ya existirán en Active Directory.

@@ -52,7 +52,8 @@ Cuando se configura el Sistema de nombres de dominio (DNS) para la conectividad 
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Servidor perimetral de acceso interfaz externa necesaria para la detección de DNS automática de su federación a otros socios de federación potenciales y se conoce como “Dominios SIP permitidos” (denominado federación ampliada en versiones anteriores). Repetir las veces que sea necesario para todos los dominios SIP con usuarios habilitados en Lync</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Este registro SRV es necesario para la movilidad y la notificación de inserción clearinghouse. En los casos en que hay más de un dominio SIP, cree y publique un registro SRV para cada dominio que tendrá clientes de Lync Mobile. El Servicios de notificaciones de inserción y Servicios de notificaciones de inserción de Apple podrían no operar del modo esperado si no hay un registro SRV explícito para cada dominio SIP que admita la implementación.
 

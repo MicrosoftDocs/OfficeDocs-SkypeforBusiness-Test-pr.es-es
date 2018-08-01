@@ -189,7 +189,7 @@ En la siguiente tabla se describe la compatibilidad de Lync 2013 para distintas 
 <tr class="odd">
 <td><p>Exchange Server 2013</p></td>
 <td><p>Igual que la compatibilidad con Exchange Server 2010, más almacén de contactos unificado, imágenes en alta resolución e integración de archivado.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Para más información, consulte <A href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Integración de Microsoft Lync Server 2013 y Microsoft Exchange Server 2013</A>.

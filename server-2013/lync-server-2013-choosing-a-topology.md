@@ -211,7 +211,7 @@ Los principales aspectos a la hora de decantarse por una topología son la alta 
 
   - **Alta disponibilidad**   Si necesita una gran disponibilidad, implemente dos servidores perimetrales en un grupo como mínimo. Un solo grupo de servidores perimetrales admitirá un máximo de doce servidores perimetrales. En caso de que se requiera más capacidad, se pueden implementar varios grupos perimetrales. Como regla general, un 10% de una base de usuarios determinada necesitará acceso externo.
     
-    > [!IMPORTANT]  
+  > [!IMPORTANT]  
   > La Generador de topologías le permitirá configurar hasta veinte Servidores perimetrales en un solo Grupo de servidores perimetrales. El número máximo de Servidores perimetrales probados y admitidos en un grupo es doce y el hecho de que la Generador de topologías permita una cantidad mayor no debe interpretarse como la compatibilidad implícita con más de doce Servidores perimetrales en un solo Grupo de servidores perimetrales.
 
 

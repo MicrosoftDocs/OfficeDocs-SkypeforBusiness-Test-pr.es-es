@@ -61,7 +61,8 @@ El proceso de aprovisionamiento para la conectividad entre Lync y Skype ha cambi
 <li><p>En la página <strong>Iniciar una solicitud de aprovisionamiento</strong>, haga clic en el vínculo adecuado para iniciar la solicitud de aprovisionamiento:</p></li>
 <li><p>En la página <strong>Especificar información del aprovisionamiento</strong>, inserte el <strong>FQDN del servicio Access Edge</strong>. Por ejemplo, <strong>accessedge.contoso.com</strong>.</p></li>
 <li><p>Inserte al menos un dominio SIP y haga clic en <strong>Agregar</strong>.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Se debe indicar, por lo menos, un servidor perimetral de acceso y un dominio SIP para completar el proceso de aprovisionamiento. El dominio SIP y el servidor perimetral de acceso deben estar activos, funcionar y ser accesibles en la red.
 
@@ -78,7 +79,8 @@ El proceso de aprovisionamiento para la conectividad entre Lync y Skype ha cambi
 <li><p>En la página <strong>Iniciar una solicitud de aprovisionamiento</strong>, haga clic en el vínculo adecuado para iniciar la solicitud de aprovisionamiento:</p></li>
 <li><p>En la página <strong>Especificar información del aprovisionamiento</strong>, inserte el <strong>FQDN del servicio Access Edge</strong>. Por ejemplo, <strong>accessedge.contoso.com</strong>.</p></li>
 <li><p>Inserte al menos un dominio SIP y haga clic en <strong>Agregar</strong>.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Se debe indicar, por lo menos, un servidor perimetral de acceso y un dominio SIP para completar el proceso de aprovisionamiento. El dominio SIP y el servidor perimetral de acceso deben estar activos, funcionar y ser accesibles en la red.
 

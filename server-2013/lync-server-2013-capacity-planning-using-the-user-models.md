@@ -87,7 +87,7 @@ La tabla siguiente resume estas recomendaciones.
 <tr class="even">
 <td><p>Conferencia A/V</p></td>
 <td><p>El servicio Conferencia A/V proporcionado por un Grupo de servidores front-end admite las conferencias del grupo, asumiendo un tamaño máximo de conferencia de 250 usuarios y solo una conferencia grande al mismo tiempo.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Asimismo, puede admitir conferencias grandes de entre 250 y 1000 usuarios implementando un Grupo de servidores front-end diferente con dos Servidores front-end para hospedar las conferencias grandes. Para más información, consulte <A href="lync-server-2013-supporting-large-meetings.md">Compatibilidad para grandes reuniones mediante Lync Server 2013</A>.

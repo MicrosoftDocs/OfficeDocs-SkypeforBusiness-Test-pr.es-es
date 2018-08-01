@@ -53,7 +53,8 @@ Los requisitos de certificado para un Director con un equilibrador de carga de h
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>Sin entrada</p></td>
-<td><div class="alert">
+<td><div>
+
 > [!IMPORTANT]  
 > Tenga en cuenta que la longitud de clave mínima es de 1.024, pero puede recibir una advertencia que la longitud de clave mínima recomendada es de 2.048 bits.
 

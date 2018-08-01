@@ -42,7 +42,7 @@ Lync 2013 incorpora aceleración de hardware para la codificación y descodifica
 <li><p>La tarjeta gráfica debe admitir DirectX 9.0 y debe exponer el modo de descodificación DXVA2_ModeH264_VLD_NoFGT.</p></li>
 <li><p>Debe estar instalado el controlador de la tarjeta gráfica más reciente.</p></li>
 </ul>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Para obtener información sobre los modos de descodificación, vea <A href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</A>.
@@ -68,7 +68,7 @@ Lync 2013 incorpora aceleración de hardware para la codificación y descodifica
 <tr class="odd">
 <td><p>Codificación H.264 acelerada por hardware: requisitos de la cámara</p></td>
 <td><p>Cámaras de vídeo USB con codificador de hardware H.264 integrado que cumplan la especificación USB Video Class (UVC) versión 1.5.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Lync 2013 admite cámaras UVC 1.5 con Windows 8 o Windows 8.1, que incluye compatibilidad para UVC 1.5. Como Windows 7 no incluye compatibilidad para UVC 1.5, Lync 2013 trata las cámaras UVC 1.5 como cámaras normales sin compatibilidad para codificación de hardware.
@@ -82,7 +82,7 @@ Lync 2013 incorpora aceleración de hardware para la codificación y descodifica
 <li><p>La tarjeta gráfica debe admitir DirectX 9.0 y debe exponer el modo de descodificación DXVA2_ModeH264_VLD_NoFGT.</p></li>
 <li><p>Debe estar instalado el controlador de la tarjeta gráfica más reciente.</p></li>
 </ul>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Para obtener información sobre los modos de descodificación, vea <A href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</A>.
@@ -108,7 +108,7 @@ Lync 2013 incorpora aceleración de hardware para la codificación y descodifica
 <tr class="even">
 <td><p>Codificación H.264 acelerada por hardware: requisitos de la cámara</p></td>
 <td><p>Cámaras de vídeo USB con codificador de hardware H.264 integrado que cumplan la especificación USB Video Class (UVC) versión 1.5.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Lync 2013 admite cámaras UVC 1.5 con Windows 8 o Windows 8.1, que incluye compatibilidad para UVC 1.5. Como Windows 7 no incluye compatibilidad para UVC 1.5, Lync 2013 trata las cámaras UVC 1.5 como cámaras normales sin compatibilidad para codificación de hardware.
