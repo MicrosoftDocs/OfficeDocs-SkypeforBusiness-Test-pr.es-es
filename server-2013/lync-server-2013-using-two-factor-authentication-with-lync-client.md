@@ -69,7 +69,8 @@ Cuando haya terminado de usar Lync, podrá cerrar la pantalla, cerrar su sesión
 <tr class="even">
 <td><p>Cerrar sesión</p></td>
 <td><p>Finaliza la sesión de Lync asociada a su identificador de usuario, pero Lync continúa ejecutándose en segundo plano. Al cerrar la sesión, aparece la ventana de inicio de sesión.</p>
-<div class="alert">
+<div>
+
 > [!TIP]  
 > Seleccione <strong>Eliminar mi información de inicio de sesión</strong> al cerrar la sesión para quitar el registro de su identificador y contraseña de inicio de sesión de la memoria del equipo. De este modo debe resultar más fácil al equipo técnico ayudar a los usuarios a resolver problemas de inicio de sesión. También puede ayudar a garantizar que la información de inicio de sesión es más segura, ya que resulta más difícil para los usuarios no autorizados iniciar sesión con credenciales ajenas.
 

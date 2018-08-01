@@ -42,7 +42,7 @@ Una directiva de presencia es un conjunto de límites y restricciones que afecta
 <td><p>Número máximo de suscripciones a categorías de suscriptores</p></td>
 <td><p>Limita el número de suscripciones a categorías de suscriptores. Por ejemplo, cuando Communicator se suscribe a la presencia de un usuario, obtiene una suscripción de categoría por cada categoría de tarjeta de contacto, datos de calendario, notas, servicios y estado.</p>
 <p>Si el valor es 0, significa que no se puede suscribir al objeto de contacto o usuario.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Esta configuración puede influir en gran medida en el rendimiento si se configura con un número alto y cada usuario suele tener una gran cantidad de usuarios suscritos a su presencia.

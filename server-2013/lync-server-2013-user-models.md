@@ -240,7 +240,7 @@ En la siguiente tabla se describe el modelo de conferencia.
 <td><p>Combinación de medios para conferencias</p></td>
 <td><p>El 75 % de las conferencias son conferencias web, con audio más otras modalidades de colaboración.</p>
 <p>Para estas conferencias, los otros métodos de colaboración son los siguientes:</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Estas cifras suman más del 100 % porque una conferencia puede tener varios métodos de colaboración.

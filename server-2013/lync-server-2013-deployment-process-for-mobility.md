@@ -95,7 +95,7 @@ En esta sección se describe la secuencia de pasos necesarios para implementar l
 <li><p>Si desea admitir notificaciones de inserción a través de una red Wi-Fi, configure una regla de salida del firewall para el puerto TCP 5223.</p></li>
 <li><p>Use el cmdlet <strong>Set-CsPushNotificationConfiguration</strong> para habilitar notificaciones de inserción para el servicio de notificación de inserción de Apple (APNS) y el servicio de notificación de inserción de Microsoft (MPNS). Esta característica está deshabilitada de forma predeterminada.</p></li>
 <li><p>Use el cmdlet <strong>Test-CsFederatedPartner</strong> para probar la configuración de federación y el cmdlet <strong>Test-CsMCXPushNotification</strong> para probar las notificaciones de inserción.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Las notificaciones de inserción se usan para los clientes de Lync 2010 Mobile en dispositivos Apple y en Windows Phone<BR>La característica de notificación de inserción es necesaria para los clientes móviles de Lync 2013 solo en Windows Phone

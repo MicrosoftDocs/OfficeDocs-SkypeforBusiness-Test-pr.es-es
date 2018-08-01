@@ -151,7 +151,7 @@ Si prefiere una tabla que enumera los requisitos:
 <td><p>Acceso de usuarios anónimos a reuniones y conferencias</p></td>
 <td><p></p></td>
 <td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Asignar directivas de conferencia para admitir usuarios anónimos en Lync Server 2013</a></p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > También debe tener en cuenta los siguientes valores de configuración bajo las directivas de conferencia: <A href="lync-server-2013-create-or-modify-a-conferencing-policy.md">Creación o modificación de una directiva de conferencia en Lync Server 2013</A> y <A href="lync-server-2013-conferencing-policy-settings-reference.md">Referencia de configuración de directivas de conferencias en Lync Server 2013</A>

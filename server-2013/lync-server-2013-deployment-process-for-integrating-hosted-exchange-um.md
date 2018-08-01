@@ -80,7 +80,7 @@ En la tabla siguiente se proporciona información general del proceso de integra
 <li><p>Cree objetos de contacto de acceso de suscriptor para la mensajería unificada hospedada de Exchange.</p></li>
 </ol></td>
 <td><p>RTCUniversalUserAdmins</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Para crear, modificar o quitar objetos de contacto, el usuario que ejecuta el cmdlet New-CsExUmContact, Set-CsExUmContact o Remove-CsExUmContact debe tener el permiso correcto para la unidad organizativa de Active Directory donde están almacenados los nuevos objetos de contacto. Este permiso se obtiene si se ejecuta el cmdlet Grant-CsOUPermission. Para más información, vea la documentación del Shell de administración de Lync Server.

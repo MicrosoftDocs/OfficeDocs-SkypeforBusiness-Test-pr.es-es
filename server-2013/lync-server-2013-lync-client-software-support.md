@@ -43,7 +43,7 @@ La siguiente tabla contiene los requisitos de hardware y software mínimos para 
 <p>Windows 8</p>
 <p>Sistema operativo Windows 7</p>
 <p>Windows Server 2008 R2 con el Service Pack más reciente</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Lync 2013 y Complemento para conferencia en línea para Lync 2013 no son compatibles en Windows Vista ni Windows XP (en ninguna versión).
@@ -62,7 +62,7 @@ La siguiente tabla contiene los requisitos de hardware y software mínimos para 
 <p>Internet Explorer 8</p>
 <p>Explorador Internet Explorer 7</p>
 <p>Explorador web Mozilla Firefox</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Si está usando Lync con Microsoft Exchange Online y su organización implementó un proxy HTTP de autenticación, se requiere Internet Explorer 9 o Internet Explorer 8.
