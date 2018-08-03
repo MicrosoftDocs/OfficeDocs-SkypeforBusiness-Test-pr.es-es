@@ -49,7 +49,7 @@ Use este procedimiento para visualizar los resultados de análisis que el Analiz
         
 
         > [!NOTE]
-        > El Analizador de procedimientos recomendados crea la lista de archivos locales de la carpeta <EM>&lt;systemDrive&gt;</EM>\Documents and Settings\<EM>&lt;user&gt;</EM>\Application Data\Microsoft\RtcBPA.
+        > El Analizador de procedimientos recomendados crea la lista de archivos locales de la carpeta <EM>&lt;systemDrive&gt;</EM>\Documents and Settings\\<EM>&lt;user&gt;</EM>\Application Data\Microsoft\RtcBPA.
 
     
       - Para ver los informes de resultados de un análisis que están almacenados en otra ubicación, haga clic en **Importar análisis**, busque el archivo que contiene los resultados del análisis y haga clic en **Abrir**.

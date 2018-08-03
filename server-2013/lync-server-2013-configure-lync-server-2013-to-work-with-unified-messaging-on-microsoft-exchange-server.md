@@ -41,8 +41,7 @@ Al ejecutar la utilidad de integración de Mensajería unificada de Exchange, se
     > [!IMPORTANT]  
     > Si está usando una versión de Exchange anterior a Microsoft Exchange Server 2010 SP1, deberá escribir el nombre de dominio completo (FQDN) del plan de marcado SIP de Mensajería unificada de Exchange (UM) correspondiente en el plan de marcado Lync Server 2013, en el campo <strong>Nombre sencillo</strong>. Si está usando Microsoft Exchange Server 2010 SP1 o el service pack más reciente, no es necesario que coincida el nombre del plan de marcado.
 > </li>
-> <li><p>Crear un operador automático y asegurarse de que tanto el número de acceso del suscriptor y el número del operador automático están en formato E.164.</p></li>
-</ul>
+> <li><p>Crear un operador automático y asegurarse de que tanto el número de acceso del suscriptor y el número del operador automático están en formato E.164.</p></li></ul>
 
 
 ## Para ejecutar la utilidad de integración de MU de Exchange
