@@ -224,7 +224,7 @@ Si tiene más de un sitio con servidores perimetrales (es decir, una topología 
     
       - Exportar todas las propiedades extendidas
         
-        > [!IMPORTANT]  
+        > [!WARNING]  
         > Cuando exporte el certificado desde un servidor perimetral, no seleccione <strong>Eliminar la clave privada si la exportación es correcta</strong> . Al seleccionar esta opción es necesario importar el certificado y la clave privada a este servidor perimetral.
         
     

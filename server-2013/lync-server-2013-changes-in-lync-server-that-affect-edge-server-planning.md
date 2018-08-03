@@ -52,7 +52,7 @@ Una novedad en Lync Server 2013 es que se pueden almacenar provisionalmente cert
 
 En versiones anteriores de Lync Server y Office Communications Server, los servicios web usaban la afinidad basada en cookies para garantizar que se conservaba el estado de la sesión de cliente y servicios web. Los servicios web de Lync Server 2013 emplean un mecanismo de afinidad integrado que acaba con casi todos los requisitos de la afinidad basada en cookies.
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > El cliente de Microsoft Lync 2010 Mobile deberá seguir usando y configurando la afinidad basada en cookies hasta que todos los clientes se hayan migrado al próximo cliente de Microsoft Lync Mobile (cuya fecha de lanzamiento aún está fijada).
 
 

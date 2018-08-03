@@ -41,12 +41,10 @@ La tabla siguiente especifica los requisitos de DNS para la implementación de u
 <p>Si, por ejemplo, usa tanto el equilibrio de carga de DNS como el equilibrio de carga de hardware, tendrá un registro A por cada Servidor front-end de un grupo para el equilibrio de carga de DNS, así como un registro A para los servicios web internos que apuntan a la IP virtual del equilibrador de carga de hardware:</p>
 <ul>
 <li><p>Equilibrio de carga de DNS:   Grupo01.contoso.net   Dirección IP del grupo   10.10.10.5</p>
-<div class="alert">
-> [!IMPORTANT]  
+
+> [!WARNING]  
 > Cada Servidor front-end tendrá también un registro A distinto:
 
-
-</div>
 <ol>
 <li><p>FE01.contoso.net    10.10.10.1</p></li>
 <li><p>FE02.contoso.net    10.10.10.2</p></li>

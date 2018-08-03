@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2016-12-08_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > La información de este tema sobre la planeación de la capacidad solo se aplica a los clientes de Lync 2010 Mobile y al servicio de movilidad (Mcx). La planeación de la capacidad para la API web de comunicaciones unificadas (UCWA), usada por los clientes móviles de Lync 2013, se proporciona en la Lync Server 2013, herramienta de planeación.
 
 

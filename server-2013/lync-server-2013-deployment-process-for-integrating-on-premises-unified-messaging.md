@@ -19,7 +19,7 @@ Si desea integrar la Mensajería unificada de Exchange (UM) con Lync Server 2013
 
 ## Proceso de integración de la mensajería unificada
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Es importante estar coordinado con los administradores de Exchange de la organización para constatar qué tareas va a realizar cada uno a fin de que la integración se realice de forma correcta y sin fisuras.
 
 
@@ -169,7 +169,7 @@ Si desea integrar la Mensajería unificada de Exchange (UM) con Lync Server 2013
 <td><p>RTCUniversalServerAdmins <em>y</em> RTCUniversalUserAdmins</p>
 <div class="alert">
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Para ejecutar ocsumutil.exe correctamente, el usuario debe pertenecer a ambos grupos.
 
 </div>

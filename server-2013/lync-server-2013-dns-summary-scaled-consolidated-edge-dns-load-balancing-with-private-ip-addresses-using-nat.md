@@ -155,7 +155,7 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
 <td><p>Interfaz perimetral externa de acceso SIP Requerida para detección automática DNS de su federación a otros posibles socios de federación, que se conocen como “Dominios SIP permitidos” o &quot;federación ampliada&quot; en versiones anteriores). Repita según sea necesario para todos los dominios SIP con usuarios habilitados para Lync</p>
 <div class="alert">
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Este registro de SRV es necesario para fines de movilidad y para el centro de enrutamiento de notificaciones de inserción
 
 

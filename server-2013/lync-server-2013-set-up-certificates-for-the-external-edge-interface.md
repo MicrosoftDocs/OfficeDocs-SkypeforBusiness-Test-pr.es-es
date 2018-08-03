@@ -185,7 +185,7 @@ Si decide usar la Microsoft Management Console (MMC) de los certificados para im
     
       - Exportar todas las propiedades extendidas
         
-        > [!IMPORTANT]  
+        > [!WARNING]  
         > Cuando exporte el certificado desde un servidor perimetral, no seleccione <strong>Eliminar la clave privada si la exportación es correcta</strong> . Al seleccionar esta opción es necesario importar el certificado y la clave privada a este servidor perimetral.
         
 

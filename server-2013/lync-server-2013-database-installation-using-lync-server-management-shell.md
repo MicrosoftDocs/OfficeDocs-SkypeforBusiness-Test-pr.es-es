@@ -24,7 +24,7 @@ La separación de roles y responsabilidades entre los administradores de servido
 
 **Install-CsDatabase** es el cmdlet de Windows PowerShell que debe usar para instalar las bases de datos. El cmdlet **Install-CsDatabase** tiene una gran cantidad de parámetros, aquí solo se analizan algunos. Para más información sobre los posibles parámetros, consulte la documentación de Shell de administración de Lync Server 2013.
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > Para evitar problemas de rendimiento y posibles tiempos de espera, debe usar siempre nombres de dominio completos (FQDN) cuando hace referencia a servidores de SQL Server. Evite usar referencias de solo nombre de host. Por ejemplo, use sqlbe01.contoso.net, pero evite usar SQLBE01.
 
 
