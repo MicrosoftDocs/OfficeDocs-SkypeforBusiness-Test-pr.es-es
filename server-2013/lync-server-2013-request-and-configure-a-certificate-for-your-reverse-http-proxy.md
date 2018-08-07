@@ -43,7 +43,8 @@ También puede instalar un certificado de servidor Web público en el servidor d
 <td><p>Nombre alternativo de sujeto</p></td>
 <td><p>FQDN del grupo de servidores</p></td>
 <td><p>webext.contoso.com</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > El nombre de sujeto también debe estar presente en el nombre alternativo de sujeto.
 
@@ -58,7 +59,7 @@ También puede instalar un certificado de servidor Web público en el servidor d
 <tr class="even">
 <td><p>Nombre alternativo de sujeto</p></td>
 <td><p>URL sencilla de reunión</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Todas las URL sencillas de reunión deben incluirse en el nombre alternativo de sujeto. Cada dominio SIP debe tener al menos una URL sencilla de reunión activa.
@@ -81,7 +82,7 @@ También puede instalar un certificado de servidor Web público en el servidor d
 <td><p>Nombre alternativo de sujeto</p></td>
 <td><p>URL externa del servicio Detección automática</p></td>
 <td><p>lyncdiscover.contoso.com</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Si además está usando Microsoft Exchange Server también necesitará configurar reglas de proxy inverso para las direcciones URL de servicios web y detección automática de Exchange.

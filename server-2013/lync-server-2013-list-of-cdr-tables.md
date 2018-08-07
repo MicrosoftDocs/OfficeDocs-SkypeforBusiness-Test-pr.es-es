@@ -266,7 +266,7 @@ El esquema de la base de datos del registro detallado de llamadas (CDR) incluye 
 <tr class="odd">
 <td><p><a href="lync-server-2013-voipdetails-table.md">Tabla VoipDetails en Lync Server 2013</a></p></td>
 <td><p>Para cada llamada VoIP/RTC de dos participantes, almacena información acerca de la llamada, como el identificador del teléfono VoIP, la puerta de enlace utilizada y el participante que desconectó la llamada. Remítase a la <a href="lync-server-2013-sessiondetails-table.md">Tabla SessionDetails en Lync Server 2013</a> para conocer la hora de inicio y de finalización de la llamada y el código de respuesta.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Si un participante de la llamada es un usuario VoIP o si se utilizó un servidor de mediación en la llamada, se creará un registro en esta tabla. La información sobre las llamadas VoIP/VoIP en las que no se usó una red telefónica conmutada (RTC) se captura en la <A href="lync-server-2013-sessiondetails-table.md">Tabla SessionDetails en Lync Server 2013</A>.
@@ -296,7 +296,7 @@ El esquema de la base de datos del registro detallado de llamadas (CDR) incluye 
 <tr class="odd">
 <td><p><a href="lync-server-2013-locations-table.md">Tabla Locations en Lync Server 2013</a></p></td>
 <td><p>Para cada llamada de emergencia, como una llamada Enhanced 9-1-1 (E9-1-1), almacena información acerca de la ubicación de la llamada. Remítase a la <a href="lync-server-2013-sessiondetails-table.md">Tabla SessionDetails en Lync Server 2013</a> para conocer la hora de inicio y de finalización de la llamada y el código de respuesta.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Esta tabla solamente contiene el objeto binario grande de la ubicación de la llamada E9-1-1. Remítase a la tabla SessionDetails para obtener información adicional sobre la llamada.

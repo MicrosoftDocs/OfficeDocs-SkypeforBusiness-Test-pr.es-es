@@ -50,14 +50,14 @@ En esta sección se describe de forma general el proceso necesario para implemen
 <tr class="even">
 <td><p>Configurar los intervalos de números de atención de llamadas en la tabla de órbitas de estacionamiento de llamadas</p></td>
 <td><p>Use el cmdlet <strong>New-CSCallParkOrbit</strong> para crear intervalos de números de atención de llamadas en la tabla de órbitas de estacionamiento de llamadas y asígneles el tipo GroupPickup.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Debe usar Shell de administración de Lync Server para crear, modificar, quitar y ver intervalos de números de atención de llamadas grupales en la tabla de órbitas de estacionamiento de llamadas. Los intervalos de números de atención de llamadas grupales no están disponibles en Panel de control de Lync Server.
 
 
 </div>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > A fin de lograr una integración sin fisuras con los planes de marcado existentes, los intervalos de números se suelen configurar como un bloque de extensiones virtuales. En la tabla de órbitas de estacionamiento de llamadas no se pueden asignar números de llamada directa a la extensión (DID) como números de intervalo.

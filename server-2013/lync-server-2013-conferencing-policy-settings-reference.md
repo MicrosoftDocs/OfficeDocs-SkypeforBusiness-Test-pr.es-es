@@ -102,7 +102,7 @@ En la siguiente tabla se indican todas las configuraciones de directivas de conf
 <tr class="odd">
 <td><p>Permitir que los participantes federados y anónimos tengan control</p></td>
 <td><p>Permite a los participantes externos y anónimos controlar la aplicación compartida de otro usuario.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Si se elige el valor True en esta opción y el valor False en <STRONG>Permitir que los participantes tengan control</STRONG>, no se tendrá en cuenta esta opción.

@@ -52,7 +52,7 @@ En la siguiente tabla se enumeran las características admitidas en una implemen
 <li><p>Publicar el estado según la información de disponibilidad del calendario de Outlook</p></li>
 <li><p>Lista de contactos (mediante el almacén de contactos unificado)</p>
 <p>Para obtener más información, vea <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configuración de Microsoft Lync Server 2013 para usar el almacén de contactos unificado</a></p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Requiere Exchange 2013.<BR>Se requiere un cliente de escritorio de Lync 2013.
@@ -61,7 +61,7 @@ En la siguiente tabla se enumeran las características admitidas en una implemen
 </div></li>
 <li><p>Foto de contacto de alta resolución en el cliente de Lync 2013 y Lync Web App</p>
 <p>Para obtener más información, vea <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Configuración del uso de fotografías de alta resolución en Microsoft Lync Server 2013</a></p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Requiere Exchange 2013.
@@ -73,7 +73,7 @@ En la siguiente tabla se enumeran las características admitidas en una implemen
 <li><p>El historial de conversaciones perdidas y registros de llamadas se escribe en el buzón de Exchange del usuario</p></li>
 <li><p>Contenido de archivado (mensajería instantánea y reuniones) en Exchange</p>
 <p>Para obtener más información, vea <a href="lync-server-2013-deployment-checklist-for-archiving.md">Lista de comprobación para la implementación del archivado en Lync Server 2013</a></p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Requiere Exchange 2013.
@@ -81,7 +81,7 @@ En la siguiente tabla se enumeran las características admitidas en una implemen
 
 </div></li>
 <li><p>Buscar contenido archivado</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Requiere Exchange 2013.
@@ -103,7 +103,7 @@ En la siguiente tabla se enumeran las características admitidas en una implemen
 <li><p>Unirse a reuniones en línea en clientes móviles</p></li>
 <li><p>Publicar el estado según la información de disponibilidad del calendario de Outlook</p></li>
 <li><p>Lista de contactos (mediante el almacén de contactos unificado). Para obtener más información, consulte <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configuración de Microsoft Lync Server 2013 para usar el almacén de contactos unificado</a></p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Solo Lync Server 2013. Se requiere un cliente de escritorio de Lync 2013.
@@ -129,7 +129,7 @@ En la siguiente tabla se enumeran las características admitidas en una implemen
 <li><p>Mensajería instantánea y presencia en clientes móviles</p></li>
 <li><p>El historial de conversaciones perdidas y registros de llamadas se escribe en el buzón de Exchange del usuario</p></li>
 <li><p>Foto de contacto de alta resolución en el cliente de Lync 2013</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Requiere Microsoft Exchange Server 2013. No es compatible en Lync Web App cuando los usuarios se hospedan en Skype Empresarial Online.
@@ -151,7 +151,7 @@ En la siguiente tabla se enumeran las características admitidas en una implemen
 <li><p>Publicar el estado según la información de disponibilidad del calendario de Outlook</p></li>
 <li><p>El historial de conversaciones perdidas y registros de llamadas se escribe en el buzón de Exchange del usuario</p></li>
 <li><p>Lista de contactos (mediante el almacén de contactos unificado)</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Se requiere el cliente de Lync Server 2013

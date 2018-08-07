@@ -42,6 +42,10 @@ La tabla siguiente especifica los requisitos de DNS para la implementación de u
 <ul>
 <li><p>Equilibrio de carga de DNS:   Grupo01.contoso.net   Dirección IP del grupo   10.10.10.5</p>
 
+
+> [!IMPORTANT]  
+> Cada Servidor front-end tendrá también un registro A distinto:
+
 > [!WARNING]  
 > Cada Servidor front-end tendrá también un registro A distinto:
 
@@ -75,7 +79,8 @@ La tabla siguiente especifica los requisitos de DNS para la implementación de u
 <tr class="even">
 <td><p>Detección del servicio web de actualización de dispositivos por los dispositivos de comunicaciones unificadas (UC)</p></td>
 <td><p>Un registro A interno con el nombre ucupdates-r2.&lt;dominio SIP&gt; que se resuelve para la dirección IP del grupo de servidores front-end que hospeda el servicio web de actualización de dispositivos. En caso de que se active un dispositivo de UC en el que ningún usuario se ha registrado, el registro A permite al dispositivo detectar el grupo de servidores front-end que hospeda el servicio web de actualización de dispositivos, y obtener actualizaciones. En cualquier caso, los dispositivos obtienen esta información a través del aprovisionamiento en banda la primera vez que un usuario inicia sesión.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Si cuenta con una implementación existente del servicio web de actualización de dispositivos en Lync Server 2010, ya habrá creado un registro A interno con el nombre ucupdates.<em>&lt;dominio SIP&gt;</em>. Para Microsoft Office Communications Server 2007 R2, debe crear otro registro DNS A con el nombre ucupdates-r2.<em>&lt;dominio SIP&gt;</em>.
 

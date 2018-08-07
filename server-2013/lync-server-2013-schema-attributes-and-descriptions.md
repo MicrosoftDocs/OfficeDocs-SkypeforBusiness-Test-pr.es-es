@@ -315,7 +315,7 @@ Algunos atributos tienen un valor de máscara de bits. Para estos atributos, cad
 <td><p>msRTCSIP-EnableBestEffortNotify (obsoleto)</p></td>
 <td><p>Este atributo controla si un servidor genera una solicitud Best Effort NOTIFY (BENOTIFY), o NOTIFY de &quot;mejor esfuerzo&quot;, en lugar de una solicitud NOTIFY, en respuesta a una solicitud SUBSCRIBE de un cliente. BENOTIFY es una extensión que mejora el rendimiento para el protocolo de enlace de notificaciones de suscripción mediante la cual el servidor genera solicitudes BENOTIFY en lugar de las solicitudes NOTIFY normales. La ventaja desde el punto de vista del rendimiento consiste en que una solicitud BENOTIFY no requiere una respuesta 200 OK del cliente, a diferencia de la solicitud NOTIFY.</p>
 <p>Los valores válidos son <strong>TRUE</strong> o <strong>FALSE</strong>.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Live Communications Server 2003 no admite solicitudes BENOTIFY. Para interoperar con las aplicaciones de servidor escritas mediante las API de servidor de Live Communications Server 2003 que se ejecuten en Live Communications Server 2005 y servidores de otros fabricantes, se pueden deshabilitar las solicitudes BENOTIFY estableciendo su valor en <STRONG>FALSE</STRONG>. Actualmente, BENOTIFY no forma parte del proceso de normalización del SIP del Grupo de trabajo de ingeniería de Internet (IETF).

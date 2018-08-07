@@ -65,7 +65,7 @@ Para obtener un mejor rendimiento, se aconseja ejecutar Lync Server en servidore
 <td><p>Red</p></td>
 <td><ul>
 <li><p>1 adaptador de red de puerto doble, 1 Gbps o superior (recomendado: 2, lo que requiere la formación de equipos con una sola dirección MAC y una sola dirección IP).</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > No se admiten configuraciones duales ni de múltiples ubicaciones para Servidores front-end, Servidores back-end, Servidores Standard Edition y Servidores de chat persistente.<BR>Las conexiones ILO, DRAC, etc. no expuestas al sistema operativo y utilizadas para monitorizar y administrar el hardware de servidor no constituyen un servidor de hosts múltiples y, por lo tanto, son compatibles.
@@ -119,7 +119,7 @@ Para obtener un mejor rendimiento, se aconseja ejecutar Lync Server en servidore
 <td><ul>
 <li><p>1 adaptador de red de puerto doble, 1 Gbps o superior (recomendado: 2, lo que requiere la formación de equipos con una sola dirección MAC y una sola dirección IP). En los Servidores perimetrales, se requieren 2 interfaces de red, y son compatibles en Servidores de mediación independientes.</p></li>
 </ul>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > No se admiten configuraciones duales ni de múltiples ubicaciones para Directores.<BR>Las conexiones ILO, DRAC, etc. no expuestas al sistema operativo y utilizadas para monitorizar y administrar el hardware de servidor no constituyen un servidor de hosts múltiples y, por lo tanto, son compatibles.

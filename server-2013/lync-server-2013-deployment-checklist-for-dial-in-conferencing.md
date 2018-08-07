@@ -49,7 +49,7 @@ Todos los pasos indicados en la tabla siguiente deben realizarse antes de que lo
 <li><p>Ejecute la Generador de topologías para configurar su topología. Mientras configura la topología, seleccione la opción de conferencia de acceso telefónico local.</p></li>
 <li><p>Publique la topología e implemente el Grupo de servidores front-end o el Servidor Standard Edition.</p></li>
 <li><p>Si es preciso, cree un Servidor de mediación independiente y asócielo a una puerta de enlace RTC.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Solo es necesario realizar este paso si no implementa Telefonía IP empresarial y no coloca el Servidor de mediación con el Enterprise EditionServidor front-end o el Servidor Standard Edition. Si implementa Telefonía IP empresarial, instalará y configurará los Servidores de mediación y las puertas de enlace RTC como parte de la implementación de Telefonía IP empresarial. Si coloca el Servidor de mediación, instalará y configurará el Servidor de mediación como parte de la implementación del Grupo de servidores front-end o del Servidor Standard Edition.
@@ -112,7 +112,7 @@ Todos los pasos indicados en la tabla siguiente deben realizarse antes de que lo
 <tr class="even">
 <td><p><strong>Configurar números de acceso telefónico</strong></p></td>
 <td><p>Use el Panel de control de Lync Server 2013 o el Shell de administración de Lync Server para definir números de acceso telefónico que los usuarios marcan para obtener acceso a una conferencia, y especifique las regiones que asocian el número de acceso con los planes de marcado pertinentes. Los tres primeros números de acceso de la región especificada por el plan de marcado del organizador se incluyen en la invitación a la conferencia. Todos los números de acceso están disponibles en la Página Configuración de conferencia de acceso telefónico local.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Una vez creados los números de acceso telefónico, puede usar el cmdlet <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> para modificar el nombre para mostrar de los objetos de contacto de Active Directory, de modo que los usuarios puedan identificar con mayor facilidad el número de acceso correcto.
