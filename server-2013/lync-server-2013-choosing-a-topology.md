@@ -107,8 +107,8 @@ Escenarios de conmutación por error de servidor perimetral compatibles con equi
 > <ul>
 > <li><p>Direcciones IP públicas enrutables</p></li>
 > <li><p>Dirección IP privada no enrutable si se usa la traducción de direcciones de red (NAT) simétrica</p>
-> [!NOTE]  
-> Si usa la dirección IP pública o la dirección IP privada con NAT, seguirá usando el mismo número de direcciones IP establecido en la configuración de Generador de topologías. Puede configurar el Servidor perimetral para que use una sola dirección IP con diferentes puertos por servicio o para que use distintas direcciones IP por servicio, pero en el mismo puerto (de manera predeterminada, TCP 443).
+  > [!NOTE]  
+  > Si usa la dirección IP pública o la dirección IP privada con NAT, seguirá usando el mismo número de direcciones IP establecido en la configuración de Generador de topologías. Puede configurar el Servidor perimetral para que use una sola dirección IP con diferentes puertos por servicio o para que use distintas direcciones IP por servicio, pero en el mismo puerto (de manera predeterminada, TCP 443).
 > </li>
 > </ul>
 > Si decide usar direcciones IP privadas no enrutables con NAT:

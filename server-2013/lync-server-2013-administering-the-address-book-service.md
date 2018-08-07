@@ -254,7 +254,7 @@ los usuarios que se han incluido en los archivos del servidor de libreta de dire
 
 Puede usar ciertos bits de indicador para definir un filtro que se vaya a usar en los atributos del servidor de libreta de direcciones. Por ejemplo, la presencia de ciertos bits de indicador pueden identificar un atributo como un atributo de inclusión o un atributo de exclusión. El Replicador de usuarios deja fuera a los contactos que contienen un atributo de exclusión y a los contactos que no contienen un atributo de inclusión.
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > Para obtener más información sobre cómo filtrar la libreta de direcciones, consulte <a href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Cmdlets de servidor de libreta de direcciones</a> y <a href="http://go.microsoft.com/fwlink/?linkid=330430">Filtrar la libreta de direcciones de Lync 2013</a>
 
 

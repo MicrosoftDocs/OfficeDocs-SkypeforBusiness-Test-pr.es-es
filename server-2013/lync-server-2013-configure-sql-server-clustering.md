@@ -52,7 +52,7 @@ Al instalar SQL Server, debe instalarse también SQL Server Management Studio pa
 
 1.  Inicie el Generador de topologías: haga clic en **Inicio** , **Todos los programas** , **Microsoft Lync Server 2013** y **Generador de topologías de Lync Server** .
     
-    > [!IMPORTANT]  
+    > [!WARNING]  
     > En el procedimiento siguiente se asume que la topología se ha definido y configurado con el Generador de topologías. Para más información sobre cómo definir una topología, vea <a href="lync-server-2013-defining-and-configuring-the-topology.md">Definición y configuración de la topología en Lync Server 2013</a>. Para publicar la topología y configurar la base de datos con el Generador de topologías, inicie sesión como usuario con las pertenencias a grupos y los derechos de usuario correctos. Para más información sobre estos derechos y pertenencias, vea <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Permisos de implementación para SQL Server en Lync Server 2013</a>.
     
 

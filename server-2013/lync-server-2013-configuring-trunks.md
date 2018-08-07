@@ -25,7 +25,7 @@ Como parte de la implementación de Telefonía IP empresarial, puede configurar 
 
 Para obtener más información, consulte [Planeación de la conectividad con RTC en Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) en la documentación sobre planeamiento.
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > Antes de iniciar la configuración de troncos, verifique que se ha creado la topología y que el servidor de mediación y su par se han configurado y asociado entre sí. Para obtener información detallada, consulte <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Definir una puerta de enlace en el Generador de topologías en Lync Server 2013</a> en la documentación sobre implementación.
 
 
