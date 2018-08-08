@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Agregar un sitio de sucursal de aplicación de sucursal con función de supervivencia de Lync Server 2013 a la topología'
+title: "Lync Server 2013 : Ajout d’un site de succ. SBA Lync Server 2013 à votre top."
 TOCTitle: Agregar un sitio de sucursal de aplicación de sucursal con función de supervivencia de Lync Server 2013 a la topología
 ms:assetid: d3142a37-4606-456d-8ea9-6cc0e51e55f3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721896(v=OCS.15)

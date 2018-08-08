@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Comprobar y crear informes de disponibilidad funcional para la autenticación Kerberos'
+title: "Lync Server 2013 : Test et signalement de la disp. Fonct. de l’auth. Kerberos"
 TOCTitle: Comprobar y crear informes de disponibilidad funcional para la autenticación Kerberos
 ms:assetid: d52c39e5-747d-4f29-88aa-30fd6f26b99c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398925(v=OCS.15)

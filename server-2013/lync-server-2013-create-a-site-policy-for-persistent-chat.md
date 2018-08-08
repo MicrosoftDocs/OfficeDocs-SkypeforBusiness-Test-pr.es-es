@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear una directiva de sitio para chat persistente'
+title: "Lync Server 2013 : Créa. d’une strat. de site pour la conversation permanente"
 TOCTitle: Crear una directiva de sitio para chat persistente
 ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204693(v=OCS.15)

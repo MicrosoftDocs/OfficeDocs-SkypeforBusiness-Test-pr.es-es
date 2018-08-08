@@ -1,6 +1,6 @@
 ﻿---
-title: Configurar el desvío de medios en Lync Server 2013 para omitir siempre el servidor de mediación
-TOCTitle: Configurar el desvío de medios en Lync Server 2013 para omitir siempre el servidor de mediación
+title: "Conf. le contourn. de média ds LS 2013 pr tjs contourner le serv. de médiation"
+TOCTitle: "Conf. le contourn. de média ds LS 2013 pr tjs contourner le serv. de médiation"
 ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425846(v=OCS.15)
 ms:contentKeyID: 48274914

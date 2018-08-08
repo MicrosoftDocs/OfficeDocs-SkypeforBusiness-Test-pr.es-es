@@ -1,6 +1,6 @@
 ﻿---
-title: Cambiar rutas de voz para usar el nuevo servidor de mediación de Lync Server 2013
-TOCTitle: Cambiar rutas de voz para usar el nuevo servidor de mediación de Lync Server 2013
+title: "Mod. des it. de comm. voc. pour l’ut. du nveau serv. de médiation LS 2013"
+TOCTitle: "Mod. des it. de comm. voc. pour l’ut. du nveau serv. de médiation LS 2013"
 ms:assetid: acd487b3-377c-46bf-9f71-fe6152002664
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205162(v=OCS.15)
 ms:contentKeyID: 48276330

@@ -1,6 +1,6 @@
 ﻿---
-title: Planeación de federación de Lync Server y Office Communications Server
-TOCTitle: Planeación de federación de Lync Server y Office Communications Server
+title: "Planif. pour la fédération de Lync Server et Office Communications Server"
+TOCTitle: "Planif. pour la fédération de Lync Server et Office Communications Server"
 ms:assetid: c9eaf06b-054f-41a4-ad0c-499400d6c4c7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205335(v=OCS.15)
 ms:contentKeyID: 48276674

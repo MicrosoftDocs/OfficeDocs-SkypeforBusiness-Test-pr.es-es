@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Agregar dominios de usuarios y grupos de usuarios a la categoría de salón'
+title: "Lync Server 2013 : Aj. de domaines d’ut. et de gr. d’ut. à la cat. de salles"
 TOCTitle: Agregar dominios de usuarios y grupos de usuarios a la categoría de salón
 ms:assetid: ee03f2cf-1c84-41c4-b524-d0729be33b8c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ215884(v=OCS.15)

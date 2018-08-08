@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Esquema de la base de datos de registro de detalles de llamadas (CDR)'
+title: "Lync Server 2013 : Schéma de base de données d’enr. des détails des appels"
 TOCTitle: Esquema de la base de datos de registro de detalles de llamadas (CDR)
 ms:assetid: 754642cd-051a-47da-bb08-27800dae39d1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398570(v=OCS.15)

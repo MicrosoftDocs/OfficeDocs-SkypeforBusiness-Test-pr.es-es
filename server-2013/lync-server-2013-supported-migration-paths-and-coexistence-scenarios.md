@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Rutas de acceso de migración compatibles y escenarios de coexistencia'
+title: "Lync Server 2013 : Chemins de migr. et scénarios de coex. pris en charge"
 TOCTitle: Rutas de acceso de migración compatibles y escenarios de coexistencia
 ms:assetid: 55449540-2f94-4a7c-9533-2b54e93fca58
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398367(v=OCS.15)

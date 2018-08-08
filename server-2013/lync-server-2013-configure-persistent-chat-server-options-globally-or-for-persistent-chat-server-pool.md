@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar opciones de servidor de chat persistentes a escala global o para grupos de servidores de chat persistentes'
+title: "Lync Server 2013 : Conf. op. de serv. de conv. perm. niv. gl. ou pool de s."
 TOCTitle: Configurar opciones de servidor de chat persistentes a escala global o para grupos de servidores de chat persistentes
 ms:assetid: 1e8d5245-cd58-4aad-9a1c-35b24189bc40
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204731(v=OCS.15)

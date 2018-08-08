@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Comprobar y notificar el estado y asignación de la autenticación Kerberos'
+title: "Lync Server 2013 : Test, créa. de rapp. sur état et affect. d’auth. Kerberos"
 TOCTitle: Comprobar y notificar el estado y asignación de la autenticación Kerberos
 ms:assetid: 86fc3407-1604-4230-ad04-99aaadcf4e07
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398683(v=OCS.15)

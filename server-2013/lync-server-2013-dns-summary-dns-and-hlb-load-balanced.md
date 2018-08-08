@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumen de DNS - Carga equilibrada DNS y HLB'
+title: "Lync Server 2013 : Résumé des enr. DNS - Éq. de ch. DNS et matérielle"
 TOCTitle: Resumen de DNS - Carga equilibrada DNS y HLB
 ms:assetid: d2132695-1956-4190-a98e-cd7255cbded6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205273(v=OCS.15)

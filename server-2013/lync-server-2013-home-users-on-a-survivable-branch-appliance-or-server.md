@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Usuarios particulares en una aplicación o un servidor de sucursal con funciones de supervivencia'
+title: "Lync Server 2013 : Héb. des ut. sur un SBA ou un SBS"
 TOCTitle: Usuarios particulares en una aplicación o un servidor de sucursal con funciones de supervivencia
 ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413066(v=OCS.15)

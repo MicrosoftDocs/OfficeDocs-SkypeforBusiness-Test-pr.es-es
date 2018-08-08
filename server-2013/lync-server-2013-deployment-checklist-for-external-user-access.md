@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Lista de comprobación de la implementación del acceso de usuarios externos'
+title: "Lync Server 2013 : Liste de vérif. du dépl. pour l’accès des ut. externes"
 TOCTitle: Lista de comprobación de la implementación del acceso de usuarios externos
 ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425910(v=OCS.15)

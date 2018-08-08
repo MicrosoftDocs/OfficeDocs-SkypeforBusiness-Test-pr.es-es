@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definir troncos adicionales en el Generador de topologías'
+title: "Lync Server 2013 : Déf. d’autres jonctions dans le Gestionnaire de topologies"
 TOCTitle: Definir troncos adicionales en el Generador de topologías
 ms:assetid: e68b8377-50a2-452a-bf5c-910929e34236
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721915(v=OCS.15)

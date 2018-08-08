@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Opcional) Definir horarios laborales de grupos de respuesta'
+title: "Lync Server 2013 : (Facul.) Déf. des heures ouvrées des gr. Response Group"
 TOCTitle: (Opcional) Definir horarios laborales de grupos de respuesta
 ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205291(v=OCS.15)

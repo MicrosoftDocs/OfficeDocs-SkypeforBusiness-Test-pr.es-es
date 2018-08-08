@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Restablecer la directiva global para el acceso de usuarios externos'
+title: "Lync Server 2013 : Réinit. de la strat. glob. pour l’accès des ut. externes"
 TOCTitle: Restablecer la directiva global para el acceso de usuarios externos
 ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182545(v=OCS.15)

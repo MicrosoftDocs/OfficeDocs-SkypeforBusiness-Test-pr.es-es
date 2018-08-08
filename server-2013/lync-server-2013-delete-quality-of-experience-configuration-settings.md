@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminación de opciones de configuración de la calidad de la experiencia
-TOCTitle: Eliminación de opciones de configuración de la calidad de la experiencia
+title: "Suppr. des paramètres de configuration de la qualité de l’expérience (QoE)"
+TOCTitle: "Suppr. des paramètres de configuration de la qualité de l’expérience (QoE)"
 ms:assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182613(v=OCS.15)
 ms:contentKeyID: 48277294

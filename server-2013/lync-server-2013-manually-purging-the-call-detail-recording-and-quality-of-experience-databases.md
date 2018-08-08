@@ -1,6 +1,6 @@
 ﻿---
-title: Depuración manual de las bases de datos de grabación de detalles de llamada y de calidad de la experiencia
-TOCTitle: Depuración manual de las bases de datos de grabación de detalles de llamada y de calidad de la experiencia
+title: "Purge man. des BD de l’enr. des détails des appels et de la qual. de l’exp."
+TOCTitle: "Purge man. des BD de l’enr. des détails des appels et de la qual. de l’exp."
 ms:assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204812(v=OCS.15)
 ms:contentKeyID: 48274966

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos de infraestructura para el control de admisión de llamadas'
+title: "Lync Server 2013 : Conf. req. pour l’infras. pour contrôle d’adm. des appels"
 TOCTitle: Requisitos de infraestructura para el control de admisión de llamadas
 ms:assetid: 52be8826-5796-407b-92fc-32f29a6a933c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398346(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos de resistencia de sitios de sucursal'
+title: "Lync Server 2013 : Conf. requise pour la résistance des sites de succursale"
 TOCTitle: Requisitos de resistencia de sitios de sucursal
 ms:assetid: a570922c-52bd-42d7-bd64-226578b3d110
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412772(v=OCS.15)

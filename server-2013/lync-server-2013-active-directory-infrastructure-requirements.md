@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos de infraestructura de Active Directory'
+title: "Lync Server 2013 : Conf. requise pour l’infrastructure Active Directory"
 TOCTitle: Requisitos de infraestructura de Active Directory
 ms:assetid: c2086f7b-662f-4179-ab99-2c0311ebd903
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412955(v=OCS.15)

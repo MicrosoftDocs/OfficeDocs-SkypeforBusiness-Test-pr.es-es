@@ -1,6 +1,6 @@
 ﻿---
-title: Implementación de las regiones, sitios y subsitios de red en Lync Server 2013
-TOCTitle: Implementación de las regiones, sitios y subsitios de red en Lync Server 2013
+title: "Dépl. des régions réseau, sites réseau et sous-réseaux dans Lync Server 2013"
+TOCTitle: "Dépl. des régions réseau, sites réseau et sous-réseaux dans Lync Server 2013"
 ms:assetid: c4b75601-3538-4d07-8d23-1ad90459ae48
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994067(v=OCS.15)
 ms:contentKeyID: 52061740

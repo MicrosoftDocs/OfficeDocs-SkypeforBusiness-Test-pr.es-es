@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Comprobar la conectividad entre servidores internos y servidores perimetrales'
+title: "Lync Server 2013 : Vérif. de la connectivité entre les serveurs int. et Edge"
 TOCTitle: Comprobar la conectividad entre servidores internos y servidores perimetrales
 ms:assetid: 219f706e-2b8a-46c5-b394-c384240eef50
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398292(v=OCS.15)

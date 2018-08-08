@@ -1,6 +1,6 @@
 ﻿---
-title: 'Fase 8: Mover de implementación piloto a producción'
-TOCTitle: 'Fase 8: Mover de implementación piloto a producción'
+title: "Phase 8 : Transition d’un dépl. pilote vers un environnement de production"
+TOCTitle: "Phase 8 : Transition d’un dépl. pilote vers un environnement de production"
 ms:assetid: 00b22ecf-0e28-4bde-8f75-2e82c5e2e718
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687954(v=OCS.15)
 ms:contentKeyID: 49888770

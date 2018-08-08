@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumen de puerto - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT'
+title: "LS 2013 : Rés. des enr. DNS - SE cons. màé, éq. de ch. DNS avec ad. IP pr., conv. d’ad. Rés."
 TOCTitle: Resumen de puerto - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT
 ms:assetid: a296c2af-54d4-4b4f-9795-9191baf688cb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412756(v=OCS.15)

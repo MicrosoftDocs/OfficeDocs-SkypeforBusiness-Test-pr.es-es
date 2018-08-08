@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implementación de Lync Server 2013 Standard Edition en un Lync Server 2013 Enterprise existente'
+title: "Lync Server 2013 : Dépl. de LS 2013 SE dans une instance exist. de LS 2013 E"
 TOCTitle: Implementación de Lync Server 2013 Standard Edition en un Lync Server 2013 Enterprise existente
 ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398112(v=OCS.15)

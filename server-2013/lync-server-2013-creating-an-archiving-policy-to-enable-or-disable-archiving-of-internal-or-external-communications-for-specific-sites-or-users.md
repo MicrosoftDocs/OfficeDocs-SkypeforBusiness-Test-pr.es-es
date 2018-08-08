@@ -1,6 +1,6 @@
 ﻿---
-title: Crear una directiva de archivado para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para sitios o usuarios específicos
-TOCTitle: Crear una directiva de archivado para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para sitios o usuarios específicos
+title: "Créa. strat. arch. pr act/dés. arch. des comm. int/ext pr sites ou ut. part."
+TOCTitle: "Créa. strat. arch. pr act/dés. arch. des comm. int/ext pr sites ou ut. part."
 ms:assetid: 5864793a-ba72-470c-bb5b-9fb41e968896
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398385(v=OCS.15)
 ms:contentKeyID: 48275321

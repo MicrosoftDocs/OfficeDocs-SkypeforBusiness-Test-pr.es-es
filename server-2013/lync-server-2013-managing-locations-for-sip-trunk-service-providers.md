@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Administrar ubicaciones para proveedores de servicio de enlaces troncales SIP'
+title: "Lync Server 2013 : Gest. des empl. pour les fourn. de service de jonction SIP"
 TOCTitle: Administrar ubicaciones para proveedores de servicio de enlaces troncales SIP
 ms:assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398959(v=OCS.15)

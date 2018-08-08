@@ -1,6 +1,6 @@
 ﻿---
-title: Modificación de las opciones de configuración de troncos SIP en Lync Server 2013
-TOCTitle: Modificación de las opciones de configuración de troncos SIP en Lync Server 2013
+title: "Modif. des paramètres de conf. d’une jonction SIP dans Lync Server 2013"
+TOCTitle: "Modif. des paramètres de conf. d’une jonction SIP dans Lync Server 2013"
 ms:assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688104(v=OCS.15)
 ms:contentKeyID: 49889243

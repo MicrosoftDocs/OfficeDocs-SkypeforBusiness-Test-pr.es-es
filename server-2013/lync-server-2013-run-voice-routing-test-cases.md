@@ -1,6 +1,6 @@
 ﻿---
-title: Ejecutar casos de prueba de enrutamiento en Lync Server 2013
-TOCTitle: Ejecutar casos de prueba de enrutamiento en Lync Server 2013
+title: "Exéc. les cas de test du routage des comm. voc. dans Lync Server 2013"
+TOCTitle: "Exéc. les cas de test du routage des comm. voc. dans Lync Server 2013"
 ms:assetid: fb4d32df-b9ea-4944-8cd7-a6102c78c465
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413068(v=OCS.15)
 ms:contentKeyID: 48277283

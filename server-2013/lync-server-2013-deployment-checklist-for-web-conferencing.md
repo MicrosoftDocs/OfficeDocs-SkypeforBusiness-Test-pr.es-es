@@ -1,6 +1,6 @@
 ﻿---
-title: Lista de comprobaciones para la implementación de conferencias web en Lync Server 2013
-TOCTitle: Lista de comprobaciones para la implementación de conferencias web en Lync Server 2013
+title: "Liste de vérif. du déploiement pour la conférence web dans Lync Server 2013"
+TOCTitle: "Liste de vérif. du déploiement pour la conférence web dans Lync Server 2013"
 ms:assetid: 9908ebe0-e5d3-4920-b9b1-85021f7e69e9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205104(v=OCS.15)
 ms:contentKeyID: 48276105

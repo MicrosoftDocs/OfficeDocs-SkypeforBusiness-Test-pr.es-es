@@ -1,6 +1,6 @@
 ﻿---
-title: Crear o modificar una colección de opciones de configuración de versión de cliente
-TOCTitle: Crear o modificar una colección de opciones de configuración de versión de cliente
+title: "Créer ou mod. une collection de par. de conf. de la version du client"
+TOCTitle: "Créer ou mod. une collection de par. de conf. de la version du client"
 ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ898477(v=OCS.15)
 ms:contentKeyID: 52061636

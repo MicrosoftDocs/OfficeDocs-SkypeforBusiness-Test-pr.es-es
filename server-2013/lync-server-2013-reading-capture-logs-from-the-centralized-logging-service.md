@@ -1,6 +1,6 @@
 ﻿---
-title: Lectura de registros de captura desde el servicio de registro centralizado
-TOCTitle: Lectura de registros de captura desde el servicio de registro centralizado
+title: "Lecture des journ. de capt. à partir du service de journalisation centralisée"
+TOCTitle: "Lecture des journ. de capt. à partir du service de journalisation centralisée"
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721879(v=OCS.15)
 ms:contentKeyID: 49889677

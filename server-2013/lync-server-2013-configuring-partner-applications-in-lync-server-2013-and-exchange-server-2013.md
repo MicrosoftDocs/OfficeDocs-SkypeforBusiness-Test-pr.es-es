@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de aplicaciones de socio en Microsoft Lync Server 2013 y Microsoft Exchange Server 2013
-TOCTitle: Configuración de aplicaciones de socio en Microsoft Lync Server 2013 y Microsoft Exchange Server 2013
+title: "Conf. des app. partenaires dans MLS 2013 et MES 2013"
+TOCTitle: "Conf. des app. partenaires dans MLS 2013 et MES 2013"
 ms:assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688151(v=OCS.15)
 ms:contentKeyID: 49889401

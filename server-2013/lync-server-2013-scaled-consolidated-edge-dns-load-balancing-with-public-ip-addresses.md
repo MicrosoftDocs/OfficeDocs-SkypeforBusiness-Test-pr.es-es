@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Perímetro consolidado escalado, equilibrio de carga DNS con direcciones IP públicas'
+title: "Lync Server 2013 : SE consol. màé, éq. de ch. DNS avec des ad. IP pub."
 TOCTitle: Perímetro consolidado escalado, equilibrio de carga DNS con direcciones IP públicas
 ms:assetid: 2b854f6d-3d3f-4961-a5f8-a03f47740df0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204761(v=OCS.15)

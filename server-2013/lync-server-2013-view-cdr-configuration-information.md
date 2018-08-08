@@ -1,6 +1,6 @@
 ﻿---
-title: Visualización de la información de configuración de CDR
-TOCTitle: Visualización de la información de configuración de CDR
+title: "Aff. des info. de configuration de l’enregistrement des détails des appels"
+TOCTitle: "Aff. des info. de configuration de l’enregistrement des détails des appels"
 ms:assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688096(v=OCS.15)
 ms:contentKeyID: 49889234

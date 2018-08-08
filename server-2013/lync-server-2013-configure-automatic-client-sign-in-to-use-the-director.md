@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar el inicio de sesión automático de los clientes para usar el director'
+title: "Lync Server 2013 : Conf. connexion auto. du client pour utiliser le directeur"
 TOCTitle: Configurar el inicio de sesión automático de los clientes para usar el director
 ms:assetid: 85369ffc-53ae-43be-8a23-84a094faecff
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398678(v=OCS.15)

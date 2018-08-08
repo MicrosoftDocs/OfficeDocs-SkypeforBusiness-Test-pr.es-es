@@ -1,6 +1,6 @@
 ﻿---
-title: Configurar certificados en el servidor que ejecuta la mensajería unificada de Microsoft Exchange Server
-TOCTitle: Configurar certificados en el servidor que ejecuta la mensajería unificada de Microsoft Exchange Server
+title: "Conf. certif. sur le serv. exécutant la mess. un. Microsoft Exchange Server"
+TOCTitle: "Conf. certif. sur le serv. exécutant la mess. un. Microsoft Exchange Server"
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398564(v=OCS.15)
 ms:contentKeyID: 48275703

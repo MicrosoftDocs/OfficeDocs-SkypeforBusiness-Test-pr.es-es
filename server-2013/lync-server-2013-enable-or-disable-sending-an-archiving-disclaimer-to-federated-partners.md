@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar o deshabilitar el envío de una renuncia de archivado a socios federados'
+title: "LS 2013 : Act. ou dés. envoi notif. d’excl. rel. à l’arch. aux parten. féd."
 TOCTitle: Habilitar o deshabilitar el envío de una renuncia de archivado a socios federados
 ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182584(v=OCS.15)

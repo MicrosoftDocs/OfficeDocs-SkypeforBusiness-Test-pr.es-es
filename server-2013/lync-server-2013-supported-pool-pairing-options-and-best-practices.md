@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Opciones compatibles de emparejamiento de grupos de servidores y procedimientos recomendados'
+title: "Opt. de couplage de pools et meill. pratiques prises en ch. pour LS 2013"
 TOCTitle: Opciones compatibles de emparejamiento de grupos de servidores y procedimientos recomendados
 ms:assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204697(v=OCS.15)

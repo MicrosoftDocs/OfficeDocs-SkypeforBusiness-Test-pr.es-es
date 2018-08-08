@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Proceso de implementación para la integración de la mensajería unificada de Exchange hospedada'
+title: "Lync Server 2013 : Pro. de dépl. pour l’int. de la mess. Un. Exchange hébergée"
 TOCTitle: Proceso de implementación para la integración de la mensajería unificada de Exchange hospedada con Lync Server
 ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398968(v=OCS.15)

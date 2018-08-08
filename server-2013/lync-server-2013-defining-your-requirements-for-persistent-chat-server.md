@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definición de los requisitos para el servidor de chat persistente '
+title: "Lync Server 2013 : Déf. de la conf. requise pour le serveur de conv. Perm."
 TOCTitle: Definición de los requisitos de la organización para el servidor de chat persistente
 ms:assetid: 568674fb-c08a-4170-ac38-e2f8428c69e0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398372(v=OCS.15)

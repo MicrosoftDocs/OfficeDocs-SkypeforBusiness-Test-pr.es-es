@@ -1,6 +1,6 @@
 ﻿---
-title: Crear una directiva de correo de voz hospedado por usuario en Lync Server 2013
-TOCTitle: Crear una directiva de correo de voz hospedado por usuario en Lync Server 2013
+title: "Créer une strat. de mess. Voc. hébergée par utilisateur dans Lync Server 2013"
+TOCTitle: "Créer une strat. de mess. Voc. hébergée par utilisateur dans Lync Server 2013"
 ms:assetid: 39018a7c-e0c3-46a2-be4e-05604ec67a50
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425867(v=OCS.15)
 ms:contentKeyID: 48274971

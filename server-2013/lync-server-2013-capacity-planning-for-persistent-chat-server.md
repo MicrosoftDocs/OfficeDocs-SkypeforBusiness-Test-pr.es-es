@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planificar la capacidad para el servidor de chat persistente'
+title: "Lync Server 2013 : Plan. de capacité pr le serveur de conv. permanente"
 TOCTitle: Planificar la capacidad para el servidor de chat persistente
 ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615006(v=OCS.15)

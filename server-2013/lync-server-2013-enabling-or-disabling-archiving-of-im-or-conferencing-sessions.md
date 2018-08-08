@@ -1,6 +1,6 @@
 ﻿---
-title: Habilitar y deshabilitar el archivado de sesiones de mensajería instantánea (MI) o de conferencia
-TOCTitle: Habilitar y deshabilitar el archivado de sesiones de mensajería instantánea (MI) o de conferencia
+title: "Act. ou dés. de l’archivage de sessions de mes. instantanée ou de conférence"
+TOCTitle: "Act. ou dés. de l’archivage de sessions de mes. instantanée ou de conférence"
 ms:assetid: aa4b5983-dbe1-4d64-8a18-fe2c33994e94
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182567(v=OCS.15)
 ms:contentKeyID: 48276307

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar y deshabilitar el acceso de usuarios remotos'
+title: "Lync Server 2013 : Activ. ou désactiv. de l’accès des utilisateurs distants"
 TOCTitle: Habilitar y deshabilitar el acceso de usuarios remotos
 ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182586(v=OCS.15)

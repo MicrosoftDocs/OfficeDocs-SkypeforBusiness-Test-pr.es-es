@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminación de un conjunto existente de opciones de configuración de CDR
-TOCTitle: Eliminación de un conjunto existente de opciones de configuración de CDR
+title: "Supp. d’une coll. existante de par. de conf. de l’enr. des détails des appels"
+TOCTitle: "Supp. d’une coll. existante de par. de conf. de l’enr. des détails des appels"
 ms:assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688128(v=OCS.15)
 ms:contentKeyID: 49889372

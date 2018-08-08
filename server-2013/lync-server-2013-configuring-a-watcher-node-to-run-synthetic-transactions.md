@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de un nodo de monitor para ejecutar transacciones sintéticas
-TOCTitle: Configuración de un nodo de monitor para ejecutar transacciones sintéticas
+title: "Conf. d’un nœud obs. pour l’exécution des transactions synthétiques"
+TOCTitle: "Conf. d’un nœud obs. pour l’exécution des transactions synthétiques"
 ms:assetid: cedda508-8881-4079-88d5-49798f342ddf
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205314(v=OCS.15)
 ms:contentKeyID: 48276724

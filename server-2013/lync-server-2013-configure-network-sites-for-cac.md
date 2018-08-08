@@ -1,6 +1,6 @@
 ﻿---
-title: Configurar sitios de red para CAC en Lync Server 2013
-TOCTitle: Configurar sitios de red para CAC en Lync Server 2013
+title: "Conf. les sites réseau pour le contr. d’adm. des appels dans Lync Server 2013"
+TOCTitle: "Conf. les sites réseau pour le contr. d’adm. des appels dans Lync Server 2013"
 ms:assetid: afcea38f-5789-45ec-97af-c6e38364950c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412840(v=OCS.15)
 ms:contentKeyID: 48276368

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar directivas para controlar el acceso de usuarios públicos'
+title: "Lync Server 2013 : Conf. des stratégies de contrôle d’accès des ut. publics"
 TOCTitle: Configurar directivas para controlar el acceso de usuarios públicos
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520946(v=OCS.15)

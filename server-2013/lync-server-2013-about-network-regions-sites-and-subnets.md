@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Acerca de las regiones de red, sitios y subredes'
+title: "Lync Server 2013 : À propos des régions rés., des sites rés. et des sous-rés."
 TOCTitle: Acerca de las regiones de red, sitios y subredes
 ms:assetid: 6662123a-d011-408c-a290-92b2a8589943
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398467(v=OCS.15)

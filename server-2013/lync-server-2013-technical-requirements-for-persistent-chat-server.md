@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos técnicos para el servidor de chat persistente'
+title: "Lync Server 2013 : Conf. tech. pour le serveur de conversation permanente"
 TOCTitle: Requisitos técnicos para el servidor de chat persistente
 ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398495(v=OCS.15)

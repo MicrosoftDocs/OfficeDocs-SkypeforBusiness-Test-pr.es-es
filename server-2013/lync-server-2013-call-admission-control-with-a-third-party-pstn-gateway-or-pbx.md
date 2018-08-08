@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Control de admisión de llamadas con un PBX o una puerta de enlace RTC de terceros'
+title: "LS 2013 : Contr. d’adm. des appels avec passerelle RTC ou syst. PBX tiers"
 TOCTitle: Control de admisión de llamadas con un PBX o una puerta de enlace RTC de terceros
 ms:assetid: 95dc4ceb-bcad-48ee-86ec-af911727f853
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398762(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Obtener disponibilidad de grupo de servidores de chat persistente'
+title: "Lync Server 2013 : Obtention de la dispo. de pool de serv. de conv. Perm."
 TOCTitle: Obtener disponibilidad de grupo de servidores de chat persistente
 ms:assetid: 61668ff9-1962-47e0-ac9f-a1272acf5372
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204950(v=OCS.15)

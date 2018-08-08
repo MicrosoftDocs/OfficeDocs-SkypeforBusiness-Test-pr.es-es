@@ -1,6 +1,6 @@
 ﻿---
-title: 'Resumen de certificados: federación SIP, federación XMPP y mensajería instantánea pública'
-TOCTitle: 'Resumen de certificados: federación SIP, federación XMPP y mensajería instantánea pública'
+title: "Résumé des certif. - Fédération SIP, XMPP et messagerie instantanée publique"
+TOCTitle: "Résumé des certif. - Fédération SIP, XMPP et messagerie instantanée publique"
 ms:assetid: 933d6351-cfa6-4432-b3ed-1aff3ac92065
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ618372(v=OCS.15)
 ms:contentKeyID: 49115300

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Cambios en Lync Server 2013 que afectan a la planificación del servidor perimetral'
+title: "Lync Server 2013 : Modif. dans Lync Server affectant la plan. de serv. Edge"
 TOCTitle: Cambios en Lync Server 2013 que afectan a la planificación del servidor perimetral
 ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204965(v=OCS.15)

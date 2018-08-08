@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Conmutación por error para el grupo de servidores perimetrales para la federación XMPP'
+title: "Lync Server 2013 : Basculement vers le pool Edge utilisé pour la féd. XMPP"
 TOCTitle: Conmutación por error para el grupo de servidores perimetrales para la federación XMPP
 ms:assetid: 587e7829-a26b-46f8-8aad-b78a7b325b55
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688065(v=OCS.15)

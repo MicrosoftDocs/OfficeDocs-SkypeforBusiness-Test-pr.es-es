@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implementar una aplicación o servidor de sucursal con funciones de supervivencia'
+title: "Lync Server 2013 : Dépl. d’un Surv. Branch Appl. ou d’un Surv. Branch Serv."
 TOCTitle: Implementar una aplicación o servidor de sucursal con funciones de supervivencia
 ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398849(v=OCS.15)

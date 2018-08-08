@@ -1,6 +1,6 @@
 ﻿---
-title: Habilitar o deshabilitar una aplicación de servidor de lenguaje de procesamiento de protocolo de inicio de sesión de Microsoft (MSPL)
-TOCTitle: Habilitar o deshabilitar una aplicación de servidor de lenguaje de procesamiento de protocolo de inicio de sesión de Microsoft (MSPL)
+title: "Act. ou dés une app. de serveur MSPL (Microsoft SIP Processing Language)"
+TOCTitle: "Act. ou dés une app. de serveur MSPL (Microsoft SIP Processing Language)"
 ms:assetid: b20af38d-224a-4459-991d-0b7eabb3ca7c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182573(v=OCS.15)
 ms:contentKeyID: 48276388

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Cambio del grupo de servidores perimetrales asociado al grupo de servidores front-end'
+title: "Lync Server 2013 : Mod. pool de serv. Edge associé à un pool de serv. front."
 TOCTitle: Cambio del grupo de servidores perimetrales asociado al grupo de servidores front-end
 ms:assetid: 369468c7-2c0b-48cc-bbc3-825dad7b85aa
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688023(v=OCS.15)

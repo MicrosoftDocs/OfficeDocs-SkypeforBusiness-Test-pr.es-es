@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Copia de seguridad de la base de datos de chat persistente y de la base de datos de cumplimiento'
+title: "Lync Server 2013 : Sauvegarde des BD de conv. permanente et de conformité"
 TOCTitle: Copia de seguridad de la base de datos de chat persistente y de la base de datos de cumplimiento
 ms:assetid: 0950e1a9-5a53-4d4a-bf3a-e57ae1225b69
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ215872(v=OCS.15)

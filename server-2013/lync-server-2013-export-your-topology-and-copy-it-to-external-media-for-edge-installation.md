@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Exportar la topología y copiarla en un medio externo para la instalación perimetral'
+title: "LS 2013 : Exp. top. LS 2013 et copie vers le support ext. de l’install. Edge"
 TOCTitle: Exportar la topología y copiarla en un medio externo para la instalación perimetral
 ms:assetid: def9f416-c519-4a72-b242-7d3057d9c1fd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398983(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Instalar los sistemas operativos y el software necesario como requisito previo en los servidores'
+title: "Lync Server 2013 : Inst. des syst. d’expl. et des log. prérequis sur les serv."
 TOCTitle: Instalar los sistemas operativos y el software necesario como requisito previo en los servidores
 ms:assetid: 055991e0-5aeb-43fc-a7ba-d4b02316d73b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398103(v=OCS.15)

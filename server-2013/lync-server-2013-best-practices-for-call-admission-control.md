@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Procedimientos recomendados para el servicio de control de admisión de llamadas'
+title: "Lync Server 2013 : Meill. pratiques liées au contrôle d’admission des appels"
 TOCTitle: Procedimientos recomendados para el servicio de control de admisión de llamadas
 ms:assetid: 97173cca-8175-4ae2-a247-eb7ef809da93
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398770(v=OCS.15)

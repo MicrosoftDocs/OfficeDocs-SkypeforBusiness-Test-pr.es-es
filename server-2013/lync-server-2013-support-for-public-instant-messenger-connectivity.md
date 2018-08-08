@@ -1,6 +1,6 @@
 ﻿---
-title: Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013
-TOCTitle: Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013
+title: "Pr. en ch. de la connect. PIC (Public IM Connectivity) dans Lync Server 2013"
+TOCTitle: "Pr. en ch. de la connect. PIC (Public IM Connectivity) dans Lync Server 2013"
 ms:assetid: 9c6eb500-647b-4ccd-a00e-2b8dd7c44a76
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn458579(v=OCS.15)
 ms:contentKeyID: 59602843

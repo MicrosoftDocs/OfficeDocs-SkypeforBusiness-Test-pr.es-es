@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumen de certificado - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas con NAT'
+title: "LS 2013 : Rés. cert. - SE cons. màé, éq. ch. DNS avec ad. IP pr., conv. ad. rés."
 TOCTitle: Resumen de certificado - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas con NAT
 ms:assetid: 41677dbd-3d07-498a-8591-df255b606647
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425921(v=OCS.15)

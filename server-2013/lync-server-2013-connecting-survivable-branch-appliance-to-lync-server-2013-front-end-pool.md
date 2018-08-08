@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Conexión de la aplicación de sucursal con funciones de supervivencia a un grupo de servidores front-end de Lync Server 2013'
+title: "Lync Server 2013 : Connexion d’un SBA à un pool de serveurs frontaux"
 TOCTitle: Conexión de la aplicación de sucursal con funciones de supervivencia a un grupo de servidores front-end de Lync Server 2013
 ms:assetid: 3c7ca33f-5295-4d82-9152-41d8bc6f35cf
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688026(v=OCS.15)

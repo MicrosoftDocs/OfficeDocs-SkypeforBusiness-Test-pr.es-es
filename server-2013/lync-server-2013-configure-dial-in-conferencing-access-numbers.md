@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar números de conferencia de acceso telefónico'
+title: "Lync Server 2013 : Conf. des numéros d’accès aux conférences rendez-vous"
 TOCTitle: Configurar números de conferencia de acceso telefónico
 ms:assetid: d8a18030-f318-43dd-834d-70e5014b5e8a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398952(v=OCS.15)

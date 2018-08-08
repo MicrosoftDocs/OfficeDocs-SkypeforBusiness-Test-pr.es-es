@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear objetos de contacto para la mensajería unificada de Exchange hospedada'
+title: "Lync Server 2013 : Créa. des objets de contact pour la mes. un. Exchange héb."
 TOCTitle: Crear objetos de contacto para la mensajería unificada de Exchange hospedada
 ms:assetid: a39be52f-488a-4523-ad5f-ce1f0d681959
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412765(v=OCS.15)

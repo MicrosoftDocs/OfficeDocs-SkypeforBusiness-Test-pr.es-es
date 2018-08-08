@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear o modificar un intervalo numérico sin asignar'
+title: "Lync Server 2013 : Créa. ou modification d’une plage de numéros non attribués"
 TOCTitle: Crear o modificar un intervalo numérico sin asignar
 ms:assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412748(v=OCS.15)

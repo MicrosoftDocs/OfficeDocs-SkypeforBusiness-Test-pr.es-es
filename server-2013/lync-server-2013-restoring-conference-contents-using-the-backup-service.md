@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Restauración de contenidos de conferencia mediante el servicio de copias de seguridad'
+title: "Lync Server 2013 : Rest. du contenu d’une conf. avec le service de sauvegarde"
 TOCTitle: Restauración de contenidos de conferencia mediante el servicio de copias de seguridad
 ms:assetid: 3e0f18ec-7319-4c07-a59b-2938e7787bc9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688030(v=OCS.15)

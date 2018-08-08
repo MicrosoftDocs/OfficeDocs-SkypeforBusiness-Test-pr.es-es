@@ -1,6 +1,6 @@
 ﻿---
-title: Cambiar las opciones de base de datos de archivado en Lync Server 2013
-TOCTitle: Cambiar las opciones de base de datos de archivado en Lync Server 2013
+title: "Modif. des options de la base de données d’archivage dans Lync Server 2013"
+TOCTitle: "Modif. des options de la base de données d’archivage dans Lync Server 2013"
 ms:assetid: 3775f09d-65b0-48bc-8a4d-d97bd0c3423c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204814(v=OCS.15)
 ms:contentKeyID: 48274919

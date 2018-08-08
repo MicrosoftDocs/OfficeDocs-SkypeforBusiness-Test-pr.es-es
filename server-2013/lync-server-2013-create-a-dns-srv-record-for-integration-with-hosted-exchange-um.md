@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange'
+title: "LS 2013 : Créa. d’un enr. SRV DNS pour l’intégrer à la mess. un. Exchange héb."
 TOCTitle: Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange
 ms:assetid: 8ea590ae-58ea-4ca5-9853-e0708b3ea760
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh500728(v=OCS.15)

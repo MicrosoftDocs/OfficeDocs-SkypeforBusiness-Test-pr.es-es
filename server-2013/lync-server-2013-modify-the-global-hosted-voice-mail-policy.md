@@ -1,6 +1,6 @@
 ﻿---
-title: Modificar la directiva de correo de voz hospedado global en Lync Server 2013
-TOCTitle: Modificar la directiva de correo de voz hospedado global en Lync Server 2013
+title: "Mod. la stratégie de messagerie vocale hébergée globale dans Lync Server 2013"
+TOCTitle: "Mod. la stratégie de messagerie vocale hébergée globale dans Lync Server 2013"
 ms:assetid: f059b3ce-a7d8-4ea9-b10b-0052222ec2ce
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412994(v=OCS.15)
 ms:contentKeyID: 48277111

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumen DNS - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware'
+title: "Lync Server 2013 : Rés. des enr. DNS - SE conso. màé avec des éq. de ch. Mat."
 TOCTitle: Resumen DNS - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware
 ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398670(v=OCS.15)

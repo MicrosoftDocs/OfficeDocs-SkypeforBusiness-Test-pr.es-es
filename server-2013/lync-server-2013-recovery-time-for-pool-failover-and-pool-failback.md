@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Tiempo de recuperación para la conmutación por error y por recuperación del grupo de servidores'
+title: "Temps de récup. nécessaire pr basc. et rest. les pools dans Lync Server 2013"
 TOCTitle: Tiempo de recuperación para la conmutación por error y por recuperación del grupo de servidores
 ms:assetid: 902c658f-8442-4d0d-b3ad-bf795ecd550d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205079(v=OCS.15)

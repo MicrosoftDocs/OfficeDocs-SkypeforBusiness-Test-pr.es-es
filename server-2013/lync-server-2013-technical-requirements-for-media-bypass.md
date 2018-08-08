@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos técnicos para la omisión de medios'
+title: "Lync Server 2013 : Conf. tech. requise pour la déviation du trafic multimédia"
 TOCTitle: Requisitos técnicos para la omisión de medios
 ms:assetid: 6162a204-0e7c-460a-8eb2-e592c6590a8a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398435(v=OCS.15)

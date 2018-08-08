@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planificar la resistencia de voz en sitios de sucursal'
+title: "Lync Server 2013 : Planification de la résistance voc. d’un site de succursale"
 TOCTitle: Planificar la resistencia de voz en sitios de sucursal
 ms:assetid: 67713f57-3ded-4127-ac37-57d8099bf384
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398477(v=OCS.15)

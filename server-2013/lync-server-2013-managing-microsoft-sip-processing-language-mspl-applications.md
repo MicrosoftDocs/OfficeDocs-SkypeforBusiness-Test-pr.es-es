@@ -1,6 +1,6 @@
 ﻿---
-title: Administración de aplicaciones de Lenguaje de procesamiento de protocolo de inicio de sesión de Microsoft (MSPL) en Lync Server 2013
-TOCTitle: Administración de aplicaciones de Lenguaje de procesamiento de protocolo de inicio de sesión de Microsoft (MSPL) en Lync Server 2013
+title: "Gest. des app. MSPL (Microsoft SIP Processing Language) dans Lync Server 2013"
+TOCTitle: "Gest. des app. MSPL (Microsoft SIP Processing Language) dans Lync Server 2013"
 ms:assetid: 3fb13707-73b5-4f7d-ab0b-a5794ed1be75
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688032(v=OCS.15)
 ms:contentKeyID: 49889055

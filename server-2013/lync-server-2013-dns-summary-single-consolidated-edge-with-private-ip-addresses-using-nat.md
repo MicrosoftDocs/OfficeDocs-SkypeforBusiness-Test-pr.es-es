@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumen DNS - Servidor perimetral consolidado simple con dirección IP privada mediante NAT'
+title: "LS 2013 : Rés. des enr. DNS - SE un. cons. avec ad. IP pri., conv. d’ad. rés."
 TOCTitle: Resumen DNS - Servidor perimetral consolidado simple con dirección IP privada mediante NAT
 ms:assetid: a7e5d792-f397-45e5-af85-20d0f4bf405f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412787(v=OCS.15)

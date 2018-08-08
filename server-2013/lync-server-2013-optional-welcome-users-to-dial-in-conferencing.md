@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Opcional) Dar la bienvenida a los usuarios de la conferencia de acceso telefónico local'
+title: "Lync Server 2013 : (Facul.) Accueil des ut. dans les conf. rdv"
 TOCTitle: (Opcional) Dar la bienvenida a los usuarios de la conferencia de acceso telefónico local
 ms:assetid: caa4fd61-f506-4c09-bb5b-1aa260d7a720
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398846(v=OCS.15)

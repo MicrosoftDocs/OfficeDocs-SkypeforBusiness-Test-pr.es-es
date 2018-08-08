@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Servidor perimetral consolidado simple con direcciones IP privadas y NAT'
+title: "Lync Server 2013 : Serveur Edge cons. unique ac ad. IP pri. et conv. ad. rés."
 TOCTitle: Servidor perimetral consolidado simple con direcciones IP privadas y NAT
 ms:assetid: e1e5189e-f17d-45e9-b177-e0e6f97f8951
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399001(v=OCS.15)

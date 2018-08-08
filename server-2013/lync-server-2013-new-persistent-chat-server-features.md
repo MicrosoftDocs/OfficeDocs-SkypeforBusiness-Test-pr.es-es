@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Nuevas características del servidor de chat persistente'
+title: "Lync Server 2013 : Nlles fonctionnalités du serveur de conversation permanente"
 TOCTitle: Nuevas características del servidor de chat persistente
 ms:assetid: c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412965(v=OCS.15)

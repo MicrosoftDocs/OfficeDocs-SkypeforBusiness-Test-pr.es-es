@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de la mensajería unificada de Microsoft Exchange Server 2013 para el correo de voz de Microsoft Lync Server 2013
-TOCTitle: Configuración de la mensajería unificada de Microsoft Exchange Server 2013 para el correo de voz de Microsoft Lync Server 2013
+title: "Conf. de la mess. un. MES 2013 pour mess. voc. Microsoft LS 2013"
+TOCTitle: "Conf. de la mess. un. MES 2013 pour mess. voc. Microsoft LS 2013"
 ms:assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687983(v=OCS.15)
 ms:contentKeyID: 49888908

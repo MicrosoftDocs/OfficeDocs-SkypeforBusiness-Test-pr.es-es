@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos del servicio Detección automática'
+title: "Lync Server 2013 : Conf. requise pour le service de découverte automatique"
 TOCTitle: Requisitos del servicio Detección automática
 ms:assetid: 0ac5dbf7-9acd-4d25-b21a-932022b8b983
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh690012(v=OCS.15)

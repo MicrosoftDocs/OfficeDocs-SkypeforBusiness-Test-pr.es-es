@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Exportar un archivo de configuración de enrutamiento de voz'
+title: "Lync Server 2013 : Exp. d’un fichier de conf. d’itinéraire des comm. Voc."
 TOCTitle: Exportar un archivo de configuración de enrutamiento de voz
 ms:assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398081(v=OCS.15)

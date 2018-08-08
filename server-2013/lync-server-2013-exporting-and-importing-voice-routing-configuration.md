@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Exportar e importar la configuración del enrutamiento de voz'
+title: "Lync Server 2013 : Export. et import. de la config. du routage des comm. voc."
 TOCTitle: Exportar e importar la configuración del enrutamiento de voz
 ms:assetid: c9b78622-5725-43b0-9ee1-5b82b1e1c8eb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398836(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Implementación de la lista de comprobación para conferencias de A/V en Lync Server 2013
-TOCTitle: Implementación de la lista de comprobación para conferencias de A/V en Lync Server 2013
+title: "Liste de vérif. du déploiement pour la conférence A/V dans Lync Server 2013"
+TOCTitle: "Liste de vérif. du déploiement pour la conférence A/V dans Lync Server 2013"
 ms:assetid: 6d47426f-6559-407b-9ac1-2453f0b7a2a2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ619183(v=OCS.15)
 ms:contentKeyID: 49115292

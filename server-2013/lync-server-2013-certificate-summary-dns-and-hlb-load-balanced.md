@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumen de certificado - Carga equilibrada DNS y HLB'
+title: "Lync Server 2013 : Résumé des certificats - Équilibrage de ch. DNS et mat."
 TOCTitle: Resumen de certificado - Carga equilibrada DNS y HLB
 ms:assetid: 8318a1a4-b423-47b7-95e6-9541adfad391
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205047(v=OCS.15)

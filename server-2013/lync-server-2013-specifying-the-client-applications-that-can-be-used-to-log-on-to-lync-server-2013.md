@@ -1,6 +1,6 @@
 ﻿---
-title: Especificación de las aplicaciones cliente que se pueden usar para iniciar sesión en Lync Server 2013
-TOCTitle: Especificación de las aplicaciones cliente que se pueden usar para iniciar sesión en Lync Server 2013
+title: "Spéc. des app. clients pouvant être util. pour la connexion à Lync Server 2013"
+TOCTitle: "Spéc. des app. clients pouvant être util. pour la connexion à Lync Server 2013"
 ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182591(v=OCS.15)
 ms:contentKeyID: 48276752
