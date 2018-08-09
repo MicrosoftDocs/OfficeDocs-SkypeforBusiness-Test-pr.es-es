@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar servidores de chat persistente para la alta disponibilidad y la recuperación ante desastres'
+title: "LS 2013 : Conf. d’un serv. de conv. perm. pr la haute dispo. et la réc. d’urg."
 TOCTitle: Configurar servidores de chat persistente para la alta disponibilidad y la recuperación ante desastres
 ms:assetid: eebc581c-e3a0-4b69-8a43-80b607b4d8f2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205364(v=OCS.15)

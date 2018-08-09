@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos de hardware y software para componentes perimetrales'
+title: "Lync Server 2013 : Conf. matérielle et log. requise pour les composants Edge"
 TOCTitle: Requisitos de hardware y software para componentes perimetrales
 ms:assetid: beac1140-e303-488a-ac9f-fc86dcb1987d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412931(v=OCS.15)

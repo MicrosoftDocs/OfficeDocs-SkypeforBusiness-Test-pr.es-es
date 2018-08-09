@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar un tronco con omisión de medios'
+title: "Lync Server 2013 : Conf. d’une jonction avec la déviation du trafic mult."
 TOCTitle: Configurar un tronco con omisión de medios
 ms:assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398792(v=OCS.15)

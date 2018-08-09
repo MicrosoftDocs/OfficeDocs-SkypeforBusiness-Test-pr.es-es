@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de CA empresarial para la autenticación de tarjetas inteligentes
-TOCTitle: Configuración de CA empresarial para la autenticación de tarjetas inteligentes
+title: "Conf. d’une autorité de cert. d’entreprise pour l’auth. par carte à puce"
+TOCTitle: "Conf. d’une autorité de cert. d’entreprise pour l’auth. par carte à puce"
 ms:assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn308571(v=OCS.15)
 ms:contentKeyID: 56271353

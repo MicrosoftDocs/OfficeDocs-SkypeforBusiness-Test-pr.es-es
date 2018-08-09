@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Lista de comprobación para la implementación del control de admisión de llamadas'
+title: "Lync Server 2013 : Liste de vér. du dépl. pr le contr. d’adm. des appels"
 TOCTitle: Lista de comprobación para la implementación del control de admisión de llamadas
 ms:assetid: 7e56a169-3e63-44ab-bf28-1fdeb52381c8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398631(v=OCS.15)

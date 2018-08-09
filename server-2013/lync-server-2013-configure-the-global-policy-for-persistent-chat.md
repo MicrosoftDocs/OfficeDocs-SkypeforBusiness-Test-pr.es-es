@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar la directiva global para chat persistente'
+title: "Lync Server 2013 : Conf. de la strat. globale pour la conversation permanente"
 TOCTitle: Configurar la directiva global para chat persistente
 ms:assetid: 6176eb5c-19de-4c07-bcc0-2e38f8965966
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204951(v=OCS.15)

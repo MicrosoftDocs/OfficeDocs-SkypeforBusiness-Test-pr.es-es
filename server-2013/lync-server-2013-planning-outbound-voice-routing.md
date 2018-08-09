@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planeación del enrutamiento de voz saliente'
+title: "Lync Server 2013 : Planification du routage des communications voc. sortantes"
 TOCTitle: Planeación del enrutamiento de voz saliente
 ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425853(v=OCS.15)

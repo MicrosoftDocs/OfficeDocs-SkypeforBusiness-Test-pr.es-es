@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Nuevas funciones de alta disponibilidad y recuperación ante desastres'
+title: "Lync Server 2013 : Nlles fonct. de haute dispo. et de récupération d’urgence"
 TOCTitle: Nuevas funciones de alta disponibilidad y recuperación ante desastres
 ms:assetid: 4fa7cd0f-784b-4d3f-b839-432c2ecaf7c1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204892(v=OCS.15)

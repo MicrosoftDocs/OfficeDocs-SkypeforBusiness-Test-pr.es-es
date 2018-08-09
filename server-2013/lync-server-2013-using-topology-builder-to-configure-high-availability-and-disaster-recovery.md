@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Usar Topology Builder para configurar la alta disponibilidad y la recuperación ante desastres'
+title: "Lync Server 2013 : Ut. gén. de topo. pour conf. haute dispo. et la réc. d’urg."
 TOCTitle: Usar Topology Builder para configurar la alta disponibilidad y la recuperación ante desastres
 ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205172(v=OCS.15)

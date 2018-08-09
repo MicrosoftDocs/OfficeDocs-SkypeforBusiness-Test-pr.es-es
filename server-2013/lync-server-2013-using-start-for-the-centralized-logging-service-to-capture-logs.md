@@ -1,6 +1,6 @@
 ﻿---
-title: Uso de Inicio para el servicio de registro centralizado para los registros de captura
-TOCTitle: Uso de Inicio para el servicio de registro centralizado para los registros de captura
+title: "Ut. comm. Start pour capture des journaux par le serv. de journ. centralisée"
+TOCTitle: "Ut. comm. Start pour capture des journaux par le serv. de journ. centralisée"
 ms:assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687958(v=OCS.15)
 ms:contentKeyID: 49888793

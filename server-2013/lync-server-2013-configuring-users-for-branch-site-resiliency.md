@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuración de usuarios para la resistencia del sitio de sucursal'
+title: "Lync Server 2013 : Conf. des ut. pour la résistance de sites de succursale"
 TOCTitle: Configuración de usuarios para la resistencia del sitio de sucursal
 ms:assetid: 36752665-940b-46ed-b14c-324a3e9a05f9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425844(v=OCS.15)

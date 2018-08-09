@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumen de DNS - Topologías perimetrales consolidadas escaladas, equilibrio de carga DNS con direcciones IP privadas con NAT'
+title: "LS 2013 : Rés. DNS - SE cons. màé, éq. ch. DNS ac ad. IP pr., conv. d’ad. Rés."
 TOCTitle: Resumen de DNS - Topologías perimetrales consolidadas escaladas, equilibrio de carga DNS con direcciones IP privadas con NAT
 ms:assetid: 11bc7b84-91cf-48f9-ad0e-06ad30b46a2e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398201(v=OCS.15)

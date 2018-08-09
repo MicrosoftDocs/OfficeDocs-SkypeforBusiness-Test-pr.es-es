@@ -1,6 +1,6 @@
 ﻿---
-title: Resumen de DNS - Federación del Protocolo extensible de mensajería y presencia (XMPP)
-TOCTitle: Resumen de DNS - Federación del Protocolo extensible de mensajería y presencia (XMPP)
+title: "Résumé des enr. DNS - Féd. XMPP (Extensible Messaging and Presence Protocol)"
+TOCTitle: "Résumé des enr. DNS - Féd. XMPP (Extensible Messaging and Presence Protocol)"
 ms:assetid: 0f720a2a-8ab5-43cc-882a-ab595ed3cec7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ618368(v=OCS.15)
 ms:contentKeyID: 49115268

@@ -1,6 +1,6 @@
 ﻿---
-title: Requisitos de infraestructura de herramientas administrativas de Lync Server 2013
-TOCTitle: Requisitos de infraestructura de herramientas administrativas de Lync Server 2013
+title: "Conf. req. de l’infr. pour les outils d’adm. dans Lync Server 2013"
+TOCTitle: "Conf. req. de l’infr. pour les outils d’adm. dans Lync Server 2013"
 ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg195766(v=OCS.15)
 ms:contentKeyID: 48276306

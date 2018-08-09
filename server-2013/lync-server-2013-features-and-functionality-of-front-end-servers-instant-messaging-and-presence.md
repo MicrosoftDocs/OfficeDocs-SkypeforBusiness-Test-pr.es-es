@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Características y funcionalidades de los servidores front-end, la mensajería instantánea y la presencia'
+title: "Lync Server 2013 : Fonct. serveurs frontaux, mess. inst. et présence"
 TOCTitle: Características y funcionalidades de los servidores front-end, la mensajería instantánea y la presencia
 ms:assetid: 05b29536-dcd7-49b5-934a-2ebf20ddc45c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398109(v=OCS.15)

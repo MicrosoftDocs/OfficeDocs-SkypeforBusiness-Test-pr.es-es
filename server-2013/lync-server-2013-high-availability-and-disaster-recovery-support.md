@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Compatibilidad entre la alta disponibilidad y la recuperación ante desastres'
+title: "Lync Server 2013 : Prise en ch. de la haute dispo. et de la récup. d’urgence"
 TOCTitle: Compatibilidad entre la alta disponibilidad y la recuperación ante desastres
 ms:assetid: 47e77e85-c7c3-4ade-8db7-a34c71aeafd7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204866(v=OCS.15)

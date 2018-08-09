@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Acceder al aprovisionamiento de la conectividad de mensajería instantánea pública para Lync Server'
+title: "Lync Server 2013 : accès au site d’approv. de connectivité PIC de Lync Server"
 TOCTitle: Acceder al aprovisionamiento de la conectividad de mensajería instantánea pública para Lync Server
 ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn440174(v=OCS.15)

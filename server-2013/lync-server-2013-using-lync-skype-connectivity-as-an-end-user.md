@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Usar la conectividad de Lync y Skype como usuario final'
+title: "Lync Server 2013 : Util. de la connectivité Lync-Skype en tant qu’util. final"
 TOCTitle: Usar la conectividad de Lync y Skype como usuario final
 ms:assetid: ad22f731-118c-4349-8790-b1a72941cbdd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn440175(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Compatibilidad de certificado de comodín'
+title: "Prise en ch. des certif. comportant des caractères génériques Lync Server 2013"
 TOCTitle: Compatibilidad de certificado de comodín
 ms:assetid: 0bae2aa8-b6dc-46f5-a3be-3fe7581809d4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh202161(v=OCS.15)

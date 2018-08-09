@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos del sistema para componentes perimetrales'
+title: "Lync Server 2013 : Conf. syst. req. pour les composants d’accès des ut. Ext."
 TOCTitle: Requisitos del sistema para componentes perimetrales
 ms:assetid: 4139b9a5-5b98-42a8-bfcc-6b371f1980db
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425919(v=OCS.15)

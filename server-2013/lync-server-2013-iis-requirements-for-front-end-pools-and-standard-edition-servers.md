@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos de IIS para grupos de servidores front-end y servidores Standard Edition'
+title: "LS 2013 : Conf. req. pr serv. Int. (IIS), pools front., serv. Standard Edition"
 TOCTitle: Requisitos de IIS para grupos de servidores front-end y servidores Standard Edition
 ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399038(v=OCS.15)

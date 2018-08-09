@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar los nombres de dominio completos (FQDN) de la granja de servidores web'
+title: "Lync Server 2013 : Conf. des noms de dom. complets d’une batterie de serv. web"
 TOCTitle: Configurar los nombres de dominio completos (FQDN) de la granja de servidores web
 ms:assetid: cb25dbbd-dcea-4997-8e14-e5007dd7d3ca
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg429722(v=OCS.15)

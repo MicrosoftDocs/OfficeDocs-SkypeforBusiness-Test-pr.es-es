@@ -1,6 +1,6 @@
 ﻿---
-title: Creación o modificación de conjuntos de opciones de configuración del servidor perimetral A/V
-TOCTitle: Creación o modificación de conjuntos de opciones de configuración del servidor perimetral A/V
+title: "Créa. ou mod. d’une collection de param. de configuration de serveur Edge A/V"
+TOCTitle: "Créa. ou mod. d’une collection de param. de configuration de serveur Edge A/V"
 ms:assetid: 43899518-59c6-4be4-8892-d6f6207bfaab
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688039(v=OCS.15)
 ms:contentKeyID: 49889063

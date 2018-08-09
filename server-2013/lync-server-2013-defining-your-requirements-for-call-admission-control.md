@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definición de los requisitos de la organización para el servicio de control de admisión de llamadas'
+title: "Lync Server 2013 : Déf. de la conf. req. pr le contrôle d’admission des appels"
 TOCTitle: Definición de los requisitos de la organización para el servicio de control de admisión de llamadas
 ms:assetid: 5122171a-a5b0-4059-b033-846caec10d1e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398334(v=OCS.15)

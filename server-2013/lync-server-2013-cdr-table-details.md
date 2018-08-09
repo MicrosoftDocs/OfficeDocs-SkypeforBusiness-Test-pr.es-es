@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Detalles de tablas CDR'
+title: "Lync Server 2013 : Inf. sur la table des enr. des détails des appels"
 TOCTitle: Detalles de tablas CDR
 ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398693(v=OCS.15)

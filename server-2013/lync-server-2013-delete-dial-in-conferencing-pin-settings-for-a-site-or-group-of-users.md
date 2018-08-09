@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminar configuración de PIN de conferencia de acceso telefónico local para un sitio o grupo de usuarios
-TOCTitle: Eliminar configuración de PIN de conferencia de acceso telefónico local para un sitio o grupo de usuarios
+title: "Supp. les par. de code confi. des conf. rdv pour un site ou un gr. d’ut."
+TOCTitle: "Supp. les par. de code confi. des conf. rdv pour un site ou un gr. d’ut."
 ms:assetid: 15a9faee-d024-4c0e-b2a0-fe7e7dc00589
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520955(v=OCS.15)
 ms:contentKeyID: 48274535

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Determinar los requisitos de los puertos y el firewall de A/V externos'
+title: "Lync Server 2013 : Déf. de la conf. req. pour le pare-feu A/V et les ports"
 TOCTitle: Determinar los requisitos de los puertos y el firewall de A/V externos
 ms:assetid: 3b849dc7-175d-40d1-820d-80e6ade6d332
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425882(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Introducción a las opciones de configuración del servicio de registro centralizado
-TOCTitle: Introducción a las opciones de configuración del servicio de registro centralizado
+title: "Présentation des param. de config. du service de journalisation centralisée"
+TOCTitle: "Présentation des param. de config. du service de journalisation centralisée"
 ms:assetid: 3c34e600-0b91-43dc-b4cc-90b6a70ee12e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688029(v=OCS.15)
 ms:contentKeyID: 49889049

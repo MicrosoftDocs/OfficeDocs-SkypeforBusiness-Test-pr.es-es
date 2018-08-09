@@ -1,6 +1,6 @@
 ﻿---
-title: Ver el estado de los servicios que se están ejecutando en un equipo con Lync Server 2013
-TOCTitle: Ver el estado de los servicios que se están ejecutando en un equipo con Lync Server 2013
+title: "Afficher le statut des services s’exécutant sur un ordi. dans Lync Server 2013"
+TOCTitle: "Afficher le statut des services s’exécutant sur un ordi. dans Lync Server 2013"
 ms:assetid: f41918e7-4c02-431e-840a-88a1f36ae499
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182606(v=OCS.15)
 ms:contentKeyID: 48277176

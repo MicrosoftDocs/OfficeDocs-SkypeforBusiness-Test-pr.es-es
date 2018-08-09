@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implementar el complemento de conferencia en línea para Lync 2013'
+title: "Lync Server 2013 : Dépl. du complément de réunion en ligne pour Lync 2013"
 TOCTitle: Implementar el complemento de conferencia en línea para Lync 2013
 ms:assetid: ce8608f6-71d4-46f1-b101-50f163916d52
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398873(v=OCS.15)

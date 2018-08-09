@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Agregar un servidor de chat persistente a la implementación'
+title: "Lync Server 2013 : Ajout d’un serveur de conv. permanente à votre déploiement"
 TOCTitle: Agregar un servidor de chat persistente a la implementación
 ms:assetid: 9ddbbcf9-60bf-4b04-92b9-af7ca66e2362
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205116(v=OCS.15)

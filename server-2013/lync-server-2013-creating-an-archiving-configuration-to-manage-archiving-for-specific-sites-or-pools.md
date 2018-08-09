@@ -1,6 +1,6 @@
 ﻿---
-title: Crear una configuración de archivado para administrar el archivado para sitios o grupos de servidores específicos
-TOCTitle: Crear una configuración de archivado para administrar el archivado para sitios o grupos de servidores específicos
+title: "Créa. d’une conf. d’arch. pour gérer l’arch. pour des sites ou pools part."
+TOCTitle: "Créa. d’une conf. d’arch. pour gérer l’arch. pour des sites ou pools part."
 ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205251(v=OCS.15)
 ms:contentKeyID: 48276613

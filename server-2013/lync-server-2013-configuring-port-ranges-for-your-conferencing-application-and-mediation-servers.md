@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de intervalos de puertos para servidores de conferencias, aplicaciones y mediación
-TOCTitle: Configuración de intervalos de puertos para servidores de conferencias, aplicaciones y mediación
+title: "Conf. des plages de ports pour vos serv. de confér., d’app. et de médiation"
+TOCTitle: "Conf. des plages de ports pour vos serv. de confér., d’app. et de médiation"
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48275229

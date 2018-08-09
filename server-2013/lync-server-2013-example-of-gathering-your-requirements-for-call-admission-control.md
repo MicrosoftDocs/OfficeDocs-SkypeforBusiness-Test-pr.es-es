@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Ejemplo de recopilación de los requisitos de la organización para el servicio de control de admisión de llamadas'
+title: "Lync Server 2013 : ex. coll. données de la conf. req. pr contr. adm. appels"
 TOCTitle: 'Ejemplo: Recopilación de los requisitos de la organización para el servicio de control de admisión de llamadas'
 ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425827(v=OCS.15)

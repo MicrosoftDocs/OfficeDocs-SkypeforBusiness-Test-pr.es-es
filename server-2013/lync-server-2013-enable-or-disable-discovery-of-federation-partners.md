@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar o deshabilitar la detección de socios de federación'
+title: "Lync Server 2013 : Act. ou dés. de la découverte de partenaires de fédération"
 TOCTitle: Habilitar o deshabilitar la detección de socios de federación
 ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182550(v=OCS.15)

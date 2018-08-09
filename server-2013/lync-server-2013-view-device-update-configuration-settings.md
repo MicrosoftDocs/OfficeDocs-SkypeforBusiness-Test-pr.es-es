@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Ver las opciones de configuración de la actualización de dispositivos'
+title: "Lync Server 2013 : aff. des param. de conf. de la mise à jour des dispositifs"
 TOCTitle: Ver las opciones de configuración de la actualización de dispositivos
 ms:assetid: aa6a70a9-bd77-4606-b797-ea6a3bab9cf2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994059(v=OCS.15)

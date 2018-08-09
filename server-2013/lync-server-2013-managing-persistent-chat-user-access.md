@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Administración del acceso de usuarios de chat persistente'
+title: "Lync Server 2013 : Gest. accès des utilisateurs à la conversation permanente"
 TOCTitle: Administración del acceso de usuarios de chat persistente
 ms:assetid: 588fab46-2960-435b-9ec0-7460079a9088
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398387(v=OCS.15)

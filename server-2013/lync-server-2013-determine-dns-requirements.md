@@ -1,5 +1,5 @@
 ﻿lync-server-2013-choosing-a-topology---
-title: 'Lync Server 2013: Determinar los requisitos DNS'
+title: "Lync Server 2013 : Dét. de la conf. req. pour DNS pour Lync Server 2013"
 TOCTitle: Determinar los requisitos DNS
 ms:assetid: 95777017-6282-44c0-a685-f246af0501b4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398758(v=OCS.15)

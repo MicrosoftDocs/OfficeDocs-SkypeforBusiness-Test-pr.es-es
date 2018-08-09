@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos del sistema para herramientas de administración'
+title: "Lync Server 2013 : Conf. système requise pour les outils d’administration"
 TOCTitle: Requisitos del sistema para herramientas de administración
 ms:assetid: 327d3f1f-651d-4bb2-8c08-89186ee8135e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204791(v=OCS.15)

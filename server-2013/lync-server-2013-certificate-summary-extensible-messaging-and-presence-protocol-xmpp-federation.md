@@ -1,6 +1,6 @@
 ﻿---
-title: Resumen de certificado - Federación del Protocolo extensible de mensajería y presencia (XMPP)
-TOCTitle: Resumen de certificado - Federación del Protocolo extensible de mensajería y presencia (XMPP)
+title: "Résumé des certifi. - Féd. XMPP (Extensible Messaging and Presence Protocol)"
+TOCTitle: "Résumé des certifi. - Féd. XMPP (Extensible Messaging and Presence Protocol)"
 ms:assetid: b059a34e-99df-40af-91fe-fe2aa52841f6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ618374(v=OCS.15)
 ms:contentKeyID: 49115311

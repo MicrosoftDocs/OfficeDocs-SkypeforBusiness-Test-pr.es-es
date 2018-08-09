@@ -1,6 +1,6 @@
 ﻿---
-title: Administración de la autenticación servidor a servidor (Oauth) y las aplicaciones de socio en Lync Server 2013
-TOCTitle: Administración de la autenticación servidor a servidor (Oauth) y las aplicaciones de socio en Lync Server 2013
+title: "Gest. de l’auth. serv. à serv. (Oauth) et des app. partenaires dans LS 2013"
+TOCTitle: "Gest. de l’auth. serv. à serv. (Oauth) et des app. partenaires dans LS 2013"
 ms:assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204817(v=OCS.15)
 ms:contentKeyID: 48274931

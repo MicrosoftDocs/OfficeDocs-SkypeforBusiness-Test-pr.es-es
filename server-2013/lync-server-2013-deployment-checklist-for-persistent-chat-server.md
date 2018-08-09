@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Lista de comprobación para la implementación de servidores de chat persistente'
+title: "Lync Server 2013 : Liste de vérif. du déploiement pour le serv. de conv. Perm."
 TOCTitle: Lista de comprobación para la implementación de servidores de chat persistente
 ms:assetid: b1108f8f-88a2-4660-8086-d25ba76f7239
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412851(v=OCS.15)

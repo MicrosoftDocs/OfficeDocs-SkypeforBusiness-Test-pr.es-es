@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Omisión de medios y control de admisión de llamadas'
+title: "Lync Server 2013 : Dév. du trafic mult. et contrôle d’admission des appels"
 TOCTitle: Omisión de medios y control de admisión de llamadas
 ms:assetid: 120b2a2b-5f97-4735-a2ee-0f849feb8c1d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398203(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Impedir nuevas conexiones a Lync Server para el mantenimiento de servidores
-TOCTitle: Impedir nuevas conexiones a Lync Server para el mantenimiento de servidores
+title: "Blocage des nlles connexions à Lync Server lors de la maintenance du serveur "
+TOCTitle: "Blocage des nlles connexions à Lync Server lors de la maintenance du serveur "
 ms:assetid: 22b27adf-a590-43bd-9306-a5789ae108d7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520964(v=OCS.15)
 ms:contentKeyID: 48274674

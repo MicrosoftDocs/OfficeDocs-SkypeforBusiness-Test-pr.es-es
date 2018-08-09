@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definir un servidor o aplicación de sucursal con funciones de supervivencia'
+title: "Lync Server 2013 : Déf. d’un SBA ou d’un SBS"
 TOCTitle: Definir un servidor o aplicación de sucursal con funciones de supervivencia
 ms:assetid: 1f49cfbe-30b3-4600-af15-47cb2f58d18a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398280(v=OCS.15)

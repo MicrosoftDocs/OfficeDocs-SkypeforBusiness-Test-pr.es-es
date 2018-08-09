@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar directivas para controlar el acceso de usuarios federados de XMPP'
+title: "Lync Server 2013 : Conf. des strat. de contrôle d’accès des ut. fédérés XMPP"
 TOCTitle: Configurar directivas para controlar el acceso de usuarios federados de XMPP
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ552446(v=OCS.15)

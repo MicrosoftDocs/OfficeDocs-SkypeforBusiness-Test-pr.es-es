@@ -1,6 +1,6 @@
 ﻿---
-title: Configurar las opciones globales del desvío de medios en Lync Server 2013 para usar la información de sitio y región
-TOCTitle: Configurar las opciones globales del desvío de medios en Lync Server 2013 para usar la información de sitio y región
+title: "Conf. par. gl. du cont. média ds LS 2013 pr ut. inf. rel. aux sites et rég."
+TOCTitle: "Conf. par. gl. du cont. média ds LS 2013 pr ut. inf. rel. aux sites et rég."
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398150(v=OCS.15)
 ms:contentKeyID: 48274377

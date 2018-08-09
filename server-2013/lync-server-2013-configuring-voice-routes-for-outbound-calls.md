@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuración de rutas de voz para llamadas salientes'
+title: "Lync Server 2013 : Conf. des itinéraires de comm. voc. pour appels sortants"
 TOCTitle: Configuración de rutas de voz para llamada salientes
 ms:assetid: 3c182cdd-7a4a-4a9d-bdac-4199f0abd947
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425890(v=OCS.15)

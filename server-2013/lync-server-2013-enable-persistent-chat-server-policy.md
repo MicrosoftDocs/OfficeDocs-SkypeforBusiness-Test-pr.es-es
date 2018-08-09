@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar la directiva de servidor de chat persistente'
+title: "Lync Server 2013 : Act. d’une stratégie de serveur de conversation permanente"
 TOCTitle: Habilitar la directiva de servidor de chat persistente
 ms:assetid: 87063d6c-2e38-4970-b76d-2aa15f0de29e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205056(v=OCS.15)

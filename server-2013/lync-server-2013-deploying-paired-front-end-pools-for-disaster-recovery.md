@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implementación de grupos front-end emparejados para recuperación ante desastres'
+title: "Lync Server 2013 : Dépl. de pools frontaux couplés pour la réc. d’urgence"
 TOCTitle: Implementación de grupos front-end emparejados para recuperación ante desastres
 ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204773(v=OCS.15)

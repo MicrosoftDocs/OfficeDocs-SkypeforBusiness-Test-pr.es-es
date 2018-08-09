@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar directivas para el control del acceso de usuarios remotos'
+title: "Lync Server 2013 : Conf. des strat. de contrôle d’accès des ut. distants"
 TOCTitle: Configurar directivas para el control del acceso de usuarios remotos
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398725(v=OCS.15)

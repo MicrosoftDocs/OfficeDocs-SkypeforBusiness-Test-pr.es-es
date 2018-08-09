@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: El Generador de topologías es compatible con la creación de reflejos de SQL Server'
+title: "Prise en ch. de la mise en miroir SQL Server par le gén. de top. dans LS 2013"
 TOCTitle: El Generador de topologías es compatible con la creación de reflejos de SQL Server
 ms:assetid: 2c1caa73-c707-4e53-ae3f-a100534373fd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688007(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: 'Restaurar un servidor back-end Enterprise Edition reflejado: principal'
-TOCTitle: 'Restaurar un servidor back-end Enterprise Edition reflejado: principal'
+title: "Rest. d’un serv. Princ. Enterprise Edition en miroir - Base de données prim."
+TOCTitle: "Rest. d’un serv. Princ. Enterprise Edition en miroir - Base de données prim."
 ms:assetid: bc555b46-70c5-4eee-ae91-e195df238293
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945648(v=OCS.15)
 ms:contentKeyID: 52061724

@@ -1,6 +1,6 @@
 ﻿---
-title: Habilitación o deshabilitación del modo crítico para bloquear o permitir mensajería instantánea y sesiones de conferencia web si hay errores de archivado
-TOCTitle: Habilitación o deshabilitación del modo crítico para bloquear o permitir mensajería instantánea y sesiones de conferencia web si hay errores de archivado
+title: "Act/dés mode crit. pr bloq./aut. sess. mess. inst. et conf. web si échec arch."
+TOCTitle: "Act/dés mode crit. pr bloq./aut. sess. mess. inst. et conf. web si échec arch."
 ms:assetid: fafdcd2e-b778-4ed5-a25f-09208aa3b699
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182609(v=OCS.15)
 ms:contentKeyID: 48277236

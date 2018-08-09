@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Software de servidor y compatibilidad con la infraestructura'
+title: "Lync Server 2013 : Prise en ch. des infras. et des logiciels de serveur"
 TOCTitle: Software de servidor y compatibilidad con la infraestructura
 ms:assetid: 4ee5fe38-0191-4710-9aa2-df8895e8c51b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398319(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Deshabilitar la carga y descarga de archivos en salones de chat'
+title: "Lync Server 2013 : Dés. charg. et téléch. de fichiers ds les salles de conv."
 TOCTitle: Deshabilitar la carga y descarga de archivos en salones de chat
 ms:assetid: c4faffb0-ae6a-47df-ae95-403c7101280f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ215882(v=OCS.15)

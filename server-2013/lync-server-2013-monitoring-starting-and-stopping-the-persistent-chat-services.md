@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Supervisar, iniciar y detener los servicios de chat persistente'
+title: "Lync Server 2013 : Surv., démarrage et arrêt des services de conv. permanente"
 TOCTitle: Supervisar, iniciar y detener los servicios de chat persistente
 ms:assetid: 05761d02-e7b5-494e-a58f-f3d213483035
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398105(v=OCS.15)

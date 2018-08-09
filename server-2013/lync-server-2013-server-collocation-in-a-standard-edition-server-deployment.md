@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Colocación de un servidor en una implementación de servidores de Standard Edition'
+title: "Coloc. de serv. Lync Server 2013 lors d’un dépl. de serv. Standard Edition"
 TOCTitle: Colocación de un servidor en una implementación de servidores de Standard Edition
 ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398131(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Servidor perimetral consolidado ampliado con equilibradores de carga de hardware'
+title: "Lync Server 2013 : Top. Edge consol. mise à l’éch. avec des équil. de ch. mat."
 TOCTitle: Servidor perimetral consolidado ampliado con equilibradores de carga de hardware
 ms:assetid: 6783e225-9677-415a-8731-0bf2e2c4cf8b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398478(v=OCS.15)

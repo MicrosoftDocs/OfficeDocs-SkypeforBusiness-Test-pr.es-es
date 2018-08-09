@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Compatibilidad y requisitos para un servidor adicional'
+title: "Lync Server 2013 : Autres prises en charge et conf. de serveur requises"
 TOCTitle: Compatibilidad y requisitos para un servidor adicional
 ms:assetid: 7622986b-abd6-4f45-8b5b-d5e2368521e8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398577(v=OCS.15)

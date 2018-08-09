@@ -1,6 +1,6 @@
 ﻿---
-title: Creación o modificación de un conjunto de opciones de configuración de CDR
-TOCTitle: Creación o modificación de un conjunto de opciones de configuración de CDR
+title: "Créa. ou mo. d’une coll. de par. de con. de l’enr. des détails des appels"
+TOCTitle: "Créa. ou mo. d’une coll. de par. de con. de l’enr. des détails des appels"
 ms:assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721878(v=OCS.15)
 ms:contentKeyID: 49889679

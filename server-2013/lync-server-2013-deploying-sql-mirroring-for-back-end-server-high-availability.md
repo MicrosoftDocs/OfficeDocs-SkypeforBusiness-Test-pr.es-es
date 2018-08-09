@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implementar un reflejo de SQL para alta disponibilidad de servidores back-end'
+title: "Lync Server 2013 : Dépl. mise en miroir SQL pr la haute disp. des serv. Princ."
 TOCTitle: Implementar un reflejo de SQL para alta disponibilidad de servidores back-end
 ms:assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204992(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: requisitos de vídeo del cliente de Lync'
+title: "Skype Entreprise Server 2015 : conf. req. pr vidéo du client Skype Entreprise"
 TOCTitle: Requisitos de vídeo del cliente de Lync
 ms:assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688132(v=OCS.15)

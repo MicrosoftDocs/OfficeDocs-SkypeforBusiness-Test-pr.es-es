@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Lista de comprobación para la implementación de conferencias'
+title: "Liste de vérif. du déploiement pour les conférences dans Lync Server 2013"
 TOCTitle: Lista de comprobación para la implementación de conferencias
 ms:assetid: ee0ee939-6b78-4371-b39d-d09a27375601
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205362(v=OCS.15)

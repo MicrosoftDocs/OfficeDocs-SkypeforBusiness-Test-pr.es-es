@@ -1,6 +1,6 @@
 ﻿---
-title: Quitar los archivos de actualización de dispositivos que no estén asociados a un dispositivo
-TOCTitle: Quitar los archivos de actualización de dispositivos que no estén asociados a un dispositivo
+title: "Supp. fichiers de màj de périph. plus associés à aucun périphérique"
+TOCTitle: "Supp. fichiers de màj de périph. plus associés à aucun périphérique"
 ms:assetid: ecebbf73-b456-4990-a91d-308b84d39404
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994084(v=OCS.15)
 ms:contentKeyID: 52061959

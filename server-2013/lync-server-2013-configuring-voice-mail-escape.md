@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de escape en correo de voz en Lync Server 2013
-TOCTitle: Configuración de escape en correo de voz en Lync Server 2013
+title: "Conf. de la redirection vers la messagerie vocale dans Lync Server 2013"
+TOCTitle: "Conf. de la redirection vers la messagerie vocale dans Lync Server 2013"
 ms:assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688157(v=OCS.15)
 ms:contentKeyID: 49889508

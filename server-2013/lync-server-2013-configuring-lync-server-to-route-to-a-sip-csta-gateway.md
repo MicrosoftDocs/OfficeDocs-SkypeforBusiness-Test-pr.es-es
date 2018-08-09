@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar Lync Server para enrutar a una puerta de enlace SIP/CSTA'
+title: "Lync Server 2013 : Conf. Lync Server 2013 pr routage vers passerelle SIP/CSTA"
 TOCTitle: Configurar Lync Server 2013 para enrutar a una puerta de enlace SIP/CSTA
 ms:assetid: d75e4cf6-7b36-430a-a91a-0f2559306ba1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615038(v=OCS.15)

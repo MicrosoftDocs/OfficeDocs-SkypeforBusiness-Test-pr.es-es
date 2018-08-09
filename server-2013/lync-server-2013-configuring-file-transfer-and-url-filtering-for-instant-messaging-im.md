@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de la transferencia de archivos y el filtrado de direcciones URL para la mensajería instantánea (MI) en Lync Server 2013
-TOCTitle: Configuración de la transferencia de archivos y el filtrado de direcciones URL para la mensajería instantánea (MI) en Lync Server 2013
+title: "Conf. du transf. de fich. et du filtr. des URL pour mess. inst. dans LS 2013"
+TOCTitle: "Conf. du transf. de fich. et du filtr. des URL pour mess. inst. dans LS 2013"
 ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520952(v=OCS.15)
 ms:contentKeyID: 48274467

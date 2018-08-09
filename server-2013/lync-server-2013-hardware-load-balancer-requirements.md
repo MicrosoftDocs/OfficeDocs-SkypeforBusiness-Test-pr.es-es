@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos del equilibrador de carga de hardware'
+title: "Conf. requise pour l’équilibreur de charge matérielle pour Lync Server 2013"
 TOCTitle: Requisitos del equilibrador de carga de hardware
 ms:assetid: 32891268-2059-43d0-adf4-af4ff1e9ce66
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ656815(v=OCS.15)

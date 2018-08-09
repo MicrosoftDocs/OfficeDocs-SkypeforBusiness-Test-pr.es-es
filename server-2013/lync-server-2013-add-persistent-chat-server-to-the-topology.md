@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Agregar un servidor de chat persistente a la topología'
+title: "Lync Server 2013 : Ajout d’un serv. de conv. permanente à la topologie"
 TOCTitle: Agregar un servidor de chat persistente a la topología
 ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205049(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Creación o modificación de un conjunto de opciones de configuración de reuniones en Lync Server 2013
-TOCTitle: Creación o modificación de un conjunto de opciones de configuración de reuniones en Lync Server 2013
+title: "Créa. ou modif. d’une coll. de param. de conf. de réunion ds Lync Server 2013"
+TOCTitle: "Créa. ou modif. d’une coll. de param. de conf. de réunion ds Lync Server 2013"
 ms:assetid: ce6773c1-a0d5-4405-8e32-33a6f3a46a1a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721889(v=OCS.15)
 ms:contentKeyID: 49889691

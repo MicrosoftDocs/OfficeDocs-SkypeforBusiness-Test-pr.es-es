@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Proteger los datos en tránsito: bases de datos de servidor de archivado, supervisión y cumplimiento de chat en grupo'
+title: "LS 2013 : prot. données en transit : BD serv. arch., surv., conf. conv. de gr."
 TOCTitle: 'Proteger los datos en tránsito: bases de datos de servidor de archivado, supervisión y cumplimiento de chat en grupo en Lync Server 2013'
 ms:assetid: ea219705-1015-43a7-890b-e7e67b451e7c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn518336(v=OCS.15)

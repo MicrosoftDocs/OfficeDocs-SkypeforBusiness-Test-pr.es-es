@@ -1,6 +1,6 @@
 ﻿---
-title: Probar servidor de chat persistente con una transacción sintética
-TOCTitle: Probar servidor de chat persistente con una transacción sintética
+title: "Test du chat du serv. de conv. Perm. avec une transaction synthétique"
+TOCTitle: "Test du chat du serv. de conv. Perm. avec une transaction synthétique"
 ms:assetid: 414e43f3-0074-4ecf-a232-398de972cb24
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204837(v=OCS.15)
 ms:contentKeyID: 48275086

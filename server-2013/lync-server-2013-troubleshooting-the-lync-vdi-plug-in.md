@@ -1,6 +1,6 @@
 ﻿---
-title: Solución de problemas del complemento Lync VDI
-TOCTitle: Solución de problemas del complemento Lync VDI
+title: "Résol. des pb du plug-in Lync VDI (Virtual Desktop Infrastructure) ds LS 2013"
+TOCTitle: "Résol. des pb du plug-in Lync VDI (Virtual Desktop Infrastructure) ds LS 2013"
 ms:assetid: 183c9449-b907-409c-b5ed-b02af3bd93ee
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204713(v=OCS.15)
 ms:contentKeyID: 48274560

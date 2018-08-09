@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Preparar Servicios de dominio de Active Directory bloqueados'
+title: "Lync Server 2013 : Prép. des services de domaine Active Directory verrouillés"
 TOCTitle: Preparar Servicios de dominio de Active Directory bloqueados
 ms:assetid: 68bde963-3fa3-4102-88d6-ac931c1dd2d7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398492(v=OCS.15)

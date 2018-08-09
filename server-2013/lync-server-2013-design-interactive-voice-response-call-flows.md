@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Diseñar flujos de llamada para respuestas de voz interactivas'
+title: "Lync Server 2013 : Conc. des flux d’appels du syst. de rép. vocale interactive"
 TOCTitle: Diseñar flujos de llamada para respuestas de voz interactivas
 ms:assetid: f3477f0a-3ad5-4b13-a73c-046aa451db19
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413020(v=OCS.15)

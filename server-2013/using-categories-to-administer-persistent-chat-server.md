@@ -1,6 +1,6 @@
 ﻿---
-title: Usar categorías para administrar el servidor de chat persistente
-TOCTitle: Usar categorías para administrar el servidor de chat persistente
+title: "Util. des catégories pour administrer le serveur de conversation permanente"
+TOCTitle: "Util. des catégories pour administrer le serveur de conversation permanente"
 ms:assetid: dfcb3ad1-da90-467e-b08c-f4e68673b7b5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398988(v=OCS.15)
 ms:contentKeyID: 48276939

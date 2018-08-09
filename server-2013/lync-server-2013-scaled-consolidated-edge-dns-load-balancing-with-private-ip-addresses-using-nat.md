@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT'
+title: "LS 2013 : SE cons. mis à l’é., éq. charge DNS ac ad. IP pri., conv. ad. rés."
 TOCTitle: Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT
 ms:assetid: c7ca4ca8-c639-4d93-86d7-8891170cacbc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398823(v=OCS.15)

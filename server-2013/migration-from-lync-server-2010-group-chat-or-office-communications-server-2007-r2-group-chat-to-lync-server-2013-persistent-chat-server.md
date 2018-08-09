@@ -1,6 +1,6 @@
 ﻿---
-title: Migración del chat de grupo de Lync Server 2010 o el chat de grupo de Office Communications Server 2007 R2 al servidor de chat persistente de Lync Server 2013
-TOCTitle: Migración del chat de grupo de Lync Server 2010 o el chat de grupo de Office Communications Server 2007 R2 al servidor de chat persistente de Lync Server 2013
+title: "Migr. de LS 2010, conv. de gr. ou conv. de gr. OCS 2007 R2 vers LS 2013, serv. de conv. perm."
+TOCTitle: "Migr. de LS 2010, conv. de gr. ou conv. de gr. OCS 2007 R2 vers LS 2013, serv. de conv. perm."
 ms:assetid: 5b4d3db1-6eba-4932-b49c-f60bcf9488f9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615442(v=OCS.15)
 ms:contentKeyID: 48275379

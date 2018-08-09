@@ -1,6 +1,6 @@
 ﻿---
-title: Visualización de información sobre troncos SIP individuales en Lync Server 2013
-TOCTitle: Visualización de información sobre troncos SIP individuales en Lync Server 2013
+title: "Aff. des inf. sur les jonctions SIP individuelles dans Lync Server 2013"
+TOCTitle: "Aff. des inf. sur les jonctions SIP individuelles dans Lync Server 2013"
 ms:assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721847(v=OCS.15)
 ms:contentKeyID: 49889531

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear una directiva de usuario para chat persistente'
+title: "Lync Server 2013 : Créa. d’une strat. ut. pour la conversation permanente"
 TOCTitle: Crear una directiva de usuario para chat persistente
 ms:assetid: aa3774af-d442-4206-8a68-2fbb9102e9d6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205170(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Administración de las opciones de configuración del servicio de registro centralizado con PowerShell
-TOCTitle: Administración de las opciones de configuración del servicio de registro centralizado con PowerShell
+title: "Gest. des par. de conf. du serv. de journ. centralisée à l’aide de PowerShell"
+TOCTitle: "Gest. des par. de conf. du serv. de journ. centralisée à l’aide de PowerShell"
 ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721938(v=OCS.15)
 ms:contentKeyID: 49889816

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Publicar los cambios pendientes en la configuración del enrutamiento de voz'
+title: "Lync Server 2013 : Pub. des mod. en att. de la conf. du routage des comm. Voc."
 TOCTitle: Publicar los cambios pendientes en la configuración del enrutamiento de voz
 ms:assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413088(v=OCS.15)

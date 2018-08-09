@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear un caso de prueba de enrutamiento de voz'
+title: "Lync Server 2013 : Créa. d’un cas de test de routage des comm. vocales"
 TOCTitle: Crear un caso de prueba de enrutamiento de voz
 ms:assetid: 43a07a5b-2f20-462a-81e5-d628c18391e0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425935(v=OCS.15)

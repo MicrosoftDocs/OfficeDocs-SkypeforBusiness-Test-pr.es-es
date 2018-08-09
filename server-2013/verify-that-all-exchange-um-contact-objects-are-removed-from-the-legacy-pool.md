@@ -1,6 +1,6 @@
 ﻿---
-title: Comprobar que todos los objetos de contacto de mensajería unificada de Exchange se han quitado del grupo de servidores heredado
-TOCTitle: Comprobar que todos los objetos de contacto de mensajería unificada de Exchange se han quitado del grupo de servidores heredado
+title: "Vérif. de la suppr. des objets de contact de mess. Un. Exchange du pool hérité"
+TOCTitle: "Vérif. de la suppr. des objets de contact de mess. Un. Exchange du pool hérité"
 ms:assetid: 5a813169-0ed7-4f84-a242-ed2cd4ea5c43
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688068(v=OCS.15)
 ms:contentKeyID: 49889198
