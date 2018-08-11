@@ -1,5 +1,5 @@
 ﻿---
-title: Remove-CsAddressBookConfiguration para la administración de la libreta de direcciones
+title: 'Remove-CsAddressBookConfiguration para la administración de la libreta de direcciones'
 TOCTitle: Remove-CsAddressBookConfiguration para la administración de la libreta de direcciones
 ms:assetid: 5d173ebe-ec4d-4640-8432-a25071ea9cc5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg429705(v=OCS.15)
