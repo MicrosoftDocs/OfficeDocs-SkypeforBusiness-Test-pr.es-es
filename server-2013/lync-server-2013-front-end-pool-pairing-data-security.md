@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: seguridad de datos en el emparejamiento de grupos de servidores front-end'
+title: 'Lync Server 2013: Seguridad de datos en emparejamiento grupos de servidores front-end'
 TOCTitle: Seguridad de datos en el emparejamiento de grupos de servidores front-end
 ms:assetid: edb852b8-ea86-4948-b756-60fe6ee876d2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721930(v=OCS.15)
