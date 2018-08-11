@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Experiencia del usuario durante la conmutación por error del grupo de servidores'
+title: 'Lync Server 2013: Experiencia durante conmutación por error del grupo de servidores'
 TOCTitle: Experiencia del usuario durante la conmutación por error del grupo de servidores
 ms:assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205184(v=OCS.15)
