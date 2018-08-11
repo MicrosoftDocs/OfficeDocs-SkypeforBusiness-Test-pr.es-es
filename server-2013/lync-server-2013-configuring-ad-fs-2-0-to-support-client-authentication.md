@@ -1,5 +1,5 @@
 ﻿---
-title: Configuración de AD FS 2.0 para que sea compatible con la autenticación de clientes
+title: 'Configuración de AD FS 2.0 para que sea compatible con la autenticación de clientes'
 TOCTitle: Configuración de AD FS 2.0 para que sea compatible con la autenticación de clientes
 ms:assetid: 4d93d400-ccaa-4da8-a71b-d05d7ba79d93
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn308565(v=OCS.15)
