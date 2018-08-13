@@ -42,10 +42,6 @@ La tabla siguiente especifica los requisitos de DNS para la implementación de u
 <ul>
 <li><p>Equilibrio de carga de DNS:   Grupo01.contoso.net   Dirección IP del grupo   10.10.10.5</p>
 
-
-> [!IMPORTANT]  
-> Cada Servidor front-end tendrá también un registro A distinto:
-
 > [!WARNING]  
 > Cada Servidor front-end tendrá también un registro A distinto:
 
