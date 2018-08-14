@@ -1,5 +1,5 @@
 ﻿---
-title: Configuración de la directiva de calidad de servicio para los servidores perimetrales de audio y vídeo
+title: Directiva de calidad de servicio para los servidores perimetrales de audio y vídeo
 TOCTitle: Configuración de la directiva de calidad de servicio para los servidores perimetrales de audio y vídeo
 ms:assetid: 119ee1f5-45b9-40ba-98e5-c694dd2fc5c2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204681(v=OCS.15)

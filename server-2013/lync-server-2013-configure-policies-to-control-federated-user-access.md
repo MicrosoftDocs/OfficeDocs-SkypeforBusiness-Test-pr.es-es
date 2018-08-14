@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Conf. des stratégies de contrôle d’accès des ut. fédérés"
+title: "Lync Server 2013: Config. directivas para controlar el acceso de usuarios federados"
 TOCTitle: Configurar directivas para controlar el acceso de usuarios federados
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398359(v=OCS.15)

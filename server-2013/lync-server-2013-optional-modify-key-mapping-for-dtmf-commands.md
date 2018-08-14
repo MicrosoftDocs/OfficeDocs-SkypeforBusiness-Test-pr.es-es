@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : (Facul.) Mod. du mappage des clés des commandes DTMF"
+title: "Lync Server 2013: (Opcional) Modificar la asignación de teclas para comandos DTMF"
 TOCTitle: (Opcional) Modificar la asignación de teclas para comandos DTMF
 ms:assetid: d753b78d-400c-4df2-957f-e7576b2019c2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398943(v=OCS.15)

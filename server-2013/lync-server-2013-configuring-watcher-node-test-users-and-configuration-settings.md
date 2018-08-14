@@ -1,5 +1,5 @@
 ﻿---
-title: "Conf. des ut. de test d’un nœud observateur et paramètres de configuration"
+title: "Configurar usuarios de la prueba del nodo de monitor y opciones de configuración"
 TOCTitle: "Conf. des ut. de test d’un nœud observateur et paramètres de configuration"
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205152(v=OCS.15)

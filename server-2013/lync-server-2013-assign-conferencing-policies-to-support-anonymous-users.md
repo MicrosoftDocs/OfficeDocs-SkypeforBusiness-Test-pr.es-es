@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Affect. des strat. de conf. pour la prise en ch. les ut. anonymes"
+title: "Lync Server 2013: Asignar directivas de conferencia para admitir usuarios anónimos"
 TOCTitle: Asignar directivas de conferencia para admitir usuarios anónimos
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg521007(v=OCS.15)

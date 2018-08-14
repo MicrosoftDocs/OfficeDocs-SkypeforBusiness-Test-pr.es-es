@@ -1,5 +1,5 @@
 ﻿---
-title: "Vérif. de la suppr. des objets de contact de mess. Un. Exchange du pool hérité"
+title: "Objetos de contacto de mensajería unif. de Exchange quitados de grupo de servidores"
 TOCTitle: "Vérif. de la suppr. des objets de contact de mess. Un. Exchange du pool hérité"
 ms:assetid: 5a813169-0ed7-4f84-a242-ed2cd4ea5c43
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688068(v=OCS.15)

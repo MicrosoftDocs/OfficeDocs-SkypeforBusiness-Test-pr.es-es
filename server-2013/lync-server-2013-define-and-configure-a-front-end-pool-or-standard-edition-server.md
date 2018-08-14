@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Déf. et conf. pool frontal ou serv. Standard Edition"
+title: "Definir y configurar un grupo de servidores front-end o un servidor Standard Edition"
 TOCTitle: Definir y configurar un grupo de servidores front-end o un servidor Standard Edition
 ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398538(v=OCS.15)

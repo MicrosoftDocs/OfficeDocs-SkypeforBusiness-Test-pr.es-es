@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Résumé ports - SE unique cons. avec ad. IP pr. avec conv. ad. rés."
+title: "Resumen puerto: Perímetro consolidado de un solo equipo con IP privadas mediante NAT"
 TOCTitle: Resumen de puerto - Perímetro consolidado de un solo equipo con direcciones IP privadas mediante NAT
 ms:assetid: 3c1a389f-5f42-4719-a05b-e0b84aa3eb9e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425891(v=OCS.15)

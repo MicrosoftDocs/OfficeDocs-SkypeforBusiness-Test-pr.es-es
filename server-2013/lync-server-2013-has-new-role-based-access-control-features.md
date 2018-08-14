@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 comporte des nlles fonct. de contr. d’accès basé sur un rôle"
+title: "Lync Server 2013 tiene nuevas características de control de acceso basado en roles"
 TOCTitle: Características nuevas del control de acceso basado en roles (RBAC)
 ms:assetid: 22b4ac42-f234-4b86-bb0c-f20d476205fa
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398297(v=OCS.15)

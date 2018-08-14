@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Dépl. mess. un. Exchange loc. pr fournir mess. voc. LS 2013"
+title: "Implementar mensajería unif. de Exchange local para correo de voz de Lync Server 2013"
 TOCTitle: Implementar la mensajería unificada de Exchange local para proporcionar correo de voz de Lync Server 2013
 ms:assetid: 9673bd73-a3a3-425d-870f-04d801c6d0d5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398768(v=OCS.15)

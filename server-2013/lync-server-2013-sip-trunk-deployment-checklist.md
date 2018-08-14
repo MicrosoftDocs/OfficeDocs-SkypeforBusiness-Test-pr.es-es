@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Lista de comprobaciones para la implementación del enlace troncal SIP'
+title: 'Lync Server 2013: Lista de comprobación de la implementación del enlace troncal SIP'
 TOCTitle: Lista de comprobaciones para la implementación del enlace troncal SIP
 ms:assetid: 94f4f03e-19d5-4198-92be-e4076dbb959a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398755(v=OCS.15)

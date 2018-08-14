@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Plan. de la récup. d’urgence pour le parcage d’appel"
+title: "Lync Server 2013: Planear recuperación ante desastres de estacionamiento de llamadas"
 TOCTitle: Planear la recuperación ante desastres del estacionamiento de llamadas
 ms:assetid: f7cf3958-177b-4340-a864-35a6f44d6d88
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205395(v=OCS.15)

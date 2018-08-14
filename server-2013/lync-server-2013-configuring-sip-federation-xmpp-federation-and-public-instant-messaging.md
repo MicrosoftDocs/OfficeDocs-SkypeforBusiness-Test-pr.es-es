@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Conf. des féd. SIP et XMPP et mess. inst. publique."
+title: "Configurar la federación SIP, la federación XMPP y la mensajería instantánea pública"
 TOCTitle: Configurar la federación SIP, la federación XMPP y la mensajería instantánea pública
 ms:assetid: a6d04f0b-5cb8-4084-a3a2-d501938971f9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205134(v=OCS.15)

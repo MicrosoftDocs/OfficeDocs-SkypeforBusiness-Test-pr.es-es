@@ -1,5 +1,5 @@
 ﻿---
-title: "Créa. strat. arch. pr act/dés. arch. des comm. int/ext pr sites ou ut. part."
+title: "Directiva para habilitar/deshabilitar archivado de comunicaciones internas/externas"
 TOCTitle: "Créa. strat. arch. pr act/dés. arch. des comm. int/ext pr sites ou ut. part."
 ms:assetid: 5864793a-ba72-470c-bb5b-9fb41e968896
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398385(v=OCS.15)

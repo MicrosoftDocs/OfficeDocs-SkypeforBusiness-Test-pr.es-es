@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Dépl. des types d’adresse IP sur un serveur de médiation"
+title: "Lync Server 2013: Implementar tipos de dirección IP en servidor de mediación"
 TOCTitle: Implementar tipos de dirección IP en un servidor de mediación
 ms:assetid: 689ebed5-96ee-4cd4-b7ae-ee2a86a1d9b3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204964(v=OCS.15)

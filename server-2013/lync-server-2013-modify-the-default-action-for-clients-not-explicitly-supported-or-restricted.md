@@ -1,5 +1,5 @@
 ﻿---
-title: "Mod. l’action par déf. des clients non explicitement pris en ch. ou restreints"
+title: "Modificar la acción predet. para clientes no admitidos explícitamente o restringidos"
 TOCTitle: "Mod. l’action par déf. des clients non explicitement pris en ch. ou restreints"
 ms:assetid: 548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520994(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Vérif. de l’affect. des régions aux plans de numérotation"
+title: "Lync Server 2013: Asegurarse de que los planes de marcado tienen regiones asignadas"
 TOCTitle: Asegurarse de que los planes de marcado tienen regiones asignadas
 ms:assetid: 3da3a907-0dbf-4440-b12f-370f94dd4c17
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425903(v=OCS.15)

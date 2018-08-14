@@ -1,5 +1,5 @@
 ﻿---
-title: "Publication de la topologie màj pour l’ajout des bases de données d’archivage"
+title: "Publicación de la topología actualizada para agregar bases de datos de archivado"
 TOCTitle: "Publication de la topologie màj pour l’ajout des bases de données d’archivage"
 ms:assetid: 454c68df-2ef5-4b5f-a44c-4eee02635d45
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204860(v=OCS.15)

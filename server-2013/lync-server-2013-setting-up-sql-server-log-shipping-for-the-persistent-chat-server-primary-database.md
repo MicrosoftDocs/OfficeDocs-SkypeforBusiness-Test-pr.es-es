@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Conf. copie journ. trans. SQL Server pr BD prin. du serv. conv. p."
+title: "Lync Server 2013: Transacciones SQL Server de base de datos servidor chat persistente"
 TOCTitle: Configurar registro de transacciones de SQL Server para base de datos principal del servidor de chat persistente
 ms:assetid: 088ea1c2-d592-4a11-b3b8-f1e2f8beae93
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204653(v=OCS.15)

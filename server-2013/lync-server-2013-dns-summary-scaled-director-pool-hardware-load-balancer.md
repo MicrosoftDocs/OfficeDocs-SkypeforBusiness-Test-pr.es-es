@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Résumé DNS - Pool directeur màé, équilibreur de ch. mat."
+title: "Resumen DNS: Grupo de director escalado, equilibrador de carga de hardware"
 TOCTitle: Resumen DNS - Grupo de director escalado, equilibrador de carga de hardware
 ms:assetid: 08ba48e6-bfa1-4ab0-bc89-d58ddb9c20af
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204655(v=OCS.15)

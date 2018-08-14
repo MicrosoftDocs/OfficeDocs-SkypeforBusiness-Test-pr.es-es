@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Instalar el software necesario como requisito previo en servidores perimetrales'
+title: 'Instalar el software necesario como requisito previo en servidores perimetrales'
 TOCTitle: Instalar el software necesario como requisito previo en servidores perimetrales
 ms:assetid: 94091993-7c61-4cf0-9b33-5dce6c663ccd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398751(v=OCS.15)

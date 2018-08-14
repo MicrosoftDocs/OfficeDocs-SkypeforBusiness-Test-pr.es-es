@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Conf. strat. voix, enr. ut. RTC pr aut. appel et priv. ds LS 2013"
+title: "Configurar directivas de voz y registros de uso de RTC para privilegios de llamada"
 TOCTitle: Configurar directivas de voz y registros de uso de la RTC para autorizar características y privilegios de llamada
 ms:assetid: 63f22010-a3d7-4cbd-86e8-6fc0e13c2b84
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398450(v=OCS.15)

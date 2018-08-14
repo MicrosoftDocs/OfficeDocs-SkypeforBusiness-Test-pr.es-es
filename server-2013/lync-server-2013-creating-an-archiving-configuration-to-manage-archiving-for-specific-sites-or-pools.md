@@ -1,5 +1,5 @@
 ﻿---
-title: "Créa. d’une conf. d’arch. pour gérer l’arch. pour des sites ou pools part."
+title: "Crear configuración para el archivado de sitios o grupos de servidores específicos"
 TOCTitle: "Créa. d’une conf. d’arch. pour gérer l’arch. pour des sites ou pools part."
 ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205251(v=OCS.15)

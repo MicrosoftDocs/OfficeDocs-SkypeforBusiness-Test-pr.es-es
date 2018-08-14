@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Liste tables de confor. avec le serv. de conversation perm."
+title: "Lync Server 2013: Lista de tablas de cumplimiento del servidor de chat persistente"
 TOCTitle: Lista de tablas de cumplimiento del servidor de chat persistente
 ms:assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ215878(v=OCS.15)

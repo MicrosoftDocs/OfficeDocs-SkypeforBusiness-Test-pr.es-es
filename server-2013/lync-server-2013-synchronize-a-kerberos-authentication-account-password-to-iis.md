@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Synch. mdp de compte d’auth. Kerberos avec les serv. Internet (IIS)"
+title: "Lync Server 2013: Sincronizar contraseña de cuenta de autenticación Kerberos con IIS"
 TOCTitle: Sincronizar una contraseña de cuenta de autenticación Kerberos con IIS
 ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398107(v=OCS.15)

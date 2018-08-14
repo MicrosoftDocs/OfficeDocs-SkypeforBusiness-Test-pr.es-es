@@ -1,5 +1,5 @@
 ﻿---
-title: "Gest. des opt. de conf. de l’arch. ds LS 2013 pr vos org., sites et pools"
+title: "Configuración de archivado de Lync Server 2013 para organización, sitios y servidores"
 TOCTitle: "Gest. des opt. de conf. de l’arch. ds LS 2013 pr vos org., sites et pools"
 ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204802(v=OCS.15)

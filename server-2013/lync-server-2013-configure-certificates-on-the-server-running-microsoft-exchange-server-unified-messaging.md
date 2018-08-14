@@ -1,5 +1,5 @@
 ﻿---
-title: "Conf. certif. sur le serv. exécutant la mess. un. Microsoft Exchange Server"
+title: "Configurar certificados en servidor con mensajería unificada de MS Exchange Server"
 TOCTitle: "Conf. certif. sur le serv. exécutant la mess. un. Microsoft Exchange Server"
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398564(v=OCS.15)

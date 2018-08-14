@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Conf. d’une entrée d’app. Appr. pr contrôle d’appel distant"
+title: "Configurar una entrada de aplicación de confianza para control remoto de llamadas"
 TOCTitle: Configurar una entrada de aplicación de confianza para control remoto de llamadas
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg558636(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Conf. récup. d’urg. et haute dispo des serv. de conv. perm."
+title: "Configuración alta disponibilidad y recuperación ante desastres para chat persistente"
 TOCTitle: Configuración de alta disponibilidad y recuperación ante desastres para chat persistente
 ms:assetid: 2b91c244-796c-416d-bf9b-e99613e901af
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ552854(v=OCS.15)

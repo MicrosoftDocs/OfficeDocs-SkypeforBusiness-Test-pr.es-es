@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Ap. d’une strat. de conv. perm. à un ut. ou à un gr. d’ut."
+title: "Aplicar una directiva de chat persistente a un usuario o grupo de usuarios"
 TOCTitle: Aplicar una directiva de chat persistente a un usuario o grupo de usuarios
 ms:assetid: 809ef4e0-8d42-4feb-b7c0-3995f39867a7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205038(v=OCS.15)

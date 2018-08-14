@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Plan. de la haute dispo. et de la récupération d’urgence"
+title: "Lync Server 2013: Planificación de alta disponibilidad y recuperación ante desastres"
 TOCTitle: Planeación de alta disponibilidad y recuperación ante desastres
 ms:assetid: 15a72073-0336-45dd-b2a0-35e7522c6000
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204703(v=OCS.15)

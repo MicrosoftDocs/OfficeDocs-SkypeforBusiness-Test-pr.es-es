@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Coloc. de serveur pris en ch. pour les composants Edge"
+title: "Lync Server 2013: Colocación de servidores compatibles en componentes perimetrales"
 TOCTitle: Colocación de servidores compatibles en componentes perimetrales
 ms:assetid: 435c4dd8-36af-4b71-9b88-3ffcf0fc5c65
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425934(v=OCS.15)

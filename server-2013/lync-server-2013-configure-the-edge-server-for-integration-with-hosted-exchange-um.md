@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Conf. serv. Edge pour l’int. à la mes. Unif. Exchange héb."
+title: "Configurar servidor perim. para integración con mensajería unif. Exchange hospedada"
 TOCTitle: Configurar el servidor perimetral para la integración con la mensajería unificada de Exchange hospedada
 ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399075(v=OCS.15)

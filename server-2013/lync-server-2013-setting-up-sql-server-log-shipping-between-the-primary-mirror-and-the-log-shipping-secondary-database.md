@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Déf. copie journ. trans. SQL Server entre BD mir. princ. et BD sec."
+title: "Envío de registro de SQL Server entre reflejo principal y DB secund. de envío de reg."
 TOCTitle: Configuración del envío de registro de SQL Server entre el reflejo principal y la base de datos secundaria de envío de registro
 ms:assetid: 4e8e9ce9-4301-47f2-a0c3-669afeb53295
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204887(v=OCS.15)

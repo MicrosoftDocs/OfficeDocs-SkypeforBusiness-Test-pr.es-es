@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Conf. équil. de charge mat. pr les topol. Edge mises à éch."
+title: "Configurar equilibradores de carga de hardware para topologías perimetrales escaladas"
 TOCTitle: Configurar equilibradores de carga de hardware para topologías perimetrales escaladas
 ms:assetid: 77b4dd64-5eff-4b67-a441-2adaa22a0fd9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398586(v=OCS.15)

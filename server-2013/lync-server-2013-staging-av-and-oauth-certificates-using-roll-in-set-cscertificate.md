@@ -1,5 +1,5 @@
 ﻿---
-title: "Prép. de cert. AV et OAuth dans LS 2013 grâce à -Roll dans app. comm. Set-CsCertificate"
+title: "Prueba certif. OAuth y audio/vídeo en Lync Server 2013 con -Roll en Set-CsCertificate"
 TOCTitle: "Prép. de cert. AV et OAuth dans LS 2013 grâce à -Roll dans app. comm. Set-CsCertificate"
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ660292(v=OCS.15)

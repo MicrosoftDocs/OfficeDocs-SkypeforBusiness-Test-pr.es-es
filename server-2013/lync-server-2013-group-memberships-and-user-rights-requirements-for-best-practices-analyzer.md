@@ -1,5 +1,5 @@
 ﻿---
-title: "Appart. à des gr. et conf. req. des droits d'ut. pour Best Practices Analyzer"
+title: "Requisitos pertenencias a grupo y derechos usuario del Analizador de proceds. recom."
 TOCTitle: "Appart. à des gr. et conf. req. des droits d'ut. pour Best Practices Analyzer"
 ms:assetid: f812e343-8f75-454e-b7a8-1b404e32071a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg591354(v=OCS.15)

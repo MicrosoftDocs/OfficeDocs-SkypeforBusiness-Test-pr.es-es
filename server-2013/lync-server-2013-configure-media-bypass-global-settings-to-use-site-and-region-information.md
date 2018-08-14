@@ -1,5 +1,5 @@
 ﻿---
-title: "Conf. par. gl. du cont. média ds LS 2013 pr ut. inf. rel. aux sites et rég."
+title: "Config. global del desvío de medios en Lync Server 2013 para info. de sitio y región"
 TOCTitle: "Conf. par. gl. du cont. média ds LS 2013 pr ut. inf. rel. aux sites et rég."
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398150(v=OCS.15)

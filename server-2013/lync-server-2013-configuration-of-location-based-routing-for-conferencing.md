@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: configuración del enrutamiento basado en ubicación para conferencias'
+title: 'Lync Server 2013: configuración de enrutamiento basado en ubicación para conferencias'
 TOCTitle: Configuración del enrutamiento basado en ubicación para conferencias
 ms:assetid: d8c708cc-a1b1-48b1-808c-a64df15f7701
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn362846(v=OCS.15)

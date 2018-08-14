@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Param. Rés. des fonctionnalités avancées de Voix Entreprise"
+title: "Configuración de red para las características avanzadas de telefonía IP empresarial"
 TOCTitle: Configuración de red para las características avanzadas de telefonía IP empresarial
 ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398637(v=OCS.15)

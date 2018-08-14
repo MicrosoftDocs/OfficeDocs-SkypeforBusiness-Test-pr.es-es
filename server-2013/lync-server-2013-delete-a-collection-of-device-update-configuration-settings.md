@@ -1,5 +1,5 @@
 ﻿---
-title: "Supp. une coll. de param. de conf. de la mise à jour des périphériques"
+title: "Eliminar una colección de opciones de configuración de actualización de dispositivos"
 TOCTitle: "Supp. une coll. de param. de conf. de la mise à jour des périphériques"
 ms:assetid: 1a649136-34a9-42a7-a5b3-a78bbfe93f36
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994019(v=OCS.15)

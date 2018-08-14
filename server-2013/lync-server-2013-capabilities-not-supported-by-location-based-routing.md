@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Fonct. non prises en charge par le routage géodépendant"
+title: "Lync Server 2013: Funciones no compatibles con enrutamiento basado en ubicación"
 TOCTitle: Capacidades no compatibles con el enrutamiento basado en ubicación
 ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994071(v=OCS.15)

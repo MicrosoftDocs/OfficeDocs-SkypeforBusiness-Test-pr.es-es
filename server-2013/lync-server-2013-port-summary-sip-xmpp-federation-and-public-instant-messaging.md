@@ -1,5 +1,5 @@
 ﻿---
-title: "Résumé des ports - Féd. SIP, XMPP et messagerie instantanée publique"
+title: "Resumen de puerto: federación SIP, federación XMPP y mensajería instantánea pública"
 TOCTitle: "Résumé des ports - Féd. SIP, XMPP et messagerie instantanée publique"
 ms:assetid: ab05bdd6-e9b0-4b1b-9dd9-29ab88e8befe
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ618373(v=OCS.15)

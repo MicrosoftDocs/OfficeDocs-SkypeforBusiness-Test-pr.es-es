@@ -1,5 +1,5 @@
 ﻿---
-title: Comprobación de la existencia de actualizaciones del Analizador de procedimientos recomendados
+title: Comprobar existencia de actualizaciones del Analizador de procedimientos recomendados
 TOCTitle: Comprobación de la existencia de actualizaciones del Analizador de procedimientos recomendados
 ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204645(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Rés. enr. DNS - SE cons. màé, éq. de ch. DNS avec des ad. IP pub."
+title: "Resumen DNS: Servidor perimetral consol. ampliado, equilib. carga DNS con IP públicas"
 TOCTitle: Resumen de DNS - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas
 ms:assetid: dc8f096a-a0a4-4f71-8930-88ff8fc089d9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205319(v=OCS.15)

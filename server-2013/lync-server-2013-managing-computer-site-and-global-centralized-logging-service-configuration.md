@@ -1,5 +1,5 @@
 ﻿---
-title: "Gest. conf. du serv. de journ. Centr. au niv. d’un ordi., site ou au niv. gl."
+title: "Administrar config. servicio registro centralizado en ámbito equipo, sitio y global"
 TOCTitle: "Gest. conf. du serv. de journ. Centr. au niv. d’un ordi., site ou au niv. gl."
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688138(v=OCS.15)

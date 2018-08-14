@@ -1,5 +1,5 @@
 ﻿---
-title: "Conf. nœud observateur pour la participation à la découverte de System Center"
+title: "Configuración de un nodo de monitor para participar en la detección en System Center"
 TOCTitle: "Conf. nœud observateur pour la participation à la découverte de System Center"
 ms:assetid: 15c5dcfd-603b-47ea-af1b-8714c2ec08af
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204704(v=OCS.15)

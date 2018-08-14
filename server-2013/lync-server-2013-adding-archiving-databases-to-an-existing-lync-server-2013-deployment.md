@@ -1,5 +1,5 @@
 ﻿---
-title: "Ajout des bases de données d’arch. à un déploiement Lync Server 2013 existant"
+title: "Agregar bases de datos de archivado en implementación existente de Lync Server 2013"
 TOCTitle: "Ajout des bases de données d’arch. à un déploiement Lync Server 2013 existant"
 ms:assetid: 7350a6f7-6ed7-4fa7-b12d-e1858b93f9c0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204997(v=OCS.15)

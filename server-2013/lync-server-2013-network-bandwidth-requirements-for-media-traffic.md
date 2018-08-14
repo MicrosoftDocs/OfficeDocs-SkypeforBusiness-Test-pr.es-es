@@ -1,5 +1,5 @@
 ﻿---
-title: "Conf. requise de la bande passante pour le trafic mult. dans Lync Server 2013"
+title: "Requisitos de ancho de banda de red para el tráfico multimedia de Lync Server 2013"
 TOCTitle: "Conf. requise de la bande passante pour le trafic mult. dans Lync Server 2013"
 ms:assetid: 83e83b16-0f0e-4d87-901a-0faa4618cdc2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688118(v=OCS.15)

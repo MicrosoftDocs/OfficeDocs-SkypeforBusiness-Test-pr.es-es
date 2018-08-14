@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : SBA et SBS"
+title: "Lync Server 2013: Apéndices: Servidores y aplics. de sucursal con supervivencia"
 TOCTitle: 'Apéndices: Servidores y aplicaciones de sucursal con funciones de supervivencia'
 ms:assetid: 38a83ac4-9970-4204-8a65-ae3b571bee05
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425861(v=OCS.15)

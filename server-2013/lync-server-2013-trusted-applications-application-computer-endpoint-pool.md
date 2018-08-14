@@ -1,5 +1,5 @@
 ﻿---
-title: "Apps approuvées (App./Ordi./Point de terminaison/Pool) dans Lync Server 2013"
+title: "Aplicaciones de confianza (aplicación/equipo/extremo/servidores) en Lync Server 2013"
 TOCTitle: "Apps approuvées (App./Ordi./Point de terminaison/Pool) dans Lync Server 2013"
 ms:assetid: 5ec751df-1697-4739-b9e6-f7e23d8c6d54
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688073(v=OCS.15)

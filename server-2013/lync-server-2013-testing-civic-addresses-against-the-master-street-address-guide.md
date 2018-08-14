@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013: Test des adr. de voirie par rapport au guide princ. des adr. de rue"
+title: "Lync Server 2013: Testing civic addresses against the master street address guide"
 TOCTitle: Testing civic addresses against the master street address guide
 ms:assetid: dc680de9-2a0f-4fd3-a99e-9bab0bc30ae5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn690132(v=OCS.15)

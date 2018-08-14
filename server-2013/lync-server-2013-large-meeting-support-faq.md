@@ -1,5 +1,5 @@
 ﻿---
-title: "FAQ sur la prise en charge des grandes réunions Lync Server 2013"
+title: "Preguntas frecuentes sobre la compatibilidad de reuniones grandes en Lync Server 2013"
 TOCTitle: "FAQ sur la prise en charge des grandes réunions Lync Server 2013"
 ms:assetid: 34b4fb6a-e35c-47e8-8ab1-f8331741fed2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204804(v=OCS.15)

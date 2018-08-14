@@ -1,5 +1,5 @@
 ﻿---
-title: "Enr. DNS requis pour la connexion auto. des clients dans Lync Server 2013"
+title: "Requisitos DNS para inicio de sesión automática del cliente en Lync Server 2013"
 TOCTitle: "Enr. DNS requis pour la connexion auto. des clients dans Lync Server 2013"
 ms:assetid: 3bcd4bb3-a022-4ffa-b005-1a95ad2b1796
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425884(v=OCS.15)

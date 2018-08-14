@@ -1,5 +1,5 @@
 ﻿---
-title: Visualización y uso de informes creados por el Analizador de procedimientos recomendados
+title: Visualización y uso de informes creados por Analizador de procedimientos recomendados
 TOCTitle: Visualización y uso de informes creados por el Analizador de procedimientos recomendados
 ms:assetid: 58a030ca-b827-4370-b848-1358c8bd2b68
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg607689(v=OCS.15)

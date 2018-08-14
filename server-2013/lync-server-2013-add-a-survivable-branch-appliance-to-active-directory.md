@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory'
+title: 'Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory'
 TOCTitle: Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory
 ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425906(v=OCS.15)

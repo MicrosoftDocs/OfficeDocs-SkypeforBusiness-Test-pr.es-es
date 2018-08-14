@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Supp. d’une strat. ut. ou de site pour l’accès des ut. ext."
+title: "Eliminar un sitio o una directiva de usuario para el acceso de usuarios externos"
 TOCTitle: Eliminar un sitio o una directiva de usuario para el acceso de usuarios externos
 ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg521013(v=OCS.15)

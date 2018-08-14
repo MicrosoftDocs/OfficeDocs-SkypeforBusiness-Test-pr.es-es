@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Résumé des ports - SE cons. màé avec des éq. de ch. Mat."
+title: "Lync Server 2013: Resumen puerto: Servidor perim. consolidado con equilibr. carga"
 TOCTitle: Resumen de puerto - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware
 ms:assetid: 91213b1e-f875-464b-83e8-fe3a351595a4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398739(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: "Fonct. de gest. des appels pour la récup. d’urgence dans Lync Server 2013"
+title: "Características de la administración de llamadas para la recuperación ante desastres"
 TOCTitle: Características de la administración de llamadas para la recuperación ante desastres
 ms:assetid: effb75b4-499d-4414-a283-fffe165c26dd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721935(v=OCS.15)

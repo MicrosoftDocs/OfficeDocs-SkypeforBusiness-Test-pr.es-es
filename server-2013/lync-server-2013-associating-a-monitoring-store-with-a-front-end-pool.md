@@ -1,5 +1,5 @@
 ﻿---
-title: "Asso. d’un magasin de surveillance à un pool frontal dans Lync Server 2013"
+title: "Asociación de almacén de supervisión a servidores front-end en Lync Server 2013"
 TOCTitle: Asociación de un almacén de supervisión a un grupo de servidores front-end
 ms:assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205271(v=OCS.15)

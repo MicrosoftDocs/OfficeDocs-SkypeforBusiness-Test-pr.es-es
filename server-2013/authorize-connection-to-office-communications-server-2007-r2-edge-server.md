@@ -1,5 +1,5 @@
 ﻿---
-title: "Autor. de la connexion au serveur Edge Office Communications Server 2007 R2"
+title: "Autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2"
 TOCTitle: "Autor. de la connexion au serveur Edge Office Communications Server 2007 R2"
 ms:assetid: 14f6798a-28d6-4b3d-8734-942192e1bbf5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204702(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Gest. de la réc. d’urg., de la haute dispo. et du serv. de sauv."
+title: "Recuperación ante desastres, alta disponibilidad y servicio de copia de seguridad"
 TOCTitle: Administrar la recuperación ante desastres, la alta disponibilidad y el servicio de copia de seguridad en Lync Server 2013
 ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721939(v=OCS.15)

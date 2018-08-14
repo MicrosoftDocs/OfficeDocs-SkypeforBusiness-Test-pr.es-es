@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Opcional) Comprobar la conferencia de acceso telefónico local'
+title: 'Lync Server 2013: (Opcional) Comprobar conferencia de acceso telefónico local'
 TOCTitle: (Opcional) Comprobar la conferencia de acceso telefónico local
 ms:assetid: 3e2b4220-8fb3-442f-98b1-78447adb321f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425905(v=OCS.15)

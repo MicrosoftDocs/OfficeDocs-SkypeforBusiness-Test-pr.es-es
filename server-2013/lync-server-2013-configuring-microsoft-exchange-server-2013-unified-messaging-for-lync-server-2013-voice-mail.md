@@ -1,5 +1,5 @@
 ﻿---
-title: "Conf. de la mess. un. MES 2013 pour mess. voc. Microsoft LS 2013"
+title: "Config. mensajería unif. MS Exchange Server 2013 para correo voz MS Lync Server 2013"
 TOCTitle: "Conf. de la mess. un. MES 2013 pour mess. voc. Microsoft LS 2013"
 ms:assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687983(v=OCS.15)

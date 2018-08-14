@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Résumé des ports - Serveur Edge unique cons. ac ad. IP pub."
+title: "Resumen de puerto: Perímetro consolidado de equipo único con direcciones IP públicas"
 TOCTitle: Resumen de puerto - Perímetro consolidado de equipo único con direcciones IP públicas
 ms:assetid: 28407acc-8b92-4f78-875c-fd6b4323b602
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204756(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar regiones de red para el control de admisión de llamadas en Lync Server 2013'
+title: 'Configurar regiones de red para control de admisión de llamadas en Lync Server 2013'
 TOCTitle: Configurar regiones de red para el control de admisión de llamadas en Lync Server 2013
 ms:assetid: ea3ff988-dd5a-4bc4-bec5-39a0fb09793a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399051(v=OCS.15)

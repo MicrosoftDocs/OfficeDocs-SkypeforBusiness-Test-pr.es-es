@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Conf. des plans de numér. pour les conférences rendez-vous"
+title: "Configurar planes de marcado para las conferencias de acceso telefónico local"
 TOCTitle: Configurar planes de marcado para las conferencias de acceso telefónico local
 ms:assetid: a3e0958e-384f-43e5-b4c9-686b6ecac7ed
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412768(v=OCS.15)

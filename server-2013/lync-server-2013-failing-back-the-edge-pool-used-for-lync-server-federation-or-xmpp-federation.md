@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Rest. du pool Edge util. pour la féd. XMPP ou Lync Server "
+title: "Conmut. recuperación para servidores perimetrales para federación Lync Server o XMPP"
 TOCTitle: Conmutación por recuperación para el grupo de servidores perimetrales que se usa para la federación Lync Server o la federación XMPP
 ms:assetid: d40097a1-1bed-44dc-aeb6-0871927ab2b9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721897(v=OCS.15)

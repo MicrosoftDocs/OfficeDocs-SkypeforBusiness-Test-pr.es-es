@@ -1,5 +1,5 @@
 ﻿---
-title: "Personnalis. de l’attente musicale du parcage d’appels dans Lync Server 2013"
+title: "Personalizar música de espera para el estacionamiento de llamadas en Lync Server 2013"
 TOCTitle: "Personnalis. de l’attente musicale du parcage d’appels dans Lync Server 2013"
 ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688031(v=OCS.15)

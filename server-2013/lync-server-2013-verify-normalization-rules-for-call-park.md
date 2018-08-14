@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Vérif. des règles de normalisation pour le parcage d’appel"
+title: "Lync Server 2013: Comprobar reglas de normalización para estacionamiento de llamadas"
 TOCTitle: Comprobar las reglas de normalización para el estacionamiento de llamadas
 ms:assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398981(v=OCS.15)
