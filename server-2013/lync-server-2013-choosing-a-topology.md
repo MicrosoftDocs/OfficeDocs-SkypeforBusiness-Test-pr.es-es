@@ -106,16 +106,15 @@ Escenarios de conmutación por error de servidor perimetral compatibles con equi
 > Las topologías de perimetral simple y perimetral escalada (con equilibrio de carga DNS) pueden usar:
 > <ul>
 > <li><p>Direcciones IP públicas enrutables</p></li>
-> <li><p>Dirección IP privada no enrutable si se usa la traducción de direcciones de red (NAT) simétrica</p>
-  > [!NOTE]  
-  > Si usa la dirección IP pública o la dirección IP privada con NAT, seguirá usando el mismo número de direcciones IP establecido en la configuración de Generador de topologías. Puede configurar el Servidor perimetral para que use una sola dirección IP con diferentes puertos por servicio o para que use distintas direcciones IP por servicio, pero en el mismo puerto (de manera predeterminada, TCP 443).
-> </li>
-> </ul>
+> <li><p>Dirección IP privada no enrutable si se usa la traducción de direcciones de red (NAT) simétrica</p></li></ul>
+> 
+> Si usa la dirección IP pública o la dirección IP privada con NAT, seguirá usando el mismo número de direcciones IP establecido en la configuración de Generador de topologías. Puede configurar el Servidor perimetral para que use una sola dirección IP con diferentes puertos por servicio o para que use distintas direcciones IP por servicio, pero en el mismo puerto (de manera predeterminada, TCP 443).
+> 
 > Si decide usar direcciones IP privadas no enrutables con NAT:
-> <ul>
-> <li><p>Debe usar direcciones IP privadas enrutables en las tres interfaces externas</p></li>
-> <li><p>Debe configurar NAT simétrica para tráfico entrante y saliente</p></li>
-> </ul>
+> 
+> <ul><li><p>Debe usar direcciones IP privadas enrutables en las tres interfaces externas</p></li>
+> <li><p>Debe configurar NAT simétrica para tráfico entrante y saliente</p></li></ul>
+>
 > La topología perimetral escalada (equil. carga hardware) debe usar direcciones IP.
 
 
