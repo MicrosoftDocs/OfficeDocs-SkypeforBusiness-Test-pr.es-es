@@ -38,10 +38,10 @@ Al ejecutar la utilidad de integración de Mensajería unificada de Exchange, se
 > <p>Para Microsoft Exchange Server 2010, consulte &quot;Crear un plan de marcado de mensajería unificada&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=186177%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=186177&amp;clcid=0xC0A</a>.</p>
 > <p>Para Microsoft Exchange Server 2007 Service Pack 1 (SP1), consulte &quot;Cómo crear un plan de marcado del URI del SIP de mensajería unificada&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=185771%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=185771&amp;clcid=0xC0A</a>.</p></li>
 > <li><p>Crear uno o varios planes de marcado de Lync Server correspondientes, tal y como se describe en <a href="lync-server-2013-create-a-dial-plan.md">Crear un plan de marcado en Lync Server 2013</a>.</p>
-    > [!IMPORTANT]  
-    > Si está usando una versión de Exchange anterior a Microsoft Exchange Server 2010 SP1, deberá escribir el nombre de dominio completo (FQDN) del plan de marcado SIP de Mensajería unificada de Exchange (UM) correspondiente en el plan de marcado Lync Server 2013, en el campo <strong>Nombre sencillo</strong>. Si está usando Microsoft Exchange Server 2010 SP1 o el service pack más reciente, no es necesario que coincida el nombre del plan de marcado.
-> </li>
-> <li><p>Crear un operador automático y asegurarse de que tanto el número de acceso del suscriptor y el número del operador automático están en formato E.164.</p></li></ul>
+
+> [!IMPORTANT]  
+> Si está usando una versión de Exchange anterior a Microsoft Exchange Server 2010 SP1, deberá escribir el nombre de dominio completo (FQDN) del plan de marcado SIP de Mensajería unificada de Exchange (UM) correspondiente en el plan de marcado Lync Server 2013, en el campo <strong>Nombre sencillo</strong>. Si está usando Microsoft Exchange Server 2010 SP1 o el service pack más reciente, no es necesario que coincida el nombre del plan de marcado.</li>
+> <li>Crear un operador automático y asegurarse de que tanto el número de acceso del suscriptor y el número del operador automático están en formato E.164.</li></ul>
 
 
 ## Para ejecutar la utilidad de integración de MU de Exchange
