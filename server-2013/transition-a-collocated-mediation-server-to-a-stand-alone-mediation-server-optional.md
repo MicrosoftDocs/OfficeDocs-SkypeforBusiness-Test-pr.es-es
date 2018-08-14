@@ -1,5 +1,5 @@
 ﻿---
-title: "Transition d’un serv. de méd. colocalisé vers un serv. de méd. aut. (facult.)"
+title: "Transición servidor mediación combinado a servidor de mediación independiente (opc.)"
 TOCTitle: "Transition d’un serv. de méd. colocalisé vers un serv. de méd. aut. (facult.)"
 ms:assetid: 7c3c2fb4-4ff2-47b1-aab3-0aa91472eadb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205026(v=OCS.15)

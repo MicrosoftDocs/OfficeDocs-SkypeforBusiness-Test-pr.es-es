@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Conf. Lync Server 2013 pr fonct. mess. unif. sur MES"
+title: "Configurar Lync Server 2013 para la mensajería unificada en MS Exchange Server"
 TOCTitle: Configurar Lync Server 2013 para trabajar con la mensajería unificada en Microsoft Exchange Server
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398193(v=OCS.15)

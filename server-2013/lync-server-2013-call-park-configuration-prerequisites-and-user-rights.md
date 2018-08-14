@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Cond. Préreq. pr conf. parcage d’appel et droits ut."
+title: "Lync Server 2013: Requisitos del estacionamiento de llamadas y derechos de usuario"
 TOCTitle: Requisitos previos de configuración del estacionamiento de llamadas y derechos de usuario
 ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425730(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Composants et topo. utilisés pour le serv. de conv. Perm."
+title: "Lync Server 2013: Componentes y tipologías para el servidor de chat persistente"
 TOCTitle: Componentes y tipologías para el servidor de chat persistente
 ms:assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398500(v=OCS.15)

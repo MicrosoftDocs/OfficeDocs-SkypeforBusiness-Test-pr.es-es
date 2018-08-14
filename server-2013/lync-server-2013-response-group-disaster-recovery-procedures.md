@@ -1,5 +1,5 @@
 ﻿---
-title: "Procédures de récup. d’urgence des gr. Response Group dans Lync Server 2013"
+title: "Lync Server 2013: Procedimientos de recuperación ante desastres de grupo de respuesta"
 TOCTitle: Procedimientos de recuperación ante desastres del grupo de respuesta
 ms:assetid: b49577b7-0ca3-4f20-b614-f3a2a0046b58
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205186(v=OCS.15)

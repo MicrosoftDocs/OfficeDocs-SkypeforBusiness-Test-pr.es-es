@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Créa. ou mod. d’une règle de norm. avec la section du même nom"
+title: "Crear/modificar una regla de normalización mediante Crear una regla de normalización"
 TOCTitle: Crear o modificar una regla de normalización mediante Crear una regla de normalización
 ms:assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399036(v=OCS.15)

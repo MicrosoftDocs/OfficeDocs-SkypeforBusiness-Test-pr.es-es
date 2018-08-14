@@ -1,5 +1,5 @@
 ﻿---
-title: "Conf. du transf. de fich. et du filtr. des URL pour mess. inst. dans LS 2013"
+title: "Configurar transferencia de archivos y filtrado de URL para MI en Lync Server 2013"
 TOCTitle: "Conf. du transf. de fich. et du filtr. des URL pour mess. inst. dans LS 2013"
 ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520952(v=OCS.15)

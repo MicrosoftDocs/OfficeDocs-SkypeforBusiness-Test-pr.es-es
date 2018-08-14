@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Opcional) Comprobar la implementación del estacionamiento de llamadas'
+title: 'Lync Server 2013: (Opcional) Comprobar implementación del estacionamiento de llamadas'
 TOCTitle: (Opcional) Comprobar la implementación del estacionamiento de llamadas
 ms:assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413076(v=OCS.15)

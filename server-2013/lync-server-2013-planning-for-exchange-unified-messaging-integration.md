@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Planif. de l’intégration de la messagerie unifiée Exchange"
+title: "Lync Server 2013: Planear la integración de la mensajería unificada de Exchange"
 TOCTitle: Planear la integración de la mensajería unificada de Exchange
 ms:assetid: e7c63a71-2d99-4aa9-b649-36c1a431bdf1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399031(v=OCS.15)

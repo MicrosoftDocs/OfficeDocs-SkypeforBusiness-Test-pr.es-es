@@ -1,5 +1,5 @@
 ﻿---
-title: "Dépl. d’un port non standard et d’un alias SQL Server dans Lync Server 2013"
+title: "Implementación de un alias y un puerto no estándar de SQL Server en Lync Server 2013"
 TOCTitle: "Dépl. d’un port non standard et d’un alias SQL Server dans Lync Server 2013"
 ms:assetid: 2da92c1f-250e-407a-8651-fb2aec76aeb0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn776290(v=OCS.15)

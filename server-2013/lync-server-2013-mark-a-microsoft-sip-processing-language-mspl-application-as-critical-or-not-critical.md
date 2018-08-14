@@ -1,5 +1,5 @@
 ﻿---
-title: "Marquer une app. serv. MSPL comme critique ou non critique"
+title: "Lync Server 2013: Marcar una aplicación MSPL como crítica o no crítica"
 TOCTitle: "Marquer une app. serv. MSPL comme critique ou non critique"
 ms:assetid: df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182598(v=OCS.15)

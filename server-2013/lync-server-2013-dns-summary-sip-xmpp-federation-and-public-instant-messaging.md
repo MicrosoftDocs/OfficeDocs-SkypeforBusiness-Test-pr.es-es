@@ -1,5 +1,5 @@
 ﻿---
-title: "Résumé des enr. DNS - Féd. SIP, XMPP et messagerie instantanée publique"
+title: "Resumen de DNS: federación SIP, federación XMPP y mensajería instantánea pública"
 TOCTitle: "Résumé des enr. DNS - Féd. SIP, XMPP et messagerie instantanée publique"
 ms:assetid: 1ed24fb8-a849-44c0-a52e-7aef7527e644
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ618369(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Attri. strat. d’accès des util. ext. à util. activé pr Lync"
+title: "Lync Server 2013: Asignar directiva de acceso de usuario externo a usuario con Lync"
 TOCTitle: Asignar una directiva de acceso de usuario externo a un usuario habilitado para Lync
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398551(v=OCS.15)

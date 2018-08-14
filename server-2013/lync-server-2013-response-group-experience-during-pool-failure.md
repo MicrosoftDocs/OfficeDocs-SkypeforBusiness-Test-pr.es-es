@@ -1,5 +1,5 @@
 ﻿---
-title: "Exp. de Response Group en cas de défaillance d’un pool dans Lync Server 2013"
+title: "Experiencia de grupo de respuesta durante errores del grupo de servidores"
 TOCTitle: Experiencia de grupo de respuesta durante errores del grupo de servidores
 ms:assetid: 4e00fb38-64b1-4fd9-903d-7639177bc303
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204886(v=OCS.15)

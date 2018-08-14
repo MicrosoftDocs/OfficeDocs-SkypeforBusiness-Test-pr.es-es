@@ -1,5 +1,5 @@
 ﻿---
-title: "Conf. d’un nœud obs. pour l’util. de l’auth. des info. d’identification"
+title: "Configuración de un nodo de monitor para usar la autenticación mediante credenciales"
 TOCTitle: "Conf. d’un nœud obs. pour l’util. de l’auth. des info. d’identification"
 ms:assetid: 032e33f3-9483-42e6-a33c-347eb6779597
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204632(v=OCS.15)

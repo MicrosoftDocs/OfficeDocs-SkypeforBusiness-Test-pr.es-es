@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Résumé des enr. DNS - SE unique cons. avec ad. IP publiques"
+title: "Resumen DNS - Servidor perimetral consolidado simple con direcciones IP públicas"
 TOCTitle: Resumen DNS - Servidor perimetral consolidado simple con direcciones IP públicas
 ms:assetid: 7b83eae4-aa1a-4cc6-8077-42176d56cab5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205025(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Aut. et cond. prérequises pour la conf. de Response Group"
+title: "Lync Server 2013: Permisos y requisitos previos de config. de grupos de respuesta"
 TOCTitle: Permisos y requisitos previos de configuración de grupos de respuesta
 ms:assetid: 4266f16a-b387-452c-a8ca-d771a3c58f0f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204840(v=OCS.15)

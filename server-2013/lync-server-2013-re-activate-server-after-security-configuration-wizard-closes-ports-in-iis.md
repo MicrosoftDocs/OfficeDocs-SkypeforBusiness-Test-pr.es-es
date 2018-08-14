@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Serv. réact. ap. ferm. ports par Ass. Conf. de sécu. dans serv. int."
+title: "Activar servidor tras cierre de puertos del Asistente para config. seguridad en IIS"
 TOCTitle: Volver a activar el servidor después de que el Asistente para la configuración de la seguridad cierre los puertos en IIS
 ms:assetid: cb8e17cf-f8c1-4099-b63b-c242d656c26a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398851(v=OCS.15)

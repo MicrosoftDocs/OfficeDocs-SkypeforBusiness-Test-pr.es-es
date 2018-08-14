@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Dés. hérit. aut. sur cont. des obj. Ordi., Util. ou InetOrgPerson"
+title: "Herencia de permisos deshabilitada en contenedores Computer, Users o InetOrgPerson"
 TOCTitle: La herencia de permisos está deshabilitada en los contenedores Computer, Users o InetOrgPerson
 ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412970(v=OCS.15)

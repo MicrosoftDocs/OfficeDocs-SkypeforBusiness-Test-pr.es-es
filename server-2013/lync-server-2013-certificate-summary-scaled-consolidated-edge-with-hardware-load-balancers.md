@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Résumé des cert. - SE cons. màé avec des éq. de ch. mat."
+title: "Resumen certif.: Servidor perimetral consol. ampliado con equilibr. carga de hardware"
 TOCTitle: Resumen de certificado - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware
 ms:assetid: 894a9f3e-7cba-4915-8fdf-e52f2f25126f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398692(v=OCS.15)

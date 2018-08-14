@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Prise en ch. des clients et des serv. pour routage géodép."
+title: "Compatibilidad de cliente y servidor para el enrutamiento basado en ubicación"
 TOCTitle: Compatibilidad de cliente y servidor para el enrutamiento basado en ubicación
 ms:assetid: 26c2ca3d-026d-4dd7-94fa-15ebb4406953
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994024(v=OCS.15)

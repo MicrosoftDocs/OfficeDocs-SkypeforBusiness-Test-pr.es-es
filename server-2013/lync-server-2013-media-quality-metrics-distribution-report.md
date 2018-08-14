@@ -1,5 +1,5 @@
 ﻿---
-title: "Rapport de distrib. des mesures de qualité des médias dans Lync Server 2013"
+title: "Informe de distribución de las métricas de calidad de los medios en Lync Server 2013"
 TOCTitle: Informe de distribución de las métricas de calidad de los medios
 ms:assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205262(v=OCS.15)

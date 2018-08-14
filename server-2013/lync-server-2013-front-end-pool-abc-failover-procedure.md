@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Procedimiento de conmutación por error de ABC del grupo de servidores front-end'
+title: 'Lync Server 2013: Procedimiento conmut. error de ABC de grupo de servidores front-end'
 TOCTitle: Procedimiento de conmutación por error de ABC del grupo de servidores front-end
 ms:assetid: 67763ad3-6796-45eb-a486-901f21ac1a95
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945635(v=OCS.15)

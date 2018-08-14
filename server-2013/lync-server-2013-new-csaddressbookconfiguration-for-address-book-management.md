@@ -1,5 +1,5 @@
 ﻿---
-title: New-CsAddressBookConfiguration para la administración de la libreta de direcciones
+title: new-csaddressbookconfiguration para la administración de la libreta de direcciones
 TOCTitle: New-CsAddressBookConfiguration para la administración de la libreta de direcciones
 ms:assetid: a58ddc8c-ae04-4141-b69e-e45374a67d72
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg429718(v=OCS.15)

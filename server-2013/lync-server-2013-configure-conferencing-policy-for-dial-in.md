@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar la directiva de conferencias para el acceso telefónico local'
+title: '     Lync Server 2013: Configurar directiva de conferencias para acceso telefónico local'
 TOCTitle: Configurar la directiva de conferencias para el acceso telefónico local
 ms:assetid: 9bf926d6-0248-4352-98c3-9c5a333debbc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398810(v=OCS.15)

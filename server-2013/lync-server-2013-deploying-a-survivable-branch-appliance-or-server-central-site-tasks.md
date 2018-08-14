@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Dépl. d’un SBA ou d’un SBS - Tâches pour un site central"
+title: "Lync Server 2013: Aplicación o servidor de sucursal con supervivencia, sitio central"
 TOCTitle: Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia - Tareas de sitio central
 ms:assetid: 0f631a36-fc2e-41cd-8a0d-f27e84f4a89e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398189(v=OCS.15)

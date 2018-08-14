@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Conf. de la prise en ch. des domaines externes autorisés"
+title: "Lync Server 2013: Configurar la compatibilidad con dominios externos permitidos"
 TOCTitle: Configurar la compatibilidad con dominios externos permitidos
 ms:assetid: 3ee6e175-986d-4c33-b03a-b9f93083dca6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425908(v=OCS.15)

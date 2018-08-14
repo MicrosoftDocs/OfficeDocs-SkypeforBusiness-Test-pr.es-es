@@ -1,5 +1,5 @@
 ﻿---
-title: "Rempl. XmlAdapter par ad. de conf. perso. du serv. de conv. perm. dans LS 2013"
+title: "Sustituir XmlAdapter con adaptador de cumplimiento para servidor de chat persistente"
 TOCTitle: "Rempl. XmlAdapter par ad. de conf. perso. du serv. de conv. perm. dans LS 2013"
 ms:assetid: 2cb70db2-663f-40a6-abcf-89ea7d4a8b65
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ680106(v=OCS.15)

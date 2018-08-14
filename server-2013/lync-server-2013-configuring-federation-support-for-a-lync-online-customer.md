@@ -1,5 +1,5 @@
 ﻿---
-title: "Conf. de la prise en charge de la fédération pour un client Lync Online 2013"
+title: "Compatibilidad de federación para un cliente de Lync Online en Lync Server 2013"
 TOCTitle: "Conf. de la prise en charge de la fédération pour un client Lync Online 2013"
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh202193(v=OCS.15)

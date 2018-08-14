@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Basc. vers le pool Edge utilisé pour la féd. Lync Server"
+title: "Lync Server 2013: Conmut. por error del grupo perimetral usado para Lync Server"
 TOCTitle: Conmutación por error para el grupo de servidores perimetrales usado para la federación Lync Server
 ms:assetid: 5c9da0f2-7429-40bb-bb3c-5cc4ecb5a13d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688071(v=OCS.15)

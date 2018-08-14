@@ -1,5 +1,5 @@
 ﻿---
-title: "Configuration requise pour l’intégration de MLS 2013 et MES 2013"
+title: "Requisitos previos para integración de MS Lync Server 2013 y MS Exchange Server 2013"
 TOCTitle: "Configuration requise pour l’intégration de MLS 2013 et MES 2013"
 ms:assetid: ea22beb9-c02e-47cb-836d-97a556969052
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721919(v=OCS.15)

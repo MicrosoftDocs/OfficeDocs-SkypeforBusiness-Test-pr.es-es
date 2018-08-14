@@ -1,5 +1,5 @@
 ﻿---
-title: "Act. d’Exchange 2013 Outlook Web App et intégration à la mes. instantanée"
+title: "Habilitar la integración de mensajería instantánea y Exchange 2013 Outlook Web App"
 TOCTitle: "Act. d’Exchange 2013 Outlook Web App et intégration à la mes. instantanée"
 ms:assetid: 44d08cf0-b17d-46e1-a4f0-fcc2fe96a958
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204857(v=OCS.15)

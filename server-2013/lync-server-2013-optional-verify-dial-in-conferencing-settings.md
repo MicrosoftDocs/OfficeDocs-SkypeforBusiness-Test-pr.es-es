@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : (Facul.) Vérif. des paramètres de conférence rendez-vous"
+title: "(Opcional) Comprobar la configuración de conferencia de acceso telefónico local"
 TOCTitle: (Opcional) Comprobar la configuración de conferencia de acceso telefónico local
 ms:assetid: a85efdda-97b0-4f3b-bd26-04416bee8ef5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412789(v=OCS.15)

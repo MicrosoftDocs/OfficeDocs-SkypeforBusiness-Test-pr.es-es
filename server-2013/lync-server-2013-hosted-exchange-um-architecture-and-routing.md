@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Architecture et routage de la mess. un. Exchange hébergée"
+title: " Enrutamiento y arquitectura de la mensajería unificada de Exchange hospedada"
 TOCTitle: Enrutamiento y arquitectura de la mensajería unificada de Exchange hospedada
 ms:assetid: 4ea4a2ce-01d9-4209-bf8e-98fa9027fb7a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398318(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: "Supp. une coll. existante de par. de configuration de version du client"
+title: "Eliminar una colección existente de opciones de configuración de versión de cliente"
 TOCTitle: "Supp. une coll. existante de par. de configuration de version du client"
 ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ898480(v=OCS.15)

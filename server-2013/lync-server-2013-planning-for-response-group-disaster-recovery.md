@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Plan. de la récup. d’urgence des groupes Response Group"
+title: "Lync Server 2013: Planeamiento de recuperación ante desastres del grupo de respuesta"
 TOCTitle: Planeamiento de recuperación ante desastres del grupo de respuesta
 ms:assetid: 14e0f5dc-77cd-42cd-a9c9-4d0da38fb1cf
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204699(v=OCS.15)

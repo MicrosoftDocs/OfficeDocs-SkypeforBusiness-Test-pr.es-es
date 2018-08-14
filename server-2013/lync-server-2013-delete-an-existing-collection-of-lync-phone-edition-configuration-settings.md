@@ -1,5 +1,5 @@
 ﻿---
-title: "Suppr. d’une collection existante de par. de configuration Lync Phone Edition"
+title: "Eliminar un conjunto existente de opciones de configuración de Lync Phone Edition"
 TOCTitle: "Suppr. d’une collection existante de par. de configuration Lync Phone Edition"
 ms:assetid: 1bfc427d-4dcd-4199-b25f-8d5cfec2164f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687984(v=OCS.15)

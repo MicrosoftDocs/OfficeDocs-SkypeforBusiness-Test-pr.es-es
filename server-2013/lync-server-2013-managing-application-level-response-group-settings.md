@@ -1,5 +1,5 @@
 ﻿---
-title: "Gest. des param. de Response Group au niveau de l’app. dans Lync Server 2013"
+title: "Configuración de grupos de respuesta a nivel de aplicación en Lync Server 2013"
 TOCTitle: "Gest. des param. de Response Group au niveau de l’app. dans Lync Server 2013"
 ms:assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721843(v=OCS.15)

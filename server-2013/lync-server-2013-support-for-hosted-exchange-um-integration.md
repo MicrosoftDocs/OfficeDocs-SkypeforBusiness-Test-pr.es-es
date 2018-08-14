@@ -1,5 +1,5 @@
 ﻿---
-title: "Pr. en ch. de l’intég. de la mess. unifiée Exchange héb. dans Lync Server 2013"
+title: " Compatibilidad con la integración de mensajería unificada de Exchange hospedada"
 TOCTitle: Compatibilidad con la integración de mensajería unificada de Exchange hospedada
 ms:assetid: c7573ec3-013c-48d9-b59b-2a5427e6da35
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398821(v=OCS.15)

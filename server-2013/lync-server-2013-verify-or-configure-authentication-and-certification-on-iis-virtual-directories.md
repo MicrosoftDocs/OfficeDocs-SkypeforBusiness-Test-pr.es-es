@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Vér./conf. auth. et certif. dans les rép. virt. des serv. Int. (IIS)"
+title: "Comprobar o configurar la autenticación y certificación en directorios virtuales IIS"
 TOCTitle: Comprobar o configurar la autenticación y la certificación en directorios virtuales IIS
 ms:assetid: 3ca90be0-1d64-447c-807a-3a2ee3bf625e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg429702(v=OCS.15)

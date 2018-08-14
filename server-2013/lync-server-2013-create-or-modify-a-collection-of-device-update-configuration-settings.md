@@ -1,5 +1,5 @@
 ﻿---
-title: "Créer ou mod. une collection de par. de conf. de la màj des périphériques"
+title: "Crear o modificar grupo de opciones de configuración de actualización de dispositivos"
 TOCTitle: "Créer ou mod. une collection de par. de conf. de la màj des périphériques"
 ms:assetid: 3e8ce95f-a8c8-417c-b1f7-0f759a567aff
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994029(v=OCS.15)

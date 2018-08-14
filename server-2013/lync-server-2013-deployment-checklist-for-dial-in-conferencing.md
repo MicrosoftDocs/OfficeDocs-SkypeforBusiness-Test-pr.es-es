@@ -1,5 +1,5 @@
 ﻿---
-title: "Liste de vér. du dépl. pour la conférence rendez-vous dans Lync Server 2013"
+title: "Lync Server 2013: Implementación de conferencias de acceso telefónico local"
 TOCTitle: Lista de comprobación para la implementación de las conferencias de acceso telefónico local
 ms:assetid: 9c8d3ebe-0d70-4a61-9bd0-522286cddd9a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412726(v=OCS.15)

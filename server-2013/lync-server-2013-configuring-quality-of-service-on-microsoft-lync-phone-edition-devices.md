@@ -1,5 +1,5 @@
 ﻿---
-title: "Conf. de la qual. de service sur les appareils Microsoft Lync Phone Edition"
+title: "Configuración de la calidad de servicio en dispositivos Microsoft Lync Phone Edition"
 TOCTitle: "Conf. de la qual. de service sur les appareils Microsoft Lync Phone Edition"
 ms:assetid: a6eb2620-a512-4ab6-bdfd-eb76be43bbfe
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205137(v=OCS.15)

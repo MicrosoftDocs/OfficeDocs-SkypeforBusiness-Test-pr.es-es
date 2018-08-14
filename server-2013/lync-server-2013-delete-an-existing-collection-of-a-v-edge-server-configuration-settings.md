@@ -1,5 +1,5 @@
 ﻿---
-title: "Suppr. d’une collection existante de par. de conf. d’un serveur Edge A/V"
+title: "Eliminar conjunto existente de opciones de configuración del servidor perimetral A/V"
 TOCTitle: "Suppr. d’une collection existante de par. de conf. d’un serveur Edge A/V"
 ms:assetid: 668d3613-e464-4b68-967a-cfff90b9ce4b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688077(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Résumé des cert. - Pool dir. màé, équil. de ch. matérielle"
+title: "Resumen de certificado: Grupo de director escalado, equilibrador de carga de hardware"
 TOCTitle: Resumen de certificado - Grupo de director escalado, equilibrador de carga de hardware
 ms:assetid: 45940add-8027-418d-b79a-9033b494762f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204846(v=OCS.15)

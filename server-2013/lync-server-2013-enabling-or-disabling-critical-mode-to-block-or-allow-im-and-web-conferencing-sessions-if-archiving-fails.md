@@ -1,5 +1,5 @@
 ﻿---
-title: "Act/dés mode crit. pr bloq./aut. sess. mess. inst. et conf. web si échec arch."
+title: "Hab./deshabilitar modo crítico para bloquear o permitir MI y conf. web si hay errores"
 TOCTitle: "Act/dés mode crit. pr bloq./aut. sess. mess. inst. et conf. web si échec arch."
 ms:assetid: fafdcd2e-b778-4ed5-a25f-09208aa3b699
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182609(v=OCS.15)

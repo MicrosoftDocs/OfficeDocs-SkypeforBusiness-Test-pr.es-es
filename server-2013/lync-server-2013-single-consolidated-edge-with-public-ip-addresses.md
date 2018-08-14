@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Topología perimetral consolidada de un solo equipo con direcciones IP públicas'
+title: 'Topología perimetral consolidada de un solo equipo con direcciones IP públicas'
 TOCTitle: Topología perimetral consolidada de un solo equipo con direcciones IP públicas
 ms:assetid: a92d1179-6a1f-4efe-908a-f8dfc5024f30
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205148(v=OCS.15)

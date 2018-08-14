@@ -1,5 +1,5 @@
 ﻿---
-title: "Créer ou mod. une règle de trad. à l’aide de l’outil Créer une règle de trad."
+title: "Crear o modificar regla de conversión mediante Generar una regla de conversión"
 TOCTitle: "Créer ou mod. une règle de trad. à l’aide de l’outil Créer une règle de trad."
 ms:assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412909(v=OCS.15)

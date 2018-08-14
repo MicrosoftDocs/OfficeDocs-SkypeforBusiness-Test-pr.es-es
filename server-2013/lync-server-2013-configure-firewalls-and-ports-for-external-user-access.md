@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Conf. pare-feux et ports pour l’accès des utilisateurs ext."
+title: "Lync Server 2013: Configurar los firewall y puertos para acceso de usuarios externos"
 TOCTitle: Configurar los firewall y puertos para el acceso de usuarios externos
 ms:assetid: cacb3832-f8db-4009-bfcf-6f5c15c236ed
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398848(v=OCS.15)

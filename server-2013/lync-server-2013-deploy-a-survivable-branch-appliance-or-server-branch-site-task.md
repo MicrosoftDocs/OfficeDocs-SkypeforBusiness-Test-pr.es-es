@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Dépl. d’un SBA ou SBS sur site de succ. - tâche de site de succ."
+title: "Lync Server 2013: Aplicación o servidor sucursal con supervivencia, tarea sucursal"
 TOCTitle: Implementar una aplicación o servidor de sucursal con funciones de supervivencia - Tarea en el sitio de sucursal
 ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398599(v=OCS.15)

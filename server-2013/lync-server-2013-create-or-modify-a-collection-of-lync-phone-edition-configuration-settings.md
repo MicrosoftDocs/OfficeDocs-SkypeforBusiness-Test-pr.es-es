@@ -1,5 +1,5 @@
 ﻿---
-title: "Créat. ou mod. d’une collection de param. de conf. de Lync Phone Edition"
+title: "Crear o modificar un conjunto de opciones de configuración de Lync Phone Edition"
 TOCTitle: "Créat. ou mod. d’une collection de param. de conf. de Lync Phone Edition"
 ms:assetid: 6cf714af-8f57-4a71-89ad-0a776302b2ba
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688086(v=OCS.15)

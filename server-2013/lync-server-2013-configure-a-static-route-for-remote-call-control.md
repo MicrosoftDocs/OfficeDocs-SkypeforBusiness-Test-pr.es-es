@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Conf. d’un itin. statique pour le contr. d’appel distant"
+title: "Lync Server 2013: Configurar ruta estática para el control remoto de llamadas"
 TOCTitle: Configurar una ruta estática para el control remoto de llamadas
 ms:assetid: f7003023-443d-48ee-989b-71e8b0b0abbd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615051(v=OCS.15)

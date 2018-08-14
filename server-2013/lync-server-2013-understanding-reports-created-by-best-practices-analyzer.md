@@ -1,5 +1,5 @@
 ﻿---
-title: Descripción general de los informes creados por el Analizador de procedimientos recomendados
+title: Descripción de los informes creados por el Analizador de procedimientos recomendados
 TOCTitle: Descripción general de los informes creados por el Analizador de procedimientos recomendados
 ms:assetid: 1386dd6c-7f3e-4da9-905b-cef1468bf14a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg591344(v=OCS.15)

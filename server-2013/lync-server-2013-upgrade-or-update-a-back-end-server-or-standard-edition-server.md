@@ -1,5 +1,5 @@
 ﻿---
-title: "Màn ou màj serv. princ. ou serveur Standard Edition Server dans LS 2013"
+title: "Actualización o mejora de servidor back-end o Standard Edition en Lync Server 2013"
 TOCTitle: "Màn ou màj serv. princ. ou serveur Standard Edition Server dans LS 2013"
 ms:assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721942(v=OCS.15)

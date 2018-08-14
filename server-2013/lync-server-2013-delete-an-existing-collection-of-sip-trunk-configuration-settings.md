@@ -1,5 +1,5 @@
 ﻿---
-title: "Supp. d’une collection existante de par. de conf. de jonction SIP dans LS 2013"
+title: "Eliminar opciones de configuración existentes de troncos SIP en Lync Server 2013"
 TOCTitle: "Supp. d’une collection existante de par. de conf. de jonction SIP dans LS 2013"
 ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688024(v=OCS.15)

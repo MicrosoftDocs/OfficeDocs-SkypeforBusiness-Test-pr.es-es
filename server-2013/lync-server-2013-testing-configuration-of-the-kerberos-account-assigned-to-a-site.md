@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Test conf. compte Kerberos assigné à un site"
+title: "Lync Server 2013: Probar configuración de la cuenta de Kerberos asignada a un sitio"
 TOCTitle: Testing configuration of the Kerberos account assigned to a site
 ms:assetid: a087d77e-c59e-44f5-9caa-ccfd41be7276
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn743837(v=OCS.15)

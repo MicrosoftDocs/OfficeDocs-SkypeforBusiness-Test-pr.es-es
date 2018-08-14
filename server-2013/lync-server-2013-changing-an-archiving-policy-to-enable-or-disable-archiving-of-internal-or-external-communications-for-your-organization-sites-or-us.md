@@ -1,5 +1,5 @@
 ﻿---
-title: "Mod. strat. arch. pr ac./dés. arch. des com. int./ext. pr vos org., sites, ut."
+title: "Cambiar directiva archivado para hab/deshab. archivado comunics. internas/externas"
 TOCTitle: "Mod. strat. arch. pr ac./dés. arch. des com. int./ext. pr vos org., sites, ut."
 ms:assetid: b85dc3fb-8ebd-4e3c-ac90-fc79270ac867
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182576(v=OCS.15)

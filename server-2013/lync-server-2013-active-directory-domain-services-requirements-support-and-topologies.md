@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Conf. req, pr. en ch., top. rel. aux serv. de dom. Active Directory"
+title: "Topologías, compatibilidad y requisitos de Servicios de dominio de Active Directory"
 TOCTitle: Topologías, compatibilidad y requisitos de los Servicios de dominio de Active Directory
 ms:assetid: 95bd160f-bcea-4014-a050-8a3cd2f699c8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398760(v=OCS.15)

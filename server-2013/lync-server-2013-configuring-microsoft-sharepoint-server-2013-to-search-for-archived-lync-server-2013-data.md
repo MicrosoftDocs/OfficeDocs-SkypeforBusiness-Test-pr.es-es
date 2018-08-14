@@ -1,5 +1,5 @@
 ﻿---
-title: "Conf. Micros. SharePoint Server 2013 pr rech. données Microsoft LS 2013 arch."
+title: "Config. MS SharePoint Server 2013 para buscar datos archivados de MS Lync Server 2013"
 TOCTitle: "Conf. Micros. SharePoint Server 2013 pr rech. données Microsoft LS 2013 arch."
 ms:assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687978(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Instrucciones para integrar mensajería unificada local y Lync Server'
+title: 'Lync Server 2013: Instrucciones para integrar mensajería unif. local y Lync Server'
 TOCTitle: Instrucciones para integrar mensajería unificada local y Lync Server
 ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398656(v=OCS.15)

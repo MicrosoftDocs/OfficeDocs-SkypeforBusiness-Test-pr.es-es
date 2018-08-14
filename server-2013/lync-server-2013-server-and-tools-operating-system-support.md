@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Prise en ch. du syst. d’expl. pour le serveur et les outils"
+title: "Lync Server 2013: Compatibilidad del sistema operativo con servidor y herramientas"
 TOCTitle: Compatibilidad del sistema operativo con el servidor y las herramientas
 ms:assetid: b65a0956-f90d-48d0-ac61-558e67339084
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412883(v=OCS.15)

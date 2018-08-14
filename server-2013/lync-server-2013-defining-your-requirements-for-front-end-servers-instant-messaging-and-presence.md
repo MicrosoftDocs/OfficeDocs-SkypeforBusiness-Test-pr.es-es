@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Déf. de la conf. req. pour serv. frontaux, mess. inst. et présence"
+title: "Definir requisitos de servidores front-end, mensajería instantánea y presencia "
 TOCTitle: 'Definir los requisitos de los servidores front-end, la mensajería instantánea y la presencia '
 ms:assetid: c21198bc-520c-4d17-8b84-7ff1475b9b0a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412956(v=OCS.15)

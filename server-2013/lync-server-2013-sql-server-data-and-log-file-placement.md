@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: SQL Ubicación de datos y de archivos de registro de SQL Server'
+title: 'Lync Server 2013: Ubicación de datos y de archivos de registro de SQL Server'
 TOCTitle: Ubicación de datos y de archivos de registro de SQL Server
 ms:assetid: 67aa525b-8aa3-474f-827e-8e1d4697f30f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398479(v=OCS.15)

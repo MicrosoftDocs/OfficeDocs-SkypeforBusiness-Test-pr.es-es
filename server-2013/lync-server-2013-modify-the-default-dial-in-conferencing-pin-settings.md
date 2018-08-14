@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Mod. des par. de code conf. des conférences rdv par déf."
+title: "Modificar configuración de PIN de conferencia acceso telefónico local predeterminada"
 TOCTitle: Modificar la configuración del PIN de la conferencia de acceso telefónico local predeterminada
 ms:assetid: 2d110e94-ad29-4755-b17f-d8c2da9b78a4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425780(v=OCS.15)

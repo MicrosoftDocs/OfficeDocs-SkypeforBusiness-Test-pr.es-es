@@ -1,5 +1,5 @@
 ﻿---
-title: "Compat. de Lync Server 2013 avec la résist. de sites métrop. Lync Server 2010"
+title: "Compat. Lync Server 2013 con resistencia de sitios metropolitana de Lync Server 2010"
 TOCTitle: Resistencia de sitios de metropolitana de Lync Server 2010
 ms:assetid: 18673ff6-b664-4a57-a89b-cbda8b129e6a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204715(v=OCS.15)

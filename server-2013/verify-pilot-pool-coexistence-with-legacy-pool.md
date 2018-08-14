@@ -1,5 +1,5 @@
 ﻿---
-title: Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
+title: Comprobar coexistencia de grupo de servidores piloto con grupo de servidores heredado
 TOCTitle: Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
 ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205420(v=OCS.15)

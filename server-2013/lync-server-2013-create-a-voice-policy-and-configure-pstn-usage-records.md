@@ -1,5 +1,5 @@
 ﻿---
-title: "Créer strat. et voix et conf. les enr. d’ut. PSTN dans Lync Server 2013"
+title: "Crear una directiva de voz y configurar registros de uso de RTC en Lync Server 2013"
 TOCTitle: "Créer strat. et voix et conf. les enr. d’ut. PSTN dans Lync Server 2013"
 ms:assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399027(v=OCS.15)

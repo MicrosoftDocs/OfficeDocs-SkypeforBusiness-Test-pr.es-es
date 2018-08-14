@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013 : Créa. ou mod. d’un n° d’accès à une conférence rendez-vous"
+title: "Crear o modificar un número de acceso para conferencias de acceso telefónico local"
 TOCTitle: Crear o modificar un número de acceso para conferencias de acceso telefónico local
 ms:assetid: 06f55c28-57f8-4d4e-8313-9740846796d9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398126(v=OCS.15)

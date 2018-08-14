@@ -1,5 +1,5 @@
 ﻿---
-title: "LS 2013 : Créa., mod. par. de code confi. des conf. rdv pr site ou gr. ut."
+title: "Configuración de PIN de conferencia telefónica para un sitio o grupo de usuarios"
 TOCTitle: Crear o modificar la configuración de PIN de conferencia de acceso telefónico local para un sitio o grupo de usuarios
 ms:assetid: c29bab5c-2b93-48e0-ae0b-29564daaff9a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412959(v=OCS.15)
