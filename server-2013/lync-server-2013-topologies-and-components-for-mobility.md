@@ -25,20 +25,10 @@ Lync Server 2013 proporciona tres servicios para admitir las aplicaciones móvil
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si tiene previsto usar la conectividad de usuarios externos (por ejemplo, las características de federación, acceso de usuarios externos o movilidad), debe usar Servidores perimetrales con el Servidor Standard Edition, y el Servidor front-end o el Grupo de servidores front-end. El Servidor Standard Edition y el Servidor front-end o Grupo de servidores front-end no cuentan con los componentes necesarios para permitir que los usuarios externos obtengan acceso a la implementación interna, ni para que esta implementación interna se comunique con los usuarios externos. En todos los escenarios que incluyen usuarios externos que colaboran o se comunican con usuarios internos, incluida la movilidad, debe implementar al menos un Servidor perimetral y un proxy inverso.<br />
-La <em>notificación de inserción</em> usa un tipo de federación para los servicios de Lync Online que hospeda el centro de enrutamiento de notificaciones de inserción (PNCH). La notificación de inserción hace referencia a las alertas de sonido, las alertas en pantalla (texto) y los distintivos que las aplicaciones insertan en iPad e iPhone de Apple, así como en Windows Phone, cuando el dispositivo móvil no está activo. El PNCH recibe notificaciones de inserción desde Lync Server. Cuando el PNCH recibe una notificación de un mensaje, reenvía una notificación a los clientes móviles a través de los servicios de notificaciones de inserción de Apple o Lync Server 2013, según el cliente móvil al que vaya dirigido el mensaje. El PNCH es un servicio necesario para estos clientes móviles. Para federarse en Lync Online, PNCH usa Servidores perimetrales y certificados para asegurar la confidencialidad y la autenticación, directivas y registros del sistema de nombres de dominio (DNS) configurados correctamente. Los clientes de Lync Mobile basados en Android y Nokia Symbian no usan el PNCH. Para más información sobre la planeación y e implementación de Servidores perimetrales, vea <a href="lync-server-2013-planning-for-external-user-access.md">Planear acceso de usuarios externos en Lync Server 2013</a> y <a href="lync-server-2013-deploying-external-user-access.md">Implementar el acceso de usuarios externos en Lync Server 2013</a>.<br />
-Los clientes de Lync 2013 Mobile para dispositivos Apple que aparecieron con las actualizaciones acumuladas para Lync Server 2013 de febrero de 2013 ya no usan notificaciones de inserción o el centro de enrutamiento de notificaciones de inserción, pero sí siguen usándolos los clientes de Lync 2013 Mobile en Windows Phone.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si tiene previsto usar la conectividad de usuarios externos (por ejemplo, las características de federación, acceso de usuarios externos o movilidad), debe usar Servidores perimetrales con el Servidor Standard Edition, y el Servidor front-end o el Grupo de servidores front-end. El Servidor Standard Edition y el Servidor front-end o Grupo de servidores front-end no cuentan con los componentes necesarios para permitir que los usuarios externos obtengan acceso a la implementación interna, ni para que esta implementación interna se comunique con los usuarios externos. En todos los escenarios que incluyen usuarios externos que colaboran o se comunican con usuarios internos, incluida la movilidad, debe implementar al menos un Servidor perimetral y un proxy inverso.<br />
+> La <em>notificación de inserción</em> usa un tipo de federación para los servicios de Lync Online que hospeda el centro de enrutamiento de notificaciones de inserción (PNCH). La notificación de inserción hace referencia a las alertas de sonido, las alertas en pantalla (texto) y los distintivos que las aplicaciones insertan en iPad e iPhone de Apple, así como en Windows Phone, cuando el dispositivo móvil no está activo. El PNCH recibe notificaciones de inserción desde Lync Server. Cuando el PNCH recibe una notificación de un mensaje, reenvía una notificación a los clientes móviles a través de los servicios de notificaciones de inserción de Apple o Lync Server 2013, según el cliente móvil al que vaya dirigido el mensaje. El PNCH es un servicio necesario para estos clientes móviles. Para federarse en Lync Online, PNCH usa Servidores perimetrales y certificados para asegurar la confidencialidad y la autenticación, directivas y registros del sistema de nombres de dominio (DNS) configurados correctamente. Los clientes de Lync Mobile basados en Android y Nokia Symbian no usan el PNCH. Para más información sobre la planeación y e implementación de Servidores perimetrales, vea <a href="lync-server-2013-planning-for-external-user-access.md">Planear acceso de usuarios externos en Lync Server 2013</a> y <a href="lync-server-2013-deploying-external-user-access.md">Implementar el acceso de usuarios externos en Lync Server 2013</a>.<br />
+> Los clientes de Lync 2013 Mobile para dispositivos Apple que aparecieron con las actualizaciones acumuladas para Lync Server 2013 de febrero de 2013 ya no usan notificaciones de inserción o el centro de enrutamiento de notificaciones de inserción, pero sí siguen usándolos los clientes de Lync 2013 Mobile en Windows Phone.
 
 
 ## Componentes de movilidad
@@ -55,18 +45,9 @@ Los servicios compatibles con la movilidad son los siguientes:
 
   - **Servicio de movilidad de Lync Server 2013 (Mcx)**   Este servicio admite la funcionalidad de Lync, como la mensajería instantánea (MI), la presencia y los contactos, en los dispositivos móviles. El servicio de movilidad se instala en cada Servidor front-end de todos los grupos que deban admitir la funcionalidad de Lync en los dispositivos móviles. Al instalar Lync Server 2013, se crea un directorio virtual (Mcx) en los sitios web interno y externo de los Servidores front-end.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 con las actualizaciones acumuladas para Lync Server 2013 de febrero de 2013 admite el servicio de movilidad presentado en la actualización acumulada para Lync Server 2010 de noviembre de 2011 (comúnmente conocido como Mcx), así como el componente web UCWA. Al combinar estos dos servicios de movilidad, se proporciona interoperabilidad y posibilidad de uso por parte de los usuarios con clientes de Lync 2010 Mobile y Lync 2013 Mobile en Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Lync Server 2013 con las actualizaciones acumuladas para Lync Server 2013 de febrero de 2013 admite el servicio de movilidad presentado en la actualización acumulada para Lync Server 2010 de noviembre de 2011 (comúnmente conocido como Mcx), así como el componente web UCWA. Al combinar estos dos servicios de movilidad, se proporciona interoperabilidad y posibilidad de uso por parte de los usuarios con clientes de Lync 2010 Mobile y Lync 2013 Mobile en Lync Server 2013.
+    
 
 
   - **Servicio Detección automática de Lync Server 2013**   Este servicio identifica la ubicación del usuario y permite a los dispositivos móviles y a otros clientes de Lync localizar recursos, como direcciones URL internas y externas para los servicios web de Lync Server 2013 y la dirección URL para los servicios Mxc o UCWA, independientemente de la ubicación de red. La detección automática usa nombres de host codificados de forma rígida (lyncdiscoverinternal para usuarios internos de la red y lyncdiscover para los externos) y el dominio SIP del usuario. Admite conexiones de cliente con HTTP o HTTPS.
@@ -103,18 +84,9 @@ El Servidor perimetral puede ser un Servidor perimetral de Lync Server 2010.
 
 Una implementación de Lync Server 2013 en la que se hayan instalado las actualizaciones acumuladas para Lync Server 2013 de febrero de 2013 usará el servicio de movilidad Mcx y solo proporcionará servicios para Lync 2010 Mobile.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>El servicio de movilidad se admite en los Servidores front-end que se hayan colocado con el rol Servidor de mediación con dos interfaces de red, si bien se deben realizar los pasos necesarios para configurar ambas interfaces. Así, hay que asignar las direcciones IP a la interfaz concreta que se vaya a comunicar como Servidor de mediación, así como la dirección IP de interfaz de red que se vaya a comunicar como Servidor front-end. Esto se puede realizar en el Generador de topologías, seleccionando la dirección IP adecuada para cada servicio en lugar de usar la opción predeterminada <strong>Usar todas las direcciones IP configuradas</strong>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> El servicio de movilidad se admite en los Servidores front-end que se hayan colocado con el rol Servidor de mediación con dos interfaces de red, si bien se deben realizar los pasos necesarios para configurar ambas interfaces. Así, hay que asignar las direcciones IP a la interfaz concreta que se vaya a comunicar como Servidor de mediación, así como la dirección IP de interfaz de red que se vaya a comunicar como Servidor front-end. Esto se puede realizar en el Generador de topologías, seleccionando la dirección IP adecuada para cada servicio en lugar de usar la opción predeterminada <strong>Usar todas las direcciones IP configuradas</strong>.
+
 
 
 ## Vea también

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definir la experiencia de usuario para adquirir manualmente una ubicación'
+title: "Lync Server 2013: Definir experiencia de usuario para adquirir ubicación manualmente"
 TOCTitle: Definir la experiencia de usuario para adquirir manualmente una ubicación
 ms:assetid: d37f67d3-e248-483b-b64c-3986559ef357
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398912(v=OCS.15)

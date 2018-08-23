@@ -1,6 +1,6 @@
 ﻿---
-title: Quitar los archivos de actualización de dispositivos que no estén asociados a un dispositivo
-TOCTitle: Quitar los archivos de actualización de dispositivos que no estén asociados a un dispositivo
+title: "Quitar archivos de actualización de dispositivos no asociados a un dispositivo"
+TOCTitle: "Supp. fichiers de màj de périph. plus associés à aucun périphérique"
 ms:assetid: ecebbf73-b456-4990-a91d-308b84d39404
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994084(v=OCS.15)
 ms:contentKeyID: 52061959
@@ -31,5 +31,5 @@ Los archivos de actualización de dispositivo que ya no estén asociados a un di
     
         Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
 
-Para más información detallada, vea el tema de ayuda relativo al cmdlet [Clear-CsDeviceUpdateFile](clear-csdeviceupdatefile.md).
+Para más información detallada, vea el tema de ayuda relativo al cmdlet [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateFile).
 

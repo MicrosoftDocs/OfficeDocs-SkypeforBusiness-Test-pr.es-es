@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuración de red para las características avanzadas de telefonía IP empresarial'
+title: "Configuración de red para las características avanzadas de telefonía IP empresarial"
 TOCTitle: Configuración de red para las características avanzadas de telefonía IP empresarial
 ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398637(v=OCS.15)
@@ -63,19 +63,9 @@ Para cada sitio de red, tendrá que trabajar con el administrador de la red para
 
 En nuestro ejemplo, el sitio Nueva York de la región Norteamérica puede tener asignadas las siguientes subredes IP: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Si Bob, que suele trabajar en Detroit, viaja a la oficina de Nueva York para asistir a un curso enciende su equipo y se conecta a la red, su equipo obtendrá una dirección IP de uno de los cuatro rangos asignados a Nueva York, por ejemplo, 172.29.80.103.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Las subredes IP especificadas durante la configuración de red del servidor deben coincidir con el formato que proporcionan los equipos cliente para que se puedan usar adecuadamente para la omisión de medios. Un cliente de Lync toma su dirección IP local y enmascara la dirección IP con la máscara de subred asociada. Al determinar el identificador de omisión asociado a cada cliente, el registrador comparará la lista de subredes IP asociadas con cada sitio de red con la subred indicada por el cliente para comprobar que coincidan exactamente. Por este motivo, es importante que las subredes introducidas durante la configuración de la red del servidor sean subredes reales y no virtuales. (Si implementa el sistema de control de admisión de llamadas, pero no la omisión de medios, el control de admisión de llamadas funcionará correctamente incluso aunque configure subredes virtuales).<br />
-Por ejemplo, si un cliente Lync inicia sesión en un PC con una dirección IP 172.29.81.57 con una máscara de subred IP 255.255.255.0, solicitará el identificador de omisión asociado con la subred 172.29.81.0. Si la red se define como 172.29.0.0/16, aunque el cliente pertenezca a una subred virtual, el registrador no lo considerará una coincidencia debido a que el registrador está buscando específicamente la subred 172.29.81.0. Por lo tanto, es importante que el administrador introduzca las subredes exactamente tal y como las proporcionan los clientes Lync (que se aprovisionan con subredes durante la configuración de red, ya sea de forma estática o mediante el Protocolo de configuración dinámica de host - DHCP).</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Las subredes IP especificadas durante la configuración de red del servidor deben coincidir con el formato que proporcionan los equipos cliente para que se puedan usar adecuadamente para la omisión de medios. Un cliente de Lync toma su dirección IP local y enmascara la dirección IP con la máscara de subred asociada. Al determinar el identificador de omisión asociado a cada cliente, el registrador comparará la lista de subredes IP asociadas con cada sitio de red con la subred indicada por el cliente para comprobar que coincidan exactamente. Por este motivo, es importante que las subredes introducidas durante la configuración de la red del servidor sean subredes reales y no virtuales. (Si implementa el sistema de control de admisión de llamadas, pero no la omisión de medios, el control de admisión de llamadas funcionará correctamente incluso aunque configure subredes virtuales).<br />
+> Por ejemplo, si un cliente Lync inicia sesión en un PC con una dirección IP 172.29.81.57 con una máscara de subred IP 255.255.255.0, solicitará el identificador de omisión asociado con la subred 172.29.81.0. Si la red se define como 172.29.0.0/16, aunque el cliente pertenezca a una subred virtual, el registrador no lo considerará una coincidencia debido a que el registrador está buscando específicamente la subred 172.29.81.0. Por lo tanto, es importante que el administrador introduzca las subredes exactamente tal y como las proporcionan los clientes Lync (que se aprovisionan con subredes durante la configuración de red, ya sea de forma estática o mediante el Protocolo de configuración dinámica de host - DHCP).
 
 
 ## Asociación de subredes con sitios de red

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumen DNS - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware'
+title: "Lync Server 2013: Resumen DNS: Servidor perim. ampliado con equilibr. carga hardware"
 TOCTitle: Resumen DNS - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware
 ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398670(v=OCS.15)
@@ -50,18 +50,9 @@ Puede configurar dos adaptadores de red en cada uno de los Servidores perimetral
     
     Las direcciones IP de Servicio perimetral de conferencia web y Servicio perimetral A/V son secundarias.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La configuración del Servidor perimetral con dos adaptadores de red es una de las dos opciones disponibles. La otra opción es usar un adaptador de red para el lado interno y tres adaptadores de red para el lado externo del Servidor perimetral. La principal ventaja de esta opción es un adaptador de red distinto por servicio de Servidor perimetral, y es necesaria la recopilación de datos potencialmente más concisos al solucionar problemas.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> La configuración del Servidor perimetral con dos adaptadores de red es una de las dos opciones disponibles. La otra opción es usar un adaptador de red para el lado interno y tres adaptadores de red para el lado externo del Servidor perimetral. La principal ventaja de esta opción es un adaptador de red distinto por servicio de Servidor perimetral, y es necesaria la recopilación de datos potencialmente más concisos al solucionar problemas.
+
 
 
 ### Registros DNS necesarios para la Topología perimetral consolidada escalada (carga equilibrada con hardware): Topología perimetral consolidada

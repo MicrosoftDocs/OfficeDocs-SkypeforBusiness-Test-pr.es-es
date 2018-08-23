@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Establecer quién puede enviar mensajes en un salón de chat de tipo auditorio'
+title: "Lync Server 2013: Quién puede enviar mensajes en salón de chat de tipo auditorio"
 TOCTitle: Establecer quién puede enviar mensajes en un salón de chat de tipo auditorio
 ms:assetid: 26168d3e-362c-4c34-9693-21301f151166
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ215873(v=OCS.15)

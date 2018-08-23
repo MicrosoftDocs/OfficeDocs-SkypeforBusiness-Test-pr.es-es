@@ -21,18 +21,9 @@ Se recomienda instalar y configurar el clúster de SQL Server antes de instalar 
 
 Al instalar SQL Server, debe instalarse también SQL Server Management Studio para administrar las ubicaciones de la base de datos y de los archivos de registro. La instalación de SQL Server Management Studio es opcional al instalar SQL Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para poder instalar e implementar las bases de datos en el servidor basado en SQL Server, debe ser miembro del grupo de administrador del sistema de SQL Server en el servidor basado en SQL Server en el que se están instalando los archivos de base de datos. Si no es miembro de este grupo, solicite que se le incorpore hasta que se implementen los archivos de base de datos. Si no puede convertirse en miembro del grupo, proporcione al administrador de bases de datos de SQL Server el script para configurar e implementar las bases de datos. Para más información sobre los permisos y derechos de usuario que necesita para llevar a cabo estos procedimientos, vea <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Permisos de implementación para SQL Server en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Para poder instalar e implementar las bases de datos en el servidor basado en SQL Server, debe ser miembro del grupo de administrador del sistema de SQL Server en el servidor basado en SQL Server en el que se están instalando los archivos de base de datos. Si no es miembro de este grupo, solicite que se le incorpore hasta que se implementen los archivos de base de datos. Si no puede convertirse en miembro del grupo, proporcione al administrador de bases de datos de SQL Server el script para configurar e implementar las bases de datos. Para más información sobre los permisos y derechos de usuario que necesita para llevar a cabo estos procedimientos, vea <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Permisos de implementación para SQL Server en Lync Server 2013</a>.
+
 
 
 ## Para configurar la agrupación en clústeres de SQL Server:
@@ -61,18 +52,9 @@ Al instalar SQL Server, debe instalarse también SQL Server Management Studio pa
 
 1.  Inicie el Generador de topologías: haga clic en **Inicio** , **Todos los programas** , **Microsoft Lync Server 2013** y **Generador de topologías de Lync Server** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>En el procedimiento siguiente se asume que la topología se ha definido y configurado con el Generador de topologías. Para más información sobre cómo definir una topología, vea <a href="lync-server-2013-defining-and-configuring-the-topology.md">Definición y configuración de la topología en Lync Server 2013</a>. Para publicar la topología y configurar la base de datos con el Generador de topologías, inicie sesión como usuario con las pertenencias a grupos y los derechos de usuario correctos. Para más información sobre estos derechos y pertenencias, vea <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Permisos de implementación para SQL Server en Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > En el procedimiento siguiente se asume que la topología se ha definido y configurado con el Generador de topologías. Para más información sobre cómo definir una topología, vea <a href="lync-server-2013-defining-and-configuring-the-topology.md">Definición y configuración de la topología en Lync Server 2013</a>. Para publicar la topología y configurar la base de datos con el Generador de topologías, inicie sesión como usuario con las pertenencias a grupos y los derechos de usuario correctos. Para más información sobre estos derechos y pertenencias, vea <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Permisos de implementación para SQL Server en Lync Server 2013</a>.
+    
 
 
 2.  Cuando publique la topología, vaya a la página **Crear bases de datos** del Generador de topologías y haga clic en **Avanzadas**.

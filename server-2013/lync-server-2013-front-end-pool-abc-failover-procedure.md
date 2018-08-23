@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Procedimiento de conmutación por error de ABC del grupo de servidores front-end'
+title: 'Lync Server 2013: Procedimiento conmut. error de ABC de grupo de servidores front-end'
 TOCTitle: Procedimiento de conmutación por error de ABC del grupo de servidores front-end
 ms:assetid: 67763ad3-6796-45eb-a486-901f21ac1a95
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945635(v=OCS.15)
@@ -33,7 +33,7 @@ Para ejecutar los cmdlets, use Ejecutar como administrador y abra un Shell de ad
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
-    Una vez hecho, le recomendamos que mueva el CMS desde el grupo B a otro grupo asociado existente a fin de lograr mayor resistencia. Para más información, consulte [Move-CsManagementServer](move-csmanagementserver.md).
+    Una vez hecho, le recomendamos que mueva el CMS desde el grupo B a otro grupo asociado existente a fin de lograr mayor resistencia. Para más información, consulte [Move-CsManagementServer](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsManagementServer).
 
 3.  Si el grupo A contiene el CMS, importe la configuración LIS desde el grupo A a la base de datos LIS del grupo B (Lis.mdf). Esto solo funcionará si ha hecho copias de seguridad de los datos de LIS periódicamente. Para importar la configuración de LIS, ejecute los siguientes cmdlets:
     
@@ -57,18 +57,9 @@ Para ejecutar los cmdlets, use Ejecutar como administrador y abra un Shell de ad
         
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Tenga en cuenta que si no quiere sobrescribir la configuración de nivel de aplicación del grupo de copia de seguridad (grupo B) con la configuración del grupo principal (grupo A), la configuración del grupo A se perderá si se pierde el grupo. Esto se debe a que la aplicación Grupo de respuesta solo puede almacenar una configuración de nivel de aplicación por grupo. Al implementar el grupo C para sustituir al grupo A, es necesario reconfigurar la configuración de nivel de aplicación, incluido el archivo de audio predeterminado de música en espera.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Tenga en cuenta que si no quiere sobrescribir la configuración de nivel de aplicación del grupo de copia de seguridad (grupo B) con la configuración del grupo principal (grupo A), la configuración del grupo A se perderá si se pierde el grupo. Esto se debe a que la aplicación Grupo de respuesta solo puede almacenar una configuración de nivel de aplicación por grupo. Al implementar el grupo C para sustituir al grupo A, es necesario reconfigurar la configuración de nivel de aplicación, incluido el archivo de audio predeterminado de música en espera.
+    
 
 
 5.  Verifique que la configuración del grupo de respuesta se importó correctamente: ejecute los siguientes cmdlets para ver los grupos de respuesta importados. Tenga en cuenta que los grupos de respuesta importados todavía pertenecen al grupo A.
@@ -164,18 +155,9 @@ Para ejecutar los cmdlets, use Ejecutar como administrador y abra un Shell de ad
         
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Tenga en cuenta que si no quiere sobrescribir la configuración de nivel de aplicación del grupo C con la configuración de grupo de copia de seguridad (grupo B), la configuración del grupo B se perderá. Esto se debe a que la aplicación Grupo de respuesta solo puede almacenar una configuración de nivel de aplicación por grupo.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Tenga en cuenta que si no quiere sobrescribir la configuración de nivel de aplicación del grupo C con la configuración de grupo de copia de seguridad (grupo B), la configuración del grupo B se perderá. Esto se debe a que la aplicación Grupo de respuesta solo puede almacenar una configuración de nivel de aplicación por grupo.
+    
 
 
 18. Verifique que la configuración del grupo de respuesta se importó correctamente: ejecute los siguientes cmdlets para ver los grupos de respuesta que se han importado al grupo C.

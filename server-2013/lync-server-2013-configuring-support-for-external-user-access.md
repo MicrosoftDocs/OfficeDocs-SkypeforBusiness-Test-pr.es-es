@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar la compatibilidad para el acceso de usuarios externos'
+title: "Lync Server 2013: Configurar la compatibilidad para el acceso de usuarios externos"
 TOCTitle: Configurar la compatibilidad para el acceso de usuarios externos
 ms:assetid: f8424f8c-f965-4414-8485-30f07e10214a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413051(v=OCS.15)
@@ -21,7 +21,7 @@ Una vez configurado el servidor perimetral o el grupo de servidores perimetrales
 
 Para la compatibilidad para el acceso de usuarios externos, debe realizar las dos acciones siguientes:
 
-  - **Habilitar la compatibilidad para su organización**   Para habilitar la compatibilidad para el acceso de usuarios externos en su implementación, habilite cada uno de los tipos de acceso externo que desee permitir. La compatibilidad para el acceso de usuarios externos se habilita y deshabilita editando las opciones globales o creando y configurando una directiva de sitio o de usuario en la página **Directiva de acceso externo** del grupo **Federación y acceso externo** del Panel de control de Lync Server o usando el Shell de administración de Lync Server y los cmdlets asociados. Encontrará los cmdlets para la administración de las **Directivas de acceso externo** en el tema [Cmdlets de federación y acceso externo en Lync Server 2013](lync-server-2013-federation-and-external-access-cmdlets.md). Al habilitar la compatibilidad para el acceso externo, se especifica que los servidores que ejecutan Lync Server Servidor perimetral de acceso son compatibles con las comunicaciones con usuarios y servidores externos. Los usuarios internos y externos no se pueden comunicar mientras el acceso a usuarios externos está deshabilitado ni cuando las directivas no están configuradas para ello.
+  - **Habilitar la compatibilidad para su organización**   Para habilitar la compatibilidad para el acceso de usuarios externos en su implementación, habilite cada uno de los tipos de acceso externo que desee permitir. La compatibilidad para el acceso de usuarios externos se habilita y deshabilita editando las opciones globales o creando y configurando una directiva de sitio o de usuario en la página **Directiva de acceso externo** del grupo **Federación y acceso externo** del Panel de control de Lync Server o usando el Shell de administración de Lync Server y los cmdlets asociados. Encontrará los cmdlets para la administración de las **Directivas de acceso externo** en el tema [Cmdlets de federación y acceso externo en Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/). Al habilitar la compatibilidad para el acceso externo, se especifica que los servidores que ejecutan Lync Server Servidor perimetral de acceso son compatibles con las comunicaciones con usuarios y servidores externos. Los usuarios internos y externos no se pueden comunicar mientras el acceso a usuarios externos está deshabilitado ni cuando las directivas no están configuradas para ello.
 
   - **Configure y asigne una o más directivas**   Para la compatibilidad con el acceso de usuarios externos, configure las directivas para dar respuesta a requisitos como:
     

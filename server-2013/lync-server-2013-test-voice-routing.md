@@ -19,32 +19,14 @@ Puede usar la pestaña **Probar enrutamiento de voz** de Panel de control de Lyn
 
 Antes de poder implementar la configuración del enrutamiento de voz, se recomienda que lo pruebe con diversos números de teléfono para garantizar que los resultados son como se prevén.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Puede usar los comandos <strong>Exportar casos de prueba</strong> e <strong>Importar casos de prueba</strong> para guardar los casos de prueba de enrutamiento de voz e importarlos para su uso en otro equipo.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Puede usar los comandos <strong>Exportar casos de prueba</strong> e <strong>Importar casos de prueba</strong> para guardar los casos de prueba de enrutamiento de voz e importarlos para su uso en otro equipo.
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ204932.Caution(OCS.15).gif" title="Caution" alt="Caution" />Precaución:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si ha eliminado cualquier parte de la configuración del enrutamiento de voz, como un plan de marcado, directiva de voz, ruta de voz o uso de un teléfono, debe comprobar y actualizar los casos de prueba del enrutamiento de voz. Panel de control de Lync Server no le alertará con respecto a los casos de prueba que ya no son válidos debido a cambios en las configuraciones.</td>
-</tr>
-</tbody>
-</table>
+
+> [!CAUTION]  
+> Si ha eliminado cualquier parte de la configuración del enrutamiento de voz, como un plan de marcado, directiva de voz, ruta de voz o uso de un teléfono, debe comprobar y actualizar los casos de prueba del enrutamiento de voz. Panel de control de Lync Server no le alertará con respecto a los casos de prueba que ya no son válidos debido a cambios en las configuraciones.
+
 
 
 ## En esta sección

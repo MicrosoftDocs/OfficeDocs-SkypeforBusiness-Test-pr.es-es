@@ -1,6 +1,6 @@
 ﻿---
-title: Habilitar la integración de mensajería instantánea y Exchange 2013 Outlook Web App
-TOCTitle: Habilitar la integración de mensajería instantánea y Exchange 2013 Outlook Web App
+title: "Habilitar la integración de mensajería instantánea y Exchange 2013 Outlook Web App"
+TOCTitle: "Act. d’Exchange 2013 Outlook Web App et intégration à la mes. instantanée"
 ms:assetid: 44d08cf0-b17d-46e1-a4f0-fcc2fe96a958
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204857(v=OCS.15)
 ms:contentKeyID: 48275069
@@ -25,30 +25,21 @@ Para habilitar la integración de la mensajería instantánea (MI) y Outlook Web
     
         Get-CsSite
     
-    Esto devuelve el siteID para el siteName en el que está creando el grupo. Para más información, vea [Get-CsSite](get-cssite.md) en la documentación de Shell de administración de Lync Server 2013.
+    Esto devuelve el siteID para el siteName en el que está creando el grupo. Para más información, vea [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) en la documentación de Shell de administración de Lync Server 2013.
 
 3.  Ejecute el siguiente cmdlet:
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    Para más información, vea [New-CsTrustedApplicationPool](new-cstrustedapplicationpool.md) en la documentación de Shell de administración de Lync Server 2013.
+    Para más información, vea [New-CsTrustedApplicationPool](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplicationPool) en la documentación de Shell de administración de Lync Server 2013.
     
     El FQDN de Exchange Server debe configurarse como el nombre alternativo del sujeto (SAN) o el nombre de sujeto (SN) del certificado de Exchange OWA.
     
     En Exchange OWA, compruebe que el FQDN del grupo también es de confianza.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si su servidor CAS <em>no</em> está combinado en el mismo servidor que ejecuta la mensajería unificada de Exchange 2013, omita los pasos restantes en este procedimiento y realice el procedimiento “Crear una aplicación de confianza para el servidor CAS de Exchange 2013” más adelante en este tema. Si el servidor CAS está combinado en el mismo servidor que ejecuta la mensajería unificada de Exchange 2013, complete los pasos de este procedimiento y no siga el procedimiento “Crear una aplicación de confianza para el servidor CAS de Exchange 2013” más adelante en este tema.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si su servidor CAS <em>no</em> está combinado en el mismo servidor que ejecuta la mensajería unificada de Exchange 2013, omita los pasos restantes en este procedimiento y realice el procedimiento “Crear una aplicación de confianza para el servidor CAS de Exchange 2013” más adelante en este tema. Si el servidor CAS está combinado en el mismo servidor que ejecuta la mensajería unificada de Exchange 2013, complete los pasos de este procedimiento y no siga el procedimiento “Crear una aplicación de confianza para el servidor CAS de Exchange 2013” más adelante en este tema.
+    
 
 
 4.  Ejecute **Enable-CsTopology**.
@@ -69,7 +60,7 @@ Para habilitar la integración de la mensajería instantánea (MI) y Outlook Web
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     
-    Para más información, vea el tema [New-CsTrustedApplication](new-cstrustedapplication.md) en la documentación de Shell de administración de Lync Server 2013.
+    Para más información, vea el tema [New-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplication) en la documentación de Shell de administración de Lync Server 2013.
 
 3.  Ejecute **Enable-CsTopology**.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Administración de la configuración de grupos de respuesta a nivel de aplicación en Lync Server 2013
-TOCTitle: Administración de la configuración de grupos de respuesta a nivel de aplicación en Lync Server 2013
+title: "Configuración de grupos de respuesta a nivel de aplicación en Lync Server 2013"
+TOCTitle: "Gest. des param. de Response Group au niveau de l’app. dans Lync Server 2013"
 ms:assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721843(v=OCS.15)
 ms:contentKeyID: 49889528
@@ -42,7 +42,7 @@ La música en espera predeterminada se reproduce cuando se pone una llamada en e
 
 #### Otros recursos
 
-[Get-CsRgsConfiguration](get-csrgsconfiguration.md)  
-[Set-CsRgsConfiguration](set-csrgsconfiguration.md)  
-[Import-CsRgsAudioFile](import-csrgsaudiofile.md)
+[Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration)  
+[Set-CsRgsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsConfiguration)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)
 

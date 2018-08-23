@@ -1,6 +1,6 @@
 ﻿---
-title: Mover un dispositivo de conferencia a un grupo de registradores nuevo
-TOCTitle: Mover un dispositivo de conferencia a un grupo de registradores nuevo
+title: "Déplacer un disp. de conf. vers un nouveau pool de serveurs d’inscriptions"
+TOCTitle: "Déplacer un disp. de conf. vers un nouveau pool de serveurs d’inscriptions"
 ms:assetid: 26e02ca3-e881-4f90-8bf0-b13649108100
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994025(v=OCS.15)
 ms:contentKeyID: 52061620
@@ -30,5 +30,5 @@ Mueva un dispositivo de conferencias de un grupo de registradores a otro mediant
     
         Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 
-Para obtener información detallada, consulte el tema de Ayuda acerca del cmdlet [Move-CsMeetingRoom](move-csmeetingroom.md).
+Para obtener información detallada, consulte el tema de Ayuda acerca del cmdlet [Move-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom).
 

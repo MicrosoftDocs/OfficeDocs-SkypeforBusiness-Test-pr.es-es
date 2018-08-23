@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: estado de replicación del almacén de administración central'
+title: "Skype Entreprise Server 2015 : statut de réplic. du magasin central de gest."
 TOCTitle: Estado de replicación del almacén de administración central
 ms:assetid: f514f88d-986b-4e45-b79b-e04a7616c1fe
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn720926(v=OCS.15)
@@ -31,5 +31,5 @@ Para obtener la lista de todos los roles RBAC a los que se ha asignado este cmdl
 
 #### Otros recursos
 
-[Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
+[Get-CsManagementStoreReplicationStatus](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsManagementStoreReplicationStatus)
 

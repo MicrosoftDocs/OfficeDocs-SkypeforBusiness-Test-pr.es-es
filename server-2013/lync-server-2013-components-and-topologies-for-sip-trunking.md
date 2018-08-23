@@ -23,19 +23,9 @@ La ilustración siguiente refleja la topología de enlace troncal SIP de Lync Se
 
 Como se muestra en el diagrama, se usa una red privada virtual (VPN) de IP para la conectividad entre la red empresarial y el proveedor de servicios de la red telefónica conmutada (RTC). El objetivo de esta red privada es proporcionar conectividad IP, mejorar la seguridad y obtener garantías (opcionales) de Calidad de servicio (QoS). Dada la naturaleza de una VPN, no necesita usar Seguridad de la capa de transporte (TLS) para el tráfico de señalización SIP ni el Protocolo de transporte en tiempo real seguro (SRTP) para el tráfico de medios. Las conexiones entre la empresa y el proveedor de servicios constan, por lo tanto, de conexiones TCP simples para SIP y el Protocolo de transporte en tiempo real (RTP) simple (sobre UDP) para los medios de túnel a través de una VPN de IP. Asegúrese de que todos los firewalls que hay entre los enrutadores de VPN tienen los puertos abiertos para permitir la comunicación de dichos enrutadores, y que las direcciones IP de los bordes externos de los enrutadores de VPN se pueden redirigir públicamente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Consulte a su proveedor de servicios para saber si admite alta disponibilidad, incluida la conmutación por error. Si es así, tendrá que averiguar los procedimientos para instalarla. Por ejemplo, ¿es necesario configurar una sola dirección IP y un tronco SIP en cada Servidor de mediación, o tiene que configurar varios troncos SIP en cada Servidor de mediación?<br />
-Si tiene varios sitios centrales, pregunte también si el proveedor de servicios tiene la capacidad de habilitar conexiones a otro sitio central y desde él.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Consulte a su proveedor de servicios para saber si admite alta disponibilidad, incluida la conmutación por error. Si es así, tendrá que averiguar los procedimientos para instalarla. Por ejemplo, ¿es necesario configurar una sola dirección IP y un tronco SIP en cada Servidor de mediación, o tiene que configurar varios troncos SIP en cada Servidor de mediación?<br />
+> Si tiene varios sitios centrales, pregunte también si el proveedor de servicios tiene la capacidad de habilitar conexiones a otro sitio central y desde él.
 
 
 

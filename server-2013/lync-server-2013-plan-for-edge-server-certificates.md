@@ -23,38 +23,20 @@ La creación de certificados para servidores perimetrales se simplifica en Lync 
 
 Cree un certificado público único, compruebe que tiene una clave privada exportable definida para el certificado y asígnela a las interfaces externas del servidor perimetral usando el asistente para certificados:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server no admite certificados de comodín, salvo cuando se usan para resumir las direcciones URL simples a través de proxy inverso. Se deben definir nombres alternativos del firmante (SAN) por cada nombre de dominio SIP, Servicio perimetral de conferencia web, Servicio perimetral A/V y dominio XMPP que la implementación ofrezca.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Lync Server no admite certificados de comodín, salvo cuando se usan para resumir las direcciones URL simples a través de proxy inverso. Se deben definir nombres alternativos del firmante (SAN) por cada nombre de dominio SIP, Servicio perimetral de conferencia web, Servicio perimetral A/V y dominio XMPP que la implementación ofrezca.
+
 
 
 
 > [!NOTE]
-> A partir de Lync Server 2013, los certificados de autenticación de audio y vídeo de ensayo antes de la fecha de expiración del certificado actual requieren cierta planeación adicional. En lugar de un certificado con diversos fines para la interfaz externa del servidor perimetral, necesitará dos certificados, uno asignado al Servidor perimetral de acceso y al Servicio perimetral de conferencia web y otro, al certificado para el Servicio perimetral A/V. Si desea más información, consulte <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md">Prueba de certificados de OAuth y audio y vídeo en Lync Server 2013 utilizando -Roll en Set-CsCertificate</A>
+> A partir de Lync Server 2013, los certificados de autenticación de audio y vídeo de ensayo antes de la fecha de expiración del certificado actual requieren cierta planeación adicional. En lugar de un certificado con diversos fines para la interfaz externa del servidor perimetral, necesitará dos certificados, uno asignado al Servidor perimetral de acceso y al Servicio perimetral de conferencia web y otro, al certificado para el Servicio perimetral A/V. Si desea más información, consulte <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate">Prueba de certificados de OAuth y audio y vídeo en Lync Server 2013 utilizando -Roll en Set-CsCertificate</A>
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En el caso de un grupo de Servidores perimetrales, el certificado se exporta con la clave privada de cada Servidor perimetral y se asigna el certificado a cada servicio Servidor perimetral. Haga lo mismo para el certificado interno de Servidor perimetral, exportar el certificado con la clave privada y asígnelo a cada interfaz interna del servidor perimetral.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> En el caso de un grupo de Servidores perimetrales, el certificado se exporta con la clave privada de cada Servidor perimetral y se asigna el certificado a cada servicio Servidor perimetral. Haga lo mismo para el certificado interno de Servidor perimetral, exportar el certificado con la clave privada y asígnelo a cada interfaz interna del servidor perimetral.
+
 
 
   - Compruebe que se ha asignado la clave privada exportable al certificado
@@ -69,25 +51,16 @@ Cree un solo certificado interno con una clave privada exportable, cópielo y as
 
   - Servidor perimetral (denominado **Servidor perimetral interno** en el asistente para certificados)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se pueden utilizar otros certificados independientes y distintivos para cada servicio de Servidor perimetral. Un buen motivo para seleccionar certificados aparte es que se desee utilizar la nueva característica de implementación de certificados para el certificado Servicio perimetral A/V. En el caso de esta característica, se recomienda disociar el certificado Servicio perimetral A/V de Servidor perimetral de acceso y Servicio perimetral de conferencia web. Si decide solicitar, adquirir y asignar certificados aparte para cada servicio, deberá solicitar que la clave privada sea exportable para el Servicio perimetral A/V (una vez más, es en realidad el servicio de autenticación A/V) y asignar el mismo certificado a la interfaz interna de perimetral A/V en cada Servidor perimetral.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Se pueden utilizar otros certificados independientes y distintivos para cada servicio de Servidor perimetral. Un buen motivo para seleccionar certificados aparte es que se desee utilizar la nueva característica de implementación de certificados para el certificado Servicio perimetral A/V. En el caso de esta característica, se recomienda disociar el certificado Servicio perimetral A/V de Servidor perimetral de acceso y Servicio perimetral de conferencia web. Si decide solicitar, adquirir y asignar certificados aparte para cada servicio, deberá solicitar que la clave privada sea exportable para el Servicio perimetral A/V (una vez más, es en realidad el servicio de autenticación A/V) y asignar el mismo certificado a la interfaz interna de perimetral A/V en cada Servidor perimetral.
+
 
 
 ## Vea también
 
 #### Tareas
 
-[Prueba de certificados de OAuth y audio y vídeo en Lync Server 2013 utilizando -Roll en Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)  
+[Prueba de certificados de OAuth y audio y vídeo en Lync Server 2013 utilizando -Roll en Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
 
 #### Conceptos
 

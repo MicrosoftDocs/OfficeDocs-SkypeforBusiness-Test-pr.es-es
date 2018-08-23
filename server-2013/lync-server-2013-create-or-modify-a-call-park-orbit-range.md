@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear o modificar un intervalo de órbitas de estacionamiento de llamadas'
+title: "Lync Server 2013: Crear/modificar intervalo de órbitas de estacionamiento de llamadas"
 TOCTitle: Crear o modificar un intervalo de órbitas de estacionamiento de llamadas
 ms:assetid: 549ec118-eee5-4333-9416-80929ec057e0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398361(v=OCS.15)
@@ -88,6 +88,6 @@ Use los siguientes procedimientos para crear o modificar un intervalo de órbita
 
 #### Otros recursos
 
-[New-CsCallParkOrbit](new-cscallparkorbit.md)  
-[Set-CsCallParkOrbit](set-cscallparkorbit.md)
+[New-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCallParkOrbit)  
+[Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit)
 

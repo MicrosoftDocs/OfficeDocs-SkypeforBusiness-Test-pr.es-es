@@ -41,35 +41,17 @@ La directiva de movilidad es una de las configuraciones individuales de una cuen
     
     4.  En función de la propiedad de usuario que haya seleccionado, especifique los criterios que desee utilizar para filtrar los resultados de la búsqueda escribiendo o haciendo clic en la flecha de la lista desplegable.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong>.
+        
     
     5.  Haga clic en **Buscar**.
 
 6.  Haga clic en un usuario en los resultados de búsqueda, haga clic en **Acción** y después en **Asignar directivas**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si desea aplicar la misma directiva de movilidad por usuario a varios usuarios, seleccione los distintos usuarios en los resultados de la búsqueda, haga clic en <strong>Acciones</strong> y después en <strong>Asignar directivas</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si desea aplicar la misma directiva de movilidad por usuario a varios usuarios, seleccione los distintos usuarios en los resultados de la búsqueda, haga clic en <strong>Acciones</strong> y después en <strong>Asignar directivas</strong>.
+    
 
 
 7.  En **Asignar directivas**, en **Directiva de movilidad**, lleve a cabo uno de los procedimientos siguientes:
@@ -83,18 +65,9 @@ La directiva de movilidad es una de las configuraciones individuales de una cuen
     
       - Haga clic en el nombre de una directiva de movilidad por usuario que haya definido anteriormente en la página **Directiva de archivado**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Para que le sea más fácil decidir la directiva que desea asignar, tras hacer clic en el nombre de una directiva, haga clic en <strong>Ver</strong> para ver los derechos y permisos de usuario definidos en la directiva.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Para que le sea más fácil decidir la directiva que desea asignar, tras hacer clic en el nombre de una directiva, haga clic en <strong>Ver</strong> para ver los derechos y permisos de usuario definidos en la directiva.
+        
 
 
 8.  Cuando haya terminado, haga clic en **Aceptar**.
@@ -111,7 +84,7 @@ Puede asignar directivas de movilidad por usuario usando el Shell de administrac
 
 ## Asignar una directiva de movilidad por usuario a varios usuarios
 
-  - El comando siguiente asigna la directiva de movilidad por usuario RedmondMobilityPolicy a todos los usuarios que tienen asignada actualmente la directiva NorthAmericaMobilityPolicy. Para más información sobre el parámetro Filter usado en este comando, consulte [Get-CsUser](get-csuser.md).
+  - El comando siguiente asigna la directiva de movilidad por usuario RedmondMobilityPolicy a todos los usuarios que tienen asignada actualmente la directiva NorthAmericaMobilityPolicy. Para más información sobre el parámetro Filter usado en este comando, consulte [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 
@@ -121,7 +94,7 @@ Puede asignar directivas de movilidad por usuario usando el Shell de administrac
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para más información, consulte [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md).
+Para más información, consulte [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy).
 
 ## Vea también
 

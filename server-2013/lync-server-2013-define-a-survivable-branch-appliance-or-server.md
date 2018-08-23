@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definir un servidor o aplicación de sucursal con funciones de supervivencia'
+title: "Definir un servidor o aplicación de sucursal con funciones de supervivencia"
 TOCTitle: Definir un servidor o aplicación de sucursal con funciones de supervivencia
 ms:assetid: 1f49cfbe-30b3-4600-af15-47cb2f58d18a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398280(v=OCS.15)
@@ -25,34 +25,16 @@ Lleve a cabo este procedimiento en el sitio central en caso de que no haya defin
 
 3.  Haga clic con el botón secundario en **Aplicaciones de sucursal con funciones de supervivencia** y después haga clic en **Nueva Aplicación de sucursal con funciones de supervivencia**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>En <strong>Aplicaciones de sucursal con funciones de supervivencia</strong> se definen tanto los Servidores de sucursal con funciones de supervivencia como las Aplicaciones de sucursal con funciones de supervivencia.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > En <strong>Aplicaciones de sucursal con funciones de supervivencia</strong> se definen tanto los Servidores de sucursal con funciones de supervivencia como las Aplicaciones de sucursal con funciones de supervivencia.
+    
 
 
 4.  En el cuadro de diálogo **Definir Aplicación de sucursal con funciones de supervivencia**, haga clic en **FQDN**, escriba el nombre de dominio completo (FQDN) de la Aplicación de sucursal con funciones de supervivencia o del Servidor de sucursal con funciones de supervivencia que va a implementar en la sucursal y haga clic en **Siguiente**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si está definiendo una Aplicación de sucursal con funciones de supervivencia, el nombre que especifique en <strong>FQDN</strong> debe ser el mismo que el FQDN de Aplicación de sucursal con funciones de supervivencia que hay asignado al atributo <strong>servicePrincipalName</strong>. Para más información detallada, consulte <a href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory en Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si está definiendo una Aplicación de sucursal con funciones de supervivencia, el nombre que especifique en <strong>FQDN</strong> debe ser el mismo que el FQDN de Aplicación de sucursal con funciones de supervivencia que hay asignado al atributo <strong>servicePrincipalName</strong>. Para más información detallada, consulte <a href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory en Lync Server 2013</a>.
+    
 
 
 5.  Haga clic en **Grupo de servidores front-end**, haga clic en el servidor front-end (grupo de servidores Servicios de usuario) del sitio central al que la Aplicación de sucursal con funciones de supervivencia o el Servidor de sucursal con funciones de supervivencia se va a conectar y luego haga clic en **Siguiente**.
@@ -61,18 +43,9 @@ Lleve a cabo este procedimiento en el sitio central en caso de que no haya defin
 
 7.  Haga clic en **FQDN de puerta de enlace o dirección IP** y después escriba el FQDN o la dirección IP del nivel de puerta de enlace al que se asocia la Aplicación de sucursal con funciones de supervivencia o el Servidor de sucursal con funciones de supervivencia para enrutar las llamadas RTC entrantes o realizadas.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si está definiendo una Aplicación de sucursal con funciones de supervivencia, se trata de la puerta de enlace a la que se conectará el servidor de mediación de Aplicación de sucursal con funciones de supervivencia para conectividad de red telefónica conmutada (RTC).</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si está definiendo una Aplicación de sucursal con funciones de supervivencia, se trata de la puerta de enlace a la que se conectará el servidor de mediación de Aplicación de sucursal con funciones de supervivencia para conectividad de red telefónica conmutada (RTC).
+    
 
 
 8.  Haga clic en **Puerto de escucha para puerta de enlace IP/RTC** y acepte el puerto predeterminado.

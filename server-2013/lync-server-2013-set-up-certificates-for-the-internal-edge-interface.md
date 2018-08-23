@@ -15,18 +15,9 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2013-11-07_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Al ejecutar el Asistente para certificados, asegúrese de que ha iniciado sesión usando una cuenta que es miembro de un grupo con los permisos asignados adecuados para el tipo de plantilla de certificado que use. De manera predeterminada, una solicitud de certificado de Lync Server 2013 usará la plantilla de certificado Servidor web. Si usa una cuenta que es miembro del grupo RTCUniversalServerAdmins para solicitar un certificado usando esta plantilla, compruebe que el grupo tenga asignados los permisos Inscribir necesarios para usar la plantilla.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Al ejecutar el Asistente para certificados, asegúrese de que ha iniciado sesión usando una cuenta que es miembro de un grupo con los permisos asignados adecuados para el tipo de plantilla de certificado que use. De manera predeterminada, una solicitud de certificado de Lync Server 2013 usará la plantilla de certificado Servidor web. Si usa una cuenta que es miembro del grupo RTCUniversalServerAdmins para solicitar un certificado usando esta plantilla, compruebe que el grupo tenga asignados los permisos Inscribir necesarios para usar la plantilla.
+
 
 
 En la interfaz interna de cada servidor perimetral se necesita un único certificado. Estos certificados pueden ser emitidos por una entidad de certificación (CA) de empresa interna o por una CA pública. Si su organización tiene una CA interna implementada, puede ahorrarse el gasto que supone usar certificados públicos mediante el uso de la CA interna para emitir el certificado para la interfaz interna. Puede usar una CA interna de Windows Server 2008 o una CA de Windows Server 2008 R2 para crear estos certificados.
@@ -212,18 +203,9 @@ Si tiene más de un sitio con servidores perimetrales (es decir, una topología 
 
 6.  Haga doble clic en **Certificados (equipo local)** para ampliar los almacenes de certificados. Haga doble clic en **Personal** y doble clic de nuevo en **Certificados** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si no hay certificados en el almacén Certificados Personal para el equipo local, no habrá una clave privada asociada al certificado que se importó. Revise los pasos para la solicitud y la importación. Si el problema continúa, póngase en contacto con su administrador o proveedor de entidades de certificación.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si no hay certificados en el almacén Certificados Personal para el equipo local, no habrá una clave privada asociada al certificado que se importó. Revise los pasos para la solicitud y la importación. Si el problema continúa, póngase en contacto con su administrador o proveedor de entidades de certificación.
+    
 
 
 7.  En el almacén Certificados Personal del equipo local, haga clic con el botón secundario en el certificado que va a exportar. Haga clic en **Todas las tareas** y en **Exportar** .
@@ -242,18 +224,9 @@ Si tiene más de un sitio con servidores perimetrales (es decir, una topología 
     
       - Exportar todas las propiedades extendidas
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Cuando exporte el certificado desde un servidor perimetral, no seleccione <strong>Eliminar la clave privada si la exportación es correcta</strong> . Al seleccionar esta opción es necesario importar el certificado y la clave privada a este servidor perimetral.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!WARNING]  
+        > Cuando exporte el certificado desde un servidor perimetral, no seleccione <strong>Eliminar la clave privada si la exportación es correcta</strong> . Al seleccionar esta opción es necesario importar el certificado y la clave privada a este servidor perimetral.
+        
     
     Haga clic en **Siguiente** para continuar.
 

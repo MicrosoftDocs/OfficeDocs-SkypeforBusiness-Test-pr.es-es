@@ -1,6 +1,6 @@
 ﻿---
-title: Asignación de un certificado de autenticación servidor a servidor a Microsoft Lync Server 2013
-TOCTitle: Asignación de un certificado de autenticación servidor a servidor a Microsoft Lync Server 2013
+title: "Asignación de certificado de autenticación servidor a servidor a MS Lync Server 2013"
+TOCTitle: "Attr. d’un certif. d’auth. de serveur à serveur à Microsoft Lync Server 2013"
 ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205253(v=OCS.15)
 ms:contentKeyID: 48276633
@@ -45,18 +45,9 @@ El 1 de julio de 2012, el nuevo certificado se configurará como el certificado 
 
 Si no quiere usar Windows PowerShell, puede usar la consola MMC de certificados para exportar un certificado del servidor front-end e importarlo a todos los servidores front-end. Si lo hace así, no olvide exportar la clave privada junto con el propio certificado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ204932.Caution(OCS.15).gif" title="Caution" alt="Caution" />Precaución:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En tal caso, el procedimiento debe hacerse en cada servidor front-end. Si los certificados se exportan e importan de este modo, Lync Server 2013 no los replicará en cada servidor front-end.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> En tal caso, el procedimiento debe hacerse en cada servidor front-end. Si los certificados se exportan e importan de este modo, Lync Server 2013 no los replicará en cada servidor front-end.
+
 
 
 Una vez que el certificado se haya importado en todos los servidores front-end, se podrá asignar con el Asistente para la implementación de Lync Server, en lugar de con Windows PowerShell. Para asignar un certificado con el Asistente para la implementación, siga estos pasos en un equipo donde este asistente esté instalado:

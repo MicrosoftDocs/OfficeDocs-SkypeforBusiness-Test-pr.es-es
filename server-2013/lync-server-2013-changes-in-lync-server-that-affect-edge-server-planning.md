@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Cambios en Lync Server 2013 que afectan a la planificación del servidor perimetral'
+title: "Cambios en Lync Server 2013 que afectan a la planificación del servidor perimetral"
 TOCTitle: Cambios en Lync Server 2013 que afectan a la planificación del servidor perimetral
 ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204965(v=OCS.15)
@@ -33,18 +33,9 @@ El Servidor perimetral tiene un proxy XMPP totalmente integrado (implementado en
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La capacidad XMPP de Lync Server 2013 está probada y es compatible con Microsoft para la federación de mensajería instantánea con Google Talk. Para otros sistemas XMPP, póngase en contacto con el proveedor para comprobar que son compatibles con la federación con Lync Server 2013 y para cualquier recomendación sobre implementación o solución de problemas.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> La capacidad XMPP de Lync Server 2013 está probada y es compatible con Microsoft para la federación de mensajería instantánea con Google Talk. Para otros sistemas XMPP, póngase en contacto con el proveedor para comprobar que son compatibles con la federación con Lync Server 2013 y para cualquier recomendación sobre implementación o solución de problemas.
+
 
 
 ## Compatibilidad para acumular certificados de autenticación de audio/vídeo y autenticación entre servidores
@@ -55,24 +46,15 @@ En el caso de la autenticación de audio/vídeo, los tokens sirven para autentic
 
 La autenticación entre servidores se administra por medio de un certificado global que se solicita y aplica a todos los servidores de la implementación. El certificado se encarga de autenticar servidores tanto en Lync Server 2013 como en Exchange 2013 y Microsoft SharePoint Server 2013. Para obtener más información sobre el funcionamiento de la autenticación entre servidores, consulte [Administración de la autenticación servidor a servidor (Oauth) y las aplicaciones de socio en Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md). Una diferencia sustancial entre el proceso de autenticación de audio/vídeo y el proceso de autenticación entre servidores reside en la duración de la autenticación (o tokens). En la autenticación de audio/vídeo, la autenticación expira transcurridas ocho horas, mientras que en la autenticación entre servidores la duración es de 24 horas. La planeación que realice debe ser acorde al tipo de certificado que elija.
 
-Una novedad en Lync Server 2013 es que se pueden almacenar provisionalmente certificados de reemplazo de autenticación de audio/vídeo y de autenticación entre servidores antes de que el certificado actual expire. El nuevo certificado se usa para generar nuevos tokens o nuevas solicitudes de autenticación, si bien el antiguo se conserva para comprobar las sesiones y autenticaciones actuales. Con esto, se consigue evitar eficazmente prácticamente cualquier error provocado por la expiración de un token o certificado. Para obtener información detallada sobre esta característica y cómo configurarla, consulte [Prueba de certificados de OAuth y audio y vídeo en Lync Server 2013 utilizando -Roll en Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)
+Una novedad en Lync Server 2013 es que se pueden almacenar provisionalmente certificados de reemplazo de autenticación de audio/vídeo y de autenticación entre servidores antes de que el certificado actual expire. El nuevo certificado se usa para generar nuevos tokens o nuevas solicitudes de autenticación, si bien el antiguo se conserva para comprobar las sesiones y autenticaciones actuales. Con esto, se consigue evitar eficazmente prácticamente cualquier error provocado por la expiración de un token o certificado. Para obtener información detallada sobre esta característica y cómo configurarla, consulte [Prueba de certificados de OAuth y audio y vídeo en Lync Server 2013 utilizando -Roll en Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 
 ## Menor dependencia en la afinidad basada en cookies
 
 En versiones anteriores de Lync Server y Office Communications Server, los servicios web usaban la afinidad basada en cookies para garantizar que se conservaba el estado de la sesión de cliente y servicios web. Los servicios web de Lync Server 2013 emplean un mecanismo de afinidad integrado que acaba con casi todos los requisitos de la afinidad basada en cookies.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>El cliente de Microsoft Lync 2010 Mobile deberá seguir usando y configurando la afinidad basada en cookies hasta que todos los clientes se hayan migrado al próximo cliente de Microsoft Lync Mobile (cuya fecha de lanzamiento aún está fijada).</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> El cliente de Microsoft Lync 2010 Mobile deberá seguir usando y configurando la afinidad basada en cookies hasta que todos los clientes se hayan migrado al próximo cliente de Microsoft Lync Mobile (cuya fecha de lanzamiento aún está fijada).
+
 
 
 Para obtener información detallada sobre la afinidad basada en cookies en Lync Server 2013, vea [Componentes necesarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md).

@@ -1,6 +1,6 @@
 ﻿---
-title: Introducción a las opciones de configuración del servicio de registro centralizado
-TOCTitle: Introducción a las opciones de configuración del servicio de registro centralizado
+title: "Introducción a las opciones de configuración del servicio de registro centralizado"
+TOCTitle: "Présentation des param. de config. du service de journalisation centralisée"
 ms:assetid: 3c34e600-0b91-43dc-b4cc-90b6a70ee12e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688029(v=OCS.15)
 ms:contentKeyID: 49889049
@@ -25,18 +25,9 @@ Escriba lo siguiente en un símbolo del sistema:
 
     Get-CsClsConfiguration
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Puede acotar o expandir el ámbito de los parámetros de configuración que se devuelven definiendo <code>-Identity</code> y un ámbito, como “Site:Redmond” para devolver solamente CsClsConfiguration para el sitio Redmond. Si quiere información detallada sobre una parte determinada de la configuración, puede transferir el resultado a otro Windows PowerShell. Por ejemplo, para obtener información detallada sobre los escenarios definidos en la configuración para el sitio “Redmond”, escriba: <code>Get-CsClsConfiguration -Identity &quot;site:Redmond&quot; | Select-Object -ExpandPropery Scenarios</code></td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Puede acotar o expandir el ámbito de los parámetros de configuración que se devuelven definiendo <code>-Identity</code> y un ámbito, como “Site:Redmond” para devolver solamente CsClsConfiguration para el sitio Redmond. Si quiere información detallada sobre una parte determinada de la configuración, puede transferir el resultado a otro Windows PowerShell. Por ejemplo, para obtener información detallada sobre los escenarios definidos en la configuración para el sitio “Redmond”, escriba: <code>Get-CsClsConfiguration -Identity &quot;site:Redmond&quot; | Select-Object -ExpandPropery Scenarios</code>
+
 
 
 ![Salida de ejemplo de Get-CsClsConfiguration.](images/JJ688138.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Salida de ejemplo de Get-CsClsConfiguration.")
@@ -132,8 +123,8 @@ El resultado del cmdlet muestra la configuración actual del Servicio de registr
 
 #### Otros recursos
 
-[Set-CsClsConfiguration](set-csclsconfiguration.md)  
-[Remove-CsClsConfiguration](remove-csclsconfiguration.md)  
-[New-CsClsConfiguration](new-csclsconfiguration.md)  
-[Get-CsClsConfiguration](get-csclsconfiguration.md)
+[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
+[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)  
+[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
+[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)
 

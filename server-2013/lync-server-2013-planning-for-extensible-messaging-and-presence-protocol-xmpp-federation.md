@@ -1,6 +1,6 @@
 ﻿---
-title: Planeación de federación de protocolo extensible de mensajería y presencia (XMPP) en Lync Server 2013
-TOCTitle: Planeación de federación de protocolo extensible de mensajería y presencia (XMPP) en Lync Server 2013
+title: "Planificar federac. protoc. extensible de mensajería y presencia en Lync Server 2013"
+TOCTitle: "Plan. de féd. XMPP (Extensible Messaging and Presence Protocol) dans LS 2013"
 ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205107(v=OCS.15)
 ms:contentKeyID: 48276061
@@ -19,18 +19,9 @@ Las versiones anteriores de Lync Server y Office Communications Server proporcio
 
 La implementación y configuración de XMPP se trata en [Implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md). La planeación para admitir XMPP en su organización se realiza mediante la definición de reglas de puerto y protocolo en el firewall, la configuración de certificados y la adición de registros DNS. Las tablas siguientes resumen la información que necesita para implementar correctamente la federación de XMPP para su implementación.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La capacidad XMPP de Lync Server 2013 está probada y es compatible con Microsoft para la federación de mensajería instantánea con Google Talk. Para otros sistemas XMPP, póngase en contacto con el proveedor para comprobar que son compatibles con la federación con Lync Server 2013 y para cualquier recomendación sobre implementación o solución de problemas.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> La capacidad XMPP de Lync Server 2013 está probada y es compatible con Microsoft para la federación de mensajería instantánea con Google Talk. Para otros sistemas XMPP, póngase en contacto con el proveedor para comprobar que son compatibles con la federación con Lync Server 2013 y para cualquier recomendación sobre implementación o solución de problemas.
+
 
 
 ## En esta sección
@@ -51,7 +42,7 @@ La implementación y configuración de XMPP se trata en [Implementar el acceso d
 #### Otros recursos
 
 [Administrar socios federados XMPP para su organización en Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
-[Get-CsXmppAllowedPartner](get-csxmppallowedpartner.md)  
-[Get-CsXmppGatewayConfiguration](get-csxmppgatewayconfiguration.md)
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Get-CsXmppAllowedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppAllowedPartner)  
+[Get-CsXmppGatewayConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppGatewayConfiguration)
 

@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2012-09-17_
 
 Los temas de esta sección le guían a lo largo de este proceso de migración de Lync Server 2010 a Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este documento describe los pasos generalmente necesarios para llevar a cabo cada fase de migración. No aborda cada posible topología de implementación heredada ni cada posible escenario de migración. Por lo tanto, dependiendo de su implementación, es posible que no necesite realizar cada paso descrito o bien es posible que necesite realizar pasos adicionales. Este documento también ofrece ejemplos de pasos de verificación. Estos pasos de verificación se ofrecen para ayudarle a entender lo que necesita buscar para garantizar que cada fase se finaliza correctamente mientras progresa a lo largo de su migración. Individualice estos pasos de verificación para su proceso de migración particular.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Este documento describe los pasos generalmente necesarios para llevar a cabo cada fase de migración. No aborda cada posible topología de implementación heredada ni cada posible escenario de migración. Por lo tanto, dependiendo de su implementación, es posible que no necesite realizar cada paso descrito o bien es posible que necesite realizar pasos adicionales. Este documento también ofrece ejemplos de pasos de verificación. Estos pasos de verificación se ofrecen para ayudarle a entender lo que necesita buscar para garantizar que cada fase se finaliza correctamente mientras progresa a lo largo de su migración. Individualice estos pasos de verificación para su proceso de migración particular.
+
 
 
 Esta guía le ofrece información específica para actualizar su implementación existente. No explica cómo cambiar su topología existente. Esta guía no aborda la implementación de nuevas características. Cuando se documenta en otro lugar un procedimiento detallado, esta guía le dirige al documento o sección del documento pertinente.

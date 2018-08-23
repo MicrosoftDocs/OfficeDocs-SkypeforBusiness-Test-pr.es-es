@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de Lync Server para funcionar con el administrador de System Center Operations Manager
-TOCTitle: Configuración de Lync Server para funcionar con el administrador de System Center Operations Manager
+title: "Configurar Lync Server para el administrador de System Center Operations Manager"
+TOCTitle: "Conf. de Lync Server pour le fonct. avec System Center Operations Manager"
 ms:assetid: b55a24ab-648b-4142-b3cd-3792860ba872
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205188(v=OCS.15)
 ms:contentKeyID: 48276426

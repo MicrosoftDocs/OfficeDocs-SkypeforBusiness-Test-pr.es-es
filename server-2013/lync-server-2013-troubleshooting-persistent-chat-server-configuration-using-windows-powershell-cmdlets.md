@@ -19,16 +19,7 @@ Utilice las siguientes soluciones alternativas para resolver los problemas de co
 
   - Si aparece el mensaje de error “principal not provisioned” (entidad de seguridad no aprovisionada), la entidad de seguridad que intentó añadir no está disponible.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Solución alternativa – Sin solución alternativa. Este mensaje de error significa que la entidad de seguridad no está disponible.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Solución alternativa – Sin solución alternativa. Este mensaje de error significa que la entidad de seguridad no está disponible.
+    
 

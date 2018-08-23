@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT'
+title: "Servidor perimetral consolidado ampliado, equilibr. carga DNS con IP privadas y NAT"
 TOCTitle: Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT
 ms:assetid: c7ca4ca8-c639-4d93-86d7-8891170cacbc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398823(v=OCS.15)
@@ -33,34 +33,16 @@ Normalmente, los tipos de direcciones que utilizará para el direccionamiento IP
 
 Existen tecnologías de conversión de direcciones de red (NAT) para IPv6 que permitirán un NAT de IPv6 a IPv4 (normalmente denominado NAT64) y un NAT de IPv6 a IPv6 (normalmente denominado NAT66). La existencia de tecnologías NAT significa que los cinco escenarios presentados para Lync ServerServidores perimetrales siguen siendo válidos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>IPv6 es un tema complejo y necesita una planeación cuidadosa con el equipo de redes y el proveedor de Internet para garantizar que las direcciones que asigna en el nivel de servidor de Windows y en el nivel de Lync Server 2013 funcionen tal como se esperaba. Vea los vínculos al final de este tema para consultar los recursos adicionales sobre la planeación de IPv6 y su direccionamiento.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> IPv6 es un tema complejo y necesita una planeación cuidadosa con el equipo de redes y el proveedor de Internet para garantizar que las direcciones que asigna en el nivel de servidor de Windows y en el nivel de Lync Server 2013 funcionen tal como se esperaba. Vea los vínculos al final de este tema para consultar los recursos adicionales sobre la planeación de IPv6 y su direccionamiento.
+
 
 
 ![DNS LB con IP privada usando NAT](images/Gg398823.899546d4-2eef-44d2-8317-51c5f699cd2a(OCS.15).jpg "DNS LB con IP privada usando NAT")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si usa el Control de admisión de llamadas (CAC), sigue teniendo que asignar direcciones de IPv4 a la interfaz interna de Servidor perimetral. CAC usa las direcciones IPv4 y debe tenerlas disponibles para funcionar.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si usa el Control de admisión de llamadas (CAC), sigue teniendo que asignar direcciones de IPv4 a la interfaz interna de Servidor perimetral. CAC usa las direcciones IPv4 y debe tenerlas disponibles para funcionar.
+
 
 
 ## En esta sección

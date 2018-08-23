@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminar una colección existente de opciones de configuración de versión de cliente
-TOCTitle: Eliminar una colección existente de opciones de configuración de versión de cliente
+title: "Eliminar una colección existente de opciones de configuración de versión de cliente"
+TOCTitle: "Supp. une coll. existante de par. de configuration de version du client"
 ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ898480(v=OCS.15)
 ms:contentKeyID: 52061658
@@ -49,5 +49,5 @@ Puede eliminar las opciones de configuración de la versión de cliente con el c
     
         Get-CsClientVersionConfiguration | Where-Object {$_.DefaultAction -eq "Block" | Remove-CsClientVersionConfiguration
 
-Para más información, consulte el tema de ayuda del cmdlet [Remove-CsClientVersionConfiguration](remove-csclientversionconfiguration.md).
+Para más información, consulte el tema de ayuda del cmdlet [Remove-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClientVersionConfiguration).
 

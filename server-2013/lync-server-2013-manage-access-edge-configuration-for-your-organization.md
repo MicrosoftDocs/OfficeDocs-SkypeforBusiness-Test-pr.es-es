@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Administrar la configuración perimetral de acceso para su organización'
+title: "Lync Server 2013: Administrar configuración perimetral de acceso para su organización"
 TOCTitle: Administrae la configuración perimetral de acceso para su organización
 ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ552443(v=OCS.15)

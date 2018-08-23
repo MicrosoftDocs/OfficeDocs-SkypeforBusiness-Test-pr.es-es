@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Información general sobre el proceso de implementación para telefonía IP empresarial'
+title: "Lync Server 2013: Proceso de implementación para telefonía IP empresarial"
 TOCTitle: Información general sobre el proceso de implementación para telefonía IP empresarial
 ms:assetid: cf92adbe-aa90-4b05-8e1a-f3794ca68132
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398878(v=OCS.15)

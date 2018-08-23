@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Restablecer o eliminar las directivas de acceso de usuarios externos'
+title: "Lync Server 2013: Restablecer o eliminar directivas de acceso de usuarios externos"
 TOCTitle: Restablecer o eliminar las directivas de acceso de usuarios externos
 ms:assetid: 5f9b4528-f4f1-4d52-816d-156c3c7298ad
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg521003(v=OCS.15)

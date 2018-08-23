@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear o modificar el flujo de trabajo de un grupo de búsqueda'
+title: "Lync Server 2013: Crear o modificar el flujo de trabajo de un grupo de búsqueda"
 TOCTitle: Crear o modificar el flujo de trabajo de un grupo de búsqueda
 ms:assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205321(v=OCS.15)
@@ -59,7 +59,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
     
 
     > [!NOTE]
-    > La directiva de acceso externo global se aplica a la Aplicación de grupo de respuesta. Configure la directiva global para la federación de grupos de respuesta con el Panel de control de Lync Server o con el cmdlet <STRONG>Set-CsExternalAccessPolicy</STRONG> para establecer el parámetro EnableOutsideAccess en True. Recuerde que la configuración de la directiva global se aplica a todos los usuarios, a menos que se les haya asignado una directiva de usuario o de sitio. Por lo tanto, antes de cambiar la configuración de los grupos de respuesta, asegúrese de que la configuración de la federación cumpla los requisitos de la organización. Para más información sobre la aplicación de las directivas a los usuarios, vea <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Administrar la directiva de acceso de la organización en Lync Server 2013</A>. Para más información sobre la configuración de federación, vea <A href="set-csexternalaccesspolicy.md">Set-CsExternalAccessPolicy</A>.
+    > La directiva de acceso externo global se aplica a la Aplicación de grupo de respuesta. Configure la directiva global para la federación de grupos de respuesta con el Panel de control de Lync Server o con el cmdlet <STRONG>Set-CsExternalAccessPolicy</STRONG> para establecer el parámetro EnableOutsideAccess en True. Recuerde que la configuración de la directiva global se aplica a todos los usuarios, a menos que se les haya asignado una directiva de usuario o de sitio. Por lo tanto, antes de cambiar la configuración de los grupos de respuesta, asegúrese de que la configuración de la federación cumpla los requisitos de la organización. Para más información sobre la aplicación de las directivas a los usuarios, vea <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Administrar la directiva de acceso de la organización en Lync Server 2013</A>. Para más información sobre la configuración de federación, vea <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</A>.
 
     
 
@@ -104,18 +104,9 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
     
     2.  Escriba el URI del SIP de otros administradores que desee agregar al flujo de trabajo y haga clic en **Agregar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A todos los usuarios designados administradores de un grupo de respuestas se les asigna el rol CsResponseGroupManager. Los usuarios a los que no se haya asignado este rol no pueden administrar grupos de respuesta.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > A todos los usuarios designados administradores de un grupo de respuestas se les asigna el rol CsResponseGroupManager. Los usuarios a los que no se haya asignado este rol no pueden administrar grupos de respuesta.
+    
 
 
 16. En **Paso 2 Seleccionar un idioma**, haga clic en el idioma que desea utilizar para reconocimiento de voz y conversión de texto a voz.
@@ -265,7 +256,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
     
 
     > [!NOTE]
-    > Para usar un archivo de audio para el mensaje, ejecute el cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Para más información, vea <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>.
+    > Para usar un archivo de audio para el mensaje, ejecute el cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Para más información, vea <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
 
 
@@ -273,7 +264,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    Para más información sobre la creación de la cola, vea [New-CsRgsQueue](new-csrgsqueue.md).
+    Para más información sobre la creación de la cola, vea [New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue).
 
 5.  Defina la acción que se ejecutará cuando un flujo de trabajo se abra en horas de trabajo y guárdela en una variable. En la línea de comandos, ejecute:
     
@@ -290,7 +281,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
 
 6.  Para definir horas laborables y vacaciones, créelas antes de crear o modificar el flujo de trabajo. Para más información, vea [(Opcional) Definir horarios laborales de grupos de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md) y [(Opcional) Definición de conjuntos de días festivos para grupos de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md).
 
-7.  Si desea tener mensajes para las llamadas que se reciben en un horario no laborable o en época de vacaciones, use el cmdlet **New-CsRgsPrompt** para definir el mensaje y el cmdlet **New-CsRgsCallAction** para definir la acción que se ejecutará después del mensaje. Para más información, vea [New-CsRgsPrompt](new-csrgsprompt.md) y [New-CsRgsCallAction](new-csrgscallaction.md).
+7.  Si desea tener mensajes para las llamadas que se reciben en un horario no laborable o en época de vacaciones, use el cmdlet **New-CsRgsPrompt** para definir el mensaje y el cmdlet **New-CsRgsCallAction** para definir la acción que se ejecutará después del mensaje. Para más información, vea [New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt) y [New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction).
 
 8.  Recupere el nombre del servicio del Servicio de grupo de respuesta de Lync Server y asígnele una variable. En la línea de comandos, ejecute:
     
@@ -304,22 +295,13 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
     
         $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Todos los usuarios que hayan sido designados administradores de flujos de trabajo deben tener asignado el rol CsResponseGroupManager.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Todos los usuarios que hayan sido designados administradores de flujos de trabajo deben tener asignado el rol CsResponseGroupManager.
+    
     
 
     > [!NOTE]
-    > Para más información sobre los parámetros opcionales adicionales, vea <A href="new-csrgsworkflow.md">New-CsRgsWorkflow</A> o <A href="set-csrgsworkflow.md">Set-CsRgsWorkflow</A>
+    > Para más información sobre los parámetros opcionales adicionales, vea <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A> o <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A>
 
 
 
@@ -335,8 +317,8 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
 
 #### Otros recursos
 
-[New-CsRgsWorkflow](new-csrgsworkflow.md)  
-[Set-CsRgsWorkflow](set-csrgsworkflow.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)
+[New-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow)  
+[Set-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)
 

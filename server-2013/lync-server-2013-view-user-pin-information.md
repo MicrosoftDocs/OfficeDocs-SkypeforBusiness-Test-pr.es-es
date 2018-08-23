@@ -47,18 +47,9 @@ Para unirse a una conferencia de acceso telefónico como usuario autenticado, un
     
     4.  En función de la propiedad de usuario que haya seleccionado, especifique los criterios que desee usar para filtrar los resultados de búsqueda escribiendo o haciendo clic en la flecha de la lista desplegable.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong> .</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong> .
+        
     
     5.  Haga clic en **Buscar** .
     
@@ -88,7 +79,7 @@ Puede ver la información del PIN del usuario con el cmdlet Get-CsClientPinInfo.
         LastPinChangeTime : 9/25/2012 1:35:03 PM
         PinExpirationTime :
 
-Para más información, vea el tema de ayuda del cmdlet [Get-CsConferenceDisclaimer](get-csconferencedisclaimer.md).
+Para más información, vea el tema de ayuda del cmdlet [Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer).
 
 ## Vea también
 

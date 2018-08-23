@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos previos de seguridad y configuración para telefonía IP empresarial'
+title: "Lync Server 2013: Requisitos seguridad y configuración para telefonía IP empresarial"
 TOCTitle: Requisitos previos de seguridad y configuración para telefonía IP empresarial
 ms:assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398221(v=OCS.15)

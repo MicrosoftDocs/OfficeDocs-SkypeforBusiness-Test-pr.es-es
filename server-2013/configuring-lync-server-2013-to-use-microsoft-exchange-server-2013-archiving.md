@@ -1,5 +1,5 @@
 ﻿---
-title: Configuración de Microsoft Lync Server 2013 para utilizar el archivado de Microsoft Exchange Server 2013
+title: "Configurar MS Lync Server 2013 para utilizar el archivado de MS Exchange Server 2013"
 TOCTitle: Configuración de Microsoft Lync Server 2013 para utilizar el archivado de Exchange Server 2013
 ms:assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ679896(v=OCS.15)
@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2014-06-24_
 
 Microsoft Lync Server 2013 ofrece a los administradores la opción de archivar las transcripciones de conferencias web y sesiones de mensajería instantánea en el buzón de Microsoft Exchange Server 2013 del usuario en lugar de en una base de datos de SQL Server. Si se habilita esta opción, las transcripciones se escribirán en la carpeta Purga del buzón del usuario. La carpeta Purga es una carpeta oculta que se encuentra en la carpeta Elementos recuperables. Aunque dicha carpeta no está visible para los usuarios finales, es una carpeta que indiza el motor de búsqueda de Exchange y en la que se pueden realizar búsquedas con la característica de búsqueda de buzón de Exchange o de Microsoft SharePoint Server 2013. Puesto que la información se almacena en la misma carpeta que usa la característica de puesta en espera de Exchange (responsable del archivado del correo electrónico y de otras comunicaciones de Exchange), los administradores pueden usar una única herramienta para todas las comunicaciones electrónicas archivadas del usuario.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para desactivar completamente el archivado de una conversación de Lync, debe desactivar también el historial de conversaciones de Lync. Para obtener más información, vea los siguientes temas: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Administrar el archivado de las comunicaciones internas y externas en Lync Server 2013</a>, <a href="new-csclientpolicy.md">New-CsClientPolicy</a> y <a href="set-csclientpolicy.md">Set-CsClientPolicy</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Para desactivar completamente el archivado de una conversación de Lync, debe desactivar también el historial de conversaciones de Lync. Para obtener más información, vea los siguientes temas: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Administrar el archivado de las comunicaciones internas y externas en Lync Server 2013</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</a>.
+
 
 
 Para archivar las transcripciones en Exchange 2013, debe comenzar por configurar la autenticación de servidor a servidor entre los dos servidores. Una vez configurada la autenticación de servidor a servidor, podrá llevar a cabo las siguientes tareas en Microsoft Lync Server 2013 (tenga en cuenta que en función de su instalación y configuración, es posible que no tenga que completar todas estas tareas):

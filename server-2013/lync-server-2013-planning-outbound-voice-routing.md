@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planeación del enrutamiento de voz saliente'
+title: "Lync Server 2013 : Planification du routage des communications voc. sortantes"
 TOCTitle: Planeación del enrutamiento de voz saliente
 ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425853(v=OCS.15)
@@ -59,17 +59,13 @@ El enrutamiento de llamadas realizadas se aplica a las llamadas destinadas a una
 
 En esta sección se proporcionan instrucciones para configurar las siguientes opciones del servidor de enrutamiento de llamadas realizadas:
 
-  -   
-    [Planes de marcado y reglas de normalización en Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
+   [Planes de marcado y reglas de normalización en Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)  
 
-  -   
-    [Directivas de voz en Lync Server 2013](lync-server-2013-voice-policies.md)
+   [Directivas de voz en Lync Server 2013](lync-server-2013-voice-policies.md)  
 
-  -   
-    [Registros de uso de RTC en Lync Server 2013](lync-server-2013-pstn-usage-records.md)
+   [Registros de uso de RTC en Lync Server 2013](lync-server-2013-pstn-usage-records.md)  
 
-  -   
-    [Rutas de voz en Lync Server 2013](lync-server-2013-voice-routes.md)
+   [Rutas de voz en Lync Server 2013](lync-server-2013-voice-routes.md)  
 
 ## Vea también
 

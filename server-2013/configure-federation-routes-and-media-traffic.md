@@ -19,46 +19,19 @@ La federación es una relación de confianza entre dos o más dominios SIP que p
 
 Utilice los siguientes procedimientos para realizar la transición de la ruta de federación y la ruta de tráfico de medios del servidor perimetral y el director de Lync Server 2010 al servidor perimetral de Lync Server 2013, para una implementación en un único sitio.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para cambiar la ruta de federación y la ruta de tráfico de medios, debe programar el tiempo de inactividad por mantenimiento para los servidores perimetrales de Lync Server 2013 y Lync Server 2010. Este proceso de transición también implica que el acceso federado no estará disponible durante la interrupción. Debe programar el tiempo de inactividad para un período en el que se prevé una actividad mínima de los usuarios. También debe notificar esta acción a los usuarios finales con antelación suficiente. Planee esta interrupción como corresponda y defina las expectativas adecuadas en la organización.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Para cambiar la ruta de federación y la ruta de tráfico de medios, debe programar el tiempo de inactividad por mantenimiento para los servidores perimetrales de Lync Server 2013 y Lync Server 2010. Este proceso de transición también implica que el acceso federado no estará disponible durante la interrupción. Debe programar el tiempo de inactividad para un período en el que se prevé una actividad mínima de los usuarios. También debe notificar esta acción a los usuarios finales con antelación suficiente. Planee esta interrupción como corresponda y defina las expectativas adecuadas en la organización.
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si el servidor perimetral de Lync Server 2010 heredado está configurado para usar el mismo FQDN para el servicio perimetral de acceso, el servicio perimetral de conferencia web y el servicio perimetral A/V, los procedimientos de esta sección no son compatibles. Si los servicios perimetrales heredados están configurados para usar el mismo FQDN, debe migrar primero todos sus usuarios de Lync Server 2010 a Lync Server 2013 y, a continuación, retirar el servidor perimetral de Lync Server 2010 antes de habilitar la federación en el servidor perimetral de Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
+
+> [!IMPORTANT]  
+> Si el servidor perimetral de Lync Server 2010 heredado está configurado para usar el mismo FQDN para el servicio perimetral de acceso, el servicio perimetral de conferencia web y el servicio perimetral A/V, los procedimientos de esta sección no son compatibles. Si los servicios perimetrales heredados están configurados para usar el mismo FQDN, debe migrar primero todos sus usuarios de Lync Server 2010 a Lync Server 2013 y, a continuación, retirar el servidor perimetral de Lync Server 2010 antes de habilitar la federación en el servidor perimetral de Lync Server 2013.
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si su federación XMPP se enruta mediante un servidor perimetral de Lync Server 2013, los usuarios del Lync Server 2010 heredado no podrán comunicarse con el socio federado XMPP hasta que todos los usuarios se hayan trasladado a Lync Server 2013, se hayan configurado los certificados y las directivas de XMPP, se haya configurado el socio federado XMPP en Lync Server 2013 y, por último, se hayan actualizado las entradas de DNS.</td>
-</tr>
-</tbody>
-</table>
+
+> [!IMPORTANT]  
+> Si su federación XMPP se enruta mediante un servidor perimetral de Lync Server 2013, los usuarios del Lync Server 2010 heredado no podrán comunicarse con el socio federado XMPP hasta que todos los usuarios se hayan trasladado a Lync Server 2013, se hayan configurado los certificados y las directivas de XMPP, se haya configurado el socio federado XMPP en Lync Server 2013 y, por último, se hayan actualizado las entradas de DNS.
+
 
 
 ## Para quitar la asociación de federación heredada de los sitios de Lync Server 2013

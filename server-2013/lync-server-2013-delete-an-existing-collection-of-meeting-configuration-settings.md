@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminación de un conjunto existente de opciones de configuración de reunión
-TOCTitle: Eliminación de un conjunto existente de opciones de configuración de reunión
+title: "Suppr. d’une collection existante de paramètres de configuration de réunion"
+TOCTitle: "Suppr. d’une collection existante de paramètres de configuration de réunion"
 ms:assetid: 92ff8a91-05c5-4047-a533-5dff12f22299
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688136(v=OCS.15)
 ms:contentKeyID: 49889385
@@ -49,5 +49,5 @@ Las opciones de configuración de reunión también se pueden eliminar mediante 
     
         Get-CsMeetingConfiguration | Where-Object {$_.AdmitAnonymousUsersByDefault -eq $True} | Remove-CsMeetingConfiguration
 
-Para obtener más información, consulte el tema sobre el cmdlet [Remove-CsMeetingConfiguration](remove-csmeetingconfiguration.md).
+Para obtener más información, consulte el tema sobre el cmdlet [Remove-CsMeetingConfiguration](ttps://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMeetingConfiguration).
 

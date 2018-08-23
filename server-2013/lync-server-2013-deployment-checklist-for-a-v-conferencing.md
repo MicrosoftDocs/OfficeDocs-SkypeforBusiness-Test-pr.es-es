@@ -1,6 +1,6 @@
 ﻿---
-title: Implementación de la lista de comprobación para conferencias de A/V en Lync Server 2013
-TOCTitle: Implementación de la lista de comprobación para conferencias de A/V en Lync Server 2013
+title: "Implementar la lista de comprobación para conferencias de A/V en Lync Server 2013"
+TOCTitle: "Liste de vérif. du déploiement pour la conférence A/V dans Lync Server 2013"
 ms:assetid: 6d47426f-6559-407b-9ac1-2453f0b7a2a2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ619183(v=OCS.15)
 ms:contentKeyID: 49115292
@@ -45,7 +45,7 @@ En la siguiente tabla se ofrece información general sobre los pasos necesarios 
 <tr class="odd">
 <td><p><strong>Instale el hardware y el software necesario como requisito previo</strong></p></td>
 <td><p>Las conferencias se ejecutan en Servidores front-end de un Grupo de servidores front-end y en Servidores Standard Edition. No hay ningún requisito adicional de hardware o de software aparte de los necesarios para instalar dichos servidores.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Lync Server 2013 usa Office Web Apps y el Servidor Office Web Apps para administrar el uso compartido y la exposición de presentaciones de PowerPoint. Para más detalles sobre la instalación y la configuración del Servidor Office Web Apps, vea <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configuración de la integración de Office Web Apps Server y Lync Server 2013</A>.

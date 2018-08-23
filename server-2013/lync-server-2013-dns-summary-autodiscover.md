@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2015-03-09_
 
 Detección automática es un servicio flexible en el que se aceptan comunicaciones mediante HTTP o HTTPS. Para hacer esto posible, el sistema de nombres de dominio (DNS) y los certificados que usan los servidores donde se hospeda el servicio Detección automática deben estar correctamente configurados. En [Resumen del certificado: detección automática](lync-server-2013-certificate-summary-autodiscover.md) se detallan los requisitos relativos a los certificados.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La lógica de las búsquedas DNS en los clientes de Lync Server usa un orden de resolución concreto. Siempre hay que incluir tanto lyncdiscoverinternal.&lt;dominio&gt; como lyncdiscover.&lt;dominio&gt; en el DNS. Si el registro de lyncdiscoverinternal.&lt;dominio&gt; se excluye, los clientes internos no podrán conectarse a los servicios que corresponda o recibirán una respuesta de Detección automática incorrecta.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> La lógica de las búsquedas DNS en los clientes de Lync Server usa un orden de resolución concreto. Siempre hay que incluir tanto lyncdiscoverinternal.&lt;dominio&gt; como lyncdiscover.&lt;dominio&gt; en el DNS. Si el registro de lyncdiscoverinternal.&lt;dominio&gt; se excluye, los clientes internos no podrán conectarse a los servicios que corresponda o recibirán una respuesta de Detección automática incorrecta.
+
 
 
 ### Registros DNS internos

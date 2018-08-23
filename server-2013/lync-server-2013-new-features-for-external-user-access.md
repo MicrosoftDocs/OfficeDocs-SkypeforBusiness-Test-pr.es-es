@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Nuevas características para acceso de usuario externo'
+title: "Lync Server 2013 : Nlles fonct. liées à l’accès des ut. Ext."
 TOCTitle: Nuevas características para acceso de usuario externo
 ms:assetid: 99da6bd5-ec14-4ad9-8f7d-37fbddf567dd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398794(v=OCS.15)
@@ -19,18 +19,9 @@ Lync Server 2013 incluye nuevas características que amplían las característic
 
   - **Compatibilidad con direcciones IPv6:** Lync Server 2013 admite direcciones IPv6 para todos los servicios de Servidor perimetral. Si ha proporcionado direcciones IPv6 para las interfaces a través de la configuración de Windows Server, puede usar las direcciones IPv6 en la configuración del Servidor perimetral a través de la configuración de dirección IP en la Generador de topologías.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El uso de direcciones IPv6 en Lync Server 2013 depende de la compatibilidad de IPv6 en los enrutadores y firewalls que implementa la organización, así como de la compatibilidad a través de su proveedor de servicios de Internet.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El uso de direcciones IPv6 en Lync Server 2013 depende de la compatibilidad de IPv6 en los enrutadores y firewalls que implementa la organización, así como de la compatibilidad a través de su proveedor de servicios de Internet.
+    
 
 
   - **Protocolo extensible de mensajería y presencia (XMPP):** Lync Server 2013 introduce un proxy XMPP totalmente integrado (implementado en los Servidores perimetrales) y una puerta de enlace XMPP implementada en los Servidores front-end. Puede implementar la federación de XMPP como componente opcional. La adición y configuración del proxy XMPP y de la puerta de enlace XMPP permitirá a los usuarios de Microsoft Lync 2013 agregar contactos de socios basados en XMPP para mensajería instantánea (MI) y presencia.

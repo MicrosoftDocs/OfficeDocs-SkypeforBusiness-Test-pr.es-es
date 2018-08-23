@@ -27,18 +27,9 @@ La configuración del archivo depende de la opción de almacenamiento que se eli
 
 Si habilita el archivado en un grupo de servidores front-end o un servidor Standard Edition, será necesario que lo habilite para todos los demás grupos de servidores de front-end y los servidores Standard Edition de su implementación. Esto se debe a que los usuarios cuyas comunicaciones se deben archivar pueden ser invitados a una conversación de mensajería instantánea en grupo o a reuniones hospedadas en un grupo de servidores diferente. Si el archivado no está habilitado en el grupo de servidores donde se hospeda la conversación o la reunión, puede que no se almacene toda la sesión. En estos casos, se podrán seguir archivando los mensajes instantáneos de los usuarios que tengan habilitado el archivado, pero no los archivos de contenido de conferencia ni los eventos creados al unirse a conferencias o abandonarlas.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si el archivado es esencial para su organización por motivos de cumplimiento, asegúrese de implementarlo, configurar directivas y otras opciones en el nivel adecuado y habilitarlo para los usuarios que corresponda antes de habilitar a estos usuarios para Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si el archivado es esencial para su organización por motivos de cumplimiento, asegúrese de implementarlo, configurar directivas y otras opciones en el nivel adecuado y habilitarlo para los usuarios que corresponda antes de habilitar a estos usuarios para Lync Server 2013.
+
 
 
 ## Proceso de implementación de archivado
@@ -68,7 +59,7 @@ La tabla siguiente proporciona una visión general de los pasos necesarios para 
 <li><p>Para utilizar la implementación de Microsoft Exchange (con Exchange 2013 para el almacén de archivado para algunos o todos los usuarios), necesitará una implementación de Exchange 2013 existente.</p></li>
 <li><p>Para usar bases de datos independientes (con bases de datos de SQL Server) para el almacén de archivado para algunos o todos los usuarios, necesitará SQL Server en el servidor que almacenará los datos de archivado.</p></li>
 </ul>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > El archivado se ejecuta en servidores front-end de un grupo de servidores Enterprise y en servidores Standard Edition. No hay ningún requisito adicional de hardware o de software aparte de los necesarios para instalar dichos servidores.

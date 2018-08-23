@@ -77,18 +77,9 @@ Siga estos pasos para usar Generador de topologías para definir un *par* que pu
 
 10. Haga clic en **Finalizar**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de finalizar este paso, asegúrese de que el par definido está en marcha y que usa el FQDN o la dirección IP que ha especificado.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Antes de finalizar este paso, asegúrese de que el par definido está en marcha y que usa el FQDN o la dirección IP que ha especificado.
+
 
 
 A continuación, para agregar un par a la topología, siga los procedimientos descritos en [Publicar la topología en Lync Server 2013](lync-server-2013-publish-the-topology.md) en la documentación de implementación. Debe publicar la topología cada vez que use Generador de topologías para crear o modificar la topología con el fin de que se puedan utilizar los datos para instalar los archivos para los servidores que están ejecutando Lync Server.

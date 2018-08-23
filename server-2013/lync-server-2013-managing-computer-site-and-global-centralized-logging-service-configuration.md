@@ -1,6 +1,6 @@
 ﻿---
-title: Administración de la configuración del servicio de registro centralizado en el ámbito de equipo, sitio y global
-TOCTitle: Administración de la configuración del servicio de registro centralizado en el ámbito de equipo, sitio y global
+title: "Administrar config. servicio registro centralizado en ámbito equipo, sitio y global"
+TOCTitle: "Gest. conf. du serv. de journ. Centr. au niv. d’un ordi., site ou au niv. gl."
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688138(v=OCS.15)
 ms:contentKeyID: 49889388
@@ -31,36 +31,18 @@ Por ejemplo:
 
 
 
-Se puede definir un ámbito de un único equipo durante la ejecución de un comando de [Search-CsClsLogging](search-csclslogging.md), [Show-CsClsLogging](show-csclslogging.md), [Start-CsClsLogging](start-csclslogging.md), [Stop-CsClsLogging](stop-csclslogging.md), [Sync-CsClsLogging](sync-csclslogging.md) y [Update-CsClsLogging](update-csclslogging.md) usando el parámetro –Computers. Este parámetro acepta una lista separada por comas de nombres de dominio completos (FQDN) para el equipo de destino.
+Se puede definir un ámbito de un único equipo durante la ejecución de un comando de [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) y [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) usando el parámetro –Computers. Este parámetro acepta una lista separada por comas de nombres de dominio completos (FQDN) para el equipo de destino.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>También puede especificar –Pools y una lista separada por comas de los grupos donde quiera ejecutar los comandos de registro.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> También puede especificar –Pools y una lista separada por comas de los grupos donde quiera ejecutar los comandos de registro.
+
 
 
 Los ámbitos de sitio y global se definen en los cmdlets **New-**, **Set-** y **Remove-**Servicio de registro centralizado. En los siguientes ejemplos se muestra cómo establecer un ámbito de sitio y un ámbito global.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Los comandos mostrados pueden contener parámetros y conceptos tratados en otras secciones. Los comandos de ejemplo pretenden mostrar el uso del parámetro <strong>–Identity</strong> para definir el ámbito, y los demás parámetros se incluyen para completar la información y para especificar el ámbito. Para obtener más información sobre los cmdlets de <strong>Set-CsClsConfiguration</strong>, consulte <a href="set-csclsconfiguration.md">Set-CsClsConfiguration</a> en la documentación sobre operaciones.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Los comandos mostrados pueden contener parámetros y conceptos tratados en otras secciones. Los comandos de ejemplo pretenden mostrar el uso del parámetro <strong>–Identity</strong> para definir el ámbito, y los demás parámetros se incluyen para completar la información y para especificar el ámbito. Para obtener más información sobre los cmdlets de <strong>Set-CsClsConfiguration</strong>, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</a> en la documentación sobre operaciones.
+
 
 
 ## Para recuperar la configuración actual del Servicio de registro centralizado
@@ -145,7 +127,7 @@ El comando indica a CLSAgent en cada equipo y grupo del sitio Redmond que establ
     
 
     > [!NOTE]
-    > New-CsClsConfiguration proporciona acceso a un gran número de opciones de configuración opcionales. Para obtener más información sobre las opciones de configuración, consulte <A href="get-csclsconfiguration.md">Get-CsClsConfiguration</A> y <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Introducción a las opciones de configuración del servicio de registro centralizado</A>.
+    > New-CsClsConfiguration proporciona acceso a un gran número de opciones de configuración opcionales. Para obtener más información sobre las opciones de configuración, consulte <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</A> y <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Introducción a las opciones de configuración del servicio de registro centralizado</A>.
 
     
     Por ejemplo, para crear una nueva configuración que define una carpeta de red para archivos de caché, el período de tiempo de sustitución para los archivos de registro y el tamaño de sustitución para los archivos de registro, escribiría:
@@ -183,8 +165,8 @@ Si decide quitar una configuración en el nivel de sitio, el sitio usará la con
 #### Otros recursos
 
 [Administración de las opciones de configuración del servicio de registro centralizado con PowerShell](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
-[Set-CsClsConfiguration](set-csclsconfiguration.md)  
-[Get-CsClsConfiguration](get-csclsconfiguration.md)  
-[New-CsClsConfiguration](new-csclsconfiguration.md)  
-[Remove-CsClsConfiguration](remove-csclsconfiguration.md)
+[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
+[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)  
+[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
+[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)
 

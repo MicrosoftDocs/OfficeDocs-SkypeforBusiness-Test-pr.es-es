@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar los valores para volver a enrutar el correo de voz'
+title: "Lync Server 2013: Configurar los valores para volver a enrutar el correo de voz"
 TOCTitle: Configurar los valores para volver a enrutar el correo de voz
 ms:assetid: 7ab6be28-eabb-4a79-a796-648887d71b83
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398606(v=OCS.15)

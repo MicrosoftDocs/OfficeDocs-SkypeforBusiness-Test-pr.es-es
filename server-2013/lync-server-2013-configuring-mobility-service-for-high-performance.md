@@ -31,18 +31,9 @@ Si usa IIS 7.0, se recomienda instalar la actualización disponible del artícul
 
 El siguiente procedimiento describe cómo cambiar los máximos de solicitudes simultáneas y subprocesos de ASP.NET en IIS 7.0 si no instala la actualización disponible en el artículo 2290617 de Knowledge Base. Sin embargo, aunque instale el artículo 2290617 de Knowledge Base, debe usar la documentación proporcionada por el artículo para aplicar los mismos cambios solo para los grupos de aplicaciones IIS internas y externas de movilidad. En este caso, debe usar un archivo de configuración independiente para los parámetros de ASP.NET.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si usa el siguiente procedimiento para cambiar los máximos, los cambios afectarán a los grupos de aplicaciones IIS.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si usa el siguiente procedimiento para cambiar los máximos, los cambios afectarán a los grupos de aplicaciones IIS.
+
 
 
 Para más información sobre estos parámetros, vea [http://go.microsoft.com/fwlink/?linkid=234537\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=234537%26clcid=0xc0a).

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Ver las opciones de configuración de la actualización de dispositivos'
+title: "Lync Server 2013: Ver opciones de configuración de la actualización de dispositivos"
 TOCTitle: Ver las opciones de configuración de la actualización de dispositivos
 ms:assetid: aa6a70a9-bd77-4606-b797-ea6a3bab9cf2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994059(v=OCS.15)
@@ -42,5 +42,5 @@ Puede ver las opciones de configuración del Servicio de actualización de dispo
         LogFlushInterval       : 00:05:00
         LogCleanUpTimeOfDay    :
 
-Si quiere detalles sobre este cmdlet, vea el tema de ayuda [Get-CsDeviceUpdateConfiguration](get-csdeviceupdateconfiguration.md).
+Si quiere detalles sobre este cmdlet, vea el tema de ayuda [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateConfiguration).
 

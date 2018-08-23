@@ -23,20 +23,10 @@ En los siguientes procedimientos, el servidor que ejecuta Forefront Threat Manag
 
   - Una interfaz de red privada, o interna, para los servidores internos que ejecuten Lync Server y hospeden los servicios web.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>De modo similar a lo que ocurre con los Servidores perimetrales, debe configurar la puerta de enlace predeterminada en el adaptador externo solamente. La puerta de enlace predeterminada será la dirección IP del enrutador o firewall externo que dirige el tráfico a Internet. Para el tráfico destinado desde el proxy inverso hacia el adaptador de red interno, deberá usar rutas estáticas persistentes (como el comando enrutar de Windows Server) para todas las subredes que contengan servidores a los que hagan referencia las reglas de publicación web. Establecer una ruta persistente no hace que el equipo se convierta en un enrutador. Si el reenvío IP no está habilitado, el equipo está actuando únicamente para dirigir el tráfico específico destinado a otra red a la interfaz adecuada. Esto establece básicamente dos puertas de enlace: una como la predeterminada que apunta hacia las redes externas y otra para el tráfico destinado a la interfaz interna y a un enrutador u otra red.<br />
-Sin embargo, es posible que no sea necesario crear rutas persistentes para todas las subredes si los enrutadores de su red están configurados para resumir rutas. Cree una ruta persistente a la red en la que está definido el enrutador y use este como puerta de enlace predeterminada. Si no está seguro de cómo está configurada su red y necesita ayuda sobre qué rutas persistentes deben crearse, consulte con los ingenieros de redes de su empresa.<br />
-El proxy inverso debe poder resolver los registros de host (A) DNS del Director interno o Servidor front-end y los FQDN del grupo de servidores del próximo salto que se usan en las reglas de publicación web. Al igual que ocurre con los Servidores perimetrales, por razones de seguridad se recomienda no configurar un proxy inverso para que use un servidor DNS ubicado en la red interna. Esto significa que se necesitan servidores DNS en el perímetro, o bien entradas de archivo HOST en el proxy inverso que resuelva cada uno de estos FQDN para la dirección IP interna de los servidores.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> De modo similar a lo que ocurre con los Servidores perimetrales, debe configurar la puerta de enlace predeterminada en el adaptador externo solamente. La puerta de enlace predeterminada será la dirección IP del enrutador o firewall externo que dirige el tráfico a Internet. Para el tráfico destinado desde el proxy inverso hacia el adaptador de red interno, deberá usar rutas estáticas persistentes (como el comando enrutar de Windows Server) para todas las subredes que contengan servidores a los que hagan referencia las reglas de publicación web. Establecer una ruta persistente no hace que el equipo se convierta en un enrutador. Si el reenvío IP no está habilitado, el equipo está actuando únicamente para dirigir el tráfico específico destinado a otra red a la interfaz adecuada. Esto establece básicamente dos puertas de enlace: una como la predeterminada que apunta hacia las redes externas y otra para el tráfico destinado a la interfaz interna y a un enrutador u otra red.<br />
+> Sin embargo, es posible que no sea necesario crear rutas persistentes para todas las subredes si los enrutadores de su red están configurados para resumir rutas. Cree una ruta persistente a la red en la que está definido el enrutador y use este como puerta de enlace predeterminada. Si no está seguro de cómo está configurada su red y necesita ayuda sobre qué rutas persistentes deben crearse, consulte con los ingenieros de redes de su empresa.<br />
+> El proxy inverso debe poder resolver los registros de host (A) DNS del Director interno o Servidor front-end y los FQDN del grupo de servidores del próximo salto que se usan en las reglas de publicación web. Al igual que ocurre con los Servidores perimetrales, por razones de seguridad se recomienda no configurar un proxy inverso para que use un servidor DNS ubicado en la red interna. Esto significa que se necesitan servidores DNS en el perímetro, o bien entradas de archivo HOST en el proxy inverso que resuelva cada uno de estos FQDN para la dirección IP interna de los servidores.
 
 
 ## Para configurar las tarjetas adaptadoras de red en el equipo de proxy inverso

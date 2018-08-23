@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implementación de Lync Server 2013 Standard Edition en un Lync Server 2013 Enterprise existente'
+title: "Implementación de Lync Server 2013 Standard Edition en Lync Server 2013 Enterprise"
 TOCTitle: Implementación de Lync Server 2013 Standard Edition en un Lync Server 2013 Enterprise existente
 ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398112(v=OCS.15)
@@ -31,16 +31,7 @@ La implementación de un Servidor Standard Edition en una implementación de Ent
 
 6.  Configure e instale un Servidor Standard Edition.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ204932.Caution(OCS.15).gif" title="Caution" alt="Caution" />Precaución:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si ha implementado un entorno con un solo Servidor Standard Edition, será necesario que inicie el proceso de configuración desde el Asistente para la implementación de Lync Server usando el vínculo <strong>Preparar el primer servidor Standard Edition</strong> para instalar los archivos de base de datos iniciales para el nuevo Servidor Standard Edition. <strong>No</strong> siga ese proceso cuando instale un Servidor Standard Edition en una implementación de Lync Server 2013 existente.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]  
+    > Si ha implementado un entorno con un solo Servidor Standard Edition, será necesario que inicie el proceso de configuración desde el Asistente para la implementación de Lync Server usando el vínculo <strong>Preparar el primer servidor Standard Edition</strong> para instalar los archivos de base de datos iniciales para el nuevo Servidor Standard Edition. <strong>No</strong> siga ese proceso cuando instale un Servidor Standard Edition en una implementación de Lync Server 2013 existente.
+    
 

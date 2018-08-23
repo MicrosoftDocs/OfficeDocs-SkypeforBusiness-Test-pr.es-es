@@ -27,9 +27,12 @@ Antes de empezar a mover usuarios a Lync Online, le recomendamos que mueva unos 
 
 Para mover un usuario local a su inquilino de Skype Empresarial Online, ejecute los siguientes cmdlets en el Shell de administración de Lync Server con las credenciales de administrador de su inquilino de Microsoft Office 365. Sustituya “username@contoso.com” por la información del usuario que quiera mover.
 
-    $creds=Get-Credential
-
-    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
+$creds=Get-Credential
+```
+```
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
 
 El formato de la dirección URL especificada para el parámetro **HostedMigrationOverrideUrl** tiene que ser la URL del grupo en el que se está ejecutando el servicio de migración hospedada y tiene que tener el siguiente formato: *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc* .
 
@@ -57,7 +60,7 @@ Para determinar la URL del servicio de migración hospedada, consulte la URL del
 
 ## Mover usuarios a Lync Online
 
-Puede mover varios usuarios con el cmdlet [Get-CsUser](get-csuser.md) con el parámetro –Filter para seleccionar a los usuarios con una propiedad concreta.asignada a las cuentas de usuario como, por ejemplo, RegistrarPool. Después puede canalizar los usuarios devueltos al cmdlet [Move-CsUser](move-csuser.md), tal como se muestra en el ejemplo siguiente.
+Puede mover varios usuarios con el cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) con el parámetro –Filter para seleccionar a los usuarios con una propiedad concreta.asignada a las cuentas de usuario como, por ejemplo, RegistrarPool. Después puede canalizar los usuarios devueltos al cmdlet [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser), tal como se muestra en el ejemplo siguiente.
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 

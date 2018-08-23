@@ -1,6 +1,6 @@
 ﻿---
-title: Uso de búsquedas en registros de captura creados por el servicio de registro centralizado
-TOCTitle: Uso de búsquedas en registros de captura creados por el servicio de registro centralizado
+title: "Búsquedas en registros de captura creados por el servicio de registro centralizado"
+TOCTitle: "Ut. Rech. sur les journaux de capture créés par le service de journ. centr."
 ms:assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687982(v=OCS.15)
 ms:contentKeyID: 49888907

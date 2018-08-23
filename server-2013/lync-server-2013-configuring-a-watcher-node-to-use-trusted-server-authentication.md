@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de un nodo monitor para utilizar la autenticación mediante servidores de confianza
-TOCTitle: Configuración de un nodo monitor para utilizar la autenticación mediante servidores de confianza
+title: "Configurar nodo monitor para utilizar la autenticación con servidores de confianza"
+TOCTitle: "Conf. d’un nœud observateur pour l’util. de l’auth. des serveurs approuvés"
 ms:assetid: 42d879ac-aa90-4ed6-b5e2-1e208711672a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204852(v=OCS.15)
 ms:contentKeyID: 48275050

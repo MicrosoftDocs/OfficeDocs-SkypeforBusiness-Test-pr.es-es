@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planear la recuperación ante desastres del estacionamiento de llamadas'
+title: "Lync Server 2013: Planear recuperación ante desastres de estacionamiento de llamadas"
 TOCTitle: Planear la recuperación ante desastres del estacionamiento de llamadas
 ms:assetid: f7cf3958-177b-4340-a864-35a6f44d6d88
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205395(v=OCS.15)
@@ -31,9 +31,9 @@ Recuerde las siguientes prácticas recomendadas a la hora de preparar y llevar a
 
 ## Consideraciones sobre la recuperación ante desastres de Estacionamiento de llamadas
 
-Solo puede definir un conjunto de opciones de configuración de Aplicación de estacionamiento de llamadas y un archivo de audio de música en espera personalizada por cada grupo de servidores. Estas configuraciones incluyen el umbral de tiempo en espera, música en espera, número máximo de intentos de respuesta de llamadas y el URI del tiempo en espera. Para ver estas opciones de configuración, ejecute el cmdlet **Get-CsCpsConfiguration**. Encontrará información detallada sobre el cmdlet **Get-CsCpsConfiguration** en [Get-CsCpsConfiguration](get-cscpsconfiguration.md).
+Solo puede definir un conjunto de opciones de configuración de Aplicación de estacionamiento de llamadas y un archivo de audio de música en espera personalizada por cada grupo de servidores. Estas configuraciones incluyen el umbral de tiempo en espera, música en espera, número máximo de intentos de respuesta de llamadas y el URI del tiempo en espera. Para ver estas opciones de configuración, ejecute el cmdlet **Get-CsCpsConfiguration**. Encontrará información detallada sobre el cmdlet **Get-CsCpsConfiguration** en [Get-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCpsConfiguration).
 
 Durante la recuperación ante desastres, Estacionamiento de llamadas usa la Aplicación de estacionamiento de llamadas en el grupo de servidores de reserva, de modo que no hay una copia de seguridad de la configuración del grupo de servidores principal. Si no se puede recuperar el grupo de servidores principal y se implementa un nuevo grupo para sustituirlo, la configuración del grupo de servidores principal se perderá y tendrá que volver a configurar las opciones de Estacionamiento de llamadas y los archivos de audio de música en espera personalizados.
 
-Si implementa un grupo de servidores nuevo con un nombre de dominio completo (FQDN) diferente para sustituir al principal, tendrá que volver a asignar todos los intervalos de órbita de Estacionamiento de llamadas asociados al grupo de servidores principal al FQDN del grupo nuevo. Para ello, puede usar el cmdlet Panel de control de Lync Server o el **Set-CsCallParkOrbit**. Si desea información sobre el cmdlet **Set-CsCallParkOrbit**, consulte [Set-CsCallParkOrbit](set-cscallparkorbit.md).
+Si implementa un grupo de servidores nuevo con un nombre de dominio completo (FQDN) diferente para sustituir al principal, tendrá que volver a asignar todos los intervalos de órbita de Estacionamiento de llamadas asociados al grupo de servidores principal al FQDN del grupo nuevo. Para ello, puede usar el cmdlet Panel de control de Lync Server o el **Set-CsCallParkOrbit**. Si desea información sobre el cmdlet **Set-CsCallParkOrbit**, consulte [Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit).
 

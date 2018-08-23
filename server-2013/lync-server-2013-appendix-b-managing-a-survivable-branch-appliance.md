@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Apéndice B: Administración de una aplicación de sucursal con funciones de supervivencia'
+title: 'Apéndice B: Administrar una aplicación de sucursal con funciones de supervivencia'
 TOCTitle: 'Apéndice B: Administración de una aplicación de sucursal con funciones de supervivencia'
 ms:assetid: 2ec9d505-6d39-491c-9524-8cf36866b855
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425797(v=OCS.15)

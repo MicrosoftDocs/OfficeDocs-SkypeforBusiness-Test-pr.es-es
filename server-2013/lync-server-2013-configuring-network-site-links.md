@@ -29,7 +29,7 @@ En una configuración de control de admisión de llamadas (CAC), puede crear dir
     
     Este ejemplo crea un nuevo vínculo de sitio de red denominado Reno\_Portland que establece las limitaciones de ancho de banda entre los sitios de red de Reno y Portland. El perfil de la directiva de sitios de red y de ancho de banda debe existir antes de ejecutar este comando.
 
-Para obtener descripciones de parámetros detalladas, consulte [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) en la documentación de Shell de administración de Lync Server. Para recuperar una lista de perfiles de directivas de ancho de banda que puedan aplicarse al vínculo de sitio de red, ejecute el cmdlet **Get-CsNetworkBandwidthPolicyProfile**. Para más información, consulte [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md) en la documentación del Shell de administración de Lync Server.
+Para obtener descripciones de parámetros detalladas, consulte [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy) en la documentación de Shell de administración de Lync Server. Para recuperar una lista de perfiles de directivas de ancho de banda que puedan aplicarse al vínculo de sitio de red, ejecute el cmdlet **Get-CsNetworkBandwidthPolicyProfile**. Para más información, consulte [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) en la documentación del Shell de administración de Lync Server.
 
 ## Para modificar un vínculo de sitio de red
 
@@ -41,7 +41,7 @@ Para obtener descripciones de parámetros detalladas, consulte [New-CsNetworkInt
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-Para obtener descripciones de parámetros detalladas, consulte [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md) en la documentación de Shell de administración de Lync Server.
+Para obtener descripciones de parámetros detalladas, consulte [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy) en la documentación de Shell de administración de Lync Server.
 
 ## Para eliminar un vínculo de sitio de red
 
@@ -53,19 +53,19 @@ Para obtener descripciones de parámetros detalladas, consulte [Set-CsNetworkInt
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-Para obtener descripciones de parámetros detalladas, consulte [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md) en la documentación de Shell de administración de Lync Server.
+Para obtener descripciones de parámetros detalladas, consulte [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy) en la documentación de Shell de administración de Lync Server.
 
 ## Vea también
 
 #### Conceptos
 
-[Cmdlets de control de admisión de llamadas](lync-server-2013-call-admission-control-cmdlets.md)  
+[Cmdlets de control de admisión de llamadas](https://docs.microsoft.com/en-us/powershell/module/skype/)  
 
 #### Otros recursos
 
-[New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md)  
-[Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)  
-[Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)  
-[Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)  
-[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)
+[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)  
+[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 

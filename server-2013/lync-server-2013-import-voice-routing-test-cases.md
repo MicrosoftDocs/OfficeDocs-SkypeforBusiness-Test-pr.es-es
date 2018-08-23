@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Importar casos de prueba de enrutamiento de voz'
+title: "Lync Server 2013 : Import. des cas de test de routage des comm. voc."
 TOCTitle: Importar casos de prueba de enrutamiento de voz
 ms:assetid: 6546e24c-9ad2-428b-92b2-63948ed0f884
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398460(v=OCS.15)

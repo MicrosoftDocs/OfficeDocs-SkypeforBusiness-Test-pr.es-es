@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2016-12-08_
 
 Para implementar y administrar la respuesta de llamadas en grupo, use la herramienta del kit de recursos SEFAUtil. Esta herramienta forma parte de las herramientas del kit de recursos de Lync Server 2013. Para instalar SEFAUtil, debe tener un grupo de aplicaciones de confianza en la topología, especificar SEFAUtil como aplicación de confianza y habilitar la topología.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Instale el SDK de la API administrada de comunicaciones unificadas (UCMA) de Microsoft 3.0 Core en los equipos donde planee ejecutar la herramienta SEFAUtil.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Instale el SDK de la API administrada de comunicaciones unificadas (UCMA) de Microsoft 3.0 Core en los equipos donde planee ejecutar la herramienta SEFAUtil.
+
 
 
 Puede ejecutar SEFAUtil en cualquier Grupo de servidores front-end de la implementación.

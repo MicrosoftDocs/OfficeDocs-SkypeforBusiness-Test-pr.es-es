@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar directivas para controlar el acceso de usuarios federados de XMPP'
+title: "Lync Server 2013: Directivas para el control de acceso de usuarios federados de XMPP"
 TOCTitle: Configurar directivas para controlar el acceso de usuarios federados de XMPP
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ552446(v=OCS.15)
@@ -125,9 +125,9 @@ Cuando configura las directivas para admitir socios federados del Protocolo exte
 #### Otros recursos
 
 [Administrar socios federados XMPP para su organización en Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)  
-[New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)  
-[Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
-[Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)  
-[Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 

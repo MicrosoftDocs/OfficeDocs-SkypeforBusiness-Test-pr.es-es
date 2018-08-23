@@ -21,18 +21,8 @@ The tools included in the Lync Server 2013 Stress and Performance Tool package e
 
 To configure user profiles, run the Lync Server 2013 Load Configuration Tool (UserProfileGenerator.exe) and fill out each of the tabs. UserProfileGenerator.exe generates a directory for each of the client computers that you need to run the simulation. Each client directory also comes with a script to start all of the instances of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945592.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>The user-specific values specified in UserProfileGenerator must match the values specified in the Lync Server 2013 User Creation Tool (UserProvisioningTool) for the pool.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> The user-specific values specified in UserProfileGenerator must match the values specified in the Lync Server 2013 User Creation Tool (UserProvisioningTool) for the pool.
 
 
 Fill in the fields on each tab of the Lync Server 2013 Load Configuration Tool, as described in the following sections.

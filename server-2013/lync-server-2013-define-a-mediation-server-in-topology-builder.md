@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definir un servidor de mediación en el Generador de topologías'
+title: "Lync Server 2013: Definir un servidor de mediación en el Generador de topologías"
 TOCTitle: Definir un servidor de mediación en el Generador de topologías
 ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398391(v=OCS.15)

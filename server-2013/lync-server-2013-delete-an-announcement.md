@@ -37,7 +37,7 @@ Use el siguiente procedimiento para eliminar un anuncio que se usa para llamadas
     
 
     > [!NOTE]
-    > Para obtener detalles acerca de más opciones, vea <A href="get-csannouncement.md">Get-CsAnnouncement</A> y <A href="remove-csannouncement.md">Remove-CsAnnouncement</A>.
+    > Para obtener detalles acerca de más opciones, vea <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> y <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.
 
 
 
@@ -49,6 +49,6 @@ Use el siguiente procedimiento para eliminar un anuncio que se usa para llamadas
 
 #### Otros recursos
 
-[Remove-CsAnnouncement](remove-csannouncement.md)  
-[Get-CsAnnouncement](get-csannouncement.md)
+[Remove-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement)  
+[Get-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement)
 

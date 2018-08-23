@@ -315,7 +315,7 @@ Algunos atributos tienen un valor de máscara de bits. Para estos atributos, cad
 <td><p>msRTCSIP-EnableBestEffortNotify (obsoleto)</p></td>
 <td><p>Este atributo controla si un servidor genera una solicitud Best Effort NOTIFY (BENOTIFY), o NOTIFY de &quot;mejor esfuerzo&quot;, en lugar de una solicitud NOTIFY, en respuesta a una solicitud SUBSCRIBE de un cliente. BENOTIFY es una extensión que mejora el rendimiento para el protocolo de enlace de notificaciones de suscripción mediante la cual el servidor genera solicitudes BENOTIFY en lugar de las solicitudes NOTIFY normales. La ventaja desde el punto de vista del rendimiento consiste en que una solicitud BENOTIFY no requiere una respuesta 200 OK del cliente, a diferencia de la solicitud NOTIFY.</p>
 <p>Los valores válidos son <strong>TRUE</strong> o <strong>FALSE</strong>.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Live Communications Server 2003 no admite solicitudes BENOTIFY. Para interoperar con las aplicaciones de servidor escritas mediante las API de servidor de Live Communications Server 2003 que se ejecuten en Live Communications Server 2005 y servidores de otros fabricantes, se pueden deshabilitar las solicitudes BENOTIFY estableciendo su valor en <STRONG>FALSE</STRONG>. Actualmente, BENOTIFY no forma parte del proceso de normalización del SIP del Grupo de trabajo de ingeniería de Internet (IETF).
@@ -682,7 +682,7 @@ Algunos atributos tienen un valor de máscara de bits. Para estos atributos, cad
 <td><p>Este atributo es una cadena Unicode de un solo valor. Este atributo de cadena contiene la definición de la directiva en formato XML. La definición del esquema XML es común en todos los diferentes tipos de directiva, solo la configuración es diferente para cada tipo de directiva.</p>
 <p>Esta es la definición del esquema XML (XSD):</p>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;xs:schema id=&quot;instance&quot;  xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
+&lt;xs:schema id=&quot;instance&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
   &lt;xs:element name=&quot;instance&quot; msdata:IsDataSet=&quot;true&quot;&gt;
     &lt;xs:complexType&gt;
       &lt;xs:choice maxOccurs=&quot;unbounded&quot;&gt;

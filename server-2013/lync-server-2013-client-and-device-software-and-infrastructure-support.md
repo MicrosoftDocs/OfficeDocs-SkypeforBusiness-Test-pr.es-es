@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Compatibilidad con infraestructura y software de dispositivo y cliente'
+title: "Lync Server 2013: Compatib. con infraestructura y software de dispositivo y cliente"
 TOCTitle: Compatibilidad con infraestructura y software de dispositivo y cliente en Lync Server 2013
 ms:assetid: 5dcccc2d-efb0-4e7d-9f14-34435fac8dde
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398412(v=OCS.15)

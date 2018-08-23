@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planificar la capacidad para el servidor de chat persistente'
+title: "Lync Server 2013 : Plan. de capacité pr le serveur de conv. permanente"
 TOCTitle: Planificar la capacidad para el servidor de chat persistente
 ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615006(v=OCS.15)
@@ -41,18 +41,9 @@ Ahora también ofrecemos compatibilidad del Servidor de chat persistente en el S
 
 La configuración mínima y la implementación más sencilla del Servidor de chat persistente es la topología de un solo Servidor front-end de Servidor de chat persistente. Requiere un servidor único para ejecutar el Servidor de chat persistente (que ejecuta opcionalmente el servicio de cumplimiento, en caso de que este se habilite), un servidor para hospedar la base de datos de SQL Server y, si se requiere el cumplimiento de normas, la base de datos de SQL Server para almacenar los datos de cumplimiento.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No se pueden agregar servidores adicionales a un Grupo de servidores de chat persistente que se inició como implementación de un único servidor en el Generador de topologías. Recomendamos utilizar la topología de grupos de varios servidores aunque solo se vaya a usar un único servidor, de manera que se puedan agregar otros servidores más adelante.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> No se pueden agregar servidores adicionales a un Grupo de servidores de chat persistente que se inició como implementación de un único servidor en el Generador de topologías. Recomendamos utilizar la topología de grupos de varios servidores aunque solo se vaya a usar un único servidor, de manera que se puedan agregar otros servidores más adelante.
+
 
 
 En la siguiente ilustración se muestran todos los componentes opcionales y obligatorios de una topología de un solo Servidor front-end de Servidor de chat persistente con el servicio de cumplimiento.
@@ -351,18 +342,9 @@ Esta muestra representa los salones de chat clasificados como pequeños (30 usua
 
 Para cada salón de chat, la tabla de planeación de la capacidad anterior especifica el número de entradas de control de acceso asociadas al salón de chat, incluidas las entradas asignadas directamente al salón de chat. Puede controlar el acceso a salones de chat individuales usando listas de control de acceso (ACL). También puede controlar el acceso en el nivel de categoría. En una ACL, una entrada de control de acceso individual puede corresponder a un grupo de usuarios (por ejemplo, un grupo de seguridad, una lista de distribución o a un solo usuario). Puede definir las entradas de control de acceso de los administradores, los moderadores y los miembros de los salones de chat.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A la hora de planear su estrategia para administrar salones de chat, tenga en cuenta que el número total de entradas de control de acceso permitidas es 2 millones. Si las entradas de control de acceso que calcule superan los 2 millones, el rendimiento del servidor puede disminuir en gran medida. Para evitar este problema, siempre que sea posible, asegúrese de que las entradas de control de acceso sean grupos de usuarios, en lugar de usuarios individuales.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> A la hora de planear su estrategia para administrar salones de chat, tenga en cuenta que el número total de entradas de control de acceso permitidas es 2 millones. Si las entradas de control de acceso que calcule superan los 2 millones, el rendimiento del servidor puede disminuir en gran medida. Para evitar este problema, siempre que sea posible, asegúrese de que las entradas de control de acceso sean grupos de usuarios, en lugar de usuarios individuales.
+
 
 
 ## Planeación de la capacidad para administrar el acceso a los salones de chat por invitación
@@ -371,18 +353,9 @@ En la siguiente tabla de planeación de la capacidad puede ver el número de inv
 
 Los datos de muestra de la siguiente tabla presuponen que, en la página de **Configuración de salones de chat** para el 50% de los salones de chat, la opción **Invitación** se ha configurado como **Sí** .
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si el valor calculado del número de invitaciones que el servidor genera supera 1 millón, el rendimiento del servidor puede disminuir en gran medida. Para evitar este problema, asegúrese de reducir al mínimo el número de salones de chat configurados para enviar invitaciones o restrinja la cantidad de usuarios que pueden unirse a los salones de chat que se hayan configurado para enviar invitaciones.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si el valor calculado del número de invitaciones que el servidor genera supera 1 millón, el rendimiento del servidor puede disminuir en gran medida. Para evitar este problema, asegúrese de reducir al mínimo el número de salones de chat configurados para enviar invitaciones o restrinja la cantidad de usuarios que pueden unirse a los salones de chat que se hayan configurado para enviar invitaciones.
+
 
 
 ### Muestra de acceso a salones de chat por invitación

@@ -1,6 +1,6 @@
 ﻿---
-title: Crear una directiva de voz y configurar registros de uso de RTC en Lync Server 2013
-TOCTitle: Crear una directiva de voz y configurar registros de uso de RTC en Lync Server 2013
+title: "Crear una directiva de voz y configurar registros de uso de RTC en Lync Server 2013"
+TOCTitle: "Créer strat. et voix et conf. les enr. d’ut. PSTN dans Lync Server 2013"
 ms:assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399027(v=OCS.15)
 ms:contentKeyID: 48276993
@@ -126,18 +126,9 @@ Siga estos pasos para crear una nueva directiva de voz. Si desea editar una dire
 
 9.  Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de registro en la lista, resalte el nombre del registro y haga clic en la flecha arriba o abajo.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Es importante el orden en el que aparecen en la lista de la directiva de voz los registros de uso de RTC. Lync Server recorre la lista de arriba abajo. Recomendamos ordenar la lista por frecuencia de uso, por ejemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Es importante el orden en el que aparecen en la lista de la directiva de voz los registros de uso de RTC. Lync Server recorre la lista de arriba abajo. Recomendamos ordenar la lista por frecuencia de uso, por ejemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
+    
 
 
 10. Para asociar y configurar registros de uso de RTC para el desvío de llamadas y las llamadas simultáneas en esta directiva de voz, haga una de las acciones siguientes:

@@ -52,18 +52,9 @@ Estos son los aspectos sobre los que deberá tomar una decisión:
     > No se necesita ninguna configuración más para UCWA. UCWA carece de una configuración solo para uso interno equivalente.
 
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si usa un Servidor front-end o Grupos de servidores front-end de Lync Server 2013, y <strong>no tiene</strong>Servidores front-end ni Grupos de servidores front-end de Lync Server 2010, <strong>no existe ningún requisito para la persistencia basada en cookies</strong>. Si necesita conservar los Servidores front-end o Grupos de servidores front-end de Lync Server 2010, siguen siendo válidas las mismas reglas que en Lync Server 2010 para la persistencia basada en cookies.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si usa un Servidor front-end o Grupos de servidores front-end de Lync Server 2013, y <strong>no tiene</strong>Servidores front-end ni Grupos de servidores front-end de Lync Server 2010, <strong>no existe ningún requisito para la persistencia basada en cookies</strong>. Si necesita conservar los Servidores front-end o Grupos de servidores front-end de Lync Server 2010, siguen siendo válidas las mismas reglas que en Lync Server 2010 para la persistencia basada en cookies.
+    
 
 
   - **¿Desea admitir las notificaciones de inserción para dispositivos Apple iOS y Windows Phone?**
@@ -72,18 +63,9 @@ Estos son los aspectos sobre los que deberá tomar una decisión:
     
     Si desea admitir las notificaciones de inserción a través de la red Wi-Fi, además de admitir las notificaciones de inserción a través de redes de datos o 3G de proveedores de dispositivos móviles, debe abrir el puerto 5223 en la red Wi-Fi de su empresa. El uso de notificaciones de inserción a través de la red Wi-Fi es compatible con dispositivos móviles que usan solo Wi-Fi y dispositivos móviles que tienen una recepción débil en interiores.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Abrir el puerto TCP 5223 solo es necesario para admitir dispositivos Apple que ejecutan el cliente Lync 2010 Mobile.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Abrir el puerto TCP 5223 solo es necesario para admitir dispositivos Apple que ejecutan el cliente Lync 2010 Mobile.
+    
     
     Si no desea admitir las notificaciones de inserción, los usuarios de dispositivos móviles Apple o Windows Phone no recibirán información sobre los eventos (como invitaciones por mensajes instantáneos o mensajes perdidos) que ocurren cuando la aplicación móvil está inactiva.
     
@@ -155,7 +137,7 @@ Estos son los aspectos sobre los que deberá tomar una decisión:
     </tbody>
     </table>
     
-    Para ver una descripción de las configuraciones de directiva que se pueden establecer, así como el modo de administrar directivas, vea [New-CsMobilityPolicy](new-csmobilitypolicy.md), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) y [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md).
+    Para ver una descripción de las configuraciones de directiva que se pueden establecer, así como el modo de administrar directivas, vea [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy) y [Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy).
 
   - **¿Desea que los usuarios no habilitados para Telefonía IP empresarial puedan hacer clic para unirse a conferencias?**
     

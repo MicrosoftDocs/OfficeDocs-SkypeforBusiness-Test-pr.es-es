@@ -37,18 +37,9 @@ Al planear la implementación de Lync Server 2013, se asignan los requisitos rea
 
 2.  Los servicios web externos de Lync Server 2013 (implementados en el Servidor front-end y/o en el Director) esperan una conexión desde un proxy inverso en el puerto TCP 4443 y que la conexión sea SSL/TLS.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Los puertos de escucha predeterminados sugeridos para los servicios web externos son TCP 8080 para el tráfico HTTP y TCP 4443 para el tráfico HTTPS. La Generador de topologías proporciona una oportunidad para invalidar los valores predeterminados y definir sus propios puertos de escucha para los servicios web externos. Es importante tener en cuenta que el proxy inverso se comunica con los servicios web externos y los clientes externos se comunican con el proxy inverso. Los clientes externos lo hacen en el puerto TCP 443, pero puede redefinir el puerto en el que el proxy inverso se comunica con los servicios web externos. Las opciones de la Generador de topologías para invalidar los puertos de escucha predeterminados de los servicios web le permiten resolver los conflictos en los puertos de escucha que pueden surgir en la infraestructura.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Los puertos de escucha predeterminados sugeridos para los servicios web externos son TCP 8080 para el tráfico HTTP y TCP 4443 para el tráfico HTTPS. La Generador de topologías proporciona una oportunidad para invalidar los valores predeterminados y definir sus propios puertos de escucha para los servicios web externos. Es importante tener en cuenta que el proxy inverso se comunica con los servicios web externos y los clientes externos se comunican con el proxy inverso. Los clientes externos lo hacen en el puerto TCP 443, pero puede redefinir el puerto en el que el proxy inverso se comunica con los servicios web externos. Las opciones de la Generador de topologías para invalidar los puertos de escucha predeterminados de los servicios web le permiten resolver los conflictos en los puertos de escucha que pueden surgir en la infraestructura.
+    
 
 
 3.  Los servicios web externos de Lync Server 2013 esperan un encabezado host sin modificar desde el cliente para identificar el servicio y el directorio de servidores web que intenta usar el cliente. Las solicitudes deben aparecer como si provinieran del proxy inverso.

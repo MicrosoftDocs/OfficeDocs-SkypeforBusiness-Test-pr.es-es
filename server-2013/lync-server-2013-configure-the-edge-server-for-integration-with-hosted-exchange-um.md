@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar el servidor perimetral para la integración con la mensajería unificada de Exchange hospedada'
+title: "Configurar servidor perim. para integración con mensajería unif. Exchange hospedada"
 TOCTitle: Configurar el servidor perimetral para la integración con la mensajería unificada de Exchange hospedada
 ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399075(v=OCS.15)
@@ -25,22 +25,13 @@ Para proporcionar capacidades de correo de voz a los usuarios de Lync Server 201
 
 Para ver más detalles, consulte la documentación del Shell de administración de Lync Server correspondiente a los siguientes cmdlets:
 
-  - [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
+  - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
-  - [New-CsHostingProvider](new-cshostingprovider.md)
+  - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Debe crear un registro SRV de DNS externo para el servicio Exchange de hospedaje antes de realizar estos pasos. Para más información, consulte <a href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Debe crear un registro SRV de DNS externo para el servicio Exchange de hospedaje antes de realizar estos pasos. Para más información, consulte <a href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange</a>.
+
 
 
 ## Para configurar el servidor perimetral para la federación.
@@ -104,5 +95,5 @@ Para ver más detalles, consulte la documentación del Shell de administración 
 
 #### Otros recursos
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Configurar regiones de red para el control de admisión de llamadas en Lync Server 2013
+title: 'Configurar regiones de red para control de admisión de llamadas en Lync Server 2013'
 TOCTitle: Configurar regiones de red para el control de admisión de llamadas en Lync Server 2013
 ms:assetid: ea3ff988-dd5a-4bc4-bec5-39a0fb09793a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399051(v=OCS.15)
@@ -15,18 +15,9 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2012-09-21_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si ya ha creado regiones de red para E9-1-1 o para el desvío de medios, puede modificar las regiones de red existentes mediante la adición de parámetros específicos de control de admisión de llamadas con el cmdlet Set-<strong>Set-CsNetworkRegion</strong>. Para ver un ejemplo de cómo modificar una región de red, consulte <a href="lync-server-2013-create-or-modify-a-network-region.md">Crear o modificar una región de red en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si ya ha creado regiones de red para E9-1-1 o para el desvío de medios, puede modificar las regiones de red existentes mediante la adición de parámetros específicos de control de admisión de llamadas con el cmdlet Set-<strong>Set-CsNetworkRegion</strong>. Para ver un ejemplo de cómo modificar una región de red, consulte <a href="lync-server-2013-create-or-modify-a-network-region.md">Crear o modificar una región de red en Lync Server 2013</a>.
+
 
 
 *Las regiones de red* son los concentradores de red o redes troncales que se usan en la configuración del control de admisión de llamadas, de E9-1-1 y del desvío de medios. Siga estos procedimientos para crear regiones de red que se correspondan con las regiones de red del ejemplo de topología de red para controlar la admisión de llamadas. Para consultar el ejemplo de topología de red, visite [Ejemplo: Recopilación de los requisitos de la organización para el servicio de control de admisión de llamadas en Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) en la documentación sobre planificación.

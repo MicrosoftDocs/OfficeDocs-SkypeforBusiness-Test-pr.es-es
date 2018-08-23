@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planeamiento de recuperación ante desastres del grupo de respuesta'
+title: "Lync Server 2013: Planeamiento de recuperación ante desastres del grupo de respuesta"
 TOCTitle: Planeamiento de recuperación ante desastres del grupo de respuesta
 ms:assetid: 14e0f5dc-77cd-42cd-a9c9-4d0da38fb1cf
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204699(v=OCS.15)
@@ -63,22 +63,13 @@ Cuando recupera creando un nuevo grupo de servidores con un FQDN diferente, tien
 
 
 
-Solo puede definir un conjunto de valores de configuración de Grupo de respuesta de nivel de aplicación por grupo de servidores. Estos valores incluyen la configuración de música de espera predeterminada, el archivo de audio de música en espera predeterminado, el período de gracia de devolución de llamada de agente y la configuración de contexto de llamada. Para ver estos valores de configuración, ejecute el cmdlet de **Get-CsRgsConfiguration**. Para obtener detalles acerca del cmdlet **Get-CsRgsConfiguration**, vea [Get-CsRgsConfiguration](get-csrgsconfiguration.md).
+Solo puede definir un conjunto de valores de configuración de Grupo de respuesta de nivel de aplicación por grupo de servidores. Estos valores incluyen la configuración de música de espera predeterminada, el archivo de audio de música en espera predeterminado, el período de gracia de devolución de llamada de agente y la configuración de contexto de llamada. Para ver estos valores de configuración, ejecute el cmdlet de **Get-CsRgsConfiguration**. Para obtener detalles acerca del cmdlet **Get-CsRgsConfiguration**, vea [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration).
 
 Puede transferir esta configuración de nivel de aplicación de un grupo de servidores a otro mediante el cmdlet **Import-CsRgsConfiguration** con el parámetro –ReplaceExistingSettings, pero al hacerlo se invalidará la configuración en el grupo de servidores de destino.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Esta restricción acerca de la transferencia de configuración a otro grupo de servidores es verdadera solo para la configuración de nivel de aplicación y el archivo de audio de música en espera predeterminado. No se aplica a grupos de agente, a colas, a flujos de trabajo, a horas de oficina y a conjuntos de días festivos.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Esta restricción acerca de la transferencia de configuración a otro grupo de servidores es verdadera solo para la configuración de nivel de aplicación y el archivo de audio de música en espera predeterminado. No se aplica a grupos de agente, a colas, a flujos de trabajo, a horas de oficina y a conjuntos de días festivos.
+
 
 
 Si no desea reemplazar la configuración de nivel de aplicación en el grupo de servidores de copia de seguridad durante un desastre y el grupo de servidores principal no se puede recuperar, se perderá la configuración de nivel de aplicación del grupo de servidores principal. Si tiene que crear un nuevo grupo de servidores para reemplazar el grupo de servidores principal durante la recuperación, con el mismo FQDN o con un FQDN diferente, no podrá recuperar la configuración de nivel de aplicación original. En este caso, tiene que configurar el nuevo grupo de servidores con esta configuración e incluir el archivo de audio de música en espera.
@@ -114,7 +105,7 @@ Para obtener más información acerca de cómo realizar estos pasos, consulte [P
 <tr class="even">
 <td><p>Durante la interrupción</p></td>
 <td><p>Ejecute el cmdlet <strong>Import-CsRgsConfiguration</strong> para importar la configuración de Servicio de grupo de respuesta de Lync Server de copia de seguridad del grupo principal al grupo de copia de seguridad.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Use el parámetro –ReplaceExistingSettings si desea reemplazar la configuración de Grupo de respuesta de nivel de aplicación en el grupo de servidores de copia de seguridad con la configuración del grupo de servidores principal. Si no transfiere la configuración de nivel de aplicación desde el grupo de servidores principal al grupo de servidores de copia de seguridad, y no se puede recuperar el grupo de servidores principal, perderá la configuración del grupo de servidores principal.
@@ -127,19 +118,11 @@ Para obtener más información acerca de cómo realizar estos pasos, consulte [P
 <tr class="odd">
 <td><p>Después de importar</p></td>
 <td><p>Ejecute los cmdlets de Grupo de respuesta con el parámetro –ShowAll (para mostrar todos los grupos de respuesta) o el parámetro –Owner (para mostrar solo los grupos de respuesta importados) para comprobar que se importaron todas las configuraciones de grupo de respuesta al grupo de copia de seguridad:</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si usa el parámetro –ShowAll o el parámetro –Owner, los grupos de respuesta que ha importado al grupo de servidores de copia de seguridad no se mostrarán en los resultados devueltos por los cmdlets.</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!IMPORTANT]  
+> Si usa el parámetro –ShowAll o el parámetro –Owner, los grupos de respuesta que ha importado al grupo de servidores de copia de seguridad no se mostrarán en los resultados devueltos por los cmdlets.
+
 
 </div>
 <p>Ejecute los siguientes cmdlets:</p>
@@ -160,19 +143,11 @@ Para obtener más información acerca de cómo realizar estos pasos, consulte [P
 <li><p>Todos los agentes formales deben iniciar sesión de nuevo en sus grupos formales en el grupo de copia de seguridad.</p></li>
 <li><p>Administrar los cambios de configuración:</p>
 <p>Los grupos de respuesta del grupo de servidores de copia de seguridad, ya sean importados para el grupo de copia de seguridad o que pertenecen al grupo de copia de seguridad, se pueden modificar de la forma habitual durante la interrupción.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Debe usar Shell de administración de Lync Server para administrar los grupos de respuesta que ha importado en el grupo de servidores de copia de seguridad. No puede usar Panel de control de Lync Server para administrar estos grupos de respuesta mientras se encuentran en el grupo de servidores de copia de seguridad.</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!IMPORTANT]  
+> Debe usar Shell de administración de Lync Server para administrar los grupos de respuesta que ha importado en el grupo de servidores de copia de seguridad. No puede usar Panel de control de Lync Server para administrar estos grupos de respuesta mientras se encuentran en el grupo de servidores de copia de seguridad.
+
 
 </div></li>
 </ul></td>
@@ -188,7 +163,7 @@ Para obtener más información acerca de cómo realizar estos pasos, consulte [P
 <td><p>Después de la conmutación por recuperación</p></td>
 <td><ul>
 <li><p>Ejecutar el cmdlet <strong>Import-CsRgsConfiguration</strong> para importar los grupos de respuesta de vuelta al grupo principal.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Si el grupo de servidores principal no se puede recuperar e implementa un nuevo grupo de servidores para reemplazarlo, use el parámetro –ReplaceExistingSettings para transferir la configuración de nivel de aplicación del grupo de servidores de copia de seguridad al nuevo grupo de servidores. Si no transfiere la configuración del grupo de servidores de la copia de seguridad, el nuevo grupo de servidores usará la configuración predeterminada.

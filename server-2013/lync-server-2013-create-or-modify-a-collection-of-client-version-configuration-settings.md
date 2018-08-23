@@ -1,6 +1,6 @@
 ﻿---
-title: Crear o modificar una colección de opciones de configuración de versión de cliente
-TOCTitle: Crear o modificar una colección de opciones de configuración de versión de cliente
+title: "Crear o modificar una colección de opciones de configuración de versión de cliente"
+TOCTitle: "Créer ou mod. une collection de par. de conf. de la version du client"
 ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ898477(v=OCS.15)
 ms:contentKeyID: 52061636
@@ -59,5 +59,5 @@ Puede crear valores de configuración de versión de cliente mediante el cmdlet 
     
         Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration  -Enabled $False
 
-Para obtener información detallada, consulte el tema de Ayuda acerca de los cmdlets [New-CsClientVersionConfiguration](new-csclientversionconfiguration.md) y [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md).
+Para obtener información detallada, consulte el tema de Ayuda acerca de los cmdlets [New-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionConfiguration) y [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
 

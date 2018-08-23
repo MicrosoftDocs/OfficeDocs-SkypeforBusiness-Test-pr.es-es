@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear objetos de contacto para la mensajería unificada de Exchange hospedada'
+title: "Crear objetos de contacto para la mensajería unificada de Exchange hospedada"
 TOCTitle: Crear objetos de contacto para la mensajería unificada de Exchange hospedada
 ms:assetid: a39be52f-488a-4523-ad5f-ce1f0d681959
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412765(v=OCS.15)
@@ -21,22 +21,13 @@ Para obtener más información, consulte [Administración de objetos de contacto
 
 Para más información sobre la configuración de objetos de contacto, consulte la documentación de Shell de administración de Lync Server para los siguientes cmdlets:
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para poder habilitar objetos de contacto de Lync Server 2013 para la mensajería unificada de Exchange hospedada, debe implementarse una directiva de correo de voz hospedada que se aplique a dichos objetos. Para más información, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Directivas de correo de voz hospedado en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Para poder habilitar objetos de contacto de Lync Server 2013 para la mensajería unificada de Exchange hospedada, debe implementarse una directiva de correo de voz hospedada que se aplique a dichos objetos. Para más información, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Directivas de correo de voz hospedado en Lync Server 2013</a>.
+
 
 
 ## Para crear objetos de contacto de operador automático o de acceso de suscriptor para mensajería unificada de Exchange hospedada
@@ -45,9 +36,12 @@ Para más información sobre la configuración de objetos de contacto, consulte 
 
 2.  Ejecute el cmdlet New-CsExUmContact para crear los objetos de contacto necesarios para su implementación. Por ejemplo, ejecute la línea siguiente para crear un objeto de contacto de operador automático o de acceso de suscriptor:
     
-        New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
-    
-        New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
+    ```
+    New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
+    ```
+    ```
+    New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
+    ```
     
     En estos ejemplos se definen los parámetros siguientes:
     

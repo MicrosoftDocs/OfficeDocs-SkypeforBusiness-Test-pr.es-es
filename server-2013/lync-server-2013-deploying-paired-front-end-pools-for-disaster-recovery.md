@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implementación de grupos front-end emparejados para recuperación ante desastres'
+title: "Implementación de grupos front-end emparejados para recuperación ante desastres"
 TOCTitle: Implementación de grupos front-end emparejados para recuperación ante desastres
 ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204773(v=OCS.15)
@@ -51,15 +51,21 @@ Puede implementar fácilmente la topología de recuperación ante desastres de G
 
 10. Haga que los datos de conferencia y usuarios de ambos grupos de servidores se sincronicen entre sí, con los siguientes cmdlets:
     
-        Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-    
-        Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-    
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+    ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+    ```
+
     La sincronización de datos podría llevar unos minutos. Puede utilizar los siguientes cmdlets para ver el estado. Asegúrese de que el estado de ambas direcciones sea parejo
     
-        Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-    
-        Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+    ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
 
 
 > [!NOTE]

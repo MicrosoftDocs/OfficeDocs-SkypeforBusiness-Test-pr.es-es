@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Compatibilidad de cliente y servidor para el enrutamiento basado en ubicación'
+title: "Compatibilidad de cliente y servidor para el enrutamiento basado en ubicación"
 TOCTitle: Compatibilidad de cliente y servidor para el enrutamiento basado en ubicación
 ms:assetid: 26c2ca3d-026d-4dd7-94fa-15ebb4406953
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994024(v=OCS.15)
@@ -143,7 +143,7 @@ En la siguiente tabla se identifican los clientes compatibles con el enrutamient
 
 
 > [!NOTE]
-> Para deshabilitar VoIP para los clientes de Lync Mobile 2013, asigne una directiva de movilidad con la configuración, audio y vídeo IP, deshabilitada para todos los usuarios y habilitada para el enrutamiento según ubicación. Para obtener más detalles acerca de la directiva de movilidad, consulte <A href="new-csmobilitypolicy.md">New-CsMobilityPolicy</A>.
+> Para deshabilitar VoIP para los clientes de Lync Mobile 2013, asigne una directiva de movilidad con la configuración, audio y vídeo IP, deshabilitada para todos los usuarios y habilitada para el enrutamiento según ubicación. Para obtener más detalles acerca de la directiva de movilidad, consulte <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
 
 
 

@@ -41,35 +41,17 @@ Puede asignar una directiva de chat persistente en el Panel de control de Lync S
     
     4.  En función de la propiedad de usuario que haya seleccionado, especifique los criterios que desee usar para filtrar los resultados de la búsqueda escribiendo o haciendo clic en la flecha de la lista desplegable.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong>.
+        
     
     5.  Haga clic en **Buscar**.
 
 6.  Haga clic en un usuario en los resultados de búsqueda, haga clic en **Acción** y después en **Asignar directivas**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si desea aplicar la misma directiva persistente por usuario a varios usuarios, seleccione los distintos usuarios en los resultados de la búsqueda, haga clic en <strong>Acciones</strong> y después en <strong>Asignar directivas</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si desea aplicar la misma directiva persistente por usuario a varios usuarios, seleccione los distintos usuarios en los resultados de la búsqueda, haga clic en <strong>Acciones</strong> y después en <strong>Asignar directivas</strong>.
+    
 
 
 7.  En **Asignar directivas**, en **Directiva de chat persistente**, lleve a cabo uno de los procedimientos siguientes:
@@ -83,18 +65,9 @@ Puede asignar una directiva de chat persistente en el Panel de control de Lync S
     
       - Haga clic en el nombre de una directiva de chat persistente por usuario que haya definido anteriormente en la página **Directiva de chat persistente**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Para que le sea más fácil decidir la directiva que desea asignar, tras hacer clic en el nombre de una directiva, haga clic en <strong>Ver</strong> para ver los derechos y permisos de usuario definidos en la directiva.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Para que le sea más fácil decidir la directiva que desea asignar, tras hacer clic en el nombre de una directiva, haga clic en <strong>Ver</strong> para ver los derechos y permisos de usuario definidos en la directiva.
+        
 
 
 8.  Cuando haya terminado, haga clic en **Aceptar**.
@@ -111,7 +84,7 @@ Las directivas de chat persistente por usuario se pueden asignar también con Ly
 
 ## Asignar una directiva de chat persistente por usuario a varios usuarios
 
-  - Este comando asigna la directiva de chat persistente por usuario RedmondUsersPersistentChatPolicy a todos los usuarios que trabajan para el departamento de TI. Para más información sobre el parámetro LdapFilter usado en este comando, consulte la documentación del cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando asigna la directiva de chat persistente por usuario RedmondUsersPersistentChatPolicy a todos los usuarios que trabajan para el departamento de TI. Para más información sobre el parámetro LdapFilter usado en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 
@@ -121,7 +94,7 @@ Las directivas de chat persistente por usuario se pueden asignar también con Ly
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para más información, consulte el tema de ayuda del cmdlet [Grant-CsPersistentChatPolicy](grant-cspersistentchatpolicy.md).
+Para más información, consulte el tema de ayuda del cmdlet [Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy).
 
 ## Vea también
 

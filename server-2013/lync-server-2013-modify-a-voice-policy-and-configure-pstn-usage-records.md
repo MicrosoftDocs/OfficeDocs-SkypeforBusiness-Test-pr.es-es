@@ -1,6 +1,6 @@
 ﻿---
-title: Modificar una directiva de voz y configurar registros de uso de RTC en Lync Server 2013
-TOCTitle: Modificar una directiva de voz y configurar registros de uso de RTC en Lync Server 2013
+title: "Modificar directiva de voz y configurar registros de uso de RTC en Lync Server 2013"
+TOCTitle: "Mod. une strat. de voix et conf. des enr. d’util. PSTN dans Lync Server 2013"
 ms:assetid: 6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398511(v=OCS.15)
 ms:contentKeyID: 48275616

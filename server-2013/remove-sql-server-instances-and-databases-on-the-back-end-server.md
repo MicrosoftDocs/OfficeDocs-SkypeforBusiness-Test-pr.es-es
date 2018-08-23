@@ -1,6 +1,6 @@
 ﻿---
-title: Quitar instancias y bases de datos SQL Server en el servidor back-end
-TOCTitle: Quitar instancias y bases de datos SQL Server en el servidor back-end
+title: "Suppression des instances et des BD SQL Server sur le serveur principal"
+TOCTitle: "Suppression des instances et des BD SQL Server sur le serveur principal"
 ms:assetid: 32457df9-7dd9-4fca-9362-ea4de26b0296
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688016(v=OCS.15)
 ms:contentKeyID: 49889031

@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2012-11-01_
 
-Puede detener una sesión de inicio que se esté ejecutando actualmente con el cmdlet Stop-CsClsLogging. Por lo general, no hay muchas situaciones en las que tenga que detener una sesión de registro. Por ejemplo, puede buscar en registros y cambiar configuraciones sin tener que detener primero el registro. Si tiene dos escenarios en ejecución, por ejemplo, AlwaysOn y UserReplicator, y tiene que recopilar información relacionada con la autenticación, tendrá que detener uno de los demás escenarios (en un ámbito global, de sitio, de grupo de servidores o equipo) antes de poder empezar a ejecutar en el escenario de autenticación. Para obtener detalles, vea [Stop-CsClsLogging](stop-csclslogging.md).
+Puede detener una sesión de inicio que se esté ejecutando actualmente con el cmdlet Stop-CsClsLogging. Por lo general, no hay muchas situaciones en las que tenga que detener una sesión de registro. Por ejemplo, puede buscar en registros y cambiar configuraciones sin tener que detener primero el registro. Si tiene dos escenarios en ejecución, por ejemplo, AlwaysOn y UserReplicator, y tiene que recopilar información relacionada con la autenticación, tendrá que detener uno de los demás escenarios (en un ámbito global, de sitio, de grupo de servidores o equipo) antes de poder empezar a ejecutar en el escenario de autenticación. Para obtener detalles, vea [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging).
 
 
 > [!NOTE]
@@ -41,7 +41,7 @@ Por ejemplo:
     
     ![Consola Windows PowerShell después de llamar Show-CsCl](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Consola Windows PowerShell después de llamar Show-CsCl")
     
-    El resultado de Show-CsClsLogging es un resumen de los escenarios que se están ejecutando y en qué ámbito se está ejecutando. Para obtener detalles, vea [Show-CsClsLogging](show-csclslogging.md).
+    El resultado de Show-CsClsLogging es un resumen de los escenarios que se están ejecutando y en qué ámbito se está ejecutando. Para obtener detalles, vea [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging).
 
 3.  Para detener una sesión de registro actualmente en ejecución con un escenario específico, escriba:
     
@@ -55,7 +55,7 @@ Por ejemplo:
     
 
     > [!NOTE]
-    > No se eliminan los registros creados durante esta sesión de registro con el escenario de UserReplicator. El registro todavía está disponible para que ejecute las búsquedas con el comando Search-CsClsLogging. Para obtener detalles, vea <A href="search-csclslogging.md">Search-CsClsLogging</A>.
+    > No se eliminan los registros creados durante esta sesión de registro con el escenario de UserReplicator. El registro todavía está disponible para que ejecute las búsquedas con el comando Search-CsClsLogging. Para obtener detalles, vea <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging">Search-CsClsLogging</A>.
 
 
 
@@ -73,7 +73,7 @@ Actuando como el comando complementario para Start-CsClsLogging, el cmdlet Stop-
 
 #### Otros recursos
 
-[Show-CsClsLogging](show-csclslogging.md)  
-[Start-CsClsLogging](start-csclslogging.md)  
-[Stop-CsClsLogging](stop-csclslogging.md)
+[Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging)  
+[Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging)  
+[Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging)
 

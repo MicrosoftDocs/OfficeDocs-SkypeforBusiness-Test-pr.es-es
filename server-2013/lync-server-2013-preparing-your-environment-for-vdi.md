@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2013-02-22_
 
 Para preparar el entorno para el complemento de la VDI de Lync, siga estos pasos.
 
-1.  En Lync Server 2013, asegúrese de que EnableMediaRedirection tiene el valor TRUE para todos los usuarios de VDI. Para obtener información detallada, vea los temas de ayuda relativos al cmdlet [New-CsClientPolicy](new-csclientpolicy.md) y el cmdlet [Set-CsClientPolicy](set-csclientpolicy.md).
+1.  En Lync Server 2013, asegúrese de que EnableMediaRedirection tiene el valor TRUE para todos los usuarios de VDI. Para obtener información detallada, vea los temas de ayuda relativos al cmdlet [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) y el cmdlet [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
 
 2.  En el equipo del centro de datos, instale el cliente de Lync 2013 en todos los equipos virtuales.
 

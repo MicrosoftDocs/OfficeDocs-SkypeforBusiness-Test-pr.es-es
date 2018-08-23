@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de intervalos de puertos para servidores de conferencias, aplicaciones y mediación
-TOCTitle: Configuración de intervalos de puertos para servidores de conferencias, aplicaciones y mediación
+title: "Config. intervalos de puertos de servidores de conferencias, aplicaciones y mediación"
+TOCTitle: "Conf. des plages de ports pour vos serv. de confér., d’app. et de médiation"
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48275229
@@ -27,19 +27,9 @@ De forma predeterminada, los intervalos de puertos de audio y vídeo no se super
     
     Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Como puede ver en los comandos anteriores, a cada tipo de puerto: audio, vídeo y uso compartido de aplicaciones se les asigna dos valores de propiedad separados: el puerto de inicio y el número de puerto. El inicio de puerto indica el primer puerto que se usa para esa modalidad; por ejemplo, si el puerto de inicio de audio es igual a 50000, significa que el primer puerto que se usa para el tráfico de audio es puerto 50000. Si el recuento del puerto de audio es 2 (que no es un valor válido, pero se usa aquí para fines de ilustración) eso significa que solo se asignan para el audio 2 puertos. Si el primer puerto es el puerto 50000 y hay un total de dos puertos, eso significa que el segundo puerto debe ser el 50001 (los intervalos de puertos tienen que ser contiguos). Como resultado, el intervalo de puertos de audio sería del puerto 50000 hasta el 50001, incluidos.<br />
-Tenga en cuenta que el servidor de aplicaciones y el servidor de mediación solo admiten QoS para audio; no necesita cambiar el vídeo o el uso compartido de aplicaciones de puertos en sus servidores de aplicaciones o mediación.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Como puede ver en los comandos anteriores, a cada tipo de puerto: audio, vídeo y uso compartido de aplicaciones se les asigna dos valores de propiedad separados: el puerto de inicio y el número de puerto. El inicio de puerto indica el primer puerto que se usa para esa modalidad; por ejemplo, si el puerto de inicio de audio es igual a 50000, significa que el primer puerto que se usa para el tráfico de audio es puerto 50000. Si el recuento del puerto de audio es 2 (que no es un valor válido, pero se usa aquí para fines de ilustración) eso significa que solo se asignan para el audio 2 puertos. Si el primer puerto es el puerto 50000 y hay un total de dos puertos, eso significa que el segundo puerto debe ser el 50001 (los intervalos de puertos tienen que ser contiguos). Como resultado, el intervalo de puertos de audio sería del puerto 50000 hasta el 50001, incluidos.
+> Tenga en cuenta que el servidor de aplicaciones y el servidor de mediación solo admiten QoS para audio; no necesita cambiar el vídeo o el uso compartido de aplicaciones de puertos en sus servidores de aplicaciones o mediación.
 
 
 Si ejecuta los tres comandos anteriores verá que los valores de puerto predeterminados para Lync Server 2013 se configuran como este:

@@ -1,6 +1,6 @@
 ﻿---
-title: Cambiar una directiva de archivado para habilitar o deshabilitar el archivado de comunicaciones internas o externas para sus organizaciones, sitios usuarios
-TOCTitle: Cambiar una directiva de archivado para habilitar o deshabilitar el archivado de comunicaciones internas o externas para sus organizaciones, sitios usuarios
+title: "Cambiar directiva archivado para hab/deshab. archivado comunics. internas/externas"
+TOCTitle: "Mod. strat. arch. pr ac./dés. arch. des com. int./ext. pr vos org., sites, ut."
 ms:assetid: b85dc3fb-8ebd-4e3c-ac90-fc79270ac867
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182576(v=OCS.15)
 ms:contentKeyID: 48276447
@@ -55,18 +55,9 @@ Para más información sobre cómo se implementan las directivas, incluida la je
 
 6.  Haga clic en **Confirmar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para más información, vea <a href="lync-server-2013-applying-an-archiving-policy-to-users.md">Aplicación de una directiva de archivado a los usuarios</a>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para más información, vea <a href="lync-server-2013-applying-an-archiving-policy-to-users.md">Aplicación de una directiva de archivado a los usuarios</a>.
+    
 
 
 ## Habilitar y deshabilitar el archivado con los cmdlets de Lync Server PowerShell
@@ -97,7 +88,7 @@ El archivado también se puede habilitar y deshabilitar (para las sesiones de co
     
         Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
 
-Para más información, vea el tema de ayuda del cmdlet [Set-CsArchivingPolicy](set-csarchivingpolicy.md).
+Para más información, vea el tema de ayuda del cmdlet [Set-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingPolicy).
 
 ## Vea también
 

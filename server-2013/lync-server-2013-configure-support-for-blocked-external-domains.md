@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar la compatibilidad con dominios externos bloqueados'
+title: "Lync Server 2013: Configurar la compatibilidad con dominios externos bloqueados"
 TOCTitle: Configurar la compatibilidad con dominios externos bloqueados
 ms:assetid: 49103138-e1ab-42bf-91aa-57cf23bbf260
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ619176(v=OCS.15)

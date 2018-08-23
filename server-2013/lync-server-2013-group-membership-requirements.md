@@ -33,26 +33,18 @@ En la siguiente tabla se resumen el grupo o los grupos a los que una persona deb
 <tr class="odd">
 <td><p><strong>Setup.exe</strong>: ejecutable que inicia la instalación de las herramientas administrativas de Lync Server 2013.</p></td>
 <td><p>Miembro del grupo Administradores locales en el equipo desde el que se ejecuta el ejecutable. Miembro del grupo Usuarios de dominio para leer la información en Servicios de dominio de Active Directory. Este nivel de permiso es necesario porque la instalación automática de los paquetes MSI necesarios en el equipo local requiere privilegios que permitan la lectura de los recursos de equipos locales protegidos y la escritura en estos, como directorios Archivos de programa, y un registro protegido como el subárbol Local Machine.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>También puede delegar los permisos de instalación a los usuarios o grupos a los que no desea otorgar pertenencia en el grupo Admins. del dominio. Para obtener más información, consulte <a href="lync-server-2013-granting-setup-permissions.md">Concesión de permisos de instalación en Lync Server 2013</a> en la documentación sobre implementación.</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!TIP]  
+> También puede delegar los permisos de instalación a los usuarios o grupos a los que no desea otorgar pertenencia en el grupo Admins. del dominio. Para obtener más información, consulte <a href="lync-server-2013-granting-setup-permissions.md">Concesión de permisos de instalación en Lync Server 2013</a> en la documentación sobre implementación.
+
 
 </div></td>
 </tr>
 <tr class="even">
 <td><p><strong>Deploy.exe</strong>: llamado por setup.exe, deploy.exe realiza la implementación de los componentes del software para los roles del servidor.</p></td>
 <td><p>Miembro del grupo Administradores locales en el equipo desde el que se ejecuta el ejecutable. Miembro del grupo Usuarios de dominio para leer la información en los AD DS. Este nivel de permiso es necesario porque la instalación automática de los paquetes MSI necesarios en el equipo local requiere privilegios que permitan la lectura de los recursos de equipos locales protegidos y la escritura en estos, como directorios Archivos de programa, y un registro protegido como el subárbol Local Machine. La pertenencia en el grupo RtcUniversalReadOnlyAdmins es necesaria para leer el Almacén de administración central.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Si está ejecutando los sistemas operativos Sistema operativo Windows Vista o Sistema operativo Windows 7, el Control de acceso del usuario (UAC) le solicitará que continúe con la instalación. Si ha iniciado sesión con una cuenta de usuario estándar, necesitará que alguien que sea miembro del grupo Administradores locales le proporcione las credenciales cuando se le solicite una cuenta con permisos para instalar el software.

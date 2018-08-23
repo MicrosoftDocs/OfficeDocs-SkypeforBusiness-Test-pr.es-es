@@ -1,6 +1,6 @@
 ﻿---
-title: Configurar reglas del número de identificación personal (PIN) de la conferencia de acceso telefónico local en Lync Server 2013
-TOCTitle: Configurar reglas del número de identificación personal (PIN) de la conferencia de acceso telefónico local en Lync Server 2013
+title: "Configurar reglas de PIN para conferencia de acceso telefónico en Lync Server 2013"
+TOCTitle: "Conf. les règles de code conf. des conférences rdv dans Lync Server 2013"
 ms:assetid: 27b79fb1-e2dc-4f71-bc82-b6eb61be2b16
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520967(v=OCS.15)
 ms:contentKeyID: 48274722

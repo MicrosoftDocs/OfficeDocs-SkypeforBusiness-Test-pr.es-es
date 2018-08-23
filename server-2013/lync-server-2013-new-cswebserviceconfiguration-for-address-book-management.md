@@ -1,5 +1,5 @@
 ﻿---
-title: New-CsWebServiceConfiguration para la administración de la libreta de direcciones
+title: new-cswebserviceconfiguration para la administración de la libreta de direcciones
 TOCTitle: New-CsWebServiceConfiguration para la administración de la libreta de direcciones
 ms:assetid: 49e4ecc5-aa3e-4dd4-a32c-b0dea3758fab
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg429703(v=OCS.15)
@@ -31,5 +31,5 @@ Para obtener una descripción detallada del comando íntegro, remítase a lo sig
 
 #### Otros recursos
 
-[New-CsWebServiceConfiguration](new-cswebserviceconfiguration.md)
+[New-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsWebServiceConfiguration)
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Compatibilidad de la integración Exchange Server y SharePoint'
+title: "Lync Server 2013: Compatibilidad de la integración Exchange Server y SharePoint"
 TOCTitle: Compatibilidad de la integración Exchange Server y SharePoint
 ms:assetid: 72bf8aa5-55b1-4851-8a59-c96bf85d215a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205005(v=OCS.15)

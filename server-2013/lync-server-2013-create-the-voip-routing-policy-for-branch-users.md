@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear la directiva de enrutamiento VoIP para usuarios de sucursal'
+title: "Lync Server 2013: Crear la directiva de enrutamiento VoIP para usuarios de sucursal"
 TOCTitle: Crear la directiva de enrutamiento VoIP para usuarios de sucursal
 ms:assetid: 10deca9f-f870-4a42-b25d-e4fc53108658
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398196(v=OCS.15)

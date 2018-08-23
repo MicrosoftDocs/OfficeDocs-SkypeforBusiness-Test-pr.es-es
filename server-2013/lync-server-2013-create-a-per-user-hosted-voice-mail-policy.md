@@ -1,6 +1,6 @@
 ﻿---
-title: Crear una directiva de correo de voz hospedado por usuario en Lync Server 2013
-TOCTitle: Crear una directiva de correo de voz hospedado por usuario en Lync Server 2013
+title: "Créer une strat. de mess. Voc. hébergée par utilisateur dans Lync Server 2013"
+TOCTitle: "Créer une strat. de mess. Voc. hébergée par utilisateur dans Lync Server 2013"
 ms:assetid: 39018a7c-e0c3-46a2-be4e-05604ec67a50
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425867(v=OCS.15)
 ms:contentKeyID: 48274971
@@ -19,11 +19,11 @@ Una directiva *por usuario* solo puede afectar a usuarios individuales, grupos y
 
 Para obtener más información sobre cómo trabajar con directivas de correo de voz hospedado por usuario, consulte la documentación del Shell de administración de Lync Server acerca de los siguientes cmdlets:
 
-  - [New-CsHostedVoicemailPolicy](new-cshostedvoicemailpolicy.md)
+  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
-  - [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md)
+  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy)
 
-  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
 ## Para crear una directiva de correo de voz hospedado por usuario
 

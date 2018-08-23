@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Finalización e implementación del diseño de la topología'
+title: "Lync Server 2013 : Finalisation et implémentation de la conception de topol."
 TOCTitle: Finalización e implementación del diseño de la topología
 ms:assetid: 0d84dc98-de6f-4c85-b3f8-0b07d10dbcfc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398178(v=OCS.15)

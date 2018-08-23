@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Conmutación por recuperación y por error de servidores de chat persistente'
+title: "Conmutación por recuperación y por error de servidores de chat persistente"
 TOCTitle: Conmutación por recuperación y por error de servidores de chat persistente
 ms:assetid: bc9a791f-d15c-48c8-8682-1a8ad19d8c75
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205214(v=OCS.15)

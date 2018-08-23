@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos previos de configuración del estacionamiento de llamadas y derechos de usuario'
+title: "Lync Server 2013: Requisitos del estacionamiento de llamadas y derechos de usuario"
 TOCTitle: Requisitos previos de configuración del estacionamiento de llamadas y derechos de usuario
 ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425730(v=OCS.15)
@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2012-09-10_
 
 Estacionamiento de llamadas es una característica de administración de llamadas que se instala de forma predeterminada al implementar Telefonía IP empresarial. En este tema se explica qué elementos deben existir para poder configurar Estacionamiento de llamadas, así como los derechos de usuario que se necesitan para llevar a cabo tareas de configuración.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No se realiza copia de seguridad de los archivos de música en espera personalizados para Aplicación de estacionamiento de llamadas como parte del proceso de recuperación ante desastres de Lync Server 2013 y los archivos se perderán si se dañan o se borran los archivos cargados al grupo de servidores. Conserve siempre una copia de seguridad independiente de los archivos de música en espera personalizados que ha cargado para Estacionamiento de llamadas.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> No se realiza copia de seguridad de los archivos de música en espera personalizados para Aplicación de estacionamiento de llamadas como parte del proceso de recuperación ante desastres de Lync Server 2013 y los archivos se perderán si se dañan o se borran los archivos cargados al grupo de servidores. Conserve siempre una copia de seguridad independiente de los archivos de música en espera personalizados que ha cargado para Estacionamiento de llamadas.
+
 
 
 A este respecto, se da por hecho que ya se ha leído la documentación de planeación sobre Estacionamiento de llamadas; para ello, vea [Planificar las características de administración de llamadas en Lync Server 2013](lync-server-2013-planning-for-call-management-features.md).

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos previos y permisos de configuración para conferencias de acceso telefónico'
+title: "Lync Server 2013: Requisitos y permisos config. en conferencias de acceso telefónico"
 TOCTitle: Requisitos previos y permisos de configuración para conferencias de acceso telefónico
 ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412865(v=OCS.15)
@@ -54,18 +54,9 @@ En esta sección se presupone que ya he realizado el siguiente procedimiento:
     > Cuando instale la topología publicada, la página web de configuración de la conferencia de acceso telefónico local estará instalada en el grupo de servidores front-end o el servidor Standard Edition como parte de los servicios web.
 
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si cambia la ruta del almacén de archivos en Generador de topologías después de implementar Lync Server 2013, debe reiniciar las aplicaciones de operador de conferencia y anuncio de conferencia para usar la nueva ruta.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si cambia la ruta del almacén de archivos en Generador de topologías después de implementar Lync Server 2013, debe reiniciar las aplicaciones de operador de conferencia y anuncio de conferencia para usar la nueva ruta.
+    
 
 
   - Implementar Telefonía IP empresarial. Si no implementa Telefonía IP empresarial, ha instalado un servidor de mediación en el servidor front-end Enterprise Edition o el servidor Standard Edition, o ha implementado un servicio de mediación independiente y ha implementado una puerta de enlace RTC. Para obtener información detallada sobre la implementación de Telefonía IP empresarial, consulte [Implementar la telefonía IP empresarial en Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) en la documentación referente en la implementación. Para más información sobre la instalación de un servidor de mediación independiente y una puerta de enlace RTC, consulte [Implementar servidores de mediación y definir servidores del mismo nivel en Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) en la documentación referente a la implementación.

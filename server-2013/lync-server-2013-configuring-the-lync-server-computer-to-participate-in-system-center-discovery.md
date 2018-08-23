@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración del equipo de Lync Server para participar de la detección en System Center
-TOCTitle: Configuración del equipo de Lync Server para participar de la detección en System Center
+title: "Configurar equipo de Lync Server para participar de la detección en System Center"
+TOCTitle: "Conf. de l’ordinateur Lync Server pour la particip. à la déc. de System Center"
 ms:assetid: 2f9c9cb0-3120-4571-9cd2-657c2123fe21
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204776(v=OCS.15)
 ms:contentKeyID: 48274813

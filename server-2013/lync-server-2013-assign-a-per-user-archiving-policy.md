@@ -47,35 +47,17 @@ Para obtener información detallada sobre la creación de directivas de archivad
     
     4.  En función de la propiedad de usuario que haya seleccionado, especifique los criterios que desee utilizar para filtrar los resultados de búsqueda escribiendo o haciendo clic en la flecha de la lista desplegable.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong>.
+        
     
     5.  Haga clic en **Buscar**.
 
 6.  Haga clic en un usuario en los resultados de búsqueda, haga clic en **Acción** y, a continuación, en **Asignar directivas**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si desea que se aplique la misma directiva de archivado por usuario a múltiples usuarios, seleccione varios usuarios en los resultados de la búsqueda, a continuación, haga clic en <strong>Acciones</strong> y en <strong>Asignar directivas</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si desea que se aplique la misma directiva de archivado por usuario a múltiples usuarios, seleccione varios usuarios en los resultados de la búsqueda, a continuación, haga clic en <strong>Acciones</strong> y en <strong>Asignar directivas</strong>.
+    
 
 
 7.  En **Asignar directivas**, en **Directiva de archivado**, realice uno de los procedimientos siguientes:
@@ -89,18 +71,9 @@ Para obtener información detallada sobre la creación de directivas de archivad
     
       - Haga clic en el nombre de una directiva de archivado por usuario que haya definido anteriormente en la página **Directiva de archivado**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Para ayudarle a decidir la directiva que desea asignar, tras hacer clic en el nombre de una directiva, haga clic en <strong>Ver</strong> para ver los derechos y permisos de usuarios definidos en la directiva.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Para ayudarle a decidir la directiva que desea asignar, tras hacer clic en el nombre de una directiva, haga clic en <strong>Ver</strong> para ver los derechos y permisos de usuarios definidos en la directiva.
+        
 
 
 8.  Cuando haya terminado, haga clic en **Aceptar**.
@@ -117,7 +90,7 @@ Las directivas de archivado por usuario también pueden asignarse mediante Windo
 
 ## Asignar una directiva de archivado por usuario a varios usuarios
 
-  - Este comando asigna la directiva de archivado por usuario RedmondArchivingPolicy a todos los usuarios que tengan cuentas alojadas en el grupo de registradores en atl-cs-001.litwareinc.com. Para más información sobre el parámetro Filtro usado en este comando, consulte la documentación del cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando asigna la directiva de archivado por usuario RedmondArchivingPolicy a todos los usuarios que tengan cuentas alojadas en el grupo de registradores en atl-cs-001.litwareinc.com. Para más información sobre el parámetro Filtro usado en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -127,7 +100,7 @@ Las directivas de archivado por usuario también pueden asignarse mediante Windo
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## Vea también
 

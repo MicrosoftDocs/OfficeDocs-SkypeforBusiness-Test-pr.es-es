@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear una directiva de sitio para chat persistente'
+title: "Lync Server 2013 : Créa. d’une strat. de site pour la conversation permanente"
 TOCTitle: Crear una directiva de sitio para chat persistente
 ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204693(v=OCS.15)
@@ -33,18 +33,9 @@ La configuración de la directiva de sitio invalida la directiva global, aunque 
 
 3.  En la barra de navegación izquierda, haga clic en **Chat persistente** y luego en Directiva **Chat persistente**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>También puede utilizar cmdlets Windows PowerShell. Para más información, vea <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuración del servidor de chat persistente con cmdlets de Windows PowerShell</a> en la documentación de implementación.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > También puede utilizar cmdlets Windows PowerShell. Para más información, vea <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuración del servidor de chat persistente con cmdlets de Windows PowerShell</a> en la documentación de implementación.
+    
 
 
 4.  Haga clic en **Nuevo** y en **Directiva de sitio**.

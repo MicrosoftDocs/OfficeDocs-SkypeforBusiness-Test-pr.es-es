@@ -141,9 +141,9 @@ Para más información sobre cómo establecer las configuraciones de archivado i
 
 Mediante Shell de administración de Lync Server 2013, puede usar los cmdlets para implementar las opciones que no están disponibles en Panel de control de Lync Server 2013. Estas opciones incluyen lo siguiente:
 
-  - **Archivar mensajes duplicados**. Para más información, vea [New-CsArchivingConfiguration](new-csarchivingconfiguration.md) y [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md) en la documentación de operaciones.
+  - **Archivar mensajes duplicados**. Para más información, vea [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) y [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) en la documentación de operaciones.
 
-  - **Exportar datos archivados**. Para más información, vea [Export-CsArchivingData](export-csarchivingdata.md)
+  - **Exportar datos archivados**. Para más información, vea [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)
 
 ## ¿Cómo se puede acceder a datos archivados?
 

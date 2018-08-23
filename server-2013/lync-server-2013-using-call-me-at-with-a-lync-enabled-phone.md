@@ -1,6 +1,6 @@
 ﻿---
-title: Usar Llamarme al con un teléfono habilitado para Lync y Lync Server 2013
-TOCTitle: Usar Llamarme al con un teléfono habilitado para Lync y Lync Server 2013
+title: "Ut. de la fonctionnalité Appelle-moi à avec un tél. prenant en charge Lync"
+TOCTitle: "Ut. de la fonctionnalité Appelle-moi à avec un tél. prenant en charge Lync"
 ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn383570(v=OCS.15)
 ms:contentKeyID: 56559136

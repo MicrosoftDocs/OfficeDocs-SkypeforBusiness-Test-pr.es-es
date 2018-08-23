@@ -53,7 +53,7 @@ La información de ruta regional de red también se puede ver mediante Lync Serv
         NetworkRegionID1          : Pacific Northwest
         NetworkRegionID2          : Northeast
 
-Para obtener más información, vea el tema de la Ayuda para el cmdlet [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md).
+Para obtener más información, vea el tema de la Ayuda para el cmdlet [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute).
 
 ## Vea también
 

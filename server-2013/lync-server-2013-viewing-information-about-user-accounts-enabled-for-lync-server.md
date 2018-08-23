@@ -1,6 +1,6 @@
 ﻿---
-title: Ver información sobre las cuentas de usuario habilitadas para Lync Server 2013
-TOCTitle: Ver información sobre las cuentas de usuario habilitadas para Lync Server 2013
+title: "Aff. des info. sur les comptes d’utilisateurs activés pour Lync Server 2013"
+TOCTitle: "Aff. des info. sur les comptes d’utilisateurs activés pour Lync Server 2013"
 ms:assetid: 18309dca-b502-44e5-83e2-e314a827d298
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687980(v=OCS.15)
 ms:contentKeyID: 49888903

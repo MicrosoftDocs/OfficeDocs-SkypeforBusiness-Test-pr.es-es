@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Colocación de un servidor en una implementación de grupo de servidores front-end Enterprise Edition'
+title: "Colocar servidor en implementación de grupo servidores front-end Enterprise Edition"
 TOCTitle: Colocación de un servidor en una implementación de grupo de servidores front-end Enterprise Edition
 ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398102(v=OCS.15)
@@ -63,18 +63,9 @@ Puede combinar un recurso compartido de archivos con las bases de datos, como se
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Aunque se admite la combinación de las bases de datos, el tamaño de estas puede crecer rápidamente. Por ejemplo, si considera la combinación de la base de datos de archivado con otras bases de datos, tenga en cuenta que si va a archivar los mensajes de más de unos pocos usuarios, el espacio en disco que necesita la base de datos de archivado puede aumentar considerablemente. Por este motivo, no se recomienda la combinación de varias bases de datos, especialmente la base de datos de archivado, la base de datos de Chat persistente y la base de datos de cumplimiento de Chat persistente con la base de datos back-end.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Aunque se admite la combinación de las bases de datos, el tamaño de estas puede crecer rápidamente. Por ejemplo, si considera la combinación de la base de datos de archivado con otras bases de datos, tenga en cuenta que si va a archivar los mensajes de más de unos pocos usuarios, el espacio en disco que necesita la base de datos de archivado puede aumentar considerablemente. Por este motivo, no se recomienda la combinación de varias bases de datos, especialmente la base de datos de archivado, la base de datos de Chat persistente y la base de datos de cumplimiento de Chat persistente con la base de datos back-end.
+
 
 
 ## Recurso compartido de archivos

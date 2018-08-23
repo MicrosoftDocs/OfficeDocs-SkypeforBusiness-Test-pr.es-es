@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar las reglas de publicación web para un solo grupo de servidores interno'
+title: "Configurar las reglas de publicación web para un solo grupo de servidores interno"
 TOCTitle: Configurar las reglas de publicación web para un solo grupo de servidores interno
 ms:assetid: 86ff4b2a-1ba9-46a2-a175-8b19e00a49dd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg429712(v=OCS.15)
@@ -105,18 +105,9 @@ Realice los siguientes procedimientos para crear las reglas de publicación web.
 
 4.  Asigne el certificado que usará HTTPS. En el lado izquierdo de la consola, seleccione el **Sitio web predeterminado** del servidor IIS. En el lado derecho, haga clic en **Enlaces** . En el diálogo **Enlaces de sitios** , haga clic en **Agregar** . En el diálogo **Agregar enlace de sitio** debajo de **Tipo** , seleccione **https** . Si selecciona https, podrá seleccionar el certificado para usar en https. En **Certificado SSL** , seleccione el certificado que importó para el proxy inverso. Haga clic en **Aceptar** . A continuación, haga clic en **Cerrar** . El certificado ahora está enlazado al proxy inverso para la Capa de sockets seguros (SSL) y la Seguridad de la capa de transporte (TLS).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si recibe una advertencia al cerrar los diálogos de enlaces intermedios para los certificados faltantes, necesita encontrar e importar el certificado de autoridad de raíz de la entidad de certificación (CA) pública y todos los certificados intermedios de la CA. Consulte las instrucciones en la CA pública desde la que solicitó el certificado y siga las instrucciones para solicitar e importar una cadena de certificado. Si exportó el certificado desde Servidor perimetral, puede exportar el certificado de CA raíz y todos los certificados intermedios de CA asociados con Servidor perimetral. Importe el certificado de CA raíz al almacén de entidades de certificación raíz de confianza del equipo (no debe confundirse con el almacén del usuario) y los certificados intermedios al almacén de entidades de certificación intermedia del equipo.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si recibe una advertencia al cerrar los diálogos de enlaces intermedios para los certificados faltantes, necesita encontrar e importar el certificado de autoridad de raíz de la entidad de certificación (CA) pública y todos los certificados intermedios de la CA. Consulte las instrucciones en la CA pública desde la que solicitó el certificado y siga las instrucciones para solicitar e importar una cadena de certificado. Si exportó el certificado desde Servidor perimetral, puede exportar el certificado de CA raíz y todos los certificados intermedios de CA asociados con Servidor perimetral. Importe el certificado de CA raíz al almacén de entidades de certificación raíz de confianza del equipo (no debe confundirse con el almacén del usuario) y los certificados intermedios al almacén de entidades de certificación intermedia del equipo.
+    
 
 
 5.  En el lado izquierdo de la consola debajo del nombre de servidor de IIS, haga clic con el botón secundario en **Granjas de servidores** y, a continuación, haga clic en **Crear granja de servidores** .
@@ -130,18 +121,9 @@ Realice los siguientes procedimientos para crear las reglas de publicación web.
 
 6.  En el diálogo **Agregar servidor** en **Dirección del servidor** , escriba el nombre de dominio completo (FQDN) de los servicios web externos en Servidor front-end. Los nombres que se usarán aquí para fines ilustrativos son los mismos que se usan en la sección Planeación para el proxy inverso, [Resumen de certificado - Proxy inverso en Lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md). Al referirnos a la planeación del proxy inverso, escribimos el FQDN `webext.contoso.com`. Confirme que la casilla junto a **En línea** está activada. Haga clic en **Agregar** para agregar el servidor al grupo de servidores web para esta configuración.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server usa equilibradores de carga de hardware para agrupar Director y Servidores front-end para el tráfico HTTP y HTTPS. Solo proporcionará un FQDN al agregar un servidor a la granja de servidores de IIS ARR. El FQDN será el Servidor front-end o Director en configuraciones de servidor no agrupadas, o bien el FQDN del equilibrador de carga del hardware configurado para grupos de servidores. El único método admitido para equilibrar la carga del tráfico HTTP y HTTPS es mediante equilibradores de carga de hardware.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Lync Server usa equilibradores de carga de hardware para agrupar Director y Servidores front-end para el tráfico HTTP y HTTPS. Solo proporcionará un FQDN al agregar un servidor a la granja de servidores de IIS ARR. El FQDN será el Servidor front-end o Director en configuraciones de servidor no agrupadas, o bien el FQDN del equilibrador de carga del hardware configurado para grupos de servidores. El único método admitido para equilibrar la carga del tráfico HTTP y HTTPS es mediante equilibradores de carga de hardware.
+    
 
 
 7.  En el diálogo **Agregar servidor** , haga clic en **Configuración avanzada** . Se abrirá un diálogo para definir el enrutamiento de solicitud de aplicaciones para las solicitudes al FQDN configurado. El propósito es redefinir el puerto que se usa cuando se procesa la solicitud mediante IIS ARR.
@@ -154,34 +136,16 @@ Realice los siguientes procedimientos para crear las reglas de publicación web.
 
 10. Haga clic en el nombre de la granja de servidores. En **Granja de servidores** en Vista Características del Administrador de IIS, haga doble clic en **Proxy**. En la página de configuración de proxy, cambie el valor de **Tiempo de espera (segundos)** a un valor adecuado para su implementación. Haga clic en **Aplicar** para guardar el cambio.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El valor de tiempo de espera de proxy es un número que puede variar de una implementación a otra. Debe supervisar su implementación y modificar el valor para lograr la mejor experiencia para los clientes. Puede establecer el valor tan bajo como 200. Si admite a los clientes móviles de Lync en su entorno, debe establecer el valor en 960 para permitir el tiempo de espera de las notificaciones de inserción de Office 365 que tienen un valor de tiempo de espera de 900. Es muy probable que necesite aumentar el valor de tiempo de espera para evitar que el cliente se desconecte cuando el valor sea demasiado bajo o disminuirlo si las conexiones a través del proxy no se desconectan y se borran mucho tiempo después de que el cliente se ha desconectado. La supervisión y la línea base de lo que es normal para el entorno es el único método preciso para determinar dónde está el parámetro correcto para este valor.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > El valor de tiempo de espera de proxy es un número que puede variar de una implementación a otra. Debe supervisar su implementación y modificar el valor para lograr la mejor experiencia para los clientes. Puede establecer el valor tan bajo como 200. Si admite a los clientes móviles de Lync en su entorno, debe establecer el valor en 960 para permitir el tiempo de espera de las notificaciones de inserción de Office 365 que tienen un valor de tiempo de espera de 900. Es muy probable que necesite aumentar el valor de tiempo de espera para evitar que el cliente se desconecte cuando el valor sea demasiado bajo o disminuirlo si las conexiones a través del proxy no se desconectan y se borran mucho tiempo después de que el cliente se ha desconectado. La supervisión y la línea base de lo que es normal para el entorno es el único método preciso para determinar dónde está el parámetro correcto para este valor.
+    
 
 
 11. Haga clic en el nombre de la granja de servidores. En **Granja de servidores** en Vista Características del Administrador de IIS, haga doble clic en **Reglas de enrutamiento** . En el diálogo Reglas de enrutamiento debajo de Enrutamiento, desactive la casilla junto a Habilitar descarga de SSL. Si la opción para desactivar la casilla no está disponible, active la casilla para **Usar URL Rewrite para inspeccionar solicitudes entrantes** . Haga clic en **Aplicar** para guardar los cambios.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ204932.Caution(OCS.15).gif" title="Caution" alt="Caution" />Precaución:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No se admite la descarga de SSL mediante el proxy inverso.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]  
+    > No se admite la descarga de SSL mediante el proxy inverso.
+    
 
 
 12. Repita los pasos 5 a 11 para cada URL que deba pasar a través del proxy inverso. Una lista común sería la siguiente:
@@ -198,18 +162,9 @@ Realice los siguientes procedimientos para crear las reglas de publicación web.
     
       - URL del servidor de Office Web Apps: officewebapps01.contoso.com
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>La dirección URL de Servidor Office Web Apps usará otra dirección httpsPort. En el paso 7, debe definir <strong>httpsPort</strong> como <strong>443</strong> y <strong>httpPort</strong> como el puerto <strong>80</strong> . Las demás opciones de configuración son las mismas.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!IMPORTANT]  
+        > La dirección URL de Servidor Office Web Apps usará otra dirección httpsPort. En el paso 7, debe definir <strong>httpsPort</strong> como <strong>443</strong> y <strong>httpPort</strong> como el puerto <strong>80</strong> . Las demás opciones de configuración son las mismas.
+        
 
 
 13. En el lado izquierdo de la consola, haga clic en el nombre de servidor de IIS. En medio de la consola, localice **URL Rewrite** debajo de **IIS** . Haga doble clic en URL Rewrite para abrir la configuración de las reglas de URL Rewrite. Debe ver reglas para cada granja de servidores que haya creado en los pasos anteriores. Si no es así, confirme que haya hecho clic en el nombre del **Servidor IIS** inmediatamente abajo del nodo de la **Página de inicio** en la consola del Administrador de Internet Information Server.
@@ -228,18 +183,9 @@ Realice los siguientes procedimientos para crear las reglas de publicación web.
 
 15. Repita el procedimiento definido en el paso 14 para cada regla de reescritura de SSL que haya definido, una por URL de granja de servidores.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>De manera predeterminada, las reglas HTTP se crean también y se indican por medio de nombres similares a las reglas SSL. Para el ejemplo actual, la regla HTTP se denominaría <strong>ARR_webext.contoso.com_loadbalance</strong> . No se necesitan modificaciones para estas reglas y se pueden omitir de forma segura.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > De manera predeterminada, las reglas HTTP se crean también y se indican por medio de nombres similares a las reglas SSL. Para el ejemplo actual, la regla HTTP se denominaría <strong>ARR_webext.contoso.com_loadbalance</strong> . No se necesitan modificaciones para estas reglas y se pueden omitir de forma segura.
+    
 
 
 ## Para modificar las propiedades de la regla de publicación de web en TMG 2010

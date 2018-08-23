@@ -1,6 +1,6 @@
 ﻿---
-title: Uso de Inicio para el servicio de registro centralizado para los registros de captura
-TOCTitle: Uso de Inicio para el servicio de registro centralizado para los registros de captura
+title: "Uso de Inicio para el servicio de registro centralizado para los registros de captura"
+TOCTitle: "Ut. comm. Start pour capture des journaux par le serv. de journ. centralisée"
 ms:assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687958(v=OCS.15)
 ms:contentKeyID: 49888793
@@ -43,7 +43,7 @@ El Servicio de registro centralizado ofrece dos formas de ejecutar comandos. Var
     
 
     > [!NOTE]
-    > El escenario AlwaysOn no tiene duración predeterminada. Este escenario permanecerá en ejecución hasta que lo detenga explícitamente con el cmdlet <STRONG>Stop-CsClsLogging</STRONG>. Para obtener más detalles, vea <A href="stop-csclslogging.md">Stop-CsClsLogging</A>. Para el resto de escenarios, la duración predeterminada es de 4 horas.
+    > El escenario AlwaysOn no tiene duración predeterminada. Este escenario permanecerá en ejecución hasta que lo detenga explícitamente con el cmdlet <STRONG>Stop-CsClsLogging</STRONG>. Para obtener más detalles, vea <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</A>. Para el resto de escenarios, la duración predeterminada es de 4 horas.
 
 
 
@@ -60,18 +60,9 @@ El Servicio de registro centralizado ofrece dos formas de ejecutar comandos. Var
     
         Start-CsClsLogging -Scenario Authentication
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Puede tener un total de hasta dos escenarios en ejecución a la vez en un mismo equipo. Si el comando tiene un ámbito global, todos los equipos de su implementación ejecutarán el escenario o los escenarios. Para iniciar un tercer escenario, deberá detener el registro en el equipo, grupo de equipos, sitio o ámbito global en el que desee ejecutar el nuevo escenario. En caso de que haya iniciado un ámbito global, detenga el registro de uno o ambos escenarios en uno o varios de los equipos o grupos de equipos. Para obtener más detalles sobre la administración de los escenarios en ejecución, vea <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Uso de Detener en el servicio de registro centralizado</a> y <a href="stop-csclslogging.md">Stop-CsClsLogging</a>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Puede tener un total de hasta dos escenarios en ejecución a la vez en un mismo equipo. Si el comando tiene un ámbito global, todos los equipos de su implementación ejecutarán el escenario o los escenarios. Para iniciar un tercer escenario, deberá detener el registro en el equipo, grupo de equipos, sitio o ámbito global en el que desee ejecutar el nuevo escenario. En caso de que haya iniciado un ámbito global, detenga el registro de uno o ambos escenarios en uno o varios de los equipos o grupos de equipos. Para obtener más detalles sobre la administración de los escenarios en ejecución, vea <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Uso de Detener en el servicio de registro centralizado</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>.
+    
 
 
 ## Para ejecutar Start-CsClsLogging con el Windows PowerShell mediante comandos avanzados

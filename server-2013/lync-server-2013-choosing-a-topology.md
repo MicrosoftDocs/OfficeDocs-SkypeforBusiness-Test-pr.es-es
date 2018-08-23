@@ -18,7 +18,7 @@ _**Última modificación del tema:** 2015-03-09_
 Al elegir una topología, puede usar una de las siguientes opciones compatibles:
 
 
-> [!NOTE]
+> [!NOTE]  
 > A menos que se indique otra cosa, si tiene experiencia con Microsoft Lync Server 2010, encontrará que las instrucciones aquí no han cambiado en gran parte.
 
 
@@ -33,18 +33,8 @@ Al elegir una topología, puede usar una de las siguientes opciones compatibles:
 
   - [Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La interfaz perimetral interna y la interfaz perimetral externa deben usar el mismo tipo de equilibrio de carga. No puede usar equilibrio de carga DNS en una interfaz perimetral y equilibrio de carga de hardware en la otra interfaz perimetral.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> La interfaz perimetral interna y la interfaz perimetral externa deben usar el mismo tipo de equilibrio de carga. No puede usar equilibrio de carga DNS en una interfaz perimetral y equilibrio de carga de hardware en la otra interfaz perimetral.
 
 
 En la siguiente tabla se resume la funcionalidad que disponible con las topologías de Microsoft Lync Server 2013 admitidas. Los encabezados de columna indican la funcionalidad disponible con una opción de configuración perimetral determinada. Si tomamos la opción perimetral escalada (DNS con equilibro de carga) como ejemplo, veremos que admite una alta disponibilidad, puede usar direcciones IP privadas no enrutables (con NAT) o direcciones IP públicas enrutables asignadas a las interfaces perimetrales externas y reduce el costo dado que no necesita un equilibrador de carga de hardware.
@@ -112,39 +102,20 @@ Escenarios de conmutación por error de servidor perimetral compatibles con equi
 
 **\*** La conmutación por error para conectividad de mensajería instantánea pública (MI) y la federación con servidores que ejecutan Office Communications Server no están disponibles con el equilibrio de carga DNS. La conmutación por error Mensajería unificada de Exchange (usuario remoto) usando el equilibrio de carga DNS requiere Exchange Server 2010 SP1 o versiones más recientes.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />Nota:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><br />
-Las topologías de perimetral simple y perimetral escalada (con equilibrio de carga DNS) pueden usar:
-<ul>
-<li><p>Direcciones IP públicas enrutables</p></li>
-<li><p>Dirección IP privada no enrutable si se usa la traducción de direcciones de red (NAT) simétrica</p>
-<div class="alert">
-
-> [!NOTE]
+> [!NOTE]  
+> Las topologías de perimetral simple y perimetral escalada (con equilibrio de carga DNS) pueden usar:
+> <ul>
+> <li><p>Direcciones IP públicas enrutables</p></li>
+> <li><p>Dirección IP privada no enrutable si se usa la traducción de direcciones de red (NAT) simétrica</p></li></ul>
+> 
 > Si usa la dirección IP pública o la dirección IP privada con NAT, seguirá usando el mismo número de direcciones IP establecido en la configuración de Generador de topologías. Puede configurar el Servidor perimetral para que use una sola dirección IP con diferentes puertos por servicio o para que use distintas direcciones IP por servicio, pero en el mismo puerto (de manera predeterminada, TCP 443).
-
-
-</div></li>
-</ul>
-Si decide usar direcciones IP privadas no enrutables con NAT:
-<ul>
-<li><p>Debe usar direcciones IP privadas enrutables en las tres interfaces externas</p></li>
-<li><p>Debe configurar NAT simétrica para tráfico entrante y saliente</p></li>
-</ul>
-La topología perimetral escalada (equil. carga hardware) debe usar direcciones IP.</td>
-</tr>
-</tbody>
-</table>
+> 
+> Si decide usar direcciones IP privadas no enrutables con NAT:
+> 
+> <ul><li><p>Debe usar direcciones IP privadas enrutables en las tres interfaces externas</p></li>
+> <li><p>Debe configurar NAT simétrica para tráfico entrante y saliente</p></li></ul>
+>
+> La topología perimetral escalada (equil. carga hardware) debe usar direcciones IP.
 
 
 Lync Server 2013 es compatible con interfaces perimetrales externas de acceso, conferencia web y A/V detrás de un enrutador o servidor de firewall que realiza la traducción de direcciones de red (NAT) para topologías de servidor perimetral consolidadas escaladas y únicas.
@@ -239,18 +210,8 @@ Los principales aspectos a la hora de decantarse por una topología son la alta 
 
   - **Alta disponibilidad**   Si necesita una gran disponibilidad, implemente dos servidores perimetrales en un grupo como mínimo. Un solo grupo de servidores perimetrales admitirá un máximo de doce servidores perimetrales. En caso de que se requiera más capacidad, se pueden implementar varios grupos perimetrales. Como regla general, un 10% de una base de usuarios determinada necesitará acceso externo.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La Generador de topologías le permitirá configurar hasta veinte Servidores perimetrales en un solo Grupo de servidores perimetrales. El número máximo de Servidores perimetrales probados y admitidos en un grupo es doce y el hecho de que la Generador de topologías permita una cantidad mayor no debe interpretarse como la compatibilidad implícita con más de doce Servidores perimetrales en un solo Grupo de servidores perimetrales.</td>
-    </tr>
-    </tbody>
-    </table>
+  > [!IMPORTANT]  
+  > La Generador de topologías le permitirá configurar hasta veinte Servidores perimetrales en un solo Grupo de servidores perimetrales. El número máximo de Servidores perimetrales probados y admitidos en un grupo es doce y el hecho de que la Generador de topologías permita una cantidad mayor no debe interpretarse como la compatibilidad implícita con más de doce Servidores perimetrales en un solo Grupo de servidores perimetrales.
 
 
   - **Equilibrio de carga de hardware**   Se admite el equilibrio de carga de hardware para el equilibrio de carga de Lync Server 2013  Servidores perimetrales cuando se usan direcciones IP enrutables públicamente para las interfaces externas perimetrales. Por ejemplo, este método podría usarse en situaciones en las que se necesita conmutación por error para cualquiera de las siguientes aplicaciones:
@@ -261,31 +222,11 @@ Los principales aspectos a la hora de decantarse por una topología son la alta 
     
       - Acceso externo a la mensajería unificada de Exchange 2007 o de Exchange 2010
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Se admite el equilibrio de carga DNS para Exchange 2010 SP1 y opciones más recientes para Mensajería unificada de Exchange.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!IMPORTANT]  
+        > Se admite el equilibrio de carga DNS para Exchange 2010 SP1 y opciones más recientes para Mensajería unificada de Exchange.
     
     Estas tres aplicaciones pueden seguir funcionando, pero no reparan en el equilibrio de carga DNS y solo se conectarán al primer servidor perimetral del grupo, de modo que si este no se encuentra disponible, la conexión no se establecerá. Por ejemplo, si hay varios servidores perimetrales en un grupo con los que se controla la carga de tráfico federado, solo un proxy de acceso recibirá el tráfico realmente, mientras que el resto permanecerá inactivo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se aconseja usar el equilibrio de carga DNS si va a federar con compañías por medio de Lync Server 2010 y Microsoft Office 365. Tenga presente que esto tendrá un enorme impacto en el rendimiento si la mayoría de los socios federados usa Office Communications Server 2007 o Office Communications Server 2007 R2.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Se aconseja usar el equilibrio de carga DNS si va a federar con compañías por medio de Lync Server 2010 y Microsoft Office 365. Tenga presente que esto tendrá un enorme impacto en el rendimiento si la mayoría de los socios federados usa Office Communications Server 2007 o Office Communications Server 2007 R2.
 

@@ -17,19 +17,9 @@ _**Última modificación del tema:** 2015-03-19_
 
 El Servidor de chat persistente ofrece el concepto de miembros permitidos/denegados, que se aplica a las categorías de Chat persistente y controla quién puede tener acceso a los salones de chat de una categoría determinada.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Los miembros permitidos/denegados de una categoría no son lo mismo que el rol <strong>Miembro</strong>, que se aplica a un salón de Chat persistente.<br />
-Las búsquedas muestran todos los salones de chat abiertos y cerrados para los que el usuario que realiza la búsqueda se encuentra en la lista de miembros permitidos/denegados. Los salones secretos no se muestran a menos que el usuario que realiza la búsqueda sea miembro del salón secreto. De este modo, el usuario solo puede buscar salones de los que sea miembro o aquellos a los que pueda solicitar ser miembro.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Los miembros permitidos/denegados de una categoría no son lo mismo que el rol <strong>Miembro</strong>, que se aplica a un salón de Chat persistente.<br />
+> Las búsquedas muestran todos los salones de chat abiertos y cerrados para los que el usuario que realiza la búsqueda se encuentra en la lista de miembros permitidos/denegados. Los salones secretos no se muestran a menos que el usuario que realiza la búsqueda sea miembro del salón secreto. De este modo, el usuario solo puede buscar salones de los que sea miembro o aquellos a los que pueda solicitar ser miembro.
 
 
 El principio básico del concepto de miembros permitidos/denegados son las zonas de protección. Por ejemplo, en las instituciones financieras y bancarias, es muy común disponer de límites de protección que impidan a los comerciantes y analistas compartir comunicaciones durante la implementación de directivas y convenciones. Para ello, el administrador puede crear categorías de manera que una categoría admita la creación y el uso de salones por parte de los comerciantes, mientras que la otra admita la creación y el uso de salones por parte de los analistas. Esta limitación está diseñada para impedir que se agreguen usuarios como miembros del salón si la categoría principal lo prohíbe.
@@ -47,18 +37,9 @@ A continuación se muestran los cuatro roles de usuario del Servidor de chat per
 
   - **Administrador:** usuarios que administran las propiedades de un salón de chat. Los administradores de salones de chat pueden modificar la lista de miembros (agregar o quitar miembros), así como la lista de administradores de la sala de chat (agregar y quitar administradores). Los administradores de los salones de chat pueden agregarse a sí mismos a la lista de miembros o de moderadores (en salones de auditorio) para participar en el salón de chat. También pueden deshabilitar salones de chat (los administradores pueden consultar los salones de chat deshabilitados para eliminarlos de forma permanente). Los administradores pueden cambiar todas las propiedades de los salones de chat, excepto la categoría del salón de chat. Solo el Administrador del Chat persistente puede modificar la categoría una vez creado el salón de chat.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>En caso de que el administrador también sea autor en otra categoría, estará autorizado a cambiar la categoría a otra en la que esté autorizado a crear salones de chat.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > En caso de que el administrador también sea autor en otra categoría, estará autorizado a cambiar la categoría a otra en la que esté autorizado a crear salones de chat.
+    
 
 
   - **Miembro:** usuarios miembros de un salón de chat. Estos usuarios pueden ver los salones de chat en el directorio (incluso si el salón de chat es secreto) y suscribirse al salón de chat (incluidas las opciones de metadatos como, por ejemplo, los mensajes no leídos, los filtros ego y de palabras clave) para participar en el salón de chat (pueden publicar contenido a menos que el salón sea un salón de auditorio en el que solo los moderadores pueden publicar, obtener y buscar contenido). Los usuarios que no sean miembros del salón de chat puede buscar el salón de chat solo si están en la lista de miembros permitidos de la categoría, aunque deberán solicitar el acceso para unirse a esos salones de chat y tener acceso al contenido. (La solicitud o la aprobación del acceso no están integrados en el sistema. Estas acciones se llevan a cabo de forma externa por teléfono, correo electrónico o a través de otros medios de contacto.)

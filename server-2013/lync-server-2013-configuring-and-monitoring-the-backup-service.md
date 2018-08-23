@@ -41,18 +41,9 @@ Por ejemplo, lo siguiente establece el intervalo en tres minutos.
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Aunque puede usar este cmdlet para cambiar el intervalo de sincronización predeterminado para el servicio de copia de seguridad, no debe hacerlo a menos que sea absolutamente necesario, puesto que el intervalo de sincronización tiene un gran impacto en el rendimiento del servicio de copia de seguridad y en el objetivo del punto de recuperación (RPO).</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Aunque puede usar este cmdlet para cambiar el intervalo de sincronización predeterminado para el servicio de copia de seguridad, no debe hacerlo a menos que sea absolutamente necesario, puesto que el intervalo de sincronización tiene un gran impacto en el rendimiento del servicio de copia de seguridad y en el objetivo del punto de recuperación (RPO).
+
 
 
 ## Para obtener el estado del servicio de copia de seguridad para un determinado grupo de servidores

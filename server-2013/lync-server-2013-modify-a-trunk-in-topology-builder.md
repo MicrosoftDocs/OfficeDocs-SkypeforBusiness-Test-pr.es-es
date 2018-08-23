@@ -1,6 +1,6 @@
 ﻿---
-title: Modificación de un tronco en el Generador de topologías en Lync Server 2013
-TOCTitle: Modificación de un tronco en el Generador de topologías en Lync Server 2013
+title: "Mod. d’une jonction dans le générateur de topologie dans Lync Server 2013"
+TOCTitle: "Mod. d’une jonction dans le générateur de topologie dans Lync Server 2013"
 ms:assetid: 81055a82-c6f8-47b2-9779-223b1d842f36
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688110(v=OCS.15)
 ms:contentKeyID: 49889350

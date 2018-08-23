@@ -69,7 +69,7 @@ Los planes de marcado por usuario también pueden asignarse mediante el uso de W
 
 ## Asignar un plan de marcado por usuario a varios usuarios
 
-  - Este comando asigna el plan de marcado por usuario RedmondDialPlan a todos los usuarios que trabajen en la ciudad de Redmond. Para obtener más información sobre el parámetro LdapFilter que se utiliza en este comando, consulte la documentación del cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando asigna el plan de marcado por usuario RedmondDialPlan a todos los usuarios que trabajen en la ciudad de Redmond. Para obtener más información sobre el parámetro LdapFilter que se utiliza en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
 
@@ -79,7 +79,7 @@ Los planes de marcado por usuario también pueden asignarse mediante el uso de W
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsDialPlan](grant-csdialplan.md).
+Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan).
 
 ## Vea también
 

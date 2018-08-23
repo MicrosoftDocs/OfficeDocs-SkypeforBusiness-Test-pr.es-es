@@ -19,26 +19,17 @@ Una *directiva entre sitios de red* define las limitaciones de ancho de banda en
 
 Para ver más detalles, consulte la documentación del Shell de administración de Lync Server correspondiente a los siguientes cmdlets:
 
-  - [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md)
+  - [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)
 
-  - [Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)
+  - [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)
 
-  - [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)
+  - [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)
 
-  - [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)
+  - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Una directiva entre sitios de red <em>solo</em> se necesita si hay un vínculo cruzado directo entre dos sitios de red.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Una directiva entre sitios de red <em>solo</em> se necesita si hay un vínculo cruzado directo entre dos sitios de red.
+
 
 
 En la topología de ejemplo de la región de Norteamérica, hay un vínculo directo entre los sitios de Reno y Albuquerque. Estos dos sitios requieren una directiva entre sitios que aplique un perfil de directiva de ancho de banda adecuado. En el siguiente ejemplo se aplica el perfil 20Mb\_Link.

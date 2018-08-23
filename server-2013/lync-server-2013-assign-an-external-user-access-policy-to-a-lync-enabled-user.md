@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Asignar una directiva de acceso de usuario externo a un usuario habilitado para Lync'
+title: "Lync Server 2013: Asignar directiva de acceso de usuario externo a usuario con Lync"
 TOCTitle: Asignar una directiva de acceso de usuario externo a un usuario habilitado para Lync
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398551(v=OCS.15)
@@ -55,7 +55,7 @@ Las directivas de acceso externo por usuario se pueden asignar con el Windows Po
 
 ## Para asignar una directiva de acceso externo por usuario a varios usuarios
 
-  - Este comando asigna la directiva de acceso externo por usuario USAExternalAccessPolicy a todos los usuarios que tienen cuentas en la unidad organizativa (OU) de los Estados Unidos en Active Directory. Para más información sobre el parámetro OU utilizado en este comando, consulte la información sobre el cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando asigna la directiva de acceso externo por usuario USAExternalAccessPolicy a todos los usuarios que tienen cuentas en la unidad organizativa (OU) de los Estados Unidos en Active Directory. Para más información sobre el parámetro OU utilizado en este comando, consulte la información sobre el cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
@@ -65,5 +65,5 @@ Las directivas de acceso externo por usuario se pueden asignar con el Windows Po
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md).
+Si desea más información, consulte el tema de ayuda relativo al cmdlet [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy).
 

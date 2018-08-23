@@ -254,18 +254,8 @@ los usuarios que se han incluido en los archivos del servidor de libreta de dire
 
 Puede usar ciertos bits de indicador para definir un filtro que se vaya a usar en los atributos del servidor de libreta de direcciones. Por ejemplo, la presencia de ciertos bits de indicador pueden identificar un atributo como un atributo de inclusión o un atributo de exclusión. El Replicador de usuarios deja fuera a los contactos que contienen un atributo de exclusión y a los contactos que no contienen un atributo de inclusión.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obtener más información sobre cómo filtrar la libreta de direcciones, consulte <a href="lync-server-2013-address-book-server-cmdlets.md">Cmdlets de servidor de libreta de direcciones</a> y <a href="http://go.microsoft.com/fwlink/?linkid=330430">Filtrar la libreta de direcciones de Lync 2013</a></td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Para obtener más información sobre cómo filtrar la libreta de direcciones, consulte <a href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Cmdlets de servidor de libreta de direcciones</a> y <a href="http://go.microsoft.com/fwlink/?linkid=330430">Filtrar la libreta de direcciones de Lync 2013</a>
 
 
 En estos momentos, existen tres tipos diferentes de filtros. En la tabla siguiente se enumeran estos filtros.
@@ -317,16 +307,7 @@ Una vez haya modificado la tabla AbAttribute, puede actualizar los datos en la t
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si ha consolidado o modificado de alguna otra forma la infraestructura a partir de una implementación de varios bosques o de una implementación de miembro principal/secundario (como la consolidación de su infraestructura antes de transferirse a Lync Server), es posible que experimente errores para algunos usuarios con la descarga del servicio de libreta de direcciones y del servicio de consulta web de la libreta de direcciones. Cuando en una implementación que tenía varios dominios o bosques, se incluye el atributo <strong>MsRTCSIP-OriginatorSid</strong> se rellena en los objetos de usuario que muestran el problema, el atributo <strong>MsRTCSIP-OriginatorSid</strong> debe establecerse en NULL en estos objetos para resolver el problema.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si ha consolidado o modificado de alguna otra forma la infraestructura a partir de una implementación de varios bosques o de una implementación de miembro principal/secundario (como la consolidación de su infraestructura antes de transferirse a Lync Server), es posible que experimente errores para algunos usuarios con la descarga del servicio de libreta de direcciones y del servicio de consulta web de la libreta de direcciones. Cuando en una implementación que tenía varios dominios o bosques, se incluye el atributo <strong>MsRTCSIP-OriginatorSid</strong> se rellena en los objetos de usuario que muestran el problema, el atributo <strong>MsRTCSIP-OriginatorSid</strong> debe establecerse en NULL en estos objetos para resolver el problema.
+
 

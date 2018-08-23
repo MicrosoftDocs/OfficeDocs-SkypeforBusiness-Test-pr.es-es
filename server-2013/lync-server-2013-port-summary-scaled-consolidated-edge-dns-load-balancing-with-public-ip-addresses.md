@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumen de puerto - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas'
+title: "Resumen puerto: Servidor perimetral consol. ampl., equilib. carga DNS con IP públicas"
 TOCTitle: Resumen de puerto - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas
 ms:assetid: f7cbd0f1-841d-4116-8d17-e9d991daa4a8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205394(v=OCS.15)

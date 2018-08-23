@@ -19,18 +19,9 @@ En este tema se describe cómo instalar las herramientas administrativas que deb
 
 Asegúrese de revisar los requisitos de infraestructura, sistema operativos, software y derechos de administrador antes de instalar o usar las herramientas administrativas de Lync Server 2013. Para obtener información detallada sobre los requisitos de infraestructura, vea [Requisitos de infraestructura de herramientas administrativas de Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Para obtener información detallada sobre los requisitos de sistema operativo y software para instalar las herramientas administrativas de Lync Server 2013 vea [Compatibilidad del sistema operativo con el servidor y las herramientas en Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [Requisitos adicionales de software para Lync Server 2013](lync-server-2013-additional-software-requirements.md) y [Compatibilidad y requisitos para un servidor adicional en Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Para obtener información detallada sobre los permisos y derechos de usuario requeridos para instalar y usar las herramientas, vea [Derechos de administrador y permisos requeridos para la instalación y la administración de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si su organización necesita que ubique Internet Information Services (IIS) y todos los servicios web en una unidad que no sea la unidad del sistema, debe cambiar la ruta de acceso a la ubicación de instalación de los archivos de Lync Server en el cuadro de diálogo de instalación. Si instala los archivos de instalación, incluido OCSCore.msi, a esta ruta de acceso, el resto de los archivos de Lync Server 2013 se implementará también en esta unidad.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si su organización necesita que ubique Internet Information Services (IIS) y todos los servicios web en una unidad que no sea la unidad del sistema, debe cambiar la ruta de acceso a la ubicación de instalación de los archivos de Lync Server en el cuadro de diálogo de instalación. Si instala los archivos de instalación, incluido OCSCore.msi, a esta ruta de acceso, el resto de los archivos de Lync Server 2013 se implementará también en esta unidad.
+
 
 
 ## Para instalar las herramientas de administración de Lync Server 2013
@@ -43,18 +34,9 @@ Asegúrese de revisar los requisitos de infraestructura, sistema operativos, sof
 
 4.  En la página **Microsoft Lync Server 2013Ubicación de instalación de Microsoft Lync Server 2010** , haga clic en **Aceptar** . Cambie esta ruta de acceso a otra ubicación o unidad si necesita que los archivos se instalen en una ubicación diferente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si su organización necesita que ubique Servicios de Internet Information Server (IIS) y todos los Servicios web en una unidad que no sea la unidad del sistema, debe cambiar la ruta de acceso a la ubicación de instalación de los archivos de Lync Server 2013 en el cuadro de diálogo de instalación. Si instala los archivos de instalación, incluido OCSCore.msi, a esta ruta de acceso, el resto de los archivos de Lync Server 2013 se implementará también en esta unidad.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si su organización necesita que ubique Servicios de Internet Information Server (IIS) y todos los Servicios web en una unidad que no sea la unidad del sistema, debe cambiar la ruta de acceso a la ubicación de instalación de los archivos de Lync Server 2013 en el cuadro de diálogo de instalación. Si instala los archivos de instalación, incluido OCSCore.msi, a esta ruta de acceso, el resto de los archivos de Lync Server 2013 se implementará también en esta unidad.
+    
 
 
 5.  En la página **Contrato de licencia para el usuario final** , revise los términos de la licencia, haga clic en **Acepto** y, a continuación, haga clic en **Aceptar** . Este paso es necesario para poder continuar

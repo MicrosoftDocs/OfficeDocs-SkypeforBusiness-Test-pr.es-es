@@ -1,6 +1,6 @@
 ﻿---
-title: Lista de comprobaciones para la implementación de conferencias web en Lync Server 2013
-TOCTitle: Lista de comprobaciones para la implementación de conferencias web en Lync Server 2013
+title: "Lista de comprobación para la implementación de conferencias web en Lync Server 2013"
+TOCTitle: "Liste de vérif. du déploiement pour la conférence web dans Lync Server 2013"
 ms:assetid: 9908ebe0-e5d3-4920-b9b1-85021f7e69e9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205104(v=OCS.15)
 ms:contentKeyID: 48276105
@@ -45,7 +45,7 @@ En la siguiente tabla se ofrece información general sobre los pasos necesarios 
 <tr class="odd">
 <td><p><strong>Instale el hardware y el software necesario como requisito previo</strong></p></td>
 <td><p>Las conferencias se ejecutan en Servidores front-end, en un Grupo de servidores front-end y en Servidores Standard Edition. No requiere ningún hardware o software adicional más allá de los necesarios para instalar estos servidores.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Lync Server 2013 usa Office Web Apps y el Servidor Office Web Apps para administrar el uso compartido y la representación de presentaciones de PowerPoint. Para obtener más información acerca de cómo instalar y configurar el Servidor Office Web Apps, consulte <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configuración de la integración de Office Web Apps Server y Lync Server 2013</A>.

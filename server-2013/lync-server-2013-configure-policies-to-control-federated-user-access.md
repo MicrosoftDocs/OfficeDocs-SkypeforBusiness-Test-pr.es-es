@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar directivas para controlar el acceso de usuarios federados'
+title: "Lync Server 2013: Config. directivas para controlar el acceso de usuarios federados"
 TOCTitle: Configurar directivas para controlar el acceso de usuarios federados
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398359(v=OCS.15)
@@ -69,18 +69,9 @@ Si se trata de una directiva de usuario, también tiene que aplicar la directiva
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El parámetro “EnablePublicCloudAudioVideoAccess” no tiene una selección correspondiente en el Panel de control de Lync Server</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > El parámetro “EnablePublicCloudAudioVideoAccess” no tiene una selección correspondiente en el Panel de control de Lync Server
+    
 
 
 ## Para crear una nueva directiva con Windows PowerShell para admitir el acceso de usuarios de dominios federados
@@ -128,9 +119,9 @@ Si se trata de una directiva de usuario, también tiene que aplicar la directiva
 
 [Administrar dominios federados SIP para la organización en Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
 [Administrar proveedores federados SIP para la organización en Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)  
-[New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)  
-[Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
-[Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)  
-[Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 

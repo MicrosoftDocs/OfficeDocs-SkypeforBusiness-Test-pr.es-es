@@ -1,6 +1,6 @@
 ﻿---
-title: Especificación de las aplicaciones cliente que se pueden usar para iniciar sesión en Lync Server 2013
-TOCTitle: Especificación de las aplicaciones cliente que se pueden usar para iniciar sesión en Lync Server 2013
+title: "Especificar aplicaciones cliente para iniciar sesión en Lync Server 2013"
+TOCTitle: "Spéc. des app. clients pouvant être util. pour la connexion à Lync Server 2013"
 ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182591(v=OCS.15)
 ms:contentKeyID: 48276752
@@ -25,18 +25,9 @@ Además de crear una directiva global, puede crear directivas de versión de cli
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Los filtros se enumeran en orden de prioridad. Por ejemplo, si tiene un filtro que permite conectarse a los clientes que estén ejecutando la versión 1.5 o posterior, seguido de un filtro que bloquee a los clientes que estén ejecutando una versión anterior a la 2.0, el primer filtro tiene prioridad y se permitirá conectarse a los clientes que ejecuten la versión 1.5.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Los filtros se enumeran en orden de prioridad. Por ejemplo, si tiene un filtro que permite conectarse a los clientes que estén ejecutando la versión 1.5 o posterior, seguido de un filtro que bloquee a los clientes que estén ejecutando una versión anterior a la 2.0, el primer filtro tiene prioridad y se permitirá conectarse a los clientes que ejecuten la versión 1.5.
+
 
 
 ## Para editar la directiva predeterminada de versión de cliente

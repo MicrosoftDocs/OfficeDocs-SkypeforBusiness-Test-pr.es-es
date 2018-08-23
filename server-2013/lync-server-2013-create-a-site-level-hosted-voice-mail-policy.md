@@ -1,6 +1,6 @@
 ﻿---
-title: Crear una directiva de correo de voz hospedado a nivel de sitio en Lync Server 2013
-TOCTitle: Crear una directiva de correo de voz hospedado a nivel de sitio en Lync Server 2013
+title: "Crear una directiva de correo de voz hospedado a nivel de sitio en Lync Server 2013"
+TOCTitle: "Créer une strat. de mess. vocale hébergée pour un site dans Lync Server 2013"
 ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398216(v=OCS.15)
 ms:contentKeyID: 48274511
@@ -19,11 +19,11 @@ Una directiva del *sitio* puede afectar a todos los usuarios del sitio en el que
 
 Para obtener información detallada sobre cómo configurar directivas del sitio, consulte la documentación del Shell de administración de Lync Server relativa a los siguientes cmdlet:
 
-  - [New-CsHostedVoicemailPolicy](new-cshostedvoicemailpolicy.md)
+  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
-  - [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md)
+  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy)
 
-  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
 ## Para crear una directiva de correo de voz hospedado del sitio
 

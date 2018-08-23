@@ -1,6 +1,6 @@
 ﻿---
-title: Creación o modificación de un conjunto de opciones de configuración de CDR
-TOCTitle: Creación o modificación de un conjunto de opciones de configuración de CDR
+title: "Créa. ou mo. d’une coll. de par. de con. de l’enr. des détails des appels"
+TOCTitle: "Créa. ou mo. d’une coll. de par. de con. de l’enr. des détails des appels"
 ms:assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721878(v=OCS.15)
 ms:contentKeyID: 49889679
@@ -19,7 +19,7 @@ El registro detallado de llamadas (CDR) permite realizar un seguimiento del uso 
 
 Cuando se instala Microsoft Lync Server 2013, se crea de forma predeterminada una colección global y única de valores de configuración del CDR. Los administradores pueden también crear una configuración personalizada en el ámbito de sitio. Cuando se usa esta configuración en el ámbito del sitio, predomina sobre la configuración global. Por ejemplo, si crea una configuración cuyo ámbito es el sitio para el sitio de Redmond, se usará dicha configuración (en lugar de la configuración global) para administrar el CDR de Redmond.
 
-Puede crear los valores de configuración del CDR con Panel de control de Lync Server, o con el cmdlet [New-CsCdrConfiguration](new-cscdrconfiguration.md). También puede usar Panel de control de Lync Server o el cmdlet [Set-CsCdrConfiguration](set-cscdrconfiguration.md) para modificar la configuración actual. Si usa Panel de control de Lync Server para crear o modificar la configuración, puede escoger entre las opciones siguientes:
+Puede crear los valores de configuración del CDR con Panel de control de Lync Server, o con el cmdlet [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration). También puede usar Panel de control de Lync Server o el cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) para modificar la configuración actual. Si usa Panel de control de Lync Server para crear o modificar la configuración, puede escoger entre las opciones siguientes:
 
 
 <table>
@@ -67,7 +67,7 @@ Puede crear los valores de configuración del CDR con Panel de control de Lync S
 
 
 > [!NOTE]
-> Los cmdlets New-CsCdrConfiguration y Set-CsCdrConfiguration incluyen otras opciones no disponibles en Panel de control de Lync Server. Para más información, consulte los temas de Ayuda <A href="new-cscdrconfiguration.md">New-CsCdrConfiguration</A> y <A href="set-cscdrconfiguration.md">Set-CsCdrConfiguration</A>.
+> Los cmdlets New-CsCdrConfiguration y Set-CsCdrConfiguration incluyen otras opciones no disponibles en Panel de control de Lync Server. Para más información, consulte los temas de Ayuda <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</A> y <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</A>.
 
 
 
@@ -111,5 +111,5 @@ Los valores de configuración del CDR también pueden crearse con Windows PowerS
     
         New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
 
-Para más información, consulte el tema de Ayuda del cmdlet [New-CsCdrConfiguration](new-cscdrconfiguration.md).
+Para más información, consulte el tema de Ayuda del cmdlet [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration).
 

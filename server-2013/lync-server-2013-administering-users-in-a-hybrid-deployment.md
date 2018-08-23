@@ -19,25 +19,20 @@ Puede administrar las directivas y configuraciones de usuario para los usuarios 
 
 ## Mover a usuarios localmente
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Esta sección solo se aplica a usuarios creados y habilitados para Lync local y posteriormente movidos de una implementación local a Lync Online. Si quiere mover a usuarios creados en Lync Online (y que nunca han sido habilitados para Lync en una implementación local) vea <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Mover usuarios de Lync Online a Lync local en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Esta sección solo se aplica a usuarios creados y habilitados para Lync local y posteriormente movidos de una implementación local a Lync Online. Si quiere mover a usuarios creados en Lync Online (y que nunca han sido habilitados para Lync en una implementación local) vea <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Mover usuarios de Lync Online a Lync local en Lync Server 2013</a>.
+
 
 
   - Ejecute los siguientes cmdlets para volver a mover un usuario de Lync Online a Lync local:
     
-        $cred=Get-Credential
+    ```
+    $cred=Get-Credential
+    ```
+    ```
+    Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
+    ```
     
-        Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
 
 El formato de la dirección URL especificada para el parámetro **HostedMigrationOverrideUrl** debe ser la dirección URL al grupo donde se ejecuta el servicio de migración hospedado, con el siguiente formato:
 

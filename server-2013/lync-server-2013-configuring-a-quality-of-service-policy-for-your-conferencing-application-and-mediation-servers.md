@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar la directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación'
+title: "Directiva calidad servicio para servidores de conferencia, aplic. y mediación"
 TOCTitle: Configurar la directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación
 ms:assetid: 8adcbbc5-c9f5-476d-ab7f-72e61859cacf
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205076(v=OCS.15)

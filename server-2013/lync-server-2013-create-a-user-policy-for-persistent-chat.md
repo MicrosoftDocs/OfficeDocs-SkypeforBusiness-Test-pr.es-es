@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear una directiva de usuario para chat persistente'
+title: "Lync Server 2013 : Créa. d’une strat. ut. pour la conversation permanente"
 TOCTitle: Crear una directiva de usuario para chat persistente
 ms:assetid: aa3774af-d442-4206-8a68-2fbb9102e9d6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205170(v=OCS.15)
@@ -31,18 +31,9 @@ La directiva de usuario anula la directiva global y las directivas de sitio, per
 
 2.  En el menú **Inicio** , seleccione el Panel de control de Lync Server o abra la ventana del explorador y, después, escriba la dirección URL del administrador. Para más información sobre los diferentes métodos que puede usar para abrir el Panel de control de Lync Server, vea [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>También puede usar los cmdlets de Windows PowerShell. Vea <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuración del servidor de chat persistente con cmdlets de Windows PowerShell</a> en la documentación sobre implementación.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > También puede usar los cmdlets de Windows PowerShell. Vea <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuración del servidor de chat persistente con cmdlets de Windows PowerShell</a> en la documentación sobre implementación.
+    
 
 
 3.  En la barra de navegación izquierda, haga clic en **Chat persistente** y, a continuación, en Directiva **Chat persistente**.

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Nuevas características de aplicación de estacionamiento de llamadas'
+title: "Lync Server 2013: Nuevas características de aplicación de estacionamiento de llamadas"
 TOCTitle: Nuevas características de aplicación de estacionamiento de llamadas
 ms:assetid: bddff13c-92cc-47fd-bfd4-6e8bfbfed11b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412927(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Modificación de las opciones de configuración de troncos SIP en Lync Server 2013
-TOCTitle: Modificación de las opciones de configuración de troncos SIP en Lync Server 2013
+title: "Modificación de las opciones de configuración de troncos SIP en Lync Server 2013"
+TOCTitle: "Modif. des paramètres de conf. d’une jonction SIP dans Lync Server 2013"
 ms:assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688104(v=OCS.15)
 ms:contentKeyID: 49889243
@@ -60,7 +60,7 @@ Al modificar las opciones de configuración de troncos SIP con Panel de control 
 <tr class="even">
 <td><p>Nivel de compatibilidad con el cifrado</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Indica el nivel de apoyo para proteger el tráfico de medios entre el Servidor de mediación y la puerta de enlace RTC, IP-PBX, o SBC en el proveedor de servicio. Para los casos de desvío de medios, este valor debe ser compatible con la configuración de EncryptionLevel en la configuración de medios. La configuración de medios se establece con los cmdlets <a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> y <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a>.</p>
+<td><p>Indica el nivel de apoyo para proteger el tráfico de medios entre el Servidor de mediación y la puerta de enlace RTC, IP-PBX, o SBC en el proveedor de servicio. Para los casos de desvío de medios, este valor debe ser compatible con la configuración de EncryptionLevel en la configuración de medios. La configuración de medios se establece con los cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
 <p>los valores permitidos son los siguientes:</p>
 <ul>
 <li><p>Requeridos: debe usarse el cifrado SRTP.</p></li>
@@ -147,7 +147,7 @@ Al modificar las opciones de configuración de troncos SIP con Panel de control 
 
 
 > [!NOTE]
-> Loas cmdlets Lync Server CsTrunkConfiguration admiten propiedades adicionales que no se muestran en Panel de control de Lync Server. Para más información, vea la ayuda para el cmdlet <A href="set-cstrunkconfiguration.md">Set-CsTrunkConfiguration</A>.
+> Loas cmdlets Lync Server CsTrunkConfiguration admiten propiedades adicionales que no se muestran en Panel de control de Lync Server. Para más información, vea la ayuda para el cmdlet <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</A>.
 
 
 

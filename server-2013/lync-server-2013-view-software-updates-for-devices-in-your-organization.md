@@ -1,6 +1,6 @@
 ﻿---
-title: Ver actualizaciones de software para dispositivos en Lync Server 2013
-TOCTitle: Ver actualizaciones de software para dispositivos en Lync Server 2013
+title: "Afficher des màj logicielles pour les périphériques dans Lync Server 2013"
+TOCTitle: "Afficher des màj logicielles pour les périphériques dans Lync Server 2013"
 ms:assetid: d2cca12b-ed43-4e1f-90ab-d14bca8b482c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182592(v=OCS.15)
 ms:contentKeyID: 48276771
@@ -15,20 +15,11 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2016-12-08_
 
-Con Lync Server 2013, se usa Servicio web de actualización de dispositivos para ver y administrar las actualizaciones de software para los dispositivos de la organización. Estas actualizaciones se encuentran disponibles en archivos .cab en el sitio web de soporte de Microsoft en [http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0xc0a](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0xc0a). Una vez que haya descargado el archivo .cab, ejecute el cmdlet **Import-CSdeviceUpdate** para importar las reglas de actualización de dispositivos desde el archivo .cab. Para obtener información detallada sobre el cmdlet **Import-CSdeviceUpdate**, consulte [Import-CsDeviceUpdate](import-csdeviceupdate.md) en la documentación de Shell de administración de Lync Server.
+Con Lync Server 2013, se usa Servicio web de actualización de dispositivos para ver y administrar las actualizaciones de software para los dispositivos de la organización. Estas actualizaciones se encuentran disponibles en archivos .cab en el sitio web de soporte de Microsoft en [http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0xc0a](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0xc0a). Una vez que haya descargado el archivo .cab, ejecute el cmdlet **Import-CSdeviceUpdate** para importar las reglas de actualización de dispositivos desde el archivo .cab. Para obtener información detallada sobre el cmdlet **Import-CSdeviceUpdate**, consulte [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate) en la documentación de Shell de administración de Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de implementar una actualización nueva para la organización, compruebe que funciona correctamente en un dispositivo de pruebas.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Antes de implementar una actualización nueva para la organización, compruebe que funciona correctamente en un dispositivo de pruebas.
+
 
 
 ## Para ver actualizaciones de software para dispositivos de comunicaciones unificadas

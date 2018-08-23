@@ -29,18 +29,9 @@ Antes de usar el equilibrio de carga de DNS, deberá hacer lo siguiente:
 
 1.  Invalidar el FQDN de grupo del Servicios web interno.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si decide reemplazar los servicios web internos con un FQDN definido por usted mismo, cada FQDN debe ser único en cualquier Grupo de servidores front-end, Director o Grupo de directores.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Si decide reemplazar los servicios web internos con un FQDN definido por usted mismo, cada FQDN debe ser único en cualquier Grupo de servidores front-end, Director o Grupo de directores.
+    
 
 
 2.  Crear registros de host A de DNS con los que el FQDN del grupo se resuelva en las direcciones IP de todos los servidores del grupo.

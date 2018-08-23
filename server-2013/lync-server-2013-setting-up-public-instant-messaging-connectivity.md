@@ -37,16 +37,7 @@ Si su organización desea admitir la conectividad de mensajería instantánea p�
     
     El nombre de certificado predeterminado de la plantilla usada para Lync Server es Web Server. Solo especifique el \<nombre de plantilla\> si tiene que usar una plantilla que sea diferente de la plantilla predeterminada.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si su organización desea admitir la conectividad de mensajería instantánea pública con AOL, debe utilizar Windows PowerShell en lugar del Asistente para certificados para solicitar el certificado que se asignará a la arista externa para el servicio perimetral de acceso. Esto es porque la plantilla de la entidad emisora de certificados (CA) de servidor Web que utiliza el Asistente para certificados para solicitar un certificado no es compatible con la configuración del cliente de EKU. Antes de utilizar Windows PowerShell para crear el certificado, el Administrador de entidad emisora de certificados debe crear e implementar una nueva plantilla que sea compatible con cliente EKU.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si su organización desea admitir la conectividad de mensajería instantánea pública con AOL, debe utilizar Windows PowerShell en lugar del Asistente para certificados para solicitar el certificado que se asignará a la arista externa para el servicio perimetral de acceso. Esto es porque la plantilla de la entidad emisora de certificados (CA) de servidor Web que utiliza el Asistente para certificados para solicitar un certificado no es compatible con la configuración del cliente de EKU. Antes de utilizar Windows PowerShell para crear el certificado, el Administrador de entidad emisora de certificados debe crear e implementar una nueva plantilla que sea compatible con cliente EKU.
+    
 

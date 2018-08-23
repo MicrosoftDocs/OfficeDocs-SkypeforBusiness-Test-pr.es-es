@@ -53,16 +53,7 @@ Se recomienda que realice una copia de la imagen del sistema antes de iniciar la
     
       - Siga los pasos del asistente hasta que aparezca el diálogo **Crear base de datos reflejada**. Seleccione la base de datos que desea instalar y complete este proceso.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>En lugar de ejecutar el Generador de topologías, puede usar el cmdlet <strong>Install-CsMirrorDatabase</strong> para configurar la creación de reflejo. Para obtener información detallada, vea la documentación sobre el Shell de administración de Lync Server.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > En lugar de ejecutar el Generador de topologías, puede usar el cmdlet <strong>Install-CsMirrorDatabase</strong> para configurar la creación de reflejo. Para obtener información detallada, vea la documentación sobre el Shell de administración de Lync Server.
+        
 

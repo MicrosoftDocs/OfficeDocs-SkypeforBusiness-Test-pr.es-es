@@ -32,18 +32,9 @@ Use el parámetro EnableHotdesking del cmdlet **New-CSClientPolicy** o el cmdlet
     
         New-CsClientPolicy -Identity "NewCommonAreaPhonePolicy" - EnableHotdesking $True
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Después de crear esta directiva, habrá que asignarla a los teléfonos de área común apropiados. Para más información, consulte <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Asignar directivas a un teléfono de área común</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Después de crear esta directiva, habrá que asignarla a los teléfonos de área común apropiados. Para más información, consulte <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Asignar directivas a un teléfono de área común</a>.
+
 
 
 ## Desactivación de hot-desk
@@ -52,5 +43,5 @@ Use el parámetro EnableHotdesking del cmdlet **New-CSClientPolicy** o el cmdlet
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $False
 
-Para más información, consulte los temas de ayuda referentes al cmdlet [New-CsClientPolicy](new-csclientpolicy.md) y al cmdlet [Set-CsClientPolicy](set-csclientpolicy.md).
+Para más información, consulte los temas de ayuda referentes al cmdlet [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) y al cmdlet [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Instalar los requisitos previos de software de Lync Server 2013'
+title: 'Lync Server 2013: Instalar requisitos previos de software de Lync Server 2013'
 TOCTitle: Instalar los requisitos previos de software de Lync Server 2013
 ms:assetid: 4a3a6a5c-1dc5-4dab-9201-a0df04ba9bfb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204856(v=OCS.15)

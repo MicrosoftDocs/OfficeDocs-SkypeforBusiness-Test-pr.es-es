@@ -1,6 +1,6 @@
 ﻿---
-title: Configurar las opciones globales del desvío de medios en Lync Server 2013 para usar la información de sitio y región
-TOCTitle: Configurar las opciones globales del desvío de medios en Lync Server 2013 para usar la información de sitio y región
+title: "Config. global del desvío de medios en Lync Server 2013 para info. de sitio y región"
+TOCTitle: "Conf. par. gl. du cont. média ds LS 2013 pr ut. inf. rel. aux sites et rég."
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398150(v=OCS.15)
 ms:contentKeyID: 48274377
@@ -63,18 +63,9 @@ Además, para que la desviación funcione correctamente, debe existir coherencia
 
 A continuación, agregue subredes al sitio de red, tal y como se indica en [Asociar subredes a sitios de red para el desvío de medios](lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md). (Los procedimientos reales para asociar subredes a sitios de red se describen en [Asociar una subred a un sitio de red en Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)). Cuando haya asociado todas las subredes a sitios de red, la implementación del desvío de medios habrá finalizado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si todavía no ha creado regiones de red y sitios de red, deberá crearlos en primer lugar para poder continuar con la implementación del desvío de medios. Para obtener más información, consulte <a href="lync-server-2013-create-or-modify-a-network-region.md">Crear o modificar una región de red en Lync Server 2013</a> y <a href="lync-server-2013-create-or-modify-a-network-site.md">Crear o modificar un sitio de red en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si todavía no ha creado regiones de red y sitios de red, deberá crearlos en primer lugar para poder continuar con la implementación del desvío de medios. Para obtener más información, consulte <a href="lync-server-2013-create-or-modify-a-network-region.md">Crear o modificar una región de red en Lync Server 2013</a> y <a href="lync-server-2013-create-or-modify-a-network-site.md">Crear o modificar un sitio de red en Lync Server 2013</a>.
+
 
 
 ## Vea también

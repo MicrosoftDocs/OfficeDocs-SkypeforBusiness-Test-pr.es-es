@@ -23,18 +23,9 @@ Para crear un anuncio, debe seguir estos pasos:
 
 3.  Ejecute el cmdlet **New-CsAnnouncement** para crear y asignar un nombre al anuncio. Lleve a cabo este paso para crear anuncios con un mensaje de audio, con un mensaje TTS o sin mensaje.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Puede que le interese crear un anuncio sin mensaje; por ejemplo, si quiere transferir las llamadas a un destino específico sin reproducir un mensaje.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Puede que le interese crear un anuncio sin mensaje; por ejemplo, si quiere transferir las llamadas a un destino específico sin reproducir un mensaje.
+    
 
 
 4.  Asigne el nuevo anuncio a un intervalo de números en la tabla de números no asignados.
@@ -69,13 +60,13 @@ En este tema se describe cómo importar y crear anuncios. Para obtener informaci
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    Para más información sobre estos cmdlets y para ver la lista de códigos de idioma que usar en el parámetro **TextToSpeechPrompt**, consulte [New-CsAnnouncement](new-csannouncement.md).
+    Para más información sobre estos cmdlets y para ver la lista de códigos de idioma que usar en el parámetro **TextToSpeechPrompt**, consulte [New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement).
 
 ## Vea también
 
 #### Otros recursos
 
-[Import-CsAnnouncementFile](import-csannouncementfile.md)  
-[New-CsAnnouncement](new-csannouncement.md)  
+[Import-CsAnnouncementFile](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsAnnouncementFile)  
+[New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement)  
 [Configurar la tabla de números sin asignar en Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)
 

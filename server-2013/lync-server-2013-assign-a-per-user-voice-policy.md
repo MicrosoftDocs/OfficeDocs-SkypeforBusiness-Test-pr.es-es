@@ -65,7 +65,7 @@ Las directivas de voz por usuario también pueden asignarse mediante el uso de W
 
 ## Asignar una directiva de voz por usuario a varios usuarios
 
-  - Este comando asigna la directiva de voz por usuario FinanceVoicePolicy a todos los usuarios que tengan cuentas en el OU Finance de Active Directory. Para más información sobre el parámetro OU que se usa en este comando, consulte la documentación del cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando asigna la directiva de voz por usuario FinanceVoicePolicy a todos los usuarios que tengan cuentas en el OU Finance de Active Directory. Para más información sobre el parámetro OU que se usa en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -75,7 +75,7 @@ Las directivas de voz por usuario también pueden asignarse mediante el uso de W
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsVoicePolicy](grant-csvoicepolicy.md).
+Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy).
 
 ## Vea también
 

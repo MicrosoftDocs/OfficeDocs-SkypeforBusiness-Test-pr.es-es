@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Información general sobre la preparación de los Servicios de dominio de Active Directory'
+title: "Lync Server 2013: Preparación de los Servicios de dominio de Active Directory"
 TOCTitle: Información general sobre la preparación de los Servicios de dominio de Active Directory
 ms:assetid: cdd2a652-6a0d-4728-9950-3fcaa7a80066
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398869(v=OCS.15)
@@ -43,7 +43,7 @@ En la tabla siguiente se describen los pasos necesarios para preparar AD DS par
 <td><p>Extienda el esquema de Active Directory. Para ello, agregue las nuevas clases y atributos que usa Lync Server.</p>
 <p>Ejecútelo una vez para cada bosque de la implementación donde se vaya a implementar Lync Server.</p></td>
 <td><p>En el maestro de esquema del dominio raíz de cada bosque donde se vaya a implementar Lync Server.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > No es necesario realizar este paso en el dominio raíz si tiene permisos en el maestro de esquema, pero debe ser miembro de los grupos Administradores de esquema en el dominio raíz y Administradores de organización en el maestro de esquema. En una topología de bosque de recursos, ejecute este paso solo en el bosque de recursos, no en los bosques de usuarios. En una topología de bosque central, ejecute este paso solo en el bosque central, no en los bosques de usuarios.
@@ -57,7 +57,7 @@ En la tabla siguiente se describen los pasos necesarios para preparar AD DS par
 <td><p>Crea la configuración global y los grupos universales que usa Lync Server.</p>
 <p>Ejecútelo una vez para cada bosque de la implementación donde se vaya a implementar Lync Server.</p></td>
 <td><p>En el dominio raíz de cada bosque donde se va a implementar Lync Server. Para llevar a cabo este paso, debe ser miembro del grupo Administradores de organización.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > En una topología de bosque de recursos, ejecute este paso solo en el bosque de recursos, no en los bosques de usuarios. En una topología de bosque central, ejecute este paso solo en el bosque central, no en los bosques de usuarios.
@@ -70,7 +70,7 @@ En la tabla siguiente se describen los pasos necesarios para preparar AD DS par
 <td><p><a href="lync-server-2013-preparing-domains.md">Preparar dominios para Lync Server 2013</a></p></td>
 <td><p>Agrega permisos a los objetos que van a usar los miembros de grupos universales.</p>
 <p>Ejecútelo una vez por dominio de usuario o dominio de servidor.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Si va a migrar de Lync Server 2010 a Lync Server 2013, el Asistente para la implementación puede indicar que la preparación del dominio ya se ha completado. No necesita volver a ejecutar la preparación del dominio. Los permisos no se han cambiado de Lync Server 2010 a Lync Server 2013.

@@ -19,26 +19,13 @@ Para crear un salón nuevo de Servidor de chat persistente
 
     New-CsPersistentChatRoom -Name Foo1 -PersistentChatPoolFqdn client.contoso.com -Category client.contoso.com\Foo [other parameters]
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>-PersistentChatPoolFqdn no es necesario si se cumple una de las siguientes acciones:
-<ul>
-<li><p>Hay un solo Grupo de servidores de chat persistente.</p></li>
-<li><p>Proporciona un poolFqdn a la categoría.</p></li>
-<li><p>Proporciona un poolFqdn para agregar un salón.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> -PersistentChatPoolFqdn no es necesario si se cumple una de las siguientes acciones:
+> <ul>
+> <li><p>Hay un solo Grupo de servidores de chat persistente.</p></li>
+> <li><p>Proporciona un poolFqdn a la categoría.</p></li>
+> <li><p>Proporciona un poolFqdn para agregar un salón.</p></li>
+> </ul>
 
 
 Realizar cambios en una salón existente de Servidor de chat persistente

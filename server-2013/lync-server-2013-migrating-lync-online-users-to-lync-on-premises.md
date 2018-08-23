@@ -15,19 +15,9 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2016-12-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Estos pasos solo son necesarios para migrar cuentas de usuario habilitadas originalmente para Lync en Lync Online antes de la implementación de Lync local. Para mover usuarios habilitados originalmente para Lync local y que posteriormente se movieron a Lync Online, vea <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administrar usuarios en una implementación híbrida de Lync Server 2013</a>.<br />
-Además, todos los usuarios que se muevan deberán tener cuentas en Active Directory local.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Estos pasos solo son necesarios para migrar cuentas de usuario habilitadas originalmente para Lync en Lync Online antes de la implementación de Lync local. Para mover usuarios habilitados originalmente para Lync local y que posteriormente se movieron a Lync Online, vea <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administrar usuarios en una implementación híbrida de Lync Server 2013</a>.<br />
+> Además, todos los usuarios que se muevan deberán tener cuentas en Active Directory local.
 
 
 ## Migrar cuentas de usuario originalmente habilitadas en Lync Online a Lync local
@@ -40,9 +30,12 @@ Además, todos los usuarios que se muevan deberán tener cuentas en Active Direc
     
       - En la implementación local, en Shell de administración de Lync Server, escriba los siguientes cmdlets para crear el proveedor de hospedaje para Lync Online:
         
-            Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-        
-            New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+        ```
+        Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+        ```
+        ```
+        New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+        ```
 
 2.  Confirme que, en sus servidores perimetrales locales, tiene la cadena de certificados que permite la conexión a Lync Online, como se muestra en la tabla siguiente. Puede descargar la cadena aquí: [https://corp.sts.microsoft.com/Onboard/ADFS\_Onboarding\_Pack/corp\_sts\_certs.zip](https://corp.sts.microsoft.com/onboard/adfs_onboarding_pack/corp_sts_certs.zip) .
     
@@ -107,9 +100,12 @@ Además, todos los usuarios que se muevan deberán tener cuentas en Active Direc
     
     Para mover un solo usuario, escriba lo siguiente:
     
-        $cred = Get-Credential
-    
-        Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
+    ```
+    $cred = Get-Credential
+    ```
+    ```
+    Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
+    ```
     
     Para mover varios usuarios, use el cmdlet **Get-CsUSer** con el parámetro –Filter para seleccionar a los usuarios con una propiedad concreta. Por ejemplo, para seleccionar a todos los usuarios de Lync Online, filtre por {Hosting Provider –eq “sipfed.online.lync.om”}. A continuación, puede transferir los usuarios devueltos al cmdlet **Move-CsUSer**, como se muestra a continuación.
     

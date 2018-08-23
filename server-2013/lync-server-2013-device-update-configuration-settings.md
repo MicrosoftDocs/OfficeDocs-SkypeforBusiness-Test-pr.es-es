@@ -1,6 +1,6 @@
 ﻿---
-title: Opciones de configuración de actualización de dispositivos en Lync Server 2013
-TOCTitle: Opciones de configuración de actualización de dispositivos en Lync Server 2013
+title: "Paramètres de config. de mise à jour des périphériques dans Lync Server 2013"
+TOCTitle: "Paramètres de config. de mise à jour des périphériques dans Lync Server 2013"
 ms:assetid: a567b290-4c78-48bf-8ff7-39e32e54de39
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994058(v=OCS.15)
 ms:contentKeyID: 52061743

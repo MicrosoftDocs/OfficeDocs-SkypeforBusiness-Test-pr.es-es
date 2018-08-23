@@ -1,6 +1,6 @@
 ﻿---
-title: Creación o modificación de un conjunto de opciones de configuración de Lync Phone Edition
-TOCTitle: Creación o modificación de un conjunto de opciones de configuración de Lync Phone Edition
+title: "Crear o modificar un conjunto de opciones de configuración de Lync Phone Edition"
+TOCTitle: "Créat. ou mod. d’une collection de param. de conf. de Lync Phone Edition"
 ms:assetid: 6cf714af-8f57-4a71-89ad-0a776302b2ba
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688086(v=OCS.15)
 ms:contentKeyID: 49889221
@@ -33,18 +33,9 @@ Las opciones de configuración están constituidas por: el nombre y el ámbito (
     
       - Para editar alguna configuración de una colección existente, haga clic en la colección, haga clic en el menú **Editar**, en **Mostrar detalles** y realice los cambios que desee.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Para volver a usar las opciones en configuración predeterminadas en la colección global, haga clic en ella, haga clic en el menú <strong>Editar</strong>, en <strong>Eliminar</strong> y, después, en <strong>Aceptar</strong>. Con esto no se eliminará la colección global, sino que solo se restablecerán las opciones predeterminadas.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Para volver a usar las opciones en configuración predeterminadas en la colección global, haga clic en ella, haga clic en el menú <strong>Editar</strong>, en <strong>Eliminar</strong> y, después, en <strong>Aceptar</strong>. Con esto no se eliminará la colección global, sino que solo se restablecerán las opciones predeterminadas.
+        
 
 
 5.  Haga clic en **Confirmar**.
@@ -73,7 +64,7 @@ También puede crear opciones de configuración de Lync Phone Edition (solo en e
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True -MinPhonePinLength 8
 
-Para más información, consulte [New-CsUCPhoneConfiguration](new-csucphoneconfiguration.md).
+Para más información, consulte [New-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUCPhoneConfiguration).
 
 ## Vea también
 

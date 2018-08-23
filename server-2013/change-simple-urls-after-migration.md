@@ -41,18 +41,9 @@ Tras la migración a Lync Server 2013, deberá tener presentes cómo el cambio a
 
 2.  Seleccione **Direcciones URL simples** en el panel izquierdo y luego, en **Dirección URL de acceso administrativo** , escriba la dirección URL simple que desea establecer para el acceso administrativo al Panel de control de Lync Server 2013 y haga clic en **Aceptar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le recomendamos que use la dirección URL más sencilla que sea posible para la dirección URL de administración. La opción más sencilla es <strong>https://admin</strong> <em>&lt;domain&gt;</em> .</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Le recomendamos que use la dirección URL más sencilla que sea posible para la dirección URL de administración. La opción más sencilla es <strong>https://admin</strong> <em>&lt;domain&gt;</em> .
+    
 
 
 ## Vea también

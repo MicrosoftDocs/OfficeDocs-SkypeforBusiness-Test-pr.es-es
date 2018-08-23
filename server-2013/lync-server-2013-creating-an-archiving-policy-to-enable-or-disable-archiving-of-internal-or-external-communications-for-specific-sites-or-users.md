@@ -1,6 +1,6 @@
 ﻿---
-title: Crear una directiva de archivado para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para sitios o usuarios específicos
-TOCTitle: Crear una directiva de archivado para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para sitios o usuarios específicos
+title: "Directiva para habilitar/deshabilitar archivado de comunicaciones internas/externas"
+TOCTitle: "Créa. strat. arch. pr act/dés. arch. des comm. int/ext pr sites ou ut. part."
 ms:assetid: 5864793a-ba72-470c-bb5b-9fb41e968896
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398385(v=OCS.15)
 ms:contentKeyID: 48275321
@@ -57,18 +57,9 @@ Para obtener información detallada acerca de las directivas implementadas inclu
 
 6.  Haga clic en **Confirmar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener información detallada, consulte <a href="lync-server-2013-applying-an-archiving-policy-to-users.md">Aplicación de una directiva de archivado a los usuarios</a></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener información detallada, consulte <a href="lync-server-2013-applying-an-archiving-policy-to-users.md">Aplicación de una directiva de archivado a los usuarios</a>
+    
 
 
 ## Creación de una directiva de archivado con los cmdlets de Shell de administración de Lync Server
@@ -99,7 +90,7 @@ Las directivas de archivado también pueden eliminarse con Windows PowerShell y 
     
         New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 
-Para más información, vea el tema de ayuda del cmdlet [New-CsArchivingPolicy](new-csarchivingpolicy.md).
+Para más información, vea el tema de ayuda del cmdlet [New-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingPolicy).
 
 ## Vea también
 

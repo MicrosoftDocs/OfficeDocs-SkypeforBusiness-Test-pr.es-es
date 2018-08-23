@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Usuarios particulares en una aplicación o un servidor de sucursal con funciones de supervivencia'
+title: "Usuarios particulares en una aplicación o un servidor de sucursal con supervivencia"
 TOCTitle: Usuarios particulares en una aplicación o un servidor de sucursal con funciones de supervivencia
 ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413066(v=OCS.15)
@@ -39,8 +39,8 @@ El proceso de hospedar usuarios en una Aplicación de sucursal con funciones de 
 
 #### Otros recursos
 
-[Test-CsPstnOutboundCall](test-cspstnoutboundcall.md)  
-[Get-CsVoicePolicy](get-csvoicepolicy.md)  
-[Get-CsVoicemailReroutingConfiguration](get-csvoicemailreroutingconfiguration.md)  
-[Move-CsUser](move-csuser.md)
+[Test-CsPstnOutboundCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnOutboundCall)  
+[Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)  
+[Get-CsVoicemailReroutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicemailReroutingConfiguration)  
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)
 

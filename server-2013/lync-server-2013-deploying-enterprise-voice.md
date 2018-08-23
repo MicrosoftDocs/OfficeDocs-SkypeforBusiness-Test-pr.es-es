@@ -39,18 +39,9 @@ Para ver topologías de referencia con ejemplos de dónde se pueden implementar 
 
 Para ver una topología de referencia que ilustre y explique una implementación de control de admisión de llamadas de prueba con regiones de red, sitios de red y subredes, vea [Ejemplo: Recopilación de los requisitos de la organización para el servicio de control de admisión de llamadas en Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) en la documentación sobre planeación.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para implementar Telefonía IP empresarial en un sitio central, siga leyendo los temas de esta sección. Para implementar Telefonía IP empresarial en un sitio de sucursal, vaya a <a href="lync-server-2013-deploying-branch-sites.md">Implementación de sitios de sucursales en Lync Server 2013</a> en la documentación sobre implementación.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Para implementar Telefonía IP empresarial en un sitio central, siga leyendo los temas de esta sección. Para implementar Telefonía IP empresarial en un sitio de sucursal, vaya a <a href="lync-server-2013-deploying-branch-sites.md">Implementación de sitios de sucursales en Lync Server 2013</a> en la documentación sobre implementación.
+
 
 
 La documentación de esta sección incluye procedimientos para implementaciones en las que se instala un servidor de mediación en cada servidor front-end o servidor Standard Edition, como se recomienda, y también para implementaciones con un grupo de servidores de mediación independiente.

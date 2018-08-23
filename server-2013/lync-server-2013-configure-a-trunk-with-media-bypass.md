@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar un tronco con omisión de medios'
+title: "Lync Server 2013 : Conf. d’une jonction avec la déviation du trafic mult."
 TOCTitle: Configurar un tronco con omisión de medios
 ms:assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398792(v=OCS.15)
@@ -69,18 +69,9 @@ Una configuración de tronco tal como se describe más abajo agrupa un conjunto 
 
 7.  Active la casilla **Habilitar desvío de medios** si desea que los medios omitan el servidor de mediación para que sea la entidad del mismo nivel que el tronco la que realice el procesamiento.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para que el desvío de medios funcione correctamente, es preciso que la puerta de enlace de RTC, el sistema PBX IP o el controlador de borde de sesión del proveedor de servicios sean compatibles con ciertas capacidades. Para obtener más información, consulte <a href="lync-server-2013-planning-for-media-bypass.md">Planificar la omisión de medios en Lync Server 2013</a> en la documentación referente al planeamiento.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Para que el desvío de medios funcione correctamente, es preciso que la puerta de enlace de RTC, el sistema PBX IP o el controlador de borde de sesión del proveedor de servicios sean compatibles con ciertas capacidades. Para obtener más información, consulte <a href="lync-server-2013-planning-for-media-bypass.md">Planificar la omisión de medios en Lync Server 2013</a> en la documentación referente al planeamiento.
+    
 
 
 8.  Active la casilla **Procesamiento de medios centralizado** si existe un punto de finalización de medios bien conocido (por ejemplo, una puerta de enlace RTC donde la finalización de medios tenga la misma IP que la finalización de señalización). Si el tronco no tiene un punto de terminación de medios conocido, desactive esta casilla.
@@ -138,34 +129,16 @@ Una configuración de tronco tal como se describe más abajo agrupa un conjunto 
         
         3.  Haga clic en **Aceptar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Es importante asociar registros de uso de RTC según el Servidor de mediación del mismo nivel que se asocie al tronco en proceso de configuración. Si el Servidor de mediación del mismo nivel es una puerta de enlace de RTC o un controlador de borde de sesión (SBC), se recomienda encarecidamente que la configuración de tronco no esté asociada a un registro de uso de RTC que se enrute a un destino de RTC o a cualquier otro sistema de bajada conectado a través de Lync Server.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Es importante asociar registros de uso de RTC según el Servidor de mediación del mismo nivel que se asocie al tronco en proceso de configuración. Si el Servidor de mediación del mismo nivel es una puerta de enlace de RTC o un controlador de borde de sesión (SBC), se recomienda encarecidamente que la configuración de tronco no esté asociada a un registro de uso de RTC que se enrute a un destino de RTC o a cualquier otro sistema de bajada conectado a través de Lync Server.
+    
 
 
 11. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de registro en la lista, seleccione el registro de uso de RTC y haga clic en las flechas arriba o abajo.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Es importante el orden en el que aparecen en la lista de la configuración de tronco los registros de uso de RTC. Lync Server recorre la lista de arriba abajo.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Es importante el orden en el que aparecen en la lista de la configuración de tronco los registros de uso de RTC. Lync Server recorre la lista de arriba abajo.
+    
 
 
 12. Debe seleccionarse **Habilitar cierre de RTP** si se desea habilitar el desvío de medios para clientes situados detrás de una traducción de direcciones de red (NAT) o firewall y un SBC que admita cierre.
@@ -188,18 +161,9 @@ Una configuración de tronco tal como se describe más abajo agrupa un conjunto 
     
       - Para quitar una regla de conversión del plan de marcado, resalte el nombre de la regla y haga clic en **Eliminar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas pudieran entrar en conflicto.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas pudieran entrar en conflicto.
+    
 
 
 17. (Opcional) Asocie y configure **reglas de conversión de números llamados** para el tronco. Estas reglas de conversión se aplican al número llamado en una llamada saliente.
@@ -214,34 +178,16 @@ Una configuración de tronco tal como se describe más abajo agrupa un conjunto 
     
       - Para quitar una regla de conversión del plan de marcado, resalte el nombre de la regla y haga clic en **Eliminar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas pudieran entrar en conflicto.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas pudieran entrar en conflicto.
+    
 
 
 18. Asegúrese de que las reglas de conversión del tronco se dispongan en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en la flecha arriba o abajo.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 recorre la lista de reglas de conversión de arriba abajo y utiliza la primera regla que coincide con el número marcado. Si configura un tronco de forma que un número marcado puede coincidir con más de una regla de conversión, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. Por ejemplo, si ha incluido una regla de conversión que coincida con cualquier número de 11 dígitos y una regla de conversión que coincida solamente con números de 11 dígitos que comiencen por +1425, asegúrese de que la regla que coincida con cualquier número de 11 dígitos se haya colocado <em>por debajo</em> de la regla más restrictiva.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Lync Server 2013 recorre la lista de reglas de conversión de arriba abajo y utiliza la primera regla que coincide con el número marcado. Si configura un tronco de forma que un número marcado puede coincidir con más de una regla de conversión, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. Por ejemplo, si ha incluido una regla de conversión que coincida con cualquier número de 11 dígitos y una regla de conversión que coincida solamente con números de 11 dígitos que comiencen por +1425, asegúrese de que la regla que coincida con cualquier número de 11 dígitos se haya colocado <em>por debajo</em> de la regla más restrictiva.
+    
 
 
 19. Cuando haya terminado de configurar el tronco, haga clic en **Aceptar** .

@@ -1,6 +1,6 @@
 ﻿---
-title: Crear o modificar una colección de opciones de configuración de actualización de dispositivos
-TOCTitle: Crear o modificar una colección de opciones de configuración de actualización de dispositivos
+title: "Crear o modificar grupo de opciones de configuración de actualización de dispositivos"
+TOCTitle: "Créer ou mod. une collection de par. de conf. de la màj des périphériques"
 ms:assetid: 3e8ce95f-a8c8-417c-b1f7-0f759a567aff
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994029(v=OCS.15)
 ms:contentKeyID: 52061657
@@ -44,5 +44,5 @@ Los valores de configuración de actualización de dispositivos se pueden crear 
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00" -LogFlushInterval "00:30:00"
 
-Para obtener detalles sobre la modificación de valores de configuración de actualización de dispositivos existentes, consulte el tema de Ayuda del cmdlet [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md). Para obtener detalles sobre la creación de colecciones de valores de configuración, consulte el tema de Ayuda del cmdlet [New-CsDeviceUpdateConfiguration](new-csdeviceupdateconfiguration.md).
+Para obtener detalles sobre la modificación de valores de configuración de actualización de dispositivos existentes, consulte el tema de Ayuda del cmdlet [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration). Para obtener detalles sobre la creación de colecciones de valores de configuración, consulte el tema de Ayuda del cmdlet [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsDeviceUpdateConfiguration).
 

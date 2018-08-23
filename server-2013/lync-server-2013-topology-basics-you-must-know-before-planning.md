@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Aspectos básicos de la topología a tener en cuenta antes de la planificación'
+title: "Aspectos básicos de la topología a tener en cuenta antes de la planificación"
 TOCTitle: Aspectos básicos de la topología a tener en cuenta antes de la planificación
 ms:assetid: 7376306b-1b80-4776-9261-aa545abb08c6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398552(v=OCS.15)

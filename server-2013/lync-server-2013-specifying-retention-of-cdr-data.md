@@ -1,6 +1,6 @@
 ﻿---
-title: Especificación de la conservación de datos de CDR
-TOCTitle: Especificación de la conservación de datos de CDR
+title: "Spécif. de la rétention des données de l’enregistrement des détails des appels"
+TOCTitle: "Spécif. de la rétention des données de l’enregistrement des détails des appels"
 ms:assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182581(v=OCS.15)
 ms:contentKeyID: 48276546
@@ -59,7 +59,7 @@ Puede definir la configuración de retención de CDR con Windows PowerShell y el
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
 
-Para más información, consulte el tema de Ayuda del cmdlet [Set-CsCdrConfiguration](set-cscdrconfiguration.md).
+Para más información, consulte el tema de Ayuda del cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration).
 
 ## Vea también
 

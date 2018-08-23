@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implementar una aplicación o servidor de sucursal con funciones de supervivencia - Tarea en el sitio de sucursal'
+title: "Lync Server 2013: Aplicación o servidor sucursal con supervivencia, tarea sucursal"
 TOCTitle: Implementar una aplicación o servidor de sucursal con funciones de supervivencia - Tarea en el sitio de sucursal
 ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398599(v=OCS.15)
@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2014-10-28_
 
 Realice uno de los dos procedimientos descritos en este tema en la sucursal, después de completar correctamente las tareas indicadas en [Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia - Tareas de sitio central con Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para llevar a cabo este procedimiento, debe ser miembro del grupo RTCUniversalSBATechnicians.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Para llevar a cabo este procedimiento, debe ser miembro del grupo RTCUniversalSBATechnicians.
+
 
 
 ## Para implementar la aplicación de sucursal con funciones de supervivencia

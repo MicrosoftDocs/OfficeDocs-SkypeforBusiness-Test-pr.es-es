@@ -31,19 +31,9 @@ Aspectos que deben tenerse en cuenta sobre Windows PowerShell en Lync Server 201
 
   - Para ejecutar los cmdlets de Lync Server, abra Shell de administración de Lync Server.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si abre una ventana de Windows PowerShell en lugar de Shell de administración de Lync Server, de manera predeterminada no podrá ejecutar los cmdlets de Lync Server. Para ejecutar los cmdlets de Lync Server en Windows PowerShell, antes debe escribir lo siguiente en el símbolo del sistema de Windows PowerShell:<br />
-    Import-Module Lync</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+	> Si abre una ventana de Windows PowerShell en lugar de Shell de administración de Lync Server, de manera predeterminada no podrá ejecutar los cmdlets de Lync Server. Para ejecutar los cmdlets de Lync Server en Windows PowerShell, antes debe escribir lo siguiente en el símbolo del sistema de Windows PowerShell:<br />
+    > Import-Module Lync
 
 
   - Shell de administración de Lync Server se instala automáticamente en cada servidor front-end Enterprise Edition o servidor Standard Edition de Lync Server.

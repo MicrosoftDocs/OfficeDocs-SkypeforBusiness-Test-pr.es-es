@@ -21,18 +21,9 @@ Para admitir E9-1-1, Lync Server 2013 debe poder asociar correctamente una ubica
 
 Para obtener detalles sobre la planificación de una implementación de E9-1-1, vea [Planeación de los servicios de emergencia (E9-1-1) en Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 solo admite el uso de E9-1-1 dentro de los Estados Unidos. Para implementar E9-1-1 tendrá que configurar una conexión SIP para un proveedor de servicios E9-1-1 certificado o implementar una puerta de enlace del número de identificación de ubicación de emergencia (ELIN) a un proveedor de servicios E9-1-1 basado en una red telefónica conmutada (RTC). Para información, vea <a href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">9-1-1 mejorado (E9-1-1) y servidor de mediación en Lync Server 2013</a>. Para detalles sobre cómo configurar conexiones de tronco, vea <a href="lync-server-2013-configure-a-trunk-with-media-bypass.md">Configurar un tronco con omisión de medios en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Lync Server 2013 solo admite el uso de E9-1-1 dentro de los Estados Unidos. Para implementar E9-1-1 tendrá que configurar una conexión SIP para un proveedor de servicios E9-1-1 certificado o implementar una puerta de enlace del número de identificación de ubicación de emergencia (ELIN) a un proveedor de servicios E9-1-1 basado en una red telefónica conmutada (RTC). Para información, vea <a href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">9-1-1 mejorado (E9-1-1) y servidor de mediación en Lync Server 2013</a>. Para detalles sobre cómo configurar conexiones de tronco, vea <a href="lync-server-2013-configure-a-trunk-with-media-bypass.md">Configurar un tronco con omisión de medios en Lync Server 2013</a>.
+
 
 
 ## En esta sección

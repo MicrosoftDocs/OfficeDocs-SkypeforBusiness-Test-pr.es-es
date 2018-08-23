@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar a los usuarios para el correo de voz hospedado'
+title: "Lync Server 2013 : Activ. des utilisateurs pour la messagerie vocale hébergée"
 TOCTitle: Habilitar a los usuarios para el correo de voz hospedado
 ms:assetid: fa559f8f-ef99-43a1-b580-9e998b95efb8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413062(v=OCS.15)
@@ -19,20 +19,11 @@ Siga el procedimiento para que los usuarios de Lync Server 2013 queden habilitad
 
 Para obtener información detallada, vea [Administración de usuarios de Hosted Exchange en Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) en la documentación sobre planeamiento.
 
-Para ver los detalles sobre el cmdlet [Set-CsUser](set-csuser.md), consulte la documentación de Shell de administración de Lync Server.
+Para ver los detalles sobre el cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser), consulte la documentación de Shell de administración de Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de habilitar a un usuario de Lync Server 2013 para correo de voz hospedado, debe implementarse una directiva de correo de voz hospedada que se aplique a su cuenta de usuario. Para obtener información detallada, vea <a href="lync-server-2013-hosted-voice-mail-policies.md">Directivas de correo de voz hospedado en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Antes de habilitar a un usuario de Lync Server 2013 para correo de voz hospedado, debe implementarse una directiva de correo de voz hospedada que se aplique a su cuenta de usuario. Para obtener información detallada, vea <a href="lync-server-2013-hosted-voice-mail-policies.md">Directivas de correo de voz hospedado en Lync Server 2013</a>.
+
 
 
 ## Para habilitar a los usuarios para correo de voz hospedado.

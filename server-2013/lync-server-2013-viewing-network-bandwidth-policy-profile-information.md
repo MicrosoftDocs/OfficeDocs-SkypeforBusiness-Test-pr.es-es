@@ -49,7 +49,7 @@ Los perfiles de ancho de banda de red también se pueden consultar usando Lync S
         BWPolicyProfileID : RedmondBandwidthPolicy
         Description       :
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md).
+Si desea más información, consulte el tema de ayuda relativo al cmdlet [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
 
 ## Vea también
 

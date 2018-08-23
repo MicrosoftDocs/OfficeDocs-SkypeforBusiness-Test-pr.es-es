@@ -55,5 +55,5 @@ Puede crear directivas de versión de cliente mediante el cmdlet **New-CsClientV
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
-Para obtener detalles, consulte los temas de Ayuda acerca de los cmdlets [New-CsClientVersionPolicy](new-csclientversionpolicy.md) y [Set-CsClientVersionPolicy](set-csclientversionpolicy.md).
+Para obtener detalles, consulte los temas de Ayuda acerca de los cmdlets [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) y [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
 

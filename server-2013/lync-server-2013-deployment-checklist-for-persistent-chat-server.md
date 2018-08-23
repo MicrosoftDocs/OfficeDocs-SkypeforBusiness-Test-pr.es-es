@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Lista de comprobación para la implementación de servidores de chat persistente'
+title: "Lync Server 2013: Lista comprobación implementación de servidores de chat persistente"
 TOCTitle: Lista de comprobación para la implementación de servidores de chat persistente
 ms:assetid: b1108f8f-88a2-4660-8086-d25ba76f7239
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412851(v=OCS.15)
@@ -116,16 +116,7 @@ En la tabla siguiente se muestran los pasos básicos para implementar el Servido
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Puede implementar uno o varios Grupos de servidores de chat persistente. Admitimos el uso de varios Grupos de servidores de chat persistente con fines de cumplimiento de normativas, cuando los datos generados en una región determinada deben permanecer en esa región. Por ejemplo, si implementa un Grupo de servidores de chat persistente en Chicago y otro en Zurich para cumplir con las normativas de datos de Suiza, los usuarios podrán conectarse con salones de ambos Grupos de servidores de chat persistente, siempre que tengan acceso.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Puede implementar uno o varios Grupos de servidores de chat persistente. Admitimos el uso de varios Grupos de servidores de chat persistente con fines de cumplimiento de normativas, cuando los datos generados en una región determinada deben permanecer en esa región. Por ejemplo, si implementa un Grupo de servidores de chat persistente en Chicago y otro en Zurich para cumplir con las normativas de datos de Suiza, los usuarios podrán conectarse con salones de ambos Grupos de servidores de chat persistente, siempre que tengan acceso.
+
 

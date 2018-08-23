@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuración de la mensajería unificada en Microsoft Exchange Server para trabajar con Lync Server 2013'
+title: "Configuración de mensajería unificada en MS Exchange Server con Lync Server 2013"
 TOCTitle: Configuración de la mensajería unificada en Microsoft Exchange Server para trabajar con Lync Server 2013
 ms:assetid: 058da9c4-23af-4ddb-9f63-70133a8aafc6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398106(v=OCS.15)
@@ -15,18 +15,9 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2016-12-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si desea usar Mensajería unificada de Exchange (UM) para proporcionar a los usuarios de Telefonía IP empresarial contestador automático, Outlook Voice Access o servicios de operador automático, lea <a href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Planear la integración de la mensajería unificada de Exchange en Lync Server 2013</a> en la documentación referente a la planeación y siga las instrucciones de esta sección.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si desea usar Mensajería unificada de Exchange (UM) para proporcionar a los usuarios de Telefonía IP empresarial contestador automático, Outlook Voice Access o servicios de operador automático, lea <a href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Planear la integración de la mensajería unificada de Exchange en Lync Server 2013</a> en la documentación referente a la planeación y siga las instrucciones de esta sección.
+
 
 
 Para configurar Mensajería unificada de Exchange (UM) para que trabaje con Telefonía IP empresarial, tendrá que llevar a cabo las siguientes tareas:

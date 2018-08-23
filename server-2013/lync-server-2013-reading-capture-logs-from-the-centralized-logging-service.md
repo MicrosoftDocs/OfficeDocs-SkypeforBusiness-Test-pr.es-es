@@ -1,6 +1,6 @@
 ﻿---
-title: Lectura de registros de captura desde el servicio de registro centralizado
-TOCTitle: Lectura de registros de captura desde el servicio de registro centralizado
+title: "Lecture des journ. de capt. à partir du service de journalisation centralisée"
+TOCTitle: "Lecture des journ. de capt. à partir du service de journalisation centralisée"
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721879(v=OCS.15)
 ms:contentKeyID: 49889677
@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2016-12-28_
 
 Las auténticas ventajas de Servicio de registro centralizado pueden apreciarse al realizar una búsqueda y obtener un archivo con el que se puede realizar un seguimiento de un problema resuelto. Hay varias formas de leer el archivo. El archivo de salida tiene el formato de texto estándar y puede usar Notepad. exe o cualquier otro programa que permita abrir y leer archivos de texto. Para los archivos de mayor tamaño y problemas más complejos, puede usar una herramienta como Snooper.exe, que está diseñada para leer y analizar la salida del registro de Servicio de registro centralizado. Snooper forma parte de las herramientas de depuración de Lync Server 2013 disponibles en una descarga independiente. No hay accesos directos ni opciones de menú para las herramientas de depuración de Lync Server 2013. Una vez que las haya instalado, abra el explorador de Windows, una ventana de línea de comandos o Shell de administración de Lync Server, y vaya directamente al directorio (ubicación predeterminada) C:\\Archivos de programa\\Microsoft Lync Server 2013\\Debugging Tools. Haga doble clic en Snooper.exe o escriba Snooper.exe y presione Entrar si está usando la línea de comandos o Shell de administración de Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La finalidad de este tema no es dar información detallada ni tratar las técnicas de solución de problemas. La solución de problemas y los procesos relacionados con esta son un tema muy complejo. Para más información sobre los conceptos básicos de la solución de problemas y sus cargas de trabajo específicas, consulte el manual del kit de recursos de Microsoft Lync Server 2010 en <a href="http://go.microsoft.com/fwlink/?linkid=211003%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=211003&amp;clcid=0xC0A</a>. Los procesos y procedimientos también pueden aplicarse a Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> La finalidad de este tema no es dar información detallada ni tratar las técnicas de solución de problemas. La solución de problemas y los procesos relacionados con esta son un tema muy complejo. Para más información sobre los conceptos básicos de la solución de problemas y sus cargas de trabajo específicas, consulte el manual del kit de recursos de Microsoft Lync Server 2010 en <a href="http://go.microsoft.com/fwlink/?linkid=211003%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=211003&amp;clcid=0xC0A</a>. Los procesos y procedimientos también pueden aplicarse a Lync Server 2013.
+
 
 
 Lync Server 2013 incorpora una versión actualizada de Snooper que incluye nuevas características. En la captura de pantalla siguiente se muestra la versión de Snooper de Office Communications Server 2007.

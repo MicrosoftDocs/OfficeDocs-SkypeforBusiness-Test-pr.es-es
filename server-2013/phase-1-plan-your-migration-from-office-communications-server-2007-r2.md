@@ -1,6 +1,6 @@
 ﻿---
-title: 'Fase 1: Planear la migración de Office Communications Server 2007 R2'
-TOCTitle: 'Fase 1: Planear la migración de Office Communications Server 2007 R2'
+title: "Phase 1 : Plan. de la migrat. à partir d’Office Communications Server 2007 R2"
+TOCTitle: "Phase 1 : Plan. de la migrat. à partir d’Office Communications Server 2007 R2"
 ms:assetid: 43ad2a2c-7a55-4f11-baeb-57151ca09185
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204855(v=OCS.15)
 ms:contentKeyID: 48275065

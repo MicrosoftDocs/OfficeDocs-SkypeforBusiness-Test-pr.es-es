@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos técnicos para el servidor de chat persistente'
+title: "Lync Server 2013 : Conf. tech. pour le serveur de conversation permanente"
 TOCTitle: Requisitos técnicos para el servidor de chat persistente
 ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398495(v=OCS.15)
@@ -55,18 +55,9 @@ Para obtener más información acerca del software adicional requerido para impl
 
 El Servidor de chat persistente usa la base de datos de Chat persistente para almacenar el historial de conversaciones, la configuración y los datos de aprovisionamiento de usuarios. También puede usar (opcionalmente) una base de datos de cumplimiento de Chat persistente para almacenar los datos de cumplimiento.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La base de datos del Chat persistente (mgc) y la base de datos de cumplimiento (mgccomp) pueden estar ubicadas en la misma instancia de SQL Server o en Servidores SQL Server diferentes.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> La base de datos del Chat persistente (mgc) y la base de datos de cumplimiento (mgccomp) pueden estar ubicadas en la misma instancia de SQL Server o en Servidores SQL Server diferentes.
+
 
 
 Para preparar una plataforma de servidor de bases de datos, asegúrese de que cada equipo reúne todos los requisitos de hardware y, a continuación, instale el software necesario como requisito previo.

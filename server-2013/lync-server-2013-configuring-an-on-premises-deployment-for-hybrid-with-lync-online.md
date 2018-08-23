@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar una implementación local para el entorno híbrido de Lync Online'
+title: "Lync Server 2013: Config. implementación local para entorno híbrido de Lync Online"
 TOCTitle: Configurar una implementación local para el entorno híbrido de Lync Online
 ms:assetid: c26addb0-2936-4eea-9071-3ab95825154b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205237(v=OCS.15)

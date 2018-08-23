@@ -31,7 +31,7 @@ Una vez que haya implementado Telefonía IP empresarial y configurado los sitios
 
     New-CsVoiceRoutingPolicy -Identity <voice routing policy ID> -Name <voice routing policy name> -PstnUsages <usages>
 
-Para obtener más información, consulte [New-CsVoiceRoutingPolicy](new-csvoiceroutingpolicy.md).
+Para obtener más información, consulte [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoiceRoutingPolicy).
 
 Para este ejemplo, la siguiente tabla y comandos de Windows PowerShell ilustran dos directivas de enrutamiento de voz y sus usos de RTC asociados definidos en este escenario. Solo los parámetros que son específicos al enrutamiento según ubicación se incluyen en la tabla con fines meramente ilustrativos.
 
@@ -123,7 +123,7 @@ Antes de que se pueda habilitar una configuración troncal para el enrutamiento 
 
     New-CsTrunkConfiguration -Identity < trunk configuration ID>
 
-Para obtener más información, consulte [New-CsTrunkConfiguration](new-cstrunkconfiguration.md).
+Para obtener más información, consulte [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 Para este ejemplo, los siguientes comandos de Windows PowerShell ilustran la creación de una configuración troncal para cada tronco en la implementación definida en este escenario.
 
@@ -136,7 +136,7 @@ Una vez que una configuración troncal se configura por tronco, puede usar el co
 
     Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
-Para obtener más información, consulte [New-CsTrunkConfiguration](new-cstrunkconfiguration.md).
+Para obtener más información, consulte [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 En este ejemplo, el enrutamiento según ubicación se habilita para cada tronco asociado a las puertas de enlace RTC en Delhi y Hyderabad:
 
@@ -201,7 +201,7 @@ Para exigir el enrutamiento según ubicación para usuarios específicos, config
 
     Set-CsVoicePolicy -Identity <voice policy ID> -PreventPSTNTollBypass <$true|$false>
 
-Para obtener más información, consulte [New-CsVoicePolicy](new-csvoicepolicy.md).
+Para obtener más información, consulte [New-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoicePolicy).
 
 Para este ejemplo, la siguiente tabla y comandos de Windows PowerShell ilustran la habilitación para impedir la omisión de tarifas RTC para las directivas de voz de Delhi y Hyderabad definidas en este escenario. Solo los parámetros que son específicos al enrutamiento según ubicación se incluyen en la tabla con fines meramente ilustrativos.
 
@@ -249,7 +249,7 @@ Por último, habilite globalmente el enrutamiento según ubicación en la config
 
     Set-CsRoutingConfiguration -EnableLocationBasedRouting $true
 
-Para obtener más información, consulte [Set-CsRoutingConfiguration](set-csroutingconfiguration.md).
+Para obtener más información, consulte [Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration).
 
 
 > [!NOTE]

@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de directivas para el archivado al usar la integración de Exchange Server
-TOCTitle: Configuración de directivas para el archivado al usar la integración de Exchange Server
+title: "Configuración de directivas para archivado al usar la integración de Exchange Server"
+TOCTitle: "Conf. des strat. pour l’arch. lors de l’ut. de l’intégration Exchange Server"
 ms:assetid: 8b9b2bad-a4b3-42e1-85a7-04022e9442ad
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205063(v=OCS.15)
 ms:contentKeyID: 48275958

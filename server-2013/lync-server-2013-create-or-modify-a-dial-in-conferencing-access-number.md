@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear o modificar un número de acceso para conferencias de acceso telefónico local'
+title: "Crear o modificar un número de acceso para conferencias de acceso telefónico local"
 TOCTitle: Crear o modificar un número de acceso para conferencias de acceso telefónico local
 ms:assetid: 06f55c28-57f8-4d4e-8313-9740846796d9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398126(v=OCS.15)
@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2012-09-17_
 
 Siga estos pasos si desea crear o modificar un número de acceso telefónico a conferencias.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de crear un nuevo número de acceso telefónico, debe establecer una región de conferencias telefónicas en el plan de marcado asociado al número de acceso telefónico. Se pueden usar varios planes de marcado para la misma región.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Antes de crear un nuevo número de acceso telefónico, debe establecer una región de conferencias telefónicas en el plan de marcado asociado al número de acceso telefónico. Se pueden usar varios planes de marcado para la misma región.
+
 
 
 ## Para crear o modificar un número de acceso telefónico

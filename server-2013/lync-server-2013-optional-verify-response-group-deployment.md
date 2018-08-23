@@ -1,5 +1,5 @@
 ﻿---
-title: (Opcional) Comprobación de la implementación del grupo de respuesta en Lync Server 2013
+title: (Opcional) Comprobar implementación del grupo de respuesta en Lync Server 2013
 TOCTitle: (Opcional) Comprobación de la implementación del grupo de respuesta en Lync Server 2013
 ms:assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687989(v=OCS.15)

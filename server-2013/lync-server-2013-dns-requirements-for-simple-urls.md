@@ -142,14 +142,16 @@ Si tiene varios sitios que contienen Grupos de servidores front-end y su proveed
 
 Para configurar esto, cree dos direcciones de GeoDNS. Cada dirección tiene dos registros DNS A o CNAME que resultan en dos grupos de servidores que funcionan juntos con fines de recuperación ante desastres. Una dirección de GeoDNS se utiliza para el acceso interno y se resuelve en el FQDN web interno o la dirección IP del equilibrador de carga para dos grupos de servidores. La otra dirección de GeoDNS se utiliza para el acceso externo y se resuelve en el FQDN web externo o la dirección IP del equilibrador de carga para dos grupos de servidores. Lo siguiente es un ejemplo de dirección URL sencilla de Reunión, que utiliza los FQDN para los grupos de servidores.
 
-    Meet-int.geolb.contoso.com
-         Pool1InternalWebFQDN.contoso.com
-         Pool2InternalWebFQDN.contoso.com
-
-    Meet-ext.geolb.contoso.com
-         Pool1ExternalWebFQDN.contoso.com
-         Pool2ExternalWebFQDN.contoso.com
-
+  ```
+  Meet-int.geolb.contoso.com
+       Pool1InternalWebFQDN.contoso.com
+       Pool2InternalWebFQDN.contoso.com
+  ```
+  ```
+  Meet-ext.geolb.contoso.com
+       Pool1ExternalWebFQDN.contoso.com
+       Pool2ExternalWebFQDN.contoso.com
+  ```
 Luego cree registros CNAME que se resuelven su dirección URL sencilla de Reunión (como meet.contoso.com) en las dos direcciones de GeoDNS.
 
 

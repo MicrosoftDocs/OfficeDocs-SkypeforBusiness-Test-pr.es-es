@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar los registros DNS para un grupo de servidores front-end o un servidor Standard Edition'
+title: "Configurar registros DNS para servidores front-end o un servidor Standard Edition"
 TOCTitle: 'Configurar los registros DNS para un grupo de servidores front-end o un servidor Standard Edition '
 ms:assetid: 02871f2f-6c99-49e6-b441-cd21b16d38ee
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398079(v=OCS.15)

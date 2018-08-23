@@ -85,18 +85,9 @@ El formato esperado del número especificado en este atributo es:
 
   - Tel:5550100 (para extensiones únicas en toda la empresa)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La normalización realizada por el servicio de libreta de direcciones (ABS) no reemplaza ni elimina de ningún otro modo la necesidad de normalizar el número de teléfono principal de cada usuario en los Servicios de dominio de Active Directory porque ABS carece de acceso a Active Directory y, por lo tanto, no puede copiar los números principales en el atributo <strong>msRTCSIP-line</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > La normalización realizada por el servicio de libreta de direcciones (ABS) no reemplaza ni elimina de ningún otro modo la necesidad de normalizar el número de teléfono principal de cada usuario en los Servicios de dominio de Active Directory porque ABS carece de acceso a Active Directory y, por lo tanto, no puede copiar los números principales en el atributo <strong>msRTCSIP-line</strong>.
+    
 
 
 ## Paso 2. Habilitar a los usuarios para Enterprise Voice

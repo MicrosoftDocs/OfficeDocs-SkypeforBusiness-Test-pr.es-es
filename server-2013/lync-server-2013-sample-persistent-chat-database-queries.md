@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Consultas de base de datos del chat persistente de ejemplo'
+title: "Lync Server 2013 : Ex. de requêtes de BD de conversation permanente"
 TOCTitle: Consultas de base de datos del chat persistente de ejemplo
 ms:assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg558649(v=OCS.15)

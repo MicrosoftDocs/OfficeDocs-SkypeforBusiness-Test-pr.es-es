@@ -22,39 +22,28 @@ Estas son las Notas de la versión de Lync Server 2013. Consulte este archivo pa
 Este documento contiene información importante que debe conocer antes de implementar y usar Lync Server 2013. Para más información sobre Lync Server 2013, vea la documentación de [Microsoft Lync Server 2013](microsoft-lync-server-2013.md).
 
 Este documento contiene las siguientes secciones:
+ 
+   Cliente de Lync 2013  
+  
+   Lync Server  
+  
+   Instalación  
+  
+   Movilidad  
 
-  -   
-    Cliente de Lync 2013
+   Conferencia  
 
-  -   
-    Lync Server
+   Telefonía IP empresarial  
 
-  -   
-    Instalación
+   Presencia  
 
-  -   
-    Movilidad
+   Aplicación de grupo de respuesta y aplicación de estacionamiento de llamadas  
 
-  -   
-    Conferencia
-
-  -   
-    Telefonía IP empresarial
-
-  -   
-    Presencia
-
-  -   
-    Aplicación de grupo de respuesta y aplicación de estacionamiento de llamadas
-
-  -   
-    Panel de control de Lync Server, Generador de topologías y Herramienta de planeación
-
-  -   
-    Localización
-
-  -   
-    Derechos de autor
+   Panel de control de Lync Server, Generador de topologías y Herramienta de planeación  
+  
+   Localización  
+ 
+   Derechos de autor  
 
 ## Cliente de Lync 2013
 
@@ -90,10 +79,12 @@ Cuando se cambia la configuración de la dirección IP de una implementación de
 
 Para solucionar este problema, reinicie los servicios de Lync Server después de cambiar la configuración de la dirección IP de la implementación. Para ello, ejecute los siguientes cmdlets en el Shell de administración de Lync Server:
 
-    Stop-CsWindowsService -graceful
-
-    Start-CsWindowsService
-
+  ```
+  Stop-CsWindowsService -graceful
+  ```
+  ```
+  Start-CsWindowsService
+  ```
 ## El cmdlet de transacciones sintéticas de conferencia de acceso telefónico local ya no está disponible en el módulo de administración de Lync Server 2013 (3212342)
 
 **Problema:**
@@ -150,7 +141,7 @@ Si el valor predeterminado de UseNormalizationRules se establece en False para q
     
       - Si su implementación incluye una combinación de Lync Server 2013 y Lync Server 2010 u Office Communications Server 2007 R2, ejecute el siguiente cmdlet y asígnelo a cada grupo de servidores Lync Server 2013 de la topología:
         
-            new-csAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            New-csAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  Espere hasta que la replicación de CMS se complete en todos los grupos de servidores.
 
@@ -346,9 +337,12 @@ Para solucionar este problema, actualice el Registro del sistema antes de instal
 
 1.  Abra Windows PowerShell y ejecute los siguientes cmdlets:
     
-        New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
-    
-        $a="HKU:\.Default\Control Panel\International"
+    ```
+    New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+    ```
+    ```
+    $a="HKU:\.Default\Control Panel\International"
+    ```
 
 2.  Para ver el valor actual, ejecute el siguiente cmdlet:
     
@@ -756,18 +750,9 @@ El parámetro *DropExistingDatabasesOnMirror* hace que las bases de datos afecta
 
 3.  Publique la topología.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cada vez que haga un cambio en una relación de creación de reflejo de la base de datos back-end, debe reiniciar todos los Servidores front-end del grupo.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Cada vez que haga un cambio en una relación de creación de reflejo de la base de datos back-end, debe reiniciar todos los Servidores front-end del grupo.
+
 
 
 ## Se devuelven errores de validación en el Generador de topologías cuando un administrador intenta quitar una implementación con un grupo de servidores front-end que tiene un almacén de testigos asociado (3199266)

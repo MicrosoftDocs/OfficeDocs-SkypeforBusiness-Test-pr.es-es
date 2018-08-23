@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Colocación de servidores compatibles en componentes perimetrales'
+title: "Lync Server 2013: Colocación de servidores compatibles en componentes perimetrales"
 TOCTitle: Colocación de servidores compatibles en componentes perimetrales
 ms:assetid: 435c4dd8-36af-4b71-9b88-3ffcf0fc5c65
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425934(v=OCS.15)
@@ -23,16 +23,7 @@ El servicio perimetral de acceso, el servicio perimetral de conferencia web y el
 
   - Proxy inverso
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No es necesario que el proxy inverso esté dedicado solo a servir a Lync Server 2013. Por ejemplo, puede proporcionar servicios para publicar los servicios web de Lync Server y simultáneamente proporcionar un sitio web publicado en otro sitio web que no tiene ninguna relación con Lync Server. Si ya dispone de un servidor proxy inverso en la red perimetral por compatibilidad con otros servicios, puede usarlo en Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> No es necesario que el proxy inverso esté dedicado solo a servir a Lync Server 2013. Por ejemplo, puede proporcionar servicios para publicar los servicios web de Lync Server y simultáneamente proporcionar un sitio web publicado en otro sitio web que no tiene ninguna relación con Lync Server. Si ya dispone de un servidor proxy inverso en la red perimetral por compatibilidad con otros servicios, puede usarlo en Lync Server 2013.
+
 

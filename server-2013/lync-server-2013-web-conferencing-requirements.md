@@ -17,11 +17,9 @@ _**Última modificación del tema:** 2016-12-08_
 
 Si ha elegido habilitar la conferencia web, tiene que planear lo siguiente:
 
-  -   
-    Obtenga acceso al almacén de archivos, que se usa para almacenar contenido de conferencia web.
+   Obtenga acceso al almacén de archivos, que se usa para almacenar contenido de conferencia web.  
 
-  -   
-    Integración con Servidor Office Web Apps, que es necesaria para compartir archivos de PowerPoint durante una conferencia.
+   Integración con Servidor Office Web Apps, que es necesaria para compartir archivos de PowerPoint durante una conferencia.  
 
 ## Almacén de archivos
 
@@ -45,25 +43,16 @@ El servicio de conferencia web almacena entonces el contenido como diapositivas 
 
 El administrador debe establecer permisos en el recurso compartido de archivos de manera que los grupos RTC tengan el acceso de lectura y escritura necesario.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si encuentra errores con los permisos, abra el Generador de topologías, descargue la topología existente y vuelva a publicarla. La publicación de la topología comprobará los permisos de recurso compartido de archivos y los restablecerá en caso necesario.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Si encuentra errores con los permisos, abra el Generador de topologías, descargue la topología existente y vuelva a publicarla. La publicación de la topología comprobará los permisos de recurso compartido de archivos y los restablecerá en caso necesario.
+
 
 
 Puede usar los siguientes valores para administrar la manera en que se almacena el contenido para una reunión:
 
-  - **ContentGracePeriod**, que se encuentra en [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md), establece cuánto tiempo la conferencia web permanecerá en el servidor una vez haya acabado la reunión.
+  - **ContentGracePeriod**, que se encuentra en [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration), establece cuánto tiempo la conferencia web permanecerá en el servidor una vez haya acabado la reunión.
 
-  - **MaxContentStorageMb**, que se encuentra en [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md), establece la cantidad máxima del espacio de archivo permitido para el almacenamiento de contenido durante una reunión única.
+  - **MaxContentStorageMb**, que se encuentra en [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration), establece la cantidad máxima del espacio de archivo permitido para el almacenamiento de contenido durante una reunión única.
 
 **MaxUploadFileSizeMb** no limita la configuración de carga de archivos para Lync Web App. El límite de carga de tamaño de archivo para Lync Web App se establece en aproximadamente 30 MB y se controla por el archivo web.config de IIS: /DataCollabWeb/Int\[Ext\]/Handler/web.config. Para configurar el límite de carga de tamaño de archivo para Lync Web App, actualice `maxRequestLength` y `maxAllowedContentLength` en el archivo web.config que se muestra a continuación.
 

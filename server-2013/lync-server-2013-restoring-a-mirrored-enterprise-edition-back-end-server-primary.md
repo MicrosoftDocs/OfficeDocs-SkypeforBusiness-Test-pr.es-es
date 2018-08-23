@@ -1,6 +1,6 @@
 ﻿---
-title: 'Restaurar un servidor back-end Enterprise Edition reflejado: principal'
-TOCTitle: 'Restaurar un servidor back-end Enterprise Edition reflejado: principal'
+title: "Rest. d’un serv. Princ. Enterprise Edition en miroir - Base de données prim."
+TOCTitle: "Rest. d’un serv. Princ. Enterprise Edition en miroir - Base de données prim."
 ms:assetid: bc555b46-70c5-4eee-ae91-e195df238293
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945648(v=OCS.15)
 ms:contentKeyID: 52061724
@@ -35,18 +35,9 @@ En este tema, la base de datos principal de ejemplo tendrá el nombre de dominio
     
         Invoke-CsDataBaseFailover -PoolFqdn pool0.vdomain.com -DatabaseType User -NewPrincipal Mirror -Force -Verbose
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si ha configurado su base de datos back-end para que use la creación de reflejos sincronizados con un testigo, la conmutación por error es automática.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > Si ha configurado su base de datos back-end para que use la creación de reflejos sincronizados con un testigo, la conmutación por error es automática.
+    
 
 
 4.  Una vez terminada, realice lo siguiente:

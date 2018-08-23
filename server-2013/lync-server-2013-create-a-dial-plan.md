@@ -49,20 +49,10 @@ Para crear un plan de marcado nuevo, siga los pasos del procedimiento a continua
 
 6.  El campo **Nombre simple** se cumplimenta previamente con el mismo nombre que aparece en el campo **Nombre**. Opcionalmente, puede editar este campo para especificar un nombre más descriptivo que defina el sitio, servicio o usuario al que se aplica el plan de marcado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>El <strong>Nombre simple</strong> debe ser único entre todos los planes de marcado de la implementación de Lync Server. No puede exceder los 256 caracteres Unicode, donde cada uno de los cuales puede ser alfanumérico o numérico, un guión (-), un punto (.), o un guión bajo (_).<br />
-    Algunos caracteres <strong>no admitidos</strong> son los espacios y lo caracteres reservados, según se define en RFC 3966 (http://www.ietf.org/rfc/rfc3966.txt). Algunos de los caracteres reservados <strong>no admitidos</strong> en el <strong>Nombre simple</strong> son los siguientes:<br />
-    &quot;;&quot; &quot;/&quot; &quot;?&quot; &quot;:&quot; &quot;@&quot; &quot;&amp;&quot; &quot;=&quot; &quot;+&quot; &quot;$&quot; &quot;,&quot;</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+	> El <strong>Nombre simple</strong> debe ser único entre todos los planes de marcado de la implementación de Lync Server. No puede exceder los 256 caracteres Unicode, donde cada uno de los cuales puede ser alfanumérico o numérico, un guión (-), un punto (.), o un guión bajo (_).<br />
+    > Algunos caracteres <strong>no admitidos</strong> son los espacios y lo caracteres reservados, según se define en RFC 3966 (http://www.ietf.org/rfc/rfc3966.txt). Algunos de los caracteres reservados <strong>no admitidos</strong> en el <strong>Nombre simple</strong> son los siguientes:<br />
+    > &quot;;&quot; &quot;/&quot; &quot;?&quot; &quot;:&quot; &quot;@&quot; &quot;&amp;&quot; &quot;=&quot; &quot;+&quot; &quot;$&quot; &quot;,&quot;
 
 
 7.  (Opcional) En el campo **Descripción**, puede escribir información descriptiva adicional sobre el plan de marcado.
@@ -103,19 +93,9 @@ Para crear un plan de marcado nuevo, siga los pasos del procedimiento a continua
 
 11. Compruebe que las reglas de normalización del plan de marcado están dispuestas en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en la flecha arriba o abajo.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server recorre la lista de reglas de normalización de arriba abajo y utiliza la primera regla que coincide con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas.<br />
-    La regla de normalización predeterminada <strong>^(\d{11})$</strong> de <strong>Prefix All</strong> coincide con cualquier número de 11 dígitos. Por ejemplo, si agrega una regla de normalización que coincide con números de 11 dígitos que comiencen con 1425, asegúrese de que <strong>Prefix All</strong> se encuentra debajo de la regla <strong>^(1425\d{7})$</strong> más restrictiva.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Lync Server recorre la lista de reglas de normalización de arriba abajo y utiliza la primera regla que coincide con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas.<br />
+    > La regla de normalización predeterminada <strong>^(\d{11})$</strong> de <strong>Prefix All</strong> coincide con cualquier número de 11 dígitos. Por ejemplo, si agrega una regla de normalización que coincide con números de 11 dígitos que comiencen con 1425, asegúrese de que <strong>Prefix All</strong> se encuentra debajo de la regla <strong>^(1425\d{7})$</strong> más restrictiva.
 
 
 12. (Opcional) Especifique un número para probar el plan de marcado y, a continuación, haga clic en **Ir**. Los resultados de la prueba se muestran en **Introducir un número para probarlo**.

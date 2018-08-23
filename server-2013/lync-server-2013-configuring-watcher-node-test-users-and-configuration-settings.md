@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de los usuarios de la prueba del nodo de monitor y opciones de configuración
-TOCTitle: Configuración de los usuarios de la prueba del nodo de monitor y opciones de configuración
+title: "Configurar usuarios de la prueba del nodo de monitor y opciones de configuración"
+TOCTitle: "Conf. des ut. de test d’un nœud observateur et paramètres de configuration"
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205152(v=OCS.15)
 ms:contentKeyID: 48276324
@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2013-07-29_
 
 Después de configurar el equipo que funcionará como nodo de monitor, debe hacer lo siguiente:
 
-1.  Crear las cuentas de prueba que usarán estos nodos de monitor. Si usa el método de autenticación Negotiate, también debe usar el cmdlet [Set-CsTestUserCredential](set-cstestusercredential.md) para habilitar estas cuentas de prueba para su uso en el nodo de monitor.
+1.  Crear las cuentas de prueba que usarán estos nodos de monitor. Si usa el método de autenticación Negotiate, también debe usar el cmdlet [Set-CsTestUserCredential](https://docs.microsoft.com/en-us/powershell/module/skype/) para habilitar estas cuentas de prueba para su uso en el nodo de monitor.
 
 2.  Actualizar las opciones de configuración del nodo de monitor.
 
@@ -166,19 +166,9 @@ El comando anterior devolverá información similar a la siguiente, según las t
     PersistentChatMessage
     DataConference
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para ver las transacciones sintéticas en orden alfabético, use este comando en su lugar:<br />
-Get-CsWatcherNodeConfiguration –Identity &quot;atl-cs-001.litwareinc.com&quot; | Select-Object –ExpandProperty Tests | Sort-Object</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Para ver las transacciones sintéticas en orden alfabético, use este comando en su lugar:<br />
+> Get-CsWatcherNodeConfiguration –Identity &quot;atl-cs-001.litwareinc.com&quot; | Select-Object –ExpandProperty Tests | Sort-Object
 
 
 Para comprobar que se haya creado un nodo de monitor, escriba el siguiente comando desde el Shell de administración de Lync Server:

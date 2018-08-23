@@ -45,7 +45,7 @@ En Lync Server 2013, puede invalidar el tiempo predeterminado que transcurre ent
         
           - **No requerido** No se solicitará al usuario que especifique una ubicación. Al realizar una llamada sin información de ubicación, el proveedor de servicios de emergencia responderá a la llamada y solicitará que se especifique una ubicación.
         
-          - **Declinación de responsabilidades**   Esta opción es equivalente a **Requerido** con una diferencia: el usuario no puede anular la solicitud de información sin introducir datos. El usuario podrá completar una llamada de emergencia, pero no podrá completarse ninguna otra llamada sin especificar la información. Además, puede mostrarse al usuario un texto de declinación de responsabilidades para alertarle sobre las consecuencias de negarse a especificar información de contacto. Para establecer el texto de declinación de responsabilidades, debe usar el Shell de administración de Lync Server para ejecutar el **Set-CsLocationPolicy** o el cmdlet **New-CsLocationPolicy** con el parámetro EnhancedEmergencyServiceDisclaimer. Para obtener más información, vea [Set-CsLocationPolicy](set-cslocationpolicy.md) o [New-CsLocationPolicy](new-cslocationpolicy.md) en la documentación de Shell de administración de Lync Server.
+          - **Declinación de responsabilidades**   Esta opción es equivalente a **Requerido** con una diferencia: el usuario no puede anular la solicitud de información sin introducir datos. El usuario podrá completar una llamada de emergencia, pero no podrá completarse ninguna otra llamada sin especificar la información. Además, puede mostrarse al usuario un texto de declinación de responsabilidades para alertarle sobre las consecuencias de negarse a especificar información de contacto. Para establecer el texto de declinación de responsabilidades, debe usar el Shell de administración de Lync Server para ejecutar el **Set-CsLocationPolicy** o el cmdlet **New-CsLocationPolicy** con el parámetro EnhancedEmergencyServiceDisclaimer. Para obtener más información, vea [Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy) o [New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy) en la documentación de Shell de administración de Lync Server.
             
 
             > [!NOTE]
@@ -60,18 +60,9 @@ En Lync Server 2013, puede invalidar el tiempo predeterminado que transcurre ent
     
       - **Máscara de marcado de emergencia**   Un número que al marcarlo se convertirá en el valor del número de teléfono de emergencia. Por ejemplo, si especifica el valor "212" en este campo y el número de teléfono de emergencia tiene el valor "911", cuando un usuario marca 212, la llamada se realizará al 911. Esto permite marcar números de emergencia alternativos y seguir teniendo acceso a los servicios de emergencia (por ejemplo, si una persona de un país o una región con otro número de emergencia intenta marcar el número de su país o región, en lugar del número del país o la región donde se encuentra.) Para definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212;414. La longitud máxima de la cadena es de 100 caracteres. Todos los caracteres deben ser dígitos del 0 al 9.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Compruebe que el valor de la máscara de marcado no coincide con ningún número del intervalo de la órbita de estacionamiento de llamadas. El enrutamiento del estacionamiento de llamadas tiene prioridad sobre la conversión de cadenas de marcado de emergencia. Para ver los intervalos existentes en la órbita de estacionamiento de llamadas, haga clic en <strong>Características de voz</strong> en la barra de navegación izquierda y seleccione <strong>Estacionamiento de llamadas</strong>. Para obtener más información, consulte <a href="lync-server-2013-configure-phone-number-extensions-for-parking-calls.md">Configurar extensiones de números de teléfono para estacionar llamadas</a>.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!IMPORTANT]  
+        > Compruebe que el valor de la máscara de marcado no coincide con ningún número del intervalo de la órbita de estacionamiento de llamadas. El enrutamiento del estacionamiento de llamadas tiene prioridad sobre la conversión de cadenas de marcado de emergencia. Para ver los intervalos existentes en la órbita de estacionamiento de llamadas, haga clic en <strong>Características de voz</strong> en la barra de navegación izquierda y seleccione <strong>Estacionamiento de llamadas</strong>. Para obtener más información, consulte <a href="lync-server-2013-configure-phone-number-extensions-for-parking-calls.md">Configurar extensiones de números de teléfono para estacionar llamadas</a>.
+        
     
       - **URI de notificación** Uno o más identificadores uniformes de recursos (URI) del SIP que se notificarán al realizar una llamada de emergencia. Por ejemplo, el departamento de seguridad de la empresa puede recibir una notificación por mensajería instantánea si se realiza una llamada de emergencia. Si la ubicación del autor de la llamada está disponible, se incluirá dicha ubicación en la notificación. Se pueden incluir varios URI del SIP, separados por comas, en una lista. Por ejemplo, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". No se admiten listas de distribución. La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo "sip:". Antes de que haga clic en el campo URI de notificación aparecerá un ejemplo.
     
@@ -85,19 +76,9 @@ En Lync Server 2013, puede invalidar el tiempo predeterminado que transcurre ent
 
 6.  Haga clic en **Confirmar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cuando crea una directiva de usuario, no se aplica inicialmente a ningún usuario o sitio de red. Para aplicar la directiva a un usuario, haga clic en <strong>Usuarios</strong> en la barra de navegación izquierda. Busque al usuario al que desea aplicarle la directiva. En el menú <strong>Editar</strong>, haga clic en <strong>Mostrar detalles</strong>. En la página <strong>Editar usuario de Lync Server</strong>, seleccione una nueva directiva de ubicación de la lista desplegable <strong>Directiva de ubicación</strong> y, a continuación, haga clic en <strong>Confirmar</strong>.<br />
-    Para aplicar la directiva a un sitio de red, haga clic en <strong>Configuración de red</strong> en la barra de navegación izquierda y seleccione <strong>Sitio</strong>. Busque el sitio de red al que desea aplicarle la directiva. En el menú <strong>Editar</strong>, haga clic en <strong>Mostrar detalles</strong>. En la página <strong>Editar sitio</strong>, seleccione una nueva directiva de ubicación de la lista desplegable <strong>Directiva de ubicación</strong> y, a continuación, haga clic en <strong>Confirmar</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Cuando crea una directiva de usuario, no se aplica inicialmente a ningún usuario o sitio de red. Para aplicar la directiva a un usuario, haga clic en <strong>Usuarios</strong> en la barra de navegación izquierda. Busque al usuario al que desea aplicarle la directiva. En el menú <strong>Editar</strong>, haga clic en <strong>Mostrar detalles</strong>. En la página <strong>Editar usuario de Lync Server</strong>, seleccione una nueva directiva de ubicación de la lista desplegable <strong>Directiva de ubicación</strong> y, a continuación, haga clic en <strong>Confirmar</strong>.<br />
+    > Para aplicar la directiva a un sitio de red, haga clic en <strong>Configuración de red</strong> en la barra de navegación izquierda y seleccione <strong>Sitio</strong>. Busque el sitio de red al que desea aplicarle la directiva. En el menú <strong>Editar</strong>, haga clic en <strong>Mostrar detalles</strong>. En la página <strong>Editar sitio</strong>, seleccione una nueva directiva de ubicación de la lista desplegable <strong>Directiva de ubicación</strong> y, a continuación, haga clic en <strong>Confirmar</strong>.
 
 
 ## Para modificar una directiva de ubicación en Panel de control de Lync Server

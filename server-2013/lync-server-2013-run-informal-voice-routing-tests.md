@@ -1,6 +1,6 @@
 ﻿---
-title: Ejecutar pruebas informales de enrutamiento de voz en Lync Server 2013
-TOCTitle: Ejecutar pruebas informales de enrutamiento de voz en Lync Server 2013
+title: "Exécuter des tests informels de routage des comm. Voc. dans Lync Server 2013"
+TOCTitle: "Exécuter des tests informels de routage des comm. Voc. dans Lync Server 2013"
 ms:assetid: ea0e6059-bf04-4b03-b6d3-8f5534b731e2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399049(v=OCS.15)
 ms:contentKeyID: 48277047

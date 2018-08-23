@@ -17,25 +17,12 @@ _**Última modificación del tema:** 2012-09-21_
 
 Realice este procedimiento en el sitio central, que contiene por lo menos un Grupo de servidores front-end o Servidor Standard Edition.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de llevar a cabo el procedimiento, se deben cumplir las siguientes condiciones:
-<ul>
-<li><p>Lync Server 2013  software de comunicaciones debe estar instalado en el sitio central.</p></li>
-<li><p>Servidor de mediación debe estar implementado en el sitio central.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Antes de llevar a cabo el procedimiento, se deben cumplir las siguientes condiciones:
+> <ul>
+> <li><p>Lync Server 2013  software de comunicaciones debe estar instalado en el sitio central.</p></li>
+> <li><p>Servidor de mediación debe estar implementado en el sitio central.</p></li>
+> </ul>
 
 
 ## Para definir una puerta de enlace RTC
@@ -58,18 +45,9 @@ Realice este procedimiento en el sitio central, que contiene por lo menos un Gru
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Use el cmdlet Set- <strong>Set-CsPstnGateway</strong> para modificar las propiedades de una puerta de enlace RTC. Para ver más detalles, consulte <a href="set-cspstngateway.md">Set-CsPstnGateway</a> en la Ayuda del Shell de administración de Lync Server.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Use el cmdlet Set- <strong>Set-CsPstnGateway</strong> para modificar las propiedades de una puerta de enlace RTC. Para ver más detalles, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</a> en la Ayuda del Shell de administración de Lync Server.
+
 
 
 **Paso siguiente** para la resistencia de sucursales: [Configuración de usuarios para la resistencia del sitio de sucursal en Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)

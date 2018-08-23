@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumen de puerto - Grupo de director escalado, equilibrador de carga de hardware'
+title: "Lync Server 2013: Resumen puerto: Grupo director escalado, equilibr. carga hardware"
 TOCTitle: Resumen de puerto - Grupo de director escalado, equilibrador de carga de hardware
 ms:assetid: 6ae2f4ac-5b64-4e45-8253-133308f5812d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204983(v=OCS.15)

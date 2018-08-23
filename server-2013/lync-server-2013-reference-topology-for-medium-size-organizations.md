@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Topología de referencia para organizaciones medianas'
+title: "Topo. de réf. de Lync Server 2013 pour les organisations de taille moyenne"
 TOCTitle: Topología de referencia para organizaciones medianas
 ms:assetid: 446b0914-2198-445e-ab6e-94802acebd5c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425939(v=OCS.15)
@@ -55,25 +55,12 @@ La topología de referencia con alta disponibilidad y un único centro de datos 
     
       - Sus usuarios pueden intercambiar mensajes instantáneos con usuarios de servicios de mensajería instantánea pública, entre los que se incluyen: Windows Live, AOL, Yahoo\! y Google Talk. Quizá sea necesaria otra licencia para la conectividad de mensajería instantánea pública con estos servicios.
         
-        <table>
-        <colgroup>
-        <col style="width: 100%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td><ul>
-        <li><p>El 1 de septiembre de 2012, la licencia de suscripción del usuario de Public IM Connectivity de Microsoft Lync (&quot;PIC USL&quot;) dejó de estar disponible para su compra en los contratos nuevos y en las prórrogas de contratos. Los clientes que tengan licencias activas podrán seguir federándose con Yahoo! Messenger hasta la fecha de cierre del servicio. La fecha anunciada para el fin de vida de AOL y Yahoo! es junio de 2014. Para más detalles, vea <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013</a>.</p></li>
-        <li><p>PIC USL es una licencia de suscripción por usuario/por mes requerida por Lync Server u Office Communications Server para la federación con Yahoo! Messenger. La posibilidad de Microsoft de proporcionar este servicio depende de la compatibilidad con Yahoo!, cuyo contrato subyacente está llegando a su fin.</p></li>
-        <li><p>Hoy más que nunca, Lync es una herramienta eficaz para conectarse dentro de una organización y con individuos de todo el mundo. La federación con Windows Live Messenger no requiere ninguna licencia de usuario o dispositivo adicional aparte de la CAL estándar de Lync. La federación con Skype se agregará a esta lista, lo que permitirá a los usuarios de Lync conectarse con cientos de millones de personas a través de mensajería instantánea y voz.</p></li>
-        </ul></td>
-        </tr>
-        </tbody>
-        </table>
+        > [!IMPORTANT]  
+		> <ul>
+        > <li><p>El 1 de septiembre de 2012, la licencia de suscripción del usuario de Public IM Connectivity de Microsoft Lync (&quot;PIC USL&quot;) dejó de estar disponible para su compra en los contratos nuevos y en las prórrogas de contratos. Los clientes que tengan licencias activas podrán seguir federándose con Yahoo! Messenger hasta la fecha de cierre del servicio. La fecha anunciada para el fin de vida de AOL y Yahoo! es junio de 2014. Para más detalles, vea <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013</a>.</p></li>
+        > <li><p>PIC USL es una licencia de suscripción por usuario/por mes requerida por Lync Server u Office Communications Server para la federación con Yahoo! Messenger. La posibilidad de Microsoft de proporcionar este servicio depende de la compatibilidad con Yahoo!, cuyo contrato subyacente está llegando a su fin.</p></li>
+        > <li><p>Hoy más que nunca, Lync es una herramienta eficaz para conectarse dentro de una organización y con individuos de todo el mundo. La federación con Windows Live Messenger no requiere ninguna licencia de usuario o dispositivo adicional aparte de la CAL estándar de Lync. La federación con Skype se agregará a esta lista, lo que permitirá a los usuarios de Lync conectarse con cientos de millones de personas a través de mensajería instantánea y voz.</p></li>
+        > </ul>
 
 
   - **Podrían agregarse directores.**   Si esta organización deseara aumentar la seguridad contra ataques por denegación de servicio, también podría implementar un grupo de directores. Un Director es un rol del servidor opcional e independiente en Lync Server que no tiene cuentas de usuario particular ni proporciona servicios de presencia o conferencias. Sirve como un servidor interno de próximo salto al que un Servidor perimetral enruta el tráfico SIP de entrada destinado a los servidores internos. El Director realiza una autenticación previa de las solicitudes de entrada y las redirige al servidor a al grupo de usuarios particulares. La autenticación previa en el Director permite soltar las solicitudes de cuentas de usuario desconocidos para la implementación. Un Director ayuda a aislar servidores front-end del tráfico malintencionado como los ataques por denegación de servicio (DoS). Si la red se congestiona con tráfico externo no válido como en un ataque, el tráfico termina en el Director.

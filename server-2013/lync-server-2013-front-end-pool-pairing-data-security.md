@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: seguridad de datos en el emparejamiento de grupos de servidores front-end'
+title: 'Lync Server 2013: Seguridad de datos en emparejamiento grupos de servidores front-end'
 TOCTitle: Seguridad de datos en el emparejamiento de grupos de servidores front-end
 ms:assetid: edb852b8-ea86-4948-b756-60fe6ee876d2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721930(v=OCS.15)
@@ -35,16 +35,7 @@ Otra posible solución consiste en usar IPsec solamente para ayudar a proteger l
 
   - El servicio SMB (TCP/445) de cada Servidor front-end del grupo B al almacén de archivos que usa el grupo A.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>IPsec no está pensado para reemplazar la seguridad en el nivel de la aplicación, como SSL/TLS. Una ventaja de utilizar IPsec es que puede ofrecer seguridad de tráfico de red para las aplicaciones existentes sin necesidad de cambiarlas. Las empresas que, simplemente, quieren proteger el transporte entre los dos centros de datos deben consultar a sus respectivos proveedores de hardware de redes sobre las formas de configurar conexiones WAN seguras con los equipos del proveedor.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> IPsec no está pensado para reemplazar la seguridad en el nivel de la aplicación, como SSL/TLS. Una ventaja de utilizar IPsec es que puede ofrecer seguridad de tráfico de red para las aplicaciones existentes sin necesidad de cambiarlas. Las empresas que, simplemente, quieren proteger el transporte entre los dos centros de datos deben consultar a sus respectivos proveedores de hardware de redes sobre las formas de configurar conexiones WAN seguras con los equipos del proveedor.
+
 

@@ -37,18 +37,9 @@ Una región de red interconecta varias partes de una red a través de varias zon
 
 6.  Haga clic en **Aceptar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No se puede quitar una región si está asociada a un sitio de red. Si lo intenta, recibirá un mensaje de error. Para ver si una región está asociada a algún sitio, seleccione la región y haga clic en <strong>Mostrar detalles</strong> en el menú <strong>Editar</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+    > No se puede quitar una región si está asociada a un sitio de red. Si lo intenta, recibirá un mensaje de error. Para ver si una región está asociada a algún sitio, seleccione la región y haga clic en <strong>Mostrar detalles</strong> en el menú <strong>Editar</strong>.
+    
 
 
 ## Vea también

@@ -25,18 +25,9 @@ La federación es necesaria para permitir a los usuarios de Skype que se comuniq
 
 ![Mostrando PIC](images/Dn440170.451b94e3-0b38-488c-835f-1f25690e8074(OCS.15).jpg "Mostrando PIC")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La federación PIC ya no es compatible con Live Communication Server 2005 SP1 ni con Office Communications Server 2007. Las plataformas compatibles para la federación PIC incluyen Lync Server 2013, Lync Server 2010 y Office Communications Server 2007 R2.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> La federación PIC ya no es compatible con Live Communication Server 2005 SP1 ni con Office Communications Server 2007. Las plataformas compatibles para la federación PIC incluyen Lync Server 2013, Lync Server 2010 y Office Communications Server 2007 R2.
+
 
 
 ## 2\. Configurar al menos una directiva para permitir el acceso de usuarios federados

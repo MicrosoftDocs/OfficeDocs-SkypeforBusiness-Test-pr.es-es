@@ -54,5 +54,5 @@ Los números de acceso telefónico a conferencias también pueden verse con Lync
         HostingProvider    :
         Regions            : {US}
 
-Para más información, vea el tema de ayuda del cmdlet [Get-CsDialInConferencingAccessNumber](get-csdialinconferencingaccessnumber.md).
+Para más información, vea el tema de ayuda del cmdlet [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingAccessNumber).
 

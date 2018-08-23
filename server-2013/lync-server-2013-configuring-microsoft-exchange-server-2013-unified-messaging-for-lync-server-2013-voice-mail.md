@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de la mensajería unificada de Microsoft Exchange Server 2013 para el correo de voz de Microsoft Lync Server 2013
-TOCTitle: Configuración de la mensajería unificada de Microsoft Exchange Server 2013 para el correo de voz de Microsoft Lync Server 2013
+title: "Config. mensajería unif. MS Exchange Server 2013 para correo voz MS Lync Server 2013"
+TOCTitle: "Conf. de la mess. un. MES 2013 pour mess. voc. Microsoft LS 2013"
 ms:assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687983(v=OCS.15)
 ms:contentKeyID: 49888908
@@ -61,13 +61,13 @@ Y puede habilitar a un usuario para la mensajería unificada utilizando un coman
 
 En el comando anterior, el parámetro Extensions representa el número de extensión del teléfono del usuario. En este ejemplo, el usuario tiene el número de extensión 100.
 
-Una vez que haya habilitado su buzón de correo, el usuario kenmyer@litwareinc.com deberá poder utilizar la mensajería unificada de Exchange. Puede verificar que el usuario se pueda conectar a la mensajería unificada de Exchange ejecutando el cmdlet [Test-CsExUMConnectivity](test-csexumconnectivity.md) desde el Shell de administración de Lync Server:
+Una vez que haya habilitado su buzón de correo, el usuario kenmyer@litwareinc.com deberá poder utilizar la mensajería unificada de Exchange. Puede verificar que el usuario se pueda conectar a la mensajería unificada de Exchange ejecutando el cmdlet [Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity) desde el Shell de administración de Lync Server:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-Si tiene un segundo usuario que ha sido habilitado para la mensajería unificada, puede utilizar el cmdlet [Test-CsExUMVoiceMail](test-csexumvoicemail.md) para verificar que este segundo usuario pueda dejar un mensaje de correo de voz para el primer usuario.
+Si tiene un segundo usuario que ha sido habilitado para la mensajería unificada, puede utilizar el cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMVoiceMail) para verificar que este segundo usuario pueda dejar un mensaje de correo de voz para el primer usuario.
 
     $credential = Get-Credential "litwareinc\pilar"
     

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Grupo de servidores de director escalado - Equilibrador de carga de hardware'
+title: "Lync Server 2013: Grupo de servidores de director escalado - Equilib. carga hardware"
 TOCTitle: Grupo de servidores de director escalado - Equilibrador de carga de hardware
 ms:assetid: cf34759a-b384-479c-855f-ea5e80a234b6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205316(v=OCS.15)

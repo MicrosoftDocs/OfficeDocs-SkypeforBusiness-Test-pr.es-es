@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Usar y llevar el mantenimiento del sistema de chat persistente'
+title: "Lync Server 2013: Usar y llevar el mantenimiento del sistema de chat persistente"
 TOCTitle: Usar y llevar el mantenimiento del sistema de chat persistente
 ms:assetid: 84572a6a-3a99-44de-828f-09e2af2d151d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398671(v=OCS.15)

@@ -53,18 +53,9 @@ La atención de llamadas grupales no se puede usar para responder los siguientes
 
   - Llamadas de un contacto al que se ha asignado la relación de privacidad Amigos y familiares
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Un usuario miembro de un grupo de atención de llamadas puede impedir que se recuperen ciertas llamadas mediante la atención de llamadas grupales marcando el contacto como personal en el cliente de Lync. Para marcar un contacto como personal, establezca la relación de privacidad del contacto en Amigos y familiares. Las llamadas provenientes de contactos con la relación de privacidad establecida en Amigos y familiares no se pueden recuperar mediante la atención de llamadas grupales.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Un usuario miembro de un grupo de atención de llamadas puede impedir que se recuperen ciertas llamadas mediante la atención de llamadas grupales marcando el contacto como personal en el cliente de Lync. Para marcar un contacto como personal, establezca la relación de privacidad del contacto en Amigos y familiares. Las llamadas provenientes de contactos con la relación de privacidad establecida en Amigos y familiares no se pueden recuperar mediante la atención de llamadas grupales.
+    
 
 
   - Parte de vídeo de llamadas de audio y vídeo

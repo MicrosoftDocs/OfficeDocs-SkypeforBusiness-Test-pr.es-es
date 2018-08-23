@@ -53,7 +53,7 @@ Ejecute los pasos del procedimiento siguiente para mover grupos de respuesta de 
     
 
     > [!NOTE]
-    > La configuración de nivel de aplicación incluye la configuración de música en espera predeterminada, el archivo de audio de música en espera predeterminado, el período de gracia de devolución de llamada del agente y la configuración del contexto de la llamada. Para ver los valores de la configuración, ejecute el cmdlet <STRONG>Get-CsRgsConfiguration</STRONG>. Para más información sobre el cmdlet, vea <A href="get-csrgsconfiguration.md">Get-CsRgsConfiguration</A>.
+    > La configuración de nivel de aplicación incluye la configuración de música en espera predeterminada, el archivo de audio de música en espera predeterminado, el período de gracia de devolución de llamada del agente y la configuración del contexto de la llamada. Para ver los valores de la configuración, ejecute el cmdlet <STRONG>Get-CsRgsConfiguration</STRONG>. Para más información sobre el cmdlet, vea <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.
 
 
 

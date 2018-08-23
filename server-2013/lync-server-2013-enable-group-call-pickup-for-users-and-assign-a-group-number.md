@@ -1,6 +1,6 @@
 ﻿---
-title: Habilitar la respuesta de llamadas en grupo para los usuarios y asignar un número de grupo
-TOCTitle: Habilitar la respuesta de llamadas en grupo para los usuarios y asignar un número de grupo
+title: "Habilitar la respuesta de llamadas en grupo para usuarios y asignar número de grupo"
+TOCTitle: "Activer la prise d’appel de gr. pour des ut. et assigner un numéro de groupe"
 ms:assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945650(v=OCS.15)
 ms:contentKeyID: 52061735

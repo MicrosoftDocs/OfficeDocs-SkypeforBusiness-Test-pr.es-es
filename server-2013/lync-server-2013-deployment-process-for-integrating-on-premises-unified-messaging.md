@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Proceso de implementación de la integración de la mensajería unificada local'
+title: "Proceso de implementación de la integración de la mensajería unificada local"
 TOCTitle: Proceso de implementación de la integración de la mensajería unificada local y Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425737(v=OCS.15)
@@ -19,18 +19,9 @@ Si desea integrar la Mensajería unificada de Exchange (UM) con Lync Server 2013
 
 ## Proceso de integración de la mensajería unificada
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Es importante estar coordinado con los administradores de Exchange de la organización para constatar qué tareas va a realizar cada uno a fin de que la integración se realice de forma correcta y sin fisuras.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Es importante estar coordinado con los administradores de Exchange de la organización para constatar qué tareas va a realizar cada uno a fin de que la integración se realice de forma correcta y sin fisuras.
+
 
 
 
@@ -149,7 +140,7 @@ Si desea integrar la Mensajería unificada de Exchange (UM) con Lync Server 2013
 <tr class="even">
 <td><p>Configurar planes de marcado de Lync Server 2013.</p></td>
 <td><p>Si está integrado en Exchange 2007 SP1 o el último service pack, o Exchange 2010, cree un nuevo plan de marcado de Telefonía IP empresarial con el mismo nombre que el nombre de dominio completo (FQDN) del plan de marcado de mensajería unificada de Exchange.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Deberá hacer esto para cada plan de marcado de mensajería unificada.
@@ -157,7 +148,7 @@ Si desea integrar la Mensajería unificada de Exchange (UM) con Lync Server 2013
 
 </div>
 <p>Si está integrado en Exchange 2010 SP1, asegúrese de que se han configurado los planes de marcado de Telefonía IP empresarial de nivel de grupo o nivel de sitio/global pertinentes.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Si está integrado en Exchange 2010 SP1, los nombres del plan de marcado de Lync Server y del plan de marcado SIP de mensajería unificada de Exchange no tienen por qué coincidir.
@@ -176,24 +167,15 @@ Si desea integrar la Mensajería unificada de Exchange (UM) con Lync Server 2013
 </ul>
 <p>Esta herramienta busca en Active Directory opciones de configuración de mensajería unificada de Exchange y permite al administrador de Lync Server 2013 ver, crear y editar objetos de contacto.</p></td>
 <td><p>RTCUniversalServerAdmins <em>y</em> RTCUniversalUserAdmins</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para ejecutar ocsumutil.exe correctamente, el usuario debe pertenecer a ambos grupos.</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!IMPORTANT]  
+> Para ejecutar ocsumutil.exe correctamente, el usuario debe pertenecer a ambos grupos.
 
 </div>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > Para crear objetos de contacto, el usuario que ejecute ocsumutil.exe debe poseer el permiso adecuado en la unidad organizativa de Active&nbsp;Directory en la que los nuevos objetos de contacto están almacenados. Este permiso se puede obtener si se ejecuta el cmdlet <STRONG>Grant-CsOUPermission</STRONG>. Para obtener información detallada, consulte la documentación del Shell de administración de Lync Server.
 
 

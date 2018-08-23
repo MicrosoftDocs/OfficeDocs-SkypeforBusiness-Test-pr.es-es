@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Opcional) Habilitar y deshabilitar los anuncios de participación y abandono de conferencias'
+title: "(Opcional) Habilitar/deshabilitar anuncios de participación/abandono de conferencias"
 TOCTitle: (Opcional) Habilitar y deshabilitar los anuncios de participación y abandono de conferencias
 ms:assetid: c9529568-e66c-48d8-aef2-9072f9c336ff
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398834(v=OCS.15)

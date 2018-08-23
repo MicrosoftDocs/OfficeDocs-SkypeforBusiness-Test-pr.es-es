@@ -96,18 +96,9 @@ Assuming you are running latest cumulative update, use the following stress test
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>The following performance counter numbers will likely vary when different hardware specifications or user profiles are used.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> The following performance counter numbers will likely vary when different hardware specifications or user profiles are used.
+
 
 
 ### Performance counter to be monitored

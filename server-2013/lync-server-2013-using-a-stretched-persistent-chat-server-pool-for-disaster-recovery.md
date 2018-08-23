@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Usar un grupo de servidores de chat persistente estirado para la recuperación ante desastres'
+title: "Usar servidores de chat persistente estirado para la recuperación ante desastres"
 TOCTitle: Usar un grupo de servidores de chat persistente estirado para la recuperación ante desastres
 ms:assetid: 74c5287e-d70d-490a-9adc-ab419917ddd9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205007(v=OCS.15)

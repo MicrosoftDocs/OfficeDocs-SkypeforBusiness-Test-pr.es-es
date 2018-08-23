@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminación de un conjunto existente de opciones de configuración del servidor perimetral A/V
-TOCTitle: Eliminación de un conjunto existente de opciones de configuración del servidor perimetral A/V
+title: "Eliminar conjunto existente de opciones de configuración del servidor perimetral A/V"
+TOCTitle: "Suppr. d’une collection existante de par. de conf. d’un serveur Edge A/V"
 ms:assetid: 668d3613-e464-4b68-967a-cfff90b9ce4b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688077(v=OCS.15)
 ms:contentKeyID: 49889210
@@ -21,7 +21,7 @@ Al instalar Lync Server, se crea automáticamente una colección global de opcio
 
 En cambio, las colecciones de opciones de configuración personalizadas que haya creado (ya sea en el ámbito de sitio o de servicio) se pueden eliminar con el cmdlet Remove-CsAVEdgeConfiguration. Si elimina la configuración de sitio, los servidores perimetrales A/V de dicho sitio pasarán a administrarse mediante la configuración global y, si elimina la configuración de servicio, el servidor se administrará por medio de su configuración de sitio (si la hay) o por la configuración global (en caso de que no haya configuración de sitio disponible).
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md).
+Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration).
 
 ## Restablecer la colección global
 
@@ -51,5 +51,5 @@ Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsA
 #### Otros recursos
 
 [Servidores perimetrales de audio y vídeo (A/V) en Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md)
+[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration)
 

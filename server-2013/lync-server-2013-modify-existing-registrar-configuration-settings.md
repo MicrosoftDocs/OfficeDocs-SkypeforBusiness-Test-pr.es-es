@@ -1,6 +1,6 @@
 ﻿---
-title: Modificación de las opciones de configuración de un registrador existente
-TOCTitle: Modificación de las opciones de configuración de un registrador existente
+title: "Modif. des paramètres de configuration d’un serveur d’inscriptions existant"
+TOCTitle: "Modif. des paramètres de configuration d’un serveur d’inscriptions existant"
 ms:assetid: a8931511-3e66-49ed-a3ec-03bcd61ce1f0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182566(v=OCS.15)
 ms:contentKeyID: 48276295

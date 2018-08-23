@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Eliminar un sitio o una directiva de usuario para el acceso de usuarios externos'
+title: "Eliminar un sitio o una directiva de usuario para el acceso de usuarios externos"
 TOCTitle: Eliminar un sitio o una directiva de usuario para el acceso de usuarios externos
 ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg521013(v=OCS.15)
@@ -51,5 +51,5 @@ Las directivas de acceso externo también se pueden eliminar con Windows PowerSh
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md).
+Si desea más información, consulte el tema de ayuda relativo al cmdlet [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy).
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Afrontar las amenazas a la infraestructura básica de Lync Server 2013
-TOCTitle: Afrontar las amenazas a la infraestructura básica de Lync Server 2013
+title: "Traitement des menaces pesant sur votre infr. de base pour Lync Server 2013"
+TOCTitle: "Traitement des menaces pesant sur votre infr. de base pour Lync Server 2013"
 ms:assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn518334(v=OCS.15)
 ms:contentKeyID: 60505978

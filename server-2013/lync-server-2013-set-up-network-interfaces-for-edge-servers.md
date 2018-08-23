@@ -35,18 +35,9 @@ Cada servidor perimetral es un equipo de host múltiple con interfaces orientada
 
 1.  Instale dos adaptadores de red para cada servidor perimetral, uno para la interfaz orientada internamente y otro para la interfaz orientada externamente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Las subredes internas y externas no deben ser enrutables entre sí.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Las subredes internas y externas no deben ser enrutables entre sí.
+    
 
 
 2.  En la interfaz externa, configure tres direcciones IP estáticas en la subred de la red perimetral externa (denominada red perimetral o subred filtrada) y apunte la puerta de enlace predeterminada a la interfaz interna del firewall externo. Configure el adaptador DNS para apuntar a un par de servidores DNS perimetrales.
@@ -65,18 +56,9 @@ Cada servidor perimetral es un equipo de host múltiple con interfaces orientada
 
 1.  Instale dos adaptadores de red para cada servidor perimetral, uno para la interfaz orientada internamente y otro para la interfaz orientada externamente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Las subredes internas y externas no deben ser enrutables entre sí.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Las subredes internas y externas no deben ser enrutables entre sí.
+    
 
 
 2.  En la interfaz externa, configure tres direcciones IP estáticas en la subred de red perimetral externa y apunte la puerta de enlace predeterminada a la interfaz interna del firewall externo. Configure el adaptador DNS para apuntar al menos a un servidor DNS, preferiblemente a un par de servidores DNS externos.

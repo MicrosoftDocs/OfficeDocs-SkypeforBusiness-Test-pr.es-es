@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange'
+title: "Crear registro DNS SRV para integración con mensajería unific. hospedada de Exchange"
 TOCTitle: Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange
 ms:assetid: 8ea590ae-58ea-4ca5-9853-e0708b3ea760
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh500728(v=OCS.15)
@@ -25,18 +25,9 @@ En este tema se describe cómo configurar el registro SRV del Sistema de nombres
 
 3.  En el árbol de la consola de su dominio SIP, expanda **Zonas de búsqueda directa** y seleccione el dominio SIP en que se instalará Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Debe crear el registro SRV de DNS en el dominio SIP en que se va a instalar Lync Server. Al crear el registro SRV, el FQDN usado para el host que ofrece este campo de servicio debe ser el FQDN externo del grupo de servidores perimetrales. Por ejemplo, si el FQDN externo de su grupo de servidores perimetrales es edge01.contoso.net, escriba ese valor. Este debe estar también en el mismo dominio que el registro de host (A) de DNS.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Debe crear el registro SRV de DNS en el dominio SIP en que se va a instalar Lync Server. Al crear el registro SRV, el FQDN usado para el host que ofrece este campo de servicio debe ser el FQDN externo del grupo de servidores perimetrales. Por ejemplo, si el FQDN externo de su grupo de servidores perimetrales es edge01.contoso.net, escriba ese valor. Este debe estar también en el mismo dominio que el registro de host (A) de DNS.
+    
 
 
 4.  Haga clic con el botón secundario en el dominio seleccionado y haga clic en **Registros nuevos** .

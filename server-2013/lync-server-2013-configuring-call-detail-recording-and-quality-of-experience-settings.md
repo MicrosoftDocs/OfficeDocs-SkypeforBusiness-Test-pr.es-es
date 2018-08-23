@@ -1,5 +1,5 @@
 ﻿---
-title: Configuración de la grabación de detalles de llamada y la calidad de la experiencia en Lync Server 2013
+title: "Grabación de detalles de llamada y calidad de la experiencia en Lync Server 2013"
 TOCTitle: Configuración de la grabación de detalles de llamada y la calidad de la experiencia
 ms:assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204621(v=OCS.15)

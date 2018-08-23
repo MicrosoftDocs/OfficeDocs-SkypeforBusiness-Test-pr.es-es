@@ -1,6 +1,6 @@
 ﻿---
-title: Primeros pasos antes de empezar a migrar usuarios de Lync Online a Lync local
-TOCTitle: Primeros pasos antes de empezar a migrar usuarios de Lync Online a Lync local
+title: "1ères étapes av. début migration des util. de Lync Online vers Lync local"
+TOCTitle: "1ères étapes av. début migration des util. de Lync Online vers Lync local"
 ms:assetid: 98245b04-ded4-4186-8da3-ba1c554b5c39
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn689118(v=OCS.15)
 ms:contentKeyID: 62247381
@@ -25,21 +25,27 @@ Antes de empezar a mover usuarios de Lync Online a su entorno local, compruebe q
     
     Después de instalar el módulo, puede establecer una sesión remota escribiendo los siguientes cmdlets en Shell de administración de Lync Server:
     
-        Import-Module LyncOnlineConnector
-    
-        $cred = Get-Credential
-    
-        $CSSession = New-CsOnlineSession -Credential $cred
-    
-        Import-PSSession $CSSession -AllowClobber
-    
-    Si desea más información sobre cómo establecer una sesión PowerShell remota con Skype Empresarial Online, consulte [Conectar con Lync Online mediante Windows PowerShell](connecting-to-skype-for-business-online-by-using-windows-powershell.md).
-    
-    Si desea más información sobre el uso del módulo de PowerShell Skype Empresarial Online, consulte [Administrar Lync Online con Windows PowerShell](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md).
+    ```
+    Import-Module LyncOnlineConnector
+    ```
+    ```
+    $cred = Get-Credential
+    ```
+    ```
+    $CSSession = New-CsOnlineSession -Credential $cred
+    ```
+    ```
+    Import-PSSession $CSSession -AllowClobber
+    ```
+  Si desea más información sobre cómo establecer una sesión PowerShell remota con Skype Empresarial Online, consulte [Conectar con Lync Online mediante Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+  
+  Si desea más información sobre el uso del módulo de PowerShell Skype Empresarial Online, consulte [Administrar Lync Online con Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
   - Su Lync Online debe estar configurado para un espacio de direcciones SIP compartido. Para hacerlo, primero inicie una sesión de PowerShell remota con Lync Online. A continuación, ejecute el cmdlet siguiente:
     
-        Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
+  ```
+  Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
+  ```
 
 Cuando haya realizado estos pasos, podrá empezar a mover usuarios a [Migrar usuarios de Lync Online a Lync local](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).
 

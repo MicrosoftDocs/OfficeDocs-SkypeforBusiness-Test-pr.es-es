@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar los nombres de dominio completos (FQDN) de la granja de servidores web'
+title: "Lync Server 2013: Configurar nombres de dominio completos de granja de servidores web"
 TOCTitle: Configurar los nombres de dominio completos (FQDN) de la granja de servidores web
 ms:assetid: cb25dbbd-dcea-4997-8e14-e5007dd7d3ca
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg429722(v=OCS.15)
@@ -37,18 +37,9 @@ Al definir la configuración del servidor Standard Edition, el Grupo de servidor
 
 6.  Haga clic con el botón derecho en **Lync Server 2013** y, a continuación, haga clic en **Publicar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Una vez finalizada la publicación correctamente, puede aparecer un vínculo que le informa de que hay pasos adicionales que deban llevarse a cabo. Si hace clic en el vínculo, se abre una lista de servidores afectados por los cambios realizados en Generador de topologías que le pide que vuelva a ejecutar la Asistente para la implementación de Lync Server en cada servidor enumerado para actualizar la configuración de componentes agregados, quitados o modificados.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Una vez finalizada la publicación correctamente, puede aparecer un vínculo que le informa de que hay pasos adicionales que deban llevarse a cabo. Si hace clic en el vínculo, se abre una lista de servidores afectados por los cambios realizados en Generador de topologías que le pide que vuelva a ejecutar la Asistente para la implementación de Lync Server en cada servidor enumerado para actualizar la configuración de componentes agregados, quitados o modificados.
+    
 
 
 7.  Repita estos pasos para todos los servidores Standard Edition, los Grupo de servidores front-end y los Director o Grupo de directores de la organización.

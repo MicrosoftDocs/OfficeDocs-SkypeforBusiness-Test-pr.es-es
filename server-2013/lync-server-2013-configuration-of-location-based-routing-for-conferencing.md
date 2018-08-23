@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: configuración del enrutamiento basado en ubicación para conferencias'
+title: 'Lync Server 2013: configuración de enrutamiento basado en ubicación para conferencias'
 TOCTitle: Configuración del enrutamiento basado en ubicación para conferencias
 ms:assetid: d8c708cc-a1b1-48b1-808c-a64df15f7701
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn362846(v=OCS.15)
@@ -47,18 +47,9 @@ New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com
 
 Después de usar este cmdlet, reinicie todos los servidores front-end del grupo o los servidores Standard Edition en los que esté habilitada la aplicación de conferencias con enrutamiento basado en ubicación.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>El cumplimiento del enrutamiento basado en ubicación por parte de las conferencias o las transferencias consultivas no se exigirá hasta que se reinicien todos los servidores front-end de los grupos o servidores Standard Edition correspondientes. Si configura <strong>–Critical</strong> como <strong>$true</strong> en los cmdlets anteriores, los servicios de Lync se reiniciarán de inmediato. Si no quiere que estos servicios se reinicien inmediatamente, configure <strong>–Critical</strong> como <strong>$false</strong> de momento y, luego, utilice <strong>Set-CsServerApplication</strong> para cambiar <strong>-Critical</strong> a <strong>$true</strong> más adelante, después de reiniciarse los servicios.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> El cumplimiento del enrutamiento basado en ubicación por parte de las conferencias o las transferencias consultivas no se exigirá hasta que se reinicien todos los servidores front-end de los grupos o servidores Standard Edition correspondientes. Si configura <strong>–Critical</strong> como <strong>$true</strong> en los cmdlets anteriores, los servicios de Lync se reiniciarán de inmediato. Si no quiere que estos servicios se reinicien inmediatamente, configure <strong>–Critical</strong> como <strong>$false</strong> de momento y, luego, utilice <strong>Set-CsServerApplication</strong> para cambiar <strong>-Critical</strong> a <strong>$true</strong> más adelante, después de reiniciarse los servicios.
+
 
 
 Después de habilitar correctamente la aplicación de conferencias de enrutamiento basado en ubicación y de reiniciar todos los servidores de Lync correspondientes, todas las conferencias organizadas por usuarios de Lync y habilitadas para el enrutamiento basado en ubicación se supervisarán para evitar que se omitan los números de pago de RTC

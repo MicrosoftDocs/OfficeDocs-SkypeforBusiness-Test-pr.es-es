@@ -1,5 +1,5 @@
 ﻿---
-title: Deshabilitación o rehabilitación de la cuenta de usuario de Lync Server en Lync Server 2013
+title: 'Deshabilitar o rehabilitar cuenta de usuario de Lync Server en Lync Server 2013'
 TOCTitle: Deshabilitación o rehabilitación de la cuenta de usuario de Lync Server en Lync Server 2013
 ms:assetid: 12497d00-f665-4a97-be68-854c5a8be4fc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg429696(v=OCS.15)
@@ -51,7 +51,7 @@ Es posible deshabilitar las cuentas de usuario de forma temporal para volver a h
     
         Set-CsUser -Identity "Ken Myer" -Enabled $True
 
-Para más información, vea el tema de ayuda del cmdlet [Set-CsUser](set-csuser.md).
+Para más información, vea el tema de ayuda del cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser).
 
 ## Vea también
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Configurar certificados en el servidor que ejecuta la mensajería unificada de Microsoft Exchange Server
-TOCTitle: Configurar certificados en el servidor que ejecuta la mensajería unificada de Microsoft Exchange Server
+title: "Configurar certificados en servidor con mensajería unificada de MS Exchange Server"
+TOCTitle: "Conf. certif. sur le serv. exécutant la mess. un. Microsoft Exchange Server"
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398564(v=OCS.15)
 ms:contentKeyID: 48275703
@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2016-12-08_
 
 Si ha implementado la Mensajería unificada de Exchange (UM), como se describe en [Planear la integración de la mensajería unificada de Exchange en Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md), en la documentación referente a la planeación, y desea proporcionar las características de la Mensajería unificada de Exchange a los usuarios de Telefonía IP empresarial de su organización, puede usar los siguientes procedimientos para configurar el certificado en el servidor que ejecuta la Mensajería unificada de Exchange.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para los certificados internos, los servidores que ejecutan Lync Server 2013 y los servidores que ejecutan Microsoft Exchange deben tener certificados de entidad de certificación raíz de confianza que sean de confianza mutua. La entidad de certificación (CA) puede ser la misma o una entidad diferente siempre que los servidores tengan el certificado raíz de entidad de certificación registrado en su almacén de certificados de entidad de certificación raíz de confianza.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Para los certificados internos, los servidores que ejecutan Lync Server 2013 y los servidores que ejecutan Microsoft Exchange deben tener certificados de entidad de certificación raíz de confianza que sean de confianza mutua. La entidad de certificación (CA) puede ser la misma o una entidad diferente siempre que los servidores tengan el certificado raíz de entidad de certificación registrado en su almacén de certificados de entidad de certificación raíz de confianza.
+
 
 
 El servidor Exchange debe configurarse con un certificado de servidor para poder conectarse a Lync Server 2013:

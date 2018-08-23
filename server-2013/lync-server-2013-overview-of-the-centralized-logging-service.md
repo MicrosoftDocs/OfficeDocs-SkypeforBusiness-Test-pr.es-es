@@ -27,7 +27,7 @@ El Servicio de registro centralizado está diseñado para proporcionar un medio 
 
 Los comandos se ejecutan mediante la interfaz de línea de comandos de Windows Server o mediante Shell de administración de Lync Server. Los comandos se ejecutan en el equipo donde haya iniciado sesión y se envían a ClsAgent localmente o a los demás equipos y grupos de su implementación.
 
-ClsAgent mantiene un archivo de índice de todos los archivos .CACHE disponibles en el equipo local. ClsAgent los asigna de manera que se distribuyan uniformemente entre todos los volúmenes definidos por la opción CacheFileLocalFolders, sin consumir nunca más del 80% de cada volumen (la ubicación de la caché local y el porcentaje se pueden configurar mediante el cmdlet **Set-CsClsConfiguration**). ClsAgent también es responsable de limpiar los archivos de registro de seguimiento de eventos (.etl) del equipo local. Después de dos semanas (el período de tiempo se puede configurar mediante el cmdlet **Set-CsClsConfiguration**), estos archivos se copian a un recurso compartido de archivos y se eliminan del equipo local. Para obtener más información, consulte [Set-CsClsConfiguration](set-csclsconfiguration.md). Cuando se recibe una solicitud de búsqueda, se usan los criterios de búsqueda para seleccionar el conjunto de archivos .etl en caché para realizar la búsqueda en función de los valores del índice que mantiene el agente.
+ClsAgent mantiene un archivo de índice de todos los archivos .CACHE disponibles en el equipo local. ClsAgent los asigna de manera que se distribuyan uniformemente entre todos los volúmenes definidos por la opción CacheFileLocalFolders, sin consumir nunca más del 80% de cada volumen (la ubicación de la caché local y el porcentaje se pueden configurar mediante el cmdlet **Set-CsClsConfiguration**). ClsAgent también es responsable de limpiar los archivos de registro de seguimiento de eventos (.etl) del equipo local. Después de dos semanas (el período de tiempo se puede configurar mediante el cmdlet **Set-CsClsConfiguration**), estos archivos se copian a un recurso compartido de archivos y se eliminan del equipo local. Para obtener más información, consulte [Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration). Cuando se recibe una solicitud de búsqueda, se usan los criterios de búsqueda para seleccionar el conjunto de archivos .etl en caché para realizar la búsqueda en función de los valores del índice que mantiene el agente.
 
 
 > [!NOTE]
@@ -47,33 +47,14 @@ Cuando un usuario solicita una búsqueda de registros, ClsController determina a
 
 Cuando inicia una sesión de registro, especifica los escenarios relativos al problema que está intentando resolver. Puede tener dos escenarios en ejecución al mismo tiempo. Uno de los dos debe ser el escenario AlwaysOn. Como su nombre indica, siempre debe estar en ejecución en su implementación, recopilando información sobre todos los equipos, grupos y componentes.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>De forma predeterminada, el escenario AlwaysOn no se ejecuta en su implementación. Debe iniciarlo explícitamente. Una vez iniciado, continuará ejecutándose hasta que se detenga explícitamente, y el estado en ejecución persistirá aunque se reinicien los equipos. Para obtener más información sobre cómo iniciar y detener escenarios, consulte <a href="lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md">Uso de Inicio para el servicio de registro centralizado para los registros de captura</a> y <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Uso de Detener en el servicio de registro centralizado</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> De forma predeterminada, el escenario AlwaysOn no se ejecuta en su implementación. Debe iniciarlo explícitamente. Una vez iniciado, continuará ejecutándose hasta que se detenga explícitamente, y el estado en ejecución persistirá aunque se reinicien los equipos. Para obtener más información sobre cómo iniciar y detener escenarios, consulte <a href="lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md">Uso de Inicio para el servicio de registro centralizado para los registros de captura</a> y <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Uso de Detener en el servicio de registro centralizado</a>.
+
 
 
 Cuando se produce un problema, inicia un segundo escenario relacionado con el problema notificado. Reproduce el problema y detiene el registro del segundo escenario. Comienza las búsquedas de registros relativas al problema notificado. La colección agregada de registros produce un archivo de registro que contiene mensajes de seguimiento de todos los equipos del ámbito de sitio o global de su implementación. Si la búsqueda devuelve más datos de los que es razonable analizar (lo que normalmente se conoce como relación señal-ruido, en la que el ruido es demasiado alto), ejecuta otra búsqueda con parámetros más limitados. En este punto, puede comenzar a observar que aparecen patrones que le ayudarán a centrarse en el problema. Por último, después de realizar un par de búsquedas más refinadas, podrá encontrar los datos relativos al problema y averiguar la causa originaria.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cuando se le presente un escenario de problemas en Lync Server, comience por preguntarse “¿Qué sé realmente ya acerca del problema?”. Si cuantifica los límites del problema, podrá eliminar gran parte de las entidades operativas de Lync Server.<br />
-Considere un escenario de ejemplo en el que sabe que los usuarios no están obteniendo resultados actualizados cuando buscan un contacto. No tiene sentido buscar problemas en los componentes de medios, Telefonía IP empresarial, conferencias y algunos otros componentes. Lo que quizás no sepa es dónde está realmente el problema: ¿en el cliente o es un problema del lado del servidor? El replicador de usuarios recopila los contactos de Active Directory y los envía al cliente mediante el servidor de libreta de direcciones (ABServer). ABServer obtiene sus actualizaciones de la base de datos de RTC (donde el replicador de usuarios las escribió) y las recopila en archivos de libreta de direcciones a la 1:30 a.m de forma predeterminada. Los clientes de Lync Server recuperan la nueva libreta de direcciones según una programación aleatoria. Como conoce el funcionamiento del proceso, puede reducir la búsqueda de la posible causa a un problema relativo a los datos que el replicador de usuarios recopila de Active Directory, a que ABServer no está recuperando o creando los archivos de libretas de direcciones o a que los clientes no están descargando el archivo de libreta de direcciones.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Cuando se le presente un escenario de problemas en Lync Server, comience por preguntarse “¿Qué sé realmente ya acerca del problema?”. Si cuantifica los límites del problema, podrá eliminar gran parte de las entidades operativas de Lync Server.<br />
+> Considere un escenario de ejemplo en el que sabe que los usuarios no están obteniendo resultados actualizados cuando buscan un contacto. No tiene sentido buscar problemas en los componentes de medios, Telefonía IP empresarial, conferencias y algunos otros componentes. Lo que quizás no sepa es dónde está realmente el problema: ¿en el cliente o es un problema del lado del servidor? El replicador de usuarios recopila los contactos de Active Directory y los envía al cliente mediante el servidor de libreta de direcciones (ABServer). ABServer obtiene sus actualizaciones de la base de datos de RTC (donde el replicador de usuarios las escribió) y las recopila en archivos de libreta de direcciones a la 1:30 a.m de forma predeterminada. Los clientes de Lync Server recuperan la nueva libreta de direcciones según una programación aleatoria. Como conoce el funcionamiento del proceso, puede reducir la búsqueda de la posible causa a un problema relativo a los datos que el replicador de usuarios recopila de Active Directory, a que ABServer no está recuperando o creando los archivos de libretas de direcciones o a que los clientes no están descargando el archivo de libreta de direcciones.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminación de un conjunto existente de opciones de configuración de CDR
-TOCTitle: Eliminación de un conjunto existente de opciones de configuración de CDR
+title: "Supp. d’une coll. existante de par. de conf. de l’enr. des détails des appels"
+TOCTitle: "Supp. d’une coll. existante de par. de conf. de l’enr. des détails des appels"
 ms:assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688128(v=OCS.15)
 ms:contentKeyID: 49889372
@@ -21,7 +21,7 @@ Al instalar Microsoft Lync Server 2013, se crea automáticamente una colección 
 
 Recuerde que también puede "eliminar" la configuración global. Sin embargo, esta no se quitará realmente. En su lugar, todas las propiedades de dicha colección se restablecerán a sus valores predeterminados. Por ejemplo, la purga está habilitada de forma predeterminada en una colección de opciones de configuración de CDR. Supongamos que modifica la colección global y la purga se deshabilita. Si más adelante elimina la configuración global, todas las propiedades se restablecerán a sus valores predeterminados. En este caso, eso significa que la purga volverá a estar habilitada.
 
-Para quitar las opciones de configuración de CDR, puede usar el Panel de control de Lync Server o el cmdlet [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Para quitar las opciones de configuración de CDR, puede usar el Panel de control de Lync Server o el cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 
 ## Para quitar las opciones de configuración de CDR mediante el Panel de control de Lync Server
 
@@ -55,5 +55,5 @@ Puede eliminar las opciones de configuración del registro detallado de llamadas
     
         Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
 
-Para obtener más información, consulte el tema sobre el cmdlet [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Para obtener más información, consulte el tema sobre el cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 

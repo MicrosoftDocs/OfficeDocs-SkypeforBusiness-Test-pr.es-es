@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Vías de migración de servidor compatibles y escenarios de coexistencia'
+title: "Lync Server 2013: Rutas de migración de servidor compat. y escenarios de coexistencia"
 TOCTitle: Vías de migración de servidor compatibles y escenarios de coexistencia
 ms:assetid: 2a6a730f-7f80-45f9-9540-3edfdaa265fb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425764(v=OCS.15)
@@ -29,8 +29,7 @@ Se admite la migración de todas las topologías de Lync Server y funciones de s
 
 Lync Server 2013 solo admite el siguiente método de migración:
 
-  -   
-    **Migración en paralelo.** En la migración en paralelo, Lync Server 2013 se implementa junto con una implementación de Microsoft Lync Server 2010 o Office Communications Server 2007 R2 existente y después se transfieren las operaciones a los nuevos servidores y se mueven los usuarios a Lync Server 2013. Este método requiere plataformas de servidores adicionales, tanto hardware como software, durante la migración. Además, los nombres del sistema y de los grupos de servidores son diferentes en la nueva configuración. Si fuera necesario volver a la versión anterior, puede transferir las operaciones a los servidores anteriores.
+  **Migración en paralelo.** En la migración en paralelo, Lync Server 2013 se implementa junto con una implementación de Microsoft Lync Server 2010 o Office Communications Server 2007 R2 existente y después se transfieren las operaciones a los nuevos servidores y se mueven los usuarios a Lync Server 2013. Este método requiere plataformas de servidores adicionales, tanto hardware como software, durante la migración. Además, los nombres del sistema y de los grupos de servidores son diferentes en la nueva configuración. Si fuera necesario volver a la versión anterior, puede transferir las operaciones a los servidores anteriores.
 
 No se admite la migración entre bosques de Servicios de dominio de Active Directory.
 

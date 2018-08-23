@@ -1,6 +1,6 @@
 ﻿---
-title: Configuración de Microsoft Lync Server 2013 para usar el almacén de contactos unificado
-TOCTitle: Configuración de Microsoft Lync Server 2013 para usar el almacén de contactos unificado
+title: "Configuración de MS Lync Server 2013 para usar el almacén de contactos unificado"
+TOCTitle: "Conf. de Microsoft Lync Server 2013 pour l’util. du magasin de contact unifié"
 ms:assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688083(v=OCS.15)
 ms:contentKeyID: 49889217
@@ -45,7 +45,7 @@ Una vez creada la directiva, hay que asignarla a los usuarios que deban tener ac
 
 Tras asignar la directiva, Lync Server comenzará a migrar los contactos del usuario al almacén de contactos unificados. Una vez terminada la migración, el usuario tendrá sus contactos guardados en Exchange, en lugar de Lync Server. Si coincidiera que el usuario tuviera la sesión iniciada en Lync 2013 en el momento en que concluye la migración, se mostrará un cuadro de mensaje donde se le pedirá que cierre la sesión de Lync y vuelva a iniciarla para poder finalizar el proceso. Los contactos de los usuarios a los que no se les asigne esta directiva por usuario no se migrarán al almacén de contactos unificados. Esto se debe a que estos usuarios se gestionan mediante la directiva global y el uso de un almacén de contactos unificados se ha deshabilitado en la directiva global.
 
-Para confirmar que los contactos de un usuario se han migrado correctamente al almacén de contactos unificados, hay que ejecutar el cmdlet [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md) desde el Shell de administración de Lync Server:
+Para confirmar que los contactos de un usuario se han migrado correctamente al almacén de contactos unificados, hay que ejecutar el cmdlet [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore) desde el Shell de administración de Lync Server:
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -71,7 +71,7 @@ Con el comando anterior la nueva directiva se asigna al usuario Ken Myer y, asim
 
 Al trabajar con el almacén de contactos unificados, es importante tener presente el fragmento "se impide que los contactos de Ken migren al almacén de contactos unificados". Asignar a Ken una nueva directiva de servicios de usuario no basta para que sus contactos se quiten del almacén de contactos unificados. Cuando un usuario inicia sesión en Lync Server 2013, el sistema comprueba su directiva de servicios de usuario para ver si sus contactos deben permanecer en el almacén de contactos unificados. Si la respuesta es afirmativa (es decir, la propiedad UcsAllowed está establecida en $True), los contactos se migrarán al almacén de contactos unificados (siempre y cuando dichos contactos no estén aún ahí). Si la respuesta es negativa, Lync Server simplemente omite los contactos del usuario y avanza a la siguiente tarea, lo que significa que Lync Server no los quitará del almacén de contactos unificados automáticamente, sea cual sea el valor de la propiedad UcsAllowed.
 
-Esto también quiere decir que, después de asignar al usuario una nueva directiva de servicios de usuario, se debe ejecutar el cmdlet [Invoke-CsUcsRollback](invoke-csucsrollback.md) para sacar sus contactos de Exchange 2013 y colocarlos de vuelta en Lync Server 2013. Por ejemplo, después de asignar a Ken Myer una nueva directiva de servicios de usuario, sus contactos se pueden sacar del almacén de contactos unificados con el siguiente comando:
+Esto también quiere decir que, después de asignar al usuario una nueva directiva de servicios de usuario, se debe ejecutar el cmdlet [Invoke-CsUcsRollback](https://docs.microsoft.com/en-us/powershell/module/skype/Invoke-CsUcsRollback) para sacar sus contactos de Exchange 2013 y colocarlos de vuelta en Lync Server 2013. Por ejemplo, después de asignar a Ken Myer una nueva directiva de servicios de usuario, sus contactos se pueden sacar del almacén de contactos unificados con el siguiente comando:
 
     Invoke-CsUcsRollback -Identity "Ken Myer"
 

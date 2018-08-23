@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminar una colección de opciones de configuración de actualización de dispositivos
-TOCTitle: Eliminar una colección de opciones de configuración de actualización de dispositivos
+title: "Eliminar una colección de opciones de configuración de actualización de dispositivos"
+TOCTitle: "Supp. une coll. de param. de conf. de la mise à jour des périphériques"
 ms:assetid: 1a649136-34a9-42a7-a5b3-a78bbfe93f36
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994019(v=OCS.15)
 ms:contentKeyID: 52061602
@@ -36,5 +36,5 @@ Los valores de configuración de actualización de dispositivos también se pued
     
         Get-CsDeviceUpdateConfiguration | Where-Object {$_.LogCleanUpInterval -gt "10.00:00:00" | Remove-CsDeviceUpdateConfiguration
 
-Para obtener información detallada, consulte el tema de Ayuda acerca del cmdlet [Remove-CsDeviceUpdateConfiguration](remove-csdeviceupdateconfiguration.md).
+Para obtener información detallada, consulte el tema de Ayuda acerca del cmdlet [Remove-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDeviceUpdateConfiguration).
 

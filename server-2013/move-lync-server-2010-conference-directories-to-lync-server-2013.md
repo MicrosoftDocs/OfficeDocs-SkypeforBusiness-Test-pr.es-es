@@ -1,5 +1,5 @@
 ﻿---
-title: Mover directorios de conferencia de Lync Server 2010 a Lync Server 2013
+title: "Déplacement des annuaires de conf. Lync Server 2010 vers Lync Server 2013"
 TOCTitle: Mover directorios de conferencia
 ms:assetid: 659867e0-ce91-4a95-9787-b1c1566460a8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn727126(v=OCS.15)

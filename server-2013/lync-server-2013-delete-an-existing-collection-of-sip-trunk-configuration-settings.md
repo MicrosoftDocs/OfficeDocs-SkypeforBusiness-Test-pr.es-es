@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminación de un conjunto existente de opciones de configuración de troncos SIP en Lync Server 2013
-TOCTitle: Eliminación de un conjunto existente de opciones de configuración de troncos SIP en Lync Server 2013
+title: "Eliminar opciones de configuración existentes de troncos SIP en Lync Server 2013"
+TOCTitle: "Supp. d’une collection existante de par. de conf. de jonction SIP dans LS 2013"
 ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688024(v=OCS.15)
 ms:contentKeyID: 49889046
@@ -23,7 +23,7 @@ Los parámetros de configuración de tronco SIP definen la relación y las capac
 
   - Si se requiere o no el cifrado del protocolo de transporte seguro en tiempo real (SRTP) en cada tronco.
 
-Al instalar Microsoft Lync Server 2013, se crea una recopilación global de configuraciones de tronco SIP. Esta recopilación global de configuraciones no puede eliminarse. Sin embargo, puede utilizar el Panel de control de Lync Server o el cmdlet [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md) para "restablecer" las propiedades de la recopilación global a los valores predeterminados. Por ejemplo, si ha definido el parámetro Enable3pccRefer como True, cuando restablece la recopilación global el parámetro Enable3pccRefer volverá al valor predeterminado False.
+Al instalar Microsoft Lync Server 2013, se crea una recopilación global de configuraciones de tronco SIP. Esta recopilación global de configuraciones no puede eliminarse. Sin embargo, puede utilizar el Panel de control de Lync Server o el cmdlet [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) para "restablecer" las propiedades de la recopilación global a los valores predeterminados. Por ejemplo, si ha definido el parámetro Enable3pccRefer como True, cuando restablece la recopilación global el parámetro Enable3pccRefer volverá al valor predeterminado False.
 
 Los Administradores también pueden crear configuraciones de tronco personalizadas en el ámbito del sitio o en el ámbito del servicio (para una puerta de enlace PSTN individual); estas configuraciones personalizadas pueden eliminarse. Al eliminar estas configuraciones personalizadas tenga en cuenta lo siguiente:
 
@@ -67,5 +67,5 @@ Las configuraciones del tronco también pueden eliminarse utilizando Windows Pow
     
         Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md).
+Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration).
 

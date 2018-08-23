@@ -1,5 +1,5 @@
 ﻿---
-title: Modificar la configuración de los archivos de registro de actualización de dispositivos
+title: 'Modificar la configuración de archivos de registro de actualización de dispositivos'
 TOCTitle: Modificar la configuración de los archivos de registro de actualización de dispositivos
 ms:assetid: 9b57f126-1853-43b3-bbd4-06401e6498bd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182554(v=OCS.15)
@@ -116,5 +116,5 @@ Los ejemplos siguientes muestran un par de modos en los que puede usar **Set-CsD
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupTimeOfDay 03:00
 
-Para más información, consulte el tema de ayuda del cmdlet [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md).
+Para más información, consulte el tema de ayuda del cmdlet [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration).
 

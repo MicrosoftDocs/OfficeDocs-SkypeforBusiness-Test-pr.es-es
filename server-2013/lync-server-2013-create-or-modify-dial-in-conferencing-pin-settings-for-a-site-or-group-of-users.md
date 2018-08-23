@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear o modificar la configuración de PIN de conferencia de acceso telefónico local para un sitio o grupo de usuarios'
+title: "Configuración de PIN de conferencia telefónica para un sitio o grupo de usuarios"
 TOCTitle: Crear o modificar la configuración de PIN de conferencia de acceso telefónico local para un sitio o grupo de usuarios
 ms:assetid: c29bab5c-2b93-48e0-ae0b-29564daaff9a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412959(v=OCS.15)
@@ -47,18 +47,9 @@ Siga los pasos a continuación para crear o modificar una directiva de número d
 
 12. Para permitir patrones comunes de dígitos en los PIN como, por ejemplo, números secuenciales y conjuntos repetitivos de números, active la casilla **Permitir patrones comunes** . Si no selecciona esta opción, solamente se permitirán patrones complejos de dígitos. De forma predeterminada, solo se permiten patrones complejos de dígitos.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se recomienda no permitir patrones comunes.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Se recomienda no permitir patrones comunes.
+    
 
 
 13. Haga clic en **Confirmar** .

@@ -221,7 +221,7 @@ El analizador de uso de ancho de banda incluye las siguientes dos aplicaciones (
 
   - **WanLinkLogCollector.exe**   Esta herramienta permite al usuario proporcionar la información necesaria.
 
-  - **BandwidthUtilizationAnalyzer.xlsm **  WanLinkLogCollector.exe inicia automáticamente un informe de software de hoja de cálculo de Microsoft Excel. Esta aplicación permite al usuario aplicar filtros al informe, como se muestra posteriormente en este artículo.
+  - **BandwidthUtilizationAnalyzer.xlsm**  WanLinkLogCollector.exe inicia automáticamente un informe de software de hoja de cálculo de Microsoft Excel. Esta aplicación permite al usuario aplicar filtros al informe, como se muestra posteriormente en este artículo.
 
 ## Fases de uso del Analizador de uso de ancho de banda
 
@@ -231,18 +231,8 @@ Existen dos fases al usar el Analizador de uso de ancho de banda:
 
   - Personalizar informes, que es realizado mediante BandwidthUtilizationAnalyzer.xlsm
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945592.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No se recomienda que los usuarios finales inicien BandwidthUtilizationAnalyzer.xlsm de forma manual.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> No se recomienda que los usuarios finales inicien BandwidthUtilizationAnalyzer.xlsm de forma manual.
 
 
 ## Inicio del Analizador de uso de ancho de banda
@@ -257,7 +247,7 @@ Hay tres pasos para usar WanLinkLogCollector.exe:
 
 2.  **Especificar los directorios de archivos**   Proporciona información sobre la ubicación de los archivos
 
-3.  **Recopilar los registros e iniciar el visor de informes **  Ejecuta el comando para generar el informe
+3.  **Recopilar los registros e iniciar el visor de informes**  Ejecuta el comando para generar el informe
 
 ## Paso 1: registro de la escala de tiempo
 
@@ -275,7 +265,7 @@ Los directorios de archivos siguientes se pueden especificar por el usuario.
 
   - **Ubicación de archivos de registro del servidor** La ubicación de la carpeta donde se almacenan los registros del servidor de la directiva de ancho de banda, que suele ser \<servidor de archivos\>\\\<opción de FE\>\\AppServerFiles\\PDP.
 
-  - **Ubicación de almacenamiento de archivos temporales ** La ubicación de archivos temporales donde se almacenan los archivos intermedios mientras se genera el informe.
+  - **Ubicación de almacenamiento de archivos temporales** La ubicación de archivos temporales donde se almacenan los archivos intermedios mientras se genera el informe.
 
 ![Directorios de archivos en análisis de utilización de ancho de banda](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Directorios de archivos en análisis de utilización de ancho de banda")
 
@@ -436,6 +426,7 @@ El objetivo de la herramienta CPS es proporcionar acceso mediante línea de coma
 
 No existen requisitos si esta herramienta se ejecuta en el mismo equipo donde se ejecuta CPS. Si la herramienta se ejecuta en un equipo remoto, la base de datos de SQL Server utilizada por Lync Server 2013 debe configurarse para permitir acceso remoto. Call Parkometer debe configurarse con una cadena de conexión de base de datos de SQL Server para conectarse al SQL Server del grupo de servidores. Esta cadena de conexión de base de datos de SQL Server se define en el archivo de configuración, **parkometer.exe.config**, y debe copiarse en el mismo directorio donde se encuentra parkometer.exe. El archivo XML siguiente es un ejemplo de parkometer.exe.config. Los parámetros que deben configurarse son el nombre de usuario (por ejemplo, miDominio\\Administrador), la contraseña (por ejemplo, miContraseña) y el nombre de host (por ejemplo, miServidor).
 
+```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -446,6 +437,7 @@ No existen requisitos si esta herramienta se ejecuta en el mismo equipo donde se
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
+```
 
 ## Ejemplos
 
@@ -1095,18 +1087,8 @@ La versión actual de SEFAUtil es tan solo una herramienta de línea de comandos
 
   - Habilitar/deshabilitar/modificar la configuración de respuesta a llamada grupal
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945596.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Novedades en la herramienta SEFAUtil de Lync Server 2013</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > Novedades en la herramienta SEFAUtil de Lync Server 2013
 
 
 Esta herramienta tiene las limitaciones siguientes:

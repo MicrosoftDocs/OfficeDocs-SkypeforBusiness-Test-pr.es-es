@@ -1,6 +1,6 @@
 ﻿---
-title: Uso del Analizador de procedimientos recomendados para identificar posibles problemas de la implementación
-TOCTitle: Uso del Analizador de procedimientos recomendados para identificar posibles problemas de la implementación
+title: "Analizador de procedimientos recomendados para posibles problemas de implementación"
+TOCTitle: "Ut. de Best Practices Analyzer pour id. les pb évent. dans votre déploiement"
 ms:assetid: 0903063c-4766-4406-92f1-dfea48f274a5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg591342(v=OCS.15)
 ms:contentKeyID: 48274353

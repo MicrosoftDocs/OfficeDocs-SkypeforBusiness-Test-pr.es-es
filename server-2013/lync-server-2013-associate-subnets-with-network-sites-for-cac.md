@@ -1,5 +1,5 @@
 ﻿---
-title: Asociar subredes a sitios de red para el control de admisión de llamadas en Lync Server 2013
+title: Asociar subredes a sitios de red para el admisión de llamadas en Lync Server 2013
 TOCTitle: Asociar subredes a sitios de red para el control de admisión de llamadas en Lync Server 2013
 ms:assetid: a749c9b3-15f3-4e74-9f43-1507d3c2c940
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412786(v=OCS.15)

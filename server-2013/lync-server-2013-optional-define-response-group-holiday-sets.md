@@ -1,6 +1,6 @@
 ﻿---
-title: (Opcional) Definición de conjuntos de días festivos para grupos de respuesta en Lync Server 2013
-TOCTitle: (Opcional) Definición de conjuntos de días festivos para grupos de respuesta en Lync Server 2013
+title: "(Opcional) Definición de días festivos para grupos de respuesta en Lync Server 2013"
+TOCTitle: "(Facul.) Déf. des gr. de congés des gr. Response Group dans Lync Server 2013"
 ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688063(v=OCS.15)
 ms:contentKeyID: 49889192
@@ -52,6 +52,6 @@ La configuración de festivos define los días que un grupo de respuesta está c
 
 #### Otros recursos
 
-[New-CsRgsHoliday](new-csrgsholiday.md)  
-[New-CsRgsHolidaySet](new-csrgsholidayset.md)
+[New-CsRgsHoliday](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoliday)  
+[New-CsRgsHolidaySet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHolidaySet)
 

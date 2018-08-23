@@ -48,7 +48,7 @@ Los usos de la RTC también se pueden consultar con Windows PowerShell y el cmdl
         Identity : Global
         Usage    : {Internal, Local, Long Distance}
 
-Para ver información detallada, consulte [Get-CsPstnUsage](get-cspstnusage.md).
+Para ver información detallada, consulte [Get-CsPstnUsage](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPstnUsage).
 
 ## Vea también
 

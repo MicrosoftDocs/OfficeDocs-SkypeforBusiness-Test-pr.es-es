@@ -17,26 +17,13 @@ _**Última modificación del tema:** 2016-12-08_
 
 Con el modo de privacidad de presencia mejorada, los usuarios pueden restringir su información de presencia para que solo puedan verla los contactos incluidos en su lista de contactos de Lync 2013. El parámetro EnablePrivacyMode de los cmdlets **New-CsPrivacyConfiguration** y **Set-CsPrivacyConfiguration** controla esta opción. Si EnablePrivacyMode está definido en True, la opción para restringir la información de presencia a los contactos pasa a estar disponible en las opciones de estado de Lync 2013. Si EnablePrivacyMode está definido en False, los usuarios pueden elegir si quieren permitir que todo el mundo vea siempre su información de presencia o adaptarse a los posibles cambios que el administrador realice en el modo de privacidad.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La configuración de privacidad de Lync 2013 y Lync 2010 no se respeta en versiones anteriores (Microsoft Office Communicator 2007 R2 o Microsoft Office Communicator 2007). Si versiones anteriores de Office Communicator pueden iniciar sesión, personas no autorizadas podrían ver información de contacto, imágenes o estados de usuario de Lync 2013. Asimismo, la configuración de privacidad de un usuario de Lync 2013 se restablece si este inicia sesión más adelante con una versión anterior de Communicator.<br />
-Por estas razones, en un escenario de migración, antes de habilitar el modo de privacidad de presencia mejorada:
-<ul>
-<li><p>Compruebe que todos los usuarios tengan Lync 2013 instalado.</p></li>
-<li><p>Defina una regla de directiva de versiones de cliente para impedir que versiones anteriores de Communicator inicien sesión.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> La configuración de privacidad de Lync 2013 y Lync 2010 no se respeta en versiones anteriores (Microsoft Office Communicator 2007 R2 o Microsoft Office Communicator 2007). Si versiones anteriores de Office Communicator pueden iniciar sesión, personas no autorizadas podrían ver información de contacto, imágenes o estados de usuario de Lync 2013. Asimismo, la configuración de privacidad de un usuario de Lync 2013 se restablece si este inicia sesión más adelante con una versión anterior de Communicator.<br />
+> Por estas razones, en un escenario de migración, antes de habilitar el modo de privacidad de presencia mejorada:
+> <ul>
+> <li><p>Compruebe que todos los usuarios tengan Lync 2013 instalado.</p></li>
+> <li><p>Defina una regla de directiva de versiones de cliente para impedir que versiones anteriores de Communicator inicien sesión.</p></li>
+> </ul>
 
 
 ## Para habilitar el modo de privacidad de presencia mejorada
@@ -53,7 +40,7 @@ Por estas razones, en un escenario de migración, antes de habilitar el modo de 
 
 #### Otros recursos
 
-[Get-CsPrivacyConfiguration](get-csprivacyconfiguration.md)  
-[New-CsPrivacyConfiguration](new-csprivacyconfiguration.md)  
-[Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)
+[Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)  
+[New-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPrivacyConfiguration)  
+[Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
 

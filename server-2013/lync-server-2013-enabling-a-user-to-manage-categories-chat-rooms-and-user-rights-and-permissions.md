@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar un usuario para administrar categorías, salones de chat y derechos y permisos de usuario'
+title: "Habilitar usuario para administrar categorías, chats y derechos y permisos de usuario"
 TOCTitle: Habilitar un usuario para administrar categorías, salones de chat y derechos y permisos de usuario
 ms:assetid: 6c551be3-bc74-4d0e-9008-ddfabd86e940
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ215876(v=OCS.15)

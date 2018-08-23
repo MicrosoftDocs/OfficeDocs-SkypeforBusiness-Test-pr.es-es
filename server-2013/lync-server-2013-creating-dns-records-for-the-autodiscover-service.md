@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Creación de registros DNS para el servicio Detección automática'
+title: "Lync Server 2013: Creación de registros DNS para el servicio Detección automática"
 TOCTitle: Creación de registros DNS para el servicio Detección automática
 ms:assetid: 3756ffe4-c6b1-492d-850e-42a832e06567
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh690010(v=OCS.15)

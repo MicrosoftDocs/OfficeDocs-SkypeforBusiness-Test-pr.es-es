@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Proporcionar correo de voz a usuarios de Lync Server 2013 en la mensajería unificada de Exchange hospedada'
+title: "Lync Server 2013: Correo voz a usuarios Lync Server 2013 en mensajería unif. Exchange"
 TOCTitle: Proporcionar correo de voz a usuarios de Lync Server 2013 en la mensajería unificada de Exchange hospedada
 ms:assetid: 306d3fb5-231b-4f0b-b8d8-0d9083b5ed77
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425807(v=OCS.15)

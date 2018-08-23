@@ -19,18 +19,9 @@ En el siguiente tema se proporcionan instrucciones para actualizar las entradas 
 
 Para obtener información completa sobre cómo eliminar servidores y roles de servidores de Lync Server 2010 y una guía paso a paso para retirar una implementación de Lync Server 2010, consulte "Desinstalación de Microsoft Lync Server 2010 y eliminación de roles de servidor (Uninstalling Microsoft Lync Server 2010 and Removing Server Roles)", que puede descargarse en [http://go.microsoft.com/fwlink/?linkid=246227\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=246227%26clcid=0xc0a).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para más información sobre la migración y la actualización de aplicaciones de Microsoft Unified Communications Managed API (UCMA), antes de retirar el entorno heredado, vea <a href="http://go.microsoft.com/fwlink/?linkid=269555%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=269555&amp;clcid=0xC0A</a></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Para más información sobre la migración y la actualización de aplicaciones de Microsoft Unified Communications Managed API (UCMA), antes de retirar el entorno heredado, vea <a href="http://go.microsoft.com/fwlink/?linkid=269555%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=269555&amp;clcid=0xC0A</a>
+
 
 
 ## En esta sección

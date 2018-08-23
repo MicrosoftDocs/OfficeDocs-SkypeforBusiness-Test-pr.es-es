@@ -1,6 +1,6 @@
 ﻿---
-title: Configurar una ruta de voz de E9-1-1 en Lync Server 2013
-TOCTitle: Configurar una ruta de voz de E9-1-1 en Lync Server 2013
+title: "Conf. un itinéraire des communications vocales E9-1-1 dans Lync Server 2013"
+TOCTitle: "Conf. un itinéraire des communications vocales E9-1-1 dans Lync Server 2013"
 ms:assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398496(v=OCS.15)
 ms:contentKeyID: 48275539

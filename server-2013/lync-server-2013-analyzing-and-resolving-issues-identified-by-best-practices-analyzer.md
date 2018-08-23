@@ -1,5 +1,5 @@
 ﻿---
-title: Análisis y resolución de problemas identificados por el Analizador de procedimientos recomendados
+title: Resolución de problemas identificados por Analizador de procedimientos recomendados
 TOCTitle: Análisis y resolución de problemas identificados por el Analizador de procedimientos recomendados
 ms:assetid: ee04c711-bee2-487f-94b7-16566a8961e4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg591353(v=OCS.15)

@@ -31,16 +31,7 @@ Antes de publicar su topología, instale las bases de datos de Servidor de chat 
 
 5.  En la página **Asistente para publicación completado**, compruebe que se ha publicado correctamente la topología y haga clic en **Finalizar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Después de publicar la topología, deberá configurar la compatibilidad para Servidor de chat persistente antes de que se pueda archivar ningún contenido.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Después de publicar la topología, deberá configurar la compatibilidad para Servidor de chat persistente antes de que se pueda archivar ningún contenido.
+    
 

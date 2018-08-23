@@ -15,18 +15,9 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2012-09-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Al ejecutar el Asistente para certificados, asegúrese de que ha iniciado sesión usando una cuenta que es miembro de un grupo con los permisos asignados adecuados para el tipo de plantilla de certificado que use. De manera predeterminada, una solicitud de certificado de Lync Server 2013 usará la plantilla de certificado Servidor web. Si usa una cuenta que es miembro del grupo RTCUniversalServerAdmins para solicitar un certificado usando esta plantilla, compruebe que el grupo tenga asignados los permisos Inscribir necesarios para usar la plantilla.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Al ejecutar el Asistente para certificados, asegúrese de que ha iniciado sesión usando una cuenta que es miembro de un grupo con los permisos asignados adecuados para el tipo de plantilla de certificado que use. De manera predeterminada, una solicitud de certificado de Lync Server 2013 usará la plantilla de certificado Servidor web. Si usa una cuenta que es miembro del grupo RTCUniversalServerAdmins para solicitar un certificado usando esta plantilla, compruebe que el grupo tenga asignados los permisos Inscribir necesarios para usar la plantilla.
+
 
 
 Cada director necesita un certificado predeterminado, así como certificado web interno y otro externo. Para obtener información detallada sobre los requisitos de certificado para los directores, consulte [Requisitos de certificado para Servidores internos en Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) en la documentación de planeación.

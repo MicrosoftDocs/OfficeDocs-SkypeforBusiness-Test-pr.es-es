@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos del sistema para servidores que ejecuten Lync Server 2013'
+title: "Lync Server 2013: Requisitos de sistema para servidores que ejecuten Lync Server 2013"
 TOCTitle: Requisitos del sistema para servidores que ejecuten Lync Server 2013
 ms:assetid: 781d487d-5958-416a-becb-904d9af3cc0a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398588(v=OCS.15)
@@ -27,18 +27,9 @@ Los servidores que ejecutan Lync Server 2013, Enterprise Edition están pensados
 
 ## Instalación del sistema operativo
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 solamente está disponible en una edición de 64 bits, lo que requiere hardware de 64 bits y una edición de 64 bits del sistema operativo Windows Server. Esta versión no está disponible en una edición de 32 bits de Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Lync Server 2013 solamente está disponible en una edición de 64 bits, lo que requiere hardware de 64 bits y una edición de 64 bits del sistema operativo Windows Server. Esta versión no está disponible en una edición de 32 bits de Lync Server 2013.
+
 
 
 El servidor Standard Edition y el Enterprise Edition pueden usar cualquiera de las siguientes opciones:

@@ -49,35 +49,17 @@ Para obtener información detallada acerca de la creación de directivas de ubic
     
     4.  En función de la propiedad de usuario que haya seleccionado, especifique los criterios que desee utilizar para filtrar los resultados de búsqueda escribiendo o haciendo clic en la flecha de la lista desplegable.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong>.
+        
     
     5.  Haga clic en **Buscar**.
 
 6.  Haga clic en un usuario en los resultados de búsqueda, haga clic en **Acción** y, a continuación, en **Asignar directivas**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si desea aplicar la misma directiva de ubicación por usuario a varios usuarios, seleccione los distintos usuarios en los resultados de la búsqueda, haga clic en <strong>Acciones</strong> y, a continuación, en <strong>Asignar directivas</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si desea aplicar la misma directiva de ubicación por usuario a varios usuarios, seleccione los distintos usuarios en los resultados de la búsqueda, haga clic en <strong>Acciones</strong> y, a continuación, en <strong>Asignar directivas</strong>.
+    
 
 
 7.  En **Asignar directivas**, en **Directiva de ubicación**, lleve a cabo uno de los procedimientos siguientes:
@@ -91,18 +73,9 @@ Para obtener información detallada acerca de la creación de directivas de ubic
     
       - Haga clic en el nombre de una directiva de ubicación por usuario que haya definido anteriormente con el cmdlet **New-CsLocationPolicy**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Para ayudarle a decidir la directiva que desea asignar, tras hacer clic en el nombre de una directiva, haga clic en <strong>Ver</strong> para ver los derechos y permisos de usuarios definidos en la directiva.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Para ayudarle a decidir la directiva que desea asignar, tras hacer clic en el nombre de una directiva, haga clic en <strong>Ver</strong> para ver los derechos y permisos de usuarios definidos en la directiva.
+        
 
 
 8.  Cuando haya terminado, haga clic en **Aceptar**.
@@ -119,7 +92,7 @@ Puede asignar directivas de ubicación por usuario mediante el cmdlet Grant-CsLo
 
 ## Para asignar una directiva de ubicación por usuario a varios usuarios
 
-  - Este comando permite asignar la directiva de ubicación por usuario AccountingDepartmentLocationPolicy a todos los usuarios que trabajen en el departamento de Contabilidad. Para obtener más información sobre el parámetro LdapFilter usado en este comando, vea la documentación del cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando permite asignar la directiva de ubicación por usuario AccountingDepartmentLocationPolicy a todos los usuarios que trabajen en el departamento de Contabilidad. Para obtener más información sobre el parámetro LdapFilter usado en este comando, vea la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 
@@ -129,5 +102,5 @@ Puede asignar directivas de ubicación por usuario mediante el cmdlet Grant-CsLo
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para más información, vea el tema de ayuda del cmdlet [Grant-CsLocationPolicy](grant-cslocationpolicy.md).
+Para más información, vea el tema de ayuda del cmdlet [Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy).
 

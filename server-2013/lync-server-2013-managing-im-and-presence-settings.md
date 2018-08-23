@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Administrar la configuración de mensajería instantánea y de presencia'
+title: "Lync Server 2013: Administrar configuración de mensajería instantánea y de presencia"
 TOCTitle: Administrar la configuración de mensajería instantánea y de presencia
 ms:assetid: a01b8384-16a1-41b5-a00a-fdb9afb5aa88
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182558(v=OCS.15)

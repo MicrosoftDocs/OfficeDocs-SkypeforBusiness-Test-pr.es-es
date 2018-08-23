@@ -1,5 +1,5 @@
 ﻿---
-title: Lista de comprobación para la implementación del control de admisión de llamadas en Lync Server 2013
+title: Lista comprobación para implement. control admisión de llamadas en Lync Server 2013
 TOCTitle: Lista de comprobación para la implementación del control de admisión de llamadas en Lync Server 2013
 ms:assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398928(v=OCS.15)

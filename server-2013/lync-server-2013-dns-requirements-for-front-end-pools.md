@@ -41,21 +41,10 @@ La tabla siguiente especifica los requisitos de DNS para la implementación de u
 <p>Si, por ejemplo, usa tanto el equilibrio de carga de DNS como el equilibrio de carga de hardware, tendrá un registro A por cada Servidor front-end de un grupo para el equilibrio de carga de DNS, así como un registro A para los servicios web internos que apuntan a la IP virtual del equilibrador de carga de hardware:</p>
 <ul>
 <li><p>Equilibrio de carga de DNS:   Grupo01.contoso.net   Dirección IP del grupo   10.10.10.5</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cada Servidor front-end tendrá también un registro A distinto:</td>
-</tr>
-</tbody>
-</table>
 
-</div>
+> [!WARNING]  
+> Cada Servidor front-end tendrá también un registro A distinto:
+
 <ol>
 <li><p>FE01.contoso.net    10.10.10.1</p></li>
 <li><p>FE02.contoso.net    10.10.10.2</p></li>
@@ -86,19 +75,11 @@ La tabla siguiente especifica los requisitos de DNS para la implementación de u
 <tr class="even">
 <td><p>Detección del servicio web de actualización de dispositivos por los dispositivos de comunicaciones unificadas (UC)</p></td>
 <td><p>Un registro A interno con el nombre ucupdates-r2.&lt;dominio SIP&gt; que se resuelve para la dirección IP del grupo de servidores front-end que hospeda el servicio web de actualización de dispositivos. En caso de que se active un dispositivo de UC en el que ningún usuario se ha registrado, el registro A permite al dispositivo detectar el grupo de servidores front-end que hospeda el servicio web de actualización de dispositivos, y obtener actualizaciones. En cualquier caso, los dispositivos obtienen esta información a través del aprovisionamiento en banda la primera vez que un usuario inicia sesión.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si cuenta con una implementación existente del servicio web de actualización de dispositivos en Lync Server 2010, ya habrá creado un registro A interno con el nombre ucupdates.<em>&lt;dominio SIP&gt;</em>. Para Microsoft Office Communications Server 2007 R2, debe crear otro registro DNS A con el nombre ucupdates-r2.<em>&lt;dominio SIP&gt;</em>.</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!IMPORTANT]  
+> Si cuenta con una implementación existente del servicio web de actualización de dispositivos en Lync Server 2010, ya habrá creado un registro A interno con el nombre ucupdates.<em>&lt;dominio SIP&gt;</em>. Para Microsoft Office Communications Server 2007 R2, debe crear otro registro DNS A con el nombre ucupdates-r2.<em>&lt;dominio SIP&gt;</em>.
+
 
 </div></td>
 </tr>

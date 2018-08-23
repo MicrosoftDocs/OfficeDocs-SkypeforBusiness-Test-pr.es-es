@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Establecer el PIN de conferencia de acceso telefónico local para un usuario'
+title: "Establecer el PIN de conferencia de acceso telefónico local para un usuario"
 TOCTitle: Establecer el PIN de conferencia de acceso telefónico local para un usuario
 ms:assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520985(v=OCS.15)
@@ -47,18 +47,9 @@ Para unirse a una conferencia de acceso telefónico como usuario autenticado, un
     
     4.  En función de la propiedad de usuario que haya seleccionado, especifique los criterios que desee usar para filtrar los resultados de búsqueda escribiendo o haciendo clic en la flecha de la lista desplegable.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!TIP]  
+        > Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong>.
+        
     
     5.  Haga clic en **Buscar**.
     
@@ -102,7 +93,7 @@ Puede asignar números de PIN con el cmdlet Set-CsClientPin. Puede ejecutar este
     
         Set-CsClientPin -Identity "Ken Myer" -Pin 121989
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Set-CsClientPin](set-csclientpin.md).
+Si desea más información, consulte el tema de ayuda relativo al cmdlet [Set-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPin).
 
 ## Vea también
 

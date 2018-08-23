@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar y deshabilitar el acceso anónimo de usuarios'
+title: "Lync Server 2013 : Activ. ou désactiv. de l’accès des utilisateurs anonymes"
 TOCTitle: Habilitar y deshabilitar el acceso anónimo de usuarios
 ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ619192(v=OCS.15)

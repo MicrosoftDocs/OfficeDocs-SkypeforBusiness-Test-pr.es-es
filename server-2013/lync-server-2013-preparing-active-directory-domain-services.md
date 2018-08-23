@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Preparar Servicios de dominio de Active Directory en Lync Server 2013'
+title: 'Lync Server 2013: Preparar Servicios de dominio Active Directory en Lync Server 2013'
 TOCTitle: Preparar Servicios de dominio de Active Directory en Lync Server 2013
 ms:assetid: 7e126464-5d29-4013-9c44-0ccc2fbdea0f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398630(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar usuarios para el almacenamiento de contactos unificado'
+title: "Lync Server 2013: Habilitar usuarios para el almacenamiento de contactos unificado"
 TOCTitle: Habilitar usuarios para el almacenamiento de contactos unificado
 ms:assetid: 7b46a01f-beb5-4a33-adb0-35f0502b168d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205024(v=OCS.15)

@@ -33,50 +33,23 @@ Antes de migrar los grupos de respuesta, debe implementar un grupo de servidores
 
 Para migrar grupos de respuesta de un grupo heredado a Lync Server 2013, ejecute el cmdlet **Move-CsRgsConfiguration**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>El cmdlet para la migración de Grupo de respuesta traslada la configuración de Grupo de respuesta de todo el grupo de servidores. No es posible seleccionar grupos, colas o flujos de trabajo específicos para la migración.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> El cmdlet para la migración de Grupo de respuesta traslada la configuración de Grupo de respuesta de todo el grupo de servidores. No es posible seleccionar grupos, colas o flujos de trabajo específicos para la migración.
+
 
 
 Después de migrar los grupos de respuesta, debe usar los cmdlets Panel de control de Lync Server o Shell de administración de Lync Server para comprobar que todos los grupos de agentes, las colas y los flujos de trabajo se hayan trasladado correctamente.
 
 Al migrar grupos de respuesta, no se quitan los grupos de respuesta de Lync Server 2010. Al administrar grupos de respuesta después de la migración con Panel de control de Lync Server o Shell de administración de Lync Server, puede ver los grupos de respuesta de Lync Server 2010 y los grupos de respuesta de Lync Server 2013. Debe aplicar actualizaciones solo a los grupos de respuesta de Lync Server 2013. Los grupos de respuesta de Lync Server 2010 se conservan solo con fines de reversión.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ204932.Caution(OCS.15).gif" title="Caution" alt="Caution" />Precaución:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tras completar la migración y crear los nuevos grupos de respuesta, el Panel de control de Lync Server y el Shell de administración de Lync Server mostrarán las versiones de Lync Server 2010 y Lync Server 2013 de cada grupo de respuesta. No use Panel de control de Lync Server o Shell de administración de Lync Server para quitar los grupos de respuesta de Lync Server 2010. Si quita uno, el grupo de respuesta correspondiente que se creó durante la migración dejará de funcionar. Los grupos de respuesta de Lync Server 2010 se quitarán después de retirar el grupo de Lync Server 2010.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> Tras completar la migración y crear los nuevos grupos de respuesta, el Panel de control de Lync Server y el Shell de administración de Lync Server mostrarán las versiones de Lync Server 2010 y Lync Server 2013 de cada grupo de respuesta. No use Panel de control de Lync Server o Shell de administración de Lync Server para quitar los grupos de respuesta de Lync Server 2010. Si quita uno, el grupo de respuesta correspondiente que se creó durante la migración dejará de funcionar. Los grupos de respuesta de Lync Server 2010 se quitarán después de retirar el grupo de Lync Server 2010.
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Recomendamos que no quite ningún dato de la implementación anterior hasta retirar el grupo. Además, le recomendamos encarecidamente que exporte los grupos de respuesta inmediatamente después de la migración. Si se debe quitar un grupo de respuesta de Lync Server 2010, puede entonces restaurar los grupos de respuesta desde la copia de seguridad para volver a ejecutar los grupos de respuesta de Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
+
+> [!IMPORTANT]  
+> Recomendamos que no quite ningún dato de la implementación anterior hasta retirar el grupo. Además, le recomendamos encarecidamente que exporte los grupos de respuesta inmediatamente después de la migración. Si se debe quitar un grupo de respuesta de Lync Server 2010, puede entonces restaurar los grupos de respuesta desde la copia de seguridad para volver a ejecutar los grupos de respuesta de Lync Server 2013.
+
 
 
 Lync Server 2013 introduce una característica nueva de Grupo de respuesta denominada **tipo de flujo de trabajo**. El **tipo de flujo de trabajo** puede ser **administrado** o **no administrado**. Todos los grupos de respuesta son migrados con el **tipo de flujo de trabajo** configurado en **No administrado** y con la lista del Administrador vacía.

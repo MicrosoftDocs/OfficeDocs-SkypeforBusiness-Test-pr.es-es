@@ -37,18 +37,9 @@ Este tema lo guiará por el proceso de eliminar un Grupo de servidores front-end
 
 4.  Amplíe **Almacenes SQL** , haga clic con el botón secundario en la base de datos SQL Server asociada con el Servidor front-end Standard Edition y luego haga clic en **Eliminar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Debe eliminar la definición de las bases de datos SQL Server colocadas del Servidor front-end Standard Edition.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Debe eliminar la definición de las bases de datos SQL Server colocadas del Servidor front-end Standard Edition.
+    
 
 
 5.  Publique la topología, compruebe el estado de replicación y después ejecute el Asistente para la implementación de Lync Server según sea necesario.

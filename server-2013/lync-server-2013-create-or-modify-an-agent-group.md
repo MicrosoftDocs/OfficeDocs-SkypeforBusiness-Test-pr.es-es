@@ -23,18 +23,9 @@ Use uno de los procedimientos siguientes para crear o modificar un grupo de agen
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cuando asigne usuarios como agentes de grupo de respuesta, indíqueles que, si tienen habilitado el modo de privacidad, deberán buscar contactos de &quot;Observador de presencia de RGS&quot; y agregarlos a su lista de contactos. Los agentes que tengan el modo de privacidad habilitado, pero que no tengan &quot;Observador de presencia RGS&quot; en su lista de contactos no podrán recibir llamadas en el grupo de respuesta. Los agentes que no tengan habilitado el modo de privacidad, no se verán afectados.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Cuando asigne usuarios como agentes de grupo de respuesta, indíqueles que, si tienen habilitado el modo de privacidad, deberán buscar contactos de &quot;Observador de presencia de RGS&quot; y agregarlos a su lista de contactos. Los agentes que tengan el modo de privacidad habilitado, pero que no tengan &quot;Observador de presencia RGS&quot; en su lista de contactos no podrán recibir llamadas en el grupo de respuesta. Los agentes que no tengan habilitado el modo de privacidad, no se verán afectados.
+
 
 
 ## Uso de Panel de control de Lync Server para crear o modificar un grupo de agentes
@@ -69,18 +60,9 @@ Use uno de los procedimientos siguientes para crear o modificar un grupo de agen
 
 8.  En **Tiempo de alerta (segundos)**, especifique el número de segundos para llamar a un agente antes de ofrecer la llamada al siguiente agente disponible (el valor predeterminado es de 20 segundos).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La configuración del tiempo de alerta del agente no puede exceder los 180 segundos o la aplicación del cliente rechazará la llamada debido al temporizador de la transacción SIP que alcanza su tiempo de espera máximo. Para evitarlo, defina el valor del tiempo de alerta en menos de 180 segundos.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > La configuración del tiempo de alerta del agente no puede exceder los 180 segundos o la aplicación del cliente rechazará la llamada debido al temporizador de la transacción SIP que alcanza su tiempo de espera máximo. Para evitarlo, defina el valor del tiempo de alerta en menos de 180 segundos.
+    
 
 
 9.  En **Método de enrutamiento**, seleccione el método para las llamadas de enrutamiento a los agentes en el grupo tal como se indica a continuación:
@@ -117,18 +99,9 @@ Use uno de los procedimientos siguientes para crear o modificar un grupo de agen
         
           - Si la lista de distribución contiene usuarios para los que Lync Server 2010 está habilitado, pero la telefonía IP empresarial no, se agregarán al grupo de agentes como agentes disfuncionales. Asegúrese de que todos los miembros de la lista de distribución tengan la Telefonía IP empresarial habilitada en sus cuentas de usuario.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si utiliza una lista de distribución de correo electrónico, los miembros ocultos o las listas ocultas se convertirán en visibles para el administrador o los usuarios de Grupo de respuesta.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!IMPORTANT]  
+        > Si utiliza una lista de distribución de correo electrónico, los miembros ocultos o las listas ocultas se convertirán en visibles para el administrador o los usuarios de Grupo de respuesta.
+        
         
         Los miembros ocultos o las listas ocultas se pueden convertir en visibles de la siguiente manera:
         
@@ -152,18 +125,9 @@ Use uno de los procedimientos siguientes para crear o modificar un grupo de agen
     
         New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La configuración del tiempo de alerta del agente no puede exceder los 180 segundos o la aplicación del cliente rechazará la llamada debido al temporizador de la transacción SIP que alcanza su tiempo de espera máximo.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > La configuración del tiempo de alerta del agente no puede exceder los 180 segundos o la aplicación del cliente rechazará la llamada debido al temporizador de la transacción SIP que alcanza su tiempo de espera máximo.
+    
 
 
 4.  Confirme que el grupo de agentes se ha creado. Ejecute:
@@ -179,8 +143,8 @@ Use uno de los procedimientos siguientes para crear o modificar un grupo de agen
 #### Otros recursos
 
 [Administración de grupos de agente de grupos de respuesta en Lync Server 2013](lync-server-2013-managing-response-group-agent-groups.md)  
-[Get-CsService](get-csservice.md)  
-[New-CsRgsAgentGroup](new-csrgsagentgroup.md)  
-[Set-CsRgsAgentGroup](set-csrgsagentgroup.md)  
-[Get-CsRgsAgentGroup](get-csrgsagentgroup.md)
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)  
+[New-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup)  
+[Set-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsAgentGroup)  
+[Get-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsRgsAgentGroup)
 

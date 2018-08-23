@@ -41,16 +41,6 @@ Lync Server 2013 ofrece la opción de convertir también el número de teléfono
     
       - Para quitar una regla de conversión del plan de marcado, resalte el nombre de la regla y haga clic en **Eliminar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Advertencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas pudieran entrar en conflicto.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]  
+	> No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas pudieran entrar en conflicto.
 

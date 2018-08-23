@@ -23,7 +23,7 @@ El panel de supervisión proporciona rápidamente a los administradores informac
 
   - Los totales del mes y las tendencias de los totales en los últimos seis meses (solo para el uso del sistema).
 
-Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](get-csreportingconfiguration.md) para devolver la dirección URL utilizada para acceder a los informes de supervisión de Lync Server 2013:
+Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsReportingConfiguration) para devolver la dirección URL utilizada para acceder a los informes de supervisión de Lync Server 2013:
 
     Get-CsReportingConfiguration
 
@@ -141,34 +141,16 @@ Los peores servidores por porcentaje de llamadas de calidad deficiente
 
 Tal como hemos indicado, se muestran los totales predeterminados de la semana en curso y los valores de las tendencias de las seis últimas semanas. Si prefiere ver los totales del mes actual (así como los valores de las tendencias de los últimos seis meses), haga clic en el vínculo **Vista mensual** de la esquina superior derecha del panel. Si decide ver los totales mensuales, el texto del vínculo cambiará a **Vista semanal**. Puede volver a la vista semanal haciendo clic en el vínculo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>El panel de supervisión le limita la consulta a los totales de la semana en curso (o el mes en curso) y a los valores de las tendencias de las seis últimas semanas (o seis últimos meses). Estas fechas y horas no se pueden cambiar. Por ejemplo, con el panel no se pueden ver los totales de informe de un período que se inició nueve meses antes.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> El panel de supervisión le limita la consulta a los totales de la semana en curso (o el mes en curso) y a los valores de las tendencias de las seis últimas semanas (o seis últimos meses). Estas fechas y horas no se pueden cambiar. Por ejemplo, con el panel no se pueden ver los totales de informe de un período que se inició nueve meses antes.
+
 
 
 Los valores que aparecen en las columnas **Esta semana**, **Este mes** u **Hoy** le vinculan a información más detallada sobre el elemento. Tenga en cuenta que el nombre de la columna y los valores que aparecen en ella cambiarán a menudo en función de la métrica elegida y en función de si ha seleccionado vista semanal o vista mensual. Por ejemplo, si hace clic en los totales que aparecen en la métrica **Inicios de sesión de usuario únicos**, verá el **Informe de registro de usuario** del período de tiempo especificado. Puede volver al panel de supervisión en cualquier momento, haciendo clic en **Panel**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>También puede obtener acceso a la página principal de informes del Servidor de supervisión haciendo clic en el vínculo <strong>Informes</strong> de la esquina superior derecha del panel.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> También puede obtener acceso a la página principal de informes del Servidor de supervisión haciendo clic en el vínculo <strong>Informes</strong> de la esquina superior derecha del panel.
+
 
 
 La columna **Tendencia** muestra un gráfico de línea sencilla con los totales de las últimas seis semanas (o, en función de la métrica y del intervalo de tiempo, los últimos seis días o seis meses). Estos gráficos de línea sencilla muestran un punto de datos sin etiquetar por cada período de tiempo (por ejemplo, un punto de datos sin etiquetar por cada una de las seis últimas semanas). Ahora bien, puede recuperar los valores reales de estos gráficos manteniendo el puntero del mouse sobre el gráfico. En dicho caso, la información sobre herramientas muestra los valores máximo y mínimo del gráfico.

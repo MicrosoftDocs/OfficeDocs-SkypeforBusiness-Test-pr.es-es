@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Procedimientos de recuperación ante desastres del grupo de respuesta'
+title: "Lync Server 2013: Procedimientos de recuperación ante desastres de grupo de respuesta"
 TOCTitle: Procedimientos de recuperación ante desastres del grupo de respuesta
 ms:assetid: b49577b7-0ca3-4f20-b614-f3a2a0046b58
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205186(v=OCS.15)
@@ -39,18 +39,9 @@ Use los pasos del procedimiento siguiente para preparar y llevar a cabo la recup
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ204932.Caution(OCS.15).gif" title="Caution" alt="Caution" />Precaución:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si no reemplaza la configuración del grupo de servidores de reserva y no se puede recuperar el grupo de servidores principal, se perderá la configuración del grupo de servidores principal. Para más información, vea <a href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Planeamiento de recuperación ante desastres del grupo de respuesta en Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]  
+    > Si no reemplaza la configuración del grupo de servidores de reserva y no se puede recuperar el grupo de servidores principal, se perderá la configuración del grupo de servidores principal. Para más información, vea <a href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Planeamiento de recuperación ante desastres del grupo de respuesta en Lync Server 2013</a>.
+    
 
 
 4.  Compruebe que la importación se haya realizado correctamente. Para ello, muestre los grupos de respuesta importados. Los grupos de respuesta importados siguen siendo propiedad del grupo de servidores principal. Haga lo siguiente:
@@ -99,18 +90,9 @@ Use los pasos del procedimiento siguiente para preparar y llevar a cabo la recup
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Debe usar el parámetro –ShowAll o el parámetro –Owner. Si no usa ninguno de estos parámetros, los grupos de respuesta importados al grupo de servidores de reserva no aparecerán en los resultados que devuelven los cmdlets.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Debe usar el parámetro –ShowAll o el parámetro –Owner. Si no usa ninguno de estos parámetros, los grupos de respuesta importados al grupo de servidores de reserva no aparecerán en los resultados que devuelven los cmdlets.
+    
 
 
 5.  Compruebe que la importación se haya realizado correctamente. Para ello, realice una llamada a un grupo de respuesta importado y compruebe que la llamada se atienda correctamente.
@@ -119,18 +101,9 @@ Use los pasos del procedimiento siguiente para preparar y llevar a cabo la recup
 
 7.  Administre y modifique los grupos de respuesta importados de la manera habitual.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Mientras los grupos de respuesta estén en el grupo de servidores de reserva, deberá usar el Shell de administración de Lync Server para administrarlos. No puede usar el Panel de control de Lync Server para administrar los grupos de respuestas que importó al grupo de servidores de reserva.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Mientras los grupos de respuesta estén en el grupo de servidores de reserva, deberá usar el Shell de administración de Lync Server para administrarlos. No puede usar el Panel de control de Lync Server para administrar los grupos de respuestas que importó al grupo de servidores de reserva.
+    
 
 
 8.  Una vez que se ha restaurado el grupo de servidores principal y se ha completado la conmutación por recuperación, exporte los grupos de respuesta del grupo de servidores principal que se importaron al grupo de servidores de reserva. En la línea de comandos, escriba lo siguiente:
@@ -158,18 +131,9 @@ Use los pasos del procedimiento siguiente para preparar y llevar a cabo la recup
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si no desea reemplazar la configuración de nivel de aplicación ni el archivo de audio de música en espera predeterminado del nuevo grupo de servidores por la configuración del grupo de servidores de reserva, el nuevo grupo usará la configuración de nivel de aplicación predeterminada.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si no desea reemplazar la configuración de nivel de aplicación ni el archivo de audio de música en espera predeterminado del nuevo grupo de servidores por la configuración del grupo de servidores de reserva, el nuevo grupo usará la configuración de nivel de aplicación predeterminada.
+    
 
 
 10. Compruebe que la importación al grupo de servidores principal se haya realizado correctamente. Para ello, muestre la configuración del grupo de respuesta importado. Haga lo siguiente:

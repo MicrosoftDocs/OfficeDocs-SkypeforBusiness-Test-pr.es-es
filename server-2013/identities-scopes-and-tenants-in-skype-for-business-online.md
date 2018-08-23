@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Última modificación del tema:** 2015-06-22_
 
-Muchos de los cmdlets de Windows PowerShell que se usan para administrar Skype Empresarial Online exigen ser muy específico sobre el elemento que se quiere administrar. Por ejemplo, al ejecutar el cmdlet [Set-CsUserAcp](set-csuseracp.md), hay que indicar qué usuario se quiere administrar, lo cual es lógico. A menos que le digamos al cmdlet específicamente la cuenta de usuario que tratamos de administrar, el cmdlet **Set-CsUserAcp** no sabrá cuál es la información de usuario de audioconferencia que hay que modificar. Por este motivo, cada vez que se ejecuta el cmdlet **Set-CsUserAcp**, hay que incluir el parámetro Identity seguido de la identidad de la cuenta de usuario que hay que modificar:
+Muchos de los cmdlets de Windows PowerShell que se usan para administrar Skype Empresarial Online exigen ser muy específico sobre el elemento que se quiere administrar. Por ejemplo, al ejecutar el cmdlet [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp), hay que indicar qué usuario se quiere administrar, lo cual es lógico. A menos que le digamos al cmdlet específicamente la cuenta de usuario que tratamos de administrar, el cmdlet **Set-CsUserAcp** no sabrá cuál es la información de usuario de audioconferencia que hay que modificar. Por este motivo, cada vez que se ejecuta el cmdlet **Set-CsUserAcp**, hay que incluir el parámetro Identity seguido de la identidad de la cuenta de usuario que hay que modificar:
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 
@@ -67,7 +67,7 @@ También puede tener dos usuarios: Ken Myer y Pilar Ackerman. A Ken Myer se le h
 
 Como puede ver, Ken Myer se puede comunicar con los proveedores de mensajería instantánea pública. Esto se debe a que la configuración de la directiva por usuario que tiene asignada él invalida la configuración de la directiva global. Pilar Ackerman no se puede comunicar con los proveedores de mensajería instantánea pública porque a ella la administra la directiva global, que prohíbe las comunicaciones de este tipo.
 
-Las directivas por usuario las tiene que crear el equipo de soporte técnico de Office 365. Una vez creadas, las podrá asignar a los usuarios usando el cmdlet **Grant-Cs** apropiado (por ejemplo [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)). Estas directivas se reconocen fácilmente porque la identidad de la directiva siempre empieza por el **prefijo** "tag" (etiqueta). Por ejemplo:
+Las directivas por usuario las tiene que crear el equipo de soporte técnico de Office 365. Una vez creadas, las podrá asignar a los usuarios usando el cmdlet **Grant-Cs** apropiado (por ejemplo [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)). Estas directivas se reconocen fácilmente porque la identidad de la directiva siempre empieza por el **prefijo** "tag" (etiqueta). Por ejemplo:
 
     Identity : tag:AllowPublicIMCommunication
 

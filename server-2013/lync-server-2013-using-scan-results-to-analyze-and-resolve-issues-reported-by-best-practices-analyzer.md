@@ -1,6 +1,6 @@
 ﻿---
-title: Uso de resultados de análisis para estudiar y resolver los problemas que notifica el Analizador de procedimientos recomendados
-TOCTitle: Uso de resultados de análisis para estudiar y resolver los problemas que notifica el Analizador de procedimientos recomendados
+title: "Resultados de análisis para problemas notificados por Analizador de proceds. recom."
+TOCTitle: "Ut. des ré. d’anal. pr anal. et rés. les pb sign. par Best Practices Analyzer"
 ms:assetid: cf1154a6-4de3-4d14-b99b-73a88014347b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg591350(v=OCS.15)
 ms:contentKeyID: 48276710

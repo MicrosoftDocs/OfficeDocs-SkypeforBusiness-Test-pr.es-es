@@ -27,18 +27,9 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 Si definió la topología perimetral cuando definió y publicó la topología interna y no es necesario modificarla, no tendrá que volver a definirla y publicarla. Use el procedimiento siguiente solo si debe realizar cambios en la topología perimetral. Deberá poner la topología definida y publicada previamente disponible para los servidores perimetral mediante el procedimiento descrito en [Exportar la topología de Lync Server 2013 y copiarla en un medio externo para la instalación perimetral](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No se puede ejecutar Generador de topologías desde un servidor perimetral. Debe ejecutarlo desde un servidor front-end o servidores Standard Edition.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> No se puede ejecutar Generador de topologías desde un servidor perimetral. Debe ejecutarlo desde un servidor front-end o servidores Standard Edition.
+
 
 
 El proceso para definir la topología del servidor perimetral se realiza en Generador de topologías. Los tres tipos principales de topologías del servidor perimetral que planea y configura se indican a continuación:
@@ -63,18 +54,9 @@ El proceso para definir la topología del servidor perimetral se realiza en Gene
     
       - En **FQDN del grupo de servidores** , escriba el nombre de dominio completo (FQDN) de la interfaz interna del servidor perimetral.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>El nombre que especifique debe ser idéntico al nombre del equipo configurado en el servidor. De manera predeterminada, el nombre de un equipo que no está unido a un dominio es un nombre corto, en lugar de un nombre de dominio completo (FQDN). El Generador de topologías utiliza nombres de dominio completos, en vez de nombres cortos. Así pues, debe configurar un sufijo de DNS en el nombre del equipo para poder implementarlo como un servidor perimetral no unido a un dominio. Utilice únicamente caracteres estándar (A–Z, a–z, 0–9 y guiones) cuando asigne los nombres de dominio completo a los servidores Lync, servidores perimetrales y grupos de servidores. No utilice caracteres Unicode ni de subrayado. Los DNS externos y las entidades de certificación públicas no admiten caracteres que no sean estándar en un nombre de dominio completo (cuando dicho nombre debe asignarse al nombre del sujeto en el certificado). Para obtener información detallada sobre cómo agregar un sufijo DNS al nombre de equipo, vea <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar DNS para admitir servidores perimetrales en Lync Server 2013</a>.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!IMPORTANT]  
+        > El nombre que especifique debe ser idéntico al nombre del equipo configurado en el servidor. De manera predeterminada, el nombre de un equipo que no está unido a un dominio es un nombre corto, en lugar de un nombre de dominio completo (FQDN). El Generador de topologías utiliza nombres de dominio completos, en vez de nombres cortos. Así pues, debe configurar un sufijo de DNS en el nombre del equipo para poder implementarlo como un servidor perimetral no unido a un dominio. Utilice únicamente caracteres estándar (A–Z, a–z, 0–9 y guiones) cuando asigne los nombres de dominio completo a los servidores Lync, servidores perimetrales y grupos de servidores. No utilice caracteres Unicode ni de subrayado. Los DNS externos y las entidades de certificación públicas no admiten caracteres que no sean estándar en un nombre de dominio completo (cuando dicho nombre debe asignarse al nombre del sujeto en el certificado). Para obtener información detallada sobre cómo agregar un sufijo DNS al nombre de equipo, vea <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar DNS para admitir servidores perimetrales en Lync Server 2013</a>.
+        
     
       - Haga clic en **Grupo de servidores de un solo equipo** y, a continuación, haga clic en **Siguiente** .
 
@@ -178,18 +160,9 @@ El proceso para definir la topología del servidor perimetral se realiza en Gene
     
       - En **FQDN del grupo de servidores** , escriba el nombre de dominio completo (FQDN) de la conexión interna del grupo de servidores perimetrales.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>El nombre que especifique para el grupo de servidores debe ser idéntico al del grupo de servidores perimetrales interno. Debe especificarse como un FQDN, ya que el Generador de topologías utiliza nombres FQDN, no nombres cortos. Así pues, use únicamente caracteres estándar (A–Z, a–z, 0–9 y guiones) cuando asigne FQDN de los servidores Lync Server, servidores perimetrales y grupos de servidores. No utilice caracteres Unicode ni de subrayado. Normalmente los DNS externos y las entidades de certificación (CA) públicas no admiten caracteres que no sean estándar en el nombre FQDN (cuando dicho nombre debe asignarse al nombre del sujeto en el certificado).</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!IMPORTANT]  
+        > El nombre que especifique para el grupo de servidores debe ser idéntico al del grupo de servidores perimetrales interno. Debe especificarse como un FQDN, ya que el Generador de topologías utiliza nombres FQDN, no nombres cortos. Así pues, use únicamente caracteres estándar (A–Z, a–z, 0–9 y guiones) cuando asigne FQDN de los servidores Lync Server, servidores perimetrales y grupos de servidores. No utilice caracteres Unicode ni de subrayado. Normalmente los DNS externos y las entidades de certificación (CA) públicas no admiten caracteres que no sean estándar en el nombre FQDN (cuando dicho nombre debe asignarse al nombre del sujeto en el certificado).
+        
     
       - Haga clic en **Grupo de servidores de varios equipos** y, a continuación, haga clic en **Siguiente** .
 
@@ -323,18 +296,9 @@ El proceso para definir la topología del servidor perimetral se realiza en Gene
     
       - En **FQDN** , escriba el nombre de dominio completo (FQDN) que haya elegido para el lado interno del grupo de servidores perimetrales.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>El nombre que especifique para el grupo de servidores debe ser idéntico al del grupo de servidores perimetrales interno. Debe especificarse como un FQDN, ya que el Generador de topologías utiliza nombres FQDN, no nombres cortos. Así pues, use únicamente caracteres estándar (A–Z, a–z, 0–9 y guiones) cuando asigne FQDN de los servidores Lync Server, servidores perimetrales y grupos de servidores. No utilice caracteres Unicode ni de subrayado. Normalmente los DNS externos y las entidades de certificación (CA) públicas no admiten caracteres que no sean estándar en el nombre FQDN (cuando dicho nombre debe asignarse al nombre del sujeto en el certificado).</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!IMPORTANT]  
+        > El nombre que especifique para el grupo de servidores debe ser idéntico al del grupo de servidores perimetrales interno. Debe especificarse como un FQDN, ya que el Generador de topologías utiliza nombres FQDN, no nombres cortos. Así pues, use únicamente caracteres estándar (A–Z, a–z, 0–9 y guiones) cuando asigne FQDN de los servidores Lync Server, servidores perimetrales y grupos de servidores. No utilice caracteres Unicode ni de subrayado. Normalmente los DNS externos y las entidades de certificación (CA) públicas no admiten caracteres que no sean estándar en el nombre FQDN (cuando dicho nombre debe asignarse al nombre del sujeto en el certificado).
+        
     
     <!-- end list -->
     
@@ -365,18 +329,9 @@ El proceso para definir la topología del servidor perimetral se realiza en Gene
     
       - **Habilitar IPv6 en la interfaz externa** : active la casilla si desea aplicar una dirección IPv6 a la interfaz externa del Servidor perimetral o el Grupo de servidores perimetrales
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>No</strong> active la casilla <strong>La dirección IP externa del grupo de servidores perimetral se traduce mediante NAT</strong> . La traducción de direcciones de red (NAT) no es compatible con el uso del equilibrio de carga de hardware.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > <strong>No</strong> active la casilla <strong>La dirección IP externa del grupo de servidores perimetral se traduce mediante NAT</strong> . La traducción de direcciones de red (NAT) no es compatible con el uso del equilibrio de carga de hardware.
+    
 
 
 9.  En **FQDN externos** , haga lo siguiente:

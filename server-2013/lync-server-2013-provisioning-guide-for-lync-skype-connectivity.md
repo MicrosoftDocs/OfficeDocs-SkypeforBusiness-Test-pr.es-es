@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2014-11-26_
 
 Lync Server 2013 es compatible con Skype. Esta conexión permite que sus usuarios de Lync 2013 agreguen contactos de Skype con el usuario de la cuenta Microsoft (MSA). Los clientes de Skype también pueden agregar usuarios de Lync a su lista de contactos. Basándose en las políticas establecidas administrativamente en Lync Server, los usuarios de Lync y Skype podrán comunicarse a través de mensajería instantánea, verse los unos a los otros e iniciar llamadas de audio y vídeo. La conectividad entre Lync y Skype es una característica disponible en Lync Online y puede activarse para los clientes de Lync Online desde el centro de administración de Lync en el portal de Office 365.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si Lync Server ya está configurado para conectarse con Windows Messenger a través de Public Instant Messaging Connectivity (PIC), la implementación ya está configurada para la conectividad entre Lync y Skype. El único cambio que podría considerar sería cambiar el nombre de la entrada PIC de Messenger como Skype. Para obtener más detalles, consulte Configurar el proveedor PIC de Skype para Lync más adelante en esta guía.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si Lync Server ya está configurado para conectarse con Windows Messenger a través de Public Instant Messaging Connectivity (PIC), la implementación ya está configurada para la conectividad entre Lync y Skype. El único cambio que podría considerar sería cambiar el nombre de la entrada PIC de Messenger como Skype. Para obtener más detalles, consulte Configurar el proveedor PIC de Skype para Lync más adelante en esta guía.
+
 
 
 ## En esta sección

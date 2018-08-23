@@ -1,5 +1,5 @@
 ﻿---
-title: New-CsAddressBookConfiguration para la administración de la libreta de direcciones
+title: new-csaddressbookconfiguration para la administración de la libreta de direcciones
 TOCTitle: New-CsAddressBookConfiguration para la administración de la libreta de direcciones
 ms:assetid: a58ddc8c-ae04-4141-b69e-e45374a67d72
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg429718(v=OCS.15)
@@ -31,5 +31,5 @@ Para obtener una descripción detallada del comando íntegro, remítase a lo sig
 
 #### Otros recursos
 
-[New-CsAddressBookConfiguration](new-csaddressbookconfiguration.md)
+[New-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAddressBookConfiguration)
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Comprobar la conectividad de usuarios externos'
+title: "Lync Server 2013 : Vérif. de la connectivité pour les utilisateurs externes"
 TOCTitle: Comprobar la conectividad de usuarios externos
 ms:assetid: 5c02bd6e-1c96-448a-a21d-58c9961c6640
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398402(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar los sistemas y la infraestructura para servidores de chat persistente'
+title: "Configurar los sistemas y la infraestructura para servidores de chat persistente"
 TOCTitle: Configurar los sistemas y la infraestructura para servidores de chat persistente
 ms:assetid: d433d056-988d-40f1-9521-5f3e7316756f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205290(v=OCS.15)

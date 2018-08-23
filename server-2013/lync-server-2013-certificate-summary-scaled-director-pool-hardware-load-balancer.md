@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumen de certificado - Grupo de director escalado, equilibrador de carga de hardware'
+title: "Resumen de certificado: Grupo de director escalado, equilibrador de carga de hardware"
 TOCTitle: Resumen de certificado - Grupo de director escalado, equilibrador de carga de hardware
 ms:assetid: 45940add-8027-418d-b79a-9033b494762f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204846(v=OCS.15)
@@ -53,19 +53,11 @@ Los requisitos de certificado para un Director con un equilibrador de carga de h
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>Sin entrada</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tenga en cuenta que la longitud de clave mínima es de 1.024, pero puede recibir una advertencia que la longitud de clave mínima recomendada es de 2.048 bits.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!IMPORTANT]  
+> Tenga en cuenta que la longitud de clave mínima es de 1.024, pero puede recibir una advertencia que la longitud de clave mínima recomendada es de 2.048 bits.
+
 
 </div>
 <p>El certificado OAuthTokenIssuer es un certificado de propósito único para la autenticación de servidores en un entorno de gran escala y puede solicitarse desde una CA interna o desde una CA pública. El certificado es obligatorio.</p></td>

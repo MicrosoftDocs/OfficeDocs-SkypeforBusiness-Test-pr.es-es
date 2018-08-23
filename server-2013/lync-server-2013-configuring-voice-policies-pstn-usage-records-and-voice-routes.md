@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuración de directivas de voz, registros de uso de RTC y rutas de voz'
+title: "Configuración de directivas de voz, registros de uso de RTC y rutas de voz"
 TOCTitle: Configuración de directivas de voz, registros de uso de RTC y rutas de voz
 ms:assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398272(v=OCS.15)

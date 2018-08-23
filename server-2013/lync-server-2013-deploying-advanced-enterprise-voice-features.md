@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implementación de características avanzadas de telefonía IP empresarial'
+title: 'Lync Server 2013: Implementar características avanzadas de telefonía IP empresarial'
 TOCTitle: Implementación de características avanzadas de telefonía IP empresarial
 ms:assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425753(v=OCS.15)

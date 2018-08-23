@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definición de los requisitos para el servidor de chat persistente '
+title: "Lync Server 2013: Definición de los requisitos para el servidor de chat persistente "
 TOCTitle: Definición de los requisitos de la organización para el servidor de chat persistente
 ms:assetid: 568674fb-c08a-4170-ac38-e2f8428c69e0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398372(v=OCS.15)
@@ -37,16 +37,7 @@ Antes de implementar Servidor de chat persistente en su organización, es fundam
 
   - ¿Existen requerimientos legales? Si su empresa está en un país o una región donde los datos deben mantenerse de forma global, puede que necesite implementar varios Grupos de servidores de chat persistente, cada local a una geografía específica. Un salón, categoría o complemento no se distribuye en grupos, pertenece solo a un Grupo de servidores de chat persistente. Puede administrar el conjunto de categorías, complementos y salones para cada Grupo de servidores de chat persistente. Los usuarios pueden configurarse para tener acceso a salones en uno o más grupos, mediante el ámbito de AllowedMembers o el ámbito de pertenencia del salón, dependiendo de cómo diseñe sus categorías.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Tener varios Grupos de servidores de chat persistente no le da más escala (todavía solo puede tener 80.000 usuarios conectados simultáneamente en todos los Grupos de servidores de chat persistente). El principal motivo para soportar varios Grupos de servidores de chat persistente es asistir inquietudes legales.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Tener varios Grupos de servidores de chat persistente no le da más escala (todavía solo puede tener 80.000 usuarios conectados simultáneamente en todos los Grupos de servidores de chat persistente). El principal motivo para soportar varios Grupos de servidores de chat persistente es asistir inquietudes legales.
+    
 

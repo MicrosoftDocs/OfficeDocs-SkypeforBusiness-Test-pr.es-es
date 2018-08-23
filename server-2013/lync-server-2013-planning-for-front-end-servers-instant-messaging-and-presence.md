@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planificar los servidores front-end, la mensajería instantánea y la presencia'
+title: "Lync Server 2013: Planificar los servidores front-end, la MI y la presencia"
 TOCTitle: Planificar los servidores front-end, la mensajería instantánea y la presencia
 ms:assetid: 8db94c64-61af-4093-ac47-85932d0eae9f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398714(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Personalización de la música de espera para el estacionamiento de llamadas en Lync Server 2013
-TOCTitle: Personalización de la música de espera para el estacionamiento de llamadas en Lync Server 2013
+title: "Personalizar música de espera para el estacionamiento de llamadas en Lync Server 2013"
+TOCTitle: "Personnalis. de l’attente musicale du parcage d’appels dans Lync Server 2013"
 ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688031(v=OCS.15)
 ms:contentKeyID: 49889053
@@ -33,20 +33,11 @@ Puede especificar su propio archivo de música para utilizar como música en esp
     
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Use el cmdlet <strong>Get-CsService</strong> para identificar el servicio. Para obtener más información, consulte <a href="get-csservice.md">Get-CsService</a>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Use el cmdlet <strong>Get-CsService</strong> para identificar el servicio. Para obtener más información, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService">Get-CsService</a>.
     
-    En el ejemplo siguiente se muestra cómo obtener el contenido de un archivo, soothingmusic.wma, como matriz de bytes y asignarlo a una variable. A continuación, el archivo de audio se asigna como el archivo de música en espera en Estacionamiento de llamadas. Para obtener más información, consulte [Set-CsCallParkServiceMusicOnHoldFile](set-cscallparkservicemusiconholdfile.md).
+    
+    En el ejemplo siguiente se muestra cómo obtener el contenido de un archivo, soothingmusic.wma, como matriz de bytes y asignarlo a una variable. A continuación, el archivo de audio se asigna como el archivo de música en espera en Estacionamiento de llamadas. Para obtener más información, consulte [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
@@ -55,6 +46,6 @@ Puede especificar su propio archivo de música para utilizar como música en esp
 
 #### Otros recursos
 
-[Set-CsCallParkServiceMusicOnHoldFile](set-cscallparkservicemusiconholdfile.md)  
-[Get-CsService](get-csservice.md)
+[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)
 

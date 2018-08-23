@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Opcional) Definir horarios laborales de grupos de respuesta'
+title: "Lync Server 2013 : (Facul.) Déf. des heures ouvrées des gr. Response Group"
 TOCTitle: (Opcional) Definir horarios laborales de grupos de respuesta
 ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205291(v=OCS.15)
@@ -19,18 +19,9 @@ _**Última modificación del tema:** 2012-11-01_
 
 La configuración del horario comercial define cuándo el flujo de trabajo está disponible para responder a las llamadas y especifica las acciones que deben efectuarse para responder a llamadas fuera del horario comercial. Los administradores de los grupos de respuesta usan el cmdlet **New-CsRgsHoursOfBusiness** para crear programaciones predefinidas que se pueden usar para cualquier cantidad de grupos de respuesta.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cuando cree o modifique un flujo de trabajo, especifique un programa personalizado que se aplique solo a ese flujo de trabajo. Para más información, vea <a href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Crear o modificar el flujo de trabajo de un grupo de búsqueda en Lync Server 2013</a> o <a href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Crear o modificar un flujo de trabajo interactivo en Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Cuando cree o modifique un flujo de trabajo, especifique un programa personalizado que se aplique solo a ese flujo de trabajo. Para más información, vea <a href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Crear o modificar el flujo de trabajo de un grupo de búsqueda en Lync Server 2013</a> o <a href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Crear o modificar un flujo de trabajo interactivo en Lync Server 2013</a>.
+
 
 
 
@@ -39,18 +30,9 @@ La configuración del horario comercial define cuándo el flujo de trabajo está
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En los parámetros de estos cmdlets, el tiempo debe expresarse en el formato de 24 horas (por ejemplo, las 20:00 equivaldría a las 8:00 p.m.).</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> En los parámetros de estos cmdlets, el tiempo debe expresarse en el formato de 24 horas (por ejemplo, las 20:00 equivaldría a las 8:00 p.m.).
+
 
 
 ## Para crear una colección de horarios comerciales predefinidos
@@ -83,6 +65,6 @@ La configuración del horario comercial define cuándo el flujo de trabajo está
 
 #### Otros recursos
 
-[New-CsRgsTimeRange](new-csrgstimerange.md)  
-[New-CsRgsHoursOfBusiness](new-csrgshoursofbusiness.md)
+[New-CsRgsTimeRange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 

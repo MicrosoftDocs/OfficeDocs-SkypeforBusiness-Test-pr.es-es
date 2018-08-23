@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminación de un conjunto existente de opciones de configuración de Lync Phone Edition
-TOCTitle: Eliminación de un conjunto existente de opciones de configuración de Lync Phone Edition
+title: "Eliminar un conjunto existente de opciones de configuración de Lync Phone Edition"
+TOCTitle: "Suppr. d’une collection existante de par. de configuration Lync Phone Edition"
 ms:assetid: 1bfc427d-4dcd-4199-b25f-8d5cfec2164f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687984(v=OCS.15)
 ms:contentKeyID: 49888909
@@ -63,5 +63,5 @@ Puede eliminar configuraciones de parámetros de Lync Phone Edition utilizando W
     
         Get-CsUCPhoneConfiguration | Where-Object {$_.EnforcePhoneLock -eq $False} | Remove-CsUCPhoneConfiguration
 
-Para obtener más información, consulte [Remove-CsUCPhoneConfiguration](remove-csucphoneconfiguration.md).
+Para obtener más información, consulte [Remove-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUCPhoneConfiguration).
 

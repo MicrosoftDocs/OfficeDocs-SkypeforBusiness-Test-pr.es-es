@@ -43,18 +43,9 @@ Una regla de actualización del dispositivo se puede quitar por medio del Panel 
 
 5.  Haga clic en **Acción** y, después, en **Cancelar actualizaciones pendientes**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205319.tip(OCS.15).gif" title="tip" alt="tip" />Sugerencia:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si está completamente seguro de que no va a querer volver implantar la regla o reglas de actualización de dispositivo que ha cancelado, puede que prefiera eliminarlas. Para conocer los detalles, consulte <a href="lync-server-2013-remove-a-device-update-rule.md">Quitar una regla de actualización de dispositivos</a>.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si está completamente seguro de que no va a querer volver implantar la regla o reglas de actualización de dispositivo que ha cancelado, puede que prefiera eliminarlas. Para conocer los detalles, consulte <a href="lync-server-2013-remove-a-device-update-rule.md">Quitar una regla de actualización de dispositivos</a>.
+    
 
 
 ## Restablecer una regla de actualización de dispositivo con cmdlets de Windows PowerShell
@@ -85,7 +76,7 @@ Las reglas de actualización de dispositivo también se pueden restablecer a tra
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 
-Para más información detallada, vea el tema de ayuda relativo al cmdlet [Reset-CsDeviceUpdateRule](reset-csdeviceupdaterule.md).
+Para más información detallada, vea el tema de ayuda relativo al cmdlet [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsDeviceUpdateRule).
 
 ## Vea también
 

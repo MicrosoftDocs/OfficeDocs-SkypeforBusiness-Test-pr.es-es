@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2012-10-19_
 
 En los temas de esta sección se le indica cómo realizar el proceso de migración de Office Communications Server 2007 R2 a Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En este documento se describen los pasos generalmente necesarios para llevar a cabo cada fase de migración. No se aborda cada posible topología de implementación heredada ni cada posible escenario de migración. Por lo tanto, dependiendo de su implementación, es posible que no necesite realizar cada paso descrito o bien es posible que necesite realizar pasos adicionales. En este documento también se ofrecen ejemplos de pasos de verificación. Estos pasos de verificación se ofrecen para ayudarle a entender lo que necesita buscar para garantizar que cada fase se finaliza correctamente mientras progresa a lo largo de su migración. Individualice estos pasos de verificación para su proceso de migración particular.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> En este documento se describen los pasos generalmente necesarios para llevar a cabo cada fase de migración. No se aborda cada posible topología de implementación heredada ni cada posible escenario de migración. Por lo tanto, dependiendo de su implementación, es posible que no necesite realizar cada paso descrito o bien es posible que necesite realizar pasos adicionales. En este documento también se ofrecen ejemplos de pasos de verificación. Estos pasos de verificación se ofrecen para ayudarle a entender lo que necesita buscar para garantizar que cada fase se finaliza correctamente mientras progresa a lo largo de su migración. Individualice estos pasos de verificación para su proceso de migración particular.
+
 
 
 En esta guía se le ofrece información específica para actualizar su implementación existente. No se explica cómo cambiar su topología existente. En esta guía no se aborda la implementación de nuevas características. Cuando se documenta en otro lugar un procedimiento detallado, en esta guía se le dirige al documento o sección del documento pertinente.

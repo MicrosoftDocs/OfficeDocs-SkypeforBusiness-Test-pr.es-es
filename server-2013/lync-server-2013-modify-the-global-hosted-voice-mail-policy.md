@@ -1,6 +1,6 @@
 ﻿---
-title: Modificar la directiva de correo de voz hospedado global en Lync Server 2013
-TOCTitle: Modificar la directiva de correo de voz hospedado global en Lync Server 2013
+title: "Mod. la stratégie de messagerie vocale hébergée globale dans Lync Server 2013"
+TOCTitle: "Mod. la stratégie de messagerie vocale hébergée globale dans Lync Server 2013"
 ms:assetid: f059b3ce-a7d8-4ea9-b10b-0052222ec2ce
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412994(v=OCS.15)
 ms:contentKeyID: 48277111
@@ -17,7 +17,7 @@ _**Última modificación del tema:** 2012-09-24_
 
 La directiva de correo de voz hospedado *global* se instala con Lync Server 2013. Puede modificarla para adaptarla a sus necesidades, pero no puede cambiarle el nombre ni eliminarla. Para modificar la directiva global, use el cmdlet Set-CsHostedVoicemailPolicy para asignar los valores pertinentes a los parámetros de una determinada implementación.
 
-Para ver los detalles sobre el cmdlet [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md), consulte la documentación de Shell de administración de Lync Server.
+Para ver los detalles sobre el cmdlet [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy), consulte la documentación de Shell de administración de Lync Server.
 
 ## Para modificar una directiva global de correo de voz hospedado
 

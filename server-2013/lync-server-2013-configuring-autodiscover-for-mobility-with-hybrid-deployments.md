@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar la detección automática para movilidad con implementaciones híbridas'
+title: "Lync Server 2013: Detección automática de movilidad con implementaciones híbridas"
 TOCTitle: Configurar la detección automática para movilidad con implementaciones híbridas
 ms:assetid: f838af79-d8b4-4122-b81c-7889573d143e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ215885(v=OCS.15)
@@ -43,6 +43,6 @@ Para que clientes móviles puedan descubrir la implementación en la que se encu
 
 #### Otros recursos
 
-[Get-CsHostingProvider](get-cshostingprovider.md)  
-[Set-CsHostingProvider](set-cshostingprovider.md)
+[Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
+[Set-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostingProvider)
 

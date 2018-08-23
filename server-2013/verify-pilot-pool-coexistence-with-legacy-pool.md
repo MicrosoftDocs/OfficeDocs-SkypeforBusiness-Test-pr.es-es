@@ -1,5 +1,5 @@
 ﻿---
-title: Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
+title: Comprobar coexistencia de grupo de servidores piloto con grupo de servidores heredado
 TOCTitle: Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
 ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205420(v=OCS.15)
@@ -35,18 +35,9 @@ Desde el servidor front-end en la implementación de Lync Server 2013, abra el P
 
 ![Cuadro de diálogo Seleccionar dirección URL](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Cuadro de diálogo Seleccionar dirección URL")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En Lync Server 2013, debe actualizar Silverlight a la versión 5 de Silverlight antes de usar el Panel de control de Lync Server.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> En Lync Server 2013, debe actualizar Silverlight a la versión 5 de Silverlight antes de usar el Panel de control de Lync Server.
+
 
 
 Esta topología incluye los roles del servidor Lync Server 2010 y Lync Server 2013.

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar una entrada de aplicación de confianza para control remoto de llamadas'
+title: "Configurar una entrada de aplicación de confianza para control remoto de llamadas"
 TOCTitle: Configurar una entrada de aplicación de confianza para control remoto de llamadas
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg558636(v=OCS.15)
@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2015-11-02_
 
 La puerta de enlace de SIP/CSTA debe configurarse como aplicación de confianza para que Lync Server aplique una ruta estática para enrutar llamadas a la puerta de enlace.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si migra usuarios desde una implementación de una versión anterior de Lync Server, asegúrese de quitar todas las entradas de aplicación de confianza existentes (anteriormente conocidas como entradas de host autorizado) creadas para la puerta de enlace SIP/CSTA antes de seguir los procedimientos indicados en este tema. Para obtener más información, consulte <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Quitar un host autorizado heredado en Lync Server 2013 (opcional)</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si migra usuarios desde una implementación de una versión anterior de Lync Server, asegúrese de quitar todas las entradas de aplicación de confianza existentes (anteriormente conocidas como entradas de host autorizado) creadas para la puerta de enlace SIP/CSTA antes de seguir los procedimientos indicados en este tema. Para obtener más información, consulte <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Quitar un host autorizado heredado en Lync Server 2013 (opcional)</a>.
+
 
 
 ## Para configurar una entrada de aplicación de confianza para la puerta de enlace SIP/CSTA

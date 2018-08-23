@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumen de certificado - Perímetro consolidado de equipo único con direcciones IP públicas'
+title: "Resumen de certif.: Perímetro consolidado de equipo único con direcciones IP públicas"
 TOCTitle: Resumen de certificado - Perímetro consolidado de equipo único con direcciones IP públicas
 ms:assetid: 25b8ae7a-e5a0-43c0-92ae-7e144d5e4a36
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204747(v=OCS.15)

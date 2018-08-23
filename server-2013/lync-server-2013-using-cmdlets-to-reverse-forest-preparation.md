@@ -17,18 +17,9 @@ _**Última modificación del tema:** 2013-06-19_
 
 Use el cmdlet **Disable-CsAdForest** para invertir el paso de preparación del bosque.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ204932.Caution(OCS.15).gif" title="Caution" alt="Caution" />Precaución:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si ejecuta el cmdlet <strong>Disable-CsAdForest</strong> en un entorno el que también se haya implementado una versión anterior de Lync Server, también se eliminará la configuración global de la versión anterior.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> Si ejecuta el cmdlet <strong>Disable-CsAdForest</strong> en un entorno el que también se haya implementado una versión anterior de Lync Server, también se eliminará la configuración global de la versión anterior.
+
 
 
 ## Para usar los cmdlets para invertir la preparación del bosque

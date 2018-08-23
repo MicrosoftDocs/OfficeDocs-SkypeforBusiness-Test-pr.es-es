@@ -25,18 +25,9 @@ Para obtener información detallada acerca de cómo funciona la configuración d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para habilitar el archivado, es necesario especificar directivas de archivado para controlar el archivado de comunicaciones internas y externas en el nivel global y, si es adecuado, en los niveles de sitio y usuario. Si configura directivas de nivel de usuario, también deberá asignar directivas a usuarios específicos. Para más información sobre la creación y configuración de directivas de archivado, vea <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Administrar el archivado de las comunicaciones internas y externas en Lync Server 2013</a> en la documentación de operaciones.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Para habilitar el archivado, es necesario especificar directivas de archivado para controlar el archivado de comunicaciones internas y externas en el nivel global y, si es adecuado, en los niveles de sitio y usuario. Si configura directivas de nivel de usuario, también deberá asignar directivas a usuarios específicos. Para más información sobre la creación y configuración de directivas de archivado, vea <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Administrar el archivado de las comunicaciones internas y externas en Lync Server 2013</a> en la documentación de operaciones.
+
 
 
 ## Para configurar las opciones de archivado en el nivel de sitio

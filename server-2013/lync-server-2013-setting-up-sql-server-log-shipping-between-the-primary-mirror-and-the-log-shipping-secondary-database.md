@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuración del envío de registro de SQL Server entre el reflejo principal y la base de datos secundaria de envío de registro'
+title: "Envío de registro de SQL Server entre reflejo principal y DB secund. de envío de reg."
 TOCTitle: Configuración del envío de registro de SQL Server entre el reflejo principal y la base de datos secundaria de envío de registro
 ms:assetid: 4e8e9ce9-4301-47f2-a0c3-669afeb53295
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204887(v=OCS.15)
@@ -35,36 +35,18 @@ Siga estos pasos para que continúe el trasvase de registros si la base de datos
 
 9.  Si la carpeta de copia de seguridad está ubicada en el servidor primario, escriba la ruta de acceso local a dicha carpeta en el cuadro **Si la carpeta de copia de seguridad está ubicada en el servidor primario, escriba una ruta local a la carpeta (ejemplo: c:\\backup)**. (Si la carpeta de copia de seguridad no está ubicada en el servidor primario, puede dejar vacío este cuadro).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si la cuenta de servicio de SQL Server del servidor principal se ejecuta debajo de la cuenta del sistema local, debe crear su carpeta de copia de seguridad en el servidor principal y especificar una ruta de acceso local a dicha carpeta.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Si la cuenta de servicio de SQL Server del servidor principal se ejecuta debajo de la cuenta del sistema local, debe crear su carpeta de copia de seguridad en el servidor principal y especificar una ruta de acceso local a dicha carpeta.
+    
 
 
 10. Configure los parámetros **Eliminar archivos con más de** y **Mostrar una alerta si no se produce una copia de seguridad tras**.
 
 11. Observe la programación de copia de seguridad incluida en el cuadro **Programación** en **Trabajo de copia de seguridad**. Para personalizar la programación para la instalación, haga clic en **Programación** y ajuste la programación del agente SQL Server según sea necesario.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Use la misma configuración que usa para la base de datos principal.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > Use la misma configuración que usa para la base de datos principal.
+    
 
 
 12. En **Compresión**, seleccione **Usar la configuración de servidor predeterminada** y, a continuación, haga clic en **Aceptar**.
@@ -85,18 +67,9 @@ Siga estos pasos para que continúe el trasvase de registros si la base de datos
 
 20. Seleccione y ejecute la primera mitad de la consulta (vea el paso 18) hasta la línea:--\*\*\*\*\*\* Fin: script que se ejecutará en el principal: \*\*\*\*\*\*.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>s necesario ejecutar manualmente este script porque SQL Server Management Studio no admite varias bases de datos principales en una configuración de trasvase de registros de SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]  
+    > s necesario ejecutar manualmente este script porque SQL Server Management Studio no admite varias bases de datos principales en una configuración de trasvase de registros de SQL Server.
+    
 
 
 21. Seleccione **Cancelar** para cerrar el panel de configuración de envío del archivo de registro y establecer una configuración de trabajo que implemente correctamente el envío del archivo de registro a la base de datos principal y reflejada (en caso de conmutación por error).

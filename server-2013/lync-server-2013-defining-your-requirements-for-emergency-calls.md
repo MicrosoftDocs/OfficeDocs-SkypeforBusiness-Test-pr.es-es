@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definición de los requisitos para llamadas de emergencia'
+title: "Lync Server 2013 : Déf. de la configuration requise pour les appels d’urgence"
 TOCTitle: Definición de los requisitos para llamadas de emergencia
 ms:assetid: 5c12b517-9be6-41d0-83e2-11c78793620c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398404(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Crear un filtro nuevo para direcciones URL para administrar hipervínculos en conversaciones de mensajería instantánea
-TOCTitle: Crear un filtro nuevo para direcciones URL para administrar hipervínculos en conversaciones de mensajería instantánea
+title: "Crear filtro nuevo para URL para administrar hipervínculos en conversaciones de MI"
+TOCTitle: "Créer un filtre URL pour gérer les liens hypert. dans des conv. de mess. Inst."
 ms:assetid: d0ee01e5-f039-4a34-ac9d-659fe4e9e879
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182590(v=OCS.15)
 ms:contentKeyID: 48276731

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Crear registros DNS para servidores de proxy inverso'
+title: "Lync Server 2013 : Créa. des enr. DNS pour les serveurs proxy inverses"
 TOCTitle: Crear registros DNS para servidores de proxy inverso
 ms:assetid: b3513339-e49b-4665-80f1-b5a1c81a0e2e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg429719(v=OCS.15)

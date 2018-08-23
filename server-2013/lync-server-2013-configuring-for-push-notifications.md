@@ -17,20 +17,10 @@ _**Última modificación del tema:** 2013-02-12_
 
 Las notificaciones de inserción, en la forma de distintivos, iconos o alertas, se pueden enviar a un dispositivo móvil aunque la aplicación móvil esté inactiva. Las notificaciones de inserción informan a un usuario de eventos como una invitación de mensajería instantánea nueva o perdida y correo de voz. El servicio de movilidad de Lync Server 2013 envía notificaciones al servicio de notificación de inserción basado en la nube de Lync Server, que envía las notificaciones al servicio de notificación de inserción de Apple (APNS) (si se trata de un dispositivo Apple que ejecuta el cliente de Lync 2010 Mobile) o al servicio de notificación de inserción de Microsoft (MPNS) (si se trata de un dispositivo Windows Phone que ejecuta el Lync 2010 Mobile o el cliente móvil de Lync 2013).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si se usa Windows Phone con Lync 2010 Mobile o con el cliente de Lync 2013 Mobile, hay que tener las notificaciones de inserción muy en cuenta.<br />
-Si se usa Lync 2010 Mobile en dispositivos Apple, hay que tener las notificaciones de inserción muy en cuenta.<br />
-Si se usa Lync 2013 Mobile en dispositivos Apple, las notificaciones de inserción ya no serán necesarias.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Si se usa Windows Phone con Lync 2010 Mobile o con el cliente de Lync 2013 Mobile, hay que tener las notificaciones de inserción muy en cuenta.<br />
+> Si se usa Lync 2010 Mobile en dispositivos Apple, hay que tener las notificaciones de inserción muy en cuenta.<br />
+> Si se usa Lync 2013 Mobile en dispositivos Apple, las notificaciones de inserción ya no serán necesarias.
 
 
 Configure su topología para admitir las notificaciones de inserción mediante el siguiente procedimiento:
@@ -131,6 +121,6 @@ Configure su topología para admitir las notificaciones de inserción mediante e
 
 #### Otros recursos
 
-[Test-CsFederatedPartner](test-csfederatedpartner.md)  
-[Test-CsMcxPushNotification](test-csmcxpushnotification.md)
+[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)  
+[Test-CsMcxPushNotification](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxPushNotification)
 

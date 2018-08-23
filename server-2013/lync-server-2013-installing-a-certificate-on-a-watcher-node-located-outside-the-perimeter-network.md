@@ -1,6 +1,6 @@
 ﻿---
-title: Instalación de un certificado en un nodo de monitor localizado fuera de la red perimetral
-TOCTitle: Instalación de un certificado en un nodo de monitor localizado fuera de la red perimetral
+title: "Instalación de certificado en nodo de monitor localizado fuera de la red perimetral"
+TOCTitle: "Install. d’un certif. sur un nœud observ. situé en dehors du réseau de périm."
 ms:assetid: 825c9c02-1951-4d7a-a25e-a313a85333f8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688113(v=OCS.15)
 ms:contentKeyID: 49889353

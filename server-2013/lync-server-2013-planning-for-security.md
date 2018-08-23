@@ -21,18 +21,9 @@ Aunque su implementación de Lync Server 2013 sea pequeña, probablemente tendr�
 
 Use esta sección como punto de partida para proteger la seguridad de su implementación de Lync Server. Contiene instrucciones generales, así como procedimientos recomendados, para evaluar y hacer frente a los riesgos más comunes en materia de seguridad. Al final de cada tema, figuran recursos de seguridad y de producto adicionales.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La seguridad es un tema que evoluciona constantemente. A medida que surjan nuevas amenazas y soluciones, se deberán sustituir los documentos, las soluciones, los métodos y los procedimientos obsoletos por material actualizado.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> La seguridad es un tema que evoluciona constantemente. A medida que surjan nuevas amenazas y soluciones, se deberán sustituir los documentos, las soluciones, los métodos y los procedimientos obsoletos por material actualizado.
+
 
 
 ## En esta sección
